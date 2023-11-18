@@ -1,0 +1,2 @@
+# shinonome-bot
+si
