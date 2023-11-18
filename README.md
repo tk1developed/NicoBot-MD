@@ -1,2 +1,2 @@
 # shinonome-bot
-si
+desarrollando este apartado xd
