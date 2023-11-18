@@ -1,0 +1,15 @@
+#| Folders |#
+
+.github
+node_modules
+ShinoSession
+tmp
+jadibts
+pluginpilot
+plugins/supersecretlistener.js
+datasecret
+
+#| Files |#
+
+package-lock.json
+database.json
