@@ -1184,7 +1184,7 @@ const messageText = `
 —◉ *𝚊̷𝚟̷𝚒̷𝚜̷𝚘̷  ${messageNumber}/3 (𝚝̷𝚘̷𝚝̷𝚊̷𝚕̷: 3)*
 —◉ ${user.bannedReason ? `\n*𝚖̷𝚘̷𝚝̷𝚒̷𝚟̷𝚘̷:* ${user.bannedReason}` : '*𝚖̷𝚘̷𝚝̷𝚒̷𝚟̷𝚘̷:* 𝕊𝕚𝕟 𝕖𝕤𝕡𝕖𝕔𝕚𝕗𝕚𝕔𝕒𝕣'}
 —◉ *𝚜̷𝚒̷ 𝚌̷𝚘̷𝚗̷𝚜̷𝚒̷𝚍̷𝚎̷𝚛̷𝚊̷𝚜̷ 𝚚̷𝚞̷𝚎̷ 𝚎̷𝚜̷ 𝚞̷𝚗̷ 𝚎̷𝚛̷𝚛̷𝚘̷𝚛̷ 𝚢̷ 𝚝̷𝚒̷𝚎̷𝚗̷𝚎̷𝚜̷ 𝚙̷𝚛̷𝚞̷𝚎̷𝚋̷𝚊̷𝚜̷, 𝚙̷𝚞̷𝚎̷𝚍̷𝚎̷𝚜̷ 𝚌̷𝚘̷𝚖̷𝚞̷𝚗̷𝚒̷𝚌̷𝚊̷𝚛̷𝚝̷𝚎̷ 𝚌̷𝚘̷𝚗̷ 𝚎̷𝚕̷ 𝚙̷𝚛̷𝚘̷𝚙̷𝚒̷𝚎̷𝚝̷𝚊̷𝚛̷𝚒̷𝚘̷ 𝚍̷𝚎̷𝚕̷ 𝚋̷𝚘̷𝚝̷ 𝚢̷ 𝚊̷𝚙̷𝚎̷𝚕̷𝚊̷𝚛̷ 𝚕̷𝚊̷ 𝚜̷𝚞̷𝚜̷𝚙̷𝚎̷𝚗̷𝚌̷𝚒̷𝚘̷𝚗̷.*
-—◉ *𝚌̷𝚘̷𝚗̷𝚝̷𝚊̷𝚌̷𝚝̷𝚘̷ 𝚙̷𝚊̷𝚛̷𝚊̷ 𝚊̷𝚙̷𝚎̷𝚕̷𝚊̷𝚌̷𝚒̷𝚘̷𝚗̷:* wa.me/51915916510
+—◉ *𝚌̷𝚘̷𝚗̷𝚝̷𝚊̷𝚌̷𝚝̷𝚘̷ 𝚙̷𝚊̷𝚛̷𝚊̷ 𝚊̷𝚙̷𝚎̷𝚕̷𝚊̷𝚌̷𝚒̷𝚘̷𝚗̷:* wa.me/994406078472
 ╚═════════════════════╝
                `.trim();
               m.reply(messageText);
@@ -1500,7 +1500,7 @@ export async function callUpdate(callUpdate) {
         const callmsg = await mconn.conn.reply(nk.from, `𝙷𝚘𝚕𝚊 *@${nk.from.split('@')[0]}*, 𝚕𝚊𝚜 ${nk.isVideo ? '𝚟𝚒𝚍𝚎𝚘𝚕𝚕𝚊𝚖𝚊𝚍𝚊s' : '𝚕𝚕𝚊𝚖𝚊𝚍𝚊s'} 𝚗𝚘 𝚎𝚜𝚝𝚊́𝚗 𝚙𝚎𝚛𝚖𝚒𝚝𝚒𝚍𝚊𝚜, 𝚜𝚎𝚛𝚊́𝚜 𝚋𝚕𝚘𝚚𝚞𝚎𝚊𝚍𝚘.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, {mentions: [nk.from]});
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝕾𝖍𝖎𝖓𝖔𝖓𝖔𝖒𝖊 ✨;;;\nFN:𝕾𝖍𝖎𝖓𝖔𝖓𝖔𝖒𝖊 ✨\nORG:𝕾𝖍𝖎𝖓𝖔𝖓𝖔𝖒𝖊 ✨\nTITLE:\nitem1.TEL;waid=51915916510:+51 915 916 510\nitem1.X-ABLabel:𝕾𝖍𝖎𝖓𝖔𝖓𝖔𝖒𝖊 ✨\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝕾𝖍𝖎𝖓𝖔𝖓𝖔𝖒𝖊 ✨\nEND:VCARD`;
+        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝕾𝖍𝖎𝖓𝖔𝖓𝖔𝖒𝖊 ✨;;;\nFN:𝕾𝖍𝖎𝖓𝖔𝖓𝖔𝖒𝖊 ✨\nORG:𝕾𝖍𝖎𝖓𝖔𝖓𝖔𝖒𝖊 ✨\nTITLE:\nitem1.TEL;waid=5944406078472:+994 40 607 84 72\nitem1.X-ABLabel:𝕾𝖍𝖎𝖓𝖔𝖓𝖔𝖒𝖊 ✨\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝕾𝖍𝖎𝖓𝖔𝖓𝖔𝖒𝖊 ✨\nEND:VCARD`;
         await mconn.conn.sendMessage(nk.from, {contacts: {displayName: '𝕾𝖍𝖎𝖓𝖔𝖓𝖔𝖒𝖊 ✨', contacts: [{vcard}]}}, {quoted: callmsg});
         await mconn.conn.updateBlockStatus(nk.from, 'block');
       }
