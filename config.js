@@ -10,27 +10,13 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['51915916510', '👑 Mystic - Creador 👑', true],
-  ['51944732300', '💫 Mystic - Collaborator 1 💫', true],
-  ['51901696007', '💫 Mystic - Collaborator 2 💫', true],
-  ['51984437427', '💫 Mystic - Collaborator 3 💫', true],
-  ['51921911036', '💫 Mystic - Collaborator 4 💫', true],
-  ['994408987824', '💫 Mystic - Collaborator 5 💫', true],
-  ['51953218154', '💫 Mystic - Collaborator 6 💫', true],
-  ['0', '💫 Mystic - Collaborator 7 💫', false],
-  ['0', '💫 Mystic - Collaborator 8 💫', true],
-  ['0','💫 Mystic - Tester Fabri115💫', true],
-  ['0'],
-  ['0'],
-  ['0'],
-  ['0'],
-  ['0'],
-  ['0'],
-  ['0'],
-  ['0'], 
-  ['0'],  
-  ['0'], 
-  ['0']
+  ['51915916510', '👑  - Creador 👑', true],
+  ['51944732300', '💫  - Collaborator 1 💫', true],
+  ['51901696007', '💫  - Collaborator 2 💫', true],
+  ['51984437427', '💫  - Collaborator 3 💫', true],
+  ['51921911036', '💫  - Collaborator 4 💫', true],
+  ['994408987824', '💫  - Collaborator 5 💫', true],
+  ['51953218154', '💫  - Collaborator 6 💫', true],
 ];
 
 global.suittag = ['0'];
