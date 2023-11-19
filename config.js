@@ -10,12 +10,12 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['51915916510', '👑  - Creador 👑', true],
+  ['994406078472', '👑  - Creador 👑', true],
   ['51944732300', '💫  - Collaborator 1 💫', true],
   ['51901696007', '💫  - Collaborator 2 💫', true],
   ['51984437427', '💫  - Collaborator 3 💫', true],
   ['51921911036', '💫  - Collaborator 4 💫', true],
-  ['994406078472', '💫  - Collaborator 5 💫', true],
+  ['51915916510', '💫  - Collaborator 5 💫', true],
   ['51953218154', '💫  - Collaborator 6 💫', true],
 
 ];
@@ -54,12 +54,12 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 global.wm2 = `▸ ${dia} ${fecha}\n❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»`;
 global.gt = '❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»';
 global.mysticbot = '❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»';
-global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
+global.md = 'https://github.com/Daxmax123/shinonome-bot';
+global.mysticbot = 'https://github.com/Daxmax123/shinonome-bot';
 global.waitt = '*[❗] ★彡( ₵₳Ɽ₲₳₦ĐØ, Ɇ₴₱ɆⱤɆ Ʉ₦ ₥Ø₥Ɇ₦₮Ø... )彡★*';
 global.waittt = '*[❗] ★彡( ₵₳Ɽ₲₳₦ĐØ, Ɇ₴₱ɆⱤɆ Ʉ₦ ₥Ø₥Ɇ₦₮Ø... )彡★*';
 global.waitttt = '*[❗] ★彡( ₵₳Ɽ₲₳₦ĐØ, Ɇ₴₱ɆⱤɆ Ʉ₦ ₥Ø₥Ɇ₦₮Ø... )彡★*';
-global.nomorown = '51915916510';
+global.nomorown = '994406078472';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
