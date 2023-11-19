@@ -15,8 +15,9 @@ global.owner = [
   ['51901696007', '💫  - Collaborator 2 💫', true],
   ['51984437427', '💫  - Collaborator 3 💫', true],
   ['51921911036', '💫  - Collaborator 4 💫', true],
-  ['994408987824', '💫  - Collaborator 5 💫', true],
+  ['994406078472', '💫  - Collaborator 5 💫', true],
   ['51953218154', '💫  - Collaborator 6 💫', true],
+
 ];
 
 global.suittag = ['0'];
@@ -24,10 +25,10 @@ global.prems = ['0'];
 
 global.packname = '東雲絵名';
 global.author = '𝕾𝖍𝖎𝖓♡𝖓♡𝖒𝖊-𝕭♡𝖙';
-global.wm = '➢ ⃟⃞❆𖤍𝙔𝙚𝙅𝙤𝙩𝙖-𝙈𝘿𖤍𖣘 ⃟⃞❆';
-global.titulowm = '➢ ⃟⃞❆𖤍𝙔𝙚𝙅𝙤𝙩𝙖-𝙈𝘿𖤍𖣘 ⃟⃞❆';
-global.titulowm2 = `➢ ⃟⃞❆𖤍𝙔𝙚𝙅𝙤𝙩𝙖-𝙈𝘿𖤍𖣘 ⃟⃞❆`
-global.igfg = '➢ ⃟⃞❆𖤍𝙔𝙚𝙅𝙤𝙩𝙖-𝙈𝘿𖤍𖣘 ⃟⃞❆';
+global.wm = '❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»';
+global.titulowm = '❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»';
+global.titulowm2 = `❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»`
+global.igfg = '❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»';
 global.wait = '*[❗] ★彡( ₵₳Ɽ₲₳₦ĐØ, Ɇ₴₱ɆⱤɆ Ʉ₦ ₥Ø₥Ɇ₦₮Ø... )彡★*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -50,9 +51,9 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n➢ ⃟⃞❆𖤍𝙔𝙚𝙅𝙤𝙩𝙖-𝙈𝘿𖤍𖣘 ⃟⃞❆`;
-global.gt = '➢ ⃟⃞❆𖤍𝙔𝙚𝙅𝙤𝙩𝙖-𝙈𝘿𖤍𖣘 ⃟⃞❆';
-global.mysticbot = '➢ ⃟⃞❆𖤍𝙔𝙚𝙅𝙤𝙩𝙖-𝙈𝘿𖤍𖣘 ⃟⃞❆';
+global.wm2 = `▸ ${dia} ${fecha}\n❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»`;
+global.gt = '❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»';
+global.mysticbot = '❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»';
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.waitt = '*[❗] ★彡( ₵₳Ɽ₲₳₦ĐØ, Ɇ₴₱ɆⱤɆ Ʉ₦ ₥Ø₥Ɇ₦₮Ø... )彡★*';
