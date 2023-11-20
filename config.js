@@ -10,14 +10,12 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['994406078472', '👑  - Creador 👑', true],
-  ['51944732300', '💫  - Collaborator 1 💫', true],
-  ['51901696007', '💫  - Collaborator 2 💫', true],
-  ['51984437427', '💫  - Collaborator 3 💫', true],
-  ['51921911036', '💫  - Collaborator 4 💫', true],
-  ['51915916510', '💫  - Collaborator 5 💫', true],
-  ['51953218154', '💫  - Collaborator 6 💫', true],
-
+  ['994408987824', '👑 Shino - Creador 👑', true],
+  ['51944732300', '💫 Shino - Collaborator 1 💫', true],
+  ['51901696007', '💫 Shino - Collaborator 2 💫', true],
+  ['51984437427', '💫 Shino - Collaborator 3 💫', true],
+  ['51921911036', '💫 Shino - Collaborator 4 💫', true],
+  ['51953218154', '💫 Shino - Collaborator 5 💫', true]
 ];
 
 global.suittag = ['0'];
@@ -51,15 +49,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»`;
-global.gt = '❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»';
-global.mysticbot = '❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»';
+global.wm2 = `▸ ${dia} ${fecha}\n➢ ⃟⃞❆𖤍𝙔𝙚𝙅𝙤𝙩𝙖-𝙈𝘿𖤍𖣘 ⃟⃞❆`;
+global.gt = '➢ ⃟⃞❆𖤍𝙔𝙚𝙅𝙤𝙩𝙖-𝙈𝘿𖤍𖣘 ⃟⃞❆';
+global.mysticbot = '➢ ⃟⃞❆𖤍𝙔𝙚𝙅𝙤𝙩𝙖-𝙈𝘿𖤍𖣘 ⃟⃞❆';
 global.md = 'https://github.com/Daxmax123/shinonome-bot';
 global.mysticbot = 'https://github.com/Daxmax123/shinonome-bot';
 global.waitt = '*[❗] ★彡( ₵₳Ɽ₲₳₦ĐØ, Ɇ₴₱ɆⱤɆ Ʉ₦ ₥Ø₥Ɇ₦₮Ø... )彡★*';
 global.waittt = '*[❗] ★彡( ₵₳Ɽ₲₳₦ĐØ, Ɇ₴₱ɆⱤɆ Ʉ₦ ₥Ø₥Ɇ₦₮Ø... )彡★*';
 global.waitttt = '*[❗] ★彡( ₵₳Ɽ₲₳₦ĐØ, Ɇ₴₱ɆⱤɆ Ʉ₦ ₥Ø₥Ɇ₦₮Ø... )彡★*';
-global.nomorown = '994406078472';
+global.nomorown = '994408987824';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
