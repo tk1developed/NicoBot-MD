@@ -10,7 +10,7 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['994408987824', '👑 Shino - Creador 👑', true],
+  ['994406078472', '👑 Shino - Creador 👑', true],
   ['51944732300', '💫 Shino - Collaborator 1 💫', true],
   ['51901696007', '💫 Shino - Collaborator 2 💫', true],
   ['51984437427', '💫 Shino - Collaborator 3 💫', true],
