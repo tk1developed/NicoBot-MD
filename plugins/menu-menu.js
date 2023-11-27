@@ -26,9 +26,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┊-----------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┊❦ *𝗛ola, ${taguser}*
 ┊─►⸙❐⚘⸙❐⚘⸙❐⚘⸙❐⚘⸙❐⚘⸙❐⚘⸙✎
-┊❦ *Owner:* YeJota
-┊❦ *Numero:* wa.me/51901696007
-┊❦ *Bot ofc:* wa.me/51944732300
+┊❦ *Owner:* YuKi
+┊❦ *Numero:* wa.me/994406078472
+┊❦ *Grupo Bot:* https://chat.whatsapp.com/KXjS9CBRF680GBf8fiXDeu
 ┊❦ *Fecha:* ${date}
 ┊❦ *Tiempo activo:* ${uptime}
 ┊❦ *Usuarios regs:* ${rtotalreg}
