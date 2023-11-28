@@ -49,9 +49,9 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n➢ ⃟⃞❆𖤍𝙔𝙚𝙅𝙤𝙩𝙖-𝙈𝘿𖤍𖣘 ⃟⃞❆`;
-global.gt = '➢ ⃟⃞❆𖤍𝙔𝙚𝙅𝙤𝙩𝙖-𝙈𝘿𖤍𖣘 ⃟⃞❆';
-global.mysticbot = '➢ ⃟⃞❆𖤍𝙔𝙚𝙅𝙤𝙩𝙖-𝙈𝘿𖤍𖣘 ⃟⃞❆';
+global.wm2 = `▸ ${dia} ${fecha}\n❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»`;
+global.gt = '❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»';
+global.mysticbot = '❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»';
 global.md = 'https://github.com/Daxmax123/shinonome-bot';
 global.mysticbot = 'https://github.com/Daxmax123/shinonome-bot';
 global.waitt = '*[❗] ★彡( ₵₳Ɽ₲₳₦ĐØ, Ɇ₴₱ɆⱤɆ Ʉ₦ ₥Ø₥Ɇ₦₮Ø... )彡★*';
