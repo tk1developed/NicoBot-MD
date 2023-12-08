@@ -27,8 +27,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┊❦ *𝗛ola, ${taguser}*
 ┊─►⸙❐⚘⸙❐⚘⸙❐⚘⸙❐⚘⸙❐⚘⸙❐⚘⸙✎
 ┊❦ *Owner:* YuKi
-┊❦ *Numero:* wa.me/994406078472
-┊❦ *Grupo Bot:* https://chat.whatsapp.com/KXjS9CBRF680GBf8fiXDeu
+┊❦ *Numero:* wa.me/13852322280
+┊❦ *Grupo Bot:* https://chat.whatsapp.com/BEUrPhS6Dzk7fKJJU08S5y
 ┊❦ *Fecha:* ${date}
 ┊❦ *Tiempo activo:* ${uptime}
 ┊❦ *Usuarios regs:* ${rtotalreg}
@@ -50,7 +50,7 @@ ${readMore}
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
 ┊❥ ⌲ *𝑩𝑶𝑻 𝑶𝑭𝑪 𝑶 𝑺𝑼𝑩 𝑩𝑶𝑻*
 ┊-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┊${(conn.user.jid == global.conn.user.jid ? '' : `Jadibot de: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*༺♥༻❀💕﻿ Este es el Bot oficial 💕﻿❀༺♥༻*'}
+┊${(conn.user.jid == global.conn.user.jid ? '' : `ShinoBot de: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*༺♥༻❀💕﻿ Este es el Bot oficial 💕﻿❀༺♥༻*'}
 ╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧
 
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
