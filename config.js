@@ -16,6 +16,7 @@ global.owner = [
   ['51984437427', '💫 Shino - Collaborator 3 💫', true],
   ['51921911036', '💫 Shino - Collaborator 4 💫', true],
   ['51953218154', '💫 Shino - Collaborator 5 💫', true]
+  ['13852322280', '💫 Shino - Collaborator 5 💫', true]
 ];
 
 global.suittag = ['0'];
