@@ -1,6 +1,6 @@
 const handler = async (m, {conn, text, command}) => {
   const id = text ? text : m.chat;
-  await conn.reply(id, '*Adios a todos, el Bot se despide! (≧ω≦)ゞ*');
+  await conn.reply(id, '*Adios a todos, Shinonome Bot se despide! (≧ω≦)ゞ*');
   await conn.groupLeave(id);
 };
 handler.command = /^(out|leavegc|leave|salirdelgrupo)$/i;
