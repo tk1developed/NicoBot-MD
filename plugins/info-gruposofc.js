@@ -5,9 +5,7 @@ const handler = async (m, {conn, usedPrefix}) => {
 
 *➤ ꧁༺ Grupos del Bot ༻꧂:*
 
-*1.-* https://chat.whatsapp.com/BEUrPhS6Dzk7fKJJU08S5y
-
-*2.-* https://chat.whatsapp.com/KXjS9CBRF680GBf8fiXDeu`.trim();
+*1.-* https://chat.whatsapp.com/GDTBXXPiFbw6z4AEZZzbZ8`.trim();
   const buttonMessage= {
     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
     'mimetype': `application/${document}`,
