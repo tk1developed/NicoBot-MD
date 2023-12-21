@@ -50,7 +50,7 @@ ${readMore}
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
 ┊❥ ⌲ *𝐵𝑂𝑇 𝑂𝐹𝐶 𝑂 𝑆𝑈𝐵𝐵𝑂𝑇*
 ┊-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┊${(conn.user.jid == global.conn.user.jid ? '' : `SakuraBot-MD de: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*༺♥༻ 𝘌𝘴𝘵𝘦 𝘌𝘴 𝘌𝘭 𝘉𝘰𝘵 𝘖𝘧𝘪𝘤𝘪𝘢𝘭༺♥༻*'}
+┊${(conn.user.jid == global.conn.user.jid ? '' : `SakuraBot-MD de: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '* 𝘌𝘴𝘵𝘦 𝘌𝘴 𝘌𝘭 𝘉𝘰𝘵 𝘖𝘧𝘪𝘤𝘪𝘢𝘭'}
 ╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧
 
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
@@ -140,7 +140,7 @@ ${readMore}
 ┊⚘️ _${usedPrefix}topgays_
 ┊⚘️ _${usedPrefix}topotakus_
 ┊⚘️ _${usedPrefix}formarpareja_
-|⚘️ _${usedPrefix}verdad_
+┊⚘️ _${usedPrefix}verdad_
 ┊⚘️ _${usedPrefix}reto_
 ┊⚘️ _${usedPrefix}cancion_
 ┊⚘️ _${usedPrefix}pista_
@@ -254,7 +254,7 @@ ${readMore}
 ┊⚙️ _${usedPrefix}grouptime *<opcion> <tiempo>*_
 ┊⚙️ _${usedPrefix}promote *<@tag>*_
 ┊⚙️ _${usedPrefix}demote *<@tag>*_
-|⚙️ _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+┊⚙️ _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ┊⚙️ _${usedPrefix}demote *<@tag>*_
 ┊⚙️ _${usedPrefix}infogroup_
 ┊⚙️ _${usedPrefix}resetlink_
