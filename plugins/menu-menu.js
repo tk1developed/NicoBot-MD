@@ -22,13 +22,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `╭꒱≡≡≡≡≡╡.｡❅*⋆⍋*∞*｡❅*⋆⍋*∞*｡╞≡≡≡≡♡
-┊    ❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»
+┊    ❥ᰰຼ ⃟ᬽ៸𝕊𝔸𝕂𝕌ℝ𝔸𝔹𝕆𝕋-𝕄𝔻༒★»
 ┊-----------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┊❦ *𝗛ola, ${taguser}*
 ┊─►⸙❐⚘⸙❐⚘⸙❐⚘⸙❐⚘⸙❐⚘⸙❐⚘⸙✎
-┊❦ *Owner:* YuKi
-┊❦ *Numero:* wa.me/13852322280
-┊❦ *Grupo Bot:* https://chat.whatsapp.com/GDTBXXPiFbw6z4AEZZzbZ8
+┊❦ *Owner:* DiegoOfc
+┊❦ *Numero:* wa.me/573013114854
+┊❦ *Grupo Bot:* https://chat.whatsapp.com/KQ9vSnTEtgbHg0LSQojTHC
 ┊❦ *Fecha:* ${date}
 ┊❦ *Tiempo activo:* ${uptime}
 ┊❦ *Usuarios regs:* ${rtotalreg}
@@ -42,19 +42,19 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┊⋆⁺ *🧰 Experiencia:* ${exp}
 ┊⋆⁺ *⚓ Rango:* ${role}
 ┊⋆⁺ *💎 Diamantes:* ${limit}
-┊⋆⁺ *👾 ShinCoins:* ${money}
+┊⋆⁺ *👾 SakuCoins:* ${money}
 ┊⋆⁺ *🪙 Tokens:* ${joincount}
 ┊⋆⁺ *🎟️ Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧
 ${readMore}
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
-┊❥ ⌲ *𝑩𝑶𝑻 𝑶𝑭𝑪 𝑶 𝑺𝑼𝑩 𝑩𝑶𝑻*
+┊❥ ⌲ *𝐵𝑜𝑡 𝑂𝑓𝑐 𝑂 𝑆𝑢𝑏 𝐵𝑜𝑡*
 ┊-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┊${(conn.user.jid == global.conn.user.jid ? '' : `ShinoBot de: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*༺♥༻❀💕﻿ Este es el Bot oficial 💕﻿❀༺♥༻*'}
+┊${(conn.user.jid == global.conn.user.jid ? '' : `SakuraBot-MD de: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*༺♥༻ 𝘌𝘴𝘵𝘦 𝘌𝘴 𝘌𝘭 𝘉𝘰𝘵 𝘖𝘧𝘪𝘤𝘪𝘢𝘭༺♥༻*'}
 ╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧
 
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
-┊❥ ⌲ *𝑺𝑶𝑳𝑼𝑪𝑰𝑶𝑵 𝑫𝑬 𝑬𝑹𝑹𝑶𝑹𝑬𝑺*
+┊❥ ⌲ *𝑆𝑜𝑙𝑢𝑐𝑖𝑜𝑛𝑒𝑠 𝐷𝑒 𝐸𝑟𝑟𝑜𝑟𝑒𝑠*
 ┊-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┊❦ Mensajes en espera
 ┊↻ _${usedPrefix}fixmsgespera_
@@ -63,7 +63,7 @@ ${readMore}
 ╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧
 
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
-┊❥ ⌲ *𝑰𝑵𝑭𝑶 𝑫𝑬𝑳 𝑩𝑶𝑻*
+┊❥ ⌲ *𝐼𝑛𝑓𝑜 𝐷𝑒𝑙 𝐵𝑜𝑡*
 ┊-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┊⋆⁺˖⸙̭❛➠ _${usedPrefix}terminosycondiciones_
 ┊⋆⁺˖⸙̭❛➠ _${usedPrefix}grupos_
