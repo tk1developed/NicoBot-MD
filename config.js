@@ -10,24 +10,24 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['994406078472', '👑 Shino - Creador 👑', true],
-  ['51944732300', '💫 Shino - Collaborator 1 💫', true],
-  ['51901696007', '💫 Shino - Collaborator 2 💫', true],
-  ['51984437427', '💫 Shino - Collaborator 3 💫', true],
-  ['51921911036', '💫 Shino - Collaborator 4 💫', true],
-  ['51953218154', '💫 Shino - Collaborator 5 💫', true],
-  ['13852322280', '💫 Shino - Collaborator 5 💫', true]
+  ['573013114854', '👑 Saku - Creador 👑', true],
+  ['529373853455', '💫 Saku - Collaborator 1 💫', true],
+  ['573207200376', '💫 Saku - Collaborator 2 💫', true],
+  ['573218138672', '💫 Saku - Collaborator 3 💫', true],
+  ['573106909511', '💫 Saku - Collaborator 4 💫', true],
+  ['573246822621', '💫 Saku - Collaborator 5 💫', true],
+  ['51944167935', '💫 Saku - Collaborator 5 💫', true]
 ];
 
 global.suittag = ['0'];
 global.prems = ['0'];
 
-global.packname = '東雲絵名';
-global.author = '𝕾𝖍𝖎𝖓♡𝖓♡𝖒𝖊-𝕭♡𝖙';
-global.wm = '❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»';
-global.titulowm = '❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»';
-global.titulowm2 = `❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»`
-global.igfg = '❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»';
+global.packname = '𝚂𝚊𝚔𝚞𝚛𝚊';
+global.author = '𝑆𝑎𝑘𝑢𝑟𝑖𝑡𝑎-𝐵𝑜𝑡';
+global.wm = '❥ᰰຼ ⃟ᬽ៸𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋༒★»';
+global.titulowm = '❥ᰰຼ ⃟ᬽ៸𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋༒★»';
+global.titulowm2 = `❥ᰰຼ ⃟ᬽ៸𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋༒★»`
+global.igfg = '❥ᰰຼ ⃟ᬽ𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋༒★»';
 global.wait = '*[❗] ★彡( ₵₳Ɽ₲₳₦ĐØ, Ɇ₴₱ɆⱤɆ Ʉ₦ ₥Ø₥Ɇ₦₮Ø... )彡★*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -50,11 +50,11 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»`;
-global.gt = '❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»';
-global.mysticbot = '❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»';
-global.md = 'https://github.com/Daxmax123/shinonome-bot';
-global.mysticbot = 'https://github.com/Daxmax123/shinonome-bot';
+global.wm2 = `▸ ${dia} ${fecha}\n❥ᰰຼ ⃟ᬽ៸𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋༒★»`;
+global.gt = '❥ᰰຼ ⃟ᬽ៸𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋༒★»';
+global.mysticbot = '❥ᰰຼ ⃟ᬽ៸𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋༒★»';
+global.md = 'https://github.com/diegojadibot/SakuraBot-MD';
+global.mysticbot = 'https://github.com/diegojadibot/SakuraBot-MD';
 global.waitt = '*[❗] ★彡( ₵₳Ɽ₲₳₦ĐØ, Ɇ₴₱ɆⱤɆ Ʉ₦ ₥Ø₥Ɇ₦₮Ø... )彡★*';
 global.waittt = '*[❗] ★彡( ₵₳Ɽ₲₳₦ĐØ, Ɇ₴₱ɆⱤɆ Ʉ₦ ₥Ø₥Ɇ₦₮Ø... )彡★*';
 global.waitttt = '*[❗] ★彡( ₵₳Ɽ₲₳₦ĐØ, Ɇ₴₱ɆⱤɆ Ʉ₦ ₥Ø₥Ɇ₦₮Ø... )彡★*';
