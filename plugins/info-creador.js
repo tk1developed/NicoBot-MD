@@ -1,15 +1,15 @@
 const handler = async (m, {conn, usedPrefix}) => {
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
-  const text = `*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙴𝚂 wa.me/994406078472*
+  const text = `*—◉ 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 Wa.me/573013114854*
 
-*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 𝙲𝙾𝙻𝙰𝙱𝙾𝚁𝙰𝙳𝙾𝚁 𝟷 𝙴𝚂 Wa.me/573013114854*
+*—◉  𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 Asistente Wa.me/5492215034412*
 
-*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 𝙲𝙾𝙻𝙰𝙱𝙾𝚁𝙰𝙳𝙾𝚁 2 𝙴𝚂 Wa.me/529373853455*`.trim();
+*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 Desarrollador Wa.me/573218138672*`.trim();
   const buttonMessage= {
     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
     'mimetype': `application/${document}`,
-    'fileName': `「 𝕾𝖍𝖎𝖓♡𝖓♡𝖒𝖊-𝕭♡𝖙 」`,
+    'fileName': `「 𝘚𝘢𝘬𝘶𝘳𝘪𝘵𝘢-𝘔𝘋 」`,
     'fileLength': 99999999999999,
     'pageCount': 200,
     'contextInfo': {
