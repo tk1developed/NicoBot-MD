@@ -24,8 +24,8 @@ const handler = async (m, { conn, usedPrefix }) => {
   const info = `
 ╠═〘 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〙 ═
 ╠
-╠➥ [🤴🏻] 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: *YuKi*
-╠➥ [#️⃣] 𝙽𝚄𝙼𝙴𝚁𝙾: *+994 40 607 84 72*
+╠➥ [🤴🏻] 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: *Diego*
+╠➥ [#️⃣] 𝙽𝚄𝙼𝙴𝚁𝙾: *+573013114854*
 ╠➥ [🎳] 𝙿𝚁𝙴𝙵𝙸𝙹𝙾: *${usedPrefix}*
 ╠➥ [🔐] 𝙲𝙷𝙰𝚃𝚂 𝙿𝚁𝙸𝚅𝙰𝙳𝙾𝚂: *${chats.length - groups.length}*
 ╠➥ [🦜] 𝙲𝙷𝙰𝚃𝚂 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂: *${groups.length}* 
@@ -43,7 +43,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 ╠➥ [👨‍🦯] 𝚅𝙴𝙻𝙾𝙲𝙸𝙳𝙰𝙳: 
 ╠  *${speed} ms* 
 ╠
-╠═〘  ❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★» 〙 ═
+╠═〘  ❥ᰰຼ ⃟ᬽ៸SakuraBot-MD༒★» 〙 ═
 `.trim();
   const doc = [
     "pdf",
