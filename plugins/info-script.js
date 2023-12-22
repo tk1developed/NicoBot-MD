@@ -1,7 +1,7 @@
 import moment from 'moment-timezone';
 import fetch from 'node-fetch';
 const handler = async (m, { conn, args }) => {
-   const res = await fetch('https://api.github.com/repos/Daxmax123/shinonome-bot');
+   const res = await fetch('https://api.github.com/repos/diegojadibot/SakuraBot-MD');
    const json = await res.json();
    let txt = `           *乂  B O T S C R I P T  乂*\n\n`;
       txt += `◦  *Nombre:* ${json?.name || '❥ᰰຼ ⃟ᬽ៸𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋༒★»'}\n`;
