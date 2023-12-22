@@ -11,7 +11,7 @@ global.botnumber = ""
 
 global.owner = [
   ['573013114854', '👑 Saku - Creador 👑', true],
-  ['529373853455', '💫 Saku - Collaborator 1 💫', true],
+  ['5492215034412', '💫 Saku - Collaborator 1 💫', true],
   ['573207200376', '💫 Saku - Collaborator 2 💫', true],
   ['573218138672', '💫 Saku - Collaborator 3 💫', true],
   ['573106909511', '💫 Saku - Collaborator 4 💫', true],
