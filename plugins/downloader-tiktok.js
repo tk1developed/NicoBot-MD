@@ -1,4 +1,4 @@
-import fg from 'api-dylux';
+²import fg from 'api-dylux';
 import axios from 'axios';
 import cheerio from 'cheerio';
 import {tiktok} from '@xct007/frieren-scraper';
@@ -11,7 +11,7 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
   // let buttons = [{ buttonText: { displayText: '♫ 𝙰𝚄𝙳𝙸𝙾 ♫' }, buttonId: `${usedPrefix}tomp3` }]
   try {
     const aa = {quoted: m, userJid: conn.user.jid};
-    const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: texto, contextInfo: {externalAdReply: {title: '❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»', body: null, thumbnail: imagen1, sourceUrl: 'https://atom.bio/yejota'}, mentionedJid: [m.sender]}}}, aa);
+    const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: texto, contextInfo: {externalAdReply: {title: '❥ᰰຼ ⃟ᬽ៸SakuraBot-MD༒★»', body: null, thumbnail: imagen1, sourceUrl: 'https://atom.bio/yejota'}, mentionedJid: [m.sender]}}}, aa);
     await conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id, mentions: [m.sender]});
     const dataF = await tiktok.v1(args[0]);
     // let desc1 =  `*𝙽𝙸𝙲𝙺𝙽𝙰𝙼𝙴:* ${dataF.nickname || 'Indefinido'}`
