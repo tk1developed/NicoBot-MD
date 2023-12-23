@@ -42,13 +42,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
 ┊❥ ⌲ *𝐼𝑁𝐹𝑂 - 𝑈𝑆𝐸𝑅*
 ┊-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┊⋆⁺ *🎖️ Nivel:* ${level}
-┊⋆⁺ *🧰 Experiencia:* ${exp}
-┊⋆⁺ *⚓ Rango:* ${role}
-┊⋆⁺ *💎 Diamantes:* ${limit}
-┊⋆⁺ *👾 SakuCoins:* ${money}
-┊⋆⁺ *🪙 Tokens:* ${joincount}
-┊⋆⁺ *🎟️ Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
+┊ *🎖️ Nivel:* ${level}
+┊ *🧰 Experiencia:* ${exp}
+┊ *⚓ Rango:* ${role}
+┊ *💎 Diamantes:* ${limit}
+┊ *👾 SakuCoins:* ${money}
+┊ *🪙 Tokens:* ${joincount}
+┊ *🎟️ Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧
 ${readMore}
 
