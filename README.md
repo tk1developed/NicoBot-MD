@@ -63,7 +63,7 @@ Detener el bot apretado CTRL y aplastas Z en tu teclado, darle enter y escribe:
 ```bash
 > cd 
 > cd SakuraBot-MD
-> rm -rf SakuraBotSession
+> rm -rf ShinoSession
 > npm start
 ```
 ### `🤖 𝙿𝙰𝚁𝙰 𝙰𝙲𝚃𝙸𝚅𝙰𝚁 𝟸𝟺/𝟽 (𝚃𝙴𝚁𝙼𝚄𝚇)`
