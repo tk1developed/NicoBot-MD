@@ -26,7 +26,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┊🦁 *𝗛ola, ${taguser}*
 ┊➪𖤍❐𖤍❐𖤍❐𖤍❐𖤍❐𖤍✎
 ┊🦁 *Owner:* @573013114854
-┊🦁 *Supporte:* @542212212532
+┊🦁 *Owner2:* @542212212532
 ┊🦁 *Fecha:* ${date}
 ┊🦁 *Tiempo activo:* ${uptime}
 ┊🦁 *Usuarios regs:* ${rtotalreg}
