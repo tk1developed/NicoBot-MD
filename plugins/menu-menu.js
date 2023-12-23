@@ -495,44 +495,44 @@ ${readMore}
 ┊😺 _${usedPrefix}block *<@tag / numero>*_
 ┊😺 _${usedPrefix}unblock *<@tag / numero>*_
 ┊😺 _${usedPrefix}enable *restrict*_
-┊𒈞 _${usedPrefix}disable *restrict*_
-┊𒈞 _${usedPrefix}enable *autoread*_
-┊𒈞 _${usedPrefix}disable *autoread*_
-┊𒈞 _${usedPrefix}enable *public*_
-┊𒈞 _${usedPrefix}disable *public*_
-┊𒈞 _${usedPrefix}enable *pconly*_
-┊𒈞 _${usedPrefix}disable *pconly*_
-┊𒈞 _${usedPrefix}enable *gconly*_
-┊𒈞 _${usedPrefix}disable *gconly*_
-┊𒈞 _${usedPrefix}enable *anticall*_
-┊𒈞 _${usedPrefix}disable *anticall*_
-┊𒈞 _${usedPrefix}enable *antiprivado*_
-┊𒈞 _${usedPrefix}disable *antiprivado*_
-┊𒈞 _${usedPrefix}enable *modejadibot*_
-┊𒈞 _${usedPrefix}disable *modejadibot*_
-┊𒈞 _${usedPrefix}enable *audios_bot*_
-┊𒈞 _${usedPrefix}disable *audios_bot*_
-┊𒈞 _${usedPrefix}enable *antispam*_
-┊𒈞 _${usedPrefix}disable *antispam*_
-┊𒈞 _${usedPrefix}msg *<texto>*_
-┊𒈞 _${usedPrefix}banchat_
-┊𒈞 _${usedPrefix}unbanchat_
-┊𒈞 _${usedPrefix}resetuser *<@tag>*_
-┊𒈞 _${usedPrefix}banuser *<@tag>*_
-┊𒈞 _${usedPrefix}unbanuser *<@tag>*_
-┊𒈞 _${usedPrefix}dardiamantes *<@tag> <cantidad>*_
-┊𒈞 _${usedPrefix}añadirxp *<@tag> <cantidad>*_
-┊𒈞 _${usedPrefix}banuser *<@tag>*_
-┊𒈞 _${usedPrefix}bc *<texto>*_
-┊𒈞 _${usedPrefix}bcchats *<texto>*_
-┊𒈞 _${usedPrefix}bcgc *<texto>*_
-┊𒈞 _${usedPrefix}bcgc2 *<audio>*_
-┊𒈞 _${usedPrefix}bcgc2 *<video>*_
-┊𒈞 _${usedPrefix}bcgc2 *<imagen>*_
-┊𒈞 _${usedPrefix}bcbot *<texto>*_
-┊𒈞 _${usedPrefix}cleartpm_
-┊𒈞 _${usedPrefix}restart_
-┊𒈞 _${usedPrefix}update_
+┊😺 _${usedPrefix}disable *restrict*_
+┊😺 _${usedPrefix}enable *autoread*_
+┊😺 _${usedPrefix}disable *autoread*_
+┊😺 _${usedPrefix}enable *public*_
+┊😺 _${usedPrefix}disable *public*_
+┊😺 _${usedPrefix}enable *pconly*_
+┊😺 _${usedPrefix}disable *pconly*_
+┊😺 _${usedPrefix}enable *gconly*_
+┊😺 _${usedPrefix}disable *gconly*_
+┊😺 _${usedPrefix}enable *anticall*_
+┊😺 _${usedPrefix}disable *anticall*_
+┊😺 _${usedPrefix}enable *antiprivado*_
+┊😺 _${usedPrefix}disable *antiprivado*_
+┊😺 _${usedPrefix}enable *modejadibot*_
+┊😺 _${usedPrefix}disable *modejadibot*_
+┊😺 _${usedPrefix}enable *audios_bot*_
+┊😺 _${usedPrefix}disable *audios_bot*_
+┊😺 _${usedPrefix}enable *antispam*_
+┊😺 _${usedPrefix}disable *antispam*_
+┊😺 _${usedPrefix}msg *<texto>*_
+┊😺 _${usedPrefix}banchat_
+┊😺 _${usedPrefix}unbanchat_
+┊😺 _${usedPrefix}resetuser *<@tag>*_
+┊😺 _${usedPrefix}banuser *<@tag>*_
+┊😺 _${usedPrefix}unbanuser *<@tag>*_
+┊😺 _${usedPrefix}dardiamantes *<@tag> <cantidad>*_
+┊😺 _${usedPrefix}añadirxp *<@tag> <cantidad>*_
+┊😺 _${usedPrefix}banuser *<@tag>*_
+┊😺 _${usedPrefix}bc *<texto>*_
+┊😺 _${usedPrefix}bcchats *<texto>*_
+┊😺 _${usedPrefix}bcgc *<texto>*_
+┊😺 _${usedPrefix}bcgc2 *<audio>*_
+┊😺 _${usedPrefix}bcgc2 *<video>*_
+┊😺 _${usedPrefix}bcgc2 *<imagen>*_
+┊😺 _${usedPrefix}bcbot *<texto>*_
+┊😺 _${usedPrefix}cleartpm_
+┊😺 _${usedPrefix}restart_
+┊😺 _${usedPrefix}update_
 ┊😺 _${usedPrefix}banlist_
 ┊😺 _${usedPrefix}addprem *<@tag> <tiempo>*_
 ┊😺 _${usedPrefix}addprem2 *<@tag> <tiempo>*_
