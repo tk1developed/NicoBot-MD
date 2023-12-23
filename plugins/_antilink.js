@@ -18,12 +18,12 @@ export async function before(m, {conn, isAdmin, isBotAdmin}) {
       if (m.text.includes(linkThisGroup)) return !0;
     }
     await this.sendMessage(m.chat, {text: `*「 𝐀𝐍𝐓𝐈 𝐋𝐈𝐍𝐊𝐒 」*\n*Adios inepto👋 ${user} acabas de romper una regla del grupo, nos vemos...!!*`, mentions: [m.sender]}, {quoted: m});
-    if (!isBotAdmin) return m.reply('*[❗𝐈𝐍𝐅𝐎❗] Shinonome no es admin no puede expulsar integrantes*');
+    if (!isBotAdmin) return m.reply('*[❗𝐈𝐍𝐅𝐎❗] SakuritaBot no es admin no puede expulsar integrantes*');
     if (isBotAdmin && bot.restrict) {
       await conn.sendMessage(m.chat, {delete: {remoteJid: m.chat, fromMe: false, id: bang, participant: delet}});
       const responseb = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
       if (responseb[0].status === '404') return;
-    } else if (!bot.restrict) return m.reply('*[❗𝐈𝐍𝐅𝐎❗] El propietario de shinonome tiene desactivado las restricciones (#𝚎𝚗𝚊𝚋𝚕𝚎 𝚛𝚎𝚜𝚝𝚛𝚒𝚌𝚝) Escribale para que lo active*');
+    } else if (!bot.restrict) return m.reply('*[❗𝐈𝐍𝐅𝐎❗] El propietario de SakuraBot tiene desactivado las restricciones (#𝚎𝚗𝚊𝚋𝚕𝚎 𝚛𝚎𝚜𝚝𝚛𝚒𝚌𝚝) Escribale para que lo active*');
   }
   return !0;
 }
