@@ -150,32 +150,32 @@ ${readMore}
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
 ┊❥ ⌲ *𝐴𝐶𝑇𝐼𝑉𝐴𝑅 - 𝐷𝐸𝑆𝐴𝐶𝑇𝐼𝑉𝐴𝑅*
 ┊-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┊⋆⁺˖⸙̭❛☑️ _${usedPrefix}enable *welcome*_
-┊⋆⁺˖⸙̭❛❎ _${usedPrefix}disable *welcome*_
-┊⋆⁺˖⸙̭❛☑️ _${usedPrefix}enable *modohorny*_
-┊⋆⁺˖⸙̭❛❎ _${usedPrefix}disable *modohorny*_
-┊⋆⁺˖⸙̭❛☑️ _${usedPrefix}enable *antilink*_
-┊⋆⁺˖⸙̭❛❎ _${usedPrefix}disable *antilink*_
-┊⋆⁺˖⸙̭❛☑️ _${usedPrefix}enable *antilink2*_
-┊⋆⁺˖⸙̭❛❎ _${usedPrefix}disable *antilink2*_
-┊⋆⁺˖⸙̭❛☑️ _${usedPrefix}enable *detect*_
-┊⋆⁺˖⸙̭❛❎ _${usedPrefix}disable *detect*_
-┊⋆⁺˖⸙̭❛☑️ _${usedPrefix}enable *audios*_
-┊⋆⁺˖⸙̭❛❎ _${usedPrefix}disable *audios*_
-┊⋆⁺˖⸙̭❛☑️ _${usedPrefix}enable *autosticker*_
-┊⋆⁺˖⸙̭❛❎ _${usedPrefix}disable *autosticker*_
-┊⋆⁺˖⸙̭❛☑️ _${usedPrefix}enable *antiviewonce*_
-┊⋆⁺˖⸙̭❛❎ _${usedPrefix}disable *antiviewonce*_
-┊⋆⁺˖⸙̭❛☑️ _${usedPrefix}enable *antitoxic*_
-┊⋆⁺˖⸙̭❛❎ _${usedPrefix}disable *antitoxic*_
-┊⋆⁺˖⸙̭❛☑️ _${usedPrefix}enable *antitraba*_
-┊⋆⁺˖⸙̭❛❎ _${usedPrefix}disable *antitraba*_
-┊⋆⁺˖⸙̭❛☑️ _${usedPrefix}enable *antiarabes*_
-┊⋆⁺˖⸙̭❛❎ _${usedPrefix}disable *antiarabes*_
-┊⋆⁺˖⸙̭❛☑️ _${usedPrefix}enable *modoadmin*_
-┊⋆⁺˖⸙̭❛❎ _${usedPrefix}disable *modoadmin*_
-┊⋆⁺˖⸙̭❛☑️ _${usedPrefix}enable *antidelete*_
-┊⋆⁺˖⸙̭❛❎ _${usedPrefix}disable *antidelete*_
+┊☑️ _${usedPrefix}enable *welcome*_
+┊❎ _${usedPrefix}disable *welcome*_
+┊☑️ _${usedPrefix}enable *modohorny*_
+┊❎ _${usedPrefix}disable *modohorny*_
+┊☑️ _${usedPrefix}enable *antilink*_
+┊❎ _${usedPrefix}disable *antilink*_
+┊☑️ _${usedPrefix}enable *antilink2*_
+┊❎ _${usedPrefix}disable *antilink2*_
+┊☑️ _${usedPrefix}enable *detect*_
+┊❎ _${usedPrefix}disable *detect*_
+┊☑️ _${usedPrefix}enable *audios*_
+┊❎ _${usedPrefix}disable *audios*_
+┊☑️ _${usedPrefix}enable *autosticker*_
+┊❎ _${usedPrefix}disable *autosticker*_
+┊☑️ _${usedPrefix}enable *antiviewonce*_
+┊❎ _${usedPrefix}disable *antiviewonce*_
+┊☑️ _${usedPrefix}enable *antitoxic*_
+┊❎ _${usedPrefix}disable *antitoxic*_
+┊☑️ _${usedPrefix}enable *antitraba*_
+┊❎ _${usedPrefix}disable *antitraba*_
+┊☑️ _${usedPrefix}enable *antiarabes*_
+┊❎ _${usedPrefix}disable *antiarabes*_
+┊☑️ _${usedPrefix}enable *modoadmin*_
+┊❎ _${usedPrefix}disable *modoadmin*_
+┊☑️ _${usedPrefix}enable *antidelete*_
+┊❎ _${usedPrefix}disable *antidelete*_
 ╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧
 
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
@@ -479,22 +479,22 @@ ${readMore}
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
 ┊❥ ⌲ 𝑶𝑷𝑪𝑰𝑶𝑵𝑬𝑺 𝑫𝑬 𝑶𝑾𝑵𝑬𝑹-𝑴𝑶𝑫𝑬𝑹𝑨𝑫𝑶𝑹*
 ┊-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┊𒈞  > *<funcion>*
-┊𒈞 => *<funcion>*
-┊𒈞 $ *<funcion>*
-┊𒈞 _${usedPrefix}setprefix *<prefijo>*_
-┊𒈞 _${usedPrefix}resetprefix_
-┊𒈞 _${usedPrefix}autoadmin_
-┊𒈞 _${usedPrefix}grouplist_
-┊𒈞 _${usedPrefix}chetar_
-┊𒈞 _${usedPrefix}leavegc_
-┊𒈞 _${usedPrefix}cajafuerte_
-┊𒈞 _${usedPrefix}blocklist_
-┊𒈞 _${usedPrefix}addowner *<@tag / numero>*_
-┊𒈞 _${usedPrefix}delowner *<@tag / numero>*_
-┊𒈞 _${usedPrefix}block *<@tag / numero>*_
-┊𒈞 _${usedPrefix}unblock *<@tag / numero>*_
-┊𒈞 _${usedPrefix}enable *restrict*_
+┊😺  > *<funcion>*
+┊😺 => *<funcion>*
+┊😺 $ *<funcion>*
+┊😺 _${usedPrefix}setprefix *<prefijo>*_
+┊😺 _${usedPrefix}resetprefix_
+┊😺 _${usedPrefix}autoadmin_
+┊😺 _${usedPrefix}grouplist_
+┊😺 _${usedPrefix}chetar_
+┊😺 _${usedPrefix}leavegc_
+┊😺 _${usedPrefix}cajafuerte_
+┊😺 _${usedPrefix}blocklist_
+┊😺 _${usedPrefix}addowner *<@tag / numero>*_
+┊😺 _${usedPrefix}delowner *<@tag / numero>*_
+┊😺 _${usedPrefix}block *<@tag / numero>*_
+┊😺 _${usedPrefix}unblock *<@tag / numero>*_
+┊😺 _${usedPrefix}enable *restrict*_
 ┊𒈞 _${usedPrefix}disable *restrict*_
 ┊𒈞 _${usedPrefix}enable *autoread*_
 ┊𒈞 _${usedPrefix}disable *autoread*_
@@ -533,18 +533,18 @@ ${readMore}
 ┊𒈞 _${usedPrefix}cleartpm_
 ┊𒈞 _${usedPrefix}restart_
 ┊𒈞 _${usedPrefix}update_
-┊𒈞 _${usedPrefix}banlist_
-┊𒈞 _${usedPrefix}addprem *<@tag> <tiempo>*_
-┊𒈞 _${usedPrefix}addprem2 *<@tag> <tiempo>*_
-┊𒈞 _${usedPrefix}addprem3 *<@tag> <tiempo>*_
-┊𒈞 _${usedPrefix}addprem4 *<@tag> <tiempo>*_
-┊𒈞 _${usedPrefix}delprem *<@tag>*_
-┊𒈞 _${usedPrefix}listcmd_
-┊𒈞 _${usedPrefix}setppbot *<responder a imagen>*_
-┊𒈞 _${usedPrefix}addcmd *<texto> <responder a sticker/imagen>*_
-┊𒈞 _${usedPrefix}delcmd *<responder a sticker/imagen con comando o texto asignado>*_
-┊𒈞 _${usedPrefix}saveimage
-┊𒈞 _${usedPrefix}viewimage
+┊😺 _${usedPrefix}banlist_
+┊😺 _${usedPrefix}addprem *<@tag> <tiempo>*_
+┊😺 _${usedPrefix}addprem2 *<@tag> <tiempo>*_
+┊😺 _${usedPrefix}addprem3 *<@tag> <tiempo>*_
+┊😺 _${usedPrefix}addprem4 *<@tag> <tiempo>*_
+┊😺 _${usedPrefix}delprem *<@tag>*_
+┊😺 _${usedPrefix}listcmd_
+┊😺 _${usedPrefix}setppbot *<responder a imagen>*_
+┊😺 _${usedPrefix}addcmd *<texto> <responder a sticker/imagen>*_
+┊😺 _${usedPrefix}delcmd *<responder a sticker/imagen con comando o texto asignado>*_
+┊😺 _${usedPrefix}saveimage
+┊😺 _${usedPrefix}viewimage
 ╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
