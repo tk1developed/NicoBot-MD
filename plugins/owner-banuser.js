@@ -8,6 +8,6 @@ const handler = async (m, {conn, participants, usedPrefix, command}) => {
   users[who].banned = true;
   m.reply('*🦁Listo Amo Ya Está Baneado*');
 };
-handler.command = /^banuser$/i;
+handler.command = /^banuser puto$/i;
 handler.rowner = true;
 export default handler;
