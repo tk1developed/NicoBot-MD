@@ -227,7 +227,7 @@ return file.startsWith('pre-key-') /*|| file.startsWith('session-') || file.star
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./SakuraSession/${files}`)
+unlinkSync(`./SakuraBotSession/${files}`)
 })
 } 
 
@@ -252,7 +252,7 @@ console.log(chalk.bold.red(`=> Algo salio mal durante la eliminación, archivos 
 }}
 
 function purgeOldFiles() {
-const directories = ['./SakuraSession/', './jadibts/']
+const directories = ['./SakuraBotSession/', './jadibts/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000)
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
