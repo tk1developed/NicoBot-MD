@@ -27,7 +27,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┊➪𖤍❐𖤍❐𖤍❐𖤍❐𖤍❐𖤍✎
 ┊🦁 *Owner:* @573013114854
 ┊🦁 *Supporte:* @5492215034412
-┊🦁 *Grupo Bot:* https://chat.whatsapp.com/Jn6ITStNp1JCCjWVjSYcss
 ┊🦁 *Fecha:* ${date}
 ┊🦁 *Tiempo activo:* ${uptime}
 ┊🦁 *Usuarios regs:* ${rtotalreg}
@@ -37,7 +36,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
 ┊ BOT OFC : SUBBOT
 ┊-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┊𝘉𝘰𝘵 𝘖𝘧𝘪𝘤𝘪𝘢𝘭: ${(conn.user.jid == global.conn.user.jid ? '' : `𝘚𝘶𝘣𝘣𝘰𝘵 𝘋𝘦:: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '𝘌𝘴𝘵𝘦 𝘌𝘴 𝘌𝘭 𝘉𝘰𝘵 𝘖𝘧𝘪𝘤𝘪𝘢𝘭'}
+┊⏳️𝘉𝘰𝘵 𝘖𝘧𝘪𝘤𝘪𝘢𝘭: ${(conn.user.jid == global.conn.user.jid ? '' : `𝘚𝘶𝘣𝘣𝘰𝘵 𝘋𝘦:: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '𝘌𝘴𝘵𝘦 𝘌𝘴 𝘌𝘭 𝘉𝘰𝘵 𝘖𝘧𝘪𝘤𝘪𝘢𝘭'}
 ╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧
 
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
