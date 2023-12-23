@@ -41,7 +41,8 @@ try {
     *➤ Total de Participantes:* ${totalParticipants}
     *➤ Link:* ${isBotAdmin ? '--- (Error) ---' : '--- (No admin) ---'}\n\n`;
   }
-  m.reply(`*𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵 𝘌𝘴𝘵𝘢́ 𝘌𝘯 𝘌𝘴𝘵𝘰𝘴 𝘎𝘳𝘶𝘱𝘰𝘴* 🦁\n\n*—◉ Total de grupos:* ${totalGroups}\n\n${txt}`.trim());
+  m.reply(`*Lista de grupos del Bot* 🤖
+\n\n*—◉ Total de grupos:* ${totalGroups}\n\n${txt}`.trim());
  }    
 };
 handler.help = ['groups', 'grouplist'];
