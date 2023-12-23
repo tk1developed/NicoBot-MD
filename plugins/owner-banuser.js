@@ -1,5 +1,5 @@
 const handler = async (m, {conn, participants, usedPrefix, command}) => {
-  const BANtext = `🦁Hola ${taguser} Ppr Favor Etiqueta A Alguien Para Banearlo⚡️\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} @${global.suittag}*`;
+  const BANtext = `🦁Hola Por Favor Etiqueta A Alguien Para Banearlo⚡️\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} @${global.suittag}*`;
   if (!m.mentionedJid[0] && !m.quoted) return m.reply(BANtext, m.chat, {mentions: conn.parseMention(BANtext)});
   let who;
   if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender;
