@@ -31,7 +31,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┊🦁 *Tiempo activo:* ${uptime}
 ┊🦁 *Usuarios regs:* ${rtotalreg}
 ┊🦁 *Usuarios totales:* ${rtotal}
-╰⌦
+╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧
 
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
 ┊ BOT OFC : SUBBOT
@@ -46,7 +46,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┊ *🧰 Experiencia:* ${exp}
 ┊ *⚓ Rango:* ${role}
 ┊ *💎 Diamantes:* ${limit}
-┊ *👾 SakuCoins:* ${money}
+┊ *🦁 SakuCoins:* ${money}
 ┊ *🪙 Tokens:* ${joincount}
 ┊ *🎟️ Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧
