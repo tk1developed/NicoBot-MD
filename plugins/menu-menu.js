@@ -543,8 +543,8 @@ ${readMore}
 ┊😺 _${usedPrefix}setppbot *<responder a imagen>*_
 ┊😺 _${usedPrefix}addcmd *<texto> <responder a sticker/imagen>*_
 ┊😺 _${usedPrefix}delcmd *<responder a sticker/imagen con comando o texto asignado>*_
-┊😺 _${usedPrefix}saveimage
-┊😺 _${usedPrefix}viewimage
+┊😺 _${usedPrefix}saveimage_
+┊😺 _${usedPrefix}viewimage_
 ╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
