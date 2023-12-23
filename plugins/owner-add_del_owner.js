@@ -6,16 +6,16 @@ const handler = async (m, { conn, text, args, usedPrefix, command }) => {
     case 'addowner':
       const nuevoNumero = who;
       global.owner.push([nuevoNumero]);
-      await conn.reply(m.chat, '*[❗] Nuevo número agregado con éxito a la lista de owners.*', m);
+      await conn.reply(m.chat, '*🦁Listo Amo Ya Está En La Lista De Owner El Usuario.*', m);
       break;
     case 'delowner':
       const numeroAEliminar = who;
       const index = global.owner.findIndex(owner => owner[0] === numeroAEliminar);
       if (index !== -1) {
         global.owner.splice(index, 1);
-        await conn.reply(m.chat, '*[❗] El número fue eliminado con éxito de la lista de owners.*', m);
+        await conn.reply(m.chat, '*⚡️Eliminado El Numero de la lista de owner correctamente.*', m);
       } else {
-        await conn.reply(m.chat, '*[❗] El número ingresado no existe en la lista de owners.*', m);
+        await conn.reply(m.chat, '*⏳️El Numero No Está En La Lista De Owners.*', m);
       }
       break;
   }
