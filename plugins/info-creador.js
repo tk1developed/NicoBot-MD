@@ -3,9 +3,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   const document = doc[Math.floor(Math.random() * doc.length)];
   const text = `*—◉ 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 Wa.me/573013114854*
 
-*—◉  𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 Asistente Wa.me/5492215034412*
-
-*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 Desarrollador Wa.me/573218138672*`.trim();
+*—◉  𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 Asistente Wa.me/573218138672*`.trim();
   const buttonMessage= {
     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
     'mimetype': `application/${document}`,
@@ -19,7 +17,7 @@ const handler = async (m, {conn, usedPrefix}) => {
         'mediaUrl': 'https://github.com/BrunoSobrino/TheMystic-Bot-MD',
         'mediaType': 2,
         'previewType': 'pdf',
-        'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
+        'title': 'Tu Mejor Bot Para Uso Personal',
         'body': wm,
         'thumbnail': imagen1,
         'sourceUrl': 'https://atom.bio/yejota'}},
