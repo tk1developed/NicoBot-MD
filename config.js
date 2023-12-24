@@ -23,7 +23,7 @@ global.suittag = ['0'];
 global.prems = ['0'];
 
 global.packname = '𝘚𝘢𝘬𝘶𝘳𝘢';
-global.author = '𝑆𝑎𝑘𝑢𝑟𝑖𝑡𝑎-𝐵𝑜𝑡';
+global.author = '𝘚𝘢𝘬𝘶-𝘉𝘰𝘵';
 global.wm = '❥ᰰຼ ⃟ᬽ៸𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋༒★»';
 global.titulowm = '❥ᰰຼ ⃟ᬽ៸𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋༒★»';
 global.titulowm2 = `❥ᰰຼ ⃟ᬽ៸𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋༒★»`
