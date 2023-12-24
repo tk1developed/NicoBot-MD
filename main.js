@@ -108,7 +108,7 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `ShinoSession`;
+global.authFile = `SakuraBotSession`;
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile);
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const msgRetryCounterCache = new NodeCache()
@@ -124,7 +124,7 @@ const connectionOptions = {
         logger: pino({ level: 'silent' }),
         printQRInTerminal: !pairingCode, 
         mobile: useMobile, 
-        browser: ['Chrome (Linux)', '', ''],
+        browser: ['SakuraBot-MD', '', ''],
         auth: {
             creds: state.creds,
             keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
