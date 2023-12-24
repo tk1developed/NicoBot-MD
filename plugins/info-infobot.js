@@ -42,7 +42,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 ╠ [👨‍🦯] 𝘝𝘦𝘭𝘰𝘤𝘪𝘥𝘢𝘥: 
 ╠  *${speed} ms* 
 ╠
-╠═〘  ❥ᰰຼ ⃟ᬽ៸SakuraBot-MD༒★» 〙 ═
+╠═ ⃟ᬽ៸SakuraBot-MD༒★»
 `.trim();
   const doc = [
     "pdf",
