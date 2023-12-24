@@ -20,10 +20,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const readMore = more.repeat(850);
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
-    const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `╭꒱≡≡≡≡≡╡ ⃟ᬽ៸𝕊𝔸𝕂𝕌ℝ𝔸𝔹𝕆𝕋-𝕄𝔻༒
+    const document = doc[Math.floor(Math.random() * doc.length)];   const str = `╭꒱≡≡≡≡≡╡ ⃟ᬽ៸𝕊𝔸𝕂𝕌ℝ𝔸𝔹𝕆𝕋-𝕄𝔻༒
+🦁 *𝗛ola, ${taguser}*
 ┊----------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┊🦁 *𝗛ola, ${taguser}*
 ┊➪𖤍❐𖤍❐𖤍❐𖤍❐𖤍❐𖤍✎
 ┊🦁 *Fecha:* ${date}
 ┊🦁 *Tiempo activo:* ${uptime}
