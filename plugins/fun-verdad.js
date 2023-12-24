@@ -1,5 +1,5 @@
 const handler = async (m, {conn}) => {
-  conn.reply(m.chat, `*┌────「 𝚅𝙴𝚁𝙳𝙰𝙳 」─*\n*“${pickRandom(global.verdad)}”*\n*└────「 SHINONOME 」─*`, m);
+  conn.reply(m.chat, `*┌────「 𝚅𝙴𝚁𝙳𝙰𝙳 」─*\n*“${pickRandom(global.verdad)}”*\n*└────「 SᴀᴋᴜʀᴀBᴏᴛ-MD 」─*`, m);
 };
 handler.help = ['verdad'];
 handler.tags = ['fun'];
