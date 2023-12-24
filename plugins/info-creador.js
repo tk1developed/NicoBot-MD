@@ -3,7 +3,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   const document = doc[Math.floor(Math.random() * doc.length)];
   const text = `*♡︎ 𝘕𝘶𝘮𝘦𝘳𝘰 𝘋𝘦 𝘔𝘪 𝘊𝘳𝘦𝘢𝘥𝘰𝘳 Wa.me/573013114854*
 
-*❦︎ 𝘕𝘶𝘮𝘦𝘳𝘰 𝘈𝘴𝘪𝘴𝘵𝘦𝘯𝘵𝘦: Wa.me/573218138672*`.trim();
+*❦︎ 𝘕𝘶𝘮𝘦𝘳𝘰 𝘋𝘦𝘭 𝘈𝘴𝘪𝘴𝘵𝘦𝘯𝘵𝘦: Wa.me/573218138672*`.trim();
   const buttonMessage= {
     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
     'mimetype': `application/${document}`,
