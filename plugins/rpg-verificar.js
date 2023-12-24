@@ -19,7 +19,6 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
   user.registered = true;
   const sn = createHash('md5').update(m.sender).digest('hex');
   const caption = `╭꒱「🐱⸽⃕𝘛𝘶 𝘙𝘦𝘨𝘪𝘴𝘵𝘳𝘰🍁⃨፝⃕✰」━⊜*
-┣┅ ━━━━━━━━━━━━ ┅ ━
 ┃⋄ *𝑁𝑜𝑚𝑏𝑟𝑒:* ${name}
 ┃⋄ *𝐸𝑑𝑎𝑑:* ${age} años
 ┃⋄ *𝑁𝑢𝑚𝑒𝑟𝑜 𝑑𝑒 𝑆𝑒𝑟𝑖𝑒:* 
