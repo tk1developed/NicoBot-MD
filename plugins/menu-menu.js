@@ -26,8 +26,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┊----------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┊👑 *Owner:* @573013114854
 ┊🕒 *Hora*: ${time}
-┊🗓 *Fecha*: ${date}
-┊📅 *Día*: ${week}
 ┊🕑 *Tiempo activo:* ${uptime}
 ┊📂 *Usuarios regs:* ${rtotalreg}
 ┊🗂 *Usuarios totales:* ${rtotal}
