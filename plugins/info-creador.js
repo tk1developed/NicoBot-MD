@@ -3,7 +3,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   const document = doc[Math.floor(Math.random() * doc.length)];
   const text = `*—◉ 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 Wa.me/573013114854*
 
-*—◉  𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 Asistente Wa.me/15092938175*
+*—◉  𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 Asistente Wa.me/5492215034412*
 
 *—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 Desarrollador Wa.me/573218138672*`.trim();
   const buttonMessage= {
