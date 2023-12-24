@@ -55,7 +55,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const Message = {
     document: { url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD` },
     mimetype: `application/${document}`,
-    fileName: `「 𝕾𝖍𝖎𝖓♡𝖓♡𝖒𝖊-𝕭♡𝖙 」`,
+    fileName: `「 𝘚𝘢𝘬𝘶𝘳𝘪𝘵𝘢𝘉𝘰𝘵🦁 」`,
     fileLength: 99999999999999,
     pageCount: 200,
     contextInfo: {
@@ -65,10 +65,10 @@ const handler = async (m, { conn, usedPrefix }) => {
         mediaUrl: "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
         mediaType: 2,
         previewType: "pdf",
-        title: "ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ",
+        title: "𝘛𝘶 𝘔𝘦𝘫𝘰𝘳 𝘉𝘰𝘵",
         body: wm,
         thumbnail: imagen1,
-        sourceUrl: "https://atom.bio/yejota",
+        sourceUrl: "https://atom.bio/sakurabot",
       },
     },
     caption: info,
