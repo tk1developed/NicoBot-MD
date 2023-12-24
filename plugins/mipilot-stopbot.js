@@ -1,7 +1,7 @@
 import fs from "fs"
 async function handler(m, {conn, usedPrefix}) {
-   if (conn.user.jid == global.conn.user.jid) return m.reply(`*[❗] No puedes apagar el Bot principal.*`)
-   m.reply(`*[❗] Dejarás de ser un Sub Bot en 5 segundos...*`)
+   if (conn.user.jid == global.conn.user.jid) return m.reply(`*😆👊 Hᴇʏ Eʟ Bᴏᴛ Pʀɪɴᴄɪᴘᴀʟ Nᴏ Sᴇ Aᴘᴀɢᴀ Wᴇʏ.*`)
+   m.reply(`*[❗] Oᴋ Oʀᴅᴇɴᴇs Rᴇsɪᴠɪᴅᴀ Dᴇsᴄᴏɴᴇᴄᴛᴀɴᴅᴏ Eʟ Bᴏᴛ...*`)
    conn.fstop = true
    conn.ws.close()
 }
