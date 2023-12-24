@@ -15,20 +15,20 @@ global.owner = [
   ['573207200376', '💫 Saku - Collaborator 2 💫', true],
   ['573218138672', '💫 Saku - Collaborator 3 💫', true],
   ['573106909511', '💫 Saku - Collaborator 4 💫', true],
-  ['5492212212532', '💫 Saku - Collaborator 5 💫', true],
+  ['573246822621', '💫 Saku - Collaborator 5 💫', true],
   ['51944167935', '💫 Saku - Collaborator 5 💫', true]
 ];
 
 global.suittag = ['0'];
 global.prems = ['0'];
 
-global.packname = '𝚂𝚊𝚔𝚞𝚛𝚊';
+global.packname = '𝘚𝘢𝘬𝘶𝘳𝘢';
 global.author = '𝑆𝑎𝑘𝑢𝑟𝑖𝑡𝑎-𝐵𝑜𝑡';
 global.wm = '❥ᰰຼ ⃟ᬽ៸𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋༒★»';
 global.titulowm = '❥ᰰຼ ⃟ᬽ៸𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋༒★»';
 global.titulowm2 = `❥ᰰຼ ⃟ᬽ៸𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋༒★»`
 global.igfg = '❥ᰰຼ ⃟ᬽ𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋༒★»';
-global.wait = '*[❗] ★彡( ₵₳Ɽ₲₳₦ĐØ, Ɇ₴₱ɆⱤɆ Ʉ₦ ₥Ø₥Ɇ₦₮Ø... )彡★*';
+global.wait = '*[❗] ★彡( 𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻𝗼𝘀 𝗠𝗶𝗻𝘂𝘁𝗼𝘀... )彡★*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -55,10 +55,10 @@ global.gt = '❥ᰰຼ ⃟ᬽ៸𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋༒
 global.mysticbot = '❥ᰰຼ ⃟ᬽ៸𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋༒★»';
 global.md = 'https://github.com/diegojadibot/SakuraBot-MD';
 global.mysticbot = 'https://github.com/diegojadibot/SakuraBot-MD';
-global.waitt = '*[❗] ★彡( ₵₳Ɽ₲₳₦ĐØ, Ɇ₴₱ɆⱤɆ Ʉ₦ ₥Ø₥Ɇ₦₮Ø... )彡★*';
-global.waittt = '*[❗] ★彡( ₵₳Ɽ₲₳₦ĐØ, Ɇ₴₱ɆⱤɆ Ʉ₦ ₥Ø₥Ɇ₦₮Ø... )彡★*';
-global.waitttt = '*[❗] ★彡( ₵₳Ɽ₲₳₦ĐØ, Ɇ₴₱ɆⱤɆ Ʉ₦ ₥Ø₥Ɇ₦₮Ø... )彡★*';
-global.nomorown = '994406078472';
+global.waitt = '*[❗] ★彡( 𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻𝗼𝘀 𝗠𝗶𝗻𝘂𝘁𝗼𝘀... )彡★*';
+global.waittt = '*[❗] ★彡( 𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻𝗼𝘀 𝗠𝗶𝗻𝘂𝘁𝗼𝘀... )彡★*';
+global.waitttt = '*[❗] ★彡( 𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻𝗼𝘀 𝗠𝗶𝗻𝘂𝘁𝗼𝘀... )彡★*';
+global.nomorown = '573013114854';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
