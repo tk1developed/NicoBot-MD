@@ -1,9 +1,9 @@
 const handler = async (m, {conn, usedPrefix}) => {
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
-  const text = `*—◉ 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 Wa.me/573013114854*
+  const text = `*♡︎ 𝘕𝘶𝘮𝘦𝘳𝘰 𝘋𝘦 𝘔𝘪 𝘊𝘳𝘦𝘢𝘥𝘰𝘳 Wa.me/573013114854*
 
-*—◉  𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 Asistente Wa.me/573218138672*`.trim();
+*❦︎ 𝘕𝘶𝘮𝘦𝘳𝘰 𝘈𝘴𝘪𝘴𝘵𝘦𝘯𝘵𝘦: Wa.me/573218138672*`.trim();
   const buttonMessage= {
     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
     'mimetype': `application/${document}`,
