@@ -7,7 +7,7 @@ const handler = async (m, {conn}) => {
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const str = `╭────[ * ❥ᰰຼ ⃟ᬽ៸𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋༒★»* ]
 │
-│*➤🌹𝘏𝘰𝘭𝘢 𝘉𝘢𝘣𝘺 ${taguser}*
+│🌹𝘏𝘰𝘭𝘢 𝘉𝘢𝘣𝘺 ${taguser}
 │
 │ *=> ⏳️ 𝘈𝘤𝘵𝘪𝘷𝘰:* ${uptime}
 │ *=> ✅ 𝘉𝘰𝘵 𝘜𝘴𝘰 𝘗𝘶𝘣𝘭𝘪𝘤𝘰*
