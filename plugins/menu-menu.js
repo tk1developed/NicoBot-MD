@@ -72,7 +72,6 @@ ${readMore}
 ┊🦁 _${usedPrefix}token_
 ┊🦁 _${usedPrefix}stop_
 ┊🦁 _${usedPrefix}bots_
-┊
 ┊🦁 _${usedPrefix}terminosycondiciones_
 ┊🦁 _${usedPrefix}grupos_
 ┊🦁 _${usedPrefix}estado_
