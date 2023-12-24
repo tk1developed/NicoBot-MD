@@ -84,15 +84,8 @@ ${readMore}
 ╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧
 
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
-┊❥ ⌲ *𝑆𝐸𝑅 - 𝐵𝑂𝑇*
+┊❥ ⌲ *𝘾𝙊𝙈𝘼𝙉𝘿𝙊𝙎*
 ┊-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┊🦊 _${usedPrefix}serbot --code_
-┊🦊 _${usedPrefix}serbot_
-┊🦊 _${usedPrefix}deletebot_
-┊🦊 _${usedPrefix}token_
-┊🦊 _${usedPrefix}stop_
-┊🦊 _${usedPrefix}bots_
-┊
 ┊⚡️ _${usedPrefix}enable restrict_
 ┊⚡️ _${usedPrefix}disable restrict_
 ┊⚡️ _${usedPrefix}enable autoread_
