@@ -328,7 +328,7 @@ ${readMore}
 ┊🛠 _${usedPrefix}cristianoronaldo_
 ┊🛠 _${usedPrefix}messi_
 ┊🛠 _${usedPrefix}cat_
-|🛠 _${usedPrefix}dog_
+┊🛠 _${usedPrefix}dog_
 ┊🛠 _${usedPrefix}meme_
 ┊🛠 _${usedPrefix}itzy_
 ┊🛠 _${usedPrefix}blackpink_
@@ -362,19 +362,19 @@ ${readMore}
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
 ┊❥ ⌲ *𝐸𝐹𝐸𝐶𝑇𝑂𝑆 𝐷𝐸 𝐴𝑈𝐷𝐼𝑂𝑆*
 ┊-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┊⚘️ ℛ𝓔𝓢𝓟𝓞𝓝𝓓𝓔 𝓐 𝓤𝓝𝓐 𝓝𝓞𝓣𝓐 𝓓𝓔 𝓥𝓞𝓩 𝓞 𝓐𝓤𝓓𝓘𝓞*
-┊⚡️ _${usedPrefix}bass_
-┊⚘️ _${usedPrefix}blown_
-┊⚡️ _${usedPrefix}deep_
-┊⚘️ _${usedPrefix}earrape_
-┊⚡️ _${usedPrefix}fast_
-┊⚘️₊̣̇ _${usedPrefix}fat_
-┊⚡️ _${usedPrefix}nightcore_
-┊⚘️ _${usedPrefix}reverse_
-┊⚡️ _${usedPrefix}robot_
-┊⚘️ _${usedPrefix}slow_
-┊⚡️ _${usedPrefix}smooth_
-┊⚘️ _${usedPrefix}tupai_
+┊🥏 ℛ𝓔𝓢𝓟𝓞𝓝𝓓𝓔 𝓐 𝓤𝓝𝓐 𝓝𝓞𝓣𝓐 𝓓𝓔 𝓥𝓞𝓩 𝓞 𝓐𝓤𝓓𝓘𝓞*
+┊⚜️ _${usedPrefix}bass_
+┊⚜️ _${usedPrefix}blown_
+┊⚜️ _${usedPrefix}deep_
+┊⚜️ _${usedPrefix}earrape_
+┊⚜️ _${usedPrefix}fast_
+┊⚜️₊̣̇ _${usedPrefix}fat_
+┊⚜️ _${usedPrefix}nightcore_
+┊⚜️ _${usedPrefix}reverse_
+┊⚜️ _${usedPrefix}robot_
+┊⚜️ _${usedPrefix}slow_
+┊⚜️ _${usedPrefix}smooth_
+┊⚜️ _${usedPrefix}tupai_
 ╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧
 
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
@@ -388,38 +388,38 @@ ${readMore}
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
 ┊❥ ⌲ *𝑆𝑂𝑁𝐼𝐷𝑂𝑆*
 ┊-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┊⚘️ _${usedPrefix}menuaudios_
+┊✨️ _${usedPrefix}menuaudios_
 ╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧
 
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
 ┊❥ ⌲ *𝑈𝑇𝐼𝐿𝐼𝐷𝐴𝐷𝐸𝑆*
 ┊-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}inspect *<link wa_gc>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}chatgpt *<texto>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}delchatgpt
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}gptvoz *<texto>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}dall-e *<texto>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}spamwa *<numero|texto|cantidad>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}tamaño *<cantidad> <imagen / video>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}readviewonce *<imagen / video>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}clima *<país> <ciudad>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}encuesta *<texto1|texto2...>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}afk *<motivo>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}ocr *<responde a imagen>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}hd *<responde a imagen>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}acortar *<enlace / link / url>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}calc *<operacion math>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}del *<mensaje>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}whatmusic *<audio>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}readqr *<imagen (QR)>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}qrcode *<texto>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}readmore *<texto1| texto2>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}styletext *<texto>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}traducir *<texto>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}nowa *<numero>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}covid *<pais>*_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}horario_
-┊⋆⁺˖⸙̭❛❧ _${usedPrefix}dropmail_
+┊🙌 _${usedPrefix}inspect *<link wa_gc>*_
+┊🙌 _${usedPrefix}chatgpt *<texto>*_
+┊🙌 _${usedPrefix}delchatgpt
+┊🙌 _${usedPrefix}gptvoz *<texto>*_
+┊🙌 _${usedPrefix}dall-e *<texto>*_
+┊🙌 _${usedPrefix}spamwa *<numero|texto|cantidad>*_
+┊🙌 _${usedPrefix}tamaño *<cantidad> <imagen / video>*_
+┊🙌 _${usedPrefix}readviewonce *<imagen / video>*_
+┊🙌 _${usedPrefix}clima *<país> <ciudad>*_
+┊🙌 _${usedPrefix}encuesta *<texto1|texto2...>*_
+┊🙌 _${usedPrefix}afk *<motivo>*_
+┊🙌 _${usedPrefix}ocr *<responde a imagen>*_
+┊🙌 _${usedPrefix}hd *<responde a imagen>*_
+┊🙌 _${usedPrefix}acortar *<enlace / link / url>*_
+┊🙌 _${usedPrefix}calc *<operacion math>*_
+┊🙌 _${usedPrefix}del *<mensaje>*_
+┊🙌 _${usedPrefix}whatmusic *<audio>*_
+┊🙌 _${usedPrefix}readqr *<imagen (QR)>*_
+┊🙌 _${usedPrefix}qrcode *<texto>*_
+┊🙌 _${usedPrefix}readmore *<texto1| texto2>*_
+┊🙌 _${usedPrefix}styletext *<texto>*_
+┊🙌 _${usedPrefix}traducir *<texto>*_
+┊🙌 _${usedPrefix}nowa *<numero>*_
+┊🙌 _${usedPrefix}covid *<pais>*_
+┊🙌 _${usedPrefix}horario_
+┊🙌 _${usedPrefix}dropmail_
 ╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧
 
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
@@ -449,32 +449,32 @@ ${readMore}
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
 ┊❥ ⌲ *𝑆𝑇𝐼𝐾𝐸𝑅𝑆*
 ┊-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┊🦁 _${usedPrefix}sticker *<responder a imagen o video>*_
-┊🦁 _${usedPrefix}sticker *<enlace / link / url>*_
-┊🦁 _${usedPrefix}sticker2 *<responder a imagen o video>*_
-┊🦁 _${usedPrefix}sticker2 *<enlace / link / url>*_
-┊🦁 _${usedPrefix}s *<responder a imagen o video>*_
-┊🦁 _${usedPrefix}s *<enlace / link / url>*_
-┊🦁 _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
-┊🦁 _${usedPrefix}scircle *<imagen>*_
-┊🦁 _${usedPrefix}sremovebg *<imagen>*_
-┊🦁 _${usedPrefix}semoji *<tipo> <emoji>*_
-┊🦁 _${usedPrefix}qc *<texto>*_
-┊🦁 _${usedPrefix}attp *<texto>*_
-┊🦁 _${usedPrefix}attp2 *<texto>*_
-┊🦁 _${usedPrefix}attp3 *<texto>*_
-┊🦁 _${usedPrefix}ttp *<texto>*_
-┊🦁 _${usedPrefix}ttp2 *<texto>*_
-┊🦁 _${usedPrefix}ttp3 *<texto>*_
-┊🦁 _${usedPrefix}ttp4 *<texto>*_
-┊🦁 _${usedPrefix}ttp5 *<texto>*_
-┊🦁 _${usedPrefix}pat *<@tag>*_
-┊🦁 _${usedPrefix}slap *<@tag>*_
-┊🦁 _${usedPrefix}kiss *<@tag>*_
-┊🦁 _${usedPrefix}dado_
-┊🦁 _${usedPrefix}wm *<packname> <author>*_
-┊🦁 _${usedPrefix}stickermarker *<efecto> <imagen>*_
-┊🦁 _${usedPrefix}stickerfilter *<efecto> <imagen>*_
+┊💮 _${usedPrefix}sticker *<responder a imagen o video>*_
+┊💧 _${usedPrefix}sticker *<enlace / link / url>*_
+┊💮 _${usedPrefix}sticker2 *<responder a imagen o video>*_
+┊💧 _${usedPrefix}sticker2 *<enlace / link / url>*_
+┊💮 _${usedPrefix}s *<responder a imagen o video>*_
+┊💧 _${usedPrefix}s *<enlace / link / url>*_
+┊💮 _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
+┊💧 _${usedPrefix}scircle *<imagen>*_
+┊💮 _${usedPrefix}sremovebg *<imagen>*_
+┊💧 _${usedPrefix}semoji *<tipo> <emoji>*_
+┊💮 _${usedPrefix}qc *<texto>*_
+┊💧 _${usedPrefix}attp *<texto>*_
+┊💮 _${usedPrefix}attp2 *<texto>*_
+┊💧 _${usedPrefix}attp3 *<texto>*_
+┊💮 _${usedPrefix}ttp *<texto>*_
+┊💧 _${usedPrefix}ttp2 *<texto>*_
+┊💮 _${usedPrefix}ttp3 *<texto>*_
+┊💧 _${usedPrefix}ttp4 *<texto>*_
+┊💮 _${usedPrefix}ttp5 *<texto>*_
+┊💧 _${usedPrefix}pat *<@tag>*_
+┊💮 _${usedPrefix}slap *<@tag>*_
+┊💧 _${usedPrefix}kiss *<@tag>*_
+┊💮 _${usedPrefix}dado_
+┊💧 _${usedPrefix}wm *<packname> <author>*_
+┊💮 _${usedPrefix}stickermarker *<efecto> <imagen>*_
+┊💧 _${usedPrefix}stickerfilter *<efecto> <imagen>*_
 ╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧
 
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
