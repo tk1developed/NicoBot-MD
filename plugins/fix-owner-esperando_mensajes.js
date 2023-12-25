@@ -5,13 +5,13 @@ import path from 'path';
 
 const handler = async (m, { conn, usedPrefix }) => {
   if (global.conn.user.jid !== conn.user.jid) {
-    return conn.sendMessage(m.chat, {text: '*[❗] Utiliza este comando directamente en el número principal del Bot.*'}, {quoted: m});
+    return conn.sendMessage(m.chat, {text: '*😆Tɪᴇɴᴇs Qᴜᴇ Usᴀʀʟᴏ Eɴ Eʟ Nᴜᴍᴇʀᴏ Pʀɪɴᴄɪᴘᴀʟ Dᴇʟ Bᴏᴛ.*'}, {quoted: m});
   }
   await conn.sendMessage(m.chat, {text: '*[❗] Iniciando proceso de eliminación de todos los archivos de sesión, excepto el archivo creds.json...*'}, {quoted: m});
   const sessionPath = './ShinoSession/';
   try {
     if (!existsSync(sessionPath)) {
-      return await conn.sendMessage(m.chat, {text: '*[❗] La carpeta ShinoSession no existe o está vacía.*'}, {quoted: m});
+      return await conn.sendMessage(m.chat, {text: '*[❗] La carpeta SakuraBotSession no existe o está vacía.*'}, {quoted: m});
     }
     const files = await fs.readdir(sessionPath);
     let filesDeleted = 0;
@@ -22,7 +22,7 @@ const handler = async (m, { conn, usedPrefix }) => {
       }
     }
     if (filesDeleted === 0) {
-      await conn.sendMessage(m.chat, {text: '*[❗] No se encontró ningún archivo para eliminar en la carpeta ShinoSession.*'}, {quoted: m});
+      await conn.sendMessage(m.chat, {text: '*[❗] No se encontró ningún archivo para eliminar en la carpeta SakuraBotSession.*'}, {quoted: m});
     } else {
       await conn.sendMessage(m.chat, {text: `*[❗] Se eliminaron ${filesDeleted} archivos de sesión, excepto el archivo creds.json.*`}, {quoted: m});
     }
