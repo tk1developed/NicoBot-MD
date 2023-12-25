@@ -116,7 +116,7 @@ ${readMore}
 ┊🦁 _${usedPrefix}ppt *<papel / tijera /piedra>*_
 ┊🦁 _${usedPrefix}prostituto *<nombre / @tag>*_
 ┊🦁 _${usedPrefix}prostituta *<nombre / @tag>*_
-┊🦁 _${usedPrefix}gay2 *<nombre / @tag>*_
+┊🏳️‍🌈 _${usedPrefix}gay2 *<nombre / @tag>*_
 ┊🦁 _${usedPrefix}lesbiana *<nombre / @tag>*_
 ┊🦁 _${usedPrefix}pajero *<nombre / @tag>*_
 ┊🦁 _${usedPrefix}pajera *<nombre / @tag>*_
