@@ -6,7 +6,7 @@ const handler = async (m, {conn, text}) => {
   if (!who) throw '*ᴇsᴄʀɪʙᴀ ᴇʟ @𝚝𝚊𝚐 ᴅᴇʟ ᴜsᴜᴀʀɪᴏ ʙᴀɴᴇᴀᴅᴏ*';
   const users = global.db.data.users;
   users[who].banned = false;
-  conn.reply(m.chat, `*ʏᴀ ᴅᴇsʙᴀɴᴇᴀᴅᴏ ᴄᴏɴ ᴇxɪᴛᴏ*\n*—◉ 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝚈𝙰 𝙿𝚄𝙴𝙳𝙴 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙱𝙾𝚃*`, m);
+  conn.reply(m.chat, `*🦁 Lɪsᴛᴏ Aᴍᴏ*\n*—◉ Eʟ Usᴜᴀʀɪᴏ Yᴀ Pᴜᴇᴅᴇ Usᴀʀ Mɪs Cᴏᴍᴀɴᴅᴏs*`, m);
 };
 handler.help = ['unbanuser'];
 handler.tags = ['owner'];
