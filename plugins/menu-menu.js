@@ -245,6 +245,7 @@ ${readMore}
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
 ┊❥ ⌲ *𝐶𝑂𝑁𝐹𝐼𝐺 - 𝐺𝑅𝑈𝑃𝑂𝑆*
 ┊-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
+┊⚙️ _${usedPrefix}salir *<admins>*_
 ┊⚙️ _${usedPrefix}add *<numero>*_
 ┊⚙️ _${usedPrefix}kick *<@tag>*_
 ┊⚙️ _${usedPrefix}kick2 *<@tag>*_
@@ -368,7 +369,7 @@ ${readMore}
 ┊⚜️ _${usedPrefix}deep_
 ┊⚜️ _${usedPrefix}earrape_
 ┊⚜️ _${usedPrefix}fast_
-┊⚜️₊̣̇ _${usedPrefix}fat_
+┊⚜️ _${usedPrefix}fat_
 ┊⚜️ _${usedPrefix}nightcore_
 ┊⚜️ _${usedPrefix}reverse_
 ┊⚜️ _${usedPrefix}robot_
@@ -396,7 +397,7 @@ ${readMore}
 ┊-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┊🌸 _${usedPrefix}inspect *<link wa_gc>*_
 ┊🌸 _${usedPrefix}chatgpt *<texto>*_
-┊🌸 _${usedPrefix}delchatgpt
+┊🌸 _${usedPrefix}delchatgpt_
 ┊🌸 _${usedPrefix}gptvoz *<texto>*_
 ┊🌸 _${usedPrefix}dall-e *<texto>*_
 ┊🌸 _${usedPrefix}spamwa *<numero|texto|cantidad>*_
