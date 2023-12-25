@@ -1551,7 +1551,7 @@ global.dfail = (type, m, conn) => {
     restrict: '*[ ⚠️ ] 𝕔𝕠𝕞𝕒𝕟𝕕𝕠 𝕣𝕖𝕤𝕥𝕣𝕚𝕟𝕘𝕚𝕕𝕠/𝕕𝕖𝕤𝕒𝕔𝕥𝕚𝕧𝕒𝕕𝕠 𝕡𝕠𝕣 𝕕𝕖𝕤𝕚𝕔𝕚𝕠́𝕟 𝕕𝕖𝕝 𝕡𝕣𝕠𝕡𝕚𝕖𝕥𝕒𝕣𝕚𝕠(𝕒) (𝕠𝕨𝕟𝕖𝕣) 𝕕𝕖𝕝 𝔹𝕠𝕥.*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: '➢ ⃟⃞❆𖤍𝘋𝘪𝘦𝘨𝘰-𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𖤍𖣘 ⃟⃞❆', thumbnail: imagen1, sourceUrl: 'https://chat.whatsapp.com/KXjS9CBRF680GBf8fiXDeu'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: '➢ ⃟⃞❆𖤍𝘋𝘪𝘦𝘨𝘰-𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𖤍𖣘 ⃟⃞❆', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VaHYnwaKQuJIlTFuS22l'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
