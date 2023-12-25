@@ -111,41 +111,41 @@ ${readMore}
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
 ┊❥ ⌲ *𝐷𝐼𝑉𝐸𝑅𝑆𝐼𝑂𝑁𝐸𝑆*
 ┊-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┊🌺 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
-┊🌺 _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
-┊🌺 _${usedPrefix}ppt *<papel / tijera /piedra>*_
-┊🌺 _${usedPrefix}prostituto *<nombre / @tag>*_
-┊🌺 _${usedPrefix}prostituta *<nombre / @tag>*_
-┊🌺 _${usedPrefix}gay2 *<nombre / @tag>*_
-┊🌺 _${usedPrefix}lesbiana *<nombre / @tag>*_
-┊🌺 _${usedPrefix}pajero *<nombre / @tag>*_
-┊🌺 _${usedPrefix}pajera *<nombre / @tag>*_
-┊🌺 _${usedPrefix}follar *<nombre / @tag>*_
-┊🌺 _${usedPrefix}puto *<nombre / @tag>*_
-┊🌺 _${usedPrefix}puta *<nombre / @tag>*_
-┊🌺 _${usedPrefix}manco *<nombre / @tag>*_
-┊🌺 _${usedPrefix}manca *<nombre / @tag>*_
-┊🌺 _${usedPrefix}rata *<nombre / @tag>*_
-┊🌺 _${usedPrefix}love *<nombre / @tag>*_
-┊🌺 _${usedPrefix}doxear *<nombre / @tag>*_
-┊🌺 _${usedPrefix}pregunta *<texto>*_
-┊🌺 _${usedPrefix}suitpvp *<@tag>*_
-┊🌺 _${usedPrefix}slot *<apuesta>*_
-┊🌺 _${usedPrefix}ttt *<nombre sala>*_
-┊🌺 _${usedPrefix}delttt_
-┊🌺 _${usedPrefix}acertijo_
-┊🌺 _${usedPrefix}personalidad *<nombre / @tag>*_
-┊🌺 _${usedPrefix}simi *<texto>*_
-┊🌺 _${usedPrefix}top *<texto>*_
-┊🌺 _${usedPrefix}topgays_
-┊🌺 _${usedPrefix}topotakus_
-┊🌺 _${usedPrefix}formarpareja_
-┊🌺 _${usedPrefix}verdad_
-┊ _${usedPrefix}reto_
-┊🌺 _${usedPrefix}cancion_
-┊🌺 _${usedPrefix}pista_
-┊🌺 _${usedPrefix}akinator_
-┊🌺 _${usedPrefix}wordfind_
+┊📊 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
+┊📌 _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
+┊✂️ _${usedPrefix}ppt *<papel / tijera /piedra>*_
+┊🗃 _${usedPrefix}prostituto *<nombre / @tag>*_
+┊🗃 _${usedPrefix}prostituta *<nombre / @tag>*_
+┊🗃 _${usedPrefix}gay2 *<nombre / @tag>*_
+┊🗃 _${usedPrefix}lesbiana *<nombre / @tag>*_
+┊🗃 _${usedPrefix}pajero *<nombre / @tag>*_
+┊🗃 _${usedPrefix}pajera *<nombre / @tag>*_
+┊🗃 _${usedPrefix}follar *<nombre / @tag>*_
+┊🗃 _${usedPrefix}puto *<nombre / @tag>*_
+┊🗃 _${usedPrefix}puta *<nombre / @tag>*_
+┊🗃 _${usedPrefix}manco *<nombre / @tag>*_
+┊🗃 _${usedPrefix}manca *<nombre / @tag>*_
+┊🗃 _${usedPrefix}rata *<nombre / @tag>*_
+┊🗃 _${usedPrefix}love *<nombre / @tag>*_
+┊🗃 _${usedPrefix}doxear *<nombre / @tag>*_
+┊📝 _${usedPrefix}pregunta *<texto>*_
+┊📝 _${usedPrefix}suitpvp *<@tag>*_
+┊💼 _${usedPrefix}slot *<apuesta>*_
+┊🗳 _${usedPrefix}ttt *<nombre sala>*_
+┊📉 _${usedPrefix}delttt_
+┊✏️ _${usedPrefix}acertijo_
+┊🗃 _${usedPrefix}personalidad *<nombre / @tag>*_
+┊📝 _${usedPrefix}simi *<texto>*_
+┊🚸 _${usedPrefix}top *<texto>*_
+┊🏳️‍🌈 _${usedPrefix}topgays_
+┊〰️ _${usedPrefix}topotakus_
+┊👩‍❤️‍💋‍👨 _${usedPrefix}formarpareja_
+┊🏷 _${usedPrefix}verdad_
+┊💸 _${usedPrefix}reto_
+┊🗄 _${usedPrefix}cancion_
+┊🪝 _${usedPrefix}pista_
+┊🧰 _${usedPrefix}akinator_
+┊🔭 _${usedPrefix}wordfind_
 ╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧
 
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
@@ -188,41 +188,41 @@ ${readMore}
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
 ┊❥ ⌲ *𝑂𝑃𝐶𝐼𝑂𝑁𝐸𝑆 - 𝐷𝐸𝑆𝐶𝐴𝑅𝐺𝐴𝑆*
 ┊-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┊🎨 _${usedPrefix}instagram *<enlace / link / url>*_
-┊🎨 _${usedPrefix}mediafire *<enlace / link / url>*_
-┊🎨 _${usedPrefix}gitclone *<enlace / link / url>*_
-┊🎨 _${usedPrefix}gdrive *<enlace / link / url>*_
-┊🎨 _${usedPrefix}tiktok *<enlace / link / url>*_
-┊🎨 _${usedPrefix}tiktokimg *<enlace / link / url>*_
-┊🎨 _${usedPrefix}xnxxdl *<enlace / link / url>*_
-┊🎨 _${usedPrefix}xvideosdl *<enlace / link / url>*_
-┊🎨 _${usedPrefix}twitter *<enlace / link / url>*_
-┊🎨 _${usedPrefix}fb *<enlace / link / url>*_
-┊🎨 _${usedPrefix}ytshort *<enlace / link / url>*_
-┊🎨 _${usedPrefix}ytmp3 *<enlace / link / url>*_
-┊🎨 _${usedPrefix}ytmp4 *<enlace / link / url>*_
-┊🎨 _${usedPrefix}ytmp3doc *<enlace / link / url>*_
-┊🎨 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
-┊🎨 _${usedPrefix}videodoc *<enlace / link / url>*_
-┊🎨 _${usedPrefix}dapk2 *<enlace / link / url>*_
-┊🎨 _${usedPrefix}stickerpack *<enlace / link / url>*_
-┊🎨 _${usedPrefix}play *<texto>*_
-┊🎨 _${usedPrefix}play2 *<texto>*_
-┊🎨 _${usedPrefix}play.1 *<texto>*_
-┊🎨 _${usedPrefix}play.2 *<texto>*_
-┊🎨 _${usedPrefix}playdoc *<texto>*_
-┊🎨 _${usedPrefix}playdoc2 *<texto>*_
-┊🎨 _${usedPrefix}playlist *<texto>*_
-┊🎨 _${usedPrefix}spotify *<texto>*_
-┊🎨 _${usedPrefix}ringtone *<texto>*_
-┊🎨 _${usedPrefix}soundcloud *<texto>*_
-┊🎨 _${usedPrefix}imagen *<texto>*_
-┊🎨 _${usedPrefix}pinterest *<texto>*_
-┊🎨 _${usedPrefix}wallpaper *<texto>*_
-┊🎨 _${usedPrefix}pptiktok *<nombre de usuario>*_
-┊🎨 _${usedPrefix}igstalk *<nombre de usuario>*_
-┊🎨 _${usedPrefix}igstory *<nombre de usuario>*_
-┊🎨 _${usedPrefix}tiktokstalk *<username>*_
+┊🔗 _${usedPrefix}instagram *<enlace / link / url>*_
+┊🔗 _${usedPrefix}mediafire *<enlace / link / url>*_
+┊🔗 _${usedPrefix}gitclone *<enlace / link / url>*_
+┊🔗 _${usedPrefix}gdrive *<enlace / link / url>*_
+┊🔗 _${usedPrefix}tiktok *<enlace / link / url>*_
+┊🔗 _${usedPrefix}tiktokimg *<enlace / link / url>*_
+┊🔗 _${usedPrefix}xnxxdl *<enlace / link / url>*_
+┊🔗 _${usedPrefix}xvideosdl *<enlace / link / url>*_
+┊🔗 _${usedPrefix}twitter *<enlace / link / url>*_
+┊🔗 _${usedPrefix}fb *<enlace / link / url>*_
+┊🔗 _${usedPrefix}ytshort *<enlace / link / url>*_
+┊🔗 _${usedPrefix}ytmp3 *<enlace / link / url>*_
+┊🔗 _${usedPrefix}ytmp4 *<enlace / link / url>*_
+┊🔗 _${usedPrefix}ytmp3doc *<enlace / link / url>*_
+┊🔗 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
+┊🔗 _${usedPrefix}videodoc *<enlace / link / url>*_
+┊🔗 _${usedPrefix}dapk2 *<enlace / link / url>*_
+┊🔗 _${usedPrefix}stickerpack *<enlace / link / url>*_
+┊🎶 _${usedPrefix}play *<texto>*_
+┊🎥 _${usedPrefix}play2 *<texto>*_
+┊🎬 _${usedPrefix}play.1 *<texto>*_
+┊🎬 _${usedPrefix}play.2 *<texto>*_
+┊✨️ _${usedPrefix}playdoc *<texto>*_
+┊✨️ _${usedPrefix}playdoc2 *<texto>*_
+┊✨️ _${usedPrefix}playlist *<texto>*_
+┊✨️ _${usedPrefix}spotify *<texto>*_
+┊✨️ _${usedPrefix}ringtone *<texto>*_
+┊✨️ _${usedPrefix}soundcloud *<texto>*_
+┊✨️ _${usedPrefix}imagen *<texto>*_
+┊✨️ _${usedPrefix}pinterest *<texto>*_
+┊✨️ _${usedPrefix}wallpaper *<texto>*_
+┊✨️ _${usedPrefix}pptiktok *<nombre de usuario>*_
+┊✨️ _${usedPrefix}igstalk *<nombre de usuario>*_
+┊✨️ _${usedPrefix}igstory *<nombre de usuario>*_
+┊✨️ _${usedPrefix}tiktokstalk *<username>*_
 ╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧
 
 ╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
