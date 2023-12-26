@@ -9,7 +9,7 @@ import moment from 'moment-timezone';
 
 global.botnumber = ""
 
-global.owner = [
+global.owner = ['573013114854']
   ['573013114854', '👑 Saku - Creador 👑', true],
   ['5492215034412', '💫 Saku - Collaborator 1 💫', true],
   ['573207200376', '💫 Saku - Collaborator 2 💫', true],
