@@ -1,4 +1,4 @@
-//Créditos a diegojadibot
+//Créditos a Katashi Fukushima
 
 import fs from 'fs'
 
