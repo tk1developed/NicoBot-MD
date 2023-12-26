@@ -10,7 +10,8 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['573013114854', '👑 Diego - Creador 👑', true];
+  ['573013114854', '👑 Diego - Creador 👑', true],
+['573013114854', '👑 Diego - Creador 👑', true];
 
 global.suittag = ['0'];
 global.prems = ['0'];
