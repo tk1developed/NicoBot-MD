@@ -16,7 +16,7 @@ global.owner = [
   ['573218138672', '💫 Dairo - Collaborator 3 💫', true],
   ['573106909511', '💫 Ivan - Collaborator 4 💫', true],
   ['573013114854', '💫 Oficial - Owner 💫', true],
-  ['573013114854', '💫 Reporte - Collaborator 5 💫', true]
+  ['573246822621', '💫 Reporte - Collaborator 5 💫', true]
 ];
 
 global.suittag = ['0'];
