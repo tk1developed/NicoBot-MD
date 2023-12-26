@@ -10,14 +10,15 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['573013114854', '👑 Diego - Creador 👑', true],
-  ['51935499065', '💫 Bot - Collaborator 1 💫', true],
-  ['573207200376', '💫 Carmen - Collaborator 2 💫', true],
-  ['573218138672', '💫 Dairo - Collaborator 3 💫', true],
-  ['573106909511', '💫 Ivan - Collaborator 4 💫', true],
-  ['573013114854', '💫 Oficial - Owner 💫', true],
-  ['573246822621', '💫 Reporte - Collaborator 5 💫', true]
-];
+ [
+  [ '573246822621', '👑 Diego - Creador 👑', true ],
+  [ '51935499065', '💫 Bot - Collaborator 1 💫', true ],
+  [ '573207200376', '💫 Carmen - Collaborator 2 💫', true ],
+  [ '573218138672', '💫 Dairo - Collaborator 3 💫', true ],
+  [ '573106909511', '💫 Ivan - Collaborator 4 💫', true ],
+  [ '573013114854', '💫 Oficial - Owner 💫', true ],
+  [ '573218138672', '💫 Reporte - Collaborator 5 💫', true ]
+]
 
 global.suittag = ['0'];
 global.prems = ['0'];
