@@ -8,7 +8,7 @@ handler.all = async function(m) {
   // const estiloaudio = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: {"audioMessage": { "mimetype":"audio/ogg; codecs=opus", "seconds": "99569", "ptt": "true"}}}
   if (/^bot$/i.test(m.text) && !chat.isBanned) {
     conn.sendPresenceUpdate('recording', m.chat);
-    await m.reply(`*🦁Hola Bebé Soy SakuraBot, Creado Por Diego, En Que Puedo Ayudarte?*`);
+    await m.reply(`*❤𝘏𝘰𝘭𝘢 𝘉𝘦𝘣𝘦́ 𝘚𝘰𝘺 𝘌𝘭 𝘉𝘰𝘵 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋, 𝘚𝘰𝘺 𝘊𝘳𝘦𝘢𝘥𝘰 𝘗𝘰𝘳 𝘋𝘪𝘦𝘨𝘰, 𝘌𝘯 𝘘𝘶𝘦 𝘗𝘰𝘥𝘦𝘮𝘰𝘴 𝘈𝘺𝘶𝘥𝘢𝘳𝘵𝘦?💕*`);
     m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
     // conn.sendFile(m.chat, vn, 'bot.mp3', null, m, true, { type: 'audioMessage', seconds: '4556', ptt: true, sendEphemeral: true, quoted: m })
   }
