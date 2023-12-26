@@ -7,7 +7,7 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = "573013114854"
+global.botnumber = ""
 
 global.owner = [
   ['573013114854', '👑 Saku - Creador 👑', true],
@@ -58,7 +58,7 @@ global.mysticbot = 'https://github.com/diegojadibot/SakuraBot-MD';
 global.waitt = '*★彡 𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻𝗼𝘀 𝗠𝗶𝗻𝘂𝘁𝗼𝘀...*';
 global.waittt = '*★彡 𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻𝗼𝘀 𝗠𝗶𝗻𝘂𝘁𝗼𝘀...*';
 global.waitttt = '*★彡 𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻𝗼𝘀 𝗠𝗶𝗻𝘂𝘁𝗼𝘀...*';
-global.nomorown = '573218138672';
+global.nomorown = '57 301 3114854';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
