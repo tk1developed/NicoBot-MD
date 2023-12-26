@@ -1,3 +1,5 @@
+Aquí tienes un ejemplo de código en JavaScript para un juego de ordenar:
+
 ```javascript
 // Definir una lista de palabras desordenadas
 var palabrasDesordenadas = ["manzana", "pera", "banana", "naranja"];
@@ -44,9 +46,9 @@ if (esCorrecto) {
   console.log("¡Correcto! Las palabras están en orden.");
 } else {
   console.log("Incorrecto. Las palabras no están en orden.");
-}
+}}
 ```
-handler.help = ['owner', 'creator'];
-handler.tags = ['info'];
-handler.command = /^(ordenar|palabra|orden)$/i;
+handler.command = /^(ordenar|palabra|orden|propietario)$/i;
 export default handler;
+
+Este código crea un juego en el que se mezclan palabras y el usuario debe ingresar las palabras en el orden correcto. El código utiliza una función para mezclar las palabras y otra función para verificar si las palabras ingresadas por el usuario están en el orden correcto.
