@@ -11,7 +11,7 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
   if (!age) throw '*[❗] 𝘓𝘢 𝘌𝘥𝘢𝘥 𝘌𝘴 𝘕𝘦𝘴𝘦𝘴𝘢𝘳𝘪𝘰 𝘗𝘢𝘳𝘢 𝘌𝘭 𝘙𝘦𝘨𝘪𝘴𝘵𝘳𝘰*';
   if (name.length >= 30) throw '😆𝘞𝘰𝘰 𝘛𝘶 𝘕𝘰𝘮𝘣𝘳𝘦 𝘌𝘴 𝘓𝘢𝘳𝘨𝘰, 𝘜𝘴𝘢 𝘖𝘵𝘳𝘰';
   age = parseInt(age);
-  if (age > 60) throw conn.reply(m.chat, info, m, { contextInfo: { externalAdReply :{ mediaUrl: ig, mediaType: 2, title: wm, body: azami, thumbnail: await(await fetch(link)).buffer(), sourceUrl: link}}});
+  if (age > 60) throw '*[❗] 𝘞𝘩𝘢𝘵𝘴,𝘊𝘰𝘮𝘰 𝘝𝘪𝘷𝘦𝘴 𝘉𝘪𝘦𝘫𝘰? 👴🏻*';
   if (age < 5) throw '*[❗] 𝘊𝘰𝘮𝘰 𝘘𝘶𝘦 𝘜𝘯 𝘉𝘦𝘣𝘦́ 𝘚𝘢𝘣𝘦 𝘜𝘴𝘢𝘳 𝘞𝘩𝘢𝘵𝘴𝘈𝘱𝘱? 😲*';
   user.name = name.trim();
   user.age = age;
