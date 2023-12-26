@@ -10,13 +10,13 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['573013114854', '👑 Sakura - Creador 👑', true],
-  ['573218138672', '💫 Sakura - Collaborator 1 💫', true],
-  ['573207200376', '💫 Sakura - Collaborator 2 💫', true],
-  ['573106909511', '💫 Sakura - Collaborator 3 💫', true],
-  ['50499698072', '💫 Sakura - Collaborator 4 💫', true],
-  ['573006160430', '💫 Sakura - Collaborator 5 💫', true],
-  ['573003014644', '💫 Sakura - Collaborator 5 💫', true]
+ ['573013114854', '👑 Sakura - Creador 👑', true],
+ ['573218138672', '💫 Sakura - Collaborator 1 💫', true],
+ ['573207200376', '💫 Sakura - Collaborator 2 💫', true],
+ ['573106909511', '💫 Sakura - Collaborator 3 💫', true],
+ ['50499698072', '💫 Sakura - Collaborator 4 💫', true],
+ ['573006160430', '💫 Sakura - Collaborator 5 💫', true],
+ ['573003014644', '💫 Sakura - Collaborator 5 💫', true]
 ];
 
 global.suittag = ['0'];
