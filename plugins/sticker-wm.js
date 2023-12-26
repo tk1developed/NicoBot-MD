@@ -1,14 +1,14 @@
 import {addExif} from '../lib/sticker.js';
 const handler = async (m, {conn, text}) => {
-  if (!m.quoted) throw '*👊ʜᴇʏ ᴘᴀɴᴀ ᴛᴇ ғᴀʟᴛᴏ́ ᴇʟ sᴛɪᴋᴇʀ*';
+  if (!m.quoted) throw '*⚠️𝘉𝘦𝘣𝘦́ 𝘛𝘦 𝘍𝘢𝘭𝘵𝘰́ 𝘜𝘯 𝘚𝘵𝘪𝘬𝘦𝘳✨*';
   let stiker = false;
   try {
     let [packname, ...author] = text.split('|');
     author = (author || []).join('|');
     const mime = m.quoted.mimetype || '';
-    if (!/webp/.test(mime)) throw '*👊ʜᴇʏ ᴘᴀɴᴀ ᴛᴇ ғᴀʟᴛᴏ́ ᴇʟ sᴛɪᴋᴇʀ*';
+    if (!/webp/.test(mime)) throw '*⚠️𝘉𝘦𝘣𝘦́ 𝘛𝘦 𝘍𝘢𝘭𝘵𝘰́ 𝘜𝘯 𝘚𝘵𝘪𝘬𝘦𝘳✨*';
     const img = await m.quoted.download();
-    if (!img) throw '*👊ʜᴇʏ ᴘᴀɴᴀ ᴛᴇ ғᴀʟᴛᴏ́ ᴇʟ sᴛɪᴋᴇʀ*';
+    if (!img) throw '*⚠️𝘉𝘦𝘣𝘦́ 𝘛𝘦 𝘍𝘢𝘭𝘵𝘰́ 𝘜𝘯 𝘚𝘵𝘪𝘬𝘦𝘳✨*';
     stiker = await addExif(img, packname || global.packname, author || global.author);
   } catch (e) {
     console.error(e);
