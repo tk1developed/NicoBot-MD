@@ -12,7 +12,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
     const mime = (q.msg || q).mimetype || q.mediaType || '';
     if (/webp|image|video/g.test(mime)) {
       const img = await q.download?.();
-      if (!img) throw `⚠️ *_La conversión ha fallado, intenta enviar primero imagen/video/gif y luego responde con el comando ${usedPrefix + command}*_`;
+      if (!img) throw `⚠️ *𝘏𝘦𝘺 𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦 𝘊𝘰𝘯 𝘜𝘯𝘢 𝘐𝘮𝘢𝘨𝘦𝘯 𝘖 𝘜𝘯 𝘝𝘪𝘥𝘦𝘰, 𝘊𝘰𝘯 𝘌𝘭 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 .𝘴${usedPrefix + command}*`;
       let out;
       try {
         stiker = await sticker(img, false, global.packname, global.author);
@@ -36,7 +36,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
     if (!stiker) stiker = e;
   } finally {
     if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '', m);
-    else throw '⚠️ *_La conversión ha fallado, intenta enviar primero imagen/video/gif y luego responde con el comando._*';
+    else throw '⚠️ *𝘏𝘦𝘺 𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦 𝘊𝘰𝘯 𝘜𝘯𝘢 𝘐𝘮𝘢𝘨𝘦𝘯 𝘖 𝘜𝘯 𝘝𝘪𝘥𝘦𝘰, 𝘊𝘰𝘯 𝘌𝘭 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 .𝘴';
   }
 };
 handler.help = ['sfull'];
@@ -76,7 +76,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
       stiker = await mp4ToWebp(img, { pack: packname || global.packname, author: author || global.author })
     } else if (args[0] && isUrl(args[0])) {
       stiker = await createstiker(false, args[0], '', author, 20)
-    } else throw `⚠️ *_La conversión ha fallado, intenta enviar primero imagen/video/gif y luego responde con el comando. ${usedPrefix + command}_*`
+    } else throw `⚠️ *𝘏𝘦𝘺 𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦 𝘊𝘰𝘯 𝘜𝘯𝘢 𝘐𝘮𝘢𝘨𝘦𝘯 𝘖 𝘜𝘯 𝘝𝘪𝘥𝘦𝘰, 𝘊𝘰𝘯 𝘌𝘭 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 .𝘴 ${usedPrefix + command}*`
   } catch (error) {
     console.log(error)
     try {
@@ -96,7 +96,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
         throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 / 𝚄𝚁𝙻 / 𝙻𝙸𝙽𝙺 𝙽𝙾 𝙴𝚂 𝚅𝙰𝙻𝙸𝙳𝙰, 𝙻𝙰 𝚃𝙴𝚁𝙼𝙸𝙽𝙰𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 / 𝚄𝚁𝙻 / 𝙻𝙸𝙽𝙺 𝙳𝙴𝙱𝙴 𝚂𝙴𝚁 .𝚓𝚙𝚐, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix}s https://telegra.ph/file/0dc687c61410765e98de2.jpg*`
       }
     } catch (error) {
-      stiker = `⚠️ *_La conversión ha fallado, intenta enviar primero imagen/video/gif y luego responde con el comando._*`
+      stiker = `⚠️ *𝘏𝘦𝘺 𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦 𝘊𝘰𝘯 𝘜𝘯𝘢 𝘐𝘮𝘢𝘨𝘦𝘯 𝘖 𝘜𝘯 𝘝𝘪𝘥𝘦𝘰, 𝘊𝘰𝘯 𝘌𝘭 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 .𝘴`
     }
   } finally {
     m.reply(stiker)
