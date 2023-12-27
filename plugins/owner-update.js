@@ -5,7 +5,7 @@ const handler = async (m, { conn, text }) => {
           const stdout = execSync('git pull' + (m.fromMe && text ? ' ' + text : ''));
           let messager = stdout.toString()
           if (messager.includes('Already up to date.')) messager = '*✨Hᴇʏ Aᴍᴏʀ Nᴏ Hᴀʏ Nᴀᴅᴀ Pᴏʀ Aᴄᴛᴜᴀʟɪᴢᴀʀ Eɴ Eʟ Rᴇᴘᴏsɪᴛᴏʀɪᴏ Oғɪᴄɪᴀʟ⚠️*'
-          if (messager.includes('Updating')) messager = '*✨𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋 Se Actualizó Exitosamente,El Repositorio⚡️:*\n\n' + stdout.toString()
+          if (messager.includes('Updating')) messager = '*✨𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋 Sᴇ Aᴄᴛᴜᴀʟɪᴢᴏ́ Exɪᴛᴏsᴀᴍᴇɴᴛᴇ, Eʟ Rᴇᴘᴏsɪᴛᴏʀɪᴏ🌵:*\n\n' + stdout.toString()
           conn.reply(m.chat, messager, m);
   } catch {      
  try {    
