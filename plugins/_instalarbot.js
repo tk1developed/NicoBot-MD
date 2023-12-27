@@ -20,8 +20,12 @@ let gata = `𝘐𝘯𝘴𝘵𝘢𝘭𝘢𝘤𝘪𝘰́ 𝘋𝘦 𝘚𝘢𝘬𝘶
 *━━━━━━━━━━━━━⬣*
 ✅ 𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝙍 𝙀𝙉 𝙏𝙀𝙍𝙈𝙐𝙓
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
-termux-setup-storage
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBot-MD/master/gata.sh | bash
+>termux-setup-storage
+>apt update && apt upgrade && pkg update && pkg upgrade && pkg install bash && pkg install libwebp && pkg install git -y && pkg install nodejs -y && pkg install ffmpeg -y && pkg install wget && pkg install imagemagick -y && pkg install yarn
+>git clone https://github.com/diegojadibot/SakuraBot-MD && cd SakuraBot-MD
+>yarn install
+>npm start
+
 *━━━━━━━━━━━━━⬣*
 
 *━━━━━━━━━━━━━⬣*
