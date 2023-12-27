@@ -15,7 +15,7 @@ global.owner = [
   ['573207200376', '💫 Sakura - Collaborator 2 💫', true],
   ['573106909511', '💫 Sakura - Collaborator 3 💫', true],
   ['50499698072', '💫 Sakura - Collaborator 4 💫', true],
-  ['573006160430', '💫 Sakura - Collaborator 5 💫', true],
+  ['51935499065', '💫 Sakura - Collaborator 5 💫', true],
   ['573003014644', '💫 Sakura - Collaborator 5 💫', true]
 ];
 
