@@ -25,8 +25,8 @@ const str = `➪ *𝗛ola, ${taguser}*
 
 *╭꒱🦁⸽⃕SᴀᴋᴜʀᴀBᴏᴛ-MD🍁⃨፝⃕✰*
 ┊----------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┊👑 *Owner:* @573013114854
-┊✨️ *Bot Oficial:* @51935499065
+┊👑 *Creador:* Diego 
+┊✨️ *Numero::* 573013114854
 ┊🕑 *Tiempo activo:* ${uptime}
 ┊📂 *Usuarios regs:* ${rtotalreg}
 ┊🗂 *Usuarios totales:* ${rtotal}
