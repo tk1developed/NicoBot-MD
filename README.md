@@ -18,10 +18,11 @@
 <a href="https://www.tiktok.com/@diegobot09_?_t=8ge2zeRZ04r&_r=1" target="_blank"> <img src="https://img.shields.io/badge/-TikTok-%23E4405F?style=for-the-badge&logo=tiktok&logoColor=black" target="_blank"></a> <img src="https://github.com/siegrin/siegrin/blob/main/Assets/Handshake.gif" height="30px">
 </a>
 
-### `👑 DUDAS SOBRE EL BOT?, CONTACTAME 👑`
-<p align="center">
-<a href="https://wa.me/573013114854"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=14&duration=3000&color=ABF7BB&center=verdadero&vCenter=verdadero&lines=Solo+escr%C3%ADba+si+tiene+dudas." height="40px"
 </p>
+<a href="https://api.whatsapp.com/send/?phone=51935499065&text=.estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1-000000?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
+### `👑 DUDAS SOBRE EL BOT?, CONTACTAME 👑`
+<a href="http://wa.me/573013114854" target="blank"><img src="https://img.shields.io/badge/Creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 <a href="wa.me/573013114854" target="blank"><img src="https://img.shields.io/badge/Creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
