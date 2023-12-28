@@ -103,7 +103,11 @@ pm2 start index
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBot-MD/master/update.sh | bash 
 ```
 #### Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
-> **Warning** Estos comandos solo funcionan para TERMUX, REPLIT, LINUX                           
+> **Warning** Estos comandos solo funcionan para TERMUX, REPLIT, LINUX  
+
+### 🌱 ACTIVAR EN KOYEB 
+
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/diegojadibot/SakuraBot-MD&branch=master&name=sakurabot-md)                         
 
 ## `𝙴𝙳𝙸𝚃𝙾𝚁 𝚈 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃`
 
