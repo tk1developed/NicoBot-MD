@@ -24,8 +24,6 @@
 ### `👑 DUDAS SOBRE EL BOT?, CONTACTAME 👑`
 <a href="http://wa.me/573013114854" target="blank"><img src="https://img.shields.io/badge/Creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-<a href="wa.me/573013114854" target="blank"><img src="https://img.shields.io/badge/Creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
-
 ------------------ 
 
 ### `✨️ 𝙰𝙲𝚃𝙸𝚅𝙰𝚁 𝙴𝙽 𝚁𝙴𝙿𝙻𝙸𝚃`
