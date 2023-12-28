@@ -1,6 +1,9 @@
 > <b>  🚀 SakuraBot (Desarrollo) </b>
 
 <p align="center">
+<img src="https://telegra.ph/file/6f33d31d5efbbdde1bfb5.jpg" alt="GataBot-MD" width="900"/>
+</p>
+<p align="center">
 <a href="#"><img title="SakuraBot-MD" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APOYAME CON UNA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
 <a href="#"><img title="SakuraBot-MD" src="https://img.shields.io/badge/COMPATIBLE CON LA VERSIÓN MULTI DISPOSITIVOS DE WHATSAPP-red?colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge">
 <div align="center">
