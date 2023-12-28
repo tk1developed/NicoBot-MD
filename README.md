@@ -2,6 +2,9 @@
 
 > <b> ✨️Hola, Soy SakuraBot Como Estas?❤️
 
+<a href="#"><img title="SakuraBot-MD" src="https://img.shields.io/badge/✨️Bienvenido Al Repositorio Oficial De SakuraBot✨️-red?colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge">
+<div align="center">
+
 <p align="center">
 <a href="#"><img title="SakuraBot-MD" src="https://img.shields.io/badge/✨️Difruta El Bot SakuraBot,Gracias Por Usarlo❤️! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
 <p align="center">
