@@ -27,7 +27,7 @@ const str = `➪ *𝗛ola, ${taguser}*
 ┊----------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┊👑 *Owner:* @573013114854
 ┊✨️ *Bot Oficial1:* @51935499065
-┊♨️ *Bot Oficial2:* @524251111050
+┊♨️ *Bot Oficial2:* @52 425 111 1050
 ┊🕑 *Tiempo activo:* ${uptime}
 ┊📂 *Usuarios regs:* ${rtotalreg}
 ┊🗂 *Usuarios totales:* ${rtotal}
