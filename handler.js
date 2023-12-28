@@ -1500,7 +1500,7 @@ export async function callUpdate(callUpdate) {
         const callmsg = await mconn.conn.reply(nk.from, `𝙷𝚘𝚕𝚊 *@${nk.from.split('@')[0]}*, 𝚕𝚊𝚜 ${nk.isVideo ? '𝚟𝚒𝚍𝚎𝚘𝚕𝚕𝚊𝚖𝚊𝚍𝚊s' : '𝚕𝚕𝚊𝚖𝚊𝚍𝚊s'} 𝚗𝚘 𝚎𝚜𝚝𝚊́𝚗 𝚙𝚎𝚛𝚖𝚒𝚝𝚒𝚍𝚊𝚜, 𝚜𝚎𝚛𝚊́𝚜 𝚋𝚕𝚘𝚚𝚞𝚎𝚊𝚍𝚘.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, {mentions: [nk.from]});
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵 ✨;;;\nFN:𝘚𝘢𝘬𝘶𝘳𝘢 ✨\nORG:𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵 ✨\nTITLE:\nitem1.TEL;waid=573013114854:+57 301 3114854\nitem1.X-ABLabel:𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵 ✨\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵 ✨\nEND:VCARD`;
+        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵 ✨;;;\nFN:𝘚𝘢𝘬𝘶𝘳𝘢 ✨\nORG:𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵 ✨\nTITLE:\nitem1.TEL;waid=573013114854:+573013114854\nitem1.X-ABLabel:𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵 ✨\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵 ✨\nEND:VCARD`;
         await mconn.conn.sendMessage(nk.from, {contacts: {displayName: '𝘚𝘢𝘬𝘶𝘳𝘪𝘵𝘴𝘉𝘰𝘵 ✨', contacts: [{vcard}]}}, {quoted: callmsg});
         await mconn.conn.updateBlockStatus(nk.from, 'block');
       }
