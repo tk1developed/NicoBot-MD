@@ -29,9 +29,6 @@
 
 ### `✨️ 𝙰𝙲𝚃𝙸𝚅𝙰𝚁 𝙴𝙽 𝚁𝙴𝙿𝙻𝙸𝚃`
 
-[![blog](https://img.shields.io/badge/Replit-Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
-](https://youtu.be/SMjCcfuyWQE)
-
 [![Run on Repl.it](https://repl.it/badge/github/diegojadibot/SakuraBot-MD)](https://repl.it/github/diegojadibot/SakuraBot-MD) 
 
 ------------------ 
