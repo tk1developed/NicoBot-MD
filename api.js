@@ -262,7 +262,7 @@ global.rpgshop = { // Tienda
       berlian: '♦️ Joya',
       kyubi: '🌀 Magia',
       gold: '👑 Oro',
-      money: '👾 ShinCoins',
+      money: '👾 SakuCoins',
       tiketcoin: '🎫 Shino Tickers',
       stamina: '✨ Energía',
       potion: '🥤 Poción',
