@@ -18,7 +18,7 @@
 <a href="https://www.tiktok.com/@diegobot09_?_t=8ge2zeRZ04r&_r=1" target="_blank"> <img src="https://img.shields.io/badge/-TikTok-%23E4405F?style=for-the-badge&logo=tiktok&logoColor=black" target="_blank"></a> <img src="https://github.com/siegrin/siegrin/blob/main/Assets/Handshake.gif" height="30px">
 </a>
 
-### `✨️Bot Oficiales✨️`
+### `✨️Bots Oficiales✨️`
 </p>
 <a href="https://api.whatsapp.com/send/?phone=51935499065&text=.estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1-000000?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
