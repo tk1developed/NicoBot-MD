@@ -21,11 +21,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-  const totalUsers = users.length;
-  const responseMessage = `${replyMessage.trim()}`.trim();
-await m.reply(`*✨️ 𝘈𝘲𝘶𝘪 𝘛𝘪𝘦𝘯𝘦 𝘓𝘢 𝘓𝘪𝘴𝘵𝘢 𝘋𝘦 𝘓𝘰𝘴 𝘚𝘶𝘣 𝘉𝘰𝘵𝘴 𝘈𝘤𝘵𝘪𝘷𝘰𝘴 𝘌𝘯 𝘌𝘴𝘵𝘰𝘴 𝘔𝘰𝘮𝘦𝘯𝘵𝘰𝘴*\n\nSᴜʙ Bᴏᴛs Cᴏɴᴇᴄᴛᴀᴅᴏs : ${totalUsers || '0'}`)
-await _envio.sendMessage(m.chat, {text: responseMessage, mentions: _envio.parseMention(responseMessage)}, {quoted: m});
-}   
 const str = `➪ *𝗛ola, ${taguser}*
 
 *╭꒱🦁⸽⃕SᴀᴋᴜʀᴀBᴏᴛ-MD🍁⃨፝⃕✰*
