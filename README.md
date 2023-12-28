@@ -79,7 +79,7 @@ Detener el bot apretado CTRL y aplastas Z en tu teclado, darle enter y escribe:
 > npm start
 ```
 ----
-### 🚀 USAR SAKURABOY 24/7 EN TERMUX 
+### 🚀 USAR SAKURABOT 24/7 EN TERMUX 
 > Ejecutar estos comandos dentro de la carpeta SakuraBot-MD
 ```bash
 termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
