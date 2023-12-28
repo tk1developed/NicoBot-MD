@@ -1,3 +1,4 @@
+
 > <b>  🚀 SakuraBot (Desarrollo) </b>
 
 > <b> ✨️Hola, Soy SakuraBot Como Estas?❤️
@@ -76,9 +77,38 @@ Detener el bot apretado CTRL y aplastas Z en tu teclado, darle enter y escribe:
 > rm -rf SakuraBotSession
 > npm start
 ```
-### `🤖 𝙿𝙰𝚁𝙰 𝙰𝙲𝚃𝙸𝚅𝙰𝚁 𝟸𝟺/𝟽 (𝚃𝙴𝚁𝙼𝚄𝚇)`
+----
+### 🚀 USAR SAKURABOY 24/7 EN TERMUX 
+> Ejecutar estos comandos dentro de la carpeta SakuraBot-MD
 ```bash
-npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
+termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
+``` 
+#### ⬇️ Opciones Disponibles
+> **Warning** Esto eliminará todo el historial que hayas establecido con PM2:
+```bash 
+pm2 delete index
+``` 
+> Si tienes cerrado Termux y quiere ver de nuevo la ejecución use:
+```bash 
+pm2 logs 
+``` 
+> Si desea detener la ejecución de Termux use:
+```bash 
+pm2 stop index
+``` 
+> Si desea iniciar de nuevo la ejecución de Termux use:
+```bash 
+pm2 start index
+``` 
+----
+### 🥷🏻 ACTUALIZAR SAKURABOT
+> **Note** Comandos para actualizar SakuraBot-MD de forma automática
+```bash
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBot-MD/master/update.sh | bash 
+```
+#### Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
+> **Warning** Estos comandos solo funcionan para TERMUX, REPLIT, LINUX                           
+----
 ```
 
 ------------------ 
