@@ -1,7 +1,9 @@
 > <b>  🚀 SakuraBot (Desarrollo) </b>
 
+> <b> ✨️Hola Soy El Bot SakuraBot Como Estas?❤️
+
 <p align="center">
-<img src="https://telegra.ph/file/6f33d31d5efbbdde1bfb5.jpg" alt="GataBot-MD" width="900"/>
+<img src="https://telegra.ph/file/962f544291ef3fb46752e.jpg" alt="GataBot-MD" width="900"/>
 </p>
 <p align="center">
 <a href="#"><img title="SakuraBot-MD" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APOYAME CON UNA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
