@@ -450,59 +450,58 @@ ${readMore}
 ┊💮 _${usedPrefix}sremovebg *<imagen>*_
 ┊💧 _${usedPrefix}semoji *<tipo> <emoji>*_
 ┊💮 _${usedPrefix}qc *<texto>*_
-┊💧 _${usedPrefix}attp *<texto>*_
-┊💮 _${usedPrefix}attp2 *<texto>*_
-┊💧 _${usedPrefix}attp3 *<texto>*_
-┊💮 _${usedPrefix}ttp *<texto>*_
-┊💧 _${usedPrefix}ttp2 *<texto>*_
-┊💮 _${usedPrefix}ttp3 *<texto>*_
-┊💧 _${usedPrefix}ttp4 *<texto>*_
-┊💮 _${usedPrefix}ttp5 *<texto>*_
-┊💧 _${usedPrefix}pat *<@tag>*_
-┊💮 _${usedPrefix}slap *<@tag>*_
-┊💧 _${usedPrefix}kiss *<@tag>*_
-┊💮 _${usedPrefix}dado_
-┊💧 _${usedPrefix}wm *<packname> <author>*_
-┊💮 _${usedPrefix}stickermarker *<efecto> <imagen>*_
-┊💧 _${usedPrefix}stickerfilter *<efecto> <imagen>*_
-╰⌦≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈‧₊˚✧
+┃›💧 _${usedPrefix}attp *<texto>*_
+┃›💮 _${usedPrefix}attp2 *<texto>*_
+┃›💧 _${usedPrefix}attp3 *<texto>*_
+┃›💮 _${usedPrefix}ttp *<texto>*_
+┃›💧 _${usedPrefix}ttp2 *<texto>*_
+┃›💮 _${usedPrefix}ttp3 *<texto>*_
+┃›💧 _${usedPrefix}ttp4 *<texto>*_
+┃›💮 _${usedPrefix}ttp5 *<texto>*_
+┃›💧 _${usedPrefix}pat *<@tag>*_
+┃›💮 _${usedPrefix}slap *<@tag>*_
+┃›💧 _${usedPrefix}kiss *<@tag>*_
+┃›💮 _${usedPrefix}dado_
+┃›💧 _${usedPrefix}wm *<packname> <author>*_
+┃›💮 _${usedPrefix}stickermarker *<efecto> <imagen>*_
+┃›💧 _${usedPrefix}stickerfilter *<efecto> <imagen>*_
+┗━⬣
 
-╭꒱≡≡≡≡≡╡✦✧✦✧✦✧╞≡≡≡≡♡
-┊❥ ⌲ 𝑶𝑷𝑪𝑰𝑶𝑵𝑬𝑺 𝑫𝑬 𝑶𝑾𝑵𝑬𝑹-𝑴𝑶𝑫𝑬𝑹𝑨𝑫𝑶𝑹*
-┊-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┊👑  > *<funcion>*
-┊👑 => *<funcion>*
-┊👑 $ *<funcion>*
-┊👑 _${usedPrefix}setprefix *<prefijo>*_
-┊👑 _${usedPrefix}resetprefix_
-┊👑 _${usedPrefix}autoadmin_
-┊👑 _${usedPrefix}grouplist_
-┊👑 _${usedPrefix}chetar_
-┊👑 _${usedPrefix}leavegc_
-┊👑 _${usedPrefix}cajafuerte_
-┊👑 _${usedPrefix}blocklist_
-┊👑 _${usedPrefix}addowner *<@tag / numero>*_
-┊👑 _${usedPrefix}delowner *<@tag / numero>*_
-┊👑 _${usedPrefix}block *<@tag / numero>*_
-┊👑 _${usedPrefix}unblock *<@tag / numero>*_
-┊👑 _${usedPrefix}enable *restrict*_
-┊👑 _${usedPrefix}disable *restrict*_
-┊👑 _${usedPrefix}enable *autoread*_
-┊👑 _${usedPrefix}disable *autoread*_
-┊👑 _${usedPrefix}enable *public*_
-┊👑 _${usedPrefix}disable *public*_
-┊👑 _${usedPrefix}enable *pconly*_
-┊👑 _${usedPrefix}disable *pconly*_
-┊👑 _${usedPrefix}enable *gconly*_
-┊👑 _${usedPrefix}disable *gconly*_
-┊👑 _${usedPrefix}enable *anticall*_
-┊👑 _${usedPrefix}disable *anticall*_
-┊👑 _${usedPrefix}enable *antiprivado*_
-┊👑 _${usedPrefix}disable *antiprivado*_
-┊👑 _${usedPrefix}enable *modejadibot*_
-┊👑 _${usedPrefix}disable *modejadibot*_
-┊👑 _${usedPrefix}enable *audios_bot*_
-┊👑 _${usedPrefix}disable *audios_bot*_
+┏━⊜ 𝑶𝑷𝑪𝑰𝑶𝑵𝑬𝑺 𝑫𝑬 𝑶𝑾𝑵𝑬𝑹
+┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
+┃›👑  > *<funcion>*
+┃›👑 => *<funcion>*
+┃›👑 $ *<funcion>*
+┃›👑 _${usedPrefix}setprefix *<prefijo>*_
+┃›👑 _${usedPrefix}resetprefix_
+┃›👑 _${usedPrefix}autoadmin_
+┃›👑 _${usedPrefix}grouplist_
+┃›👑 _${usedPrefix}chetar_
+┃›👑 _${usedPrefix}leavegc_
+┃›👑 _${usedPrefix}cajafuerte_
+┃›👑 _${usedPrefix}blocklist_
+┃›👑 _${usedPrefix}addowner *<@tag / numero>*_
+┃›👑 _${usedPrefix}delowner *<@tag / numero>*_
+┃›👑 _${usedPrefix}block *<@tag / numero>*_
+┃›👑 _${usedPrefix}unblock *<@tag / numero>*_
+┃›👑 _${usedPrefix}enable *restrict*_
+┃›👑 _${usedPrefix}disable *restrict*_
+┃›👑 _${usedPrefix}enable *autoread*_
+┃›👑 _${usedPrefix}disable *autoread*_
+┃›👑 _${usedPrefix}enable *public*_
+┃›👑 _${usedPrefix}disable *public*_
+┃›👑 _${usedPrefix}enable *pconly*_
+┃›👑 _${usedPrefix}disable *pconly*_
+┃›👑 _${usedPrefix}enable *gconly*_
+┃›👑 _${usedPrefix}disable *gconly*_
+┃›👑 _${usedPrefix}enable *anticall*_
+┃›👑 _${usedPrefix}disable *anticall*_
+┃›👑 _${usedPrefix}enable *antiprivado*_
+┃›👑 _${usedPrefix}disable *antiprivado*_
+┃›👑 _${usedPrefix}enable *modejadibot*_
+┃›👑 _${usedPrefix}disable *modejadibot*_
+┃›👑 _${usedPrefix}enable *audios_bot*_
+┃›👑 _${usedPrefix}disable *audios_bot*_
 ┃›👑 _${usedPrefix}enable *antispam*_
 ┃›👑 _${usedPrefix}disable *antispam*_
 ┃›👑 _${usedPrefix}msg *<texto>*_
