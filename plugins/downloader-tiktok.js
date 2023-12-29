@@ -37,7 +37,7 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
           const cap = `*¡Hola! 🌟*\n*📽️ Aquí tienes tu video de TikTok.*\n\n*Recuerda que si deseas convertir el video en audio, puedes hacerlo fácilmente respondiendo al video con el comando #tomp3 🎧.*`;
           await conn.sendMessage(m.chat, {video: {url: url}, caption: cap}, {quoted: m});
         } catch {
-          throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙾 𝙻𝙰𝙼𝙴𝙽𝚃𝙾, 𝙾𝙲𝚄𝚁𝚁𝙸𝙾 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝙰𝙻 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝚂𝚄 𝚅𝙸𝙳𝙴𝙾, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*`;
+          throw `*[⚠️] Lᴏ Lᴀᴍᴇɴᴛᴏ, Oᴄᴜʀʀɪᴏ Uɴ Eʀʀᴏʀ Aʟ Dᴇsᴄᴀʀɢᴀʀ Sᴜ Vɪᴅᴇᴏ, Pᴏʀ Fᴀᴠᴏʀ Vᴜᴇʟᴠᴀ A Iɴᴛᴇɴᴛᴀʀʟᴏ Mᴀs Tᴀʀᴅᴇ*`;
         }
       }
     }
