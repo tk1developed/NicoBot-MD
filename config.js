@@ -2,7 +2,7 @@ import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath, pathToFileURL } from 'url'
 
-global.owner = [['573013114854', 'SakuraBot-MD 🍧', true], ['573207200376'], ['573106909511'], ['573218138672'], ['51935499065'], ['51944167935'], ['573217297116'], ['573235215844'], ['50258115623']]
+global.owner = [['573013114854', 'SakuraBot-MD ♨️', true], ['573207200376'], ['573106909511'], ['573218138672'], ['51935499065'], ['51944167935'], ['573217297116'], ['573235215844'], ['50258115623']]
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
