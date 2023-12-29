@@ -27,8 +27,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 *╭꒱ᰔᩚ⸽⃕SᴀᴋᴜʀᴀBᴏᴛ-MD🍁⃨፝⃕✰*
 ┃----------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┃👑 *Creador:* @573013114854
-┃✨️ *Bot Oficial:* @51935499065
+┃👑 *Creador:* Diego
+┃✨️ *Nuemero:* +57 301 3114854
 ┃🕑 *Tiempo activo:* ${uptime}
 ┃📂 *Usuarios regs:* ${rtotalreg}
 ┃🗂 *Usuarios totales:* ${rtotal}
