@@ -181,7 +181,7 @@ ${readMore}
 *╰━━━━━━━━━━━━⬣*
 
 
-*╭━〔 FUNCIÓNCIONES - DESCARGA 〕━⬣*
+*╭━〔 OPCIÓN - DESCARGA 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃🔗 _${usedPrefix}instagram *<enlace / link / url>*_
 🔗 _${usedPrefix}mediafire *<enlace / link / url>*_
@@ -414,7 +414,7 @@ ${readMore}
 *╰━━━━━━━━━━━━⬣*
 
 
-*╭━〔 RPG-LIMITES-ECONOMIA 〕━⬣*
+*╭━〔 LIMITES-ECONOMIA 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃⚡️ _${usedPrefix}adventure_
 ┃🦊 _${usedPrefix}cazar_
