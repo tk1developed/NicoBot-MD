@@ -4,7 +4,7 @@ function handler(m) {
 
 }
 =>global.owner
-handler.help = ['owner']
+handler.help = ['creador']
 handler.tags = ['main']
 handler.command = ['owner', 'creator', 'creador', 'dueño'] 
 
