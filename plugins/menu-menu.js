@@ -43,21 +43,25 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃ *🦁 SakuCoins:* ${money}
 ┃ *🪙 Tokens:* ${joincount}
 ┃ *🎟️ Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
-*╰━━━━━━━━━━━━⬣*
+*╚═══❖•ೋ° °ೋ•❖═══╝*
 
-*╭━〔 BOT/OFICIAL SUBBOT 〕━⬣*
+*╔═══❖•ೋ° °ೋ•❖═══╗*
+┃BOT/OFICIAL SUBBOT 
+┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃ʙᴏᴛ ᴏғɪᴄɪᴀʟ: ${(conn.user.jid == global.conn.user.jid ? '' : `sᴜʙʙᴏᴛ ᴅᴇ: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || 'ᴇsᴛᴇ ᴇs ᴇʟ ʙᴏᴛ ᴏғɪᴄɪᴀʟ'}
-*╰━━━━━━━━━━━━⬣*
+*╚═══❖•ೋ° °ೋ•❖═══╝*
 ${readMore}
-*╭━〔 SOLUCIONES 〕━⬣*
+*╔═══❖•ೋ° °ೋ•❖═══╗* 
+┃SOLUCIONES
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃✨️ Mensajes en espera
 ┃↻ _${usedPrefix}fixmsgespera_
 ┃✨️ Mensajes en espera (owner)
 ┃↺ _${usedPrefix}dsowner_
-*╰━━━━━━━━━━━━⬣*
+*╚═══❖•ೋ° °ೋ•❖═══╝*
 
-*╭━〔 FUNCIÓN SUB BOT 〕━⬣*
+*╔═══❖•ೋ° °ೋ•❖═══╗*
+┃FUNCIÓN SUB BOT
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃🍁 _${usedPrefix}serbot --code_
 ┃💧 _${usedPrefix}serbot_
@@ -74,14 +78,16 @@ ${readMore}
 ┃🍁 _${usedPrefix}owner_
 ┃💧 _${usedPrefix}script_
 ┃🍁 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
-*╰━━━━━━━━━━━━⬣*
+*╚═══❖•ೋ° °ೋ•❖═══╝*
 
-*╭━〔 BOT A TU GRUPO 〕━⬣*
+*╔═══❖•ೋ° °ೋ•❖═══╗*
+┃BOT A TU GRUPO
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃✨️ _${usedPrefix}join *<enlace / link / url>*_
-*╰━━━━━━━━━━━━⬣*
+*╚═══❖•ೋ° °ೋ•❖═══╝*
 
-*╭━〔 COMANDOS 〕━⬣*
+*╔═══❖•ೋ° °ೋ•❖═══╗*
+┃COMANDOS 
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃⚘️ _${usedPrefix}enable restrict_
 ┃⚘️ _${usedPrefix}disable restrict_
@@ -97,9 +103,10 @@ ${readMore}
 ┃⚘️ _${usedPrefix}disable audios_bot_
 ┃⚘️ _${usedPrefix}enable antiprivado_
 ┃⚘️ _${usedPrefix}disable antiprivado_
-*╰━━━━━━━━━━━━⬣*
+*╚═══❖•ೋ° °ೋ•❖═══╝*
 
-*╭━〔 DIVERSIONES 〕━⬣*
+*╔═══❖•ೋ° °ೋ•❖═══╗*
+┃ DIVERSIONES
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃🦁 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
 ┃🦁 _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
@@ -136,7 +143,7 @@ ${readMore}
 ┃🦁 _${usedPrefix}pista_
 ┃🦁 _${usedPrefix}akinator_
 ┃🦁 _${usedPrefix}wordfind_
-*╰━━━━━━━━━━━━⬣*
+*╚═══❖•ೋ° °ೋ•❖═══╝*
 
 *╭━〔 FUNCIÓN ON/OFF 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
