@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   try {
-    const pp = imagen8;
+    const pp = imagen2;
     // let vn = './media/menu.mp3'
     const d = new Date(new Date + 3600000);
     const locale = 'es';
@@ -18,15 +18,15 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `╭═══〘 ༒︎❀❀❀❀❀❀❀༒︎ 〙══╮
-║  ❥ᰰຼ ⃟ᬽ៸𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋༒★»
+    const str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
+║    ◉— *𝐒𝐚𝐤𝐮𝐫𝐚 𝐁𝐨𝐭 - 𝐌𝐃* —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *𝗛ola, ${taguser}*
-╰═══╡༒︎❀❀❀❀❀❀❀༒︎╞═══╯
+╰═══╡✯✯✯✯✯✯✯✯✯╞═══╯
 
-┏━━━╡༒︎❀❀❀༒︎╞━━━┓
+┏━━━━━━━━━━━━━━━━┓
 ┃ *< MENU-ANIME />*
-┃≡≡≡≡╡༒︎𖣘𖣘𖣘༒︎╞≡≡≡≡┃
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣ ඬ⃟ 🧿 _${usedPrefix}lolivid_
 ┣ ඬ⃟ 🧿 _${usedPrefix}loli_
 ┣ ඬ⃟ 🧿 _${usedPrefix}ppcouple_
@@ -63,7 +63,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣ ඬ⃟ 🧿 _${usedPrefix}minato_
 ┣ ඬ⃟ 🧿 _${usedPrefix}naruto_
 ┣ ඬ⃟ 🧿 _${usedPrefix}nezuko_
-┣ ඬ⃟ 🧿 _${usedPrefix}shinonome_
 ┣ ඬ⃟ 🧿 _${usedPrefix}sagiri_
 ┣ ඬ⃟ 🧿 _${usedPrefix}sasuke_
 ┣ ඬ⃟ 🧿 _${usedPrefix}sakura_
