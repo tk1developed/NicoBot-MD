@@ -54,18 +54,18 @@ ${readMore}
 *╔═══❖•ೋ° °ೋ•❖═══╗* 
 ┃SOLUCIONES
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┃☬⃝ᩎ⋟᷊᷂᷊᷊᷊᷊᷊᷊᷊᷊᷊᷊᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷊᷊᷂᷂᷂᷂ Mensajes en espera
+┃ᰔᩚ Mensajes en espera
 ┃↻ _${usedPrefix}fixmsgespera_
-┃☬⃝ᩎ⋟᷊᷂᷊᷊᷊᷊᷊᷊᷊᷊᷊᷊᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷊᷊᷂᷂᷂᷂ Mensajes en espera (owner)
+┃ᰔᩚ Mensajes en espera (owner)
 ┃↺ _${usedPrefix}dsowner_
 *╚═══❖•ೋ° °ೋ•❖═══╝*
 
 *╔═══❖•ೋ° °ೋ•❖═══╗*
 ┃FUNCIÓN SUB BOT
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┃☬⃝ᩎ⋟᷊᷂᷊᷊᷊᷊᷊᷊᷊᷊᷊᷊᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷊᷊᷂᷂᷂᷂ _${usedPrefix}serbot --code_
-┃☬⃝ᩎ⋟᷊᷂᷊᷊᷊᷊᷊᷊᷊᷊᷊᷊᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷊᷊᷂᷂᷂᷂ _${usedPrefix}serbot_
-┃☬⃝ᩎ⋟᷊᷂᷊᷊᷊᷊᷊᷊᷊᷊᷊᷊᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷊᷊᷂᷂᷂᷂ _${usedPrefix}deletebot_
+┃ᥫ᭡ _${usedPrefix}serbot --code_
+┃ᥫ᭡ _${usedPrefix}serbot_
+┃ᥫ᭡ _${usedPrefix}deletebot_
 ┃☬⃝ᩎ⋟᷊᷂᷊᷊᷊᷊᷊᷊᷊᷊᷊᷊᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷊᷊᷂᷂᷂᷂ _${usedPrefix}token_
 ┃☬⃝ᩎ⋟᷊᷂᷊᷊᷊᷊᷊᷊᷊᷊᷊᷊᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷊᷊᷂᷂᷂᷂ _${usedPrefix}stop_
 ┃☬⃝ᩎ⋟᷊᷂᷊᷊᷊᷊᷊᷊᷊᷊᷊᷊᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷂᷊᷊᷂᷂᷂᷂ _${usedPrefix}bots_
