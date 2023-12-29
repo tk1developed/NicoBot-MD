@@ -175,7 +175,7 @@ ${readMore}
 *╭━〔 OPCIÓN - DESCARGA 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃🔗 _${usedPrefix}instagram *<enlace / link / url>*_
-🔗 _${usedPrefix}mediafire *<enlace / link / url>*_
+┃🔗 _${usedPrefix}mediafire *<enlace / link / url>*_
 ┃🔗 _${usedPrefix}gitclone *<enlace / link / url>*_
 ┃🔗 _${usedPrefix}gdrive *<enlace / link / url>*_
 ┃🔗 _${usedPrefix}tiktok *<enlace / link / url>*_
