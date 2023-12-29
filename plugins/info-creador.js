@@ -3,7 +3,7 @@ function handler(m) {
   this.sendContact(m.chat, data.map(([id, name]) => [id, name]), estilo, m)
 
 }
-
+=>global.owner
 handler.help = ['owner']
 handler.tags = ['main']
 handler.command = ['owner', 'creator', 'creador', 'dueño'] 
