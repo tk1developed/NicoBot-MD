@@ -1,4 +1,4 @@
-2import fetch from 'node-fetch';
+import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
   try {
@@ -31,6 +31,10 @@ const str = `➪ *𝗛ola, ${taguser}*
 ┃📂 *Usuarios regs:* ${rtotalreg}
 ┃🗂 *Usuarios totales:* ${rtotal}
 ┃🗓 ${date}
+*╰━━━━━━━━━━━━⬣*
+
+*╭━〔 BOT/OFICIAL SUBBOT 〕━⬣*
+ ┃ʙᴏᴛ ᴏғɪᴄɪᴀʟ: ${(conn.user.jid == global.conn.user.jid ? '' : `𝚂𝙾𝚈 𝚂𝚄𝙱𝙱𝙾𝚃 𝙳𝙴: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*𝙴𝚂𝚃𝙴 𝙴𝚂 𝙴𝙻 𝙱𝙾𝚃 𝙾𝙵𝙸𝙲𝙸𝙰𝙻*'}
 *╰━━━━━━━━━━━━⬣*
 
 *╭━〔 INFO - USER 〕━⬣*
