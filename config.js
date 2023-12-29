@@ -28,7 +28,7 @@ global.wm = '𝘚𝘢𝘬𝘶𝘳𝘪𝘵𝘢-𝘔𝘋';
 global.titulowm = '𝘚𝘢𝘬𝘶𝘳𝘪𝘵𝘢-𝘔𝘋';
 global.titulowm2 = `𝘋𝘪𝘦𝘨𝘰 𝘖𝘧𝘪𝘤𝘪𝘢𝘭`
 global.igfg = '𝘋𝘪𝘦𝘨𝘰 𝘖𝘧𝘪𝘤𝘪𝘢𝘭';
-global.wait = '*⏳️ Cargando Espere 1 Momento...*';
+global.wait = '*⏳️ Cargando Espere Un Momento...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
