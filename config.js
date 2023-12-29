@@ -14,8 +14,8 @@ global.suittag = ['573013114854']
 global.mods = []
 global.prems = []
 
-global.packname = 'Ⓢ︎ 𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩'
-global.author = 'Created By Diego'
+global.packname = '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩-𝙈𝘿'
+global.author = '𝘋𝘪𝘦𝘨𝘰 𝘖𝘧𝘪𝘤𝘪𝘢𝘭'
 global.wm = 'Ⓢ︎ 𝖲𝖺𝗄𝗎𝗋𝖺𝖡𝗈𝗍-𝖬𝖣'
 global.wm2 = '𝗦akura : 𝗕𝗈𝗍'
 global.diego = 'Diego'
