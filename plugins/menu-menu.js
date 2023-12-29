@@ -23,7 +23,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
    const document =
  doc[Math.floor(Math.random()
 * doc.length)]; 
-  const str = `➪ *𝗛ola, ${taguser}*
+
+await conn.reply(m.chat, '*Próximamente se remitirá el menú.*', fkontak, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: '', sourceUrl: thumbnail: imagen1 }}})
+m.react('🚀')
+  
+const str = `➪ *𝗛ola, ${taguser}*
 
 *╭꒱🦁⸽⃕SᴀᴋᴜʀᴀBᴏᴛ-MD🍁⃨፝⃕✰*
 ┃----------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
