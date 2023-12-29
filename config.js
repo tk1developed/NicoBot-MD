@@ -9,8 +9,8 @@ global.owner = [['573013114854', 'SakuraBot-MD ♨️', true], ['573207200376'],
 global.botNumberCode = '' //Ejemplo: +59309090909
 global.confirmCode = ''
 
-global.animxscans = ['573218138672']
-global.suittag = ['573218138672']
+global.animxscans = ['573013114854']
+global.suittag = ['573013114854']
 global.mods = []
 global.prems = []
 
