@@ -31,9 +31,10 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃📂 *Usuarios regs:* ${rtotalreg}
 ┃🗂 *Usuarios totales:* ${rtotal}
 ┃🗓 ${date}
-*╰━━━━━━━━━━━━⬣*
+*╚═══❖•ೋ° °ೋ•❖═══╝*
 
-*╭━〔 INFO - USER 〕━⬣*
+*╔═══❖•ೋ° °ೋ•❖═══╗*
+┃  INFO - USER
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃ *🎖️ Nivel:* ${level}
 ┃ *🧰 Experiencia:* ${exp}
