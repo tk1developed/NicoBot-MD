@@ -31,14 +31,15 @@ const str = `➪ *𝗛ola, ${taguser}*
 ┃📂 *Usuarios regs:* ${rtotalreg}
 ┃🗂 *Usuarios totales:* ${rtotal}
 ┃🗓 ${date}
-┗━⬣
+*╰━━━━━━━━━━━━⬣*
 
-┏━⊜ 𝑩𝑶𝑻 𝑶𝑭𝑪 𝑶 𝑺𝑼𝑩 𝑩𝑶𝑻
+*╭━〔 BOT O SUBBOT 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃ʙᴏᴛ ᴏғɪᴄɪᴀʟ: ${(conn.user.jid == global.conn.user.jid ? '' : `sᴏʏ sᴜʙʙᴏᴛ ᴅᴇ: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || 'ᴇsᴛᴇ ᴇs ᴇʟ ʙᴏᴛ ᴏғɪᴄɪᴀʟ'}
-┗━⬣
+*╰━━━━━━━━━━━━⬣*
 
-┏━⊜ 𝐼𝑁𝐹𝑂 - 𝑈𝑆𝐸𝑅
+
+*╭━〔 INFO - USER 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃ *🎖️ Nivel:* ${level}
 ┃ *🧰 Experiencia:* ${exp}
@@ -47,17 +48,19 @@ const str = `➪ *𝗛ola, ${taguser}*
 ┃ *🦁 SakuCoins:* ${money}
 ┃ *🪙 Tokens:* ${joincount}
 ┃ *🎟️ Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
-┗━⬣
+*╰━━━━━━━━━━━━⬣*
 ${readMore}
-┏━⊜ 𝑆𝑂𝐿𝑈𝐶𝐼𝑂𝑁𝐸𝑆
+
+*╭━〔 SOLUCIONES 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃✨️ Mensajes en espera
 ┃↻ _${usedPrefix}fixmsgespera_
 ┃✨️ Mensajes en espera (owner)
 ┃↺ _${usedPrefix}dsowner_
-┗━⬣
+*╰━━━━━━━━━━━━⬣*
 
-┏━⊜ 𝑶𝑷𝑪𝑰𝑶𝑵𝑬𝑺-𝑺𝑬𝑹𝑩𝑶𝑻
+
+*╭━〔 FUNCIÓN SUB BOT 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃🍁 _${usedPrefix}serbot --code_
 ┃💧 _${usedPrefix}serbot_
@@ -76,12 +79,14 @@ ${readMore}
 ┃🍁 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ┗━⬣
 
-┏━⊜ 𝐵𝑂𝑇 𝐴 𝑇𝑈 𝐺𝑅𝑈𝑃𝑂
+
+*╭━〔 BOT A TU GRUPO 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃✨️ _${usedPrefix}join *<enlace / link / url>*_
-┗━⬣
+*╰━━━━━━━━━━━━⬣*
 
-┏━⊜ 𝐶𝑂𝑀𝐴𝑁𝐷𝑂𝑆
+
+*╭━〔 COMANDOS 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃⚘️ _${usedPrefix}enable restrict_
 ┃⚘️ _${usedPrefix}disable restrict_
@@ -97,9 +102,10 @@ ${readMore}
 ┃⚘️ _${usedPrefix}disable audios_bot_
 ┃⚘️ _${usedPrefix}enable antiprivado_
 ┃⚘️ _${usedPrefix}disable antiprivado_
-┗━⬣
+*╰━━━━━━━━━━━━⬣*
 
-┏━⊜ 𝐷𝐼𝑉𝐸𝑅𝑆𝐼𝑂𝑁𝐸𝑆
+
+*╭━〔 DIVERSIONES 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃🦁 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
 ┃🦁 _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
@@ -136,8 +142,9 @@ ${readMore}
 ┃🦁 _${usedPrefix}pista_
 ┃🦁 _${usedPrefix}akinator_
 ┃🦁 _${usedPrefix}wordfind_
-┗━⬣
-┏━⊜ 𝐴𝐶𝑇𝐼𝑉𝐴𝑅 - 𝐷𝐸𝑆𝐴𝐶𝑇𝐼𝑉𝐴𝑅
+*╰━━━━━━━━━━━━⬣*
+
+*╭━〔 FUNCIÓN ON/OFF 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃✔️ _${usedPrefix}enable *welcome*_
 ┃❌️ _${usedPrefix}disable *welcome*_
@@ -165,14 +172,16 @@ ${readMore}
 ┃❌️ _${usedPrefix}disable *modoadmin*_
 ┃✔️ _${usedPrefix}enable *antidelete*_
 ┃❌️ _${usedPrefix}disable *antidelete*_
-┗━⬣
+*╰━━━━━━━━━━━━⬣*
 
-┏━⊜ 𝑅𝐸𝑃𝑂𝑅𝑇𝐴𝑅 - 𝐸𝑅𝑅𝑂𝑅
+
+*╭━〔 REPORTAR - ERROR 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃🧩 _${usedPrefix}reporte *<texto>*_
-┗━⬣
+*╰━━━━━━━━━━━━⬣*
 
-┏━⊜ 𝑂𝑃𝐶𝐼𝑂𝑁𝐸𝑆 - 𝐷𝐸𝑆𝐶𝐴𝑅𝐺𝐴𝑆
+
+*╭━〔 FUNCIÓNCIONES - DESCARGA 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃🔗 _${usedPrefix}instagram *<enlace / link / url>*_
 🔗 _${usedPrefix}mediafire *<enlace / link / url>*_
@@ -209,9 +218,10 @@ ${readMore}
 ┃✨️ _${usedPrefix}igstalk *<nombre de usuario>*_
 ┃✨️ _${usedPrefix}igstory *<nombre de usuario>*_
 ┃✨️ _${usedPrefix}tiktokstalk *<username>*_
-┗━⬣
+*╰━━━━━━━━━━━━⬣*
 
-┏━⊜ 𝐵𝑈𝑆𝐶𝐴𝐷𝑂𝑅
+
+*╭━〔 BUSCADOR 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃🧩 _${usedPrefix}githubsearch *<texto>*_
 ┃🧩 _${usedPrefix}pelisplus *<texto>*_
@@ -225,8 +235,9 @@ ${readMore}
 ┃🧩 _${usedPrefix}wikipedia *<texto>*_
 ┃🧩 _${usedPrefix}ytsearch *<texto>*_
 ┃🧩 _${usedPrefix}playstore *<texto>*_
-┗━⬣
-┏━⊜ 𝐶𝑂𝑁𝐹𝐼𝐺 - 𝐺𝑅𝑈𝑃𝑂𝑆
+*╰━━━━━━━━━━━━⬣*
+
+*╭━〔 CONFIG - GRUPOS 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃⚙️ _${usedPrefix}salir *<admins>*_
 ┃⚙️ _${usedPrefix}add *<numero>*_
@@ -258,8 +269,9 @@ ${readMore}
 ┃⚙️ _${usedPrefix}fantasmas_
 ┃⚙️ _${usedPrefix}destraba_
 ┃⚙️ _${usedPrefix}setpp *<imagen>*_
-┗━⬣
-┏━⊜ 𝐶𝑂𝑁𝑉𝐸𝑅𝑇𝐼𝐷𝑂𝑅𝐸𝑆
+*╰━━━━━━━━━━━━⬣*
+
+*╭━〔 FUNCIÓN CÓNVERTIR 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃⚡️ _${usedPrefix}toanime *<imagen>*_
 ┃⚘️ _${usedPrefix}togifaud *<video>*_
@@ -271,9 +283,9 @@ ${readMore}
 ┃⚘️ _${usedPrefix}tourl *<video / imagen / audio>*_
 ┃⚡️ _${usedPrefix}tts *<idioma> <texto>*_
 ┃⚘️ _${usedPrefix}tts *<efecto> <texto>*_
-┗━⬣
+*╰━━━━━━━━━━━━⬣*
 
-┏━⊜ 𝐿𝑂𝐺𝑂𝑆 & 𝐸𝐹𝐸𝐶𝑇𝑂𝑆
+*╭━〔 LOGOS & EFECTOS 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃🦁 _${usedPrefix}logos *<efecto> <texto>*_
 ┃⚡️ _${usedPrefix}logochristmas *<texto>*_
@@ -285,21 +297,23 @@ ${readMore}
 ┃⚡️ _${usedPrefix}itssostupid_
 ┃🦁 _${usedPrefix}pixelar_
 ┃⚡️ _${usedPrefix}blur_
-┗━⬣
+*╰━━━━━━━━━━━━⬣*
 
-┏━⊜ 𝐹𝑅𝐴𝑆𝐸𝑆 & 𝐻𝐼𝑆𝑇𝑂𝑅𝐼𝐴
+*╭━〔 FRACES - HISTORIAS 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃🔥 _${usedPrefix}piropo_
 ┃🔥 _${usedPrefix}consejo_
 ┃🔥 _${usedPrefix}fraseromantica_
 ┃🔥 _${usedPrefix}historiaromantica_
-┗━⬣
+*╰━━━━━━━━━━━━⬣*
 
-┏━⊜ 𝐴𝑁𝐼𝑀𝐸
+*╭━〔 FUNCIÓN ANIME 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃🔮 _${usedPrefix}menuanimes_
-┗━⬣
-┏━⊜ 𝑨𝑳𝑬𝑨𝑻𝑶𝑹𝑰𝑶 - 𝑬𝑿𝑻𝑹𝑨 
+*╰━━━━━━━━━━━━⬣*
+
+
+*╭━〔 ALEATORIO/EXTRA 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃⋆⁺˖⸙̭❛╰☆╮ _${usedPrefix}kpop *<blackpink / exo / bts>*_
 ┃🛠 _${usedPrefix}cristianoronaldo_
@@ -328,14 +342,16 @@ ${readMore}
 ┃🛠 _${usedPrefix}hacker_
 ┃🛠 _${usedPrefix}planeta_
 ┃🛠 _${usedPrefix}randomprofile_
-┗━⬣
+*╰━━━━━━━━━━━━⬣*
 
-┏━⊜ 𝑂𝑃𝐶𝐼𝑂́𝑁𝐸𝑆 𝑃𝐴𝑅𝐴 𝑀𝐴𝑌𝑂𝑅𝐸𝑆
+
+*╭━〔 FÚNCIONES +18 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃🔞 _${usedPrefix}labiblia_
-┗━⬣
+*╰━━━━━━━━━━━━⬣*
 
-┏━⊜ 𝐸𝐹𝐸𝐶𝑇𝑂𝑆 𝐷𝐸 𝐴𝑈𝐷𝐼𝑂𝑆
+
+*╭━〔 EFECTOS DE AUDIOS 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃🥏 ℛ𝓔𝓢𝓟𝓞𝓝𝓓𝓔 𝓐 𝓤𝓝𝓐 𝓝𝓞𝓣𝓐 𝓓𝓔 𝓥𝓞𝓩 𝓞 𝓐𝓤𝓓𝓘𝓞*
 ┃⚜️ _${usedPrefix}bass_
@@ -350,21 +366,24 @@ ${readMore}
 ┃⚜️ _${usedPrefix}slow_
 ┃⚜️ _${usedPrefix}smooth_
 ┃⚜️ _${usedPrefix}tupai_
-┗━⬣
+*╰━━━━━━━━━━━━⬣*
 
-┏━⊜ 𝐶𝐻𝐴𝑇 𝐴𝑁𝑂𝑁𝐼𝑀𝑂
+
+*╭━〔 CHAT ANONIMO 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃🚀 _${usedPrefix}start_
 ┃🚀 _${usedPrefix}next_
 ┃🚀 _${usedPrefix}leave_
-┗━⬣
+*╰━━━━━━━━━━━━⬣*
 
-┏━⊜ 𝑆𝑂𝑁𝐼𝐷𝑂𝑆
+
+*╭━〔 SONIDOS 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃✨️ _${usedPrefix}menuaudios_
-┗━⬣
+*╰━━━━━━━━━━━━⬣*
 
-┏━⊜ 𝑈𝑇𝐼𝐿𝐼𝐷𝐴𝐷𝐸𝑆
+
+*╭━〔 UTILIDADES 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃🌸 _${usedPrefix}inspect *<link wa_gc>*_
 ┃🌸 _${usedPrefix}chatgpt *<texto>*_
@@ -392,9 +411,10 @@ ${readMore}
 ┃🌸 _${usedPrefix}covid *<pais>*_
 ┃🌸 _${usedPrefix}horario_
 ┃🌸 _${usedPrefix}dropmail_
-┗━⬣
+*╰━━━━━━━━━━━━⬣*
 
-┏━⊜ 𝑹𝑷𝑮-𝑳𝑰𝑴𝑰𝑻𝑬𝑺-𝑬𝑪𝑶𝑵𝑶𝑴𝑰𝑨
+
+*╭━〔 RPG-LIMITES-ECONOMIA 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃⚡️ _${usedPrefix}adventure_
 ┃🦊 _${usedPrefix}cazar_
@@ -415,8 +435,10 @@ ${readMore}
 ┃⚡️ _${usedPrefix}robar *<cantidad> <@tag>*_
 ┃🦊 _${usedPrefix}transfer *<tipo> <cantidad> <@tag>*_
 ┃⚡️ _${usedPrefix}unreg *<numero de serie>*_
-┗━⬣
-┏━⊜ 𝑆𝑇𝐼𝐾𝐸𝑅𝑆
+*╰━━━━━━━━━━━━⬣*
+
+
+*╭━〔 FUNCIÓN STIKERS〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃💮 _${usedPrefix}sticker *<responder a imagen o video>*_
 ┃💧 _${usedPrefix}sticker *<enlace / link / url>*_
@@ -444,9 +466,10 @@ ${readMore}
 ┃💧 _${usedPrefix}wm *<packname> <author>*_
 ┃💮 _${usedPrefix}stickermarker *<efecto> <imagen>*_
 ┃💧 _${usedPrefix}stickerfilter *<efecto> <imagen>*_
-┗━⬣
+*╰━━━━━━━━━━━━⬣*
 
-┏━⊜ 𝑶𝑷𝑪𝑰𝑶𝑵𝑬𝑺 𝑫𝑬 𝑶𝑾𝑵𝑬𝑹
+
+*╭━〔 FUNCIÓN - CREADOR 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃👑  > *<funcion>*
 ┃👑 => *<funcion>*
@@ -514,7 +537,7 @@ ${readMore}
 ┃👑 _${usedPrefix}delcmd *<responder a sticker/imagen con comando o texto asignado>*_
 ┃👑 _${usedPrefix}saveimage_
 ┃👑 _${usedPrefix}viewimage_
-┗━⬣`.trim();
+*╰━━━━━━━━━━━━⬣*`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
