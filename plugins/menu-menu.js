@@ -45,7 +45,7 @@ const str = `➪ *𝗛ola, ${taguser}*
 *╰━━━━━━━━━━━━⬣*
 
 *╭━〔 BOT/OFICIAL SUBBOT 〕━⬣*
- ┃•ʙᴏᴛ ᴏғɪᴄɪᴀʟ: ${(conn.user.jid == global.conn.user.jid ? '' : `sᴜʙʙᴏᴛ ᴅᴇ: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*ᴇsᴛᴇ ᴇs ᴇʟ ʙᴏᴛ ᴏғɪᴄɪᴀʟ*'}
+┃ʙᴏᴛ ᴏғɪᴄɪᴀʟ: ${(conn.user.jid == global.conn.user.jid ? '' : `sᴜʙʙᴏᴛ ᴅᴇ: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*ᴇsᴛᴇ ᴇs ᴇʟ ʙᴏᴛ ᴏғɪᴄɪᴀʟ*'}
 *╰━━━━━━━━━━━━⬣*
 ${readMore}
 *╭━〔 SOLUCIONES 〕━⬣*
