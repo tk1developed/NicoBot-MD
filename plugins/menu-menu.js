@@ -23,8 +23,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];   
 const str = `➪ *𝗛ola, ${taguser}*
 
-${(conn.user.jid == global.conn.user.jid ? '' : `sᴜʙʙᴏᴛ ᴅᴇ: https://wa.me/${global.conn.user.jid.split`@`[0]}`) ||}
-
 *╭꒱🦁⸽⃕SᴀᴋᴜʀᴀBᴏᴛ-MD🍁⃨፝⃕✰*
 ┃----------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃👑 *Creador:* @573013114854
@@ -44,6 +42,10 @@ ${(conn.user.jid == global.conn.user.jid ? '' : `sᴜʙʙᴏᴛ ᴅᴇ: https://
 ┃ *🦁 SakuCoins:* ${money}
 ┃ *🪙 Tokens:* ${joincount}
 ┃ *🎟️ Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
+*╰━━━━━━━━━━━━⬣*
+
+*╭━〔 BOT/OFICIAL SUBBOT 〕━⬣*
+ ┃•ʙᴏᴛ ᴏғɪᴄɪᴀʟ: ${(conn.user.jid == global.conn.user.jid ? '' : `sᴜʙʙᴏᴛ ᴅᴇ: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*ᴇsᴛᴇ ᴇs ᴇʟ ʙᴏᴛ ᴏғɪᴄɪᴀʟ*'}
 *╰━━━━━━━━━━━━⬣*
 ${readMore}
 *╭━〔 SOLUCIONES 〕━⬣*
