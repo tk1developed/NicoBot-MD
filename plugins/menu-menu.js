@@ -25,7 +25,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 * doc.length)]; 
   const str = `➪ *𝗛ola, ${taguser}*
 
-*╭꒱🦁⸽⃕SᴀᴋᴜʀᴀBᴏᴛ-MD🍁⃨፝⃕✰*
+*╭꒱ᰔᩚ⸽⃕SᴀᴋᴜʀᴀBᴏᴛ-MD🍁⃨፝⃕✰*
 ┃----------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃👑 *Creador:* @573013114854
 ┃✨️ *Bot Oficial:* @51935499065
