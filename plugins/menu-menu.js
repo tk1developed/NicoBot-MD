@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+2import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
   try {
@@ -33,10 +33,9 @@ const str = `➪ *𝗛ola, ${taguser}*
 ┃🗓 ${date}
 *╰━━━━━━━━━━━━⬣*
 
-*╭━〔 BOT O SUBBOT 〕━⬣*
+┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┃ʙᴏᴛ ᴏғɪᴄɪᴀʟ: ${(conn.user.jid == global.conn.user.jid ? '' : `sᴏʏ sᴜʙʙᴏᴛ ᴅᴇ: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || 'ᴇsᴛᴇ ᴇs ᴇʟ ʙᴏᴛ ᴏғɪᴄɪᴀʟ'}
-*╰━━━━━━━⬣*
-
+-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 
 *╭━〔 INFO - USER 〕━⬣*
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
