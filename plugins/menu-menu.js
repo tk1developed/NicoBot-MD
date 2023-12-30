@@ -57,9 +57,9 @@ ${readMore}
 *╔═══❖•ೋ° °ೋ•❖═══╗* 
 ┃SOLUCIONES
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┃ᰔᩚ Mensajes en espera
+┃ඬ⃟ 🪴 Mensajes en espera
 ┃↻ _${usedPrefix}fixmsgespera_
-┃ᰔᩚ Mensajes en espera (owner)
+┃ඬ⃟ 🪴 Mensajes en espera (owner)
 ┃↺ _${usedPrefix}dsowner_
 *╚═══❖•ೋ° °ೋ•❖═══╝*
 
