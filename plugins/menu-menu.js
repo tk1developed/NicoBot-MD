@@ -363,7 +363,7 @@ ${readMore}
 *╔═══❖•ೋ° °ೋ•❖═══╗*
 ┃EFECTOS DE AUDIOS
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┃ඬ⃟ ✨ 𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦 𝘈 𝘜𝘯𝘢 𝘕𝘰𝘵𝘢 𝘋𝘦 𝘈𝘶𝘥𝘪𝘰*
+┃ඬ⃟ ✨ 𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦 𝘈 𝘜𝘯𝘢 𝘕𝘰𝘵𝘢 𝘋𝘦 𝘈𝘶𝘥𝘪𝘰
 ┃ඬ⃟ ✨ _${usedPrefix}bass_
 ┃ඬ⃟ ✨ _${usedPrefix}blown_
 ┃ඬ⃟ ✨ _${usedPrefix}deep_
