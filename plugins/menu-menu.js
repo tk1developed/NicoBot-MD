@@ -105,7 +105,7 @@ ${readMore}
 ┃ඬ⃟ ⚡ _${usedPrefix}enable audios_bot_
 ┃ඬ⃟ ⚡ _${usedPrefix}disable audios_bot_
 ┃ඬ⃟ ⚡ _${usedPrefix}enable antiprivado_
-┃ _${usedPrefix}disable antiprivado_
+┃ඬ⃟ ⚡ _${usedPrefix}disable antiprivado_
 *╚═══❖•ೋ° °ೋ•❖═══╝*
 
 *╔═══❖•ೋ° °ೋ•❖═══╗*
