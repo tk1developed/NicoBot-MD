@@ -2,7 +2,7 @@ import {createHash} from 'crypto';
 import PhoneNumber from 'awesome-phonenumber';
 import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, participants, isPrems}) => {
-  let pp = 'https://en.idei.club/uploads/posts/2023-06/1686810490_en-idei-club-p-shinonome-ena-dizain-instagram-2.jpg';
+  let pp = 'https://en.idei.club/uploads/posts/2023-06/1686810490_en-idei-club-p-sakura-ena-dizain-instagram-2.jpg';
   const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender;
   if (!(who in global.db.data.users)) throw `El usuario que está mencionando no está registrado en mi base de datos`;
   try {
