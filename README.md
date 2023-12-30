@@ -5,7 +5,7 @@
 <p align="center"> 
 <a href="https://github.com/GataNina-Li"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=A1F733&width=435&lines=✨️SakuraBot-MD🦁;Disfruta+del+bot.+%E2%9A%A1" height="90px"></a> 
 </p>
-<img src="https://telegra.ph/file/06ac7703f23555f0a4d39.jpg" width="400" height="230"/>
+<img src="https://acegif.com/wp-content/gif/outerspace-51.gif" width="400" height="230"/>
 </p>
 <p align="center">
 <a href="#"><img title="SakuraBot-MD" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APOYAME CON UNA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
