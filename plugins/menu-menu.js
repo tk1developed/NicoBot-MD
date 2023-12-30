@@ -47,12 +47,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃ *🪙 Tokens:* ${joincount}
 ┃ *🎟️ Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 *╚═══❖•ೋ° °ೋ•❖═══╝*
-
-*╔═══❖•ೋ° °ೋ•❖═══╗*
-┃BOT/OFICIAL SUBBOT 
-┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┃ʙᴏᴛ ᴏғɪᴄɪᴀʟ: ${(conn.user.jid == global.conn.user.jid ? '' : `sᴜʙʙᴏᴛ ᴅᴇ: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || }
-*╚═══❖•ೋ° °ೋ•❖═══╝*
 ${readMore}
 *╔═══❖•ೋ° °ೋ•❖═══╗* 
 ┃SOLUCIONES
