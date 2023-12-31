@@ -36,17 +36,17 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
       try {
         const p = await fg.tiktok(args[0]);
         // let te = `*𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴:* ${p.author || 'Indefinido'}`
-        const te = `_*< DESCARGAS - TIKTOK />*_\n\n*[ 💡 ] Responde a este vídeo con el comando* _${usedPrefix}tomp3_ *para convertirlo en audio.*`;
+        const te = `_*< DESCARGAS - TIKTOK />*_\n\n*🌵 𝙍𝙚𝙨𝙥𝙤𝙣𝙙𝙚 𝘼 𝙐𝙣 𝙑𝙞𝙙𝙚𝙤 𝘾𝙤𝙣 𝙀𝙡 𝘾𝙤𝙢𝙖𝙣𝙙𝙤* _${usedPrefix}tomp3_ *para convertirlo en audio.*`;
         await conn.sendMessage(m.chat, {video: {url: p.nowm}, caption: te}, {quoted: m});
       } catch (e3) {
         try {
           const {author: {nickname}, video, description} = await tiktokdl(args[0]);
           const url = video.no_watermark2 || video.no_watermark || 'https://tikcdn.net' + video.no_watermark_raw || video.no_watermark_hd;
           // let cap = `*𝙽𝙸𝙲𝙺𝙽𝙰𝙼𝙴:* ${nickname || 'Indefinido'}`
-          const cap = `_*< DESCARGAS - TIKTOK />*_\n\n*[ 💡 ] Responde a este vídeo con el comando* _${usedPrefix}tomp3_ *para convertirlo en audio.*`;
+          const cap = `_*< DESCARGAS - TIKTOK />*_\n\n*🌵 𝙍𝙚𝙨𝙥𝙤𝙣𝙙𝙚 𝘼 𝙐𝙣 𝙑𝙞𝙙𝙚𝙤 𝘾𝙤𝙣 𝙀𝙡 𝘾𝙤𝙢𝙖𝙣𝙙𝙤* _${usedPrefix}tomp3_ *para convertirlo en audio.*`;
           await conn.sendMessage(m.chat, {video: {url: url}, caption: cap}, {quoted: m});
         } catch {
-          throw `_*< DESCARGAS - TIKTOK />*_\n\n*[ ℹ️ ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*`;
+          throw `_*< DESCARGAS - TIKTOK />*_\n\n*🌵 Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*`;
           }
         }
       }
@@ -57,7 +57,7 @@ handler.command = /^(tiktok|ttdl|tiktokdl|tiktoknowm|tt|ttnowm|tiktokaudio)$/i;
 export default handler;
 
 async function tiktokdlF(url) {
-  if (!/tiktok/.test(url)) return `_*< DESCARGAS - TIKTOK />*_\n\n*[ ℹ️ ] Ingrese un enlace de TikTok.*\n\n*[ 💡 ] Ejemplo:* _${usedPrefix + command} https://vm.tiktok.com/ZM686Q4ER/_`;
+  if (!/tiktok/.test(url)) return `_*< 𝐷𝐸𝑆𝐶𝐴𝑅𝐺𝐴𝑆 - 𝑇𝐼𝐾𝑇𝑂𝐾 />*_\n\n*✨ Iɴɢʀᴇsᴇ Uɴ Eɴʟᴀᴄᴇ Dᴇ Tɪᴋᴛᴏᴋ.*\n\n*🌵 𝐸𝑗𝑒𝑚𝑝𝑙𝑜:* _${usedPrefix + command} https://vm.tiktok.com/ZM6UHJYtE /_`;
   const gettoken = await axios.get('https://tikdown.org/id');
   const $ = cheerio.load(gettoken.data);
   const token = $('#download-form > input[type=hidden]:nth-child(2)').attr( 'value' );
