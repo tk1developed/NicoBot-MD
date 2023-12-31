@@ -22,7 +22,7 @@ global.owner = [
 global.suittag = ['573013114854'];
 global.prems = ['573218138672'];
 
-global.lenguajeSK //idioma de sakurabot
+global.lenguajeSK = es //idioma de sakurabot
 
 global.packname = '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩-𝙈𝘿✨️';
 global.author = '𝘿𝙞𝙚𝙜𝙤 𝙊𝙛𝙞𝙘𝙞𝙖𝙡';
