@@ -56,6 +56,7 @@ ${readMore}
 ┃╭───────────────✧
 ┃│ඬ⃟ ✨ Mensajes en espera
 ┃│↻ _${usedPrefix}fixmsgespera_
+┃│
 ┃│ඬ⃟ ✨ Mensajes en espera (owner)
 ┃│↺ _${usedPrefix}dsowner_
 ┃╰───────────────✧
