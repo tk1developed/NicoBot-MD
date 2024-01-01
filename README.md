@@ -96,6 +96,7 @@ pm2 stop index
 ```bash 
 pm2 start index
 ``` 
+## Gerar um novo QR  <img src="https://user-images.githubusercontent.com/108157095/182053978-d1a08952-4625-4e3f-b469-c8ebe4f22ac8.png" height="25px">
 ----
 ### 🥷🏻 ACTUALIZAR SAKURABOT
 > **Note** Comandos para actualizar SakuraBot-MD de forma automática
