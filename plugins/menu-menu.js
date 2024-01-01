@@ -271,7 +271,7 @@ ${readMore}
 ┣❥ _${usedPrefix}listwarn_
 ┣❥ _${usedPrefix}fantasmas_
 ┣❥ _${usedPrefix}destraba_
-┣❥v_${usedPrefix}setpp *<imagen>*_
+┣❥ _${usedPrefix}setpp *<imagen>*_
 *╚═══❖•ೋ° °ೋ•❖═══╝*
 
 *╔═══❖•ೋ° °ೋ•❖═══╗*
