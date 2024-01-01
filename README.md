@@ -65,8 +65,7 @@ Si despues que ya instalastes tu bot y termux te salta en blanco, se fue tu inte
 > cd SakuraBot-MD
 > npm start
 ```
-### `✨️ 𝙾𝙱𝚃𝙴𝙽𝙴𝚁 𝙾𝚃𝚁𝙾 𝙲𝙾𝙳𝙸𝙶𝙾 𝚀𝚁 𝙴𝙽 𝚃𝙴𝚁𝙼𝚄𝚇`
-Detener el bot apretado CTRL y aplastas Z en tu teclado, darle enter y escribe:
+## Generar un nuevo QR  <img src="https://user-images.githubusercontent.com/108157095/182053978-d1a08952-4625-4e3f-b469-c8ebe4f22ac8.png" height="25px">
 ```bash
 > cd 
 > cd SakuraBot-MD
@@ -96,7 +95,6 @@ pm2 stop index
 ```bash 
 pm2 start index
 ``` 
-## Gerar um novo QR  <img src="https://user-images.githubusercontent.com/108157095/182053978-d1a08952-4625-4e3f-b469-c8ebe4f22ac8.png" height="25px">
 ----
 ### 🥷🏻 ACTUALIZAR SAKURABOT
 > **Note** Comandos para actualizar SakuraBot-MD de forma automática
