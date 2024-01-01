@@ -53,31 +53,31 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ${readMore}
 *╔═══❖•ೋ° °ೋ•❖═══╗* 
 ┃SOLUCIONES
-┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┃ඬ⃟ ✨ Mensajes en espera
+┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́- 
+┃ꨄ︎ Mensajes en espera
 ┃↻ _${usedPrefix}fixmsgespera_
-┃ඬ⃟ ✨ Mensajes en espera (owner)
+┃ꨄ︎ Mensajes en espera (owner)
 ┃↺ _${usedPrefix}dsowner_
 *╚═══❖•ೋ° °ೋ•❖═══╝*
 
 *╔═══❖•ೋ° °ೋ•❖═══╗*
 ┃FUNCIÓN SUB BOT
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┃ඬ⃟ ⚡ _${usedPrefix}serbot --code_
-┃ඬ⃟ ⚡ _${usedPrefix}serbot_
-┃ඬ⃟ ⚡ _${usedPrefix}deletebot_
-┃ඬ⃟ ⚡ _${usedPrefix}token_
-┃ඬ⃟ ⚡ _${usedPrefix}stop_
-┃ඬ⃟ ⚡ _${usedPrefix}bots_
-┃ඬ⃟ ⚡ _${usedPrefix}terminosycondiciones_
-┃ඬ⃟ ⚡ _${usedPrefix}grupos_
-┃ඬ⃟ ⚡ _${usedPrefix}estado_
-┃ඬ⃟ ⚡ _${usedPrefix}infobot_
-┃ඬ⃟ ⚡ _${usedPrefix}speedtest_
-┃ඬ⃟ ⚡ _${usedPrefix}donar_
-┃ඬ⃟ ⚡ _${usedPrefix}owner_
-┃ඬ⃟ ⚡ _${usedPrefix}script_
-┃ඬ⃟ ⚡ _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+┃❥︎ _${usedPrefix}serbot --code_ 
+┃❥︎ _${usedPrefix}serbot_
+┃❥︎ _${usedPrefix}deletebot_
+┃❥︎ _${usedPrefix}token_
+┃❥︎ _${usedPrefix}stop_
+┃❥︎ _${usedPrefix}bots_
+┃❥︎ _${usedPrefix}terminosycondiciones_
+┃❥︎ _${usedPrefix}grupos_
+┃❥︎ _${usedPrefix}estado_
+┃❥︎ _${usedPrefix}infobot_
+┃❥︎ _${usedPrefix}speedtest_
+┃❥︎ _${usedPrefix}donar_
+┃❥︎ _${usedPrefix}owner_
+┃❥︎ _${usedPrefix}script_
+┃❥︎ _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 *╚═══❖•ೋ° °ೋ•❖═══╝*
 
 *╔═══❖•ೋ° °ೋ•❖═══╗*
