@@ -16,7 +16,7 @@ const handler = async (m, {conn, isPrems}) => { // lastmiming
     '🛣️ Has encontrado un Lugar y por minar dicho lugar Obtienes',
     '👾 Gracias a que has minado tus ingresos suman',
     'Felicidades!! Ahora tienes', '⛏️⛏️⛏️ Obtienes'])}`;
-  const pp = 'https://w0.peakpx.com/wallpaper/531/920/HD-wallpaper-video-game-project-sekai-colorful-stage-feat-hatsune-miku-akiyama-mizuki-ena-shinonome.jpg';
+  const pp = 'https://w0.peakpx.com/wallpaper/531/920/HD-wallpaper-video-game-project-sekai-colorful-stage-feat-hatsune-miku-akiyama-mizuki-ena-sakurabot.jpg';
   const aqua = `${pickRandom([1, 48, 33, 25, 50])}` * 1;
   const aquapremium = `${pickRandom([200, 400, 600, 700, 500, 900])}` * 1;
   const rock = `${pickRandom([20, 88, 60, 45, 32])}` * 1;
