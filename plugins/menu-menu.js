@@ -62,23 +62,22 @@ ${readMore}
 
 *╔═══❖•ೋ° °ೋ•❖═══╗*
 ┃FUNCIÓN SUB BOT
-┃╭══════════════╮
-┃┃ඬ⃟ ⚡ _${usedPrefix}serbot --code_
-┃┃ඬ⃟ ⚡ _${usedPrefix}serbot_
-┃┃ඬ⃟ ⚡ _${usedPrefix}deletebot_
-┃┃ඬ⃟ ⚡ _${usedPrefix}token_
-┃┃ඬ⃟ ⚡ _${usedPrefix}stop_
-┃┃ඬ⃟ ⚡ _${usedPrefix}bots_
-┃┃ඬ⃟ ⚡ _${usedPrefix}terminosycondiciones_
-┃┃ඬ⃟ ⚡ _${usedPrefix}grupos_
-┃┃ඬ⃟ ⚡ _${usedPrefix}estado_
-┃┃ඬ⃟ ⚡ _${usedPrefix}infobot_
-┃┃ඬ⃟ ⚡ _${usedPrefix}speedtest_
-┃┃ඬ⃟ ⚡ _${usedPrefix}donar_
-┃┃ඬ⃟ ⚡ _${usedPrefix}owner_
-┃┃ඬ⃟ ⚡ _${usedPrefix}script_
-┃┃ඬ⃟ ⚡ _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
-┃╰══════════════╯
+┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
+┃ඬ⃟ ⚡ _${usedPrefix}serbot --code_
+┃ඬ⃟ ⚡ _${usedPrefix}serbot_
+┃ඬ⃟ ⚡ _${usedPrefix}deletebot_
+┃ඬ⃟ ⚡ _${usedPrefix}token_
+┃ඬ⃟ ⚡ _${usedPrefix}stop_
+┃ඬ⃟ ⚡ _${usedPrefix}bots_
+┃ඬ⃟ ⚡ _${usedPrefix}terminosycondiciones_
+┃ඬ⃟ ⚡ _${usedPrefix}grupos_
+┃ඬ⃟ ⚡ _${usedPrefix}estado_
+┃ඬ⃟ ⚡ _${usedPrefix}infobot_
+┃ඬ⃟ ⚡ _${usedPrefix}speedtest_
+┃ඬ⃟ ⚡ _${usedPrefix}donar_
+┃ඬ⃟ ⚡ _${usedPrefix}owner_
+┃ඬ⃟ ⚡ _${usedPrefix}script_
+┃ඬ⃟ ⚡ _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 *╚═══❖•ೋ° °ೋ•❖═══╝*
 
 *╔═══❖•ೋ° °ೋ•❖═══╗*
