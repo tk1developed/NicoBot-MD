@@ -63,27 +63,27 @@ ${readMore}
 *╔═══❖•ೋ° °ೋ•❖═══╗*
 ┃FUNCIÓN SUB BOT
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┣❥ _${usedPrefix}serbot --code_ 
-┣❥ _${usedPrefix}serbot_
-┣❥ _${usedPrefix}deletebot_
-┣❥ _${usedPrefix}token_
-┣❥ _${usedPrefix}stop_
-┣❥ _${usedPrefix}bots_
-┣❥ _${usedPrefix}terminosycondiciones_
-┣❥ _${usedPrefix}grupos_
-┣❥ _${usedPrefix}estado_
-┣❥ _${usedPrefix}infobot_
-┣❥ _${usedPrefix}speedtest_
-┣❥ _${usedPrefix}donar_
-┣❥ _${usedPrefix}owner_
-┣❥ _${usedPrefix}script_
-┣❥ _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+┃ _${usedPrefix}serbot --code_ 
+┃ _${usedPrefix}serbot_
+┃ _${usedPrefix}deletebot_
+┃ _${usedPrefix}token_
+┃ _${usedPrefix}stop_
+┃ _${usedPrefix}bots_
+┃ _${usedPrefix}terminosycondiciones_
+┃ _${usedPrefix}grupos_
+┃ _${usedPrefix}estado_
+┃ _${usedPrefix}infobot_
+┃ _${usedPrefix}speedtest_
+┃ _${usedPrefix}donar_
+┃ _${usedPrefix}owner_
+┃ _${usedPrefix}script_
+┃ _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 *╚═══❖•ೋ° °ೋ•❖═══╝*
 
 *╔═══❖•ೋ° °ೋ•❖═══╗*
 ┃BOT A TU GRUPO
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┣❥ _${usedPrefix}join *<enlace / link / url>*_
+┃ _${usedPrefix}join *<enlace / link / url>*_
 *╚═══❖•ೋ° °ೋ•❖═══╝*
 
 *╔═══❖•ೋ° °ೋ•❖═══╗*
