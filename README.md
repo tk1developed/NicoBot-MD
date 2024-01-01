@@ -3,7 +3,7 @@
 
 > <b> ✨️Hola, Soy SakuraBot Como Estas?❤️
 <p align="center"> 
-<img src="https://readme-typing-svg.herokuapp.com/?font=mono&size=30&duration=4000&color=FF0000&center=falso&vCenter=falso&lines=𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋+;𝐃𝐢𝐞𝐠𝐨+𝐎𝐟𝐢𝐜𝐮𝐚𝐥+𝐂𝐫𝐞𝐚𝐝𝐨𝐫;1000+𝘊𝘰𝘮𝘢𝘯𝘥𝘰𝘴;𝑺𝒂𝒌𝒖𝒓𝒊𝒕𝒂𝑩𝒐𝒕-𝑴𝑫✰✰✰✰✰">      
+<img src="https://readme-typing-svg.herokuapp.com/?font=mono&size=30&duration=4000&color=FF0000&center=falso&vCenter=falso&lines=𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋+;𝐃𝐢𝐞𝐠𝐨+𝐎𝐟𝐢𝐜𝐢𝐚𝐥+𝐂𝐫𝐞𝐚𝐝𝐨𝐫;1000+𝘊𝘰𝘮𝘢𝘯𝘥𝘰𝘴;𝑺𝒂𝒌𝒖𝒓𝒊𝒕𝒂𝑩𝒐𝒕-𝑴𝑫✰✰✰✰✰">      
 <a href="https://github.com/GataNina-Li"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=A1F733&width=435&lines=✨️SakuraBot-MD🦁;Disfruta+del+bot.+%E2%9A%A1" height="90px"></a> 
 </p>
 <img src="https://acegif.com/wp-content/gif/outerspace-51.gif" width="400" height="230"/>
