@@ -11,14 +11,30 @@ import { es } from "./lib/idiomas/total-idiomas.js"
 
 global.botnumber = ""
 
-global.owner = [
-  ['573013114854', '👑 Sakura - Creador 👑', true],
+global.owner = [ 
+   ['573013114854', '👑 Sakura - Creador 👑', true],
   ['573218138672', '💫 Sakura - Collaborator 1 💫', true],
   ['573207200376', '💫 Sakura - Collaborator 2 💫', true],
-  ['573106909511', '💫 Sakura - Collaborator 3 💫', true],
-  ['51935499065', '💫 Sakura - Collaborator 4 💫', true],
-  ['573246822621', '💫 Sakura - Collaborator 5 💫', true],
-  ['+51 944 167 935', '💫 Sakura - Collaborator 6 💫', true]
+  ['573246822621', '💫 Sakura - Collaborator 3 💫', true],
+  ['573106909511', '💫 Sakura - Collaborator 4 💫', true],
+  ['51935499065', '💫 Sakura - Collaborator 5 💫', true],
+  ['526366923240', '💫 Sakura - Collaborator 6 💫', true],
+  ['51944167935', '💫 Sakura - Kiara 💫', false],
+  ['573001452386', '💫 Sakura - Collaborator 8 💫', true],
+  ['573003014644','💫 Sakura - Milena💫', true],
+  ['573104591342'],
+  ['573217297116'],
+  ['573235215844'],
+  ['573026191480'],
+  ['573006160430'],
+  ['573011698271'],
+  ['12623473787'],
+  ['573233549771'], 
+  ['573505338728'],  
+  ['50258115623'],
+  ['573225460401'],
+  ['573028268755'],
+  ['573116515908']
 ];
 
 global.suittag = ['573013114854'];
