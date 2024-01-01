@@ -83,7 +83,7 @@ ${readMore}
 *╔═══❖•ೋ° °ೋ•❖═══╗*
 ┃BOT A TU GRUPO
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┃ _${usedPrefix}join *<enlace / link / url>*_
+┃🌿➺ _${usedPrefix}join *<enlace / link / url>*_
 *╚═══❖•ೋ° °ೋ•❖═══╝*
 
 *╔═══❖•ೋ° °ೋ•❖═══╗*
