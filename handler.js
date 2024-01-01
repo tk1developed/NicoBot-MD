@@ -1201,7 +1201,7 @@ const messageText = `
             if (user.commandCount === 2) {
               const remainingTime = Math.ceil((user.lastCommandTime + 30000 - Date.now()) / 30000);
               if (remainingTime > 0) {
-                const messageText = `*[ ⏳ ] 𝘌𝘴𝘱𝘦𝘳𝘢 ${remainingTime} 𝘗𝘢𝘳𝘢 𝘜𝘴𝘢𝘳 𝘖𝘵𝘳𝘰 𝘊𝘰𝘮𝘢𝘯𝘥𝘰*`;
+                const messageText = `*[ ⏳ ] 𝘌𝘴𝘱𝘦𝘳𝘢 ${remainingTime} 𝘔𝘪𝘯𝘶𝘵𝘰 𝘗𝘢𝘳𝘢 𝘜𝘴𝘢𝘳 𝘖𝘵𝘳𝘰 𝘊𝘰𝘮𝘢𝘯𝘥𝘰*`;
                 m.reply(messageText);
                 return;
               } else {
@@ -1539,16 +1539,16 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
 
 global.dfail = (type, m, conn) => {
   const msg = {
-    rowner: '*[ ⚠️ ] ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴘᴜᴇᴅᴇ sᴇʀ ᴜᴛɪʟɪᴢᴀᴅᴏ ᴘᴏʀ ᴇʟ/ʟᴀ ᴘʀᴏᴘɪᴇᴛᴀʀɪᴏ﹙ᴀ﹚ ﹙ᴏᴡɴᴇʀ﹚ ᴅᴇʟ ʙᴏᴛ.*',
-    owner: '*[ ⚠️ ] ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴘᴜᴇᴅᴇ sᴇʀ ᴜᴛɪʟɪᴢᴀᴅᴏ ᴘᴏʀ ᴇʟ/ʟᴀ ᴘʀᴏᴘɪᴇᴛᴀʀɪᴏ﹙ᴀ﹚ ﹙ᴏᴡɴᴇʀ﹚ ᴅᴇʟ ʙᴏᴛ.*',
-    mods: '*[ ⚠️ ] ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴘᴜᴇᴅᴇ sᴇʀ ᴜᴛɪʟɪᴢᴀᴅᴏ ᴘᴏʀ ᴍᴏᴅᴇʀᴀᴅᴏʀᴇs ʏ ᴇʟ/ʟᴀ ᴘʀᴏᴘɪᴇᴛᴀʀɪᴏ﹙ᴀ﹚ ﹙ᴏᴡɴᴇʀ﹚ ᴅᴇʟ ʙᴏᴛ.*',
-    premium: '*[ ⚠️ ] ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴘᴜᴇᴅᴇ sᴇʀ ᴜᴛɪʟɪᴢᴀᴅᴏ ᴘᴏʀ ᴜsᴀʀɪᴏs ᴘʀᴇᴍɪᴜᴍ ʏ ᴇʟ/ʟᴀ ᴘʀᴏᴘɪᴇᴛᴀʀɪᴏ﹙ᴀ﹚ ﹙ᴏᴡɴᴇʀ﹚ ᴅᴇʟ ʙᴏᴛ.*',
-    group: '*[ ⚠️ ] ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴘᴜᴇᴅᴇ sᴇʀ ᴜᴛɪʟɪᴢᴀᴅᴏ ᴇɴ ɢʀᴜᴘᴏs.*',
-    private: '*[ ⚠️ ] ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴘᴜᴇᴅᴇ sᴇʀ ᴜᴛɪʟɪᴢᴀᴅᴏ ᴇɴ ᴇʟ ᴄʜᴀᴛ ᴘʀɪᴠᴀᴅᴏ ᴅᴇʟ ʙᴏᴛ.*',
-    admin: '*[ ⚠️ ] ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴘᴜᴇᴅᴇ sᴇʀ ᴜsᴀᴅᴏ ᴘᴏʀ ᴀᴅᴍɪɴs ᴅᴇʟ ɢʀᴜᴘᴏ.*',
-    botAdmin: '*[ ⚠️ ] ᴘᴀʀᴀ ᴘᴏᴅᴇʀ ᴜsᴀʀ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ ᴇs ɴᴇᴄᴇsᴀʀɪᴏ ϙᴜᴇ ʏᴏ sᴇᴀ ᴀᴅᴍɪɴ.*',
-    unreg: '*[ 🛑 h̲e̲y̲!! ̲e̲s̲p̲e̲r̲a̲, t̲e̲ ̲f̲a̲l̲t̲a̲ ̲r̲e̲g̲i̲s̲t̲r̲a̲r̲t̲e̲ 🛑 ]*\n\n*⌨️ p̲a̲r̲a̲ ̲u̲s̲a̲r̲ ̲e̲s̲t̲o̲s̲ ̲c̲o̲m̲a̲n̲d̲o̲s̲ ̲n̲e̲c̲e̲s̲i̲t̲a̲s̲ ̲e̲s̲t̲a̲r̲ ̲r̲e̲g̲i̲s̲t̲r̲a̲d̲o̲, u̲s̲a̲ ̲e̲l̲ ̲s̲i̲g̲u̲i̲e̲n̲t̲e̲ ̲c̲o̲m̲a̲n̲d̲o̲:*\n*➡️ #𝐫𝐞𝐠 𝐧𝐨𝐦𝐛𝐫𝐞.𝐞𝐝𝐚𝐝*',
-    restrict: '*[ ⚠️ ] 𝕔𝕠𝕞𝕒𝕟𝕕𝕠 𝕣𝕖𝕤𝕥𝕣𝕚𝕟𝕘𝕚𝕕𝕠/𝕕𝕖𝕤𝕒𝕔𝕥𝕚𝕧𝕒𝕕𝕠 𝕡𝕠𝕣 𝕕𝕖𝕤𝕚𝕔𝕚𝕠́𝕟 𝕕𝕖𝕝 𝕡𝕣𝕠𝕡𝕚𝕖𝕥𝕒𝕣𝕚𝕠(𝕒) (𝕠𝕨𝕟𝕖𝕣) 𝕕𝕖𝕝 𝔹𝕠𝕥.*',
+    rowner: '*⚠️ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴘᴜᴇᴅᴇ sᴇʀ ᴜᴛɪʟɪᴢᴀᴅᴏ ᴘᴏʀ ᴇʟ/ ᴘʀᴏᴘɪᴇᴛᴀʀɪᴏ ᴅᴇʟ ʙᴏᴛ.*',
+    owner: '*⚠️ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴘᴜᴇᴅᴇ sᴇʀ ᴜᴛɪʟɪᴢᴀᴅᴏ ᴘᴏʀ ᴇʟ ᴘʀᴏᴘɪᴇᴛᴀʀɪᴏ ᴅᴇʟ ʙᴏᴛ.*',
+    mods: '*⚠️ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴘᴜᴇᴅᴇ sᴇʀ ᴜᴛɪʟɪᴢᴀᴅᴏ ᴘᴏʀ ᴍᴏᴅᴇʀᴀᴅᴏʀᴇs ʏ ᴇʟ ᴘʀᴏᴘɪᴇᴛᴀʀɪᴏ ᴅᴇʟ ʙᴏᴛ.*',
+    premium: '*⚠️ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴘᴜᴇᴅᴇ sᴇʀ ᴜᴛɪʟɪᴢᴀᴅᴏ ᴘᴏʀ ᴜsᴀʀɪᴏs ᴘʀᴇᴍɪᴜᴍ ʏ ᴇʟ ᴘʀᴏᴘɪᴇᴛᴀʀɪᴏ ᴅᴇʟ ʙᴏᴛ.*',
+    group: '*⚠️ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴘᴜᴇᴅᴇ sᴇʀ ᴜᴛɪʟɪᴢᴀᴅᴏ ᴇɴ ɢʀᴜᴘᴏs.*',
+    private: '*⚠️ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴘᴜᴇᴅᴇ sᴇʀ ᴜᴛɪʟɪᴢᴀᴅᴏ ᴇɴ ᴇʟ ᴄʜᴀᴛ ᴘʀɪᴠᴀᴅᴏ ᴅᴇʟ ʙᴏᴛ.*',
+    admin: '*⚠️ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴘᴜᴇᴅᴇ sᴇʀ ᴜsᴀᴅᴏ ᴘᴏʀ ᴀᴅᴍɪɴs ᴅᴇʟ ɢʀᴜᴘᴏ.*',
+    botAdmin: '*⚠️ ᴘᴀʀᴀ ᴘᴏᴅᴇʀ ᴜsᴀʀ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ ᴇs ɴᴇᴄᴇsᴀʀɪᴏ ϙᴜᴇ ʏᴏ sᴇᴀ ᴀᴅᴍɪɴ.*',
+    unreg: '*⚠️ 𝐇𝐞𝐲 𝐄𝐬𝐩𝐞𝐫𝐚,𝐓𝐞 𝐅𝐚𝐥𝐭𝐚 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐫𝐭𝐞 🛑 ]*\n\n*⌨ 𝐏𝐚𝐫𝐚 𝐔𝐬𝐚𝐫 𝐄𝐬𝐭𝐨 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐍𝐞𝐬𝐞𝐬𝐢𝐭𝐚𝐬 𝐄𝐬𝐭𝐚𝐫 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐝𝐨, 𝐔𝐬𝐚 𝐄𝐥 𝐒𝐢𝐠𝐮𝐢𝐞𝐧𝐭𝐞 𝐂𝐨𝐦𝐚𝐧𝐝𝐨:*\n*➡️ #𝐫𝐞𝐠 𝐧𝐨𝐦𝐛𝐫𝐞.𝐞𝐝𝐚𝐝*',
+    restrict: '*⚠️ 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘙𝘦𝘴𝘵𝘳𝘪𝘯𝘨𝘪𝘥𝘰 𝘗𝘰𝘳 𝘋𝘦𝘴𝘪𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘗𝘳𝘰𝘱𝘪𝘦𝘵𝘢𝘳𝘪𝘰 𝘋𝘦𝘭 𝘉𝘰𝘵.*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
   const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: '➢ ⃟⃞❆𖤍𝘋𝘪𝘦𝘨𝘰-𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𖤍𖣘 ⃟⃞❆', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VaHYnwaKQuJIlTFuS22l'}}}}, aa);
