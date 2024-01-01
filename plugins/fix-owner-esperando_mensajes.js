@@ -8,7 +8,7 @@ const handler = async (m, { conn, usedPrefix }) => {
     return conn.sendMessage(m.chat, {text: '*😆Tɪᴇɴᴇs Qᴜᴇ Usᴀʀʟᴏ Eɴ Eʟ Nᴜᴍᴇʀᴏ Pʀɪɴᴄɪᴘᴀʟ Dᴇʟ Bᴏᴛ.*'}, {quoted: m});
   }
   await conn.sendMessage(m.chat, {text: '*🌿 Iɴɪᴄɪᴀɴᴅᴏ Eʟ Pʀᴏᴄᴇsᴏ Dᴇ Eʟɪᴍɪɴᴀᴄɪᴏ́ɴ Dᴇ Tᴏᴅᴏs Lᴏs Aʀᴄʜɪᴠᴏs Dᴇ Sᴇssɪᴏɴ, Exᴇᴄᴛᴏ Eʟ Aʀᴄʜɪᴠᴏ creds.json...*'}, {quoted: m});
-  const sessionPath = './ShinoSession/';
+  const sessionPath = './SakuraBotSession/';
   try {
     if (!existsSync(sessionPath)) {
       return await conn.sendMessage(m.chat, {text: '*👊 Lᴀ Cᴀʀᴘᴇᴛᴀ SakuraBotSession no existe o está vacía.*'}, {quoted: m});
