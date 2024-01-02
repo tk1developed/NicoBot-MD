@@ -5,7 +5,7 @@ const handler = async (m, {conn, usedPrefix}) => {
 
 *꧁༺ Grupos del Bot ༻꧂:*
 
-*1.-* https://chat.whatsapp.com/Jn6ITStNp1JCCjWVjSYcss
+*1.-* https://chat.whatsapp.com/Gf0jUCgZTdU5pbcKPZPtWk
 
 *2.-* https://chat.whatsapp.com/Dyf8Bbpkd1122KL2FWm2ew
 
