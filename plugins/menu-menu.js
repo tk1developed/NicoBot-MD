@@ -45,13 +45,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┏━━━━━━━━━━━━━━━━┓
 ┃ ⏤͟͟͞𝙄𝙉𝙁𝙊 𝘿𝙀𝙇 𝙐𝙎𝙐𝘼𝙍𝙄𝙊 
 ┗━━━━━━━━━━━━━━
-┣┅⟣✦ *Nivel:* ${level}
-┣┅⟣✦ *Experiencia:* ${exp}
-┣┅⟣✦ *Rango:* ${role}
-┣┅⟣✦ *Diamantes:* ${limit}
-┣┅⟣✦ *SakuCoins:* ${money}
-┣┅⟣✦ *Tokens:* ${joincount}
-┣┅⟣✦ *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
+┣┅⟣✦ *🎖Nivel:* ${level}
+┣┅⟣✦ *🧰Experiencia:* ${exp}
+┣┅⟣✦ *⚓️Rango:* ${role}
+┣┅⟣✦ *💎Diamantes:* ${limit}
+┣┅⟣✦ *👾SakuCoins:* ${money}
+┣┅⟣✦ *🪙Tokens:* ${joincount}
+┣┅⟣✦ *🎟Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ┗━━━━━━━━━━━━━━━━┛
 ${readMore}
 ┏━━━━━━━━━━━━━━━━┓
