@@ -30,25 +30,26 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰═══╡✯✯✯✯✯✯✯✯✯╞════╯
 
 *╔════❖•ೋ° °ೋ•❖════╗*
-┃👑 *Creador:* Diego
-┃🌵 *Numero:* +57 301 3114854
-┃🌾 *Bot Oficial:* +51 935 499 065
-┃⏳️ *Tiempo activo:* ${uptime}
-┃🗃 *Usuarios regs:* ${rtotalreg}
-┃🗂 *Usuarios totales:* ${rtotal}
-┃📅 ${date}
+┣┅⟣✦ 𝗛𝗼𝗹𝗮👋, 𝗦𝗼𝘆 𝗦𝗮𝗸𝘂𝗿𝗮𝗕𝗼𝘁-𝗠𝗗
+┣┅⟣✦ *Creador:* Diego
+┣┅⟣✦ *Numero:* +57 301 3114854
+┣┅⟣✦ *Bot Oficial:* +51 935 499 065
+┣┅⟣✦ *Tiempo activo:* ${uptime}
+┣┅⟣✦ *Usuarios regs:* ${rtotalreg}
+┣┅⟣✦ *Usuarios totales:* ${rtotal}
+┣┅⟣✦ ${date}
 *╚════❖•ೋ° °ೋ•❖════╝*
 
 *╔═══❖•ೋ° °ೋ•❖═══╗*
 ┃➼♡ᩚINFO - USER
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┃ *🎖 Nivel:* ${level}
-┃ *🧰 Experiencia:* ${exp}
-┃ *⚓️ Rango:* ${role}
-┃ *💎 Diamantes:* ${limit}
-┃ *👾 SakuCoins:* ${money}
-┃ *🪙 Tokens:* ${joincount}
-┃ *🎟 Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
+┣┅⟣✦ *Nivel:* ${level}
+┣┅⟣✦ *Experiencia:* ${exp}
+┣┅⟣✦ *Rango:* ${role}
+┣┅⟣✦ *Diamantes:* ${limit}
+┣┅⟣✦ *SakuCoins:* ${money}
+┣┅⟣✦ *Tokens:* ${joincount}
+┣┅⟣✦ *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 *╚═══❖•ೋ° °ೋ•❖═══╝*
 ${readMore}
 *╔═══❖•ೋ° °ೋ•❖═══╗* 
