@@ -1,9 +1,9 @@
 const handler = async (m) => {
   global.db.data.chats[m.chat].isBanned = true;
-  m.reply('*Porfin Baneastes El Chat Me Asian Mucho Spam Mejor Asi Baneado* *\n\n*—◉ 𝙴𝙻 𝙱𝙾𝚃 𝙽𝙾 𝚁𝙴𝙰𝙲𝙲𝙸𝙾𝙽𝙰𝚁𝙰 𝙰 𝙽𝙸𝙽𝙶𝚄𝙽 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙷𝙰𝚂𝚃𝙰 𝙳𝙴𝚂𝙱𝙰𝙽𝙴𝙰𝚁 𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃*');
+  m.reply('[🌼]𝗖𝗵𝗮𝘁 𝗕𝗮𝗻𝗲𝗮𝗱𝗼 𝗖𝗼𝗻 𝗘𝘅𝗶𝘁𝗼,𝗡𝗼 𝗣𝗼𝗱𝗿𝗮𝗻 𝗨𝘀𝗮𝗿 𝗦𝗮𝗸𝘂𝗿𝗮𝗕𝗼𝘁-𝗠𝗗☘️');
 };
 handler.help = ['banchat'];
 handler.tags = ['owner'];
-handler.command = /^banchat$/i;
+handler.command = /^prohibirchat$/i;
 handler.rowner = true;
 export default handler;
