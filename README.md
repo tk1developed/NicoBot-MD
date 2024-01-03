@@ -34,6 +34,17 @@
 [![Run on Repl.it](https://repl.it/badge/github/diegojadibot/SakuraBot-MD)](https://repl.it/github/diegojadibot/SakuraBot-MD) 
 
 ------------------ 
+#### INSTALACIÓN AUTOMÁTICA POR TERMUX
+[![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/smoWgg28wPk?si=ck-t9tvKrJQ0yZbS?feature=share)
+
+> **Nota:** Comandos para instalar de forma automática en Termux  
+```bash
+termux-setup-storage
+```
+```bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBot-MD/master/sakura.sh | bash
+```
+
 
 ## 𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝚃𝙴𝚁𝙼𝚄𝚇
 👇 Pasos para instalar el bot via termux 👇
