@@ -46,7 +46,7 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 ```
 
 
-## INSTALACIÓN MANUAL PPR TERMUX
+#### INSTALACIÓN MANUAL POR TERMUX
 👇 Pasos para instalar el bot via termux 👇
 
 [`💫 Instalar termux clic aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
