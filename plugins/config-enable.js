@@ -132,13 +132,6 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 
 --------------------------------
 
-*Opción:* 🤖 | MODEJADIBOT
-*Comando:* ${usedPrefix + command} modejadibot
-*Descripción:* Activa o desactiva el uso del comando para sub bots (${usedPrefix}serbot / ${usedPrefix}jadibot). 
-*Nota:* Este comando solo podrá ser usado por owners del Bot.
-
---------------------------------
-
 *Opción:* 👑 | MODOADMIN
 *Comando:* ${usedPrefix + command} modoadmin
 *Descripción:* El Bot solo responderá a los admins del grupo.
