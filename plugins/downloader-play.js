@@ -21,16 +21,16 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
       additionalText = 'video 🎥';
     }
     const texto1 = `*◉——⌈🔊 YOUTUBE PLAY 🔊⌋——◉*\n
-❏ 📌 *Titulo:* ${yt_play[0].title}
-❏ 📆 *Publicado:* ${yt_play[0].ago}
-❏ ⌚ *Duracion:* ${secondString(yt_play[0].duration.seconds)}
-❏ 👀 *Vistas:* ${`${MilesNumber(yt_play[0].views)}`}
-❏ 👤 *Autor:* ${yt_play[0].author.name}
-❏ ⏯️ *Canal:* ${yt_play[0].author.url}
-❏ 🆔 *ID:* ${yt_play[0].videoId}
-❏ 🪬 *Tipo:* ${yt_play[0].type}
-❏ 🔗 *Link:* ${yt_play[0].url}\n
-❏ *_Enviando ${additionalText}, aguarde un momento．．．_*`.trim();
+ 📌 *Titulo:* ${yt_play[0].title}
+ 📆 *Publicado:* ${yt_play[0].ago}
+ ⌚ *Duracion:* ${secondString(yt_play[0].duration.seconds)}
+ 👀 *Vistas:* ${`${MilesNumber(yt_play[0].views)}`}
+ 👤 *Autor:* ${yt_play[0].author.name}
+ ⏯️ *Canal:* ${yt_play[0].author.url}
+ 🆔 *ID:* ${yt_play[0].videoId}
+ 🪬 *Tipo:* ${yt_play[0].type}
+ 🔗 *Link:* ${yt_play[0].url}\n
+ *_Enviando ${additionalText}, aguarde un momento．．．_*`.trim();
     conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play') {
     try {    
