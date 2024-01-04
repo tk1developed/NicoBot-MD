@@ -506,10 +506,6 @@ ${readMore}
 ┣👑 _${usedPrefix}disable *anticall*_
 ┣👑 _${usedPrefix}enable *antiprivado*_
 ┣👑 _${usedPrefix}disable *antiprivado*_
-┣👑 _${usedPrefix}enable *modejadibot*_
-┣👑 _${usedPrefix}disable *modejadibot*_
-┣👑 _${usedPrefix}enable *audios_bot*_
-┣👑 _${usedPrefix}disable *audios_bot*_
 ┣👑 _${usedPrefix}enable *antispam*_
 ┣👑 _${usedPrefix}disable *antispam*_
 ┣👑 _${usedPrefix}msg *<texto>*_
