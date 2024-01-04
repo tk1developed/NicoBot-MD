@@ -169,7 +169,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *Descripción:* Se activa el modo "Inteligencia Artificial" con GPT en todos los chats privados.
 *Nota:* Este comando solo podrá ser usado por owners del Bot.`.trim();
 
-  const isEnable = /true|enable|(turn)?on|1/i.test(command);
+  const isEnable = /true|on|(turn)?on|1/i.test(command);
   const chat = global.db.data.chats[m.chat];
   const user = global.db.data.users[m.sender];
   const bot = global.db.data.settings[conn.user.jid] || {};
