@@ -44,7 +44,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┏━━━━━━━━━━━━━━━━┓
 ┃ ⏤͟͟͞𝙄𝙉𝙁𝙊 𝘿𝙀𝙇 𝙐𝙎𝙐𝘼𝙍𝙄𝙊 
 ┗━━━━━━━━━━━━━━
-┣┅⟣✦ *🙌 Registrado:* ${user.registered === true ? '✅' : '❌ *Verificar*'}
+┣┅⟣✦ *🙌 Registrado:* ${user.registered === true ? '✅' : '❌ *#verificar*'}
 ┣┅⟣✦ *🎖Nivel:* ${level}
 ┣┅⟣✦ *🧰Experiencia:* ${exp}
 ┣┅⟣✦ *⚓️Rango:* ${role}
