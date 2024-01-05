@@ -1,6 +1,6 @@
 import {execSync} from "child_process"
 let handler = async (m, {conn, text}) => {
-  await m.reply(`*🚀 E S P E R A*`)
+  await m.reply(`*😸 E S P E R A*`)
   try {
     if (global.conn.user.jid == conn.user.jid) {
       let stdout = execSync("git pull" + (m.fromMe && text ? " " + text : ""))
