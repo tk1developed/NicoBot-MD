@@ -44,8 +44,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┏━━━━━━━━━━━━━━━━┓
 ┃ ⏤͟͟͞𝙄𝙉𝙁𝙊 𝘿𝙀𝙇 𝙐𝙎𝙐𝘼𝙍𝙄𝙊 
 ┗━━━━━━━━━━━━━━
-□ *🔰 Mi estado:* ${typeof user.miestado !== 'string' ? '_#miestado || Estado no asignado_' : '_Me siento ' + user.miestado + '_'}
-□ *🙌 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
+┣┅⟣✦ *🙌 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
 ┣┅⟣✦ *🎖Nivel:* ${level}
 ┣┅⟣✦ *🧰Experiencia:* ${exp}
 ┣┅⟣✦ *⚓️Rango:* ${role}
