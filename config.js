@@ -9,10 +9,10 @@ import moment from 'moment-timezone';
 import { es } from "./lib/idiomas/total-idiomas.js"
 
 
-global.botnumber = ""
+global.botnumber = "17726177069"
 
 global.owner = [ 
-   ['573013114854', '👑 Sakura - Creador 👑', true],
+   ['17754685176', '👑 Sakura - Creador 👑', true],
   ['573218138672', '💫 Sakura - Collaborator 1 💫', true],
   ['573207200376', '💫 Sakura - Collaborator 2 💫', true],
   ['573246822621', '💫 Sakura - Collaborator 3 💫', true],
