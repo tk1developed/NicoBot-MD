@@ -28,7 +28,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 
 *🚀VELOCIDAD*
 𝘝𝘦𝘭𝘰𝘤𝘪𝘥𝘢𝘥: 
- *${speed} ms*
+*${speed} ms*
 
 *⏰️ACTIVIDAD*
 𝘈𝘤𝘵𝘪𝘷𝘰: *${uptime}*
@@ -38,16 +38,8 @@ const handler = async (m, { conn, usedPrefix }) => {
  𝘊𝘩𝘢𝘵𝘴 𝘋𝘦 𝘎𝘳𝘶𝘱𝘰𝘴: *${groups.length}* 
  𝘊𝘩𝘢𝘵𝘴 𝘛𝘰𝘵𝘢𝘭𝘦𝘴: *${chats.length}* 
 
-*💻SERVIDORES*
+*💻REGISTRADOS*
  𝘜𝘴𝘦𝘳: *${totalreg} 𝚗𝚞𝚖𝚎𝚛𝚘𝚜*
- 𝘈𝘶𝘵𝘰𝘳𝘦𝘢𝘥: ${autoread ? "*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*" : "*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*"}
- 𝘙𝘦𝘴𝘵𝘳𝘪𝘤𝘵: ${restrict ? "*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*" : "*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*"} 
- 𝘗𝘤𝘰𝘯𝘭𝘺: ${pconly ? "*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*" : "*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*"}
- 𝘎𝘤𝘰𝘯𝘭𝘺: ${gconly ? "*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*" : "*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*"}
- 𝘔𝘰𝘥𝘰: ${self ? "*𝚙𝚛𝚒𝚟𝚊𝚍𝚘*" : "*𝚙𝚞𝚋𝚕𝚒𝚌𝚘*"}
- 𝘈𝘯𝘵𝘪𝘱𝘳𝘪𝘷𝘢𝘥𝘰: ${antiprivado ? "*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*" : "*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*"}
- 𝘔𝘰𝘥𝘦𝘫𝘢𝘥𝘪𝘣𝘰𝘵: ${modejadibot ? "*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*" : "*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*"}
- 𝘈𝘯𝘵𝘪𝘭𝘭𝘢𝘮𝘢𝘥𝘢: ${antiCall ? "*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*" : "*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*"}
  ⃟ᬽ៸𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿༒★»
 `.trim();
   const doc = [
