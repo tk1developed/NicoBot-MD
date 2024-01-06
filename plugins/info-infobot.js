@@ -22,23 +22,23 @@ const handler = async (m, { conn, usedPrefix }) => {
   const neww = performance.now();
   const speed = neww - old;
   const info = `
-*⚓️CREADOR/PREFIJO*
+*⚓️Creador/Prefijo*
 𝘊𝘳𝘦𝘢𝘥𝘰𝘳: 𝘿𝙞𝙚𝙜𝙤
 𝘗𝘳𝘦𝘧𝘪𝘫𝘰: *${usedPrefix}*
 
-*🚀VELOCIDAD*
+*🚀Velocidad*
 𝘝𝘦𝘭𝘰𝘤𝘪𝘥𝘢𝘥: 
 *${speed} ms*
 
-*⏰️ACTIVIDAD*
+*⏰️Actividad*
 𝘈𝘤𝘵𝘪𝘷𝘰: *${uptime}*
 
-*🌻CHATS*
+*🌻Chats*
 𝘊𝘩𝘢𝘵𝘴 𝘗𝘳𝘪𝘷𝘢𝘥𝘰𝘴: *${chats.length - groups.length}*
 𝘊𝘩𝘢𝘵𝘴 𝘋𝘦 𝘎𝘳𝘶𝘱𝘰𝘴: *${groups.length}* 
 𝘊𝘩𝘢𝘵𝘴 𝘛𝘰𝘵𝘢𝘭𝘦𝘴: *${chats.length}* 
 
-*💻REGISTRADOS*
+*💻Registrado*
  𝘜𝘴𝘦𝘳: *${totalreg} 𝚗𝚞𝚖𝚎𝚛𝚘𝚜*
 
  ⃟ᬽ៸𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿༒★»
