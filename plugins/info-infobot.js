@@ -24,11 +24,10 @@ const handler = async (m, { conn, usedPrefix }) => {
   const info = `
 
 *🚀Velocidad*
-𝘝𝘦𝘭𝘰𝘤𝘪𝘥𝘢𝘥: 
 *${speed} ms*
 
 *⏰️Actividad*
-𝘈𝘤𝘵𝘪𝘷𝘰: *${uptime}*
+*${uptime}*
 
 *🌻Chats*
 𝘊𝘩𝘢𝘵𝘴 𝘗𝘳𝘪𝘷𝘢𝘥𝘰𝘴: *${chats.length - groups.length}*
@@ -36,7 +35,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 𝘊𝘩𝘢𝘵𝘴 𝘛𝘰𝘵𝘢𝘭𝘦𝘴: *${chats.length}* 
 
 *💻Registrado*
- 𝘜𝘴𝘦𝘳: *${totalreg} 𝚗𝚞𝚖𝚎𝚛𝚘𝚜*
+*${totalreg} 𝚗𝚞𝚖𝚎𝚛𝚘𝚜*
 
  ⃟ᬽ៸𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿༒★»
 `.trim();
