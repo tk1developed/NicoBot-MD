@@ -1,16 +1,16 @@
-## SakuraBot-MD✨️ ##
+## SakuraBotLite-MD✨️ ##
 > <p>  🚀 SakuraBot (Desarrollo) </b>
 
-> <b> ✨️Hola, Soy SakuraBot Como Estas?❤️
+> <b> ✨️Hola, Soy SakuraBotLite Como Estas?❤️
 <p align="center"> 
-<img src="https://readme-typing-svg.herokuapp.com/?font=mono&size=30&duration=4000&color=FF0000&center=falso&vCenter=falso&lines=𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵-𝘔𝘋+;𝐃𝐢𝐞𝐠𝐨+𝐎𝐟𝐢𝐜𝐢𝐚𝐥+𝐂𝐫𝐞𝐚𝐝𝐨𝐫;1000+𝘊𝘰𝘮𝘢𝘯𝘥𝘰𝘴;𝑺𝒂𝒌𝒖𝒓𝒊𝒕𝒂𝑩𝒐𝒕-𝑴𝑫✰✰✰✰✰">      
-<a href="https://github.com/GataNina-Li"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=A1F733&width=435&lines=✨️SakuraBot-MD🦁;Disfruta+del+bot.+%E2%9A%A1" height="90px"></a> 
+<img src="https://readme-typing-svg.herokuapp.com/?font=mono&size=30&duration=4000&color=FF0000&center=falso&vCenter=falso&lines=SakuraBotLite-MD+;𝐃𝐢𝐞𝐠𝐨+𝐎𝐟𝐢𝐜𝐢𝐚𝐥+𝐂𝐫𝐞𝐚𝐝𝐨𝐫;1000+𝘊𝘰𝘮𝘢𝘯𝘥𝘰𝘴;SakuraLite✰✰✰✰✰">      
+<a href="https://github.com/GataNina-Li"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=A1F733&width=435&lines=✨️SakuraBotLite-MD🦁;Disfruta+del+bot.+%E2%9A%A1" height="90px"></a> 
 </p>
-<img src="https://telegra.ph/file/196166e6be5ea38fba2f5.jpg" width="400" height="230"/>
+<img src="https://telegra.ph/file/c4f29de32602a22ea29ce.jpg" width="400" height="230"/>
 </p>
 <p align="center">
-<a href="#"><img title="SakuraBot-MD" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APOYAME CON UNA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
-<a href="#"><img title="SakuraBot-MD" src="https://img.shields.io/badge/COMPATIBLE CON LA VERSIÓN MULTI DISPOSITIVOS DE WHATSAPP-red?colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge">
+<a href="#"><img title="SakuraBotLite-MD" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APOYAME CON UNA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
+<a href="#"><img title="SakuraBotLite-MD" src="https://img.shields.io/badge/COMPATIBLE CON LA VERSIÓN MULTI DISPOSITIVOS DE WHATSAPP-red?colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge">
 <div align="center">
 <a href="https://www.facebook.com/diegoadsarmiento?mibextid=9R9pXO/">
 <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook">
@@ -31,7 +31,7 @@
 
 ### `✨️ 𝙰𝙲𝚃𝙸𝚅𝙰𝚁 𝙴𝙽 𝚁𝙴𝙿𝙻𝙸𝚃`
 
-[![Run on Repl.it](https://repl.it/badge/github/diegojadibot/SakuraBot-MD)](https://repl.it/github/diegojadibot/SakuraBot-MD) 
+[![Run on Repl.it](https://repl.it/badge/github/diegojadibot/SakuraBotLite-MD)](https://repl.it/github/diegojadibot/SakuraBotLite-MD) 
 
 ------------------ 
 #### INSTALACIÓN AUTOMÁTICA POR TERMUX
@@ -42,7 +42,7 @@
 termux-setup-storage
 ```
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBot-MD/master/sakura.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/sakura.sh | bash
 ```
 
 
@@ -58,7 +58,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg update && pkg upgrade && pkg install bash && pkg install libwebp && pkg install git -y && pkg install nodejs -y && pkg install ffmpeg -y && pkg install wget && pkg install imagemagick -y && pkg install yarn
 ```
 ```bash
-git clone https://github.com/diegojadibot/SakuraBot-MD
+git clone https://github.com/diegojadibot/SakuraBotLite-MD
 ```
 ```bash
 cd SakuraBot-MD
@@ -73,19 +73,19 @@ npm start
 ### `🦁 𝙰𝙲𝚃𝙸𝚅𝙰𝚁 𝙴𝙽 𝙲𝙰𝚂𝙾 𝙳𝙴 𝙳𝙴𝚃𝙴𝙽𝙴𝚁𝚂𝙴 𝙴𝙽 𝚃𝙴𝚁𝙼𝚄𝚇`
 Si despues que ya instalastes tu bot y termux te salta en blanco, se fue tu internet o reiniciaste tu celular, solo realizaras estos pasos
 ```bash
-> cd SakuraBot-MD
+> cd SakuraBotLite-MD
 > npm start
 ```
 ## Generar un nuevo QR  <img src="https://user-images.githubusercontent.com/108157095/182053978-d1a08952-4625-4e3f-b469-c8ebe4f22ac8.png" height="25px">
 ```bash
 > cd 
-> cd SakuraBot-MD
+> cd SakuraBotLite-MD
 > rm -rf SakuraBotSession
 > npm start
 ```
 ----
-### 🚀 USAR SAKURABOT 24/7 EN TERMUX 
-> Ejecutar estos comandos dentro de la carpeta SakuraBot-MD
+### 🚀 USAR SAKURABOTLITE 24/7 EN TERMUX 
+> Ejecutar estos comandos dentro de la carpeta SakuraBotLite-MD
 ```bash
 termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ``` 
@@ -107,17 +107,17 @@ pm2 stop index
 pm2 start index
 ``` 
 ----
-### 🥷🏻 ACTUALIZAR SAKURABOT
-> **Note** Comandos para actualizar SakuraBot-MD de forma automática
+### 🥷🏻 ACTUALIZAR SAKURABOTLITE
+> **Note** Comandos para actualizar SakuraBotLite-MD de forma automática
 ```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBot-MD/master/update.sh | bash 
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/update.sh | bash 
 ```
 #### Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 > **Warning** Estos comandos solo funcionan para TERMUX, REPLIT, LINUX  
 
 ### 🌱 ACTIVAR EN KOYEB 
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/diegojadibot/SakuraBot-MD&branch=master&name=sakurabot-md)                         
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/diegojadibot/SakuraBotLite-MD&branch=master&name=sakurabotlite-md)                         
 
 ## `𝙴𝙳𝙸𝚃𝙾𝚁 𝚈 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃`
 
