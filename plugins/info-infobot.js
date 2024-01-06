@@ -38,8 +38,6 @@ const handler = async (m, { conn, usedPrefix }) => {
 𝘊𝘩𝘢𝘵𝘴 𝘋𝘦 𝘎𝘳𝘶𝘱𝘰𝘴: *${groups.length}* 
 𝘊𝘩𝘢𝘵𝘴 𝘛𝘰𝘵𝘢𝘭𝘦𝘴: *${chats.length}* 
 
-• *Ram:* ${format(totalmem() - freemem())} / ${format(totalmem())}
-
 *💻Registrado*
  𝘜𝘴𝘦𝘳: *${totalreg} 𝚗𝚞𝚖𝚎𝚛𝚘𝚜*
 
