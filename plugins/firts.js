@@ -7,13 +7,13 @@ if (m.chat.endsWith('broadcast') || m.fromMe || m.isGroup) return
 let user = global.db.data.users[m.sender]
 
 if (new Date() - user.pc < 21600000) return
-await m.reply(`🌟 *Hola ${username}, Bienvenido A SakuraBot* 🥷🏻
+await m.reply(`🌟 *Hola ${username}, Bienvenido A 𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿* 🥷🏻
 📲 _Si Deseas Escribe .menu Para Ver Mis Comandos_ 🌤
 
 📌 *Cualquier Duda O Sugerencia Puedes Contactar A Mi Creador:* 🎉
 📩 wa.me/573013114854 📭
 
-🙏❣️ *Si desea apoyar el proyecto Sakura Bot puede donar a esta cuenta por PayPal* ✅📈
+🙏❣️ *Si desea apoyar el proyecto Sakura Bot  Lite puede donar a esta cuenta por PayPal* ✅📈
 🌟 https://www.paypal.com/paypalme/SakuritaBot ✨`) 
 user.pc = new Date * 1
 }
