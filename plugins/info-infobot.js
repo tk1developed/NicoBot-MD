@@ -26,6 +26,9 @@ const handler = async (m, { conn, usedPrefix }) => {
 𝘊𝘳𝘦𝘢𝘥𝘰𝘳: 𝘿𝙞𝙚𝙜𝙤
  𝘗𝘳𝘦𝘧𝘪𝘫𝘰: *${usedPrefix}*
 
+*🚀VELOCIDAD*
+𝘝𝘦𝘭𝘰𝘤𝘪𝘥𝘢𝘥: 
+ *${speed} ms*
 
 *⏰️ACTIVIDAD*
 𝘈𝘤𝘵𝘪𝘷𝘰: *${uptime}*
@@ -45,8 +48,6 @@ const handler = async (m, { conn, usedPrefix }) => {
  𝘈𝘯𝘵𝘪𝘱𝘳𝘪𝘷𝘢𝘥𝘰: ${antiprivado ? "*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*" : "*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*"}
  𝘔𝘰𝘥𝘦𝘫𝘢𝘥𝘪𝘣𝘰𝘵: ${modejadibot ? "*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*" : "*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*"}
  𝘈𝘯𝘵𝘪𝘭𝘭𝘢𝘮𝘢𝘥𝘢: ${antiCall ? "*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*" : "*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*"}
- 𝘝𝘦𝘭𝘰𝘤𝘪𝘥𝘢𝘥: 
- *${speed} ms* 
  ⃟ᬽ៸𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿༒★»
 `.trim();
   const doc = [
