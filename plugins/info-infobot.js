@@ -22,9 +22,9 @@ const handler = async (m, { conn, usedPrefix }) => {
   const neww = performance.now();
   const speed = neww - old;
   const info = `
-*CREADOR/PREFIJO*
+*⚓️CREADOR/PREFIJO*
 𝘊𝘳𝘦𝘢𝘥𝘰𝘳: 𝘿𝙞𝙚𝙜𝙤
- 𝘗𝘳𝘦𝘧𝘪𝘫𝘰: *${usedPrefix}*
+𝘗𝘳𝘦𝘧𝘪𝘫𝘰: *${usedPrefix}*
 
 *🚀VELOCIDAD*
 𝘝𝘦𝘭𝘰𝘤𝘪𝘥𝘢𝘥: 
