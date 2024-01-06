@@ -70,7 +70,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
     console.log(ee2)
     try {
       const mediaa = await ytMp4(youtubeLink);
-      await conn.sendMessage(m.chat, {video: {url: mediaa.result}, fileName: `error.mp4`, caption: ` ❥ᰰຼ ⃟ᬽ៸SakuraBot-MD༒★»`, thumbnail: mediaa.thumb, mimetype: 'video/mp4'}, {quoted: m});
+      await conn.sendMessage(m.chat, {video: {url: mediaa.result}, fileName: `error.mp4`, caption: ` ❥ᰰຼ ⃟ᬽ៸𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿༒★»`, thumbnail: mediaa.thumb, mimetype: 'video/mp4'}, {quoted: m});
       await conn.sendMessage(m.chat, {text: '*[ ✔ ] Video descargado exitosamente.*', edit: key}, {quoted: m});
       enviando = false
     } catch {
