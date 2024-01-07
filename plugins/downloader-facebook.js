@@ -47,7 +47,7 @@ const handler = async (m, {conn, args, command, usedPrefix}) => {
             } catch (err5) {
               try {
                 const {result} = await facebookdl(args[0]).catch(async (_) => await facebookdlv2(args[0])).catch(async (_) => await savefrom(args[0]));
-                for (const {url, isVideo} of result.reverse()) await conn.sendFile(m.chat, url, `facebook.${!isVideo ? 'bin' : 'mp4'}`, '*[ 📥 ] Descargas - Facebook*\n_---> 𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿._', m);
+                for (const {url, isVideo} of result.reverse()) await conn.sendFile(m.chat, url, `facebook.${!isVideo ? 'bin' : 'mp4'}`, '*[ 📥 ] Descargas - Facebook*\n---> 𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿.', m);
               } catch (err6) {
                 throw `_*< DESCARGAS - FACEBOOK />*_\n\n*🏝 Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*`;
               }
