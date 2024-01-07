@@ -26,9 +26,6 @@ const handler = async (m, { conn, usedPrefix }) => {
 *🚀Velocidad*
 *${speed} ms*
 
-*⏳️Ping:* 
-${rtime}
-
 *⏰️Actividad*
 *${uptime}*
 
