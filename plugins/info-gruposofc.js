@@ -7,7 +7,7 @@ const handler = async (m, {conn, usedPrefix}) => {
 
 *1.-* https://chat.whatsapp.com/Gf0jUCgZTdU5pbcKPZPtWk
 
-*2.-* https://chat.whatsapp.com/GJCkLgew1bSKs7XCdpHU37
+*2.-* https://chat.whatsapp.com/F41ekdst3nW5DclaV3fJ3I
 
 *3.-* https://whatsapp.com/channel/0029VaHYnwaKQuJIlTFuS22l
 
