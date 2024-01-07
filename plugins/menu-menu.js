@@ -34,6 +34,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┗━━━━━━━━━━
 ┣┅⟣✦ *Creador:* Diego
 ┣┅⟣✦ *Numero:* +57 301 3114854
+┣┅⟣✦ *Colaborador:* +51 902 247 905
 ┣┅⟣✦ *Bot Oficial:* +51 935 499 065
 ┣┅⟣✦ *Tiempo activo:* ${uptime}
 ┣┅⟣✦ *Usuarios regs:* ${rtotalreg}
