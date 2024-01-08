@@ -60,7 +60,7 @@ const handler = async (m, { conn, usedPrefix }) => {
         title: "𝘛𝘶 𝘔𝘦𝘫𝘰𝘳 𝘉𝘰𝘵",
         body: wm,
         thumbnail: imagen1,
-        sourceUrl: "https://atom.bio/sakurabot",
+        sourceUrl: "https://atom.bio/sakuralite",
       },
     },
     caption: info,
