@@ -286,7 +286,7 @@ async function connectionUpdate(update) {
     console.log(chalk.yellow('🚩ㅤEscanea este codigo QR, el codigo QR expira en 60 segundos.'));
   }
  if (connection == 'open') {
-console.log(chalk.yellowBright('\n╭━─━─━─≪ 😻😺 ≫─━─━─━╮\n│\n│𝘊𝘰𝘯𝘦𝘤𝘵𝘢𝘥𝘰🙀.\n│\n╰━─━━─━─≪ 🟢 ≫─━─━━─━╯\n'))
+console.log(chalk.yellowBright('\n╭━─━─━─≪ 😻 😺 ≫─━─━─━╮\n│\n│𝘊𝘰𝘯𝘦𝘤𝘵𝘢𝘥𝘰 𝘈𝘭 𝘞𝘩𝘢𝘵𝘴𝘈𝘱𝘱🙀.\n│\n╰━─━━─━─≪ 🟢 ≫─━─━━─━╯\n'))
 //conn.fakeReply('573013114854@s.whatsapp.net', '😃', '0@s.whatsapp.net', '😏 Soy SakuraBot\nRecientemente me e conectado', '0@s.whatsapp.net')
   }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
