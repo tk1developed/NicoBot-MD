@@ -137,11 +137,11 @@ echo -e "\e[35m
 ╚═╝░░╚═╝░░╚═╝░░  ╚═╝╚═╝░░╚══╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚══════╝ \n\e[0m"
 
 echo -e "\033[1;35m"
-git clone https://github.com/GataNina-Li/GataBotLite-MD.git
+git clone https://github.com/diegojadibot/SakuraBotLite-MD.git
 echo -e "\033[01;32m\033[01mLa clonación se ha descargado e instalado correctamente.\nThe clone has been downloaded and installed successfully.\n\033[0m"
 
 echo -e "\033[01;32m\033[01mCambiando al directorio del repositorio!!\nChanging to the repository directory!!\n\033[0m" 
-cd GataBotLite-MD
+cd SakuraBotLite-MD
 
 echo -e "\e[36m
 █░█ █▀█ █▀▄ ▄▀█ ▀█▀ █▀▀   █▄█ ▄▀█ █▀█ █▄░█
@@ -197,5 +197,5 @@ _________░▒▓██
 _______░▒▓██
 _____░▒▓██\n\e[0m"
     
-echo -e "\033[01;32m\033[01mIniciando GataBotLite!!\nStarting GataBotLite!!\n\033[0m"
+echo -e "\033[01;32m\033[01mIniciando SakuraBotLite!!\nStarting SakuraBotLite!!\n\033[0m"
 npm start
