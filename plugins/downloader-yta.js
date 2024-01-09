@@ -31,7 +31,7 @@ const handler = async (m, {text, conn, args, usedPrefix, command}) => {
       }
     }
   }
-  const { key } = await conn.sendMessage(m.chat, {text: `*_⏳<𝓪𝓾𝓭𝓲𝓸 𝒆𝓷 𝓹𝓻𝓸𝓬𝒆𝓼𝓸>...⏳_*\n\n*◉ 𝓼𝓲 𝓼𝓾 𝓪𝓾𝓭𝓲𝓸 𝓷𝓸 𝓼𝒆 𝒆𝓷𝓿𝓲́𝓪 𝓹𝓻𝓾𝒆𝓫𝓪 𝓵𝓸𝓼 𝓼𝓲𝓰𝓾𝓲𝒆𝓷𝓽𝒆𝓼 𝓬𝓸𝓶𝓪𝓷𝓭𝓸𝓼 #playdoc ᴏ #play.2 ᴏ #ytmp4doc ◉*`}, {quoted: m});
+  const { key } = await conn.sendMessage(m.chat, {text: `*_⏳𝘌𝘴𝘱𝘦𝘳𝘦, 𝘈𝘶𝘥𝘪𝘰 𝘌𝘯 𝘗𝘳𝘦𝘤𝘦𝘴𝘰...⏳_*\n\n*◉ 𝐒𝐢 𝐄𝐥 𝐀𝐮𝐝𝐢𝐨 𝐍𝐨 𝐒𝐞 𝐄𝐧𝐯𝐢𝐚 𝐏𝐫𝐮𝐞𝐛𝐚 𝐋𝐨𝐬 𝐒𝐢𝐠𝐮𝐢𝐞𝐧𝐭𝐞𝐬 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 #playdoc ᴏ #play.2 ᴏ #ytmp4doc ◉*`}, {quoted: m});
   try {
     const formats = await bestFormat(youtubeLink, 'audio');
     const dl_url = await getUrlDl(formats.url);
@@ -43,7 +43,7 @@ const handler = async (m, {text, conn, args, usedPrefix, command}) => {
     const fileSizeInMB = fileSizeInKB / 1024;
     const roundedFileSizeInMB = fileSizeInMB.toFixed(2);
    if (fileSizeInMB > 50) {
-    await conn.sendMessage(m.chat, {document: buff, caption: `*▢ Titulo:* ${ttl_1}\n*▢ Peso Del Audio:* ${roundedFileSizeInMB} MB \n ❥ᰰຼ ⃟ᬽ៸𝕊𝕙𝕚𝕟𝕠𝕟𝕠𝕞𝕖-𝔹𝕠𝕥༒★»`, fileName: ttl_1 + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
+    await conn.sendMessage(m.chat, {document: buff, caption: `*▢ Titulo:* ${ttl_1}\n*▢ Peso Del Audio:* ${roundedFileSizeInMB} MB \n ❥ᰰຼ ⃟ᬽ៸𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿★»`, fileName: ttl_1 + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
     await conn.sendMessage(m.chat, {text: `*[ ✔ ] Audio descargado y enviado exitosamente.*\n\n*—◉ Se envío en formato de documento debido a que el audio pesa ${roundedFileSizeInMB} MB y supera el limite establecido por WhatsApp.*\n*◉ Titulo:* ${ttl_1}`, edit: key}, {quoted: m});
     enviando = false
    } else {
