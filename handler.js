@@ -1508,6 +1508,11 @@ export async function callUpdate(callUpdate) {
   }
 }
 
+//Reacciones
+global.rwait = '⏰'
+global.done = '✅'
+global.error = '❌'
+
 export async function deleteUpdate(message) {
 let d = new Date(new Date + 3600000)
 let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'numeric' })
