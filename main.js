@@ -287,7 +287,7 @@ async function connectionUpdate(update) {
   }
  if (connection == 'open') {
 console.log(chalk.yellowBright('\n╭───────────────────────────◉\n│\n│Conectado correctamente al WhatsApp.\n│\n╰───────────────────────────◉\n'))
-//conn.fakeReply('5217294888993@s.whatsapp.net', '😃', '0@s.whatsapp.net', '😏 Soy CuriosityBot\nRecientemente me e conectado', '0@s.whatsapp.net')
+//conn.fakeReply('573013114854@s.whatsapp.net', '😃', '0@s.whatsapp.net', '😏 Soy CuriosityBot\nRecientemente me e conectado', '0@s.whatsapp.net')
   }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (connection === 'close') {
