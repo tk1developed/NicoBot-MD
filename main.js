@@ -285,9 +285,9 @@ async function connectionUpdate(update) {
   if (update.qr != 0 && update.qr != undefined) {
     console.log(chalk.yellow('🚩ㅤEscanea este codigo QR, el codigo QR expira en 60 segundos.'));
   }
-  if (connection == 'open') {
-    console.log(chalk.yellow('▣──────────────────────────────···\n│\n│❧ 𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 Conectado😻 ✅\n│\n▣──────────────────────────────···'))
-//conn.fakeReply('573013114854@s.whatsapp.net', '😻', '0@s.whatsapp.net', '😺 Soy SakuraBotLite-MD\nRecientemente Me E Conectado Como Un Nuevo Bot', '0@s.whatsapp.net')
+ if (connection == 'open') {
+console.log(chalk.yellowBright('\n╭───────────────────────────◉\n│\n│Conectado correctamente al WhatsApp.\n│\n╰───────────────────────────◉\n'))
+//conn.fakeReply('5217294888993@s.whatsapp.net', '😃', '0@s.whatsapp.net', '😏 Soy CuriosityBot\nRecientemente me e conectado', '0@s.whatsapp.net')
   }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (connection === 'close') {
