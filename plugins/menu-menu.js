@@ -222,73 +222,72 @@ ${readMore}
 ║╰═══════❮❦❦❯════════╯
 ╰═══════❮❦🌴❦❯═══════❯
 
-┏━━━━━━━━━━━━━━━━┓
-┃ ⏤͟͟͞͞𝘽𝙐𝙎𝘾𝘼𝘿𝙊𝙍𝙀𝙎
-┗━━━━━━━━━━━━━
-┣🔎 _${usedPrefix}githubsearch *<texto>*_
-┣🔎 _${usedPrefix}pelisplus *<texto>*_
-┣🔎 _${usedPrefix}modapk *<texto>*_
-┣🔎 _${usedPrefix}stickersearch *<texto>*_
-┣🔎 _${usedPrefix}stickersearch2 *<texto>*_
-┣🔎 _${usedPrefix}xnxxsearch *<texto>*_
-┣🔎 _${usedPrefix}animeinfo *<texto>*_
-┣🔎 _${usedPrefix}google *<texto>*_
-┣🔎 _${usedPrefix}letra *<texto>*_
-┣🔎 _${usedPrefix}wikipedia *<texto>*_
-┣🔎 _${usedPrefix}ytsearch *<texto>*_
-┣🔎 _${usedPrefix}playstore *<texto>*_
-┗━━━━━━━━━━━━━━━━┛
+╭════❮❦BUSCADORES❦❯════❯
+║╭═══════❮❦❦❯════════╮
+║┃🔎 _${usedPrefix}githubsearch *<texto>*_
+║┃🔎 _${usedPrefix}pelisplus *<texto>*_
+║┃🔎 _${usedPrefix}modapk *<texto>*_
+║┃🔎 _${usedPrefix}stickersearch *<texto>*_
+║┃🔎 _${usedPrefix}stickersearch2 *<texto>*_
+║┃🔎 _${usedPrefix}xnxxsearch *<texto>*_
+║┃🔎 _${usedPrefix}animeinfo *<texto>*_
+║┃🔎 _${usedPrefix}google *<texto>*_
+║┃🔎 _${usedPrefix}letra *<texto>*_
+║┃🔎 _${usedPrefix}wikipedia *<texto>*_
+║┃🔎 _${usedPrefix}ytsearch *<texto>*_
+║┃🔎 _${usedPrefix}playstore *<texto>*_
+║╰═══════❮❦❦❯════════╯
+╰═══════❮❦🌴❦❯═══════❯
 
-┏━━━━━━━━━━━━━━━━┓
-┃ ⏤͟͟͞͞𝙂𝙍𝙐𝙋𝙊𝙎 𝘼𝙅𝙐𝙎𝙏𝙀𝙎
-┗━━━━━━━━━━
-┣⚙️ _${usedPrefix}salir *<admins>*_
-┣⚙️ _${usedPrefix}add *<numero>*_
-┣⚙️ _${usedPrefix}kick *<@tag>*_
-┣⚙️ _${usedPrefix}kick2 *<@tag>*_
-┣⚙️ _${usedPrefix}listanum *<texto>*_
-┣⚙️ _${usedPrefix}kicknum *<texto>*_
-┣⚙️ _${usedPrefix}grupo *<abrir / cerrar>*_
-┣⚙️ _${usedPrefix}grouptime *<opcion> <tiempo>*_
-┣⚙️ _${usedPrefix}promote *<@tag>*_
-┣⚙️ _${usedPrefix}demote *<@tag>*_
-┣⚙️ _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
-┣⚙️ _${usedPrefix}demote *<@tag>*_
-┣⚙️ _${usedPrefix}infogroup_
-┣⚙️ _${usedPrefix}resetlink_
-┣⚙️ _${usedPrefix}link_
-┣⚙️ _${usedPrefix}setname *<texto>*_
-┣⚙️ _${usedPrefix}setdesc *<texto>*_
-┣⚙️ _${usedPrefix}invocar *<texto>*_
-┣⚙️ _${usedPrefix}setwelcome *<texto>*_
-┣⚙️ _${usedPrefix}setbye *<texto>*_
-┣⚙️ _${usedPrefix}hidetag *<texto>*_
-┣⚙️ _${usedPrefix}hidetag *<audio>*_
-┣⚙️ _${usedPrefix}hidetag *<video>*_
-┣⚙️ _${usedPrefix}hidetag *<imagen>*_
-┣⚙️ _${usedPrefix}warn *<@tag>*_
-┣⚙️ _${usedPrefix}unwarn *<@tag>*_
-┣⚙️ _${usedPrefix}listwarn_
-┣⚙️ _${usedPrefix}fantasmas_
-┣⚙️ _${usedPrefix}destraba_
-┣⚙️ _${usedPrefix}setpp *<imagen>*_
-┗━━━━━━━━━━━━━━━━┛
+╭═══❮❦GRUPO AJUSTES❦❯══❯
+║╭═══════❮❦❦❯════════╮
+║┃⚙️ _${usedPrefix}salir *<admins>*_
+║┃⚙️ _${usedPrefix}add *<numero>*_
+║┃⚙️ _${usedPrefix}kick *<@tag>*_
+║┃⚙️ _${usedPrefix}kick2 *<@tag>*_
+║┃⚙️ _${usedPrefix}listanum *<texto>*_
+║┃⚙️ _${usedPrefix}kicknum *<texto>*_
+║┃⚙️ _${usedPrefix}grupo *<abrir / cerrar>*_
+║⚙️ _${usedPrefix}grouptime *<opcion> <tiempo>*_
+║┃⚙️ _${usedPrefix}promote *<@tag>*_
+║┃⚙️ _${usedPrefix}demote *<@tag>*_
+║┃⚙️ _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+║┃⚙️ _${usedPrefix}demote *<@tag>*_
+║┃⚙️ _${usedPrefix}infogroup_
+║┃⚙️ _${usedPrefix}resetlink_
+║┃⚙️ _${usedPrefix}link_
+║┃⚙️ _${usedPrefix}setname *<texto>*_
+║┃⚙️ _${usedPrefix}setdesc *<texto>*_
+║┃⚙️ _${usedPrefix}invocar *<texto>*_
+║┃⚙️ _${usedPrefix}setwelcome *<texto>*_
+║┃⚙️ _${usedPrefix}setbye *<texto>*_
+║┃⚙️ _${usedPrefix}hidetag *<texto>*_
+║┃⚙️ _${usedPrefix}hidetag *<audio>*_
+║┃⚙️ _${usedPrefix}hidetag *<video>*_
+║┃⚙️ _${usedPrefix}hidetag *<imagen>*_
+║┃⚙️ _${usedPrefix}warn *<@tag>*_
+║┃⚙️ _${usedPrefix}unwarn *<@tag>*_
+║┃⚙️ _${usedPrefix}listwarn_
+║┃⚙️ _${usedPrefix}fantasmas_
+║┃⚙️ _${usedPrefix}destraba_
+║┃⚙️ _${usedPrefix}setpp *<imagen>*_
+║╰═══════❮❦❦❯════════╯
+╰═══════❮❦🌴❦❯═══════❯
 
-┏━━━━━━━━━━━━━━━━┓
-┃ ⏤͟͟͞͞𝘾𝙊𝙉𝙑𝙀𝙍𝙏𝙄𝘿𝙊𝙍𝙀𝙎
-┗━━━━━━━━━━
-┣🧶 _${usedPrefix}toanime *<imagen>*_
-┣🧶 _${usedPrefix}togifaud *<video>*_
-┣🧶 _${usedPrefix}toimg *<sticker>*_
-┣🧶 _${usedPrefix}tomp3 *<video>*_
-┣🧶 _${usedPrefix}tomp3 *<nota de voz>*_
-┣🧶 _${usedPrefix}toptt *<video / audio>*_
-┣🧶 _${usedPrefix}tovideo *<sticker>*_
-┣🧶 _${usedPrefix}tourl *<video / imagen / audio>*_
-┣🧶 _${usedPrefix}tts *<idioma> <texto>*_
-┣🧶 _${usedPrefix}tts *<efecto> <texto>*_
-┗━━━━━━━━━━━━━━━━┛
-
+╭═══❮❦CONCERTIDORES❦❯══❯
+║╭═══════❮❦❦❯════════╮
+║┃🧶 _${usedPrefix}toanime *<imagen>*_
+║┃🧶 _${usedPrefix}togifaud *<video>*_
+║┃🧶 _${usedPrefix}toimg *<sticker>*_
+║┃🧶 _${usedPrefix}tomp3 *<video>*_
+║┃🧶 _${usedPrefix}tomp3 *<nota de voz>*_
+║┃🧶 _${usedPrefix}toptt *<video / audio>*_
+║┃🧶 _${usedPrefix}tovideo *<sticker>*_
+║┃🧶 _${usedPrefix}tourl *<video / imagen / audio>*_
+║┃🧶 _${usedPrefix}tts *<idioma> <texto>*_
+║┃🧶 _${usedPrefix}tts *<efecto> <texto>*_
+║╰═══════❮❦❦❯════════╯
+╰═══════❮❦🌴❦❯═══════❯
 ┏━━━━━━━━━━━━━━━━┓
 ┃ ⏤͟͟͞͞𝙇𝙊𝙂𝙊𝙎-𝙀𝙁𝙀𝘾𝙏𝙊𝙎
 ┗━━━━━━━━━━
