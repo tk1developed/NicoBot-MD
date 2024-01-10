@@ -36,9 +36,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ║┃ *👤Cliente:* ${taguser}
 ║┃ *🧭Bot:* ${packname}
 ║┃ *⚕️ Prefijo Usado:* ${usedPrefix}
-║┃ *⏰️Tiempo activo:* ${uptime}
-║┃ *💻Usuarios regs:* ${rtotalreg}
-║┃ *🗃Usuarios totales:* ${rtotal}
+║┃ *⏰️Tiempo Activo:* ${uptime}
+║┃ *💻Usuarios Regs:* ${rtotalreg}
+║┃ *🗃Usuarios Totales:* ${rtotal}
 ║┃ *📅Fecha:* ${date}
 ║╰═══════❮ꨄ︎ꨄ︎❯════════╯
 ╰═══════❮❦🌴❦❯════════❯
