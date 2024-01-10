@@ -12,7 +12,7 @@ import { es } from "./lib/idiomas/total-idiomas.js"
 global.botnumber = ""
 
 global.owner = [ 
-   ['573013114857', '👑 Sakura - Creador 👑', true],
+   ['573013114854', '👑 Sakura - Creador 👑', true],
   ['573218138672', '💫 Sakura - Collaborator 1 💫', true],
   ['573207200376', '💫 Sakura - Collaborator 2 💫', true],
   ['573246822621', '💫 Sakura - Collaborator 3 💫', true],
