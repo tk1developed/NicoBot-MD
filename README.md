@@ -6,7 +6,7 @@
 <img src="https://readme-typing-svg.herokuapp.com/?font=mono&size=30&duration=4000&color=FF0000&center=falso&vCenter=falso&lines=SakuraBotLite-MD+;𝐃𝐢𝐞𝐠𝐨+𝐎𝐟𝐢𝐜𝐢𝐚𝐥+𝐂𝐫𝐞𝐚𝐝𝐨𝐫;1000+𝘊𝘰𝘮𝘢𝘯𝘥𝘰𝘴;SakuraLite✰✰✰✰✰">      
 <a href="https://github.com/GataNina-Li"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=A1F733&width=435&lines=✨️SakuraBotLite-MD🦁;Disfruta+del+bot.+%E2%9A%A1" height="90px"></a> 
 </p>
-<img src="https://telegra.ph/file/3868ac40269e04e6a1701.jpg" width="400" height="230"/>
+<img src="https://telegra.ph/file/d629f1155dd4b7bfcf13c.jpg" width="400" height="230"/>
 </p>
 <p align="center">
 <a href="#"><img title="SakuraBotLite-MD" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APOYAME CON UNA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
