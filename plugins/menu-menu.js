@@ -87,7 +87,7 @@ ${readMore}
 ╰═══════❮❦🌴❦❯═══════❯
 
 ╭═══❮❦HERRAMIENTAS❦❯═══❯
-║╭═══════❮❦INFO❦❯══════❯
+║╭═══════❮❦❦❯════════╮
 ║┃🛠 _${usedPrefix}enable restrict_
 ║┃🛠 _${usedPrefix}disable restrict_
 ║┃🛠 _${usedPrefix}enable autoread_
@@ -106,14 +106,14 @@ ${readMore}
 ╰═══════❮❦🌴❦❯═══════❯
 
 ╭═══❮❦DIVERSIONES❦❯═══❯
-┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┣🌹 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
-┣🌹 _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
-┣🌹 _${usedPrefix}ppt *<papel / tijera /piedra>*_
-┣🌹 _${usedPrefix}prostituto *<nombre / @tag>*_
-┣🌹 _${usedPrefix}prostituta *<nombre / @tag>*_
-┣🌹 _${usedPrefix}gay2 *<nombre / @tag>*_
-┣🌹 _${usedPrefix}lesbiana *<nombre / @tag>*_
+║╭═══════❮❦❦❯════════╮
+║┃🌹 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
+║┃🌹 _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
+║┃🌹 _${usedPrefix}ppt *<papel / tijera /piedra>*_
+║┃🌹 _${usedPrefix}prostituto *<nombre / @tag>*_
+║┃🌹 _${usedPrefix}prostituta *<nombre / @tag>*_
+║┃🌹 _${usedPrefix}gay2 *<nombre / @tag>*_
+║┃🌹 _${usedPrefix}lesbiana *<nombre / @tag>*_
 ║┃🌹 _${usedPrefix}pajero *<nombre / @tag>*_
 ║┃🌹 _${usedPrefix}pajera *<nombre / @tag>*_
 ║┃🌹 _${usedPrefix}follar *<nombre / @tag>*_
@@ -145,82 +145,82 @@ ${readMore}
 ║╰═══════❮❦❦❯════════╯
 ╰═══════❮❦🌴❦❯═══════❯
 
-┏━━━━━━━━━━━━━━━━┓
-┃ ⏤͟͟͞͞𝙊𝙉/𝙊𝙁𝙁
-┗━━━━━━━━━━
-┣✨️ _${usedPrefix}enable *welcome*_
-┣✨️ _${usedPrefix}disable *welcome*_
-┣✨️ _${usedPrefix}enable *modohorny*_
-┣✨️ _${usedPrefix}disable *modohorny*_
-┣✨️ _${usedPrefix}enable *antilink*_
-┣✨️ _${usedPrefix}disable *antilink*_
-┣✨️ _${usedPrefix}enable *antilink2*_
-┣✨️ _${usedPrefix}disable *antilink2*_
-┣✨️ _${usedPrefix}enable *detect*_
-┣✨️ _${usedPrefix}disable *detect*_
-┣✨️ _${usedPrefix}enable *audios*_
-┣✨️ _${usedPrefix}disable *audios*_
-┣✨️ _${usedPrefix}enable *autosticker*_
-┣✨️ _${usedPrefix}disable *autosticker*_
-┣✨️ _${usedPrefix}enable *antiviewonce*_
-┣✨️ _${usedPrefix}disable *antiviewonce*_
-┣✨️ _${usedPrefix}enable *antitoxic*_
-┣✨️ _${usedPrefix}disable *antitoxic*_
-┣✨️ _${usedPrefix}enable *antitraba*_
-┣✨️ _${usedPrefix}disable *antitraba*_
-┣✨️ _${usedPrefix}enable *antiarabes*_
-┣✨️ _${usedPrefix}disable *antiarabes*_
-┣✨️ _${usedPrefix}enable *modoadmin*_
-┣✨️ _${usedPrefix}disable *modoadmin*_
-┣✨️ _${usedPrefix}enable *antidelete*_
-┣✨️ _${usedPrefix}disable *antidelete*_
-┗━━━━━━━━━━━━━━━━┛
+╭═════❮❦ON/OFC❦❯══════❯
+║╭═══════❮❦❦❯════════╮
+║┃✨️ _${usedPrefix}enable *welcome*_
+║┃✨️ _${usedPrefix}disable *welcome*_
+║┃✨️ _${usedPrefix}enable *modohorny*_
+║┃✨️ _${usedPrefix}disable *modohorny*_
+║┃✨️ _${usedPrefix}enable *antilink*_
+║┃✨️ _${usedPrefix}disable *antilink*_
+║┃✨️ _${usedPrefix}enable *antilink2*_
+║┃✨️ _${usedPrefix}disable *antilink2*_
+║┃✨️ _${usedPrefix}enable *detect*_
+║┃✨️ _${usedPrefix}disable *detect*_
+║┃✨️ _${usedPrefix}enable *audios*_
+║┃✨️ _${usedPrefix}disable *audios*_
+║┃✨️ _${usedPrefix}enable *autosticker*_
+║┃✨️ _${usedPrefix}disable *autosticker*_
+║┃✨️ _${usedPrefix}enable *antiviewonce*_
+║┃✨️ _${usedPrefix}disable *antiviewonce*_
+║┃✨️ _${usedPrefix}enable *antitoxic*_
+║┃✨️ _${usedPrefix}disable *antitoxic*_
+║┃✨️ _${usedPrefix}enable *antitraba*_
+║┃✨️ _${usedPrefix}disable *antitraba*_
+║┃✨️ _${usedPrefix}enable *antiarabes*_
+║┃✨️ _${usedPrefix}disable *antiarabes*_
+║┃✨️ _${usedPrefix}enable *modoadmin*_
+║┃✨️ _${usedPrefix}disable *modoadmin*_
+║┃✨️ _${usedPrefix}enable *antidelete*_
+║┃✨️ _${usedPrefix}disable *antidelete*_
+║╰═══════❮❦❦❯════════╯
+╰═══════❮❦🌴❦❯═══════❯
 
-┏━━━━━━━━━━━━━━━━┓
-┣ ⏤͟͟͞͞𝙍𝙀𝙋𝙊𝙍𝙏𝙀𝙎 
-┗━━━━━━━━━━━
-┣🖥 _${usedPrefix}reporte *<texto>*_
-┗━━━━━━━━━━━━━━━━┛
+╭═════❮❦REPORTE❦❯═════❯
+║╭═══════❮❦❦❯════════╮
+║┃🖥 _${usedPrefix}reporte *<texto>*_
+║╰═══════❮❦❦❯════════╯
+╰═══════❮❦🌴❦❯═══════❯
 
-┏━━━━━━━━━━━━━━━━┓
-┃ ⏤͟͟͞͞𝘿𝙀𝙎𝘾𝘼𝙍𝙂𝘼𝙎
-┗━━━━━━━━━━━━
-┣🛰 _${usedPrefix}instagram *<enlace / link / url>*_
-┣🛰 _${usedPrefix}mediafire *<enlace / link / url>*_
-┣🛰 _${usedPrefix}gitclone *<enlace / link / url>*_
-┣🛰 _${usedPrefix}gdrive *<enlace / link / url>*_
-┣🛰 _${usedPrefix}tiktok *<enlace / link / url>*_
-┣🛰 _${usedPrefix}tiktokimg *<enlace / link / url>*_
-┣🛰 _${usedPrefix}xnxxdl *<enlace / link / url>*_
-┣🛰 _${usedPrefix}xvideosdl *<enlace / link / url>*_
-┣🛰 _${usedPrefix}twitter *<enlace / link / url>*_
-┣🛰 _${usedPrefix}fb *<enlace / link / url>*_
-┣🛰 _${usedPrefix}ytshort *<enlace / link / url>*_
-┣🛰 _${usedPrefix}ytmp3 *<enlace / link / url>*_
-┣🛰 _${usedPrefix}ytmp4 *<enlace / link / url>*_
-┣🛰 _${usedPrefix}ytmp3doc *<enlace / link / url>*_
-┣🛰 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
-┣🛰 _${usedPrefix}videodoc *<enlace / link / url>*_
-┣🛰 _${usedPrefix}dapk2 *<enlace / link / url>*_
-┣🛰 _${usedPrefix}stickerpack *<enlace / link / url>*_
-┣🛰 _${usedPrefix}play *<texto>*_
-┣🛰 _${usedPrefix}play2 *<texto>*_
-┣🛰 _${usedPrefix}play.1 *<texto>*_
-┣🛰 _${usedPrefix}play.2 *<texto>*_
-┣🛰 _${usedPrefix}playdoc *<texto>*_
-┣🛰 _${usedPrefix}playdoc2 *<texto>*_
-┣🛰 _${usedPrefix}playlist *<texto>*_
-┣🛰 _${usedPrefix}spotify *<texto>*_
-┣🛰 _${usedPrefix}ringtone *<texto>*_
-┣🛰 _${usedPrefix}soundcloud *<texto>*_
-┣🛰 _${usedPrefix}imagen *<texto>*_
-┣🛰 _${usedPrefix}pinterest *<texto>*_
-┣🛰 _${usedPrefix}wallpaper *<texto>*_
-┣🛰 _${usedPrefix}pptiktok *<nombre de usuario>*_
-┣🛰 _${usedPrefix}igstalk *<nombre de usuario>*_
-┣🛰 _${usedPrefix}igstory *<nombre de usuario>*_
-┣🛰 _${usedPrefix}tiktokstalk *<username>*_
-┗━━━━━━━━━━━━━━━━┛
+╭════❮❦DESCARGAS❦❯════❯
+║╭═══════❮❦❦❯════════╮
+║┃🛰 _${usedPrefix}instagram *<enlace / link / url>*_
+║┃🛰 _${usedPrefix}mediafire *<enlace / link / url>*_
+║┃🛰 _${usedPrefix}gitclone *<enlace / link / url>*_
+║┃🛰 _${usedPrefix}gdrive *<enlace / link / url>*_
+║┃🛰 _${usedPrefix}tiktok *<enlace / link / url>*_
+║┃🛰 _${usedPrefix}tiktokimg *<enlace / link / url>*_
+║┃🛰 _${usedPrefix}xnxxdl *<enlace / link / url>*_
+║┃🛰 _${usedPrefix}xvideosdl *<enlace / link / url>*_
+║┃🛰 _${usedPrefix}twitter *<enlace / link / url>*_
+║┃🛰 _${usedPrefix}fb *<enlace / link / url>*_
+║┃🛰 _${usedPrefix}ytshort *<enlace / link / url>*_
+║┃🛰 _${usedPrefix}ytmp3 *<enlace / link / url>*_
+║┃🛰 _${usedPrefix}ytmp4 *<enlace / link / url>*_
+║┃🛰 _${usedPrefix}ytmp3doc *<enlace / link / url>*_
+║┃🛰 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
+║┃🛰 _${usedPrefix}videodoc *<enlace / link / url>*_
+║┃🛰 _${usedPrefix}dapk2 *<enlace / link / url>*_
+║┃🛰 _${usedPrefix}stickerpack *<enlace / link / url>*_
+║┃🛰 _${usedPrefix}play *<texto>*_
+║┃🛰 _${usedPrefix}play2 *<texto>*_
+║┃🛰 _${usedPrefix}play.1 *<texto>*_
+║┃🛰 _${usedPrefix}play.2 *<texto>*_
+║┃🛰 _${usedPrefix}playdoc *<texto>*_
+║┃🛰 _${usedPrefix}playdoc2 *<texto>*_
+║┃🛰 _${usedPrefix}playlist *<texto>*_
+║┃🛰 _${usedPrefix}spotify *<texto>*_
+║┃🛰 _${usedPrefix}ringtone *<texto>*_
+║┃🛰 _${usedPrefix}soundcloud *<texto>*_
+║┃🛰 _${usedPrefix}imagen *<texto>*_
+║┃🛰 _${usedPrefix}pinterest *<texto>*_
+║┃🛰 _${usedPrefix}wallpaper *<texto>*_
+║┃🛰 _${usedPrefix}pptiktok *<nombre de usuario>*_
+║┃🛰 _${usedPrefix}igstalk *<nombre de usuario>*_
+║┃🛰 _${usedPrefix}igstory *<nombre de usuario>*_
+║┃🛰 _${usedPrefix}tiktokstalk *<username>*_
+║╰═══════❮❦❦❯════════╯
+╰═══════❮❦🌴❦❯═══════❯
 
 ┏━━━━━━━━━━━━━━━━┓
 ┃ ⏤͟͟͞͞𝘽𝙐𝙎𝘾𝘼𝘿𝙊𝙍𝙀𝙎
