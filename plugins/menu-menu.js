@@ -288,35 +288,36 @@ ${readMore}
 ║┃🧶 _${usedPrefix}tts *<efecto> <texto>*_
 ║╰═══════❮❦❦❯════════╯
 ╰═══════❮❦🌴❦❯═══════❯
-┏━━━━━━━━━━━━━━━━┓
-┃ ⏤͟͟͞͞𝙇𝙊𝙂𝙊𝙎-𝙀𝙁𝙀𝘾𝙏𝙊𝙎
-┗━━━━━━━━━━
-┣🖼 _${usedPrefix}logos *<efecto> <texto>*_
-┣🖼 _${usedPrefix}logochristmas *<texto>*_
-┣🖼 _${usedPrefix}logocorazon *<texto>*_
-┣🖼 _${usedPrefix}ytcomment *<texto>*_
-┣🖼 _${usedPrefix}hornycard *<@tag>*_
-┣🖼 _${usedPrefix}simpcard *<@tag>*_
-┣🖼 _${usedPrefix}lolice *<@tag>*_
-┣🖼 _${usedPrefix}itssostupid_
-┣🖼 _${usedPrefix}pixelar_
-┣🖼 _${usedPrefix}blur_
-┗━━━━━━━━━━━━━━━━┛
 
-┏━━━━━━━━━━━━━━━━┓
-┃ ⏤͟͟͞𝙋𝙄𝙍𝙊𝙋𝙊𝙎
-┗━━━━━━━━━━
-┣✏️  _${usedPrefix}piropo_
-┣✏️  _${usedPrefix}consejo_
-┣✏️  _${usedPrefix}fraseromantica_
-┣✏️  _${usedPrefix}historiaromantica_
-┗━━━━━━━━━━━━━━━━┛
+╭══❮❦LOGOS Y EFECTOS❦❯══❯
+║╭═══════❮❦❦❯════════╮
+║┃🖼 _${usedPrefix}logos *<efecto> <texto>*_
+║┃🖼 _${usedPrefix}logochristmas *<texto>*_
+║┃🖼 _${usedPrefix}logocorazon *<texto>*_
+║┃🖼 _${usedPrefix}ytcomment *<texto>*_
+║┃🖼 _${usedPrefix}hornycard *<@tag>*_
+║┃🖼 _${usedPrefix}simpcard *<@tag>*_
+║┃🖼 _${usedPrefix}lolice *<@tag>*_
+║┃🖼 _${usedPrefix}itssostupid_
+║┃🖼 _${usedPrefix}pixelar_
+║┃🖼 _${usedPrefix}blur_
+║╰═══════❮❦❦❯════════╯
+╰═══════❮❦🌴❦❯═══════❯
 
-┏━━━━━━━━━━━━━━━━┓
-┃ ⏤͟͟͞𝙍𝘼𝙉𝘿-𝘼𝙉𝙄𝙈𝙀𝙎
-┗━━━━━━━━━━
-┣📓 _${usedPrefix}menuanimes_
-┗━━━━━━━━━━━━━━━━┛
+╭═════❮❦PIROPOS❦❯═════❯
+║╭═══════❮❦❦❯════════╮
+║┃✏️  _${usedPrefix}piropo_
+║┃✏️  _${usedPrefix}consejo_
+║┃✏️  _${usedPrefix}fraseromantica_
+║┃✏️  _${usedPrefix}historiaromantica_
+║╰═══════❮❦❦❯════════╯
+╰═══════❮❦🌴❦❯═══════❯
+
+╭═══❮❦RAND ANIMES❦❯════❯
+║╭═══════❮❦❦❯════════╮
+║┃📓 _${usedPrefix}menuanimes_
+║╰═══════❮❦❦❯════════╯
+╰═══════❮❦🌴❦❯═══════❯
 
 ┏━━━━━━━━━━━━━━━━┓
 ┃ ⏤͟͟͞͞𝙍𝘼𝙉𝘿𝙊𝙈
