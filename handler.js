@@ -1540,18 +1540,18 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
 global.dfail = (type, m, conn) => {
   const msg = {
     rowner: '*⚠️ 𝘌𝘴𝘵𝘦 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘚𝘰𝘭𝘰 𝘓𝘰 𝘗𝘶𝘦𝘥𝘦 𝘜𝘴𝘢𝘳 𝘔𝘪 𝘊𝘳𝘦𝘢𝘥𝘰𝘳.*',
-    owner: '*⚠️ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴘᴜᴇᴅᴇ sᴇʀ ᴜᴛɪʟɪᴢᴀᴅᴏ ᴘᴏʀ ᴇʟ ᴘʀᴏᴘɪᴇᴛᴀʀɪᴏ ᴅᴇʟ ʙᴏᴛ.*',
-    mods: '*⚠️ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴘᴜᴇᴅᴇ sᴇʀ ᴜᴛɪʟɪᴢᴀᴅᴏ ᴘᴏʀ ᴇʟ ᴘʀᴏᴘɪᴇᴛᴀʀɪᴏ ᴅᴇʟ ʙᴏᴛ.*',
-    premium: '*⚠️ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴘᴜᴇᴅᴇ sᴇʀ ᴜᴛɪʟɪᴢᴀᴅᴏ ᴘᴏʀ ᴜsᴀʀɪᴏs ᴘʀᴇᴍɪᴜᴍ ʏ ᴇʟ ᴘʀᴏᴘɪᴇᴛᴀʀɪᴏ ᴅᴇʟ ʙᴏᴛ.*',
+    owner: '*⚠️ 𝘌𝘴𝘵𝘦 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘚𝘰𝘭𝘰 𝘚𝘦 𝘗𝘶𝘦𝘥𝘦 𝘜𝘴𝘢𝘳 𝘗𝘰𝘳 𝘌𝘭 𝘗𝘳𝘰𝘱𝘪𝘦𝘵𝘢𝘳𝘪𝘰 𝘋𝘦𝘭 𝘉𝘰𝘵.*',
+    mods: '*⚠️ 𝘌𝘴𝘵𝘦 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘚𝘰𝘭𝘰 𝘚𝘦 𝘗𝘶𝘦𝘥𝘦 𝘜𝘴𝘢𝘳 𝘗𝘰𝘳 𝘌𝘭 𝘗𝘳𝘰𝘱𝘪𝘦𝘵𝘢𝘳𝘪𝘰 𝘋𝘦𝘭 𝘉𝘰𝘵.*',
+    premium: '*⚠️ 𝘌𝘴𝘵𝘦 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘚𝘰𝘭𝘰 𝘚𝘦 𝘗𝘶𝘦𝘥𝘦 𝘜𝘵𝘪𝘭𝘪𝘻𝘢𝘳 𝘗𝘰𝘳 𝘜𝘴𝘶𝘢𝘳𝘪𝘰𝘴 𝘗𝘳𝘦𝘮𝘪𝘶𝘮, 𝘠 𝘗𝘢𝘳𝘢 𝘔𝘪 𝘊𝘳𝘦𝘢𝘥𝘰𝘳.*',
     group: '*⚠️ 𝘌𝘴𝘵𝘦 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘚𝘰𝘭𝘰 𝘚𝘦 𝘗𝘶𝘦𝘥𝘦 𝘜𝘴𝘢𝘳 𝘌𝘯 𝘎𝘳𝘶𝘱𝘰𝘴.*',
-    private: '*⚠️ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴘᴜᴇᴅᴇ sᴇʀ ᴜᴛɪʟɪᴢᴀᴅᴏ ᴇɴ ᴇʟ ᴄʜᴀᴛ ᴘʀɪᴠᴀᴅᴏ ᴅᴇʟ ʙᴏᴛ.*',
-    admin: '*⚠️ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏʟᴏ ᴘᴜᴇᴅᴇ sᴇʀ ᴜsᴀᴅᴏ ᴘᴏʀ ᴀᴅᴍɪɴs ᴅᴇʟ ɢʀᴜᴘᴏ.*',
-    botAdmin: '*⚠️ ᴘᴀʀᴀ ᴘᴏᴅᴇʀ ᴜsᴀʀ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ ᴇs ɴᴇᴄᴇsᴀʀɪᴏ ϙᴜᴇ ʏᴏ sᴇᴀ ᴀᴅᴍɪɴ.*',
+    private: '*⚠️ 𝘌𝘴𝘵𝘦 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘚𝘰𝘭𝘰 𝘚𝘦 𝘗𝘶𝘦𝘥𝘦 𝘜𝘴𝘢𝘳 𝘈𝘭 𝘊𝘩𝘢𝘵 𝘗𝘳𝘪𝘷𝘢𝘥𝘰 𝘋𝘦𝘭 𝘉𝘰𝘵.*',
+    admin: '*⚠️ 𝘌𝘴𝘵𝘦 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘚𝘰𝘭𝘰 𝘌𝘴 𝘗𝘢𝘳𝘢 𝘈𝘥𝘮𝘪𝘯𝘴 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰.*',
+    botAdmin: '*⚠️ 𝘗𝘢𝘳𝘢 𝘗𝘰𝘥𝘦𝘳 𝘜𝘴𝘢𝘳 𝘌𝘴𝘵𝘦 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘌𝘴 𝘕𝘦𝘤𝘦𝘴𝘢𝘳𝘪𝘰 𝘘𝘶𝘦 𝘠𝘰 𝘚𝘦𝘢 𝘈𝘥𝘮𝘪𝘯.*',
     unreg: '*⚠️ 𝐇𝐞𝐲 𝐄𝐬𝐩𝐞𝐫𝐚,𝐓𝐞 𝐅𝐚𝐥𝐭𝐚 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐫𝐭𝐞 🛑*\n\n*⌨ 𝐏𝐚𝐫𝐚 𝐔𝐬𝐚𝐫 𝐄𝐬𝐭𝐨 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐍𝐞𝐬𝐞𝐬𝐢𝐭𝐚𝐬 𝐄𝐬𝐭𝐚𝐫 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐝𝐨, 𝐔𝐬𝐚 𝐄𝐥 𝐒𝐢𝐠𝐮𝐢𝐞𝐧𝐭𝐞 𝐂𝐨𝐦𝐚𝐧𝐝𝐨:*\n*➡️ #𝐫𝐞𝐠 𝐧𝐨𝐦𝐛𝐫𝐞.𝐞𝐝𝐚𝐝*',
     restrict: '*⚠️ 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘙𝘦𝘴𝘵𝘳𝘪𝘯𝘨𝘪𝘥𝘰 𝘗𝘰𝘳 𝘋𝘦𝘴𝘪𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘗𝘳𝘰𝘱𝘪𝘦𝘵𝘢𝘳𝘪𝘰 𝘋𝘦𝘭 𝘉𝘰𝘵.*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '⚠ 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VaHYnwaKQuJIlTFuS22l'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '⚠ 𝗔𝗩𝗜𝗦𝗢 - 𝗔𝗟𝗘𝗥𝗧𝗔', body: 'SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VaHYnwaKQuJIlTFuS22l'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
