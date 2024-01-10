@@ -33,7 +33,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃ ⏤͟͟͞͞𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊́𝙉
 ┗━━━━━━━━━━
 ┃ *🧑‍💻Dueño Del Bot:* Diego
-┃ *👤Cliente:* ${name}
+┃ *👤Cliente:* ${taguser}
 ┃ *Bot Oficial:* +51 935 499 065
 ┃ *Tiempo activo:* ${uptime}
 ┃ *Usuarios regs:* ${rtotalreg}
