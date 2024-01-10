@@ -35,7 +35,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ║┃ *🌥Bot Oficial:* +51 935 499 065
 ║┃ *👤Cliente:* ${taguser}
 ║┃ *🧭Bot:* ${packname}
-║┃ *⚕️ Prefijo Actual:* ${usedPrefix}
+║┃ *⚕️ Prefijo Actual:* ${prefix}
 ║┃ *⏰️Tiempo activo:* ${uptime}
 ║┃ *💻Usuarios regs:* ${rtotalreg}
 ║┃ *🗃Usuarios totales:* ${rtotal}
