@@ -42,7 +42,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ║╰═══════❮❦❦❯════════╯
 ╰═══════❮❦🌴❦❯═══════❯
 
-╭════❮❦INFO USER❦❯════❯
+╭═══❮❦INFO USER❦❯═════❯
 ║╭══════════════════╮
 ║┃ *😼 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
 ║┃ *🎖Nivel:* ${level}
@@ -52,8 +52,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ║┃ *👾SakuCoins:* ${money}
 ║┃ *🪙Tokens:* ${joincount}
 ║┃ *🎟Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
-║╰══════════════════╯
-╰═══════════════════❯
+║╰═══════❮❦❦❯════════╯
+╰═══════❮❦🌴❦❯═══════❯
 ${readMore}
 
 ╭════❮❦SOLUCIÓN❦❯════❯
