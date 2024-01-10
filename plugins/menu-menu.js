@@ -43,7 +43,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰═══════❮❦🌴❦❯═══════❯
 
 ╭═══❮❦INFO USER❦❯═════❯
-║╭══════════════════╮
+║╭═══════❮❦❦❯════════╮
 ║┃ *😼 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
 ║┃ *🎖Nivel:* ${level}
 ║┃ *🧰Experiencia:* ${exp}
@@ -56,58 +56,56 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰═══════❮❦🌴❦❯═══════❯
 ${readMore}
 
-╭════❮❦SOLUCIÓN❦❯════❯
-║╭══════════════════╮
+╭════❮❦SOLUCIONES❦❯════❯
+║╭═══════❮❦❦❯════════╮
 ║┃ꨄ︎ Mensajes en espera
 ║┃↻ _${usedPrefix}fixmsgespera_
 ║┃ꨄ︎ Mensajes en espera (owner)
 ║┃↺ _${usedPrefix}dsowner_
-║╰══════════════════╯
-╰═══════════════════❯
+║╰═══════❮❦❦❯════════╯
+╰═══════❮❦🌴❦❯═══════❯
 
-┏━━━━━━━━━━━━━━━━┓
-┃ ⏤͟͟͞𝙄𝙉𝙁𝙊 𝘽𝙊𝙏
-┗━━━━━━━━━━━━━━
-┣📋 _${usedPrefix}terminosycondiciones_
-┣📋 _${usedPrefix}grupos_
-┣📋 _${usedPrefix}estado_
-┣📋 _${usedPrefix}infobot_
-┣📋 _${usedPrefix}speedtest_
-┣📋 _${usedPrefix}donar_
-┣📋 _${usedPrefix}owner_
-┣📋 _${usedPrefix}script_
-┣📋 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
-┗━━━━━━━━━━━━━━━━┛
+╭════❮❦INFO BOT❦❯═════❯
+║╭═══════❮❦❦❯════════╮
+║┃📋 _${usedPrefix}terminosycondiciones_
+║┃📋 _${usedPrefix}grupos_
+║┃📋 _${usedPrefix}estado_
+║┃📋 _${usedPrefix}infobot_
+║┃📋 _${usedPrefix}speedtest_
+║┃📋 _${usedPrefix}donar_
+║┃📋 _${usedPrefix}owner_
+║┃📋 _${usedPrefix}script_
+║┃📋 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+║╰═══════❮❦❦❯════════╯
+╰═══════❮❦🌴❦❯═══════❯
 
-┏━━━━━━━━━━━━━━━━┓
-┃ ⏤͟͟͞͞𝘽𝙊𝙏 𝘼 𝙏𝙐 𝙂𝙍𝙐𝙋𝙊
-┗━━━━━━━━━━━━━━━
-┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
-┣🌵 _${usedPrefix}join *<enlace / link / url>*_
-┗━━━━━━━━━━━━━━━━┛
+╭═══❮❦BOT A GRUPO❦❯════❯
+║╭═══════❮❦❦❯════════╮
+║┃
+║┃🙀 _${usedPrefix}join *<enlace / link / url>*_
+║╰═══════❮❦❦❯════════╯
+╰═══════❮❦🌴❦❯═══════❯
 
-┏━━━━━━━━━━━━━━━━┓
-┃ ⏤͟͟͞͞𝙃𝙀𝙍𝙍𝘼𝙈𝙄𝙀𝙉𝙏𝘼𝙎
-┗━━━━━━━━━━
-┣🛠 _${usedPrefix}enable restrict_
-┣🛠 _${usedPrefix}disable restrict_
-┣🛠 _${usedPrefix}enable autoread_
-┣🛠 _${usedPrefix}disable autoread_
-┣🛠 _${usedPrefix}enable antispam_
-┣🛠 _${usedPrefix}disable antispam_
-┣🛠 _${usedPrefix}enable anticall_
-┣🛠 _${usedPrefix}disable anticall_
-┣🛠 _${usedPrefix}enable modoia_
-┣🛠 _${usedPrefix}disable modoia_
-┣🛠 _${usedPrefix}enable audios_bot_
-┣🛠 _${usedPrefix}disable audios_bot_
-┣🛠 _${usedPrefix}enable antiprivado_
-┣🛠 _${usedPrefix}disable antiprivado_
-┗━━━━━━━━━━━━━━━━┛
+╭═══❮❦HERRAMIENTAS❦❯═══❯
+║╭═══════❮❦INFO❦❯══════❯
+║┃🛠 _${usedPrefix}enable restrict_
+║┃🛠 _${usedPrefix}disable restrict_
+║┃🛠 _${usedPrefix}enable autoread_
+║┃🛠 _${usedPrefix}disable autoread_
+║┃🛠 _${usedPrefix}enable antispam_
+║┃🛠 _${usedPrefix}disable antispam_
+║┃🛠 _${usedPrefix}enable anticall_
+║┃🛠 _${usedPrefix}disable anticall_
+║┃🛠 _${usedPrefix}enable modoia_
+║┃🛠 _${usedPrefix}disable modoia_
+║┃🛠 _${usedPrefix}enable audios_bot_
+║┃🛠 _${usedPrefix}disable audios_bot_
+║┃🛠 _${usedPrefix}enable antiprivado_
+║┃🛠 _${usedPrefix}disable antiprivado_
+║╰═══════❮❦❦❯════════╯
+╰═══════❮❦🌴❦❯═══════❯
 
-┏━━━━━━━━━━━━━━━━┓
-┃ ⏤͟͟͞͞𝘿𝙄𝙑𝙀𝙍𝙎𝙄𝙊𝙉𝙀𝙎
-┗━━━━━━━━━━
+╭═══❮❦DIVERSIONES❦❯═══❯
 ┃-------➫┇◦✦◦✦◦✦◦✦◦┋:̖́-
 ┣🌹 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
 ┣🌹 _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
@@ -116,35 +114,36 @@ ${readMore}
 ┣🌹 _${usedPrefix}prostituta *<nombre / @tag>*_
 ┣🌹 _${usedPrefix}gay2 *<nombre / @tag>*_
 ┣🌹 _${usedPrefix}lesbiana *<nombre / @tag>*_
-┣🌹 _${usedPrefix}pajero *<nombre / @tag>*_
-┣🌹 _${usedPrefix}pajera *<nombre / @tag>*_
-┣🌹 _${usedPrefix}follar *<nombre / @tag>*_
-┣🌹 _${usedPrefix}puto *<nombre / @tag>*_
-┣🌹 _${usedPrefix}puta *<nombre / @tag>*_
-┣🌹 _${usedPrefix}manco *<nombre / @tag>*_
-┣🌹 _${usedPrefix}manca *<nombre / @tag>*_
-┣🌹 _${usedPrefix}rata *<nombre / @tag>*_
-┣🌹 _${usedPrefix}love *<nombre / @tag>*_
-┣🌹 _${usedPrefix}doxear *<nombre / @tag>*_
-┣🌹 _${usedPrefix}pregunta *<texto>*_
-┣🌹 _${usedPrefix}suitpvp *<@tag>*_
-┣🌹 _${usedPrefix}slot *<apuesta>*_
-┣🌹 _${usedPrefix}ttt *<nombre sala>*_
-┣🌹 _${usedPrefix}delttt_
-┣🌹 _${usedPrefix}acertijo_
-┣🌹 _${usedPrefix}personalidad *<nombre / @tag>*_
-┣🌹 _${usedPrefix}simi *<texto>*_
-┣🌹 _${usedPrefix}top *<texto>*_
-┣🌹 _${usedPrefix}topgays_
-┣🌹 _${usedPrefix}topotakus_
-┣🌹 _${usedPrefix}formarpareja_
-┣🌹 _${usedPrefix}verdad_
-┣🌹 _${usedPrefix}reto_
-┣🌹 _${usedPrefix}cancion_
-┣🌹 _${usedPrefix}pista_
-┣🌹 _${usedPrefix}akinator_
-┣🌹 _${usedPrefix}wordfind_
-┗━━━━━━━━━━━━━━━━┛
+║┃🌹 _${usedPrefix}pajero *<nombre / @tag>*_
+║┃🌹 _${usedPrefix}pajera *<nombre / @tag>*_
+║┃🌹 _${usedPrefix}follar *<nombre / @tag>*_
+║┃🌹 _${usedPrefix}puto *<nombre / @tag>*_
+║┃🌹 _${usedPrefix}puta *<nombre / @tag>*_
+║┃🌹 _${usedPrefix}manco *<nombre / @tag>*_
+║┃🌹 _${usedPrefix}manca *<nombre / @tag>*_
+║┃🌹 _${usedPrefix}rata *<nombre / @tag>*_
+║┃🌹 _${usedPrefix}love *<nombre / @tag>*_
+║┃🌹 _${usedPrefix}doxear *<nombre / @tag>*_
+║┃🌹 _${usedPrefix}pregunta *<texto>*_
+║┃🌹 _${usedPrefix}suitpvp *<@tag>*_
+║┃🌹 _${usedPrefix}slot *<apuesta>*_
+║┃🌹 _${usedPrefix}ttt *<nombre sala>*_
+║┃🌹 _${usedPrefix}delttt_
+║┃🌹 _${usedPrefix}acertijo_
+║┃🌹 _${usedPrefix}personalidad *<nombre / @tag>*_
+║┃🌹 _${usedPrefix}simi *<texto>*_
+║┃🌹 _${usedPrefix}top *<texto>*_
+║┃🌹 _${usedPrefix}topgays_
+║┃🌹 _${usedPrefix}topotakus_
+║┃🌹 _${usedPrefix}formarpareja_
+║┃🌹 _${usedPrefix}verdad_
+║┃🌹 _${usedPrefix}reto_
+║┃🌹 _${usedPrefix}cancion_
+║┃🌹 _${usedPrefix}pista_
+║┃🌹 _${usedPrefix}akinator_
+║┃🌹 _${usedPrefix}wordfind_
+║╰═══════❮❦❦❯════════╯
+╰═══════❮❦🌴❦❯═══════❯
 
 ┏━━━━━━━━━━━━━━━━┓
 ┃ ⏤͟͟͞͞𝙊𝙉/𝙊𝙁𝙁
