@@ -19,7 +19,8 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `╭════❮❦MENU +18❦❯════❯
+    const str = `
+╭════❮❦MENU +18❦❯════❯
 ║╭═══════❮ꨄ︎ꨄ︎❯════════╮
 ║┃ ➢ ⃟⃞❆ 🔞 _${usedPrefix}pack_
 ║┃ ➢ ⃟⃞❆ 🔞 _${usedPrefix}pack2_
@@ -36,7 +37,7 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
 ║┃ ➢ ⃟⃞❆ 🔞 _${usedPrefix}porno_
 ║┃ ➢ ⃟⃞❆ 🔞 _${usedPrefix}randomxxx_
 ║┃ ➢ ⃟⃞❆ 🔞 _${usedPrefix}pechos_
-┣ ➢ ⃟⃞❆ 🔞 _${usedPrefix}yaoi_
+║┃ ➢ ⃟⃞❆ 🔞 _${usedPrefix}yaoi_
 ║┃ ➢ ⃟⃞❆ 🔞 _${usedPrefix}yaoi2_
 ║┃ ➢ ⃟⃞❆ 🔞 _${usedPrefix}yuri_
 ║┃ ➢ ⃟⃞❆ 🔞 _${usedPrefix}yuri2_
