@@ -21,7 +21,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   
-await m.reply(`[ 𝐂𝐀𝐑𝐆𝐀𝐍𝐃𝐎 𝐌𝐄𝐍𝐔... ]`);                   
+await m.reply(`[ 𝙋𝙧𝙤𝙭𝙞𝙢𝙖𝙢𝙚𝙣𝙩𝙚 𝙎𝙚 𝙇𝙚 𝙀𝙣𝙫𝙞𝙖𝙧𝙖́ 𝙀𝙡 𝙈𝙚𝙣𝙪 𝘿𝙚𝙡 𝘽𝙤𝙩... ]`);                   
 
 const document = doc[Math.floor(Math.random() * doc.length)];
  const str = `${conn.user.jid == global.conn.user.jid ? '' : `➪𝖲𝖡-𝖲𝖴𝖡 𝖡𝖮𝖳: @${global.conn.user.jid.split`@`[0]}`}
@@ -32,7 +32,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ║ *☁︎ 𝐀qui 𝐓e 𝐃ejo 𝐄l 𝐌enu ᰔᩚ*
 ╰═══╡✯✯✯✯✯✯✯✯✯╞════╯
 
-╭━━━━━❍𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦❍━━━━━╮
+╭━━━━❍𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦❍━━━━━╮
 ║╭═══════❮ꨄ︎ꨄ︎❯════════╮
 ║┃ *🧑‍💻Dueño Del Bot:* Diego
 ║┃ *🌥Bot Oficial:* +51 935 499 065
@@ -44,7 +44,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ║┃ *🗃Usuarios Totales:* ${rtotal}
 ║┃ *📅Fecha:* ${date} 
 ║╰═══════❮ꨄ︎ꨄ︎❯════════╯
-╰━━━━╼❍𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦❍╾━━━━╯
+╰━━━╼❍𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦❍╾━━━━╯
 
 ╭════❮❦INFO USER❦❯═════❯
 ║╭═══════❮ꨄ︎ꨄ︎❯════════╮
