@@ -20,6 +20,12 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `
+╭═══〘✯✯✯✯✯✯✯✯✯〙═══╮
+║ *ᰔᩚ 𝗛ola, 𝗦eñore 𝗖omo 𝗘stas ☁︎*
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
+║ *☁︎ 𝐀qui 𝐓e 𝐃ejo 𝐄l 𝐌enu +18 ᰔᩚ*
+╰═══╡✯✯✯✯✯✯✯✯✯╞════╯
+
 ╭════❮❦MENU +18❦❯════❯
 ║╭═══════❮ꨄ︎ꨄ︎❯════════╮
 ║┃ ➢ ⃟⃞❆ 🔞 _${usedPrefix}pack_
