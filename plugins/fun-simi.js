@@ -1,7 +1,9 @@
 import translate from '@vitalets/google-translate-api';
 import fetch from 'node-fetch';
 const handler = async (m, {text, command, args, usedPrefix}) => {
-  if (!text) throw `*✨🌵 Iɴɢʀᴇsᴇ Uɴ Tᴇxᴛᴏ Pᴀʀᴀ Hᴀʙʟᴀʀ Cᴏɴ Sɪᴍɪ O Sᴀᴋᴜʀᴀ*\n\n*𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command} Hola Bot*`;
+  if (!text) throw `*✨🌵 Iɴɢʀᴇsᴇ Uɴ Tᴇxᴛᴏ Pᴀʀᴀ Hᴀʙʟᴀʀ Cᴏɴ Sɪᴍɪ O Sᴀᴋᴜʀᴀ*\n\n*𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command} Hola Bot*`
+m.react('🗣️') 
+;
   try {
     const api = await fetch('https://api.simsimi.net/v2/?text=' + text + '&lc=es');
     const resSimi = await api.json();
