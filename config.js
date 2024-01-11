@@ -30,11 +30,11 @@ global.prems = ['573218138672'];
 global.lenguajeSK = es //idioma de sakurabot
 
 global.packname = '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿✨️';
-global.author = '𝘿𝙞𝙚𝙜𝙤 𝙊𝙛𝙞𝙘𝙞𝙖𝙡';
+global.author = '𝘉𝘺:𝘋𝘪𝘦𝘨𝘰';
 global.wm = '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿';
 global.titulowm = '𝙎𝙖𝙠𝙪𝙧𝙞𝙩𝙖-𝙈𝘿';
-global.titulowm2 = `𝘉𝘺:𝘋𝘪𝘦𝘨𝘰 𝘖𝘧𝘪𝘤𝘪𝘢𝘭`
-global.igfg = '𝘉𝘺: 𝘋𝘪𝘦𝘨𝘰 𝘖𝘧𝘪𝘤𝘪𝘢𝘭';
+global.titulowm2 = `𝘋𝘪𝘦𝘨𝘰 𝘖𝘧𝘪𝘤𝘪𝘢𝘭`
+global.igfg = '𝘋𝘪𝘦𝘨𝘰 𝘖𝘧𝘪𝘤𝘪𝘢𝘭';
 global.wait = '*⏳️ Cargando Espere Un Momento...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
