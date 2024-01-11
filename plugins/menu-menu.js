@@ -23,7 +23,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
  await m.reply(`😸 𝘌𝘯𝘷𝘪𝘢𝘯𝘥𝘰 𝘌𝘭 𝘔𝘦𝘯𝘶 𝘋𝘦𝘭 𝘉𝘰𝘵 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦-𝘔𝘋....`); 
 
- `➪𝖲𝖡-𝖲𝖴𝖡 𝖡𝖮𝖳: @${global.conn.user.jid.split`@`[0]}`}
+const document = doc[Math.floor(Math.random() * doc.length)];
+ const str = `${conn.user.jid == global.conn.user.jid ? '' : `➪𝖲𝖡-𝖲𝖴𝖡 𝖡𝖮𝖳: @${global.conn.user.jid.split`@`[0]}`}
 
 ╭═══〘✯✯✯✯✯✯✯✯✯〙═══╮
 ║ *ᰔᩚ 𝗛ola, 𝗦eñore 𝗖omo 𝗘stas ☁︎*
