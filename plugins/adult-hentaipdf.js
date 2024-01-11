@@ -2,8 +2,8 @@ import fetch from 'node-fetch';
 import PDFDocument from 'pdfkit';
 import {extractImageThumb} from '@whiskeysockets/baileys';
 const handler = async (m, {conn, text, usedPrefix, command, args}) => {
-  if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '*[❗𝐈𝐍𝐅𝐎❗] ℒ𝓐 ℬ𝓘ℬℒ𝓘𝓐 𝓝𝓞 𝓢𝓔 𝓟𝓤𝓔𝓓𝓔 ℒ𝓔𝓔ℛ 𝓔𝓝 𝓔𝓢𝓣𝓔 𝓖ℛ𝓤𝓟𝓞, 𝓢𝓘 𝓔ℛ𝓔𝓢 𝓐𝓓ℳ𝓘𝓝 𝓨 𝓠𝓤𝓘𝓔ℛ𝓔 𝓐𝓒𝓣𝓘𝓥𝓐ℛℒ𝓞𝓢 𝓤𝓢𝓔 𝓔ℒ 𝓒𝓞ℳ𝓐𝓝𝓓𝓞 #enable modohorny*';
-  if (!text) throw `*[❗] 𝓲𝓷𝓰𝓻𝒆𝓼𝓪 𝒆𝓵 𝓷𝓸𝓶𝓫𝓻𝒆 𝓭𝒆 𝓪𝓵𝓰𝓾𝓷𝓪 𝓬𝓪𝓽𝒆𝓰𝓸𝓻𝓲𝓪 𝓭𝒆 𝓱𝒆𝓷𝓽𝓪𝓲, 𝒆𝓳𝒆𝓶𝓹𝓵𝓸: ${usedPrefix + command} miku*`;
+  if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '*❗ 𝖫𝗈𝗌 𝖢𝗈𝗆𝖺𝗇𝖽𝗈𝗌 +𝟷𝟾 𝖤𝗌𝗍𝖺́𝗇 𝖣𝖾𝗌𝖺𝖼𝗍𝗂𝗏𝖺𝖽𝗈 𝖤𝗇 𝖤𝗌𝗍𝖾 𝖦𝗋𝗎𝗉𝗈, 𝖲𝗂 𝖤𝗋𝖾𝗌 𝖠𝖽𝗆𝗂𝗇 𝖸 𝖣𝖾𝗌𝖾𝖺𝗌 𝖠𝖼𝗍𝗂𝗏𝖺𝗋𝗅𝗈, 𝖴𝗌𝖾 𝖤𝗌𝗍𝖾 𝖢𝗈𝗆𝖺𝗇𝖽𝗈 #enable modohorny*';
+  if (!text) throw `*[❗] 𝘐𝘯𝘨𝘳𝘦𝘴𝘦 𝘌𝘭 𝘕𝘰𝘮𝘣𝘳𝘦 𝘋𝘦 𝘈𝘭𝘨𝘶𝘯𝘢 𝘊𝘢𝘵𝘦𝘨𝘰𝘳𝘪𝘢 𝘋𝘦 𝘏𝘦𝘯𝘵𝘢𝘪, 𝘌𝘫𝘦𝘮𝘱𝘭𝘰: ${usedPrefix + command} miku*`;
   try {
     m.reply(global.wait);
     const res = await fetch(`https://api.lolhuman.xyz/api/nhentaisearch?apikey=${lolkeysapi}&query=${text}`);
@@ -21,7 +21,7 @@ const handler = async (m, {conn, text, usedPrefix, command, args}) => {
     const imagepdf = await toPDF(pages);
     await conn.sendMessage(m.chat, {document: imagepdf, jpegThumbnail, fileName: data.title.english + '.pdf', mimetype: 'application/pdf'}, {quoted: m});
   } catch {
-    throw `*[❗] 𝓔ℛℛ𝓞ℛ, 𝓘𝓝𝓣𝓔𝓝𝓣𝓔 𝓒𝓞𝓝 𝓞𝓣ℛ𝓐 𝓒𝓐𝓣𝓔𝓖𝓞ℛ𝓘𝓐*`;
+    throw `*[❗] Eʀʀᴏʀ Iɴᴛᴇɴᴛᴇ Cᴏɴ Oᴛʀᴀ Cᴀᴛᴇɢᴏʀɪᴀ*`;
   }
 };
 handler.command = /^(hentaipdf)$/i;
@@ -51,8 +51,8 @@ function toPDF(images, opt = {}) {
 
 /* import fetch from 'node-fetch'
 let handler = async (m, { conn, text, usedPrefix, command, args }) => {
-if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 +𝟷𝟾 𝙴𝚂𝚃𝙰𝙽 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾𝚂 𝙴𝙽 𝙴𝚂𝚃𝙴 𝙶𝚁𝚄𝙿𝙾, 𝚂𝙸 𝙴𝚂 𝙰𝙳𝙼𝙸𝙽 𝚈 𝙳𝙴𝚂𝙴𝙰 𝙰𝙲𝚃𝙸𝚅𝙰𝚁𝙻𝙾𝚂 𝚄𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 #enable modohorny*'
-if (!text) throw `*[❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙰 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽𝙰 𝙲𝙰𝚃𝙴𝙶𝙾𝚁𝙸𝙰 𝙳𝙴 𝙷𝙴𝙽𝚃𝙰𝙸, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command} miku*`
+if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '*❗ 𝖫𝗈𝗌 𝖢𝗈𝗆𝖺𝗇𝖽𝗈𝗌 +𝟷𝟾 𝖤𝗌𝗍𝖺́𝗇 𝖣𝖾𝗌𝖺𝖼𝗍𝗂𝗏𝖺𝖽𝗈 𝖤𝗇 𝖤𝗌𝗍𝖾 𝖦𝗋𝗎𝗉𝗈, 𝖲𝗂 𝖤𝗋𝖾𝗌 𝖠𝖽𝗆𝗂𝗇 𝖸 𝖣𝖾𝗌𝖾𝖺𝗌 𝖠𝖼𝗍𝗂𝗏𝖺𝗋𝗅𝗈, 𝖴𝗌𝖾 𝖤𝗌𝗍𝖾 𝖢𝗈𝗆𝖺𝗇𝖽𝗈 #enable modohorny*'
+if (!text) throw `*[❗] 𝘐𝘯𝘨𝘳𝘦𝘴𝘦 𝘌𝘭 𝘕𝘰𝘮𝘣𝘳𝘦 𝘋𝘦 𝘈𝘭𝘨𝘶𝘯𝘢 𝘊𝘢𝘵𝘦𝘨𝘰𝘳𝘪𝘢 𝘋𝘦 𝘏𝘦𝘯𝘵𝘢𝘪, 𝘌𝘫𝘦𝘮𝘱𝘭𝘰: ${usedPrefix + command} miku*`
 try {
 m.reply(global.wait)
 let res = await fetch(`https://api.lolhuman.xyz/api/nhentaisearch?apikey=${lolkeysapi}&query=${text}`)
@@ -64,7 +64,7 @@ let json2 = await res2.json()
 let aa3 = json2.result
 await conn.sendMessage(m.chat, { document: { url: aa3 }, mimetype: 'application/pdf', fileName: `${aa2}.pdf` }, { quoted: m })
 } catch {
-throw `*[❗] 𝙴𝚁𝚁𝙾𝚁, 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾 𝚈/𝙾 𝙿𝚁𝚄𝙴𝙱𝙴 𝙲𝙾𝙽 𝙾𝚃𝚁𝙰 𝙲𝙰𝚃𝙴𝙶𝙾𝚁𝙸𝙰*`
+throw `*[❗] Eʀʀᴏʀ Iɴᴛᴇɴᴛᴇ Cᴏɴ Oᴛʀᴀ Cᴀᴛᴇɢᴏʀɪᴀ*`
 }}
 handler.command = /^(hentaipdf)$/i
 export default handler*/
