@@ -39,8 +39,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ║┃ *⏰️Tiempo Activo:* ${uptime}
 ║┃ *💻Usuarios Regs:* ${rtotalreg}
 ║┃ *🗃Usuarios Totales:* ${rtotal}
-║┃ *📅Fecha:* ${date}
- *┃┃ ⋄ VERSION » ${vs}* 
+║┃ *📅Fecha:* ${date} 
 ║╰═══════❮ꨄ︎ꨄ︎❯════════╯
 ╰═══════❮❦🌴❦❯════════❯
 
