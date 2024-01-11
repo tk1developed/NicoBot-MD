@@ -67,12 +67,12 @@ ${readMore}
 
 ╭════❮❦SER SUBBOT❦❯════❯
 ║╭═══════❮ꨄ︎ꨄ︎❯════════╮
-║┃ _${usedPrefix}serbot --code_
-║┃ _${usedPrefix}serbot_
-║┃ _${usedPrefix}deletebot_
-║┃ _${usedPrefix}token_
-║┃ _${usedPrefix}stop_
-║┃ _${usedPrefix}bots_
+║┃💻 _${usedPrefix}serbot --code_
+║┃💻 _${usedPrefix}serbot_
+║┃💻 _${usedPrefix}deletebot_
+║┃💻 _${usedPrefix}token_
+║┃💻 _${usedPrefix}stop_
+║┃💻 _${usedPrefix}bots_
 ║╰═══════❮ꨄ︎ꨄ︎❯════════╯
 ╰════════❮❦🌴❦❯═══════❯
 
