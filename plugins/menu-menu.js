@@ -21,7 +21,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   
-await m.reply(`𝙋𝙧𝙤𝙭𝙞𝙢𝙖𝙢𝙚𝙣𝙩𝙚 𝙎𝙚 𝙇𝙚 𝙀𝙣𝙫𝙞𝙖𝙧𝙖́ 𝙀𝙡 𝙈𝙚𝙣𝙪 𝘿𝙚𝙡 𝘽𝙤𝙩...`);                   
+await m.reply(`𝙋𝙧𝙤𝙭𝙞𝙢𝙖𝙢𝙚𝙣𝙩𝙚 𝙎𝙚 𝙇𝙚 𝙍𝙚𝙢𝙞𝙩𝙞𝙧𝙖́ 𝙀𝙡 𝙈𝙚𝙣𝙪...`);                   
 
 const document = doc[Math.floor(Math.random() * doc.length)];
  const str = `${conn.user.jid == global.conn.user.jid ? '' : `➪𝖲𝖡-𝖲𝖴𝖡 𝖡𝖮𝖳: @${global.conn.user.jid.split`@`[0]}`}
