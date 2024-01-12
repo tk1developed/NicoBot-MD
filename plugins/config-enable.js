@@ -327,7 +327,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       bot.restrict = isEnable;
       break;
-    case 'autolevelup':
+    case 'audios_bot':
       isAll = true;
       if (!(isROwner || isOwner)) {
         global.dfail('owner', m, conn);
@@ -409,7 +409,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
         global.dfail('rowner', m, conn);
         throw false;
       }
-      bot.modejadibot = isEnable;
+      bot.autolevelup = isEnable;
       break;
     case 'antispam':
       isAll = true;
