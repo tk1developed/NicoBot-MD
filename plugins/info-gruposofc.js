@@ -1,17 +1,20 @@
 const handler = async (m, {conn, usedPrefix}) => {
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
-  const text = `*𝙷𝙾𝙻𝙰 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 👋🏻, 𝚃𝙴 𝙸𝙽𝚅𝙸𝚃𝙾 𝙰 𝚄𝙽𝙸𝚁𝚃𝙴 𝙰l 𝙶𝚁𝚄𝙿𝙾 𝙾𝙵𝙸𝙲𝙸𝙰𝙻 𝙳e ៸SakuraBotLite-MD 𝙿𝙰𝚁𝙰 𝙲𝙾𝙽𝚅𝙸𝚅𝙸𝚁 𝙲𝙾𝙽 𝙻𝙰 𝙲𝙾𝙼𝚄𝙽𝙸𝙳𝙰𝙳 :D*
+  const text = `*꧁༺ Grupos del Bot ༻꧂:*
+𝘎𝘳𝘶𝘱𝘰𝘴 𝘖𝘧𝘪𝘤𝘪𝘢𝘭𝘦𝘴 𝘋𝘦𝘭 𝘉𝘰𝘵 𝘚𝘢𝘬𝘶𝘳𝘢𝘓𝘪𝘵𝘦𓆉︎
+ https://chat.whatsapp.com/Gf0jUCgZTdU5pbcKPZPtWk
+ https://chat.whatsapp.com/EHbHSYyZ1ZeCgtl1iO208h
+ https://chat.whatsapp.com/L69Ok8LTIJNCTNsJydkXaE
 
-*꧁༺ Grupos del Bot ༻꧂:*
+𝘎𝘳𝘶𝘱𝘰 𝘋𝘦 𝘊𝘰𝘭𝘢𝘣𝘰𝘳𝘢𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘉𝘰𝘵ꨄ︎
 
-*1.-* https://chat.whatsapp.com/Gf0jUCgZTdU5pbcKPZPtWk
+https://chat.whatsapp.com/IpkR0weg38U8Q0hFZbG3IV
 
-*2.-* https://chat.whatsapp.com/F41ekdst3nW5DclaV3fJ3I
+𝘊𝘢𝘯𝘢𝘭𝘦𝘴 𝘖𝘧𝘪𝘤𝘪𝘢𝘭𝘦𝘴 𝘋𝘦𝘭 𝘉𝘰𝘵 𝘚𝘢𝘬𝘶𝘳𝘢𝘓𝘪𝘵𝘦☏︎
+ https://whatsapp.com/channel/0029VaIg4lxInlqUNkN7A53w
 
-*3.-* https://whatsapp.com/channel/0029VaHYnwaKQuJIlTFuS22l
-
-*4.-* https://chat.whatsapp.com/L69Ok8LTIJNCTNsJydkXaE`.trim();
+https://whatsapp.com/channel/0029VaHYnwaKQuJIlTFuS22l`.trim();
   const buttonMessage= {
     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
     'mimetype': `application/${document}`,
