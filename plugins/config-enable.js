@@ -335,13 +335,13 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       bot.audios_bot = isEnable;      
       break;
-    case 'modoia':
+    case 'autolevelup':
       isAll = true;
       if (!(isROwner || isOwner)) {
         global.dfail('owner', m, conn);
         throw false;
       }
-      bot.modoia = isEnable;      
+      bot.autolevelup = isEnable;      
       break;      
     case 'nyimak':
       isAll = true;
@@ -403,13 +403,13 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       bot.antiPrivate = isEnable;
       break;
-    case 'autolevelup':
+    case 'modoia':
       isAll = true;
       if (!isROwner) {
         global.dfail('rowner', m, conn);
         throw false;
       }
-      bot.autolevelup = isEnable;
+      bot.modoia = isEnable;
       break;
     case 'antispam':
       isAll = true;
