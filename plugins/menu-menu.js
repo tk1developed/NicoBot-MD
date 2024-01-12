@@ -28,8 +28,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 
 ╭━━━━❍𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦❍━━━━━╮
 ║╭═══════❮ꨄ︎ꨄ︎❯════════╮
-║┃ *🧑‍💻Dueño Del Bot:* Diego
-┃   👤 Nombre: ${pushname}       
+║┃ *🧑‍💻Dueño Del Bot:* Diego       
 ║┃ *👤Cliente:* ${taguser}
 ║┃ *🧭Bot:* ${packname}
 ║┃ *⚕️Prefijo Usado:* ${usedPrefix}
