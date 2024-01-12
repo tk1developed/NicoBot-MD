@@ -327,7 +327,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       bot.restrict = isEnable;
       break;
-    case 'audios_bot':
+    case 'autolevelup':
       isAll = true;
       if (!(isROwner || isOwner)) {
         global.dfail('owner', m, conn);
