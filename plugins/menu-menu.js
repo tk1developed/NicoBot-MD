@@ -26,6 +26,8 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ╭━━━━❍𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦❍━━━━━╮
 🧑‍💻 Hola ${taguser}
 
+💻 Mi Creador Es: @573013114854
+
 😻 Bienvenido A ${packname} Soy El Bot Oficial En Que Podemos Ayudarte Escribe .allmenu o .menucompleto Para Ver El Menu🌻 
 
 ✨️ Dios Te Bendiga Y Te Aguarde 💕
