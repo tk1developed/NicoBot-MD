@@ -17,7 +17,7 @@ const handler = async (m, {conn, usedPrefix, participants, isPrems}) => {
 
 *ꨄ︎ 𝘕𝘶𝘮𝘦𝘳𝘰:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
 
-*𝙻𝙸𝙽𝙺:* wa.me/${who.split`@`[0]}${registered ? '\n*𝙴𝙳𝙰𝙳:* ' + age + ' años' : ''}
+*ꨄ︎ 𝘓𝘪𝘯𝘬:* wa.me/${who.split`@`[0]}${registered ? '\n*𝙴𝙳𝙰𝙳:* ' + age + ' años' : ''}
 
 *ꨄ︎ 𝘓𝘪𝘮𝘪𝘵𝘦:* ${limit} 𝚄𝚂𝙾𝚂
 
