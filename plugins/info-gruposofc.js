@@ -21,7 +21,7 @@ https://chat.whatsapp.com/IpkR0weg38U8Q0hFZbG3IV
 
 https://whatsapp.com/channel/0029VaHYnwaKQuJIlTFuS22l`.trim();
   const buttonMessage= {
-    'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
+    'document': {url: `https://github.com/diegojadibot/SakuraBotLite-MD`},
     'mimetype': `application/${document}`,
     'fileName': `𝘚𝘢𝘬𝘶𝘳𝘢𝘓𝘪𝘵𝘦`,
     'fileLength': 109,
