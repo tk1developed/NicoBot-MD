@@ -24,17 +24,17 @@ https://whatsapp.com/channel/0029VaHYnwaKQuJIlTFuS22l`.trim();
   const buttonMessage= {
     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
     'mimetype': `application/${document}`,
-    'fileName': `「 𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 」`,
-    'fileLength': 99999999999999,
+    'fileName': `𝘚𝘢𝘬𝘶𝘳𝘢𝘓𝘪𝘵𝘦`,
+    'fileLength': 109,
     'pageCount': 200,
     'contextInfo': {
       'forwardingScore': 200,
       'isForwarded': true,
       'externalAdReply': {
-        'mediaUrl': 'https://github.com/BrunoSobrino/TheMystic-Bot-MD',
+        'mediaUrl': 'https://github.com/diegojadibot/SakuraBotLite-MD',
         'mediaType': 2,
         'previewType': 'pdf',
-        'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
+        'title': '𝐆𝐫𝐮𝐩𝐨𝐬 𝐎𝐟𝐢𝐜𝐢𝐚𝐥𝐞𝐬',
         'body': wm,
         'thumbnail': imagen1,
         'sourceUrl': 'https://chat.whatsapp.com/KXjS9CBRF680GBf8fiXDeu'}},
