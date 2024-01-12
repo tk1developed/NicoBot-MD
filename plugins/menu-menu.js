@@ -26,7 +26,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 const document = doc[Math.floor(Math.random() * doc.length)];
  const str = `${conn.user.jid == global.conn.user.jid ? '' : `➪𝖲𝖡-𝖲𝖴𝖡 𝖡𝖮𝖳: @${global.conn.user.jid.split`@`[0]}`}
 
-╭═══❮ \`\`\`SakuraBotLite-MD\`\`\` ❯═══❍
+╭══❮ \`\`\`SakuraBotLite-MD\`\`\` ❯══❍
 ║╭═══════❮ꨄ︎ꨄ︎❯════════╮
 ║┃ *🧑‍💻Dueño Del Bot:* Diego
 ║┃ *👤Cliente:* ${taguser}
