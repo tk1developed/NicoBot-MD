@@ -27,7 +27,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
  const str = `${conn.user.jid == global.conn.user.jid ? '' : `➪𝖲𝖡-𝖲𝖴𝖡 𝖡𝖮𝖳: @${global.conn.user.jid.split`@`[0]}`}
 
 ╭═══〘✯✯✯✯✯✯✯✯✯〙═══╮
-║😻𝐁uenos 𝐃ias 𝐎 𝐁uenas 𝐓arde❣️
+║𝐁uenos 𝐃ias 𝐎 𝐁uenas 𝐓arde❣️
 ╰═══╡✯✯✯✯✯✯✯✯✯╞════╯
 
 ╭━━━━❍𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦❍━━━━━╮
