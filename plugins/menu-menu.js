@@ -28,8 +28,13 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 
 ╭━━━━❍𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦❍━━━━━╮
 ║╭═══════❮ꨄ︎ꨄ︎❯════════╮
-║┃ 🧑‍💻 Hola ${taguser}
-║┃ 😼 Este Ya No Es El Menu Escribe .menucompleto para ver el menu 😺
+🧑‍💻 Hola ${taguser}
+
+😻 Bienvenido A ${packname} Soy El Bot Oficial En Que Podemos Ayudarte Escribe .allmenu o .menucompleto Para Ver El Menu🌻 
+
+✨️ Dios Te Bendiga Y Te Aguarde 💕
+
+⏰️ Mi Hora Activo Es: ${uptime}
 ║╰═══════❮ꨄ︎ꨄ︎❯════════╯
 ╰━━━╼❍𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦❍╾━━━━╯`.trim();     if (m.isGroup) { 
  // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
