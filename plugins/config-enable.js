@@ -151,9 +151,9 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 
 --------------------------------
 
-*Opción:* 🛡️ | AUTOLEVELUP
-*Comando:* ${usedPrefix + command} autolevelup
-*Descripción:* Si El Bot Tiene Este Comando Activo Los Usuarios Suben De Nivel Mas Raido En El Grupo, Este Comando Solo Es Para Admins.
+*Opción:* 🛡️ | ANTIDELETE
+*Comando:* ${usedPrefix + command} antideletr
+*Descripción:* El Bot Detecta Cuando El Usuario Elimina Un Mensaje, Y Lo Reenvia.
 
 --------------------------------
 
@@ -239,14 +239,14 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       chat.delete = isEnable;
       break;
-    case 'autolevelup':
+    case 'antidelete':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
           throw false;
         }
       }
-      chat.autolevelup = isEnable;
+      chat.antidelete = isEnable;
       break;
     case 'public':
       isAll = true;
