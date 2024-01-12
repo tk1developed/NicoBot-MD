@@ -403,7 +403,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       bot.antiPrivate = isEnable;
       break;
-    case 'modejadibot':
+    case 'autolevelup':
       isAll = true;
       if (!isROwner) {
         global.dfail('rowner', m, conn);
