@@ -36,7 +36,7 @@ https://whatsapp.com/channel/0029VaHYnwaKQuJIlTFuS22l`.trim();
         'title': '𝐆𝐫𝐮𝐩𝐨𝐬 𝐎𝐟𝐢𝐜𝐢𝐚𝐥𝐞𝐬',
         'body': wm,
         'thumbnail': imagen1,
-        'sourceUrl': 'https://chat.whatsapp.com/KXjS9CBRF680GBf8fiXDeu'}},
+        'sourceUrl': 'https://chat.whatsapp.com/Gf0jUCgZTdU5pbcKPZPtWk'}},
     'caption': text,
     'footer': wm,
     'headerType': 6};
