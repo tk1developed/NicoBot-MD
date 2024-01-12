@@ -239,14 +239,14 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       chat.delete = isEnable;
       break;
-    case 'autolevelup':
+    case 'antidelete':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
           throw false;
         }
       }
-      chat.autolevelup = isEnable;
+      chat.antidelete = isEnable;
       break;
     case 'public':
       isAll = true;
