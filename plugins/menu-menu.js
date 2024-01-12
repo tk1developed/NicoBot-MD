@@ -21,11 +21,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
 
- await m.reply(`😸 𝗘𝗡𝗩𝗜𝗔𝗡𝗗𝗢 𝗘𝗟 𝗠𝗘𝗡𝗨 𝗗𝗘𝗟 𝗕𝗢𝗧 𝗦𝗔𝗞𝗨𝗥𝗔𝗕𝗢𝗧𝗟𝗜𝗧𝗘-𝗠𝗗....`); 
+ await m.reply(`😸 Eɴᴠɪᴀɴᴅᴏ Eʟ Mᴇɴᴜ Dᴇʟ Bᴏᴛ, SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD....`); 
 
 const document = doc[Math.floor(Math.random() * doc.length)];
  const str = `${conn.user.jid == global.conn.user.jid ? '' : `➪𝖲𝖡-𝖲𝖴𝖡 𝖡𝖮𝖳: @${global.conn.user.jid.split`@`[0]}`}
-*😻 Bᴜᴇɴᴏs Dɪᴀs O Bᴜᴇɴᴀs Tᴀʀᴅᴇs ❣️*
+*😻Bᴜᴇɴᴏs Dɪᴀs O Bᴜᴇɴᴀs Tᴀʀᴅᴇs❣️*
 
 ╭━━━━❍𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦❍━━━━━╮
 ║╭═══════❮ꨄ︎ꨄ︎❯════════╮
