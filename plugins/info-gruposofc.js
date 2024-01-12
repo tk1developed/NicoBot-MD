@@ -6,10 +6,9 @@ const handler = async (m, {conn, usedPrefix}) => {
 
  https://chat.whatsapp.com/Gf0jUCgZTdU5pbcKPZPtWk
 
- https://chat.whatsapp.com/EHbHSYyZ1ZeCgtl1iO208h
-
  https://chat.whatsapp.com/L69Ok8LTIJNCTNsJydkXaE
 
+ https://chat.whatsapp.com/EHbHSYyZ1ZeCgtl1iO208h
 
 𝘎𝘳𝘶𝘱𝘰 𝘋𝘦 𝘊𝘰𝘭𝘢𝘣𝘰𝘳𝘢𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘉𝘰𝘵ꨄ︎
 
