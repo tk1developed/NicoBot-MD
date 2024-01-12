@@ -13,7 +13,6 @@ const handler = async (m, {conn, usedPrefix}) => {
 
 𝘎𝘳𝘶𝘱𝘰 𝘋𝘦 𝘊𝘰𝘭𝘢𝘣𝘰𝘳𝘢𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘉𝘰𝘵ꨄ︎
 
-
 https://chat.whatsapp.com/IpkR0weg38U8Q0hFZbG3IV
 
 𝘊𝘢𝘯𝘢𝘭𝘦𝘴 𝘖𝘧𝘪𝘤𝘪𝘢𝘭𝘦𝘴 𝘋𝘦𝘭 𝘉𝘰𝘵 𝘚𝘢𝘬𝘶𝘳𝘢𝘓𝘪𝘵𝘦☏︎
