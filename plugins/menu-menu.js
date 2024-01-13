@@ -26,9 +26,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 const document = doc[Math.floor(Math.random() * doc.length)];
  const str = `${conn.user.jid == global.conn.user.jid ? '' : `♕︎♔︎𝖲𝖡-𝖲𝖴𝖡 𝖡𝖮𝖳: @${global.conn.user.jid.split`@`[0]}`}
 
-*〲🝯☃️⁘ ${user.registered === true ? user.name : `👉 ${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? 'verificar nombre.edad' : 'verify name.age'}`} ◈*
- *╰🜙🜙🜙🜙《 @${m.sender.split("@")[0]} 》*
-
 ╭━━━━❍𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦❍━━━━━╮
 ║╭═══════❮ꨄ︎ꨄ︎❯════════╮
 ║┃ *🧑‍💻Dueño Del Bot:* Diego       
