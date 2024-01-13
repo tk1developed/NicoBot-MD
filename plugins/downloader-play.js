@@ -1,475 +1,354 @@
-import fetch from 'node-fetch';
-import axios from 'axios';
-import yts from 'yt-search';
-import {youtubedl, youtubedlv2} from '@bochilteam/scraper';
-import ytdl from 'ytdl-core';
-import {bestFormat, getUrlDl} from '../lib/y2dl.js';
-import YTDL from "../lib/ytdll.js";
-import fs from "fs";
-let limit1 = 100;
-let limit2 = 400;
-let limit_a1 = 50;
-let limit_a2 = 400;
-const handler = async (m, {conn, command, args, text, usedPrefix}) => {
-  if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} Good Feeling - Flo Rida*`;
-  try {
-    const yt_play = await search(args.join(' '));
-    let additionalText = '';
-    if (command === 'play') {
-      additionalText = 'audio 🔊';
-    } else if (command === 'play2') {
-      additionalText = 'video 🎥';
+(function (_0x19607d, _0x314718) {
+  const _0xfd35ea = _0x19607d();
+  while (true) {
+    try {
+      const _0x511fa4 = -parseInt(_0x2335(283, 0x170)) / 1 * (parseInt(_0x2335(389, 0x367)) / 2) + parseInt(_0x2335(292, 0x2a7)) / 3 + parseInt(_0x2335(302, 0x31f)) / 4 + parseInt(_0x2335(380, 0x1cf)) / 5 + parseInt(_0x2335(357, 0x1fe)) / 6 * (parseInt(_0x2335(434, 0x1f2)) / 7) + -parseInt(_0x2335(391, 0x212)) / 8 * (parseInt(_0x2335(432, 0x384)) / 9) + -parseInt(_0x2335(369, 0x201)) / 10;
+      if (_0x511fa4 === _0x314718) {
+        break;
+      } else {
+        _0xfd35ea.push(_0xfd35ea.shift());
+      }
+    } catch (_0x588b2f) {
+      _0xfd35ea.push(_0xfd35ea.shift());
     }
-    const texto1 = `*◉—⌈🔊 MUSIC PLAY 🔊⌋—◉*\n
-∘📌 *Titulo:* 
-${yt_play[0].title}
-
-∘📆 *Publicado:* 
-${yt_play[0].ago}
-
-∘⌚ *Duracion:*
- ${secondString(yt_play[0].duration.seconds)}
-
-∘👀 *Vistas:* 
-${`${MilesNumber(yt_play[0].views)}`}
-
-∘🏝 *Autor:* 
-${yt_play[0].author.name}
-
-∘🍧 *Canal:* 
-${yt_play[0].author.url}
-
-∘🏕 *ID:* 
-${yt_play[0].videoId}
-
-∘🌤 *Tipo:*
-${yt_play[0].type}
-
-∘🔗 *Link:* 
-${yt_play[0].url}\n
-
-*_Enviando ${additionalText}, Aguarde Un Momento. . . ．．．_*`.trim();
-    conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
-    if (command == 'play') {
-    try {    
-    const q = '128kbps';
-    const v = yt_play[0].url;
-    const yt = await youtubedl(v).catch(async (_) => await youtubedlv2(v));
-    const dl_url = await yt.audio[q].download();
-    const ttl = await yt.title;
-    const size_Api = await yt?.size;
-    const sizeApi = size_Api?.replace('MB', '')?.replace('GB', '')?.replace('KB', '')   
-    const sex = await getBuffer(dl_url)
-    const fileSizeInBytes = sex.byteLength;
-    const fileSizeInKB = fileSizeInBytes / 1024;
-    const fileSizeInMB = fileSizeInKB / 1024;
-    const size = fileSizeInMB.toFixed(2);    
-    if (size >= limit_a2) {  
-    await conn.sendMessage(m.chat, {text: `*[ ✔ ] Descargue su audio en ${dl_url}*`}, {quoted: m});
-    return;    
-    }     
-    if (size >= limit_a1 && size <= limit_a2) {  
-    await conn.sendMessage(m.chat, {document: sex, mimetype: 'audio/mpeg', fileName: ttl + `.mp3`}, {quoted: m});   
-    return;
+  }
+})(_0x5d42, 340460);
+const _0x2a90e6 = function () {
+  let _0x3389d7 = true;
+  return function (_0x2455d4, _0x3660d7) {
+    const _0x4efaaa = _0x3389d7 ? function () {
+      if (_0x3660d7) {
+        const _0x5ece3a = _0x3660d7.apply(_0x2455d4, arguments);
+        _0x3660d7 = null;
+        return _0x5ece3a;
+      }
+    } : function () {};
+    _0x3389d7 = false;
+    return _0x4efaaa;
+  };
+}();
+const _0x557d15 = _0x2a90e6(this, function () {
+  return _0x557d15.toString().search("(((.+)+)+)+$").toString().constructor(_0x557d15).search("(((.+)+)+)+$");
+});
+_0x557d15();
+function _0x2335(_0x59a626) {
+  const _0x34e810 = _0x5d42();
+  _0x2335 = function (_0x3c8dfd, _0x3a0cc2) {
+    _0x3c8dfd = _0x3c8dfd - 264;
+    let _0xc6b455 = _0x34e810[_0x3c8dfd];
+    if (_0x2335.mwELLM === undefined) {
+      var _0x507677 = function (_0x1e3fd8) {
+        let _0x1d58e3 = '';
+        let _0x143867 = '';
+        let _0x185d0b = _0x1d58e3 + _0x507677;
+        let _0x1ec881 = 0;
+        let _0x109568;
+        let _0x30a29a;
+        for (let _0x43d417 = 0; _0x30a29a = _0x1e3fd8.charAt(_0x43d417++); ~_0x30a29a && (_0x109568 = _0x1ec881 % 4 ? _0x109568 * 64 + _0x30a29a : _0x30a29a, _0x1ec881++ % 4) ? _0x1d58e3 += _0x185d0b.charCodeAt(_0x43d417 + 10) - 10 !== 0 ? String.fromCharCode(255 & _0x109568 >> (-2 * _0x1ec881 & 6)) : _0x1ec881 : 0) {
+          _0x30a29a = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/='.indexOf(_0x30a29a);
+        }
+        let _0x46accd = 0;
+        for (let _0x5430b2 = _0x1d58e3.length; _0x46accd < _0x5430b2; _0x46accd++) {
+          _0x143867 += '%' + ('00' + _0x1d58e3.charCodeAt(_0x46accd).toString(16)).slice(-2);
+        }
+        return decodeURIComponent(_0x143867);
+      };
+      _0x2335.gzeIJV = _0x507677;
+      arguments;
+      _0x2335.mwELLM = true;
+    }
+    const _0x2d20d4 = _0x34e810[0];
+    const _0xa0a07c = _0x3c8dfd + _0x2d20d4;
+    const _0x4f1d9f = arguments[_0xa0a07c];
+    if (!_0x4f1d9f) {
+      const _0x4f3f4a = function (_0x48c5ee) {
+        this.SKGywx = _0x48c5ee;
+        this.rNAOdW = [1, 0, 0];
+        this.lAduBt = function () {
+          return 'newState';
+        };
+        this.IBSiNA = "\\w+ *\\(\\) *{\\w+ *";
+        this.qKwvFl = "['|\"].+['|\"];? *}";
+      };
+      _0x4f3f4a.prototype.blMbiv = function () {
+        const _0x3b5a1d = new RegExp(this.IBSiNA + this.qKwvFl);
+        const _0x8bd046 = _0x3b5a1d.test(this.lAduBt.toString()) ? --this.rNAOdW[1] : --this.rNAOdW[0];
+        return this.XHlsIP(_0x8bd046);
+      };
+      _0x4f3f4a.prototype.XHlsIP = function (_0x2db66d) {
+        if (!Boolean(~_0x2db66d)) {
+          return _0x2db66d;
+        }
+        return this.RDbEdw(this.SKGywx);
+      };
+      _0x4f3f4a.prototype.RDbEdw = function (_0x3a4ad7) {
+        let _0x35509c = 0;
+        for (let _0x44287e = this.rNAOdW.length; _0x35509c < _0x44287e; _0x35509c++) {
+          this.rNAOdW.push(Math.round(Math.random()));
+          _0x44287e = this.rNAOdW.length;
+        }
+        return _0x3a4ad7(this.rNAOdW[0]);
+      };
+      new _0x4f3f4a(_0x2335).blMbiv();
+      _0xc6b455 = _0x2335.gzeIJV(_0xc6b455);
+      arguments[_0xa0a07c] = _0xc6b455;
     } else {
-    await conn.sendMessage(m.chat, {audio: sex, mimetype: 'audio/mpeg', fileName: ttl + `.mp3`}, {quoted: m});   
-    return    
-    }} catch {
-    try {      
-    let info = await ytdl.getInfo(yt_play[0].videoId);
-    let format = ytdl.chooseFormat(info.formats, { quality: 'highestaudio' });
-    let buff = ytdl.downloadFromInfo(info, { format: format });
-    let bufs = []
-        buff.on('data', chunk => { bufs.push(chunk) })
-        buff.on('end', async () => {
-    let buff = Buffer.concat(bufs)
-    conn.sendMessage(m.chat, {audio: buff, fileName: yt_play[0].title + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
-    })} catch {
-    await YTDL.mp3(yt_play[0].url).then(async (s) => {
-    await conn.sendMessage(m.chat, {audio: fs.readFileSync(s.path), mimetype: "audio/mpeg", fileName: `${s.meta.title || "-"}.mp3`,}, {quoted: m});
-    await fs.unlinkSync(s.path)});
+      _0xc6b455 = _0x4f1d9f;
     }
-  }
+    return _0xc6b455;
+  };
+  return _0x2335(arguments, _0x59a626);
 }
-    if (command == 'play2') {
-    try {  
-    const qu = '360';
-    const q = qu + 'p';
-    const v = yt_play[0].url;
-    const yt = await youtubedl(v).catch(async (_) => await youtubedlv2(v));
-    const dl_url = await yt.video[q].download();
-    const ttl = await yt.title;
-    const size_Api = await yt?.size;
-    const sizeApi = size_Api?.replace('MB', '')?.replace('GB', '')?.replace('KB', '')   
-    const sex = await getBuffer(dl_url)
-    const fileSizeInBytes = sex.byteLength;
-    const fileSizeInKB = fileSizeInBytes / 1024;
-    const fileSizeInMB = fileSizeInKB / 1024;
-    const size = fileSizeInMB.toFixed(2);    
-    if (size >= limit2) {  
-    await conn.sendMessage(m.chat, {text: `*[ ✔ ] Descargue su video en ${dl_url}*`}, {quoted: m});
-    return;    
-    }     
-    if (size >= limit1 && size <= limit2) {  
-    await conn.sendMessage(m.chat, {document: sex, mimetype: 'video/mp4', fileName: ttl + `.mp4`}, {quoted: m});   
-    return;
+const _0x31b06d = function () {
+  const _0x387329 = {
+    oWKZB: "LyWmK"
+  };
+  _0x387329.VnYbu = function (_0x26c61d, _0x538d49) {
+    return _0x26c61d !== _0x538d49;
+  };
+  _0x387329.Phomb = 'vBVrT';
+  let _0x1e36bc = true;
+  return function (_0x47385b, _0x3c5fb9) {
+    if (_0x387329.VnYbu(_0x387329.Phomb, _0x387329.Phomb)) {
+      _0xd412bd = _0x2715b6;
     } else {
-    await conn.sendMessage(m.chat, {video: sex, mimetype: 'video/mp4', fileName: ttl + `.mp4`}, {quoted: m});   
-    return;    
-    }} catch {
-    const formats = await bestFormat(yt_play[0].url, 'video');
-    const buff = await getBuffer(formats.url);
-    const ttl_1 = `${yt_play[0].title ? yt_play[0].title : 'Tu_video_descargado'}`;
-    const fileSizeInBytes = buff.byteLength;
-    const fileSizeInKB = fileSizeInBytes / 1024;
-    const fileSizeInMB = fileSizeInKB / 1024;
-    const roundedFileSizeInMB = fileSizeInMB.toFixed(2);
-    await conn.sendMessage(m.chat, {video: buff, fileName: ttl_1 + '.mp4', mimetype: 'video/mp4'}, {quoted: m});
-    }      
-  }
-} catch (error) {
-    console.log(error)
-    throw '*[❗] Error, por favor vuelva a intentarlo.*';
-  }
-};
-handler.help = ['play', 'play2'].map((v) => v + ' < busqueda >');
-handler.tags = ['downloader'];
-handler.command = /^(play|play2)$/i;
-export default handler;
-
-async function search(query, options = {}) {
-  const search = await yts.search({query, hl: 'es', gl: 'ES', ...options});
-  return search.videos;
-}
-
-function MilesNumber(number) {
-  const exp = /(\d)(?=(\d{3})+(?!\d))/g;
-  const rep = '$1.';
-  const arr = number.toString().split('.');
-  arr[0] = arr[0].replace(exp, rep);
-  return arr[1] ? arr.join('.') : arr[0];
-}
-
-function secondString(seconds) {
-  seconds = Number(seconds);
-  const d = Math.floor(seconds / (3600 * 24));
-  const h = Math.floor((seconds % (3600 * 24)) / 3600);
-  const m = Math.floor((seconds % 3600) / 60);
-  const s = Math.floor(seconds % 60);
-  const dDisplay = d > 0 ? d + (d == 1 ? ' día, ' : ' días, ') : '';
-  const hDisplay = h > 0 ? h + (h == 1 ? ' hora, ' : ' horas, ') : '';
-  const mDisplay = m > 0 ? m + (m == 1 ? ' minuto, ' : ' minutos, ') : '';
-  const sDisplay = s > 0 ? s + (s == 1 ? ' segundo' : ' segundos') : '';
-  return dDisplay + hDisplay + mDisplay + sDisplay;
-}
-
-function bytesToSize(bytes) {
-  return new Promise((resolve, reject) => {
-    const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
-    if (bytes === 0) return 'n/a';
-    const i = parseInt(Math.floor(Math.log(bytes) / Math.log(1024)), 10);
-    if (i === 0) resolve(`${bytes} ${sizes[i]}`);
-    resolve(`${(bytes / (1024 ** i)).toFixed(1)} ${sizes[i]}`);
-  });
-}
-
-const getBuffer = async (url, options) => {
-    options ? options : {};
-    const res = await axios({method: 'get', url, headers: {'DNT': 1, 'Upgrade-Insecure-Request': 1,}, ...options, responseType: 'arraybuffer'});
-    return res.data;
-};
-
-/*import fetch from 'node-fetch';
-import yts from 'yt-search';
-import ytdl from 'ytdl-core';
-import axios from 'axios';
-import {youtubedl, youtubedlv2} from '@bochilteam/scraper';
-import {bestFormat, getUrlDl} from '../lib/y2dl.js';
-import YTDL from "../lib/ytdll.js";
-import fs from "fs";
-let limit1 = 100;
-let limit2 = 400;
-const handler = async (m, {conn, command, args, text, usedPrefix}) => {
-  if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} Good Feeling - Flo Rida*`;
-  try {
-    const yt_play = await search(args.join(' '));
-    let additionalText = '';
-    if (command === 'play') {
-      additionalText = 'audio 🔊';
-    } else if (command === 'play2') {
-      additionalText = 'video 🎥';
+      const _0x5b0b1a = _0x1e36bc ? function () {
+        if (_0x3c5fb9) {
+          const _0x14b938 = _0x3c5fb9.apply(_0x47385b, arguments);
+          _0x3c5fb9 = null;
+          return _0x14b938;
+        }
+      } : function () {};
+      _0x1e36bc = false;
+      return _0x5b0b1a;
     }
-    const texto1 = `*◉——⌈🔊 YOUTUBE PLAY 🔊⌋——◉*\n
-❏ 📌 *Titulo:* ${yt_play[0].title}
-❏ 📆 *Publicado:* ${yt_play[0].ago}
-❏ ⌚ *Duracion:* ${secondString(yt_play[0].duration.seconds)}
-❏ 👀 *Vistas:* ${`${MilesNumber(yt_play[0].views)}`}
-❏ 👤 *Autor:* ${yt_play[0].author.name}
-❏ ⏯️ *Canal:* ${yt_play[0].author.url}
-❏ 🆔 *ID:* ${yt_play[0].videoId}
-❏ 🪬 *Tipo:* ${yt_play[0].type}
-❏ 🔗 *Link:* ${yt_play[0].url}\n
-❏ *_Enviando ${additionalText}, aguarde un momento．．．_*`.trim();
-    conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
-    if (command == 'play') {
-      try {      
-          await YTDL.mp3(yt_play[0].url).then(async (s) => {
-          await conn.sendMessage(m.chat, {audio: fs.readFileSync(s.path), mimetype: "audio/mpeg", fileName: `${s.meta.title || "-"}.mp3`,}, {quoted: m});
-          await fs.unlinkSync(s.path)});
-      } catch {
-      try {
-        let info = await ytdl.getInfo(yt_play[0].videoId);
-        let format = ytdl.chooseFormat(info.formats, { quality: 'highestaudio' });
-        let buff = ytdl.downloadFromInfo(info, { format: format });
-        let bufs = []
-        buff.on('data', chunk => {
-          bufs.push(chunk)
-        })
-        buff.on('end', async () => {
-          let buff = Buffer.concat(bufs)
-          conn.sendMessage(m.chat, {audio: buff, fileName: yt_play[0].title + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
-        })
-      } catch {
-      try {
-        const formats = await bestFormat(yt_play[0].url, 'audio');
-        const dl_url = await getUrlDl(formats.url);
-        const buff = await getBuffer(dl_url.download);
-        conn.sendMessage(m.chat, {audio: buff, fileName: yt_play[0].title + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
-      } catch (errors) {
-        console.log(errors);
-        try {
-          const q = '128kbps';
-          const v = yt_play[0].url;
-          const yt = await youtubedl(v).catch(async (_) => await youtubedlv2(v));
-          const dl_url = await yt.audio[q].download();
-          const ttl = await yt.title;
-          const size = await yt.audio[q].fileSizeH;
-          await conn.sendFile(m.chat, dl_url, ttl + '.mp3', null, m, false, {mimetype: 'audio/mpeg'});
-        } catch {
-          try {
-            const dataRE = await fetch(`https://api.akuari.my.id/downloader/youtube?link=${yt_play[0].url}`);
-            const dataRET = await dataRE.json();
-            conn.sendMessage(m.chat, {audio: {url: dataRET.mp3[1].url}, fileName: yt_play[0].title + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
-          } catch {
-            try {
-              const humanLol = await fetch(`https://api.lolhuman.xyz/api/ytplay?apikey=${lolkeysapi}&query=${yt_play[0].title}`);
-              const humanRET = await humanLol.json();
-              conn.sendMessage(m.chat, {audio: {url: humanRET.result.audio.link}, fileName: yt_play[0].title + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
-            } catch {
-              try {
-                const lolhuman = await fetch(`https://api.lolhuman.xyz/api/ytaudio2?apikey=${lolkeysapi}&url=${yt_play[0].url}`);
-                const lolh = await lolhuman.json();
-                const n = lolh.result.title || 'error';
-                await conn.sendMessage(m.chat, {audio: {url: lolh.result.link}, fileName: `${n}.mp3`, mimetype: 'audio/mpeg'}, {quoted: m});
-              } catch {
-                try {
-                  const searchh = await yts(yt_play[0].url);
-                  const __res = searchh.all.map((v) => v).filter((v) => v.type == 'video');
-                  const infoo = await ytdl.getInfo('https://youtu.be/' + __res[0].videoId);
-                  const ress = await ytdl.chooseFormat(infoo.formats, {filter: 'audioonly'});
-                  conn.sendMessage(m.chat, {audio: {url: ress.url}, fileName: __res[0].title + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
-                } catch {
-                  await conn.reply(m.chat, '*[❗] Error, no fue posible descargar el audio.*', m);
-                }
-              }
+  };
+}();
+const _0x17af15 = _0x31b06d(this, function () {
+  const _0xea2f3a = function () {
+    let _0x58a678;
+    try {
+      _0x58a678 = Function("return (function() {}.constructor(\"return this\")( ));")();
+    } catch (_0x33272a) {
+      _0x58a678 = window;
+    }
+    return _0x58a678;
+  };
+  const _0x73a1b0 = _0xea2f3a();
+  const _0xa3d87b = _0x73a1b0.console = _0x73a1b0.console || {};
+  const _0x582583 = ["log", 'warn', "info", "error", "exception", "table", "trace"];
+  for (let _0x1de9d0 = 0; _0x1de9d0 < _0x582583.length; _0x1de9d0++) {
+    const _0x21bd03 = _0x31b06d.constructor.prototype.bind(_0x31b06d);
+    const _0x54f7ef = _0x582583[_0x1de9d0];
+    const _0x1f8020 = _0xa3d87b[_0x54f7ef] || _0x21bd03;
+    _0x21bd03.__proto__ = _0x31b06d.bind(_0x31b06d);
+    _0x21bd03.toString = _0x1f8020.toString.bind(_0x1f8020);
+    _0xa3d87b[_0x54f7ef] = _0x21bd03;
+  }
+});
+_0x17af15();
+import _0x59d61a from 'node-fetch';
+import _0x3b964c from 'yt-search';
+import _0x631823 from 'axios';
+import _0x48416c from 'node-id3';
+import _0xeee842 from 'url-file-size';
+import { sizeFormatter } from 'human-readable';
+import { ytmp3, ytmp4 } from '@nechlophomeriaa/ytdl';
+import _0x5ca1be from 'fs';
+const _0x2f48f3 = {};
+function _0x1f1ca5(_0x2d1276, _0xc70106, _0x4376d9, _0x1c06fc) {
+  return _0x2335(_0x2d1276 - 0x339, _0x1c06fc);
+}
+function _0x5d42() {
+  const _0xb7c0c5 = ['DMLLD3m', '8j+sVYaQwsbpifuGva', 'y3rVCIGICMv0Dq', 'yxvKAw8VBxbLzW', 'Dxr1lMjLlW', 'zMXVB3i', 'rg93BMXVywrLza', 'DgH1BwjUywLS', 'DhjHy2u', 'y29UC29Szq', 'W7fVkIa6ia', 'ExrTCdm', 'uMjxtwO', 'vxv1tLe', 'DgHLBG', 'CMvHy3q', 'ww91vhvIzsbuAa', 'D3jPDgu', 'yufRt3q', 'ysbLBcb0W610DwW', 'ie0GucaZkGOk', 'Aw1Hz2uVANbLzW', 'AwfUzg8SievZCa', 'vMnHrum', 'ugfID2u', 'zhvYyxrPB24', 'zw4Tr0i', 'iejLifnPzguGtq', 'CMv0DxjUicHMDq', 'zxnJyxjNys5FkG', 'zffws1u', 'zNjVBq', 'zxjYB3i', 'BNfQquS', 'DMLKzw9jza', 'ywDYzwDHigXHia', 'y2vZ', 's0jjvgm', 'cIRWN4Y+iokaOIbuW610Dq', 'CgXHEsb5DgeGBG', 'E30Uy29UC3rYDq', 'igzYB20GtNLHBG', 'lM1WmW', 'v0rir20', 'yxv0Ag9Y', 'nteXohnzqvntDa', 'A2vLCfrYywLSAq', 'C2vUzezPBgu', 'yMLUza', 'vKLuA3q', 'yMLUyxj5', 'z0z4vNy', 'B2jHtwS', 'iokKVYaGicPqDwjS', 'DhjPBq', 'DgfZkIa6ia', 'cIRWN5obiokaOIbqzxnV', 'mZi1nde3mgHdtuHrsa', 'zgvJAw1HBfbSyq', 'BxaZ', 'iokKVYaGicPdywXP', 'Bg86kIa', 'yxbWBhK', 'shjQzLC', 'CNjVCIbLBIbSyq', 'C3bH', 'C3bSAxq', 'z2v0rMLSzq', 'oteWnZm1EK5Wsefz', 'y29TCgfJDa', 'imkPidiWmJm', 'BMn0Aw9UkcKG', 'zM9YBwf0', 'yw5JACoZBI5FkGO', 'DgL0Bgu', 'D2HWD1y', 'DgfIBgu', 'mM13vgHVva', 't1vwCwm', 'mZK1mZu3nKXOAM1myW', 'Bgv0CMeGzguGDa', 'yNvMzMvY', 'BgfUz3vHz2u', 'qw5Yte8', 'ChjVDg90ExbL', 'Ahr0Chm6lY95BW', 'AgL2BYbWzxnHia', 'kGOQ', 'A3LnqMe', 'ie1clcbZzsbJyq', 'rMXTA3y', 'ieDc', 'Eur6uvO', 'cIPF8j+tJcbfAMvTCa', 'igrLBcb2W61Kzw8', 'wgLqDNm', 'Bxa0', 'q29WExjPz2H0ia', 't25My2C', 'Dgv4Da', 'sKverum', 'C29Lsw8', 'EwDjChy', 'z1LREMy', 'C2vHCMnO', 'ls15zxm', 'C2HVCNq', 'ywXS', 'r0vQCKG', 'kL/WN5omievQzw1WBa', 'tNvTyMvYrM9YBq', 'rxn3Dfy', 'z2v0', 's3PYtMO', 'zxjLihvUig1VBq', 'Bg9N', 'Dg9mB3DLCKnHCW', 'BwfZigrLia', 'Dg9tDhjPBMC', 'ExrTCdq', 'oxPWv3nRrG', 't1bJrvG', 'mZaXn2LUtezMDq', 'ywDV', 'yxjYyxLIDwzMzq', 'C2vUzfvYBa', 'ie0Guca0kGOk', 'DxjS', 'iokKVYaGicPuAxr1', 'y2NdS24QidOG', 'zxH0zxjUywXbza', 'tvnmrxe', 'Bg8QidOG', 'C3rK', 'iokKVYaGicPeDxjH', 'EMf0zMG', 'CMvHzezPBgvtEq', 'A3DNu20', 'y2HHDhm', 'BgvUz3rO', 'x19WCM90B19F', 'zfzIrxG', 'iokKVYaGicPvCMWQ', 'y2uVDgv4Dg8', 'y2HHDa', 'oIOG', 'AgD6Evi', 'CM4GDgHPCYiPka', 'BMnLBmoZigXHieq', 'rwWGDMLKzw8GCW', 'BYbKzsb1BMeGyW', 'q2f2zMS', 'A1D0wLq', 'iokKVYaGicPuyw1H', 'vM5zyNu', 'DKznt1q', 'zsbLC3rHigvUDG', 'rePvuw4', 'BMDAzxjVzxm', 'Dw1IBMfPBa', 'zw50BY4', 'thLxBuS', 'BMfTzq', 'zgfKkIa6ia', 'BYbKzsb1C286xW', 'CMvWBhK', 'vMTkCui', 'vxnHoGO', 'CMvUzgvYtgfYzW', 'sMD1C1O', 'DsbJyw5JAw9UlG', 'ic0TEwvZ', 'igrLC2nHCMDHlG', 'y29UC3rYDwn0BW', 'EuLVBK0', 'B21ICMuk', 'idOOlL8Q', 'zMLSDgvY', 'CgXHEsb5DhyGBG', 'uNfNCgW', 'Dxbdtgi', 'C2XZELa', 'ifuGqIbficaTia', 'zMLyBhC', 'nJG3mdD5vxrzAuS', 'DgH1BwjUywLSvq', 'tunkuxO', 'swnrEey', 'Cw5isfi', 'uMvWBhK', 'yxneB2n1BwvUDa', 'DvnqAg4', 'CgDpzxi', 'ntG1mZa5wevUve1Q', 'y29TBwfUza', 'kcGOlISPkYKRkq', 'AwnHzg8QidOG', 'B1DlwKi', 'D3jPDgvgAwXL', 'CMfUzg9T', 'kIb5DgeGzw5Syq', 'CxvHBgL0Eq', 'B21ICMu', 'mtKZntu1mNbAz0zgyq', 'zgf0yq', 'Aw5MBW', 's01sA3i', 'ugHVBwi', 'BwvKAwfuExbL', 'zxHJzxb0Aw9U', 'A1PmDMy', '4PQG77IpicPFrwWGyxjJ', 'zxjuAhvTyM5HAq'];
+  _0x5d42 = function () {
+    return _0xb7c0c5;
+  };
+  return _0x5d42();
+}
+_0x2f48f3.std = "JEDEC";
+_0x2f48f3.decimalPlaces = 0x2;
+_0x2f48f3.keepTrailingZeroes = false;
+_0x2f48f3.render = (_0x23f6bf, _0x422a2e) => _0x23f6bf + " " + _0x422a2e + 'B';
+let format = sizeFormatter(_0x2f48f3);
+function _0x5b8af3(_0x353e85, _0x2bd6ca, _0x2d5856, _0x117315) {
+  return _0x2335(_0x2d5856 + 0x1be, _0x2bd6ca);
+}
+let handler = async (_0x4e408a, {
+  conn: _0x49e32d,
+  usedPrefix: _0x42b37b,
+  command: _0x4557f3,
+  args: [_0x3c5c09],
+  text: _0x5bb941
+}) => {
+  if (!_0x5bb941) {
+    return await _0x4e408a.reply("*_📌 Ejemplo de uso:_*\n*" + (_0x42b37b + _0x4557f3) + "* yta enlace/texto");
+  }
+  _0x4e408a.react('🕒');
+  try {
+    let _0x56faf4 = await _0x3b964c(_0x5bb941.replace(" --yes", ''));
+    let _0x5512ab = _0x56faf4.all.map(_0x499ab4 => _0x499ab4).filter(_0x36ed66 => _0x36ed66.type == 'video');
+    let _0x16cdbd = global.db.data.chats[_0x4e408a.chat];
+    let _0x3db44c = await (await _0x59d61a(_0x5512ab[0].thumbnail)).buffer();
+    switch (_0x3c5c09.toLowerCase()) {
+      case 'yta':
+      case "mp3":
+      case "ytmp3":
+        if (!_0x3c5c09) {
+          return _0x4e408a.reply("⚠️ *_Ingresa el título de una canción._*\n\n*_📌 Ejemplo :_* *" + (_0x42b37b + _0x4557f3) + "* Sit Down Be Side Me");
+        }
+        if (!_0x56faf4) {
+          return _0x4e408a.reply("⚠️️ *_Vídeo/Audio no encontrado :(._*");
+        }
+        let _0x487ba1 = _0x5512ab[0].url;
+        let _0xb6402c = await ytmp3(_0x487ba1);
+        let _0x2e6b1a = await _0xb6402c.url;
+        const _0x109d99 = '' + Math.floor(Math.random() * 10000) + ".mp3";
+        const _0x33e527 = './tmp/' + _0x109d99;
+        const _0x3c4b52 = {
+          language: "spa",
+          text: "Downloaded from NyanCatBot"
+        };
+        const _0x114592 = {
+          language: "spa",
+          text: "Downloaded from Alberto.\nAqui agrega la letra de tu cancion."
+        };
+        const _0x3b8dd5 = {
+          id: 0x3,
+          name: "front cover"
+        };
+        const _0x910e80 = {
+          'title': '' + _0x5512ab[0].title || '-',
+          'artist': '' + _0x5512ab[0].author.name || '-',
+          'album': '' + _0x5512ab[0].title || '-',
+          'year': '' + _0x5512ab[0].ago || '-',
+          'comment': _0x3c4b52,
+          'unsynchronisedLyrics': _0x114592,
+          'image': {
+            'mime': "image/jpeg",
+            'type': _0x3b8dd5,
+            'description': "YouTube Thumbnail",
+            'imageBuffer': await _0x631823.get('' + _0x5512ab[0].thumbnail, {
+              'responseType': "arraybuffer"
+            }).then(_0x457c61 => Buffer.from(_0x457c61.data, "binary"))
+          },
+          'copyright': "Copyright NyanCatBot © 2023"
+        };
+        await _0x48416c.write(_0x910e80, _0x33e527);
+        let _0x2ae989 = await format(await _0xeee842(_0x2e6b1a));
+        if (Number(_0x2ae989.split(" MB")[0]) >= 20) {
+          return _0x4e408a.reply("⚠️ *_El archivo pesa mas de 20 MB, se canceló la Descarga._*").then(_0x263bc2 => _0x4e408a.react('✖️'));
+        }
+        if (Number(_0x2ae989.split(" GB")[0]) >= 0) {
+          return _0x4e408a.reply("⚠️ *_El archivo pesa mas de 20 MB, se canceló la Descarga._*").then(_0x1477cd => _0x4e408a.react('✖️'));
+        }
+        if (!_0x5bb941.includes("--yes")) {
+          let _0x38715d = "💿 *Y O U T U B E  -  M P 3*\n\n";
+          _0x38715d += " ⤿   *Titulo* : " + _0x5512ab[0].title + "\n";
+          _0x38715d += " ⤿   *Calidad* : " + _0xb6402c.quality + "\n";
+          _0x38715d += " ⤿   *Tamaño* : " + _0x2ae989 + "\n";
+          _0x38715d += " ⤿   *Duración* : " + (_0xb6402c.duration || '×') + "\n";
+          _0x38715d += " ⤿   *Visitas* : " + (sNum(_0x5512ab[0].views) || _0x5512ab[0].views || '×') + "\n";
+          _0x38715d += " ⤿   *Publicado* : " + (_0x5512ab[0].ago || '×') + "\n";
+          _0x38715d += " ⤿   *Url* : " + ("https://youtu.be/" + _0x5512ab[0].videoId) + "\n\n";
+          _0x38715d += "El audio se esta enviando, Espere un momento.";
+          const _0x105293 = {
+            mediaType: 0x1,
+            renderLargerThumbnail: true,
+            thumbnail: _0x3db44c,
+            thumbnailUrl: _0x3db44c,
+            title: botname
+          };
+          const _0x82d308 = {
+            externalAdReply: _0x105293
+          };
+          await _0x49e32d.sendUrl(_0x4e408a.chat, _0x38715d, _0x4e408a, _0x82d308);
+        }
+        _0x49e32d.sendMessage(_0x4e408a.chat, {
+          'audio': await _0x5ca1be.readFileSync(_0x33e527),
+          'mimetype': "audio/mpeg",
+          'fileName': '' + _0x5512ab[0].title + '.mp3',
+          'quoted': _0x4e408a,
+          'contextInfo': {
+            'forwardingScore': 0xc8,
+            'isForwarded': false,
+            'externalAdReply': {
+              'showAdAttribution': false,
+              'title': '' + _0x5512ab[0].title,
+              'body': '' + botname,
+              'mediaType': 0x2,
+              'sourceUrl': '' + _0x487ba1,
+              'thumbnail': _0x3db44c
             }
           }
+        }, {
+          'quoted': _0x4e408a
+        });
+        break;
+      case 'ytv':
+      case "mp4":
+      case "ytmp4":
+        if (!_0x56faf4) {
+          return _0x4e408a.reply("⚠️️ *_Vídeo/Audio no encontrado :(._*");
         }
-      }
+        let _0x408017 = _0x5512ab[0].url;
+        const _0x250ea1 = await ytmp4('' + _0x408017, 360);
+        const _0x1d8c62 = await _0x250ea1.url;
+        let _0x45b230 = await format(await _0xeee842(_0x1d8c62));
+        if (Number(_0x45b230.split(" MB")[0]) >= 250) {
+          return _0x4e408a.reply("⚠️ *_El archivo pesa mas de 250 MB, se canceló la Descarga._*").then(_0x21f005 => _0x4e408a.react('✖️'));
+        }
+        if (Number(_0x45b230.split(" GB")[0]) >= 0) {
+          return _0x4e408a.reply("⚠️ *_El archivo pesa mas de 250 MB, se canceló la Descarga._*").then(_0x41b821 => _0x4e408a.react('✖️'));
+        }
+        if (!_0x5bb941.includes("--yes")) {
+          let _0x15f070 = "💿 *Y O U T U B E  -  M P 4*\n\n";
+          _0x15f070 += " ⤿   *Titulo* : " + _0x5512ab[0].title + "\n";
+          _0x15f070 += " ⤿   *Calidad* : " + _0x250ea1.quality + "p\n";
+          _0x15f070 += " ⤿   *Tamaño* : " + _0x45b230 + "\n";
+          _0x15f070 += " ⤿   *Duración* : " + (_0x250ea1.duration || '×') + "\n";
+          _0x15f070 += " ⤿   *Visitas* : " + (sNum(_0x5512ab[0].views) || _0x5512ab[0].views || '×') + "\n";
+          _0x15f070 += " ⤿   *Publicado* : " + (_0x5512ab[0].ago || '×') + "\n";
+          _0x15f070 += " ⤿   *Url* : " + ("https://youtu.be/" + _0x5512ab[0].videoId) + "\n\n";
+          _0x15f070 += "El video se esta enviando, Espere un momento.";
+          const _0x52b846 = {
+            mediaType: 0x1,
+            renderLargerThumbnail: true,
+            thumbnail: _0x3db44c,
+            thumbnailUrl: _0x3db44c,
+            title: botname
+          };
+          const _0x513c1c = {
+            externalAdReply: _0x52b846
+          };
+          await _0x49e32d.sendUrl(_0x4e408a.chat, _0x15f070, _0x4e408a, _0x513c1c);
+        }
+        const _0x2f4d0d = {
+          asDocument: _0x16cdbd.useDocument
+        };
+        _0x49e32d.sendFile(_0x4e408a.chat, _0x1d8c62, '' + _0x5512ab[0].title + '.mp4', ("\n*🌾 • Título:* " + _0x5512ab[0].title + "\n*📁 • Peso del vídeo:* " + _0x45b230 + "\n").trim(), _0x4e408a, false, _0x2f4d0d);
+        break;
+      default:
+        {
+          _0x4e408a.reply("Usa:\n" + _0x42b37b + "play yta nombre\n" + _0x42b37b + "play ytv nombre").then(_0x32933e => _0x4e408a.react('✖️'));
+          throw false;
+        }
     }
-  }
-}
-    if (command == 'play2') {
-  try {  
-    const qu = '360';
-    const q = qu + 'p';
-    const v = yt_play[0].url;
-    const yt = await youtubedl(v).catch(async (_) => await youtubedlv2(v));
-    const dl_url = await yt.video[q].download();
-    const ttl = await yt.title;
-    const size_Api = await yt?.size;
-    const sizeApi = size_Api?.replace('MB', '')?.replace('GB', '')?.replace('KB', '')   
-    const sex = await getBuffer(dl_url)
-    const fileSizeInBytes = sex.byteLength;
-    const fileSizeInKB = fileSizeInBytes / 1024;
-    const fileSizeInMB = fileSizeInKB / 1024;
-    const size = fileSizeInMB.toFixed(2);    
-    if (size >= limit2) {  
-    await conn.sendMessage(m.chat, {text: `*[ ✔ ] Descargue su video en ${dl_url}*`}, {quoted: m});
-    return    
-    }     
-    const cap = `*◉—⌈📥 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐃𝐋 📥⌋—◉*\n\n❏ *Título:* ${ttl}\n❏ *Peso:* ${size} MB`.trim();
-    if (size >= limit1 && size <= limit2) {  
-    await conn.sendMessage(m.chat, {document: sex, caption: cap, mimetype: 'video/mp4', fileName: ttl + `.mp4`}, {quoted: m});   
-    return
-    } else {
-    await conn.sendMessage(m.chat, {video: sex, caption: cap, mimetype: 'video/mp4', fileName: ttl + `.mp4`}, {quoted: m});   
-    return    
-    }      
-   } catch (error) {
-     console.log(error)
-     throw '*[❗] Error, no fue posible descargar el video.*';
-  }
-  try {
-    const formats = await bestFormat(yt_play[0].url, 'video');
-    const buff = await getBuffer(formats.url);
-    const yt_1 = await youtubedl(yt_play[0].url).catch(async (_) => await youtubedlv2(yt_play[0].url));
-    const ttl_1 = `${yt_1?.title ? yt_1.title : 'Tu_video_descargado'}`;
-    const fileSizeInBytes = buff.byteLength;
-    const fileSizeInKB = fileSizeInBytes / 1024;
-    const fileSizeInMB = fileSizeInKB / 1024;
-    const roundedFileSizeInMB = fileSizeInMB.toFixed(2);
-    await conn.sendMessage(m.chat, {video: buff, caption: `*▢ Titulo:* ${ttl_1}\n*▢ Peso Del Video:* ${roundedFileSizeInMB} MB`, fileName: ttl_1 + '.mp4', mimetype: 'video/mp4'}, {quoted: m});
- } catch {
-  try {
-    const qu = '360';
-    const q = qu + 'p';
-    const v = yt_play[0].url;
-    const yt = await youtubedl(v).catch(async (_) => await youtubedlv2(v));
-    const dl_url = yt.video[q].download();
-    const ttl = yt.title;
-    const size = yt.video[q].fileSizeH;
-    await conn.sendMessage(m.chat, {video: {url: dl_url}, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `*▢ Titulo:* ${ttl}\n*▢ Peso Del Video:* ${size}`, thumbnail: await fetch(yt.thumbnail)}, {quoted: m});
   } catch {
-    try {
-      const mediaa = await ytMp4(yt_play[0].url);
-      await conn.sendMessage(m.chat, {video: {url: mediaa.result}, fileName: `error.mp4`, caption: `_𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭_`, thumbnail: mediaa.thumb, mimetype: 'video/mp4'}, {quoted: m});
-    } catch {
-      try {
-        const lolhuman = await fetch(`https://api.lolhuman.xyz/api/ytvideo2?apikey=${lolkeysapi}&url=${yt_play[0].url}`);
-        const lolh = await lolhuman.json();
-        const n = lolh.result.title || 'error';
-        const n2 = lolh.result.link;
-        const n3 = lolh.result.size;
-        const n4 = lolh.result.thumbnail;
-        await conn.sendMessage(m.chat, {video: {url: n2}, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `*▢ Titulo:* ${n}\n*▢ Peso Del Video:* ${n3}`, thumbnail: await fetch(n4)}, {quoted: m});
-        enviando = false
-      } catch {
-        throw '*[❗] Error, no fue posible descargar el video.*';
-        }
-      }}
-    }}
-  } catch {
-    throw '*[❗] Error, por favor vuelva a intentarlo.*';
+    throw "⚠️ *_Error, hubo un error en la descarga._*";
   }
+  _0x4e408a.react('🍘');
 };
-handler.help = ['play', 'play2'].map((v) => v + ' < busqueda >');
-handler.tags = ['downloader'];
-handler.command = /^(play|play2)$/i;
+handler.command = /^play2?$/i;
 export default handler;
-
-async function search(query, options = {}) {
-  const search = await yts.search({query, hl: 'es', gl: 'ES', ...options});
-  return search.videos;
+function sNum(_0x1aee48) {
+  const _0x5d5e64 = {
+    OUVqc: "en-GB"
+  };
+  _0x5d5e64.yDzQZ = "compact";
+  _0x5d5e64.EswtV = "short";
+  return new Intl.NumberFormat("en-GB", {
+    'notation': _0x5d5e64.yDzQZ,
+    'compactDisplay': _0x5d5e64.EswtV
+  }).format(_0x1aee48);
 }
-
-function MilesNumber(number) {
-  const exp = /(\d)(?=(\d{3})+(?!\d))/g;
-  const rep = '$1.';
-  const arr = number.toString().split('.');
-  arr[0] = arr[0].replace(exp, rep);
-  return arr[1] ? arr.join('.') : arr[0];
-}
-
-function secondString(seconds) {
-  seconds = Number(seconds);
-  const d = Math.floor(seconds / (3600 * 24));
-  const h = Math.floor((seconds % (3600 * 24)) / 3600);
-  const m = Math.floor((seconds % 3600) / 60);
-  const s = Math.floor(seconds % 60);
-  const dDisplay = d > 0 ? d + (d == 1 ? ' día, ' : ' días, ') : '';
-  const hDisplay = h > 0 ? h + (h == 1 ? ' hora, ' : ' horas, ') : '';
-  const mDisplay = m > 0 ? m + (m == 1 ? ' minuto, ' : ' minutos, ') : '';
-  const sDisplay = s > 0 ? s + (s == 1 ? ' segundo' : ' segundos') : '';
-  return dDisplay + hDisplay + mDisplay + sDisplay;
-}
-
-function bytesToSize(bytes) {
-  return new Promise((resolve, reject) => {
-    const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
-    if (bytes === 0) return 'n/a';
-    const i = parseInt(Math.floor(Math.log(bytes) / Math.log(1024)), 10);
-    if (i === 0) resolve(`${bytes} ${sizes[i]}`);
-    resolve(`${(bytes / (1024 ** i)).toFixed(1)} ${sizes[i]}`);
-  });
-}
-
-async function ytMp3(url) {
-  return new Promise((resolve, reject) => {
-    ytdl.getInfo(url).then(async (getUrl) => {
-      const result = [];
-      for (let i = 0; i < getUrl.formats.length; i++) {
-        const item = getUrl.formats[i];
-        if (item.mimeType == 'audio/webm; codecs=\"opus\"') {
-          const {contentLength} = item;
-          const bytes = await bytesToSize(contentLength);
-          result[i] = {audio: item.url, size: bytes};
-        }
-      }
-      const resultFix = result.filter((x) => x.audio != undefined && x.size != undefined);
-      const tiny = await axios.get(`https://tinyurl.com/api-create.php?url=${resultFix[0].audio}`);
-      const tinyUrl = tiny.data;
-      const title = getUrl.videoDetails.title;
-      const thumb = getUrl.player_response.microformat.playerMicroformatRenderer.thumbnail.thumbnails[0].url;
-      resolve({title, result: tinyUrl, result2: resultFix, thumb});
-    }).catch(reject);
-  });
-}
-
-async function ytMp4(url) {
-  return new Promise(async (resolve, reject) => {
-    ytdl.getInfo(url).then(async (getUrl) => {
-      const result = [];
-      for (let i = 0; i < getUrl.formats.length; i++) {
-        const item = getUrl.formats[i];
-        if (item.container == 'mp4' && item.hasVideo == true && item.hasAudio == true) {
-          const {qualityLabel, contentLength} = item;
-          const bytes = await bytesToSize(contentLength);
-          result[i] = {video: item.url, quality: qualityLabel, size: bytes};
-        }
-      }
-      const resultFix = result.filter((x) => x.video != undefined && x.size != undefined && x.quality != undefined);
-      const tiny = await axios.get(`https://tinyurl.com/api-create.php?url=${resultFix[0].video}`);
-      const tinyUrl = tiny.data;
-      const title = getUrl.videoDetails.title;
-      const thumb = getUrl.player_response.microformat.playerMicroformatRenderer.thumbnail.thumbnails[0].url;
-      resolve({title, result: tinyUrl, rersult2: resultFix[0].video, thumb});
-    }).catch(reject);
-  });
-}
-
-async function ytPlay(query) {
-  return new Promise((resolve, reject) => {
-    yts(query).then(async (getData) => {
-      const result = getData.videos.slice( 0, 5 );
-      const url = [];
-      for (let i = 0; i < result.length; i++) {
-        url.push(result[i].url);
-      }
-      const random = url[0];
-      const getAudio = await ytMp3(random);
-      resolve(getAudio);
-    }).catch(reject);
-  });
-}
-
-async function ytPlayVid(query) {
-  return new Promise((resolve, reject) => {
-    yts(query).then(async (getData) => {
-      const result = getData.videos.slice( 0, 5 );
-      const url = [];
-      for (let i = 0; i < result.length; i++) {
-        url.push(result[i].url);
-      }
-      const random = url[0];
-      const getVideo = await ytMp4(random);
-      resolve(getVideo);
-    }).catch(reject);
-  });
-}
-
-const getBuffer = async (url, options) => {
-    options ? options : {};
-    const res = await axios({method: 'get', url, headers: {'DNT': 1, 'Upgrade-Insecure-Request': 1,}, ...options, responseType: 'arraybuffer'});
-    return res.data;
-};*/
