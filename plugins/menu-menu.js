@@ -81,7 +81,7 @@ ${readMore}
 ║╰═══════❮ꨄ︎ꨄ︎❯════════╯
 ╰════════❮❦🌴❦❯═══════❯
 
-╭══❮❦BOT OFICIAL/SUBBOT❦❯══❯
+╭═══❮❦BOT OFICIAL ?❦❯════❯
 ║╭═══════❮ꨄ︎ꨄ︎❯════════╮
 ║┃𝑩𝒐𝒕 𝑶𝒇𝒊𝒄𝒊𝒂𝒍: ${(conn.user.jid == global.conn.user.jid ? '' : `https://wa.me/${global.conn.user.jid.split`@`[0]}`) || 'ᴇsᴛᴇ ᴇs ᴇʟ ʙᴏᴛ ᴏғɪᴄɪᴀʟ'}
 ║╰═══════❮ꨄ︎ꨄ︎❯════════╯
