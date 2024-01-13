@@ -84,7 +84,6 @@ ${readMore}
 
 ╭════❮❦SER SUBBOT❦❯════❯
 ║╭═══════❮ꨄ︎ꨄ︎❯════════╮
-║┃💻 _${usedPrefix}serbot --code_
 ║┃💻 _${usedPrefix}serbot_
 ║┃💻 _${usedPrefix}deletebot_
 ║┃💻 _${usedPrefix}token_
