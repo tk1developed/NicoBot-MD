@@ -55,7 +55,6 @@ ${readMore}
 ╭════❮❦SOLUCIONES❦❯════❯
 ║╭═══════❮ꨄ︎ꨄ︎❯════════╮
 ║┃ꨄ︎ Mensajes en espera
- 🔋𝗕𝗮𝘁𝗲𝗿𝗶𝗮: *${conn.battery ? `${conn.battery.value}%* *${conn.battery.live ? '🔌 Cargando...*' : '⚡ Desconectado*'}` : 'Desconocido*'}
 ║┃↻ _${usedPrefix}fixmsgespera_
 ║┃ꨄ︎ Mensajes en espera (owner)
 ║┃↺ _${usedPrefix}dsowner_
