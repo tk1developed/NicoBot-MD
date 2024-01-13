@@ -36,7 +36,6 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ║┃ *💻Usuarios Regs:* ${rtotalreg}
 ║┃ *🗃Usuarios Totales:* ${rtotal}
 ║┃ *📅Fecha:* ${date} 
-*📅 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}*
 
 *🕰️ 𝙷𝙾𝚁𝙰: ${time}*
 ║╰═══════❮ꨄ︎ꨄ︎❯════════╯
