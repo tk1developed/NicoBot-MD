@@ -31,6 +31,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ║┃ *🧑‍💻Dueño Del Bot:* Diego       
 ║┃ *👤Cliente:* ${taguser}
 ║┃ *🧭Bot:* ${packname}
+║┃ 🔋𝗕𝗮𝘁𝗲𝗿𝗶𝗮: *${conn.battery ? `${conn.battery.value}%* *${conn.battery.live ? '🔌 Cargando...*' : '⚡ Desconectado*'}` : 'Desconocido*'}
 ║┃ *⚕️Prefijo Usado:* ${usedPrefix}
 ║┃ *⏰️Tiempo Activo:* ${uptime}
 ║┃ *💻Usuarios Regs:* ${rtotalreg}
