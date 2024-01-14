@@ -38,7 +38,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃⍣ *📅Fecha:* ${date} 
 ╰━━━━━━━━━⋄
 
-┏━━⊜ *INFO USER* ━⊜ 
+┏━━━✦❘༻INFO USER༺❘✦━━━┓ 
 ┃⍣ *😼 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
 ┃⍣ *🎖Nivel:* ${level}
 ┃⍣ *🧰Exp⍣eriencia:* ${exp}
@@ -49,7 +49,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃⍣ *🎟Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ╰━━━━━━━━━⋄
 ${readMore}
-┏━━⊜ *SOLUCIONES* ━⊜
+┏━━━✦❘༻SOLUCIONES༺❘✦━━━┓
 ┃⍣ 🧭 Mensajes en espera
 ┃⍣ 🧭 _${usedPrefix}fixmsgespera_
 ┃⍣ 🧭 Mensajes en espera (owner)
