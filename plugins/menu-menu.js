@@ -29,7 +29,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
 ┃⍣ *🧑‍💻Dueño Del Bot:* Diego       
 ┃⍣ *👤Cliente:* ${taguser}
-┃⍣ *🪁Subbot De:*
+┃⍣ *🪁Subbot De:* ${(conn.user.jid == global.conn.user.jid ? '' : `@https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*No Es Subbot*'}
 ┃⍣ *🧭Bot:* ${packname}
 ┃⍣ *🔋Bateria: ${conn.battery ? `${conn.battery.value}% ${conn.battery.live ? '🔌 Cargando...' : '⚡ Desconectado'}` : 'Desconocido'}*
 ┃⍣ *⚕️Prefijo Usado:* ${usedPrefix}
