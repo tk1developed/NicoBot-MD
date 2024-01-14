@@ -50,10 +50,10 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ╰━━━━━━━━━⋄
 ${readMore}
 ┏━━⊜ *SOLUCIONES* ━⊜
-┃⍣ꨄ︎ Mensajes en espera
-┃⍣↻ _${usedPrefix}fixmsgespera_
-┃⍣ꨄ︎ Mensajes en espera (owner)
-┃⍣↺ _${usedPrefix}dsowner_
+┃⍣🧭 Mensajes en espera
+┃⍣🧭 _${usedPrefix}fixmsgespera_
+┃⍣🧭 Mensajes en espera (owner)
+┃⍣🧭 _${usedPrefix}dsowner_
 ╰━━━━━━━━━⋄
 
 ┏━━⊜ *INFO BOT* ━⊜
@@ -133,11 +133,9 @@ ${readMore}
 ┃⍣🌹 _${usedPrefix}pista_
 ┃⍣🌹 _${usedPrefix}akinator_
 ┃⍣🌹 _${usedPrefix}wordfind_
-║╰═══════❮ꨄ︎ꨄ︎❯════════╯
-╰════════❮❦🌴❦❯═══════❯
+╰━━━━━━━━━⋄
 
-╭═════❮❦ON/OFF❦❯═══════❯
-║╭═══════❮ꨄ︎ꨄ︎❯════════╮
+┏━━⊜ *ON/OFF* ━⊜
 ║┃✨️ _${usedPrefix}enable *welcome*_
 ║┃✨️ _${usedPrefix}disable *welcome*_
 ║┃✨️ _${usedPrefix}enable *modohorny*_
