@@ -81,89 +81,88 @@ ${readMore}
 ╰━━━━━━━━━⋄
 
 ┏━━⊜ *HERRAMIENTAS* ━⊜
-┃⍣🛠 _${usedPrefix}enable restrict_
-┃⍣🛠 _${usedPrefix}disable restrict_
-┃⍣🛠 _${usedPrefix}enable autoread_
-┃⍣🛠 _${usedPrefix}disable autoread_
-┃⍣🛠 _${usedPrefix}enable antispam_
-┃⍣🛠 _${usedPrefix}disable antispam_
-┃⍣🛠 _${usedPrefix}enable anticall_
-┃⍣🛠 _${usedPrefix}disable anticall_
-┃⍣🛠 _${usedPrefix}enable modoia_
-┃⍣🛠 _${usedPrefix}disable modoia_
-┃⍣🛠 _${usedPrefix}enable audios_bot_
-┃⍣🛠 _${usedPrefix}disable audios_bot_
-┃⍣🛠 _${usedPrefix}enable antiprivado_
-┃⍣🛠 _${usedPrefix}disable antiprivado_
+┃⍣ 🛠 _${usedPrefix}enable restrict_
+┃⍣ 🛠 _${usedPrefix}disable restrict_
+┃⍣ 🛠 _${usedPrefix}enable autoread_
+┃⍣ 🛠 _${usedPrefix}disable autoread_
+┃⍣ 🛠 _${usedPrefix}enable antispam_
+┃⍣ 🛠 _${usedPrefix}disable antispam_
+┃⍣ 🛠 _${usedPrefix}enable anticall_
+┃⍣ 🛠 _${usedPrefix}disable anticall_
+┃⍣ 🛠 _${usedPrefix}enable modoia_
+┃⍣ 🛠 _${usedPrefix}disable modoia_
+┃⍣ 🛠 _${usedPrefix}enable audios_bot_
+┃⍣ 🛠 _${usedPrefix}disable audios_bot_
+┃⍣ 🛠 _${usedPrefix}enable antiprivado_
+┃⍣ 🛠 _${usedPrefix}disable antiprivado_
 ╰━━━━━━━━━⋄
 
 ┏━━⊜ *DIVERSIONES* ━⊜
-┃⍣🌹 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
-┃⍣🌹 _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
-┃⍣🌹 _${usedPrefix}ppt *<papel / tijera /piedra>*_
-┃⍣🌹 _${usedPrefix}prostituto *<nombre / @tag>*_
-┃⍣🌹 _${usedPrefix}prostituta *<nombre / @tag>*_
-┃⍣🌹 _${usedPrefix}gay2 *<nombre / @tag>*_
-┃⍣🌹 _${usedPrefix}lesbiana *<nombre / @tag>*_
-┃⍣🌹 _${usedPrefix}pajero *<nombre / @tag>*_
-┃⍣🌹 _${usedPrefix}pajera *<nombre / @tag>*_
-┃⍣🌹 _${usedPrefix}follar *<nombre / @tag>*_
-┃⍣🌹 _${usedPrefix}puto *<nombre / @tag>*_
-┃⍣🌹 _${usedPrefix}puta *<nombre / @tag>*_
-┃⍣🌹 _${usedPrefix}manco *<nombre / @tag>*_
-┃⍣🌹 _${usedPrefix}manca *<nombre / @tag>*_
-┃⍣🌹 _${usedPrefix}rata *<nombre / @tag>*_
-┃⍣🌹 _${usedPrefix}love *<nombre / @tag>*_
-┃⍣🌹 _${usedPrefix}doxear *<nombre / @tag>*_
-┃⍣🌹 _${usedPrefix}pregunta *<texto>*_
-┃⍣🌹 _${usedPrefix}suitpvp *<@tag>*_
-┃⍣🌹 _${usedPrefix}slot *<apuesta>*_
-┃⍣🌹 _${usedPrefix}ttt *<nombre sala>*_
-┃⍣🌹 _${usedPrefix}delttt_
-┃⍣🌹 _${usedPrefix}acertijo_
-┃⍣🌹 _${usedPrefix}personalidad *<nombre / @tag>*_
-┃⍣🌹 _${usedPrefix}simi *<texto>*_
-┃⍣🌹 _${usedPrefix}top *<texto>*_
-┃⍣🌹 _${usedPrefix}topgays_
-┃⍣🌹 _${usedPrefix}topotakus_
-┃⍣🌹 _${usedPrefix}formarpareja_
-┃⍣🌹 _${usedPrefix}verdad_
-┃⍣🌹 _${usedPrefix}reto_
-┃⍣🌹 _${usedPrefix}cancion_
-┃⍣🌹 _${usedPrefix}pista_
-┃⍣🌹 _${usedPrefix}akinator_
-┃⍣🌹 _${usedPrefix}wordfind_
-╰━━━━━━━━━⋄
+┃⍣ 🌹 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
+┃⍣ 🌹 _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
+┃⍣ 🌹 _${usedPrefix}ppt *<papel / tijera /piedra>*_
+┃⍣ 🌹 _${usedPrefix}prostituto *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}prostituta *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}gay2 *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}lesbiana *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}pajero *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}pajera *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}follar *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}puto *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}puta *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}manco *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}manca *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}rata *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}love *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}doxear *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}pregunta *<texto>*_
+┃⍣ 🌹 _${usedPrefix}suitpvp *<@tag>*_
+┃⍣ 🌹 _${usedPrefix}slot *<apuesta>*_
+┃⍣ 🌹 _${usedPrefix}ttt *<nombre sala>*_
+┃⍣ 🌹 _${usedPrefix}delttt_
+┃⍣ 🌹 _${usedPrefix}acertijo_
+┃⍣ 🌹 _${usedPrefix}personalidad *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}simi *<texto>*_
+┃⍣ 🌹 _${usedPrefix}top *<texto>*_
+┃⍣ 🌹 _${usedPrefix}topgays_
+┃⍣ 🌹 _${usedPrefix}topotakus_
+┃⍣ 🌹 _${usedPrefix}formarpareja_
+┃⍣ 🌹 _${usedPrefix}verdad_
+┃⍣ 🌹 _${usedPrefix}reto_
+┃⍣ 🌹 _${usedPrefix}cancion_
+┃⍣ 🌹 _${usedPrefix}pista_
+┃⍣ 🌹 _${usedPrefix}akinator_
+┃⍣ 🌹 _${usedPrefix}wordfind_
+╰━━━━━━━━━➴
 
 ┏━━⊜ *ON/OFF* ━⊜
-║┃✨️ _${usedPrefix}enable *welcome*_
-║┃✨️ _${usedPrefix}disable *welcome*_
-║┃✨️ _${usedPrefix}enable *modohorny*_
-║┃✨️ _${usedPrefix}disable *modohorny*_
-║┃✨️ _${usedPrefix}enable *antilink*_
-║┃✨️ _${usedPrefix}disable *antilink*_
-║┃✨️ _${usedPrefix}enable *antilink2*_
-║┃✨️ _${usedPrefix}disable *antilink2*_
-║┃✨️ _${usedPrefix}enable *detect*_
-║┃✨️ _${usedPrefix}disable *detect*_
-║┃✨️ _${usedPrefix}enable *audios*_
-║┃✨️ _${usedPrefix}disable *audios*_
-║┃✨️ _${usedPrefix}enable *autosticker*_
-║┃✨️ _${usedPrefix}disable *autosticker*_
-║┃✨️ _${usedPrefix}enable *antiviewonce*_
-║┃✨️ _${usedPrefix}disable *antiviewonce*_
-║┃✨️ _${usedPrefix}enable *antitoxic*_
-║┃✨️ _${usedPrefix}disable *antitoxic*_
-║┃✨️ _${usedPrefix}enable *antitraba*_
-║┃✨️ _${usedPrefix}disable *antitraba*_
-║┃✨️ _${usedPrefix}enable *antiarabes*_
-║┃✨️ _${usedPrefix}disable *antiarabes*_
-║┃✨️ _${usedPrefix}enable *modoadmin*_
-║┃✨️ _${usedPrefix}disable *modoadmin*_
-║┃✨️ _${usedPrefix}enable *antidelete*_
-║┃✨️ _${usedPrefix}disable *antidelete*_
-║╰═══════❮ꨄ︎ꨄ︎❯════════╯
-╰═══════❮❦🌴❦❯════════❯
+┃⍣ ✨️ _${usedPrefix}enable *welcome*_
+┃⍣ ✨️ _${usedPrefix}disable *welcome*_
+║┃ ✨️ _${usedPrefix}enable *modohorny*_
+║┃ ✨️ _${usedPrefix}disable *modohorny*_
+║┃ ✨️ _${usedPrefix}enable *antilink*_
+║┃ ✨️ _${usedPrefix}disable *antilink*_
+║┃ ✨️ _${usedPrefix}enable *antilink2*_
+║┃ ✨️ _${usedPrefix}disable *antilink2*_
+║┃ ✨️ _${usedPrefix}enable *detect*_
+║┃ ✨️ _${usedPrefix}disable *detect*_
+║┃ ✨️ _${usedPrefix}enable *audios*_
+║┃ ✨️ _${usedPrefix}disable *audios*_
+║┃ ✨️ _${usedPrefix}enable *autosticker*_
+║┃ ✨️ _${usedPrefix}disable *autosticker*_
+║┃ ✨️ _${usedPrefix}enable *antiviewonce*_
+║┃ ✨️ _${usedPrefix}disable *antiviewonce*_
+║┃ ✨️ _${usedPrefix}enable *antitoxic*_
+║┃ ✨️ _${usedPrefix}disable *antitoxic*_
+║┃ ✨️ _${usedPrefix}enable *antitraba*_
+║┃ ✨️ _${usedPrefix}disable *antitraba*_
+║┃ ✨️ _${usedPrefix}enable *antiarabes*_
+┃⍣ ✨️ _${usedPrefix}disable *antiarabes*_
+┃⍣ ✨️ _${usedPrefix}enable *modoadmin*_
+┃⍣ ✨️ _${usedPrefix}disable *modoadmin*_
+┃⍣ ✨️ _${usedPrefix}enable *antidelete*_
+┃⍣ ✨️ _${usedPrefix}disable *antidelete*_
+╰━━━━━━━━━●
 
 ╭═════❮❦REPORTE❦❯═════❯
 ║╭═══════❮ꨄ︎ꨄ︎❯════════╮
