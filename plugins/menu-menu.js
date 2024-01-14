@@ -41,7 +41,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┏━━⊜ *INFO USER* ━⊜
 ┃⍣ *😼 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
 ┃⍣ *🎖Nivel:* ${level}
-┃⍣ *🧰Exp⍣eriencia:* ${exp}
+┃⍣ *🧰Experiencia:* ${exp}
 ┃⍣ *⚓️Rango:* ${role}
 ┃⍣ *💎Diamantes:* ${limit}
 ┃⍣ *👾SakuCoins:* ${money}
