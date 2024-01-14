@@ -27,53 +27,45 @@ const document = doc[Math.floor(Math.random() * doc.length)];
  const str = `${conn.user.jid == global.conn.user.jid ? '' : `♕︎♔︎𝖲𝖡-𝖲𝖴𝖡 𝖡𝖮𝖳: @${global.conn.user.jid.split`@`[0]}`}
 
 ╭━━━━❍𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦❍━━━━━╮
-║╭═══════❮ꨄ︎ꨄ︎❯════════╮
-║┃ *🧑‍💻Dueño Del Bot:* Diego       
-║┃ *👤Cliente:* ${taguser}
-║┃ *🧭Bot:* ${packname}
-║┃ 🔋𝗕𝗮𝘁𝗲𝗿𝗶𝗮: *${conn.battery ? `${conn.battery.value}%* *${conn.battery.live ? '🔌 Cargando...*' : '⚡ Desconectado*'}` : 'Desconocido*'}
-║┃ *⚕️Prefijo Usado:* ${usedPrefix}
-║┃ *⏰️Tiempo Activo:* ${uptime}
-║┃ *💻Usuarios Regs:* ${rtotalreg}
-║┃ *🗃Usuarios Totales:* ${rtotal}
-║┃ *📅Fecha:* ${date} 
-║╰═══════❮ꨄ︎ꨄ︎❯════════╯
+┃ *🧑‍💻Dueño Del Bot:* Diego       
+┃ *👤Cliente:* ${taguser}
+┃ *🧭Bot:* ${packname}
+┃ 🔋𝗕𝗮𝘁𝗲𝗿𝗶𝗮: *${conn.battery ? `${conn.battery.value}%* *${conn.battery.live ? '🔌 Cargando...*' : '⚡ Desconectado*'}` : 'Desconocido*'}
+┃ *⚕️Prefijo Usado:* ${usedPrefix}
+┃ *⏰️Tiempo Activo:* ${uptime}
+┃ *💻Usuarios Regs:* ${rtotalreg}
+┃ *🗃Usuarios Totales:* ${rtotal}
+┃ *📅Fecha:* ${date} 
 ╰━━━╼❍𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦❍╾━━━━╯
 
 ╭════❮❦INFO USER❦❯═════❯
-║╭═══════❮ꨄ︎ꨄ︎❯════════╮
-║┃ *😼 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
-║┃ *🎖Nivel:* ${level}
-║┃ *🧰Experiencia:* ${exp}
-║┃ *⚓️Rango:* ${role}
-║┃ *💎Diamantes:* ${limit}
-║┃ *👾SakuCoins:* ${money}
-║┃ *🪙Tokens:* ${joincount}
-║┃ *🎟Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
-║╰═══════❮ꨄ︎ꨄ︎❯════════╯
+┃ *😼 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
+┃ *🎖Nivel:* ${level}
+┃ *🧰Experiencia:* ${exp}
+┃ *⚓️Rango:* ${role}
+┃ *💎Diamantes:* ${limit}
+┃ *👾SakuCoins:* ${money}
+┃ *🪙Tokens:* ${joincount}
+┃ *🎟Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ╰═══════❮❦🌴❦❯════════❯
 ${readMore}
 ╭════❮❦SOLUCIONES❦❯════❯
-║╭═══════❮ꨄ︎ꨄ︎❯════════╮
-║┃ꨄ︎ Mensajes en espera
-║┃↻ _${usedPrefix}fixmsgespera_
-║┃ꨄ︎ Mensajes en espera (owner)
-║┃↺ _${usedPrefix}dsowner_
-║╰═══════❮ꨄ︎ꨄ︎❯════════╯
+┃ꨄ︎ Mensajes en espera
+┃↻ _${usedPrefix}fixmsgespera_
+┃ꨄ︎ Mensajes en espera (owner)
+┃↺ _${usedPrefix}dsowner_
 ╰════════❮❦🌴❦❯═══════❯
 
 ╭═════❮❦INFO BOT❦❯═════❯
-║╭═══════❮ꨄ︎ꨄ︎❯════════╮
-║┃📋 _${usedPrefix}terminosycondiciones_
-║┃📋 _${usedPrefix}grupos_
-║┃📋 _${usedPrefix}estado_
-║┃📋 _${usedPrefix}infobot_
-║┃📋 _${usedPrefix}speedtest_
-║┃📋 _${usedPrefix}donar_
-║┃📋 _${usedPrefix}owner_
-║┃📋 _${usedPrefix}script_
-║┃📋 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
-║╰═══════❮ꨄ︎ꨄ︎❯════════╯
+┃📋 _${usedPrefix}terminosycondiciones_
+┃📋 _${usedPrefix}grupos_
+┃📋 _${usedPrefix}estado_
+┃📋 _${usedPrefix}infobot_
+┃📋 _${usedPrefix}speedtest_
+┃📋 _${usedPrefix}donar_
+┃📋 _${usedPrefix}owner_
+┃📋 _${usedPrefix}script_
+┃📋 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ╰════════❮❦🌴❦❯═══════❯
 
 ╭═══❮❦BOT A GRUPO❦❯════❯
