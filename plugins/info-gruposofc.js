@@ -39,7 +39,10 @@ Atom.Bio :
 ▢ https://atom.bio/sakuralite
 
 Canal :
-▢  https://whatsapp.com/channel/0029VaHYnwaKQuJIlTFuS22l`
+▢  https://whatsapp.com/channel/0029VaHYnwaKQuJIlTFuS22l
+
+Canal 2:
+♧ https://whatsapp.com/channel/0029VaIg4lxInlqUNkN7A53w`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 /*conn.sendHydrated(m.chat, str, `𝙂𝘼𝙏𝘼 𝘿𝙄𝙊𝙎 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼\n\n\n` + wm, media, 'https://github.com/diegojadibot/SakuraBotLite-MD', 'SakuraBotLite-MD', null, null, [
 ['𝘾𝙪𝙚𝙣𝙩𝙖𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨 ✅', '.cuentassb'],
