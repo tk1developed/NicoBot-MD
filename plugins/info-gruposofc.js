@@ -1,25 +1,45 @@
 const handler = async (m, {conn, usedPrefix}) => {
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
-  const text = `*꧁༺ Grupos del Bot ༻꧂:*
-𝘎𝘳𝘶𝘱𝘰𝘴 𝘖𝘧𝘪𝘤𝘪𝘢𝘭𝘦𝘴 𝘋𝘦𝘭 𝘉𝘰𝘵 𝘚𝘢𝘬𝘶𝘳𝘢𝘓𝘪𝘵𝘦𓆉︎
+  const text = `*Hola!, te invito a unirte a los grupos oficiales de del Bot para convivir con la comunidad :D*
 
- https://chat.whatsapp.com/Gf0jUCgZTdU5pbcKPZPtWk
+1- 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
+▢ 
+https://chat.whatsapp.com/Gf0jUCgZTdU5pbcKPZPtWk
 
- https://chat.whatsapp.com/L69Ok8LTIJNCTNsJydkXaE
+2- 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
+▢ https://chat.whatsapp.com/L69Ok8LTIJNCTNsJydkXaE
 
- https://chat.whatsapp.com/EHbHSYyZ1ZeCgtl1iO208h
+3- 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
+▢ https://chat.whatsapp.com/EHbHSYyZ1ZeCgtl1iO208h
 
-𝘎𝘳𝘶𝘱𝘰 𝘋𝘦 𝘊𝘰𝘭𝘢𝘣𝘰𝘳𝘢𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘉𝘰𝘵ꨄ︎
+4- 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
+▢ https://chat.whatsapp.com/BBrNUjJXXLAAucWIM3AaXv
 
-https://chat.whatsapp.com/IpkR0weg38U8Q0hFZbG3IV
+5- 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
+▢ https://chat.whatsapp.com/FtbbWbvriEX8D4Buw0pyNL
 
-𝘊𝘢𝘯𝘢𝘭𝘦𝘴 𝘖𝘧𝘪𝘤𝘪𝘢𝘭𝘦𝘴 𝘋𝘦𝘭 𝘉𝘰𝘵 𝘚𝘢𝘬𝘶𝘳𝘢𝘓𝘪𝘵𝘦☏︎
+6- —★ 🎟]「 𝘌𝘯𝘭𝘢𝘤𝘦 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
+▢ https://chat.whatsapp.com/HUav9lEvzPO6uRPS5f6KBz
 
- https://whatsapp.com/channel/0029VaIg4lxInlqUNkN7A53w
+7- 😻 𝑺𝒐𝒑𝒐𝒓𝒕𝒆 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕 / 𝑵𝒐 𝑩𝒐𝒕 ♕︎𓅓
+▢ https://chat.whatsapp.com/FUDnyZbUkkaLc1L9CgOiwH
 
+🧭Grupos Colaboración
 
-https://whatsapp.com/channel/0029VaHYnwaKQuJIlTFuS22l`.trim();
+1- ʕ•ᴥ•ʔ 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕𝑳𝒊𝒕𝒆 & 𝑶𝒏𝒚𝒙𝑩𝒐𝒕 ʕ•ᴥ•ʔ
+▢ https://chat.whatsapp.com/HVpXzDdlNrH738WaJIS21C
+
+2- ᰔᩚ♕︎🅜︎🅤︎🅛︎🅣︎🅘︎.🅑︎🅞︎🅣︎🅢︎♕︎ᰔᩚ
+▢ https://chat.whatsapp.com/IpkR0weg38U8Q0hFZbG3IV
+─────────────
+≡ Enlaces Restablecidos? Entra A Este Link!! 
+
+Grupos : 
+▢ https://atom.bio/sakuralite
+
+Canal :
+▢  https://whatsapp.com/channel/0029VaHYnwaKQuJIlTFuS22l`.trim();
   const buttonMessage= {
     'document': {url: `https://github.com/diegojadibot/SakuraBotLite-MD`},
     'mimetype': `application/${document}`,
