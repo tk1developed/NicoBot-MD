@@ -27,27 +27,27 @@ const document = doc[Math.floor(Math.random() * doc.length)];
  const str = `${conn.user.jid == global.conn.user.jid ? '' : `♕︎♔︎𝖲𝖡-𝖲𝖴𝖡 𝖡𝖮𝖳: @${global.conn.user.jid.split`@`[0]}`}
 
 *┏━🐱⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰*
-┃⋄  *🧑‍💻Dueño Del Bot:* Diego       
-┃⋄  *👤Cliente:* ${taguser}
-┃⋄  *🧭Bot:* ${packname}
-┃⋄  🔋𝗕𝗮𝘁𝗲𝗿𝗶𝗮: *${conn.battery ? `${conn.battery.value}%* *${conn.battery.live ? '🔌 Cargando...*' : '⚡ Desconectado*'}` : 'Desconocido*'}
-┃⋄  *⚕️Prefijo Usado:* ${usedPrefix}
-┃⋄  *⏰️Tiempo Activo:* ${uptime}
-┃⋄  *💻Usuarios Regs:* ${rtotalreg}
-┃⋄  *🗃Usuarios Totales:* ${rtotal}
-┃⋄  *📅Fecha:* ${date} 
-╰═══════❮ꨄ︎ꨄ︎❯════════╯
+┃⍣  *🧑‍💻Dueño Del Bot:* Diego       
+┃⍣  *👤Cliente:* ${taguser}
+┃⍣  *🧭Bot:* ${packname}
+┃⍣   🔋𝗕𝗮𝘁𝗲𝗿𝗶𝗮: *${conn.battery ? `${conn.battery.value}%* *${conn.battery.live ? '🔌 Cargando...*' : '⚡ Desconectado*'}` : 'Desconocido*'}
+┃⍣  *⚕️Prefijo Usado:* ${usedPrefix}
+┃⍣  *⏰️Tiempo Activo:* ${uptime}
+┃⍣  *💻Usuarios Regs:* ${rtotalreg}
+┃⍣  *🗃Usuarios Totales:* ${rtotal}
+┃⍣  *📅Fecha:* ${date} 
+╰━━━━━━━━━⋄
 
 ┏━━⊜ *INFO USER* ━⊜ 
-┃⋄   *😼 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
-┃⋄   *🎖Nivel:* ${level}
-┃⋄  *🧰Experiencia:* ${exp}
-┃⋄  *⚓️Rango:* ${role}
-┃⋄  *💎Diamantes:* ${limit}
-┃⋄  *👾SakuCoins:* ${money}
-┃⋄  *🪙Tokens:* ${joincount}
-┃⋄  *🎟Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
-╰═══════❮ꨄ︎ꨄ︎❯════════╯
+┃⍣   *😼 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
+┃⍣   *🎖Nivel:* ${level}
+┃⍣  *🧰Exp⍣eriencia:* ${exp}
+┃⍣  *⚓️Rango:* ${role}
+┃⍣  *💎Diamantes:* ${limit}
+┃⍣  *👾SakuCoins:* ${money}
+┃⍣  *🪙Tokens:* ${joincount}
+┃⍣  *🎟Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
+╰━━━━━━━━━⋄
 ${readMore}
 ┏━━⊜ *SOLUCIONES* ━⊜
 ┃⋄ ꨄ︎ Mensajes en espera
