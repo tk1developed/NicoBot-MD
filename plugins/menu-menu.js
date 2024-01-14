@@ -24,7 +24,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  await m.reply(`😸 Eɴᴠɪᴀɴᴅᴏ Eʟ Mᴇɴᴜ Dᴇʟ Bᴏᴛ, SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD....`); 
 
 const document = doc[Math.floor(Math.random() * doc.length)];
- const str = `${conn.user.jid == global.conn.user.jid ? '' : `♕︎♔︎𝖲𝖡-𝖲𝖴𝖡 𝖡𝖮𝖳: @${global.conn.user.jid.split`@`[0]}`}
+ const str = `${conn.user.jid == global.conn.user.jid ? '' : `♕︎♔︎𝘚𝘖𝘠 𝘚𝘜𝘉𝘉𝘖𝘛 𝘋𝘌: @${global.conn.user.jid.split`@`[0]}`}
 
 ╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
 ┃⍣ *🧑‍💻Dueño Del Bot:* Diego       
