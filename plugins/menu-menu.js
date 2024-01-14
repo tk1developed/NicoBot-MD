@@ -26,17 +26,19 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 const document = doc[Math.floor(Math.random() * doc.length)];
  const str = `${conn.user.jid == global.conn.user.jid ? '' : `♕︎♔︎𝖲𝖡-𝖲𝖴𝖡 𝖡𝖮𝖳: @${global.conn.user.jid.split`@`[0]}`}
 
-╭━━━━❍𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦❍━━━━━╮
-┃ *🧑‍💻Dueño Del Bot:* Diego       
-┃ *👤Cliente:* ${taguser}
-┃ *🧭Bot:* ${packname}
-┃ 🔋𝗕𝗮𝘁𝗲𝗿𝗶𝗮: *${conn.battery ? `${conn.battery.value}%* *${conn.battery.live ? '🔌 Cargando...*' : '⚡ Desconectado*'}` : 'Desconocido*'}
-┃ *⚕️Prefijo Usado:* ${usedPrefix}
-┃ *⏰️Tiempo Activo:* ${uptime}
-┃ *💻Usuarios Regs:* ${rtotalreg}
-┃ *🗃Usuarios Totales:* ${rtotal}
-┃ *📅Fecha:* ${date} 
-╰━━━╼❍𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦❍╾━━━━╯
+╭────═[ *INFO* ]═─────⋆
+│╭───────────────···
+┃│ *🧑‍💻Dueño Del Bot:* Diego       
+┃│ *👤Cliente:* ${taguser}
+┃│ *🧭Bot:* ${packname}
+┃│ 🔋𝗕𝗮𝘁𝗲𝗿𝗶𝗮: *${conn.battery ? `${conn.battery.value}%* *${conn.battery.live ? '🔌 Cargando...*' : '⚡ Desconectado*'}` : 'Desconocido*'}
+┃│ *⚕️Prefijo Usado:* ${usedPrefix}
+┃│ *⏰️Tiempo Activo:* ${uptime}
+┃│ *💻Usuarios Regs:* ${rtotalreg}
+┃│ *🗃Usuarios Totales:* ${rtotal}
+┃│ *📅Fecha:* ${date} 
+│╰────────────────···
+╰───────────═┅═──────────
 
 ╭────═[𝙄𝙉𝙁𝙊-𝙐𝙎𝙀𝙀]═─────⋆
 │╭───────────────···
