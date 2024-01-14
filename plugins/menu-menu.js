@@ -38,16 +38,18 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃ *📅Fecha:* ${date} 
 ╰━━━╼❍𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦❍╾━━━━╯
 
-╭════❮❦INFO USER❦❯═════❯
-┃ *😼 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
-┃ *🎖Nivel:* ${level}
-┃ *🧰Experiencia:* ${exp}
-┃ *⚓️Rango:* ${role}
-┃ *💎Diamantes:* ${limit}
-┃ *👾SakuCoins:* ${money}
-┃ *🪙Tokens:* ${joincount}
-┃ *🎟Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
-╰═══════❮❦🌴❦❯════════❯
+╭────═[𝙄𝙉𝙁𝙊-𝙐𝙎𝙀𝙀]═─────⋆
+│╭───────────────···
+┃│  *😼 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
+┃│  *🎖Nivel:* ${level}
+┃│ *🧰Experiencia:* ${exp}
+┃│ *⚓️Rango:* ${role}
+┃│ *💎Diamantes:* ${limit}
+┃│ *👾SakuCoins:* ${money}
+┃│ *🪙Tokens:* ${joincount}
+┃│ *🎟Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
+│╰────────────────···
+╰───────────═┅═──────────
 ${readMore}
 ╭════❮❦SOLUCIONES❦❯════❯
 ┃ꨄ︎ Mensajes en espera
