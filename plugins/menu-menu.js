@@ -36,56 +36,49 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃⋄  *💻Usuarios Regs:* ${rtotalreg}
 ┃⋄  *🗃Usuarios Totales:* ${rtotal}
 ┃⋄  *📅Fecha:* ${date} 
-┃╰──────────────────···
-┃─────────────────···
-┃ *INFO USUARIO*
-┃╭─────────────────···
-┃┃
-┃┃  *😼 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
-┃┃  *🎖Nivel:* ${level}
-┃│ *🧰Experiencia:* ${exp}
-┃│ *⚓️Rango:* ${role}
-┃│ *💎Diamantes:* ${limit}
-┃│ *👾SakuCoins:* ${money}
-┃│ *🪙Tokens:* ${joincount}
-┃│ *🎟Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
-│╰────────────────···
-╰───────────═┅═──────────
+╰═══════❮ꨄ︎ꨄ︎❯════════╯
+
+┏━━⊜ *INFO USER* ━⊜ 
+┃⋄   *😼 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
+┃⋄   *🎖Nivel:* ${level}
+┃⋄  *🧰Experiencia:* ${exp}
+┃⋄  *⚓️Rango:* ${role}
+┃⋄  *💎Diamantes:* ${limit}
+┃⋄  *👾SakuCoins:* ${money}
+┃⋄  *🪙Tokens:* ${joincount}
+┃⋄  *🎟Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
+╰═══════❮ꨄ︎ꨄ︎❯════════╯
 ${readMore}
-╭════❮❦SOLUCIONES❦❯════❯
-┃ꨄ︎ Mensajes en espera
-┃↻ _${usedPrefix}fixmsgespera_
-┃ꨄ︎ Mensajes en espera (owner)
-┃↺ _${usedPrefix}dsowner_
-╰════════❮❦🌴❦❯═══════❯
+┏━━⊜ *SOLUCIONES* ━⊜
+┃⋄ ꨄ︎ Mensajes en espera
+┃⋄ ↻ _${usedPrefix}fixmsgespera_
+┃⋄ ꨄ︎ Mensajes en espera (owner)
+┃⋄ ↺ _${usedPrefix}dsowner_
+╰═══════❮ꨄ︎ꨄ︎❯════════╯
 
-╭═════❮❦INFO BOT❦❯═════❯
-┃📋 _${usedPrefix}terminosycondiciones_
-┃📋 _${usedPrefix}grupos_
-┃📋 _${usedPrefix}estado_
-┃📋 _${usedPrefix}infobot_
-┃📋 _${usedPrefix}speedtest_
-┃📋 _${usedPrefix}donar_
-┃📋 _${usedPrefix}owner_
-┃📋 _${usedPrefix}script_
-┃📋 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
-╰════════❮❦🌴❦❯═══════❯
+┏━━⊜ *INFO BOT* ━⊜
+┃⋄ 📋 _${usedPrefix}terminosycondiciones_
+┃⋄ 📋 _${usedPrefix}grupos_
+┃⋄ 📋 _${usedPrefix}estado_
+┃⋄ 📋 _${usedPrefix}infobot_
+┃⋄ 📋 _${usedPrefix}speedtest_
+┃⋄ 📋 _${usedPrefix}donar_
+┃⋄ 📋 _${usedPrefix}owner_
+┃⋄ 📋 _${usedPrefix}script_
+┃⋄ 📋 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+╰═══════❮ꨄ︎ꨄ︎❯════════╯
 
-╭═══❮❦BOT A GRUPO❦❯════❯
-║╭═══════❮ꨄ︎ꨄ︎❯════════╮
-║┃🙀 _${usedPrefix}join *<enlace / link / url>*_
-║╰═══════❮ꨄ︎ꨄ︎❯════════╯
-╰════════❮❦🌴❦❯═══════❯
+┏━━⊜ *BOT A TU GRUPO* ━⊜
+┃⋄ 🙀 _${usedPrefix}join *<enlace / link / url>*_
+╰═══════❮ꨄ︎ꨄ︎❯════════╯
 
-╭════❮❦SER SUBBOT❦❯════❯
-║╭═══════❮ꨄ︎ꨄ︎❯════════╮
-║┃💻 _${usedPrefix}serbot_
-║┃💻 _${usedPrefix}deletebot_
-║┃💻 _${usedPrefix}token_
-║┃💻 _${usedPrefix}stop_
-║┃💻 _${usedPrefix}bots_
-║╰═══════❮ꨄ︎ꨄ︎❯════════╯
-╰════════❮❦🌴❦❯═══════❯
+┏━━⊜ *SER SUBBOT* ━⊜
+┃⋄ 💻 _${usedPrefix}serbot_
+┃⋄ 💻 _${usedPrefix}deletebot_
+┃⋄ 💻 _${usedPrefix}token_
+┃⋄ 💻 _${usedPrefix}stop_
+┃⋄ 💻 _${usedPrefix}bots_
+╰═══════❮ꨄ︎ꨄ︎❯════════╯
 
 ╭═══❮❦HERRAMIENTAS❦❯════❯
 ║╭═══════❮ꨄ︎ꨄ︎❯════════╮
