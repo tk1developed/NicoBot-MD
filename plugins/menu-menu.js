@@ -49,14 +49,14 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃⍣ *🎟Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ╰━━━━━━━━━━━━━━━━⋄
 ${readMore}
-┏━━━✦❘༻SOLUCIONES༺❘✦━━━┓
+┏━━⊜ *SOLUCIONES* ━━⊜
 ┃⍣ 🧭 Mensajes en espera
 ┃⍣ 🧭 _${usedPrefix}fixmsgespera_
 ┃⍣ 🧭 Mensajes en espera (owner)
 ┃⍣ 🧭 _${usedPrefix}dsowner_
 ╰━━━━━━━━━━━━━━━━⋄
 
-┏━━⊜ *INFO BOT* ━⊜
+┏━━⊜ *INFO BOT* ━━⊜
 ┃⍣ 📋 _${usedPrefix}terminosycondiciones_
 ┃⍣ 📋 _${usedPrefix}grupos_
 ┃⍣ 📋 _${usedPrefix}estado_
@@ -80,7 +80,7 @@ ${readMore}
 ┃⍣ 💻 _${usedPrefix}bots_
 ╰━━━━━━━━━━━━━━━━⋄
 
-┏━━⊜ *HERRAMIENTAS* ━⊜
+┏━━⊜ *HERRAMIENTAS* ━━⊜
 ┃⍣ 🛠 _${usedPrefix}enable restrict_
 ┃⍣ 🛠 _${usedPrefix}disable restrict_
 ┃⍣ 🛠 _${usedPrefix}enable autoread_
@@ -97,7 +97,7 @@ ${readMore}
 ┃⍣ 🛠 _${usedPrefix}disable antiprivado_
 ╰━━━━━━━━━━━━━━━━⋄
 
-┏━━⊜ *DIVERSIONES* ━⊜
+┏━━⊜ *DIVERSIONES* ━━⊜
 ┃⍣ 🌹 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
 ┃⍣ 🌹 _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
 ┃⍣ 🌹 _${usedPrefix}ppt *<papel / tijera /piedra>*_
@@ -135,7 +135,7 @@ ${readMore}
 ┃⍣ 🌹 _${usedPrefix}wordfind_
 ╰━━━━━━━━━━━━━━━━⋄
 
-┏━━⊜ *ON/OFF* ━⊜
+┏━━━⊜ *ON/OFF* ━━━⊜
 ┃⍣ ✨️ _${usedPrefix}enable *welcome*_
 ┃⍣ ✨️ _${usedPrefix}disable *welcome*_
 ┃⍣ ✨️ _${usedPrefix}enable *modohorny*_
@@ -164,11 +164,11 @@ ${readMore}
 ┃⍣ ✨️ _${usedPrefix}disable *antidelete*_
 ╰━━━━━━━━━━━━━━━━⋄
 
-┏━━⊜ *REPORTE* ━⊜
+┏━━⊜ *REPORTE* ━━⊜
 ┃⍣ 🖥 _${usedPrefix}reporte *<texto>*_
 ╰━━━━━━━━━━━━━━━━⋄
 
-┏━━⊜ *DESCARGAS* ━⊜
+┏━━⊜ *DESCARGAS* ━━⊜
 ┃⍣ 🛰 _${usedPrefix}instagram *<enlace / link / url>*_
 ┃⍣ 🛰 _${usedPrefix}mediafire *<enlace / link / url>*_
 ┃⍣ 🛰 _${usedPrefix}gitclone *<enlace / link / url>*_
@@ -206,7 +206,7 @@ ${readMore}
 ┃⍣ 🛰 _${usedPrefix}tiktokstalk *<username>*_
 ╰━━━━━━━━━━━━━━━━⋄
 
-┏━━⊜ *BUSCADORES* ━⊜
+┏━━⊜ *BUSCADORES* ━━⊜
 ┃⍣ 🔎 _${usedPrefix}githubsearch *<texto>*_
 ┃⍣ 🔎 _${usedPrefix}pelisplus *<texto>*_
 ┃⍣ 🔎 _${usedPrefix}modapk *<texto>*_
@@ -280,7 +280,7 @@ ${readMore}
 ┃⍣ 🖼 _${usedPrefix}blur_
 ╰━━━━━━━━━━━━━━━━⋄
 
-┏━━⊜ *PIROPOS* ━⊜
+┏━━⊜ *PIROPOS* ━━⊜
 ┃⍣ ✏️  _${usedPrefix}piropo_
 ┃⍣ ✏️  _${usedPrefix}consejo_
 ┃⍣ ✏️  _${usedPrefix}fraseromantica_
@@ -291,7 +291,7 @@ ${readMore}
 ┃⍣ 📓 _${usedPrefix}menuanimes_
 ╰━━━━━━━━━━━━━━━━⋄
 
-┏━━⊜ *RANDOM* ━⊜
+┏━━⊜ *RANDOM* ━━⊜
 ┃⍣ 📺 _${usedPrefix}kpop *<blackpink / exo / bts>*_
 ┃⍣ 📺 _${usedPrefix}cristianoronaldo_
 ┃⍣ 📺 _${usedPrefix}messi_
