@@ -21,12 +21,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
 
-await conn.sendMessage(m.chat, {text: `${wait}`}, {quoted: m})
-
- await conn.sendMessage(m.chat, {text: ` Sigueme en YouTube : https://youtube.com/@AlbaO7O503
-     `, edit: key})
-await conn.sendMessage(m.chat, {text: ` Sigueme en Github : https://github.com/Alba070503
-
  await m.reply(`😸 Eɴᴠɪᴀɴᴅᴏ Eʟ Mᴇɴᴜ Dᴇʟ Bᴏᴛ, SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD....`); 
 
 const document = doc[Math.floor(Math.random() * doc.length)];
