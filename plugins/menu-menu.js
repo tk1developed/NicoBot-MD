@@ -50,21 +50,7 @@ let d3  = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
 let d4 = 'application/pdf'
 let d5 = 'application/vnd.android.package-archive'
 let d6 = 'application/zip'
-let td = `${pickRandom([d1,d2,d3,d4,d5,d6])}`
-
-    const fload = {
-    key : {
-    remoteJid: 'status@broadcast',
-    participant : '0@s.whatsapp.net' 
-    },
-    message: {
-    orderMessage: {
-    itemCount : 2023,
-    status: 1,
-    surface : 1,
-    message: `${name}` + `\n⏰️ Cargando `, 
-    orderTitle: `▮Menu ▸`,
-    sellerJid: '0@s.whatsapp.net' 
+let td = `${pickRandom([d1,d2,d3,d4,d5,d6])}
     }
     }
     }  
