@@ -21,7 +21,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
 
- await m.reply(`😸 Eɴᴠɪᴀɴᴅᴏ Eʟ Mᴇɴᴜ Dᴇʟ Bᴏᴛ, SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD....`); 
+ await m.reply(`😸 Eɴᴠɪᴀɴᴅᴏ Eʟ Mᴇɴᴜ Dᴇʟ Bᴏᴛ, SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD....`)
+
+await m.reply(`Eʟ Mᴇɴᴜ Dᴇʟ Bᴏᴛ, SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD....`); 
 
 const document = doc[Math.floor(Math.random() * doc.length)];
  const str = `${conn.user.jid == global.conn.user.jid ? '' : `𝐒𝐎𝐘 𝐒𝐔𝐁𝐁𝐎𝐓 » 𝐃𝐄: *@${global.conn.user.jid.split`@`[0]}*`}
