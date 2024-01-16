@@ -68,8 +68,7 @@ let td = `${pickRandom([d1,d2,d3,d4,d5,d6])}`
     }
     }
     }
-    await conn.reply(m.chat, '*𝐄𝐧𝐯𝐢𝐚𝐧𝐝𝐨 𝐄𝐥 𝐌𝐞𝐧𝐮 𝐃𝐞𝐥 𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭-𝐌𝐃 . . .*', fload, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋🏻 Hola Como Estas!!', body: saludo, sourceUrl: global.ig, thumbnail: await (await fetch(pp)).buffer() }}})
-m.react('🪁')     
+    await conn.reply(m.chat, '*𝐄𝐧𝐯𝐢𝐚𝐧𝐝𝐨 𝐄𝐥 𝐌𝐞𝐧𝐮 𝐃𝐞𝐥 𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭-𝐌𝐃 . . .*', fload, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋🏻 Hola Como Estas!!', body: saludo, sourceUrl: global.ig, thumbnail: await (await fetch(pp)).buffer() }}})     
 let menu = `╭✨️⸽⃕SAᴋᴜʀᴀBᴏᴛ-MD🍁⃨፝⃕✰
 ┃⍣ *🧑‍💻Dueño Del Bot:* Diego       
 ┃⍣ *👤Cliente:* 
