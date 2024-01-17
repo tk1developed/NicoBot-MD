@@ -20,7 +20,7 @@ const handler = async (m, {conn, usedPrefix}) => {
 ┃⍣ github.com/diegojadibot/SakuraBotLite-MD
 ╰━━━━━━━━━━━━━━━━⋄`.trim();
   const buttonMessage= {
-    'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
+    'document': {url: `https://github.com/diegojadibot/SakuraBotLite-MD`},
     'mimetype': `application/${document}`,
     'fileName': `「 DɪᴇɢᴏOғɪᴄɪᴀʟ 」`,
     'fileLength': 209,
