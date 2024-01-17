@@ -22,7 +22,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   const buttonMessage= {
     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
     'mimetype': `application/${document}`,
-    'fileName': `「 𝙎𝙖𝙠𝙪𝙧𝙖𝙇𝙞𝙩𝙚-𝙈𝘿 」`,
+    'fileName': `「 DɪᴇɢᴏOғɪᴄɪᴀʟ 」`,
     'fileLength': 209,
     'pageCount': 200,
     'contextInfo': {
@@ -32,7 +32,7 @@ const handler = async (m, {conn, usedPrefix}) => {
         'mediaUrl': 'https://github.com/diegojadibot/SakuraBotLite-MD',
         'mediaType': 2,
         'previewType': 'pdf',
-        'title': '𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭𝐋𝐢𝐭𝐞 𝐁𝐲: 𝐃𝐢𝐞𝐠𝐨',
+        'title': '𝑆𝑎𝑘𝑢𝑟𝑎𝐵𝑜𝑡𝐿𝑖𝑡𝑒-𝑀𝐷',
         'body': wm,
         'thumbnail': imagen1,
         'sourceUrl': 'https://atom.bio/sakuralite'}},
