@@ -13,7 +13,7 @@ const handler = async (m, {conn, usedPrefix}) => {
 ┃━━━━━━━━━━━━━━━━⋄
 ┃
 ┃⍣❣️🩷 𝐘𝐎𝐔𝐓𝐔𝐁𝐄:
-┃⍣ https://www.youtube.com/@SakuraBotLite
+┃⍣ www.youtube.com/@SakuraBotLite
 ┃━━━━━━━━━━━━━━━━⋄
 ┃
 ┃⍣🍃🫶🏻 𝐆𝐈𝐓𝐇𝐔𝐁:
