@@ -20,7 +20,9 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     } else if (command === 'play2') {
       additionalText = 'video 🎥';
     }
-    const texto1 = `*◉—⌈🔊 MUSIC PLAY 🔊⌋—◉*\n
+    const texto1 = `┏━━━━━━━━━━━━━━━━⋄
+*◉—⌈🔊 MUSIC PLAY 🔊⌋—◉*\n
+╰━━━━━━━━━━━━━━━━⋄
 ┏━━━━━━━━━━━━━━━━⋄
 ┃⍣ 📌 *Titulo:* 
 ┃⍣ ${yt_play[0].title}
@@ -37,17 +39,17 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 ┃⍣ 🏝 *Autor:* 
 ┃⍣ ${yt_play[0].author.name}
 ┃
-┃⍣ 🍧 *Canal:* 
+┃⍣ 🪁 *Canal:* 
 ┃⍣ ${yt_play[0].author.url}
 ┃
 ┃⍣ 🏕 *ID:* 
 ┃⍣ ${yt_play[0].videoId}
 ┃
-┃⍣🌤 *Tipo:*
+┃⍣ 🌤 *Tipo:*
 ┃⍣ ${yt_play[0].type}
 ┃
 ┃⍣ 🔗 *Link:* 
-┃⍣ ${yt_play[0].url}\n
+┃⍣ ${yt_play[0].url}
 ╰━━━━━━━━━━━━━━━━⋄
 ┏━━━━━━━━━━━━━━━━⋄
 ┃⍣ *_Enviando ${additionalText}, Aguarde Un Momento. . . ．．．_*
