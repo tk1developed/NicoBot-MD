@@ -8,11 +8,11 @@ const handler = async (m, {conn, args, command, usedPrefix}) => {
   if (!args[0]) throw `🎌 *Ingrese un enlace de facebook*
 
 Ejemplo, !fb https://fb.watch/kAOXy3wf2L/?mibextid=Nif5oz`;
-  if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `🎌 *Ingrese un enlace de facebook*
+  if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `🪁 *Ingrese un enlace de facebook*
 
 Ejemplo, !fb https://fb.watch/kAOXy3wf2L/?mibextid=Nif5oz`;
   try {
-    await m.reply(`_*< DESCARGAS - FACEBOOK />*_\n\n*🍧 Se está enviando el video. espere...*`);
+    await m.reply(`_*< DESCARGAS - FACEBOOK />*_\n\n*🎋 Se está enviando el video. espere...*`);
     const d2ata = await facebook.v1(args[0]);
     let r2es = '';
     if (d2ata.urls && d2ata.urls.length > 0) {
