@@ -21,7 +21,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
       additionalText = 'video 🎥';
     }
     const texto1 = `┏━━━━━━━━━━━━━━━━⋄
-*◉—⌈🔊 MUSIC PLAY 🔊⌋—◉*\n
+┃⍣ *◉—⌈🔊 MUSIC PLAY 🔊⌋—◉*
 ╰━━━━━━━━━━━━━━━━⋄
 ┏━━━━━━━━━━━━━━━━⋄
 ┃⍣ 📌 *Titulo:* 
