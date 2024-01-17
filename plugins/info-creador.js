@@ -14,8 +14,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   const buttonMessage= {
     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
     'mimetype': `application/${document}`,
-    'fileName': `「 𝙎𝙖𝙠𝙪𝙧𝙖𝙇𝙞𝙩𝙚-𝙈𝘿 」`,
-    'fileLength': 99999999999999,
+    
     'pageCount': 200,
     'contextInfo': {
       'forwardingScore': 200,
