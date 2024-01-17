@@ -14,13 +14,14 @@ const handler = async (m, {conn, usedPrefix}) => {
   const buttonMessage= {
     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
     'mimetype': `application/${document}`,
-    
+    'fileName': `「 𝙎𝙖𝙠𝙪𝙧𝙖𝙇𝙞𝙩𝙚-𝙈𝘿 」`,
+    'fileLength': 209,
     'pageCount': 200,
     'contextInfo': {
       'forwardingScore': 200,
       'isForwarded': true,
       'externalAdReply': {
-        'mediaUrl': 'https://github.com/BrunoSobrino/TheMystic-Bot-MD',
+        'mediaUrl': 'https://github.com/diegojadibot/SakuraBotLite-MD',
         'mediaType': 2,
         'previewType': 'pdf',
         'title': 'Tu Mejor Bot Para Uso Personal',
