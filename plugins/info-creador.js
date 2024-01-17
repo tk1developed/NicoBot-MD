@@ -2,12 +2,12 @@ const handler = async (m, {conn, usedPrefix}) => {
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const text = `┏━━━━━━━━━━━━━━━━⋄
-┃⍣ *♡︎ 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃
-┃⍣ Wa.me/573013114854*
+┃⍣ ♡︎ 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃
+┃⍣ Wa.me/573013114854
 ┃
 ┃
-┃⍣ *❦︎ 𝐂𝐨𝐥𝐚𝐛𝐨𝐫𝐚𝐝𝐨𝐫 𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃:
-┃⍣ Wa.me/51935499065*
+┃⍣ ❦︎ 𝐂𝐨𝐥𝐚𝐛𝐨𝐫𝐚𝐝𝐨𝐫 𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃:
+┃⍣ Wa.me/51935499065
 ╰━━━━━━━━━━━━━━━━⋄`.trim();
   const buttonMessage= {
     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
