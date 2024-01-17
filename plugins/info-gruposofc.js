@@ -30,6 +30,9 @@ https://chat.whatsapp.com/J6AJyZjMIiH6T7zHor6ycV
 1 ʕ•ᴥ•ʔ 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕𝑳𝒊𝒕𝒆 & 𝑶𝒏𝒚𝒙𝑩𝒐𝒕 ʕ•ᴥ•ʔ
 ▢ https://chat.whatsapp.com/HVpXzDdlNrH738WaJIS21C
 
+▢ ✨ 𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭 & 𝐃𝐢𝐚𝐛𝐥𝐨𝐁𝐨𝐭 🌻
+https://chat.whatsapp.com/EMASmuKnqRW2wCuLfIzphN
+
 2 ᰔᩚ♕︎🅜︎🅤︎🅛︎🅣︎🅘︎.🅑︎🅞︎🅣︎🅢︎♕︎ᰔᩚ
 ▢ https://chat.whatsapp.com/CH8yY2rs7y53XUiu2QQLER
 ─────────────
