@@ -5,7 +5,7 @@ import fbDownloader from 'fb-downloader-scrapper';
 import {facebook} from '@xct007/frieren-scraper';
 import axios from 'axios';
 const handler = async (m, {conn, args, command, usedPrefix}) => {
-  if (!args[0]) throw `🎌 *Ingrese un enlace de facebook*
+  if (!args[0]) throw `🌻🎋 *Ingrese un enlace de facebook*
 
 Ejemplo, !fb https://fb.watch/kAOXy3wf2L/?mibextid=Nif5oz`;
   if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `🪁 *Ingrese un enlace de facebook*
