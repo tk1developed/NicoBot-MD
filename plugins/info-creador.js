@@ -14,10 +14,12 @@ const handler = async (m, {conn, usedPrefix}) => {
 ┃
 ┃⍣❣️🩷 𝐘𝐎𝐔𝐓𝐔𝐁𝐄:
 ┃⍣ www.youtube.com/@SakuraBotLite
+┃
 ┃━━━━━━━━━━━━━━━━⋄
 ┃
 ┃⍣🍃🫶🏻 𝐆𝐈𝐓𝐇𝐔𝐁:
 ┃⍣ github.com/diegojadibot/SakuraBotLite-MD
+┃
 ╰━━━━━━━━━━━━━━━━⋄`.trim();
   const buttonMessage= {
     'document': {url: `https://github.com/diegojadibot/SakuraBotLite-MD`},
