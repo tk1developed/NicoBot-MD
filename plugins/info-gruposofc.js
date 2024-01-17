@@ -5,7 +5,7 @@ let str = `😻𝘏𝘰𝘭𝘢, 𝘛𝘦 𝘐𝘯𝘷𝘪𝘵𝘰 𝘈 𝘜𝘯
 
 1 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
 ▢ 
-https://chat.whatsapp.com/Gf0jUCgZTdU5pbcKPZPtWk
+https://chat.whatsapp.com/J6AJyZjMIiH6T7zHor6ycV
 
 2 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
 ▢ https://chat.whatsapp.com/L69Ok8LTIJNCTNsJydkXaE
@@ -14,16 +14,16 @@ https://chat.whatsapp.com/Gf0jUCgZTdU5pbcKPZPtWk
 ▢ https://chat.whatsapp.com/IdajR1RodSm1g2NtcRhU3F
 
 4 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
-▢ https://chat.whatsapp.com/BBrNUjJXXLAAucWIM3AaXv
+▢ https://chat.whatsapp.com/Ke0iZ2RS3cLLMtNmktQHZ0
 
 5 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
-▢ https://chat.whatsapp.com/FtbbWbvriEX8D4Buw0pyNL
+▢ https://chat.whatsapp.com/H3ySZrOIJFHKwSqKp9T8z3
 
 6 —★ 🎟]「 𝘌𝘯𝘭𝘢𝘤𝘦 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
-▢ https://chat.whatsapp.com/HUav9lEvzPO6uRPS5f6KBz
+▢ https://chat.whatsapp.com/B9b5jAI4hqv95dH1QmAuF6
 
 7 😻 𝑺𝒐𝒑𝒐𝒓𝒕𝒆 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕 / 𝑵𝒐 𝑩𝒐𝒕 ♕︎𓅓
-▢ https://chat.whatsapp.com/FUDnyZbUkkaLc1L9CgOiwH
+▢ https://chat.whatsapp.com/B5y3UmnpJYQEdeyvSKlLyJ
 
 🧭Grupos En Colaboración:
 
