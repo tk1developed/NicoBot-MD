@@ -26,7 +26,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 const document = doc[Math.floor(Math.random() * doc.length)];
  const str = `${conn.user.jid == global.conn.user.jid ? '' : `𝐒𝐎𝐘 𝐒𝐔𝐁𝐁𝐎𝐓 » 𝐃𝐄: *@${global.conn.user.jid.split`@`[0]}*`}
 
-╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
+╭✨️⸽⃕ ${wm} 🍁⃨፝⃕✰
 ┃⍣ *🧑‍💻Dueño Del Bot:* Diego       
 ┃⍣ *👤Cliente:* ${taguser}
 ┃⍣ *🧭Bot:* ${packname}
