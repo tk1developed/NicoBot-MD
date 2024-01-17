@@ -32,7 +32,7 @@ const handler = async (m, {conn, usedPrefix}) => {
         'mediaUrl': 'https://github.com/diegojadibot/SakuraBotLite-MD',
         'mediaType': 2,
         'previewType': 'pdf',
-        'title': 'Tu Mejor Bot Para Uso Personal',
+        'title': '𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭𝐋𝐢𝐭𝐞 𝐁𝐲: 𝐃𝐢𝐞𝐠𝐨',
         'body': wm,
         'thumbnail': imagen1,
         'sourceUrl': 'https://atom.bio/sakuralite'}},
