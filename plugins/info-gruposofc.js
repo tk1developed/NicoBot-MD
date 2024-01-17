@@ -34,7 +34,7 @@ https://chat.whatsapp.com/J6AJyZjMIiH6T7zHor6ycV
 https://chat.whatsapp.com/DUy6uCyXTQC5ReIyU1iLKm
 
 2 ᰔᩚ♕︎🅜︎🅤︎🅛︎🅣︎🅘︎.🅑︎🅞︎🅣︎🅢︎♕︎ᰔᩚ
-▢ https://chat.whatsapp.com/CH8yY2rs7y53XUiu2QQLER
+▢ https://chat.whatsapp.com/Cp6LjA7WfbXFQ4de9DFGGZ
 ─────────────
 🪁🌥Si Se Restableció El Enlace Del Grupo Entra Aqui En Algunos De Estos Link!! 
 
