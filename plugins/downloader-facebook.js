@@ -5,8 +5,12 @@ import fbDownloader from 'fb-downloader-scrapper';
 import {facebook} from '@xct007/frieren-scraper';
 import axios from 'axios';
 const handler = async (m, {conn, args, command, usedPrefix}) => {
-  if (!args[0]) throw `_*< DESCARGAS - FACEBOOK />*_\n\n*🌤 Ingrese un enlace de Facebook.*\n\n*🍨 Ejemplo:* _${usedPrefix + command} https://fb.watch/fOTpgn6UFQ/_`;
-  if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `_*< DESCARGAS - FACEBOOK />*_\n\n*🌤 Ingrese un enlace de Facebook.*\n\n*🍨 Ejemplo:* _${usedPrefix + command} https://fb.watch/fOTpgn6UFQ/_`;
+  if (!args[0]) throw `🎌 *Ingrese un enlace de facebook*
+
+Ejemplo, !fb https://fb.watch/kAOXy3wf2L/?mibextid=Nif5oz`;
+  if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `🎌 *Ingrese un enlace de facebook*
+
+Ejemplo, !fb https://fb.watch/kAOXy3wf2L/?mibextid=Nif5oz`;
   try {
     await m.reply(`_*< DESCARGAS - FACEBOOK />*_\n\n*🍧 Se está enviando el video. espere...*`);
     const d2ata = await facebook.v1(args[0]);
