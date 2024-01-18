@@ -287,7 +287,7 @@ async function connectionUpdate(update) {
   }
  if (connection == 'open') {
 console.log(chalk.yellowBright('\n╭━─━━─━━─━─≪  😼  ≫─━─━━─━━─━╮\n│\n│SakuraBotLite-MD Conectado🙀.\n│\n╰━─━━━─━━─━─≪ 🟢 ≫─━─━━─━━━─━╯\n'))
-conn.fakeReply('573013114854@s.whatsapp.net', '🌻 Hola Creador Soy SakuraBot\nRecientemente Me E Conectado Como Un Nuevo Bot', '0@s.whatsapp.net', '✨️CREADOR📚', '0@s.whatsapp.net')
+conn.fakeReply('573013114854@s.whatsapp.net', '🌻 Hola Creador Soy SakuraBot\nRecientemente Me E Conectado Como Un Nuevo Bot', '0@s.whatsapp.net', '✨️NUEVO BOT OFICIAL📚', '0@s.whatsapp.net')
   }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (connection === 'close') {
