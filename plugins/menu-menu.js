@@ -1,18 +1,38 @@
 import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
-  try {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
+  try {
+    const pp = imagen4;
+    // let vn = './media/menu.mp3'
+    const img = './Menu2.jpg';
+    const d = new Date(new Date + 3600000);
+    const locale = 'es-ES';
+    const week = d.toLocaleDateString(locale, {weekday: 'long'});
+    const date = d.toLocaleDateString(locale, {day: '2-digit', month: '2-digit', year: 'numeric'});
+    const _uptime = process.uptime() * 1000;
+    const uptime = clockString(_uptime);
+    const user = global.db.data.users[m.sender];
+    const {money, joincount} = global.db.data.users[m.sender];
+    const {exp, limit, level, role} = global.db.data.users[m.sender];
+    const rtotalreg = Object.values(global.db.data.users).filter((user) => user.registered == true).length;
+    const rtotal = Object.entries(global.db.data.users).length || '0'
+    const more = String.fromCharCode(8206);
+    const readMore = more.repeat(850);
+    const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
+    const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
 
-  const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 'numeric'});
-  const {money, joincount} = global.db.data.users[m.sender];
-  const {exp, limit, level, role} = global.db.data.users[m.sender];
-  const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
-  const fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': imagen1, thumbnail: imagen1 ,sendEphemeral: true}}};
-  let txt =`╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
+ await m.reply(`😸 Eɴᴠɪᴀɴᴅᴏ Eʟ Mᴇɴᴜ Dᴇʟ Bᴏᴛ, SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD....`);
+
+const document = doc[Math.floor(Math.random() * doc.length)];
+ const str = `${conn.user.jid == global.conn.user.jid ? '' : `𝐒𝐎𝐘 𝐒𝐔𝐁𝐁𝐎𝐓 » 𝐃𝐄: *@${global.conn.user.jid.split`@`[0]}*`}
+
+╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
 ┃⍣ *🧑‍💻Dueño Del Bot:* Diego       
 ┃⍣ *👤Cliente:* ${taguser}
 ┃⍣ *🧭Bot:* ${packname}
 ┃⍣ *🪁Subbot De:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
+┃⍣ *🔋Bateria:* ${conn.battery ? `${conn.battery.value}% ${conn.battery.live ? '🔌 Cargando...' : '⚡ Desconectado'}` : 'Desconocido'}
+┃⍣ *⚕️Prefijo Usado:* ${usedPrefix}
 ┃⍣ *⏰️Tiempo Activo:* ${uptime}
 ┃⍣ *💻Usuarios Regs:* ${rtotalreg}
 ┃⍣ *🗃Usuarios Totales:* ${rtotal}
@@ -32,87 +52,88 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ${readMore}
 ┏━━⊜ *SOLUCIONES* ━━⊜
 ┃⍣ 🧭 Mensajes en espera
-┃⍣ 🧭 _fixmsgespera_
+┃⍣ 🧭 _${usedPrefix}fixmsgespera_
 ┃⍣ 🧭 Mensajes en espera (owner)
-┃⍣ 🧭 _dsowner_
+┃⍣ 🧭 _${usedPrefix}dsowner_
 ╰━━━━━━━━━━━━━━━━⋄
 
 ┏━━⊜ *INFO BOT* ━━⊜
-┃⍣ 📋 _terminosycondiciones_
-┃⍣ 📋 _grupos_
-┃⍣ 📋 _estado_
-┃⍣ 📋 _infobot_
-┃⍣ 📋 _speedtest_
-┃⍣ 📋 _owner_
-┃⍣ 📋 _$script_
+┃⍣ 📋 _${usedPrefix}terminosycondiciones_
+┃⍣ 📋 _${usedPrefix}grupos_
+┃⍣ 📋 _${usedPrefix}estado_
+┃⍣ 📋 _${usedPrefix}infobot_
+┃⍣ 📋 _${usedPrefix}speedtest_
+┃⍣ 📋 _${usedPrefix}donar_
+┃⍣ 📋 _${usedPrefix}owner_
+┃⍣ 📋 _${usedPrefix}script_
 ┃⍣ 📋 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ╰━━━━━━━━━━━━━━━━⋄
 
 ┏━━⊜ *BOT A TU GRUPO* ━⊜
-┃⍣ 🙀 _join *<enlace / link / url>*_
+┃⍣ 🙀 _${usedPrefix}join *<enlace / link / url>*_
 ╰━━━━━━━━━━━━━━━━⋄
 
 ┏━━⊜ *SER SUBBOT* ━⊜
-┃⍣ 💻 _serbot_
-┃⍣ 💻 _deletebot_
-┃⍣ 💻 _token_
-┃⍣ 💻 _stop_
-┃⍣ 💻 _bots_
+┃⍣ 💻 _${usedPrefix}serbot_
+┃⍣ 💻 _${usedPrefix}deletebot_
+┃⍣ 💻 _${usedPrefix}token_
+┃⍣ 💻 _${usedPrefix}stop_
+┃⍣ 💻 _${usedPrefix}bots_
 ╰━━━━━━━━━━━━━━━━⋄
 
 ┏━━⊜ *HERRAMIENTAS* ━━⊜
-┃⍣ 🛠 _enable restrict_
-┃⍣ 🛠 _disable restrict_
-┃⍣ 🛠 _enable autoread_
-┃⍣ 🛠 _disable autoread_
-┃⍣ 🛠 _enable antispam_
-┃⍣ 🛠 _disable antispam_
-┃⍣ 🛠 _enable anticall_
-┃⍣ 🛠 _disable anticall_
-┃⍣ 🛠 _enable modoia_
-┃⍣ 🛠 _disable modoia_
-┃⍣ 🛠 _enable audios_bot_
-┃⍣ 🛠 _disable audios_bot_
-┃⍣ 🛠 _enable antiprivado_
-┃⍣ 🛠 _disable antiprivado_
+┃⍣ 🛠 _${usedPrefix}enable restrict_
+┃⍣ 🛠 _${usedPrefix}disable restrict_
+┃⍣ 🛠 _${usedPrefix}enable autoread_
+┃⍣ 🛠 _${usedPrefix}disable autoread_
+┃⍣ 🛠 _${usedPrefix}enable antispam_
+┃⍣ 🛠 _${usedPrefix}disable antispam_
+┃⍣ 🛠 _${usedPrefix}enable anticall_
+┃⍣ 🛠 _${usedPrefix}disable anticall_
+┃⍣ 🛠 _${usedPrefix}enable modoia_
+┃⍣ 🛠 _${usedPrefix}disable modoia_
+┃⍣ 🛠 _${usedPrefix}enable audios_bot_
+┃⍣ 🛠 _${usedPrefix}disable audios_bot_
+┃⍣ 🛠 _${usedPrefix}enable antiprivado_
+┃⍣ 🛠 _${usedPrefix}disable antiprivado_
 ╰━━━━━━━━━━━━━━━━⋄
 
 ┏━━⊜ *DIVERSIONES* ━━⊜
-┃⍣ 🌹 _mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
-┃⍣ 🌹 _fake *<texto1> <@tag> <texto2>*_
+┃⍣ 🌹 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
+┃⍣ 🌹 _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
 ┃⍣ 🌹 _${usedPrefix}ppt *<papel / tijera /piedra>*_
-┃⍣ 🌹 _prostituto *<nombre / @tag>*_
-┃⍣ 🌹 _prostituta *<nombre / @tag>*_
-┃⍣ 🌹 _gay2 *<nombre / @tag>*_
-┃⍣ 🌹 _lesbiana *<nombre / @tag>*_
-┃⍣ 🌹 _pajero *<nombre / @tag>*_
-┃⍣ 🌹 _pajera *<nombre / @tag>*_
-┃⍣ 🌹 _follar *<nombre / @tag>*_
-┃⍣ 🌹 _puto *<nombre / @tag>*_
-┃⍣ 🌹 _puta *<nombre / @tag>*_
-┃⍣ 🌹 _manco *<nombre / @tag>*_
-┃⍣ 🌹 _manca *<nombre / @tag>*_
-┃⍣ 🌹 _rata *<nombre / @tag>*_
-┃⍣ 🌹 _love *<nombre / @tag>*_
-┃⍣ 🌹 _doxear *<nombre / @tag>*_
-┃⍣ 🌹 _pregunta *<texto>*_
-┃⍣ 🌹 _suitpvp *<@tag>*_
-┃⍣ 🌹 _slot *<apuesta>*_
-┃⍣ 🌹 _ttt *<nombre sala>*_
-┃⍣ 🌹 _delttt_
-┃⍣ 🌹 _acertijo_
-┃⍣ 🌹 _personalidad *<nombre / @tag>*_
-┃⍣ 🌹 _simi *<texto>*_
-┃⍣ 🌹 _top *<texto>*_
-┃⍣ 🌹 _topgays_
-┃⍣ 🌹 _topotakus_
-┃⍣ 🌹 _formarpareja_
-┃⍣ 🌹 _verdad_
-┃⍣ 🌹 _reto_
-┃⍣ 🌹 _cancion_
-┃⍣ 🌹 _pista_
-┃⍣ 🌹 _akinator_
-┃⍣ 🌹 _wordfind_
+┃⍣ 🌹 _${usedPrefix}prostituto *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}prostituta *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}gay2 *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}lesbiana *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}pajero *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}pajera *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}follar *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}puto *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}puta *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}manco *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}manca *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}rata *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}love *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}doxear *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}pregunta *<texto>*_
+┃⍣ 🌹 _${usedPrefix}suitpvp *<@tag>*_
+┃⍣ 🌹 _${usedPrefix}slot *<apuesta>*_
+┃⍣ 🌹 _${usedPrefix}ttt *<nombre sala>*_
+┃⍣ 🌹 _${usedPrefix}delttt_
+┃⍣ 🌹 _${usedPrefix}acertijo_
+┃⍣ 🌹 _${usedPrefix}personalidad *<nombre / @tag>*_
+┃⍣ 🌹 _${usedPrefix}simi *<texto>*_
+┃⍣ 🌹 _${usedPrefix}top *<texto>*_
+┃⍣ 🌹 _${usedPrefix}topgays_
+┃⍣ 🌹 _${usedPrefix}topotakus_
+┃⍣ 🌹 _${usedPrefix}formarpareja_
+┃⍣ 🌹 _${usedPrefix}verdad_
+┃⍣ 🌹 _${usedPrefix}reto_
+┃⍣ 🌹 _${usedPrefix}cancion_
+┃⍣ 🌹 _${usedPrefix}pista_
+┃⍣ 🌹 _${usedPrefix}akinator_
+┃⍣ 🌹 _${usedPrefix}wordfind_
 ╰━━━━━━━━━━━━━━━━⋄
 
 ┏━━━⊜ *ON/OFF* ━━━⊜
@@ -475,14 +496,26 @@ ${readMore}
 ┃⍣ 👑 _${usedPrefix}delcmd *<responder a sticker/imagen con comando o texto asignado>*_
 ┃⍣ 👑 _${usedPrefix}saveimage_
 ┃⍣ 👑 _${usedPrefix}viewimage_
-╰━━━━━━━━━━━━━━━━⋄`;
-   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '☆ 𝗟𝗢𝗕𝗢 - 𝗕𝗢𝗧 - 𝗠𝗗 ☆', "containsAutoReply": true, "mediaType": 1, "thumbnail": [imagen6,imagen1,imagen4].getRandom(), "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
- // m.react('🐺');
+╰━━━━━━━━━━━━━━━━⋄`.trim();     if (m.isGroup) { 
+ // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
+      const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
+      conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
+    } else {
+      // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
+      const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
+      conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
+    }
   } catch {
-    conn.reply(m.chat, '[⛔] 𝗙𝗮𝗹𝗹𝗼, 𝗘𝗹 𝗺𝗲𝗻𝘂 𝘁𝗶𝗲𝗻𝗲 𝘂𝗻 𝗲𝗿𝗿𝗼𝗿 𝗽𝗼𝗿 𝗳𝗮𝘃𝗼𝗿 𝗿𝗲𝗽𝗼𝗿𝘁𝗮𝗹𝗼 𝗮𝗹 𝘀𝘁𝗮𝗳𝗳.', m);
+    conn.reply(m.chat, '*[ ℹ️ ] Este menu tiene un error interno, por lo cual no fue posible enviarlo.*', m);
   }
 };
-handler.help = ['menu'];
-handler.tags = ['menu'];
-handler.command = /^(menu|menú|COMANDOS|comandos)$/i;
+handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i;
+handler.exp = 50;
+handler.fail = null;
 export default handler;
+function clockString(ms) {
+  const h = isNaN(ms) ? '--' : Math.floor(ms / 3600000);
+  const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
+  const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
+  return [h, m, s].map((v) => v.toString().padStart(2, 0)).join(':');
+}
