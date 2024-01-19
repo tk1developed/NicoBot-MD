@@ -11,17 +11,16 @@ import { es } from "./lib/idiomas/total-idiomas.js"
 
 global.botnumber = ""
 
-global.owner = [['573013114854', 'SᴀᴋᴜʀᴀBot-MD ✨️', true],
-  ['573218138672', '💫 Sakura - Collaborator 1 💫', true],
-  ['573207200376', '💫 Sakura - Collaborator 2 💫', true],
-  ['573246822621', '💫 Sakura - Collaborator 3 💫', true],
-  ['573106909511', '💫 Sakura - Collaborator 4 💫', true],
-  ['51935499065', '💫 Sakura - Collaborator 5 💫', true],
-  ['526366923240', '💫 Sakura - Collaborator 6 💫', true],
-  ['51944167935', '💫 Sakura - Kiara 💫', false],
-  ['573001452386', '💫 Sakura - Collaborator 8 💫', true],
-  ['573003014644','💫 Sakura - Milena💫', true]
-];
+global.owner = [
+  ['573013114854', '✨️CREADOR✨️', true],
+  ['50558124470', 'Ender Colaborador', true],
+  ['573246822621'],
+  ['573106909511'],
+  ['573218138672', 'Owner', true],
+  ['573207200376', 'Colaboradora', true],
+  ['584129799955'], ['573027866596'], ['51941987051'],
+
+  ];
 
 global.suittag = ['573013114854'];
 global.prems = ['573218138672'];
