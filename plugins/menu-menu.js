@@ -27,7 +27,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃⍣ *👾SakuCoins:* ${money}
 ┃⍣ *🪙Tokens:* ${joincount}
 ╰━━━━━━━━━━━━━━━━⋄
-${readMore}
+
 ┏━━⊜ *SOLUCIONES* ━━⊜
 ┃⍣ 🧭 Mensajes en espera
 ┃⍣ 🧭 _fixmsgespera_
