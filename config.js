@@ -11,16 +11,7 @@ import { es } from "./lib/idiomas/total-idiomas.js"
 
 global.botnumber = ""
 
-global.owner = [
-  ['573013114854', '✨️CREADOR✨️', true],
-  ['50558124470', 'Ender Colaborador', true],
-  ['573246822621'],
-  ['573106909511'],
-  ['573218138672', 'Owner', true],
-  ['573207200376', 'Colaboradora', true],
-  ['584129799955'], ['573027866596'], ['51941987051'],
-
-  ];
+global.owner = [['573013114854', '✨️CREADOR✨️', true], ['50558124470', 'Ender Colaborador', true], ['573246822621'], ['573106909511'], ['573218138672', 'Owner', true], ['573207200376', 'Colaboradora', true], ['584129799955'], ['573027866596'], ['51941987051']];
 
 global.suittag = ['573013114854'];
 global.prems = ['573218138672'];
