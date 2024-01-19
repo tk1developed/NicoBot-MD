@@ -10,12 +10,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': imagen1, thumbnail: imagen1 ,sendEphemeral: true}}};
     await conn.reply(m.chat, '🩶𝖯𝗋𝗈𝗇𝗍𝗈 𝖲𝖾 𝖫𝖾 𝖤𝗇𝗏𝗂𝖺𝗋𝖺 𝖤𝗅 𝖬𝖾𝗇𝗎 𝖣𝖾𝗅 𝖡𝗈𝗍. . .',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '𝘽𝙪𝙚𝙣𝙖𝙨 𝙐𝙨𝙪𝙖𝙧𝙞𝙤💚!!', body: '⏰Eɴᴠɪᴀɴᴅᴏ EL Mᴇɴᴜ', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
 //m.react('⏰');
-    await conn.sendMessage(m.chat, { react: { text: '🩷', key: m.key } })
+    await conn.sendMessage(m.chat, { react: { text: '🌻', key: m.key } })
   let txt =`╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
 ┃⍣ *🧑‍💻Dueño Del Bot:* Diego       
 ┃⍣ *🌥Numero:* +57 301 3114854
 ┃⍣ *⏰️Tiempo Activo:* ${uptime}
 ┃⍣ *📅Fecha:* ${date} 
+┃⍣ *🌻Saludo Para Ti*
 ╰━━━━━━━━━━━━━━━━⋄
 
 ┏━━⊜ *INFO USER* ━⊜
