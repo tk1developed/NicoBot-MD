@@ -35,6 +35,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰━━━━━━━━━━━━━━━━⋄
 
 ┏━━⊜ *INFO BOT* ━━⊜
+┃⍣ 📋 _botreglas_
 ┃⍣ 📋 _terminosycondiciones_
 ┃⍣ 📋 _grupos_
 ┃⍣ 📋 _estado_
@@ -76,6 +77,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰━━━━━━━━━━━━━━━━⋄
 
 ┏━━⊜ *DIVERSIONES* ━━⊜
+┃⍣ 🌹 _love_
 ┃⍣ 🌹 _mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
 ┃⍣ 🌹 _fake *<texto1> <@tag> <texto2>*_
 ┃⍣ 🌹 _ppt *<papel / tijera /piedra>*_
