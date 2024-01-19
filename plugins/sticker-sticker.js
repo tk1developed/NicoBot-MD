@@ -11,8 +11,8 @@ let autor = await conn.getName(who)
 let q = m.quoted ? m.quoted : m
 let mime = (q.msg || q).mimetype || q.mediaType || ''
 
-if (!/webp|image|video/g.test(mime) && !text) return m.reply(`*⚠️ 𝘏𝘦𝘺 𝘓𝘢 𝘊𝘰𝘯𝘷𝘦𝘳𝘴𝘪𝘰́𝘯 𝘏𝘢 𝘍𝘢𝘭𝘭𝘢𝘥𝘰, 𝘐𝘯𝘵𝘦𝘯𝘵𝘢 𝘌𝘯𝘷𝘪𝘢𝘳 𝘜𝘯𝘢 𝘐𝘮𝘢𝘨𝘦𝘯 𝘖 𝘝𝘪𝘥𝘦𝘰 𝘠 𝘓𝘶𝘦𝘨𝘰 𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦 𝘊𝘰𝘯 𝘌𝘭 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 .𝘴*`)
-if (/video/g.test(mime)) if ((q.msg || q).seconds > 10) return m.reply('*⚠️Eʟ Vɪᴅᴇᴏ Nᴏ Pᴜᴇᴅᴇ Dᴜʀᴀʀ Mᴀs Dᴇ 6 Sᴇɢᴜɴᴅᴏs*')
+if (!/webp|image|video/g.test(mime) && !text) return m.reply(`⚠️ 𝘏𝘦𝘺 𝘓𝘢 𝘊𝘰𝘯𝘷𝘦𝘳𝘴𝘪𝘰́𝘯 𝘏𝘢 𝘍𝘢𝘭𝘭𝘢𝘥𝘰, 𝘐𝘯𝘵𝘦𝘯𝘵𝘢 𝘌𝘯𝘷𝘪𝘢𝘳 𝘜𝘯𝘢 𝘐𝘮𝘢𝘨𝘦𝘯 𝘖 𝘝𝘪𝘥𝘦𝘰 𝘠 𝘓𝘶𝘦𝘨𝘰 𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦 𝘊𝘰𝘯 𝘌𝘭 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 .𝘴`)
+if (/video/g.test(mime)) if ((q.msg || q).seconds > 10) return m.reply('⚠️Eʟ Vɪᴅᴇᴏ Nᴏ Pᴜᴇᴅᴇ Dᴜʀᴀʀ Mᴀs Dᴇ 6 Sᴇɢᴜɴᴅᴏs')
 
 if (/webp|image|video/g.test(mime)) {
 let img = await q.download?.()
@@ -34,7 +34,7 @@ stiker = await sticker(false, out, global.packname, global.author)
 if (!stiker) errorMessage = 'ERROR'
 }} else if (args[0]) {
 if (isUrl(args[0])) stiker = await sticker(false, args[0], global.packname, global.author)
-else return m.reply('*⚠️ EL ENLACE / URL / LINK NO ES VÁLIDO*')}
+else return m.reply('⚠️ EL ENLACE / URL / LINK NO ES VÁLIDO')}
 
 if (stiker) {
 conn.sendFile(m.chat, stiker, 'sticker.webp', '', m)
