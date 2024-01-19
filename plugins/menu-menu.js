@@ -19,12 +19,12 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰━━━━━━━━━━━━━━━━⋄
 
 ┏━━⊜ *INFO USER* ━⊜
-┃⍣ 🕹️ 𝐍𝐈𝐕𝐄𝐋: ${level}
-┃⍣ ✨ 𝐄𝐗𝐏𝐄𝐑𝐈𝐄𝐍𝐂𝐈𝐀: ${exp}
-┃⍣ 🌐 𝐑𝐀𝐍𝐆𝐎: ${role}
-┃⍣ 💎 𝐃𝐈𝐀𝐌𝐀𝐍𝐓𝐄𝐒: ${limit}
-┃⍣ 💰 𝐋𝐎𝐁𝐎𝐂𝐎𝐈𝐍𝐒: ${money}
-┃⍣ 🔮 𝐓𝐎𝐊𝐄𝐍𝐒: ${joincount}
+┃⍣ *🕹️Nivel:* ${level}
+┃⍣ *✨️Experiencia:* ${exp}
+┃⍣ *⚓️Rango:* ${role}
+┃⍣ *💎Diamantes:* ${limit}
+┃⍣ *💰SakuCoins:* ${money}
+┃⍣ *🪙Tokens:* ${joincount}
 ╰━━━━━━━━━━━━━━━━⋄
 
 ┏━━⊜ *SOLUCIONES* ━━⊜
