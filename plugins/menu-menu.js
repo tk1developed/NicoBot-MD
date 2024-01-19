@@ -20,7 +20,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰━━━━━━━━━━━━━━━━⋄
 
 ┏━━⊜ *INFO USER* ━⊜
-┃⍣ *😼 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
 ┃⍣ *🎖Nivel:* ${level}
 ┃⍣ *🧰Experiencia:* ${exp}
 ┃⍣ *⚓️Rango:* ${role}
