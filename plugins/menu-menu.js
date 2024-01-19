@@ -18,8 +18,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃⍣ *🧭Bot:* ${packname}
 ┃⍣ *🪁Subbot De:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
 ┃⍣ *⏰️Tiempo Activo:* ${uptime}
-┃⍣ *💻Usuarios Regs:* ${rtotalreg}
-┃⍣ *🗃Usuarios Totales:* ${rtotal}
 ┃⍣ *📅Fecha:* ${date} 
 ╰━━━━━━━━━━━━━━━━⋄
 
