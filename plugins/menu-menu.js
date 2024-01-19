@@ -1,4 +1,3 @@
-
 import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   try {
@@ -17,20 +16,24 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃⍣ *👤Cliente:* ${taguser}
 ┃⍣ *🧭Bot:* ${packname}
 ┃⍣ *🪁Subbot De:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
+┃⍣ *🔋Bateria:* ${conn.battery ? `${conn.battery.value}% ${conn.battery.live ? '🔌 Cargando...' : '⚡ Desconectado'}` : 'Desconocido'}
+┃⍣ *⚕️Prefijo Usado:* ${usedPrefix}
 ┃⍣ *⏰️Tiempo Activo:* ${uptime}
+┃⍣ *💻Usuarios Regs:* ${rtotalreg}
+┃⍣ *🗃Usuarios Totales:* ${rtotal}
 ┃⍣ *📅Fecha:* ${date} 
 ╰━━━━━━━━━━━━━━━━⋄
 
-┏━━⊜ *INFO USER* ━⊜
-┃⍣ *😼 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
-┃⍣ *🎖Nivel:* ${level}
-┃⍣ *🧰Experiencia:* ${exp}
-┃⍣ *⚓️Rango:* ${role}
-┃⍣ *💎Diamantes:* ${limit}
-┃⍣ *👾SakuCoins:* ${money}
-┃⍣ *🪙Tokens:* ${joincount}
-┃⍣ *🎟Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
-╰━━━━━━━━━━━━━━━━⋄
+┏━━━━━━━━━━━━━━━━┓
+┃ ⏤͟͟͞𝙄𝙉𝙁𝙊 𝘿𝙀𝙇 𝙐𝙎𝙐𝘼𝙍𝙄𝙊 
+┗━━━━━━━━━━━━━━
+┣┅⟣☆ 🕹️ 𝐍𝐈𝐕𝐄𝐋: ${level}
+┣┅⟣☆ ✨ 𝐄𝐗𝐏𝐄𝐑𝐈𝐄𝐍𝐂𝐈𝐀: ${exp}
+┣┅⟣☆ 🌐 𝐑𝐀𝐍𝐆𝐎: ${role}
+┣┅⟣☆ 💎 𝐃𝐈𝐀𝐌𝐀𝐍𝐓𝐄𝐒: ${limit}
+┣┅⟣☆ 💰 𝐋𝐎𝐁𝐎𝐂𝐎𝐈𝐍𝐒: ${money}
+┣┅⟣☆ 🔮 𝐓𝐎𝐊𝐄𝐍𝐒: ${joincount}
+┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
 ┃ ⏤͟͟͞𝘽𝙊𝙏 𝙊𝙁𝘾 𝙊 𝙎𝙐𝘽-𝘽𝙊𝙏
