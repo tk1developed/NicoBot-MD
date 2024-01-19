@@ -1,52 +1,11 @@
-const handler = async (m, {conn, usedPrefix}) => {
-  const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
-  const document = doc[Math.floor(Math.random() * doc.length)];
-  const text = `┏━━━━━━━━━━━━━━━━⋄
-┃⍣🌻🪁 𝐂𝐑𝐄𝐀𝐃𝐎𝐑: 
-┃⍣ Wa.me/573013114854
-┃
-┃━━━━━━━━━━━━━━━━⋄
-┃
-┃⍣✨🌴 𝐂𝐎𝐋𝐀𝐁𝐎𝐑𝐀𝐃𝐎𝐑:
-┃⍣ Wa.me/51935499065
-┃
-┃━━━━━━━━━━━━━━━━⋄
-┃
-┃⍣❣️🩷 𝐘𝐎𝐔𝐓𝐔𝐁𝐄:
-┃⍣ www.youtube.com/@SakuraBotLite
-┃
-┃━━━━━━━━━━━━━━━━⋄
-┃
-┃⍣🍃🫶🏻 𝐆𝐈𝐓𝐇𝐔𝐁:
-┃⍣ github.com/diegojadibot/SakuraBotLite-MD
-┃
-╰━━━━━━━━━━━━━━━━⋄`.trim();
-  const buttonMessage= {
-    'document': {url: `https://github.com/diegojadibot/SakuraBotLite-MD`},
-    'mimetype': `application/${document}`,
-    'fileName': `「 DɪᴇɢᴏOғɪᴄɪᴀʟ 」`,
-    'fileLength': 209,
-    'pageCount': 200,
-    'contextInfo': {
-      'forwardingScore': 200,
-      'isForwarded': true,
-      'externalAdReply': {
-        'mediaUrl': 'https://github.com/diegojadibot/SakuraBotLite-MD',
-        'mediaType': 2,
-        'previewType': 'pdf',
-        'title': '𝑆𝑎𝑘𝑢𝑟𝑎𝐵𝑜𝑡𝐿𝑖𝑡𝑒-𝑀𝐷',
-        'body': wm,
-        'thumbnail': imagen1,
-        'sourceUrl': 'https://atom.bio/sakuralite'}},
-    'caption': text,
-    'footer': wm,
-    // 'buttons':[
-    // {buttonId: `${usedPrefix}menu`, buttonText: {displayText: '𝙼𝙴𝙽𝚄'}, type: 1},
-    // {buttonId: `${usedPrefix}donar`, buttonText: {displayText: '𝙳𝙾𝙽𝙰𝚁'}, type: 1}],
-    'headerType': 6};
-  conn.sendMessage(m.chat, buttonMessage, {quoted: m});
-};
-handler.help = ['owner', 'creator'];
-handler.tags = ['info'];
-handler.command = /^(owner|creator|creador|propietario)$/i;
-export default handler;
+function handler(m) {
+  const data = global.owner.filter(([id, isCreator]) => id && isCreator)
+  this.sendContact(m.chat, data.map(([id, name]) => [id, name]), m)
+
+}
+
+handler.help = ['owner']
+handler.tags = ['main']
+handler.command = ['owner', 'creator', 'creador', 'dueño'] 
+
+export default handler
