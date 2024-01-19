@@ -8,21 +8,16 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const {exp, limit, level, role} = global.db.data.users[m.sender];
   const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
   const fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': imagen1, thumbnail: imagen1 ,sendEphemeral: true}}};
-    await conn.reply(m.chat, '𝗘𝗻𝘃𝗶𝗮𝗻𝗱𝗼 𝗺𝗲𝗻𝘂📍. . .',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '𝗕𝘂𝗲𝗻𝗼𝘀 𝗱𝗶𝗮𝘀 𝗕𝗕☀️!!', body: 'bienvenido', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
-//m.react('🐺');
-    await conn.sendMessage(m.chat, { react: { text: '💖', key: m.key } })
-  let txt =`╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
-┃⍣ *🧑‍💻Dueño Del Bot:* Diego       
-┃⍣ *👤Cliente:* ${taguser}
-┃⍣ *🧭Bot:* ${packname}
-┃⍣ *🪁Subbot De:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
-┃⍣ *🔋Bateria:* ${conn.battery ? `${conn.battery.value}% ${conn.battery.live ? '🔌 Cargando...' : '⚡ Desconectado'}` : 'Desconocido'}
-┃⍣ *⚕️Prefijo Usado:* ${usedPrefix}
-┃⍣ *⏰️Tiempo Activo:* ${uptime}
-┃⍣ *💻Usuarios Regs:* ${rtotalreg}
-┃⍣ *🗃Usuarios Totales:* ${rtotal}
-┃⍣ *📅Fecha:* ${date} 
-╰━━━━━━━━━━━━━━━━⋄
+    await conn.reply(m.chat, '🩷𝘌𝘴𝘱𝘦𝘳𝘢 𝘌𝘴𝘵𝘰𝘺 𝘌𝘯𝘷𝘪𝘢𝘯𝘥𝘰 𝘌𝘭 𝘔𝘦𝘯𝘶🩵. . .',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '𝐁𝐮𝐞𝐧𝐚𝐬 𝐂𝐨𝐦𝐨 𝐄𝐬𝐭𝐚𝐬🩵!!', body: 'bienvenido', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
+//m.react('🩵');
+    await conn.sendMessage(m.chat, { react: { text: '🩷', key: m.key } })
+  let txt =`┏━━━━━━━━━━━━━━━━━━
+┣┅⟣✦ 𝐇𝐨𝐥𝐚 𝐒𝐨𝐲 𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭 
+┣┅⟣✦ 𝖣𝗎𝖾𝗇̃𝗈 𝖣𝖾𝗅 𝖡𝗈𝗍: 𝑫𝒊𝒆𝒈𝒐𝑶𝒇𝒊𝒄𝒊𝒂𝒍
+┣┅⟣✦ 𝖭𝗎𝗆𝖾𝗋𝗈:+505 5812 4470
+┣┅⟣✦ 𝖥𝖾𝖼𝗁𝖺: ${date}
+┣┅⟣✦ 𝗟𝗶𝗻𝗱𝗼 𝗱𝗶𝗮 𝗽𝗮𝗿𝗮 𝘁𝗶
+┗━━━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
 ┃ ⏤͟͟͞𝙄𝙉𝙁𝙊 𝘿𝙀𝙇 𝙐𝙎𝙐𝘼𝙍𝙄𝙊 
