@@ -17,8 +17,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃⍣ *👤Cliente:* ${taguser}
 ┃⍣ *🧭Bot:* ${packname}
 ┃⍣ *🪁Subbot De:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
-┃⍣ *🔋Bateria:* ${conn.battery ? `${conn.battery.value}% ${conn.battery.live ? '🔌 Cargando...' : '⚡ Desconectado'}` : 'Desconocido'}
-┃⍣ *⚕️Prefijo Usado:* ${usedPrefix}
 ┃⍣ *⏰️Tiempo Activo:* ${uptime}
 ┃⍣ *💻Usuarios Regs:* ${rtotalreg}
 ┃⍣ *🗃Usuarios Totales:* ${rtotal}
