@@ -16,7 +16,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃⍣ *🌥Numero:* +57 301 3114854
 ┃⍣ *🚀Bot Oficial:* +51 935 499 065
 ┃⍣ *📅Fecha:* ${date}
- ${name}
 ┃⍣ *🌻Saludo Para Ti*
 ╰━━━━━━━━━━━━━━━━⋄
 
