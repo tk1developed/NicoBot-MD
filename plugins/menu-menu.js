@@ -14,7 +14,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   let txt =`╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
 ┃⍣ *🧑‍💻Dueño Del Bot:* Diego       
 ┃⍣ *🌥Numero:* +57 301 3114854
-┃⍣ *🚀Bot:* 𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿✨
+┃⍣ *🚀Bot:* 
 ┃⍣ *📅Fecha:* ${date}
 ┃⍣ *🌻Saludo Para Ti*
 ╰━━━━━━━━━━━━━━━━⋄
