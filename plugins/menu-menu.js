@@ -12,9 +12,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 //m.react('⏰');
     await conn.sendMessage(m.chat, { react: { text: '🌻', key: m.key } })
   let txt =`╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
+┃⍣ 👋🏻𝖧𝗈𝗅𝖺,𝖢𝗈𝗆𝗈 𝖤𝗌𝗍𝖺𝗌
 ┃⍣ *🧑‍💻Dueño Del Bot:* Diego       
-┃⍣ *🌥Numero:* +57 301 3114854
-┃⍣ *🚀Bot:* 
+┃⍣ *🌥Numero:* +57 301 3114854 
 ┃⍣ *📅Fecha:* ${date}
 ┃⍣ *🌻Saludo Para Ti*
 ╰━━━━━━━━━━━━━━━━⋄
