@@ -15,27 +15,27 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚶ 👋🏻𝐇𝐨𝐥𝐚,𝖢𝗈𝗆𝗈 𝖤𝗌𝗍𝖺𝗌
 ┣⚶ *🧑‍💻Dueño Del Bot:* Diego       
 ┣⚶ *🌥Numero:* +57 301 3114854 
-┣⚶ *📅Fecha:* ${date}
+┣⚶ *📅Fecha:* 20 de enero de 2024
 ┣⚶ *🌻Saludo Para Ti*
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *INFO USER* ━⊜
-┣⚶ *🕹️Nivel:* ${level}
-┣⚶ *✨️Experiencia:* ${exp}
-┣⚶ *⚓️Rango:* ${role}
-┣⚶ *💎Diamantes:* ${limit}
-┣⚶ *💰SakuCoins:* ${money}
-┣⚶ *🪙Tokens:* ${joincount}
+╔─━━ *INFO USER* ━━─╗
+┣⚶ *🕹️Nivel:* 0
+┣⚶ *✨️Experiencia:* 330
+┣⚶ *⚓️Rango:* Guerrero V
+┣⚶ *💎Diamantes:* 20
+┣⚶ *💰SakuCoins:* 15
+┣⚶ *🪙Tokens:* 2
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *SOLUCIONES* ━━⊜
+╔─━━ *SOLUCIONES* ━━─╗
 ┣⚶ 🧭 Mensajes en espera
 ┣⚶ 🧭 _fixmsgespera_
 ┣⚶ 🧭 Mensajes en espera (owner)
 ┣⚶ 🧭 _dsowner_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *INFO BOT* ━━⊜
+╔─━━ *INFO BOT* ━━─╗
 ┣⚶ 📋 _botreglas_
 ┣⚶ 📋 _terminosycondiciones_
 ┣⚶ 📋 _grupos_
@@ -48,11 +48,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚶ 📋 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *BOT A TU GRUPO* ━⊜
+╔─━━ *BOT A TU GRUPO* ━━─╗
 ┣⚶ 🙀 _join *<enlace / link / url>*_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *SER SUBBOT* ━⊜
+╔─━━ *SER SUBBOT* ━━─╗
 ┣⚶ 💻 _serbot_
 ┣⚶ 💻 _deletebot_
 ┣⚶ 💻 _token_
@@ -60,7 +60,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚶ 💻 _bots_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *HERRAMIENTAS* ━━⊜
+╔─━━ *HERRAMIENTAS* ━━─╗
 ┣⚶ 🛠 _enable restrict_
 ┣⚶ 🛠 _disable restrict_
 ┣⚶ 🛠 _enable autoread_
@@ -77,7 +77,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚶ 🛠 _disable antiprivado_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *DIVERSIONES* ━━⊜
+╔─━━ *DIVERSIONES* ━━─╗
 ┣⚶ 🌹 _love_
 ┣⚶ 🌹 _mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
 ┣⚶ 🌹 _fake *<texto1> <@tag> <texto2>*_
@@ -116,7 +116,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚶ 🌹 _wordfind_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━━⊜ *ON/OFF* ━━━⊜
+╔─━━ *ON/OFF* ━━─╗
 ┣⚶ ✨️ _enable *welcome*_
 ┣⚶ ✨️ _disable *welcome*_
 ┣⚶ ✨️ _enable *modohorny*_
@@ -145,11 +145,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚶ ✨️ _disable *antidelete*_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *REPORTE* ━━⊜
+╔─━━ *REPORTE* ━━─╗
 ┣⚶ 🖥 _reporte *<texto>*_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *DESCARGAS* ━━⊜
+╔─━━ *DESCARGAS* ━━─╗
 ┣⚶ 🛰 _instagram *<enlace / link / url>*_
 ┣⚶ 🛰 _mediafire *<enlace / link / url>*_
 ┣⚶ 🛰 _gitclone *<enlace / link / url>*_
@@ -187,7 +187,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚶ 🛰 _tiktokstalk *<username>*_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *BUSCADORES* ━━⊜
+╔─━━ *BUSCADORES* ━━─╗
 ┣⚶ 🔎 _githubsearch *<texto>*_
 ┣⚶ 🔎 _pelisplus *<texto>*_
 ┣⚶ 🔎 _modapk *<texto>*_
@@ -202,7 +202,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚶ 🔎 _playstore *<texto>*_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *GRUPO AJUSTES* ━⊜
+╔─━━ *GRUPO AJUSTES* ━━─╗
 ┣⚶ ⚙️ _salir *<admins>*_
 ┣⚶ ⚙️ _add *<numero>*_
 ┣⚶ ⚙️ _kick *<@tag>*_
@@ -235,7 +235,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚶ ⚙️ _setpp *<imagen>*_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *CONVERTIDORES* ━⊜
+╔─━━ *CONVERTIDORES* ━━─╗
 ┣⚶ 🧶 _toanime *<imagen>*_
 ┣⚶ 🧶 _togifaud *<video>*_
 ┣⚶ 🧶 _toimg *<sticker>*_
@@ -248,7 +248,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚶ 🧶 _tts *<efecto> <texto>*_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *LOGOS Y EFECTOS* ━⊜
+╔─━━ *LOGOS Y EFECTOS* ━━─╗
 ┣⚶ 🖼 _logos *<efecto> <texto>*_
 ┣⚶ 🖼 _logochristmas *<texto>*_
 ┣⚶ 🖼 _logocorazon *<texto>*_
@@ -261,18 +261,18 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚶ 🖼 _blur_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *PIROPOS* ━━⊜
+╔─━━ *PIROPOS* ━━─╗
 ┣⚶ ✏️  _piropo_
 ┣⚶ ✏️  _consejo_
 ┣⚶ ✏️  _fraseromantica_
 ┣⚶ ✏️  _historiaromantica_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *RAND ANIMES* ━⊜
+╔─━━ *RAND ANIMES* ━━─╗
 ┣⚶ 📓 _menuanimes_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *RANDOM* ━━⊜
+╔─━━ *RANDOM* ━━─╗
 ┣⚶ 📺 _kpop *<blackpink / exo / bts>*_
 ┣⚶ 📺 _cristianoronaldo_
 ┣⚶ 📺 _messi_
@@ -302,11 +302,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚶ 📺 _randomprofile_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *COMANDO +18* ━⊜
+╔─━━ *COMANDO +18* ━━─╗
 ┣⚶ 📒 _hornymenu_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *EFECTOS DE AUDIOS* ━⊜
+╔─━━ *EFECTOS DE AUDIOS* ━━─╗
 ┣⚶ 𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦 𝘈 𝘜𝘯𝘢 𝘕𝘰𝘵𝘢 𝘋𝘦 𝘈𝘶𝘥𝘪𝘰
 ┣⚶ 🔊 _bass_
 ┣⚶ 🔊 _blown_
@@ -322,17 +322,17 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚶ 🔊 _tupai_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *CHAT ANONIMO* ━⊜
+╔─━━ *CHAT ANONIMO* ━━─╗
 ┣⚶ ✔️ _start_
 ┣⚶ ✔️ _next_
 ┣⚶ ✔️ _leave_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *MENU AUDIOS* ━⊜
+╔─━━ *MENU AUDIOS*━━─╗
 ┣⚶ 📒 _menuaudios_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *UTILIDADES* ━⊜
+╔─━━ *UTILIDADES* ━━─╗
 ┣⚶ 🌾 _inspect *<link wa_gc>*_
 ┣⚶ 🌾 _chatgpt *<texto>*_
 ┣⚶ 🌾 _delchatgpt_
@@ -361,7 +361,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚶ 🌾 _dropmail_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *LIMITES/ECONOMIAS* ━⊜
+╔─━━ *LIMITES/ECONOMIAS* ━━─╗
 ┣⚶ 🎪 _adventure_
 ┣⚶ 🎪 _cazar_
 ┣⚶ 🎪 _cofre_
@@ -383,7 +383,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚶ 🎪 _unreg *<numero de serie>*_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
-┏━━⊜ *STICKERS* ━⊜
+╔─━━ *STICKERS* ━━─╗
 ┣⚶ 🍭 _sticker *<responder a imagen o video>*_
 ┣⚶ 🍭 _sticker *<enlace / link / url>*_
 ┣⚶ 🍭 _sticker2 *<responder a imagen o video>*_
@@ -413,7 +413,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
 
-┏━━⊜ *FUNCIÓN-CREADOR* ━⊜
+╔─━━ *FUNCIÓN-CREADOR* ━━─╗
 ┣⚶ 👑 > *<funcion>*
 ┣⚶ 👑 => *<funcion>*
 ┣⚶ 👑 $ *<funcion>*
@@ -477,6 +477,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚶ 👑 _saveimage_
 ┣⚶ 👑 _viewimage_
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
+
+🩷𝐁𝐲: 𝑫𝒊𝒆𝒈𝒐𝑶𝒇𝒊𝒄𝒊𝒂𝒍🚀
 
 🩷𝐁𝐲: 𝑫𝒊𝒆𝒈𝒐𝑶𝒇𝒊𝒄𝒊𝒂𝒍🚀`;
    await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '☆ 𝗦𝗔𝗞𝗨𝗥𝗔 - 𝗕𝗢𝗧 - 𝗟𝗜𝗧𝗘 - 𝗠𝗗 ꨄ︎', "containsAutoReply": true, "mediaType": 1, "thumbnail": [imagen6,imagen1,imagen4].getRandom(), "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
