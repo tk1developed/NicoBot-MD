@@ -27,17 +27,20 @@ https://chat.whatsapp.com/J6AJyZjMIiH6T7zHor6ycV
 
 🧭Grupos En Colaboración:
 
-🌻 𝐍𝐞𝐱𝐮𝐬 𝐁𝐨𝐭 & 𝐒𝐚𝐤𝐮𝐫𝐚 𝐁𝐨𝐭 🪁
+1 🌻 𝐍𝐞𝐱𝐮𝐬 𝐁𝐨𝐭 & 𝐒𝐚𝐤𝐮𝐫𝐚 𝐁𝐨𝐭 🪁
 ▢ https://chat.whatsapp.com/H6N7chnmJhHJ1jMoF0PRBw
 
-1 ʕ•ᴥ•ʔ 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕𝑳𝒊𝒕𝒆 & 𝑶𝒏𝒚𝒙𝑩𝒐𝒕 ʕ•ᴥ•ʔ
+2 ʕ•ᴥ•ʔ 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕𝑳𝒊𝒕𝒆 & 𝑶𝒏𝒚𝒙𝑩𝒐𝒕 ʕ•ᴥ•ʔ
 ▢ https://chat.whatsapp.com/HVpXzDdlNrH738WaJIS21C
 
-▢ ✨ 𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭 & 𝐃𝐢𝐚𝐛𝐥𝐨𝐁𝐨𝐭 🌻
-https://chat.whatsapp.com/DUy6uCyXTQC5ReIyU1iLKm
+3 ✨ 𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭 & 𝐃𝐢𝐚𝐛𝐥𝐨𝐁𝐨𝐭 🌻
+▢ https://chat.whatsapp.com/JoZ46QffqKRHQyGoSxj7GO
 
-2 ᰔᩚ♕︎🅜︎🅤︎🅛︎🅣︎🅘︎.🅑︎🅞︎🅣︎🅢︎♕︎ᰔᩚ
-▢ https://chat.whatsapp.com/Cp6LjA7WfbXFQ4de9DFGGZ
+4 ᰔᩚ♕︎🅜︎🅤︎🅛︎🅣︎🅘︎.🅑︎🅞︎🅣︎🅢︎♕︎ᰔᩚ
+▢ https://chat.whatsapp.com/GU9pwU6WMig2SSvot1Umlm
+
+5 🪁GokuBot & SakuraBot✨
+▢ https://chat.whatsapp.com/H6vi4EhMbzB1rZeczZ8iPC
 ─────────────
 🪁🌥Si Se Restableció El Enlace Del Grupo Entra Aqui En Algunos De Estos Link!! 
 
