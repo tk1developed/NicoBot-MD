@@ -10,21 +10,6 @@ https://chat.whatsapp.com/J6AJyZjMIiH6T7zHor6ycV
 2 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
 ▢ https://chat.whatsapp.com/L69Ok8LTIJNCTNsJydkXaE
 
-3 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
-▢ https://chat.whatsapp.com/IdajR1RodSm1g2NtcRhU3F
-
-4 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
-▢ https://chat.whatsapp.com/Ke0iZ2RS3cLLMtNmktQHZ0
-
-5 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
-▢ https://chat.whatsapp.com/H3ySZrOIJFHKwSqKp9T8z3
-
-6 —★ 🎟]「 𝘌𝘯𝘭𝘢𝘤𝘦 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
-▢ https://chat.whatsapp.com/B9b5jAI4hqv95dH1QmAuF6
-
-7 😻 𝑺𝒐𝒑𝒐𝒓𝒕𝒆 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕 / 𝑵𝒐 𝑩𝒐𝒕 ♕︎𓅓
-▢ https://chat.whatsapp.com/B5y3UmnpJYQEdeyvSKlLyJ
-
 🧭Grupos En Colaboración:
 
 1 🌻 𝐍𝐞𝐱𝐮𝐬 𝐁𝐨𝐭 & 𝐒𝐚𝐤𝐮𝐫𝐚 𝐁𝐨𝐭 🪁
