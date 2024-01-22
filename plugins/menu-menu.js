@@ -26,12 +26,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚶ *💎Diamantes:* 20
 ┣⚶ *💰SakuCoins:* 15
 ┣⚶ *🪙Tokens:* 2
- ▢ *Nivel:* ${level}
- ▢ *Experiencia:* ${exp}
- ▢ *Rango:* ${role}
- ▢ *Diamantes:* ${limit}
- ▢ *MysticCoins:* ${money}
- ▢ *Tokens:* ${joincount}
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
 ╔─━━ *SOLUCIONES* ━━─╗
