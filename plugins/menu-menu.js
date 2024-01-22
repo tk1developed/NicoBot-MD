@@ -18,8 +18,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚶ *📅Fecha:* 20 de enero de 2024
 ┣⚶ *🌻Saludo Para Ti*
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
-┊❦ *Usuarios regs:* ${rtotalreg}
-┊❦ *Usuarios totales:* ${rtotal}
 
 ╔─━━ *INFO USER* ━━─╗
 ┣⚶ *🕹️Nivel:* ${level}
