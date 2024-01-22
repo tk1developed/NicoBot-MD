@@ -17,15 +17,16 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚶ *🌥Numero:* +57 301 3114854 
 ┣⚶ *📅Fecha:* 20 de enero de 2024
 ┣⚶ *🌻Saludo Para Ti*
+ ${taguser}
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
 ╔─━━ *INFO USER* ━━─╗
-┣⚶ *🕹️Nivel:* 0
-┣⚶ *✨️Experiencia:* 330
-┣⚶ *⚓️Rango:* Guerrero V
-┣⚶ *💎Diamantes:* 20
-┣⚶ *💰SakuCoins:* 15
-┣⚶ *🪙Tokens:* 2
+┣⚶ *🕹️Nivel:* ${level}
+┣⚶ *✨️Experiencia:* ${exp}
+┣⚶ *⚓️Rango:* ${role}
+┣⚶ *💎Diamantes:* ${limit} 
+┣⚶ *💰SakuCoins:* ${money}
+┣⚶ *🪙Tokens:* ${joincount}
 ╰°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
 ╔─━━ *SOLUCIONES* ━━─╗
