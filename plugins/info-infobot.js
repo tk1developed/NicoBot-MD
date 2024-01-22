@@ -26,8 +26,6 @@ const handler = async (m, { conn, usedPrefix }) => {
 ┏❖ ── ✦ ──『✙』── ✦ ── ❖
 ╠☿ *🚀Velocidad*
 ╠☿ *${speed} ms*
-┊❦ *Usuarios regs:* ${rtotalreg}
-┊❦ *Usuarios totales:* ${rtotal}
 ╠
 ╠❖ ── ✦ ──『✙』── ✦ ── ❖
 ╠
