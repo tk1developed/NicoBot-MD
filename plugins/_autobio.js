@@ -1,4 +1,3 @@
-
 let handler = m => m
 handler.all = async function (m) {
 let setting = global.db.data.settings[this.user.jid]
@@ -9,7 +8,7 @@ if (process.send) { process.send('uptime')
 _muptime = await new Promise(resolve => { process.once('message', resolve) 
 setTimeout(resolve, 2000) }) * 1000}
 let uptime = clockString(_uptime)
-let bio = `${global.packname} ✅️ ${uptime} 🌵 Ⓢ︎Ⓑ︎ Creador: Diego🚀`
+let bio = `${global.packname} ⏰𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙰: ${uptime} 🌻✨ Ⓢ︎Ⓑ︎ Creador: 𝔇𝔦𝔢𝔤𝔬𝔒𝔣𝔦𝔠𝔦𝔞𝔩🌻🚀`
 await this.updateProfileStatus(bio).catch(_ => _)
 setting.status = new Date() * 1
 } 
