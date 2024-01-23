@@ -28,11 +28,11 @@ async function handler(m, { conn: _envio, usedPrefix }) {
   return resultado;
 }
 
-  const message = users.map((v, index) => `*${index + 1}.-* @${v.user.jid.replace(/[^0-9]/g, '')}\n*Link:* wa.me/${v.user.jid.replace(/[^0-9]/g, '')}?text=${usedPrefix}estado\n*Nombre:* ${v.user.name || '-'}\n*Uptime:* ${ v.uptime ? convertirMsADiasHorasMinutosSegundos(Date.now() - v.uptime) : "Desconocido"}`).join('\n\n');
-  const replyMessage = message.length === 0 ? '*—◉ No hay SubBots activos en estos momentos.*' : message;
+  const message = users.map((v, index) => `*${index + 1}.-* @${v.user.jid.replace(/[^0-9]/g, '')}\n*⚓️Enlace:* wa.me/${v.user.jid.replace(/[^0-9]/g, '')}?text=${usedPrefix}estado\n*🌹 Nombre:* ${v.user.name || '-'}\n*🌻 Activo:* ${ v.uptime ? convertirMsADiasHorasMinutosSegundos(Date.now() - v.uptime) : "Desconocido"}`).join('\n\n');
+  const replyMessage = message.length === 0 ? '*🌹🌻 𝘕𝘰 𝘏𝘢𝘺 𝘚𝘶𝘣𝘣𝘰𝘵𝘴 𝘋𝘪𝘴𝘱𝘰𝘯𝘪𝘣𝘭𝘦 𝘌𝘯 𝘌𝘴𝘵𝘰𝘴 𝘔𝘰𝘮𝘦𝘯𝘵𝘰𝘴 𝘙𝘦𝘨𝘭𝘦𝘴𝘢 𝘔𝘢𝘴 𝘛𝘢𝘳𝘥𝘦👋🏻*' : message;
   const totalUsers = users.length;
   const responseMessage = `
-*🚀Aǫᴜɪ Tɪᴇɴᴇs Lᴀs Lɪsᴛᴀs Dᴇ Sᴜʙʙᴏᴛs Aᴄᴛɪᴠᴏs🚀 *
+*🚀Aǫᴜɪ Tɪᴇɴᴇs Lᴀs Lɪsᴛᴀs Dᴇ Sᴜʙʙᴏᴛs Aᴄᴛɪᴠᴏs🚀*
 
 *🌻 𝑷𝒖𝒆𝒅𝒆𝒔 𝑪𝒐𝒏𝒕𝒂𝒄𝒕𝒂𝒓 𝑷𝒂𝒓𝒂 𝑸𝒖𝒆 𝑼𝒏 𝑩𝒐𝒕 𝑺𝒆 𝑼𝒏𝒂 𝑨𝒍 𝑮𝒓𝒖𝒑𝒐 𝑸𝒖𝒆 𝑼𝒔𝒕𝒆𝒅 𝑫𝒆𝒔𝒆𝒂 𝑼𝒔𝒂𝒓 𝑬𝒍 𝑩𝒐𝒕 🌼*
 
