@@ -1,5 +1,5 @@
 ## SakuraBotLite-MD✨️ ##
-> <p>  🚀 SakuraBot (Desarrollo) </b>
+> <p>  🚀 Versión: 2.9 (Desarrollo) </b>
 
 > <b> ✨️Hola, Soy SakuraBotLite Como Estas?❤️
 <p align="center"> 
