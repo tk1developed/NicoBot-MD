@@ -31,8 +31,8 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 │❢➻ *👤Cliente:* ${taguser}
 │❢➻ *🪁Subbot De:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
 │❢➻ *⏰️Tiempo Activo:* ${uptime}
-│❢➻ *💻Usuarios Reg:* ${rtotalreg} De ${rtotal}
-│❢➻ *🗃Usuarios Totales: ${rtotal}
+│❢➻ *💻Usuarios Reg:* ${rtotalreg}
+│❢➻ *🗃Usuarios Totales: ${rtotal}*
 │❢➻ *📅Fecha:* ${date} 
 │❢➻ *🧭Versión Actual:* ${vs}
 ╰━━━━━━━✦✗✦━━━━━━━━
