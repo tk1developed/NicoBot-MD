@@ -56,6 +56,7 @@ ${readMore}
 ╰━━━━━━━✦✗✦━━━━━━━━
 
 ╔─━━ *INFO BOT* ━━─╗
+│❢➻ 📋 _${usedPrefix}botreglas_
 │❢➻ 📋 _${usedPrefix}terminosycondiciones_
 │❢➻ 📋 _${usedPrefix}grupos_
 │❢➻ 📋 _${usedPrefix}estado_
@@ -97,6 +98,7 @@ ${readMore}
 ╰━━━━━━━✦✗✦━━━━━━━━
 
 ╔─━━ *DIVERSIONES* ━━─╗
+│❢➻ 🌹 _${usedPrefix}love_
 │❢➻ 🌹 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
 │❢➻ 🌹 _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
 │❢➻ 🌹 _${usedPrefix}ppt *<papel / tijera /piedra>*_
