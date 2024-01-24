@@ -32,7 +32,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 │❢➻ *🪁Subbot De:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
 │❢➻ *⏰️Tiempo Activo:* ${uptime}
 │❢➻ *💻Usuarios Reg:* ${rtotalreg}
-│❢➻ *🗃Usuarios Totales: ${rtotal}*
+│❢➻ *🗃Usuarios Totales:* ${rtotal}
 │❢➻ *📅Fecha:* ${date} 
 │❢➻ *🧭Versión Actual:* ${vs}
 ╰━━━━━━━✦✗✦━━━━━━━━
