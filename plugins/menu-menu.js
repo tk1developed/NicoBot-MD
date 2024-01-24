@@ -29,10 +29,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
 │❢➻ *🧑‍💻Dueño Del Bot:* Diego       
 │❢➻ *👤Cliente:* ${taguser}
-│❢➻  ${packname}
 │❢➻ *🪁Subbot De:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
-│❢➻ *🔋Bateria:* ${conn.battery ? `${conn.battery.value}% ${conn.battery.live ? '🔌 Cargando...' : '⚡ Desconectado'}` : 'Desconocido'}
-│❢➻ *⚕️Prefijo Usado:* ${usedPrefix}
 │❢➻ *⏰️Tiempo Activo:* ${uptime}
 │❢➻ *💻Usuarios Regs:* ${rtotalreg}
 │❢➻ *🗃Usuarios Totales:* ${rtotal}
@@ -41,7 +38,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ╰━━━━━━━✦✗✦━━━━━━━━
 
 ╔─━━ *INFO USER* ━━─╗
-│❢➻ *😼 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
+│❢➻ *🌹 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
 │❢➻ *🎖Nivel:* ${level}
 │❢➻ *🧰Experiencia:* ${exp}
 │❢➻ *⚓️Rango:* ${role}
