@@ -29,7 +29,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
 │❢➻ *🧑‍💻Dueño Del Bot:* Diego       
 │❢➻ *👤Cliente:* ${taguser}
-│❢➻ *🧭Bot:* ${packname}
+│❢➻  ${packname}
 │❢➻ *🪁Subbot De:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
 │❢➻ *🔋Bateria:* ${conn.battery ? `${conn.battery.value}% ${conn.battery.live ? '🔌 Cargando...' : '⚡ Desconectado'}` : 'Desconocido'}
 │❢➻ *⚕️Prefijo Usado:* ${usedPrefix}
@@ -37,6 +37,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 │❢➻ *💻Usuarios Regs:* ${rtotalreg}
 │❢➻ *🗃Usuarios Totales:* ${rtotal}
 │❢➻ *📅Fecha:* ${date} 
+│❢➻ *🧭Versión Actual:* {vs}
 ╰━━━━━━━✦✗✦━━━━━━━━
 
 ╔─━━ *INFO USER* ━━─╗
