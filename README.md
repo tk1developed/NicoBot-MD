@@ -75,8 +75,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-### `✵ 🌻𝑷𝒆𝒅𝒊𝒓 𝑶𝒕𝒓𝒐 𝑸𝒓 𝑷𝒐𝒓 𝑻𝒆𝒓𝒎𝒖𝒙👨‍💻`
-- DETENER EL BOT DANDO CLICK EN EL SIMBOLO CTROL EN TERMUX MAS LA LETRA Z EN SU TECLADO MOVIL HASTA QUE SALGA ALGO EN VERDE SIMILAR A Lobo-termux $  
+### `✵ 🌻𝑷𝒆𝒅𝒊𝒓 𝑶𝒕𝒓𝒐 𝑸𝒓 𝑷𝒐𝒓 𝑻𝒆𝒓𝒎𝒖𝒙👨‍💻` 
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
