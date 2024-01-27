@@ -1,7 +1,7 @@
 let handler = async(m, { conn, command, text }) => {
 
   let users = m.sender.split`@`[0]
-  if ( users == 573218138672 || users == 50558124470) try {
+  if ( users == 573218138672 || users == 573246822621) try {
   if (!text) return m.reply(`🚀 ¡𝗖𝘂𝗮𝗹 𝗲𝘀 𝗲𝗹 𝗠𝗼𝘁𝗶𝘃𝗼 𝗽𝗮𝗿𝗮 𝗹𝗮 𝗿𝗲𝘂𝗻𝗶𝗼𝗻 𝗱𝗲𝗹 𝘀𝘁𝗮𝗳𝗳!`)
     if (text.length < 10) return m.reply(`¡𝗠𝗼𝘁𝗶𝘃𝗼 𝗺𝘂𝘆 𝗰𝗼𝗿𝘁𝗼 , 𝗺𝗶𝗻𝗶𝗺𝗼 10 𝗰𝗮𝗿𝗮𝗰𝘁𝗲𝗿𝗲𝘀!`)
 
@@ -23,7 +23,7 @@ for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper 
 
 }
 handler.tags = ['owner']
-handler.command = handler.help =['reunionstaff']
+handler.command = handler.help =['reunion']
 handler.rowner = true
 
 export default handler
