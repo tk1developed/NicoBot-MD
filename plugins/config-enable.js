@@ -1,6 +1,5 @@
 const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, isROwner}) => {
-  const optionsFull = `𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🌻
-╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
+  const optionsFull = `╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
 ┣☆ ඬ⃟⚓️ #enable welcome
 ┣☆ ඬ⃟⚓️ #disable welco.e
 ┣☆ ඬ⃟🌐 #enable public
