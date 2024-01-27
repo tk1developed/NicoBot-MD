@@ -20,16 +20,16 @@
 <a href="https://www.tiktok.com/@diegobot09_?_t=8ge2zeRZ04r&_r=1" target="_blank"> <img src="https://img.shields.io/badge/-TikTok-%23E4405F?style=for-the-badge&logo=tiktok&logoColor=black" target="_blank"></a> <img src="https://github.com/siegrin/siegrin/blob/main/Assets/Handshake.gif" height="30px">
 </a>
 
-### `✨️Bots Oficiales✨️`
+#### `✨️Bots Oficiales✨️`
 <a href="https://api.whatsapp.com/send/?phone=51935499065&text=.estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1-000000?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://api.whatsapp.com/send/?phone=573218138672&text=.estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_2-000000?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-### `👑 DUDAS SOBRE EL BOT?, CONTACTAME 👑`
+#### `👑 DUDAS SOBRE EL BOT?, CONTACTAME 👑`
 <a href="http://wa.me/573013114854" target="blank"><img src="https://img.shields.io/badge/Creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 ------------------ 
 
-### `✨️ 𝙰𝙲𝚃𝙸𝚅𝙰𝚁 𝙴𝙽 𝚁𝙴𝙿𝙻𝙸𝚃`
+#### `✨️ 𝙰𝙲𝚃𝙸𝚅𝙰𝚁 𝙴𝙽 𝚁𝙴𝙿𝙻𝙸𝚃`
 
 [![Run on Repl.it](https://repl.it/badge/github/diegojadibot/SakuraBotLite-MD)](https://repl.it/github/diegojadibot/SakuraBotLite-MD) 
 
