@@ -12,7 +12,7 @@ import { es } from "./lib/idiomas/total-idiomas.js"
 global.botnumber = ""
 
 global.owner = [ 
-  ['573013114854', '♡᭄ 𝐃𝐈𝐄𝐆𝐎 𝐎𝐖𝐍𝐄𝐑 ╰‿╯', true],
+  ['573013114854', '♡᭄𝐃𝐢𝐞𝐠𝐨 𝐂𝐫𝐞𝐚𝐝𝐨𝐫╰‿╯', true],
   ['573218138672']]
 
 global.suittag = ['573013114854'];
