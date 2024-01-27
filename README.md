@@ -3,7 +3,7 @@
 
 ## `🌻𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯✨` 
 <p align="center">
-<img src="https://i.ibb.co/wYRhwjt/lobo-bot.jpg" alt="SakuraBotLite-MD" width="900"/>
+<img src="https://i.ibb.co/wYRhwjt/Sakura-Bot.jpg" alt="SakuraBotLite-MD" width="900"/>
 </p>
 ------------------
 
