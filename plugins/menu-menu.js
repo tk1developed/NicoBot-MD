@@ -438,6 +438,7 @@ ${readMore}
 │❢➻ 👑 > *<funcion>*
 │❢➻ 👑 => *<funcion>*
 │❢➻ 👑 $ *<funcion>*
+│❢➻ 👑 _${usedPrefix}reunion_
 │❢➻ 👑 _${usedPrefix}setprefix *<prefijo>*_
 │❢➻ 👑 _${usedPrefix}resetprefix_
 │❢➻ 👑 _${usedPrefix}autoadmin_
