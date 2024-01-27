@@ -33,6 +33,15 @@
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2diegojadibot%2FSakuraBotLite-MD) 
 
+### `✵ 🌻𝑰𝒃𝒔𝒕𝒂𝒍𝒂𝒄𝒊𝒐𝒏 𝑨𝒖𝒕𝒐𝒎𝒂𝒕𝒊𝒄𝒂 𝑽𝒊𝒂 𝑻𝒆𝒓𝒎𝒖𝒙✨`
+```bash
+termux-setup-storage
+```
+
+```bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/sakura.sh | bash
+```
+
 ### `✵ 🌻𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒄𝒊𝒐𝒏 𝑷𝒐𝒓 𝑻𝒆𝒓𝒎𝒖𝒙 𝑴𝒂𝒏𝒖𝒂𝒍👨‍💻` 
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
