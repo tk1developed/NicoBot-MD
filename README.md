@@ -27,7 +27,7 @@
   
 ### `✵ ✨𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒓 𝑺𝒂𝒌𝒖𝒓𝒂𝑳𝒊𝒕𝒆 𝑷𝒐𝒓 𝑹𝒆𝒑𝒍𝒊𝒕🌻`
 
-[![Run on Repl.it](https://repl.it/badge/github/diegojadibot/SakuraBotLite-MD)](https://replit/github/diegojadibot/SakuraBotLite-MD) 
+[![Run Repl.it](https://repl.it/badge/github/diegojadibot/SakuraBotLite-MD)](https://replit/github/diegojadibot/SakuraBotLite-MD) 
   
 ### `✵ ✨𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒓 𝑷𝒐𝒓 𝑹𝒆𝒏𝒅𝒆𝒓🌻`
 
@@ -91,7 +91,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > rm -rf SakuraBotSession
 > npm start
 ```
-
 
 
  ### `✵ 🌻𝑫𝒖𝒅𝒂 𝑫𝒆𝒍 𝑩𝒐𝒕? 𝑬𝒔𝒄𝒓𝒊𝒃𝒆𝒎𝒆✨`
