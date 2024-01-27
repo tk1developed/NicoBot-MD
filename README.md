@@ -87,10 +87,10 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 
  ### `✵ 🌻𝑫𝒖𝒅𝒂 𝑫𝒆𝒍 𝑩𝒐𝒕? 𝑬𝒔𝒄𝒓𝒊𝒃𝒆𝒎𝒆✨`
-<a href="http://wa.me/573013114854" target="blank"><img src="https://img.shields.io/badge/𝐷𝑖𝑒𝑔𝑜_𝐶𝑟𝑒𝑎𝑑𝑜𝑟-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/573013114854" target="blank"><img src="https://img.shields.io/badge/Diego_Creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 ### `✵ 📄✦𝑨𝒔𝒊𝒂𝒕𝒆𝒏𝒄𝒊𝒂 𝑫𝒊𝒆𝒈𝒐✦📄`
-<a href="http://wa.me/573218138672" target="blank"><img src="https://img.shields.io/badge/𝐷𝑖𝑒𝑔𝑜_𝐴𝑠𝑖𝑠𝑡𝑒𝑛𝑐𝑖𝑠_𝑆𝑎𝑘𝑢𝑟𝑎𝐿𝑖𝑡𝑒-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/573218138672" target="blank"><img src="https://img.shields.io/badge/Diego_Asistencia-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
 ## `🌻𝑷𝒓𝒐𝒑𝒊𝒆𝒕𝒂𝒓𝒊𝒐 𝑫𝒆𝒍 𝑩𝒐𝒕🚀` 
