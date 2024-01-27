@@ -1,6 +1,6 @@
 const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, isROwner}) => {
   const optionsFull = `𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🌻
-
+╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
 ┣☆ ඬ⃟⚓️ #enable welcome
 ┣☆ ඬ⃟⚓️ #disable welco.e
 ┣☆ ඬ⃟🌐 #enable public
@@ -49,7 +49,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 ┣☆ ඬ⃟🌹 #disable antispam
 ┣☆ ඬ⃟🌹 #enable modoia
 ┣☆ ඬ⃟🌹 #disable modoia
-
+╰━━━━━━━✦✗✦━━━━━━━━
 𝘉𝘺: 𝘋𝘪𝘦𝘨𝘰𝘖𝘧𝘪𝘤𝘪𝘢𝘭✨`.trim();
 
   const isEnable = /true|enable|(turn)?on|1/i.test(command);
