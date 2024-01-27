@@ -33,7 +33,7 @@
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2diegojadibot%2FSakuraBotLite-MD) 
 
-### `✵ 🌻𝑰𝒃𝒔𝒕𝒂𝒍𝒂𝒄𝒊𝒐𝒏 𝑨𝒖𝒕𝒐𝒎𝒂𝒕𝒊𝒄𝒂 𝑽𝒊𝒂 𝑻𝒆𝒓𝒎𝒖𝒙✨`
+### `✵ 🌻𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒄𝒊𝒐𝒏 𝑨𝒖𝒕𝒐𝒎𝒂𝒕𝒊𝒄𝒂 𝑽𝒊𝒂 𝑻𝒆𝒓𝒎𝒖𝒙✨`
 ```bash
 termux-setup-storage
 ```
