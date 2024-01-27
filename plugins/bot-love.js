@@ -6,8 +6,8 @@ const pp = './Menu2.jpg'
 
 let love = `\t\t*MEDIDOR DE AMOR*
 
-*El amor de ${name} por ti es de* *${Math.floor(Math.random() * 100)}%* *de un 100%*
-*Deberias pedirle que sea tu  novia/o ?*`
+*El Amor De ${name} Por Ti Es De* *${Math.floor(Math.random() * 100)}%* *De Un 100%*
+*Deberias Pedirle Que Sea Tu  Novia/o ?*`
 
 conn.sendMessage(m.chat,{image: {url: pp}, caption: love, mentions: [m.sender]}, {quoted: m}) 
 }
