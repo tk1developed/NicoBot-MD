@@ -1,44 +1,45 @@
-import { canLevelUp, xpRange } from '../lib/levelling.js';
-import { levelup } from '../lib/canvas.js';
+import {canLevelUp, xpRange} from '../lib/levelling.js';
+import {levelup} from '../lib/canvas.js';
 
-const handler = async (m, { conn }) => {
+const handler = async (m, {conn}) => {
   const name = conn.getName(m.sender);
-  const usertag = '@' + m.sender.split('@s.whatsapp.net')[0];
   const user = global.db.data.users[m.sender];
   if (!canLevelUp(user.level, user.exp, global.multiplier)) {
-    const { min, xp, max } = xpRange(user.level, global.multiplier);
-    const message = `
-🏰 *Gremio de Aventureros*
-*¡Bienvenido, ${usertag}!*
+    const {min, xp, max} = xpRange(user.level, global.multiplier);
+    throw `
+┌───⊷ 𝐿𝑒𝑣𝑒𝑙𝑢𝑝🌻
+᯾ ✯𝐍𝐨𝐦𝐛𝐫𝐞 : *${name}*
+᯾ ☆𝐍𝐢𝐯𝐞𝐥 : *${user.level}*
+᯾ ☆𝐄𝐱𝐩𝐞𝐫𝐭𝐨: *${user.exp - min}/${xp}*
+└──────────────
 
-*◉ Nivel actual:* ${user.level}
-*◉ Rango actual:* ${user.role}
-*◉ Puntos de Experiencia:* ${user.exp - min}/${xp}
-
-*—◉ Para ascender de nivel necesitas obtener ${max - user.exp} puntos de experiencia más. Sigue interactuando con el Bot!.*`.trim();
-    return conn.sendMessage(m.chat, {text: message, mentions: [m.sender]}, {quoted: m});
+𝑇𝑒 𝐻𝑎𝑐𝑒 𝐹𝑎𝑙𝑡𝑎 *${max - user.exp}* 𝐷𝑒 𝐸𝑥𝑝𝑒𝑟𝑡𝑜 𝑃𝑎𝑟𝑎 𝑆𝑢𝑏𝑖𝑟 𝑈𝑛 𝑁𝑢𝑒𝑣𝑜 𝐿𝑒𝑣𝑒𝑙𝑢𝑝🚀🌻
+`.trim();
   }
   const before = user.level * 1;
   while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++;
   if (before !== user.level) {
-    const levelUpMessage = `🎉 ¡Felicidades, ${name}! Has subido de nivel a ${user.level}`;
-    const levelUpDetails = `
-🚀 *Nuevo Nivel Alcanzado*
+    const teks = `🎊 Bien hecho ${conn.getName(m.sender)}    Nivel:`;
+    const str = `
+┌─⊷𝑳𝒆𝒗𝒆𝒍𝒖𝒑🌻
+Δ ☆𝐀𝐧𝐭𝐞𝐫𝐢𝐨𝐫 𝐃𝐞𝐥 𝐍𝐢𝐯𝐞𝐥 : *${before}*
+Δ ☆𝐍𝐢𝐯𝐞𝐥 𝐀𝐜𝐭𝐮𝐚𝐥 : *${user.level}*
+└──────────────
 
-*◉ Nivel anterior:* ${before}
-*◉ Nuevo nivel:* ${user.level}
-*◉ Rango actual:* ${user.role}
-
-*—◉ Continúa explorando y realizando misiones para alcanzar nuevas alturas en el Gremio de Aventureros. Sigue interactuando con el Bot!.*`.trim();
+𝑀𝑖𝑒𝑛𝑠𝑡𝑟𝑎 𝑀𝑎𝑠 𝑈𝑠𝑒𝑠 𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯 𝑇𝑢 𝐿𝑒𝑣𝑒𝑙𝑢𝑝 𝑆𝑢𝑏𝑖𝑎 𝑀𝑎𝑠 𝑅𝑎𝑝𝑖𝑑𝑜🚀
+`.trim();
     try {
-      const levelUpImage = await levelup(levelUpMessage, user.level);
-      conn.sendFile(m.chat, levelUpImage, 'levelup.jpg', levelUpDetails, m);
+      const img = await levelup(teks, user.level);
+      conn.sendFile(m.chat, img, 'levelup.jpg', str, m);
     } catch (e) {
-      conn.sendMessage(m.chat, {text: levelUpDetails, mentions: [m.sender]}, {quoted: m});
+      m.reply(str);
     }
   }
 };
+
 handler.help = ['levelup'];
 handler.tags = ['xp'];
+
 handler.command = ['nivel', 'lvl', 'levelup', 'level'];
+
 export default handler;
