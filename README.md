@@ -99,10 +99,10 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 
  ### `✵ 🌻𝑫𝒖𝒅𝒂 𝑫𝒆𝒍 𝑩𝒐𝒕? 𝑬𝒔𝒄𝒓𝒊𝒃𝒆𝒎𝒆✨`
-<a href="http://wa.me/573013114854" target="blank"><img src="https://img.shields.io/badge/Diego_Creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/573218138672" target="blank"><img src="https://img.shields.io/badge/Diego_Creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 ### `✵ 📄✦𝑨𝒔𝒊𝒔𝒕𝒆𝒏𝒄𝒊𝒂 𝑫𝒊𝒆𝒈𝒐✦📄`
-<a href="http://wa.me/573218138672" target="blank"><img src="https://img.shields.io/badge/Diego_Asistencia-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/526366923240" target="blank"><img src="https://img.shields.io/badge/Diego_Asistencia-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
 ## `🌻𝑷𝒓𝒐𝒑𝒊𝒆𝒕𝒂𝒓𝒊𝒐 𝑫𝒆𝒍 𝑩𝒐𝒕🚀` 
