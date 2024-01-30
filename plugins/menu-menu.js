@@ -565,7 +565,7 @@ renderLargerThumbnail: true
 }}}, { quoted: m})       
 } catch (e) {
 //await conn.sendButton(m.chat, `\n${wm}`, ['smsMalError3']() + '#report ' + usedPrefix + command, null, [[lenguajeSK.smsMensError1(), `#reporte ${['smsMensError2']()} *${usedPrefix + command}*`]], m)
-console.log(`❗❗ ${lenguajeSK['smsMensError2']()} ${usedPrefix + command} ❗❗`)
+console.log(`❗❗  ${usedPrefix + command} ❗❗`)
 console.log(e)        
 }}
 handler.help = ['menu', 'help', '?']
