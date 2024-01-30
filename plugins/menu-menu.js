@@ -550,7 +550,7 @@ let menu = `╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
 │❢➻ 👑 _${usedPrefix}viewimage_
 ╰━━━━━━━✦✗✦━━━━━━━━`.trim()
 //conn.sendFile(m.chat, pp, 'lp.jpg', menu, m, false, { contextInfo: { mentionedJid }})
-let img = await (await fetch(`https://telegra.ph/file/b9768737c2e193587ad45.jpg`)).buffer()  
+let img = await (await fetch(`https://telegra.ph/file/99b0491dde885e3775050.jpg`)).buffer()  
 await conn.sendMessage(m.chat, {
 text: menu,
 contextInfo: { 
@@ -560,7 +560,7 @@ externalAdReply: {
 title: '❁» 𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯 «❁\n𝐵𝑜𝑡 𝑊ℎ𝑎𝑡𝑠𝐴𝑝𝑝 - 𝑀𝑢𝑙𝑡𝑖 𝐹𝑢𝑛𝑐𝑖𝑜𝑛𝑒𝑠',
 //body: 'Wʜᴀᴛꜱᴀᴘᴘ',
 thumbnail: img,
-sourceUrl: 'https://telegra.ph/file/c7da0bbc9a7380f11ffc8.jpg',
+sourceUrl: 'https://telegra.ph/file/99b0491dde885e3775050.jpg',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})       
