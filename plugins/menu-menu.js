@@ -567,8 +567,8 @@ mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
 } catch (e) {
-//await conn.sendButton(m.chat, `\n${wm}`, lenguajeGB['smsMalError3']() + '#report ' + usedPrefix + command, null, [[lenguajeGB.smsMensError1(), `#reporte ${lenguajeGB['smsMensError2']()} *${usedPrefix + command}*`]], m)
-console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
+//await conn.sendButton(m.chat, `\n${wm}`, es['smsMalError3']() + '#report ' + usedPrefix + command, null, [[es.smsMensError1(), `#reporte ${es['smsMensError2']()} *${usedPrefix + command}*`]], m)
+console.log(`❗❗ ${es['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)        
 }}
 handler.help = ['menu', 'help', '?']
