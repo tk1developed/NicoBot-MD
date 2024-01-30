@@ -563,7 +563,10 @@ mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
 } catch (e) {
-//await conn.sendButton(m.chat, `\n${wm}`, lenguajeSK['smsMalError3']() + '#report ' + usedPrefix + command, null, [[lenguajeSK.smsMensError1(), `#reporte ${lenguajeSK['smsMensError2']()} *${usedPrefix + command}*`]], m)
+//await conn.sendButton(m.chat, `\n${wm}`,
+  '#report ' + usedPrefix + command, null, 
+ `#reporte 
+ *${usedPrefix + command}*`]], m)
 console.log(`❗❗  ${usedPrefix + command} ❗❗`)
 console.log(e)        
 }}
