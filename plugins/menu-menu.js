@@ -564,8 +564,8 @@ mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
 } catch (e) {
-//await conn.sendButton(m.chat, `\n${wm}`, ['smsMalError3']() + '#report ' + usedPrefix + command, null, [[smsMensError1(), `#reporte ${smsMensError2} *${usedPrefix + command}*`]], m)
-console.log(`❗❗ ${smsMensError2} ${usedPrefix + command} ❗❗`)
+//await conn.sendButton(m.chat, `\n${wm}`, smsMalError3 + '#report ' + usedPrefix + command, null, smsMensError1, `#reporte smsMensError2 *${usedPrefix + command}*`]], m)
+console.log(`❗❗  ${usedPrefix + command} ❗❗`)
 console.log(e)        
 }}
 handler.help = ['menu', 'help', '?']
