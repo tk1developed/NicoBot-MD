@@ -72,7 +72,6 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
   let pp = './Menu2.jpg'
 //let pp = gataVidMenu.getRandom()
 await conn.sendMessage(m.chat, {
-        text: `*@${m.sender.split`@`[0]} Espera`,
         contextInfo: { 
           mentionedJid: [m.sender],
         }
@@ -565,7 +564,7 @@ renderLargerThumbnail: true
 }}}, { quoted: m})
 } catch (e) {
 //await conn.sendButton(m.chat, `\n${wm}`, lenguajeSK['smsMalError3']() + '#report ' + usedPrefix + command, null, [[lenguajeSK.smsMensError1(), `#reporte ${lenguajeSK['smsMensError2']()} *${usedPrefix + command}*`]], m)
-console.log(`❗❗ ${lenguajeSK['smsMensError2']()} ${usedPrefix + command} ❗❗`)
+console.log(`❗❗ ${['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)        
 }}
 handler.help = ['menu', 'help', '?']
