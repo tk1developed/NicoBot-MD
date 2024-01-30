@@ -72,10 +72,7 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
   let pp = './Menu2.jpg'
 //let pp = gataVidMenu.getRandom()
 await conn.sendMessage(m.chat, {
-        text: `*Hey @${m.sender.split`@`[0]} estamos enviando el menu*
-𝘁𝗲𝗻 𝗽𝗮𝗰𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗲𝘃𝗶𝘁𝗮 𝗲𝗹 𝘀𝗽𝗮𝗺 👀
-
-𝐒𝐇𝐀𝐍𝐀 𝐁𝐎𝐓.`,
+        text: `*Hey @${m.sender.split`@`[0]} estamos enviando el menu*.`,
         contextInfo: { 
           mentionedJid: [m.sender],
         }
