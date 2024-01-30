@@ -72,13 +72,13 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
   let pp = './Menu2.jpg'
 //let pp = gataVidMenu.getRandom()
 await conn.sendMessage(m.chat, {
-        
+        text: `*@${m.sender.split`@`[0]} Espera*.`,
         contextInfo: { 
           mentionedJid: [m.sender],
         }
       }, { quoted: m })
 
-let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
+let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }  
 let menu = `╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
 │❢➻ *🧑‍💻Dueño Del Bot:* Diego       
 │❢➻ *👤Cliente:* ${taguser}
@@ -564,13 +564,13 @@ mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
 } catch (e) {
-//await conn.sendButton(m.chat, `\n${wm}`, smsMalError3 + '#report ' + usedPrefix + command, null, smsMensError1, `#reporte smsMensError2 *${usedPrefix + command}*`]], m)
-console.log(`❗❗  ${usedPrefix + command} ❗❗`)
+//await conn.sendButton(m.chat, `\n${wm}`, lenguajeGB['smsMalError3']() + '#report ' + usedPrefix + command, null, [[lenguajeGB.smsMensError1(), `#reporte ${lenguajeGB['smsMensError2']()} *${usedPrefix + command}*`]], m)
+console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)        
 }}
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(menu|herramientas|herramientas|ayuda|allm\?)$/i
+handler.command = /^(menu|help|ayuda|allmenu|allm\?)$/i
 //handler.register = true
 handler.exp = 50
 handler.fail = null
