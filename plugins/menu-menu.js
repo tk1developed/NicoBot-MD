@@ -121,23 +121,19 @@ let menu = `╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
 │❢➻ *👤Cliente:* ${taguser}
 │❢➻ *🪁Subbot De:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
 │❢➻ *⏰️Tiempo Activo:* ${uptime}
-│❢➻ *💻Usuarios Reg:* ${rtotalreg}
-│❢➻ *🗃Usuarios Totales:* ${rtotal}
 │❢➻ *📅Fecha:* ${date} 
 │❢➻ *🧭Versión Actual:* ${vs}
 ╰━━━━━━━✦✗✦━━━━━━━━
 
 ╔─━━ *INFO USER* ━━─╗
-│❢➻ *🌹 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
 │❢➻ *🎖Nivel:* ${level}
 │❢➻ *🧰Experiencia:* ${exp}
 │❢➻ *⚓️Rango:* ${role}
 │❢➻ *💎Diamantes:* ${limit}
 │❢➻ *👾SakuCoins:* ${money}
 │❢➻ *🪙Tokens:* ${joincount}
-│❢➻ *🎟Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ╰━━━━━━━✦✗✦━━━━━━━━
-${readMore}
+
 ╔─━━ *SOLUCIONES* ━━─╗
 │❢➻ 🧭 Mensajes en espera
 │❢➻ 🧭 _${usedPrefix}fixmsgespera_
