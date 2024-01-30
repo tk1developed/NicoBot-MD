@@ -549,28 +549,29 @@ let menu = `╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
 │❢➻ 👑 _${usedPrefix}viewimage_
 ╰━━━━━━━✦✗✦━━━━━━━━`.trim()
 //conn.sendFile(m.chat, pp, 'lp.jpg', menu, m, false, { contextInfo: { mentionedJid }})
-let img = await (await fetch(`https://telegra.ph/file/99b0491dde885e3775050.jpg`)).buffer()  
+let img = await (await fetch(`https://telegra.ph/file/b9768737c2e193587ad45.jpg`)).buffer()  
 await conn.sendMessage(m.chat, {
 text: menu,
 contextInfo: { 
 mentionedJid: [m.sender],
 forwardingScore: 9, 
 externalAdReply: {
-title: '❁» 𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯 «❁\n𝐵𝑜𝑡 𝑊ℎ𝑎𝑡𝑠𝐴𝑝𝑝 - 𝑀𝑢𝑙𝑡𝑖 𝐹𝑢𝑛𝑐𝑖𝑜𝑛𝑒𝑠',
-//body: 'Wʜᴀᴛꜱᴀᴘᴘ',
+title: '❁» 𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯 «❁\n𝑩𝒐𝒕 𝑾𝒉𝒂𝒕𝒔𝑨𝒑𝒑 - 𝑴𝒖𝒍𝒕𝒊 𝑭𝒖𝒏𝒄𝒊𝒐𝒏𝒆𝒔',
+//body: 'Wʜᴀᴛꜱᴀᴘᴘ Bᴏᴛ - Mᴜʟᴛɪ Dᴇᴠɪᴄᴇ',
 thumbnail: img,
-sourceUrl: 'https://telegra.ph/file/99b0491dde885e3775050.jpg',
+sourceUrl: 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n',
 mediaType: 1,
 renderLargerThumbnail: true
-}}}, { quoted: m})       
+}}}, { quoted: m})
+await m.react('✅')        
 } catch (e) {
-//await conn.sendButton(m.chat, `\n${wm}`, ['smsMalError3']() + '#report ' + usedPrefix + command, null, [[lenguajeSK.smsMensError1(), `#reporte ${['smsMensError2']()} *${usedPrefix + command}*`]], m)
-console.log(`❗❗  ${usedPrefix + command} ❗❗`)
+//await conn.sendButton(m.chat, `\n${wm}`, lenguajeSK['smsMalError3']() + '#report ' + usedPrefix + command, null, [[lenguajeSK.smsMensError1(), `#reporte ${lenguajeSK['smsMensError2']()} *${usedPrefix + command}*`]], m)
+console.log(`❗❗ ${lenguajeSK['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)        
 }}
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(menu|menu|herramientas|ayuda|allm\?)$/i
+handler.command = /^(menu|herramientas|ayuda|allm\?)$/i
 //handler.register = true
 handler.exp = 50
 handler.fail = null
