@@ -72,6 +72,10 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
   let pp = './Menu2.jpg'
 //let pp = gataVidMenu.getRandom()
 await conn.sendMessage(m.chat, {
+        text: `*Hey @${m.sender.split`@`[0]} estamos enviando el menu*
+𝘁𝗲𝗻 𝗽𝗮𝗰𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗲𝘃𝗶𝘁𝗮 𝗲𝗹 𝘀𝗽𝗮𝗺 👀
+
+𝐒akura.`,
         contextInfo: { 
           mentionedJid: [m.sender],
         }
@@ -563,16 +567,13 @@ mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
 } catch (e) {
-//await conn.sendButton(m.chat, `\n${wm}`,
-  '#report ' + usedPrefix + command, null, 
- `#reporte 
- *${usedPrefix + command}*`]], m)
-console.log(`❗❗  ${usedPrefix + command} ❗❗`)
+//await conn.sendButton(m.chat, `\n${wm}`, lenguajeGB['smsMalError3']() + '#report ' + usedPrefix + command, null, [[lenguajeGB.smsMensError1(), `#reporte ${lenguajeGB['smsMensError2']()} *${usedPrefix + command}*`]], m)
+console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)        
 }}
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(menu|herramientas|ayuda|allm\?)$/i
+handler.command = /^(menu|herramientas|herramientas|ayuda|allm\?)$/i
 //handler.register = true
 handler.exp = 50
 handler.fail = null
