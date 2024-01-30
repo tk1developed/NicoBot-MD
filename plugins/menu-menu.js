@@ -560,10 +560,10 @@ contextInfo: {
 mentionedJid: [m.sender],
 forwardingScore: 9, 
 externalAdReply: {
-title: '❑— 𝐒𝐇𝐀𝐍𝐀-𝐁𝐎𝐓 —❑\nWʜᴀᴛꜱᴀᴘᴘ Bᴏᴛ - Mᴜʟᴛɪ Dᴇᴠɪᴄᴇ',
-//body: 'Wʜᴀᴛꜱᴀᴘᴘ Bᴏᴛ - Mᴜʟᴛɪ Dᴇᴠɪᴄᴇ',
+title: '❁» 𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯 «❁\n𝐵𝑜𝑡 𝑊ℎ𝑎𝑡𝑠𝐴𝑝𝑝 - 𝑀𝑢𝑙𝑡𝑖 𝐹𝑢𝑛𝑐𝑖𝑜𝑛𝑒𝑠',
+//body: 'Wʜᴀᴛꜱᴀᴘᴘ',
 thumbnail: img,
-sourceUrl: 'https://chat.whatsapp.com/Bbw7JoHvMWw040uYE5GQ79',
+sourceUrl: 'https://telegra.ph/file/60d7bceced66743f848d8.jpg',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})       
