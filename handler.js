@@ -1550,7 +1550,7 @@ global.dfail = (type, m, conn) => {
     restrict: '*⚠️ 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘙𝘦𝘴𝘵𝘳𝘪𝘯𝘨𝘪𝘥𝘰 𝘗𝘰𝘳 𝘋𝘦𝘴𝘪𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘗𝘳𝘰𝘱𝘪𝘦𝘵𝘢𝘳𝘪𝘰 𝘋𝘦𝘭 𝘉𝘰𝘵.*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '⚠ 𝗔𝗩𝗜𝗦𝗢 - 𝗔𝗟𝗘𝗥𝗧𝗔', body: 'SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VaHYnwaKQuJIlTFuS22l'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '⚠ 𝗔𝗩𝗜𝗦𝗢 - 𝗔𝗟𝗘𝗥𝗧𝗔', body: 'SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
