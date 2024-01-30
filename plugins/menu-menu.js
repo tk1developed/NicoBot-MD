@@ -31,7 +31,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 │❢➻ *🧑‍💻Dueño Del Bot:* Diego       
 │❢➻ *👤Cliente:* ${taguser}
 │❢➻ *🪁Subbot De:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
-│❢➻ *⏰️Tiempo Activo:* ${uptime}
+│❢➻ *⏰️Tiempo Activa:* ${uptime}
 │❢➻ *💻Usuarios Reg:* ${rtotalreg}
 │❢➻ *🗃Usuarios Totales:* ${rtotal}
 │❢➻ *📅Fecha:* ${date} 
