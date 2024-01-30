@@ -560,7 +560,7 @@ externalAdReply: {
 title: '❁» 𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯 «❁\n𝐵𝑜𝑡 𝑊ℎ𝑎𝑡𝑠𝐴𝑝𝑝 - 𝑀𝑢𝑙𝑡𝑖 𝐹𝑢𝑛𝑐𝑖𝑜𝑛𝑒𝑠',
 //body: 'Wʜᴀᴛꜱᴀᴘᴘ',
 thumbnail: img,
-sourceUrl: 'https://telegra.ph/file/60d7bceced66743f848d8.jpg',
+sourceUrl: 'https://telegra.ph/file/c7da0bbc9a7380f11ffc8.jpg',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})       
