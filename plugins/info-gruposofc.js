@@ -13,19 +13,13 @@ https://chat.whatsapp.com/J6AJyZjMIiH6T7zHor6ycV
 🧭Grupos En Colaboración:
 
 1 🌻 𝐍𝐞𝐱𝐮𝐬 𝐁𝐨𝐭 & 𝐒𝐚𝐤𝐮𝐫𝐚 𝐁𝐨𝐭 🪁
-▢ https://chat.whatsapp.com/H6N7chnmJhHJ1jMoF0PRBw
+▢ https://chat.whatsapp.com/C7rJdO0tWjRBr37onmz1vS
 
-2 ʕ•ᴥ•ʔ 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕𝑳𝒊𝒕𝒆 & 𝑶𝒏𝒚𝒙𝑩𝒐𝒕 ʕ•ᴥ•ʔ
-▢ https://chat.whatsapp.com/HVpXzDdlNrH738WaJIS21C
+2 ✨𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕 & 𝑺𝒉𝒂𝒏𝒂-𝑩𝒐𝒕🌻
+▢ https://chat.whatsapp.com/HjtosKShIYcE0xldUFSnkF
 
-3 ✨ 𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭 & 𝐃𝐢𝐚𝐛𝐥𝐨𝐁𝐨𝐭 🌻
-▢ https://chat.whatsapp.com/JoZ46QffqKRHQyGoSxj7GO
-
-4 ᰔᩚ♕︎🅜︎🅤︎🅛︎🅣︎🅘︎.🅑︎🅞︎🅣︎🅢︎♕︎ᰔᩚ
+3 ᰔᩚ♕︎🅜︎🅤︎🅛︎🅣︎🅘︎.🅑︎🅞︎🅣︎🅢︎♕︎ᰔᩚ
 ▢ https://chat.whatsapp.com/GU9pwU6WMig2SSvot1Umlm
-
-5 🪁GokuBot & SakuraBot✨
-▢ https://chat.whatsapp.com/H6vi4EhMbzB1rZeczZ8iPC
 ─────────────
 🪁🌥Si Se Restableció El Enlace Del Grupo Entra Aqui En Algunos De Estos Link!! 
 
@@ -33,10 +27,7 @@ Atom.Bio :
 ▢ https://atom.bio/sakuralite
 
 Canal :
-▢  https://whatsapp.com/channel/0029VaHYnwaKQuJIlTFuS22l
-
-Canal 2:
-♧ https://whatsapp.com/channel/0029VaIg4lxInlqUNkN7A53w`
+▢  https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 /*conn.sendHydrated(m.chat, str, `𝙂𝘼𝙏𝘼 𝘿𝙄𝙊𝙎 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼\n\n\n` + wm, media, 'https://github.com/diegojadibot/SakuraBotLite-MD', 'SakuraBotLite-MD', null, null, [
 ['𝘾𝙪𝙚𝙣𝙩𝙖𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨 ✅', '.cuentassb'],
