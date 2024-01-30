@@ -566,7 +566,6 @@ sourceUrl: 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
-await m.react('✅')        
 } catch (e) {
 //await conn.sendButton(m.chat, `\n${wm}`, lenguajeSK['smsMalError3']() + '#report ' + usedPrefix + command, null, [[lenguajeSK.smsMensError1(), `#reporte ${lenguajeSK['smsMensError2']()} *${usedPrefix + command}*`]], m)
 console.log(`❗❗ ${lenguajeSK['smsMensError2']()} ${usedPrefix + command} ❗❗`)
