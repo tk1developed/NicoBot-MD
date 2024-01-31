@@ -1180,11 +1180,11 @@ export async function handler(chatUpdate) {
               const messageNumber = user.bannedMessageCount + 1;
 const messageText = `
 ╔═════════════════════╗
- ❰ 🚫 ❱ *¡••𝙐𝙨𝙪𝙖𝙧𝙞𝙤 𝙗𝙖𝙣𝙚𝙖𝙙𝙤••* ❰ 🚫 ❱
-—◉ *𝚊̷𝚟̷𝚒̷𝚜̷𝚘̷  ${messageNumber}/3 (𝚝̷𝚘̷𝚝̷𝚊̷𝚕̷: 3)*
-—◉ ${user.bannedReason ? `\n*𝚖̷𝚘̷𝚝̷𝚒̷𝚟̷𝚘̷:* ${user.bannedReason}` : '*𝚖̷𝚘̷𝚝̷𝚒̷𝚟̷𝚘̷:* 𝕊𝕚𝕟 𝕖𝕤𝕡𝕖𝕔𝕚𝕗𝕚𝕔𝕒𝕣'}
+ ❰ 🚫 ❱ *¡••𝑈𝑠𝑎𝑟𝑖𝑜 𝐵𝑎𝑛𝑒𝑎𝑑𝑜••* ❰ 🚫 ❱
+—𝑨𝒗𝒊𝒔𝒐  ${messageNumber}/𝑻𝒐𝒕𝒂𝒍: 3)*
+—◉ ${user.bannedReason ? `\n*𝑴𝒐𝒕𝒊𝒗𝒐:* ${user.bannedReason}` : '*𝑴𝒐𝒕𝒊𝒗𝒐:*𝑆𝑖𝑛 𝐸𝑠𝑝𝑒𝑐𝑖𝑓𝑖𝑐𝑎𝑟'}
 —◉ *𝘚𝘪 𝘊𝘰𝘯𝘴𝘪𝘥𝘦𝘳𝘢𝘴 𝘘𝘶𝘦 𝘌𝘴 𝘜𝘯 𝘌𝘳𝘳𝘰𝘳 𝘠 𝘚𝘪 𝘛𝘪𝘦𝘯𝘦𝘴 𝘗𝘳𝘶𝘦𝘣𝘢𝘴, 𝘗𝘶𝘦𝘥𝘦𝘴 𝘊𝘰𝘮𝘶𝘯𝘪𝘤𝘢𝘳𝘵𝘦 𝘊𝘰𝘯 𝘌𝘭 𝘖𝘸𝘯𝘦𝘳 𝘋𝘦𝘭 𝘉𝘰𝘵 𝘠 𝘈𝘱𝘦𝘭𝘢𝘳 𝘓𝘢 𝘚𝘶𝘴𝘱𝘦𝘯𝘴𝘪𝘰́𝘯.*
-—◉ *Iɴᴛᴇɴᴛᴀ Rᴇᴛɪʀᴀʀ Eʟ Bᴀɴᴇᴏ Aǫᴜɪ:* Wa.me/573013114854
+—◉ *Iɴᴛᴇɴᴛᴀ Rᴇᴛɪʀᴀʀ Eʟ Bᴀɴᴇᴏ Aǫᴜɪ:* Wa.me/573004826011
 ╚═════════════════════╝
                `.trim();
               m.reply(messageText);
@@ -1267,11 +1267,11 @@ const messageText = `
           m.exp += xp;
         }
         if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-          mconn.conn.reply(m.chat, `*[ 💎 ] t͓̽e͓̽ q͓̽u͓̽e͓̽d͓̽a͓̽s͓̽t͓̽e͓̽ s͓̽i͓̽n͓̽ d͓̽i͓̽a͓̽m͓̽a͓̽n͓̽t͓̽e͓̽s͓̽ p͓̽o͓̽b͓̽r͓̽e͓̽ u͓̽s͓̽a͓̽ e͓̽l͓̽ s͓̽i͓̽g͓̽u͓̽i͓̽e͓̽n͓̽t͓̽e͓̽ c͓̽o͓̽m͓̽a͓̽n͓̽d͓̽o͓̽ p͓̽a͓̽r͓̽a͓̽ c͓̽o͓̽m͓̽p͓̽r͓̽a͓̽r͓̽ d͓̽i͓̽a͓̽m͓̽a͓̽n͓̽t͓̽i͓̽t͓̽o͓̽s͓̽ ${usedPrefix}buyall*`, m);
+          mconn.conn.reply(m.chat, `*💎 t͓̽e͓̽ q͓̽u͓̽e͓̽d͓̽a͓̽s͓̽t͓̽e͓̽ s͓̽i͓̽n͓̽ d͓̽i͓̽a͓̽m͓̽a͓̽n͓̽t͓̽e͓̽s͓̽ p͓̽o͓̽b͓̽r͓̽e͓̽ u͓̽s͓̽a͓̽ e͓̽l͓̽ s͓̽i͓̽g͓̽u͓̽i͓̽e͓̽n͓̽t͓̽e͓̽ c͓̽o͓̽m͓̽a͓̽n͓̽d͓̽o͓̽ p͓̽a͓̽r͓̽a͓̽ c͓̽o͓̽m͓̽p͓̽r͓̽a͓̽r͓̽ d͓̽i͓̽a͓̽m͓̽a͓̽n͓̽t͓̽i͓̽t͓̽o͓̽s͓̽ ${usedPrefix}buyall*`, m);
           continue; 
         }
         if (plugin.level > _user.level) {
-          mconn.conn.reply(m.chat, `*[ 💠 ] 𝐬𝐞 𝐫𝐞𝐪𝐮𝐢𝐞𝐫𝐞 𝐭𝐞𝐧𝐞𝐫 𝐞𝐥 𝐧𝐢𝐯𝐞𝐥 ${plugin.level} 𝐩𝐚𝐫𝐚 𝐩𝐨𝐝𝐞𝐫 𝐮𝐬𝐚𝐫 𝐞𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨. 𝐭𝐮 𝐧𝐢𝐯𝐞𝐥 𝐚𝐜𝐭𝐮𝐚𝐥 𝐞𝐬 ${_user.level}, 𝐮𝐬𝐚 𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 ${usedPrefix} 𝐥𝐯𝐥 𝐩𝐚𝐫𝐚 𝐬𝐮𝐛𝐢𝐫 𝐝𝐞 𝐧𝐢𝐯𝐞𝐥 𝐜𝐨𝐧 𝐞𝐱𝐩.*`, m);
+          mconn.conn.reply(m.chat, `*🌹 𝐬𝐞 𝐫𝐞𝐪𝐮𝐢𝐞𝐫𝐞 𝐭𝐞𝐧𝐞𝐫 𝐞𝐥 𝐧𝐢𝐯𝐞𝐥 ${plugin.level} 𝐩𝐚𝐫𝐚 𝐩𝐨𝐝𝐞𝐫 𝐮𝐬𝐚𝐫 𝐞𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨. 𝐭𝐮 𝐧𝐢𝐯𝐞𝐥 𝐚𝐜𝐭𝐮𝐚𝐥 𝐞𝐬 ${_user.level}, 𝐮𝐬𝐚 𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 ${usedPrefix} 𝐥𝐯𝐥 𝐩𝐚𝐫𝐚 𝐬𝐮𝐛𝐢𝐫 𝐝𝐞 𝐧𝐢𝐯𝐞𝐥 𝐜𝐨𝐧 𝐞𝐱𝐩.*`, m);
           continue; 
         }
         const extra = {
@@ -1500,7 +1500,7 @@ export async function callUpdate(callUpdate) {
         const callmsg = await mconn.conn.reply(nk.from, `𝙷𝚘𝚕𝚊 *@${nk.from.split('@')[0]}*, 𝚕𝚊𝚜 ${nk.isVideo ? '𝚟𝚒𝚍𝚎𝚘𝚕𝚕𝚊𝚖𝚊𝚍𝚊s' : '𝚕𝚕𝚊𝚖𝚊𝚍𝚊s'} 𝚗𝚘 𝚎𝚜𝚝𝚊́𝚗 𝚙𝚎𝚛𝚖𝚒𝚝𝚒𝚍𝚊𝚜, 𝚜𝚎𝚛𝚊́𝚜 𝚋𝚕𝚘𝚚𝚞𝚎𝚊𝚍𝚘.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, {mentions: [nk.from]});
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵 ✨;;;\nFN:𝘚𝘢𝘬𝘶𝘳𝘢 ✨\nORG:𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵 ✨\nTITLE:\nitem1.TEL;waid=573013114854:+57 301 3114854\nitem1.X-ABLabel:𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵 ✨\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵 ✨\nEND:VCARD`;
+        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵 ✨;;;\nFN:𝘚𝘢𝘬𝘶𝘳𝘢 ✨\nORG:𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵 ✨\nTITLE:\nitem1.TEL;waid=573004826011:+57 300 4826011\nitem1.X-ABLabel:𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵 ✨\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵 ✨\nEND:VCARD`;
         await mconn.conn.sendMessage(nk.from, {contacts: {displayName: '𝘚𝘢𝘬𝘶𝘳𝘪𝘵𝘴𝘉𝘰𝘵 ✨', contacts: [{vcard}]}}, {quoted: callmsg});
         await mconn.conn.updateBlockStatus(nk.from, 'block');
       }
@@ -1550,7 +1550,7 @@ global.dfail = (type, m, conn) => {
     restrict: '*⚠️ 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘙𝘦𝘴𝘵𝘳𝘪𝘯𝘨𝘪𝘥𝘰 𝘗𝘰𝘳 𝘋𝘦𝘴𝘪𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘗𝘳𝘰𝘱𝘪𝘦𝘵𝘢𝘳𝘪𝘰 𝘋𝘦𝘭 𝘉𝘰𝘵.*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '⚠ 𝗔𝗩𝗜𝗦𝗢 - 𝗔𝗟𝗘𝗥𝗧𝗔', body: 'SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '⚠ 𝐴𝑉𝐼𝑆𝑂 - 𝐴𝐿𝐸𝑅𝑇𝐴', body: '𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
