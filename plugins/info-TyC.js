@@ -5,34 +5,21 @@ handler.customPrefix = /términos y condiciones y privacidad|terminosycondicione
 handler.command = new RegExp;
 export default handler;
 
-global.terminos = `
-*=> El desconocimiento de lo que aqui se menciona no exime al propietario del Bot, o usuario del bot de la sanciones que se puedan derivar❗*
+global.terminos = `𝑺𝑴𝑺 𝑫𝑬𝑳 𝑪𝑹𝑬𝑨𝑫𝑶𝑹✨
 
-*⚠️ Términos de privacidad*
-_1.- La información que reciba el Bot NO se comparte con ningún tercero ni con nadie_
-_2.- Las imágenes/videos/sticker/audios/etc no son compartidos con nadie_
-_3.- Su numero de teléfono no es compartido con absolutamente nadie_
-_4.- Datos de tarjetas, ubicaciones, direcciones, etc son eliminados inmediatamente y no se comparten con absolutamente nadie_
-_5.- Todas las conversaciones son eliminadas cada determinado tiempo y no se hace backup (no se guarda) de ningún tipo de información/conversación_
+⚠️𝐀𝐃𝐕𝐄𝐑𝐓𝐄𝐍𝐂𝐈𝐀 𝐃𝐄𝐋 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 (𝐃𝐈𝐄𝐆𝐎)⚠️
 
-*⚠️ Términos de uso*
-_1.- No nos hacemos responsables de un mal uso que se le pueda dar al Bot_
-_2.- No nos hacemos responsables de la ignorancia y/o desconocimiento del tema_
-_3.- El Bot no esta activo las 24 horas al menos de que el propietario decida lo contrario_
-_4.- No nos hacemos responsables de los números que se puedan ir a soporte por el uso del Bot, es aconsejable siempre usar números virtuales para usos de Bots_
-_5.- Los audios/notas de voz/imágenes/videos o cualquier otro archivo multimedia que sean de propiedad de Sakura - Bot son únicamente y exclusivamente de este Bot, si se detecta a otro Bot con alguno o algunos de los archivos multimedia antes mencionado se tomarán cartas en el asunto._
+𝑫𝒊𝒆𝒈𝒐 𝑵𝒐 𝑺𝒆 𝑯𝒂𝒄𝒆 𝑹𝒆𝒔𝒑𝒐𝒏𝒔𝒂𝒃𝒍𝒆 𝑫𝒆𝒍 𝑴𝒂𝒍 𝑼𝒔𝒐 𝑫𝒆𝒍 𝑩𝒐𝒕 𝑶 𝑺𝒖𝒃𝒃𝒐𝒕, 𝑪𝒂𝒅𝒂 𝑷𝒆𝒓𝒔𝒐𝒏𝒂 𝑼𝒔𝒂 𝑺𝒖 𝑩𝒐𝒕 𝑨 𝑺𝒖 𝑴𝒂𝒏𝒆𝒓𝒂. 𝑫𝒊𝒆𝒈𝒐 𝑵𝒐 𝑺𝒆 𝑯𝒂𝒄𝒆 𝑪𝒂𝒓𝒈𝒐 𝑫𝒆 𝑳𝒐 𝑸𝒖𝒆 𝑷𝒂𝒔𝒂𝒓𝒂 𝑨 𝑺𝒖 𝑪𝒖𝒆𝒏𝒕𝒂 𝑺𝒊 𝑼𝒔𝒂 𝑴𝒂𝒍 𝑬𝒍 𝑩𝒐𝒕.
 
-*➤ Mensaje del numero del Bot?*
-_- Si en algún momento recibe un mensaje del numero del Bot y no es un comando posiblemente sea de el propietario del Bot o el propietario del numero, este es un persona real por lo que se le pide que no le falte el respeto_
+𝑬𝒍 𝑩𝒐𝒕 𝑬𝒔 𝑺𝒊𝒎𝒑𝒍𝒆 𝑷𝒆𝒓𝒐 𝑪𝒐𝒏 𝑪𝒐𝒎𝒂𝒏𝒅𝒐𝒔 𝑫𝒊𝒗𝒆𝒓𝒕𝒊𝒅𝒐𝒔, 𝑸𝒖𝒊𝒆𝒓𝒆𝒔 𝑽𝒆𝒓 𝑳𝒐𝒔 𝑪𝒐𝒎𝒂𝒏𝒅𝒐𝒔? 𝑬𝒔𝒄𝒓𝒊𝒃𝒆 #menu.
 
----------------------l_-----------------
+𝑩𝒐𝒕 𝑼𝒔𝒐 𝑷𝒖𝒃𝒍𝒊𝒄𝒐 𝑷𝒂𝒓𝒂 𝑻𝒐𝒅𝒂𝒔 𝑳𝒂𝒔 𝑷𝒆𝒓𝒔𝒐𝒏𝒂𝒔 𝑸𝒖𝒆 𝑷𝒖𝒆𝒅𝒂𝒏 𝑼𝒔𝒂𝒓𝒍𝒐, 𝑮𝒓𝒂𝒄𝒊𝒂𝒔 𝑷𝒐𝒓 𝑷𝒓𝒆𝒇𝒆𝒓𝒊𝒓𝒏𝒐𝒔 𝑼𝒔𝒂 𝑵𝒖𝒆𝒔𝒕𝒓𝒐 𝑩𝒐𝒕, 𝑬𝒍 𝑩𝒐𝒕 𝑬𝒔 𝑺𝒊𝒎𝒑𝒍𝒆 𝑷𝒆𝒓𝒐 𝑫𝒊𝒗𝒆𝒓𝒕𝒊𝒅𝒐✨
 
-*⁉️ Te quedaron dudas?*
-_- Si todavía tienes alguna duda o reclamo de lo mencionado aqui o referente al Bot, contáctame a mi numero personal al cual estaré respondiendo lo antes posible para brindarte una solución y/o hacerme responsable de alguna reclamación_ 
+𝑪𝒐𝒏𝒕𝒂𝒄𝒕𝒂𝒏𝒐𝒔🚀
 
->Wa.me/573013114854
-> diegojadibot
-> Correo electronico: 
-centersakurabot@gmail.com
+✫ Wa.me/573004826011
+᯽ diegojadibot
+✫ Correo electronico: 
+argumedodie@gmail.com
 
-*∆ SAKURA- BOT - MD ∆*`;
+𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🌻`;
