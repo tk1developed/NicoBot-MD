@@ -514,6 +514,8 @@ ${readMore}
   }
 };
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i;
+handler.register = true
+export default handler
 handler.exp = 50;
 handler.fail = null;
 export default handler;
