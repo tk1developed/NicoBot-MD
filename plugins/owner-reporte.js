@@ -2,11 +2,11 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   if (!text) throw `🌼 𝗜𝗻𝗴𝗿𝗲𝘀𝗮 𝗲𝗹 𝗿𝗲𝗽𝗼𝗿𝘁𝗲\n\n𝗘𝗷𝗲𝗺𝗽𝗹𝗼:\n*${usedPrefix + command}* 𝗘𝗹 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 ${usedPrefix}𝗠𝗲𝗻𝘂 𝗺𝗮𝗻𝗱𝗮 𝗲𝗿𝗿𝗼𝗿`;
   if (text.length < 10) throw `🌼 𝐑𝐞𝐩𝐨𝐫𝐭𝐞 𝐦𝐢𝐧𝐢𝐦𝐨 𝐝𝐞 10 𝐜𝐚𝐫𝐚𝐜𝐭𝐞𝐫𝐞𝐬`;
   if (text.length > 1000) throw `🌼 𝐑𝐞𝐩𝐨𝐫𝐭𝐞 𝐦𝐚𝐱𝐢𝐦𝐨 𝐝𝐞 1000 𝐜𝐚𝐫𝐚𝐜𝐭𝐞𝐫𝐞𝐬`;
-  const teks = `*╭━━[ 𝑹𝑬𝑷𝑶𝑹𝑻𝑬 ]━━━⬣*\n*┃*\n*┃* ➦☬⃝✨𝐶𝑙𝑖𝑒𝑛𝑡𝑒: \n┃ ✦ Wa.me/${m.sender.split`@`[0]}\n*┃*\n*┃* ➦☬⃝✨𝑆𝑚𝑠:\n*┃* ✦ ${text}\n*┃*\n*╰❖────『 𝑆𝑜𝑝𝑜𝑟𝑡𝑒 』────❖*`;
+  const teks = `*╭━━[ 𝑹𝑬𝑷𝑶𝑹𝑻𝑬 ]━━━⬣*\n*┃*\n*┃* ➦☬⃝✨𝐶𝑙𝑖𝑒𝑛𝑡𝑒: \n┃ ❁ Wa.me/${m.sender.split`@`[0]}\n*┃*\n*┃* ➦☬⃝✨𝑆𝑚𝑠:\n*┃* ❁ ${text}\n*┃*\n*╰❖────『 𝑆𝑜𝑝𝑜𝑟𝑡𝑒 』────❖*`;
   conn.reply('573013114854@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedJid: [m.sender]}});
-  conn.reply('573218138672@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedjid: [m.sender]}});
-  conn.reply('51935499065@s.whatsapp.net',m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedjid: [m.sender]}});
-  m.reply(`[ 💖 ] ☆𝐄𝐱𝐢𝐭𝐨, 𝐑𝐞𝐩𝐨𝐫𝐭𝐞 𝐞𝐧𝐯𝐢𝐚𝐝𝐨 𝐚 𝐥𝐨𝐬 𝐨𝐰𝐧𝐞𝐫𝐬, 𝐫𝐞𝐯𝐢𝐬𝐚𝐫𝐞𝐦𝐨𝐬 𝐞𝐥 𝐫𝐞𝐩𝐨𝐫𝐭𝐞 𝐲 𝐭𝐞𝐧𝐝𝐫𝐚 𝐮𝐧𝐚 𝐫𝐞𝐬𝐩𝐮𝐞𝐬𝐭𝐚 𝐝𝐞 𝐬𝐞𝐫 𝐧𝐞𝐜𝐞𝐬𝐚𝐫𝐢𝐨☆`);
+  conn.reply('51935499065@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedjid: [m.sender]}});
+  conn.reply('51939041500@s.whatsapp.net',m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedjid: [m.sender]}});
+  m.reply(`[ 🌻 ] ☆𝑬𝒙𝒊𝒕𝒐 𝑬𝒍 𝑺𝒎𝒔 𝑺𝒆 𝑬𝒏𝒗𝒊𝒂𝒓𝒂 𝑨 𝑳𝒐𝒔 𝑪𝒓𝒆𝒂𝒅𝒐𝒓𝒆𝒔 𝑫𝒆𝒍 𝑩𝒐𝒕, 𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯☆`);
 };
 handler.help = ['reporte', 'request'].map((v) => v + ' <teks>');
 handler.tags = ['info'];
