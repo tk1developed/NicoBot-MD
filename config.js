@@ -14,7 +14,7 @@ global.botnumber = ""
 global.owner = [ 
   ['573004826011', '♡ ᭄𝐃𝐢𝐞𝐠𝐨 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 ♡᭄ ', true]]
 
-global.suittag = ['573013114854'];
+global.suittag = ['573004826011'];
 global.prems = ['573218138672'];
 
 global.lenguajeSK = es //idioma de sakurabot
@@ -54,7 +54,7 @@ global.mysticbot = 'https://github.com/diegojadibot/SakuraBotLite-MD';
 global.waitt = '*🪁  𝑼𝒏 𝑴𝒐𝒎𝒆𝒏𝒕𝒐 ʕ •́؈•̀ ₎...*';
 global.waittt = '*🪁 𝑼𝒏 𝑴𝒐𝒎𝒆𝒏𝒕𝒐 ʕ •́؈•̀ ₎...*';
 global.waitttt = '*🪁 𝑼𝒏 𝑴𝒐𝒎𝒆𝒏𝒕𝒐 ʕ •́؈•̀ ₎...*';
-global.nomorown = '573013114854';
+global.nomorown = '573004826011';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
