@@ -99,7 +99,7 @@ ${readMore}
 ╰━━━━━━━✦✗✦━━━━━━━━
 
 ╔─━━ *DIVERSIONES* ━━─╗
-│❢➻ 🌹 _${usedPrefix}sakura_
+│❢➻ 🌹 _${usedPrefix}sakurita_
 │❢➻ 🌹 _${usedPrefix}antiguo_
 │❢➻ 🌹 _${usedPrefix}love_
 │❢➻ 🌹 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
