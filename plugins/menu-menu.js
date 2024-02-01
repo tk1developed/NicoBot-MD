@@ -65,6 +65,7 @@ ${readMore}
 │❢➻ 📋 _${usedPrefix}speedtest_
 │❢➻ 📋 _${usedPrefix}donar_
 │❢➻ 📋 _${usedPrefix}owner_
+│❢➻ 📋 _${usedPrefix}contactos_
 │❢➻ 📋 _${usedPrefix}script_
 │❢➻ 📋 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ╰━━━━━━━✦✗✦━━━━━━━━
