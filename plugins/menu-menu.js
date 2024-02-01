@@ -100,6 +100,7 @@ ${readMore}
 ╰━━━━━━━✦✗✦━━━━━━━━
 
 ╔─━━ *DIVERSIONES* ━━─╗
+│❢➻ 🌹 _${usedPrefix}karolg_
 │❢➻ 🌹 _${usedPrefix}sakurita_
 │❢➻ 🌹 _${usedPrefix}antiguo_
 │❢➻ 🌹 _${usedPrefix}love_
