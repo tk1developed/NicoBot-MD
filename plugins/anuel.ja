@@ -33,7 +33,7 @@ await conn.sendFile(m.chat, img, 'hades.jpg', texto, fkontak)
 //await conn.sendButton(m.chat, texto, wm, img, [['🔰 𝙼𝙴𝙽𝚄', '/menu'] ], fkontak, m)  
 global.db.data.users[m.sender].lastcofre = new Date * 1
 }
-handler.help = ['daily']
+handler.help = ['owner']
 handler.tags = ['xp']
 handler.command = ['antiguo', 'botantiguo', 'antiguo'] 
 handler.register = true
