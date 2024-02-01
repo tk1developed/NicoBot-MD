@@ -21,7 +21,7 @@ https://chat.whatsapp.com/DUAS7osnQ2h3tlYT4bnbfU
 3 ᰔᩚ♕︎🅜︎🅤︎🅛︎🅣︎🅘︎.🅑︎🅞︎🅣︎🅢︎♕︎ᰔᩚ
 ▢ https://chat.whatsapp.com/GU9pwU6WMig2SSvot1Umlm
 ─────────────
-🪁🌥Si Se Restableció El Enlace Del Grupo Entra Aqui En Algunos De Estos Link!! 
+🪁🌥Si Se Restableció El Enlace Del Grupo Entra Aqui En Algunos De Estos Link.!! 
 
 Atom.Bio : 
 ▢ https://atom.bio/sakuralite
