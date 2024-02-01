@@ -13,7 +13,7 @@ let expp = Math.floor(Math.random() * 5000)
   global.db.data.users[m.sender].joincount += tok
   global.db.data.users[m.sender].exp += expp
 
-let texto = `𝑅𝐸𝐴𝐿 𝐴𝑆𝑇𝐴 𝐿𝐴 𝑀𝑈𝐸𝑅𝑇𝐸💚`
+let texto = `*𝑅𝐸𝐴𝐿 𝐴𝑆𝑇𝐴 𝐿𝐴 𝑀𝑈𝐸𝑅𝑇𝐸💚*`
 
 const fkontak = {
         "key": {
@@ -35,7 +35,7 @@ global.db.data.users[m.sender].lastcofre = new Date * 1
 }
 handler.help = ['daily']
 handler.tags = ['xp']
-handler.command = ['anuel', 'anuelaa', 'anuelito'] 
+handler.command = ['anuel', 'Anuel', 'realastalamuerte'] 
 handler.register = true
 export default handler
 
@@ -53,4 +53,4 @@ function msToTime(duration) {
   seconds = (seconds < 10) ? "0" + seconds : seconds
 
   return hours + " Horas " + minutes + " Minutos"
-}
+} 
