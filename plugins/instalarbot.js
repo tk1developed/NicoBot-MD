@@ -4,8 +4,8 @@ const handler = async (m, { conn, args }) => {
    const res = await fetch('https://api.github.com/repos/diegojadibot/SakuraBotLite-MD');
    const json = await res.json();
    let txt = `🌱𝐼𝑛𝑠𝑡𝑎𝑙𝑎𝑐𝑖𝑜𝑛 𝑇𝑒𝑟𝑚𝑢𝑥 𝐴𝑢𝑡𝑜𝑚𝑎𝑡𝑖𝑐𝑎⚓
- ❀ termux-setup-storage
- ❀ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/sakura.sh | bash
+   ❀ termux-setup-storage
+   ❀ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/sakura.sh | bash
 
 🌱 𝐼𝑛𝑠𝑡𝑎𝑙𝑎𝑐𝑖𝑜𝑛 𝑀𝑎𝑛𝑢𝑎𝑙 𝑇𝑒𝑟𝑚𝑢𝑥 ⚓
     ❀ cd && termux-setup-storage
