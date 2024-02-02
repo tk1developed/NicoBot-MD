@@ -1,4 +1,4 @@
-0let media = './Menu7.png'
+let media = './Menu7.png'
 let handler = async (m, { conn, command }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let str = `😻𝘏𝘰𝘭𝘢, 𝘛𝘦 𝘐𝘯𝘷𝘪𝘵𝘰 𝘈 𝘜𝘯𝘪𝘳𝘵𝘦 𝘌𝘯 𝘕𝘶𝘦𝘴𝘵𝘳𝘰𝘴 𝘎𝘳𝘶𝘱𝘰𝘴🫶, 𝘛𝘢𝘮𝘣𝘪𝘦𝘯 𝘗𝘢𝘳𝘢 𝘘𝘶𝘦 𝘕𝘰𝘴 𝘚𝘪𝘨𝘢𝘴 𝘌𝘯 𝘕𝘶𝘦𝘴𝘵𝘳𝘰𝘴 𝘊𝘢𝘯𝘢𝘭𝘦𝘴❣️, 𝘠 𝘗𝘢𝘳𝘢 𝘘𝘶𝘦 𝘝𝘪𝘷𝘢𝘴 𝘊𝘰𝘯 𝘕𝘶𝘦𝘴𝘵𝘳𝘢𝘴 𝘊𝘰𝘮𝘶𝘯𝘪𝘥𝘢𝘥𝘦𝘴, 𝘎𝘳𝘶𝘱𝘰𝘴 𝘠 𝘊𝘢𝘯𝘢𝘭𝘦𝘴❤️🫶, 𝘛𝘦 𝘋𝘦𝘫𝘰 𝘓𝘰𝘴 𝘓𝘪𝘯𝘬 𝘋𝘦 𝘓𝘰𝘴 𝘎𝘳𝘶𝘱𝘰𝘴 𝘠 𝘊𝘢𝘯𝘢𝘭𝘦𝘴ꨄ︎ :𝘋
