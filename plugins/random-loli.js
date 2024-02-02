@@ -1,7 +1,7 @@
 const handler = async (m, {conn, text, command}) => {
   const yh = global.loli;
   const url = yh[Math.floor(Math.random() * yh.length)];
-  conn.sendMessage(m.chat, {image: {url: url}, caption: '𝕷𝖔𝖑𝖎 𝕱𝖔𝖙𝖔 𝕾𝖍𝖔𝖕. - 𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊 🥺'}, {quoted: m});
+  conn.sendMessage(m.chat, {image: {url: url}, caption: '𝕷𝖔𝖑𝖎 𝕱𝖔𝖙𝖔 𝕾𝖍𝖔𝖕.🥺'}, {quoted: m});
 };
 handler.command = /^(loli)$/i;
 handler.tags = ['anime'];
