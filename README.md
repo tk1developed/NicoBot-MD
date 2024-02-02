@@ -4,7 +4,7 @@
 
 <p align="center">
 
->![My card name](https://cardivo.vercel.app/api?name=Sakura%20-%20OBot%20-Lite%20-%20MD&description=Hola!,%20Soy%20SakuraBot.%20Soy%20Un%20Bot%20Muy%20Divertido%20Simples%20Comandos%20Puede%20Ayuda%20En%20Lo%20Que%20Le%20Pidas.%20%E2%98%BA%EF%B8%8F&image=https://telegra.ph/file/1fe653ce7a833a782468e.jpg&backgroundColor=%23ecf0f1&instagram=@sakura&pattern=ticTacToe&colorPattern=%23eaeaea&site=%F0%9F%96%A5%EF%B8%8F%20Me%20Gusta%20Ayudar.%20%20%7C%20%20%F0%9F%8E%AE%20Me%20Gusta%20Video%20Juego.)
+>![My card name](https://cardivo.vercel.app/api?name=SakuraBotLite-MD&description=Hola!,%20Soy%20SakuraBot.%20Soy%20Un%20Bot%20Muy%20Divertido%20Simples%20Comandos%20Puede%20Ayuda%20En%20Lo%20Que%20Le%20Pidas.%20%E2%98%BA%EF%B8%8F&image=https://telegra.ph/file/1fe653ce7a833a782468e.jpg&backgroundColor=%23ecf0f1&instagram=@sakura&pattern=ticTacToe&colorPattern=%23eaeaea&site=%F0%9F%96%A5%EF%B8%8F%20Me%20Gusta%20Ayudar.%20%20%7C%20%20%F0%9F%8E%AE%20Me%20Gusta%20Video%20Juego.)
 
 ## `🌻𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯✨` 
 <p align="center">
