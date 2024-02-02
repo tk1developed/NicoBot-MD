@@ -1,7 +1,7 @@
 import moment from 'moment-timezone';
 import fetch from 'node-fetch';
 const handler = async (m, { conn, args }) => {
-   const res = await fetch('https://api.github.com/repos/Ender-GB-Isis777/LOBO-BOT-MD');
+   const res = await fetch('https://api.github.com/repos/diegojadibot/SakuraBotLite-MD');
    const json = await res.json();
    let txt = `🌱𝐼𝑛𝑠𝑡𝑎𝑙𝑎𝑐𝑖𝑜𝑛 𝑇𝑒𝑟𝑚𝑢𝑥 𝐴𝑢𝑡𝑜𝑚𝑎𝑡𝑖𝑐𝑎⚓
  ❀ termux-setup-storage
