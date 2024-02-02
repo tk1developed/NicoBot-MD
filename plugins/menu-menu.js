@@ -57,6 +57,7 @@ ${readMore}
 ╰━━━━━━━✦✗✦━━━━━━━━
 
 ╔─━━ *INFO BOT* ━━─╗
+│❢➻ 📋 _${usedPrefix}instalarbot_
 │❢➻ 📋 _${usedPrefix}botreglas_
 │❢➻ 📋 _${usedPrefix}terminosycondiciones_
 │❢➻ 📋 _${usedPrefix}grupos_
