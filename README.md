@@ -2,8 +2,6 @@
 
 >🌼✨𝗕𝗼𝘁: 𝚄𝚂𝙾 𝙿𝚄𝙱𝙻𝙸𝙲𝙾💚
 
->🚀⚓️𝗣𝗶𝗻𝗴: 𝚂𝚄𝙿𝙴𝚁 𝚁𝙰𝙿𝙸𝙳𝙾🚀
-
 ## `🌻𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯✨` 
 <p align="center">
 <img src="https://telegra.ph/file/1fe653ce7a833a782468e.jpg" alt="SakuraBotLite-MD" width="900"/>
@@ -110,4 +108,9 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ## `🌻𝑷𝒓𝒐𝒑𝒊𝒆𝒕𝒂𝒓𝒊𝒐 𝑫𝒆𝒍 𝑩𝒐𝒕🚀` 
 <a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="250" height="250" alt="Diego"/></a>
+
+
+>🚀✨𝗩𝗲𝗹𝗼𝗰𝗶𝗱𝗮𝗱: 𝙻𝙰 𝚅𝙴𝙻𝙾𝙲𝙸𝙳𝙰𝙳 𝙳𝙴𝙻 𝙱𝙾𝚃 𝙳𝙴𝙿𝙴𝙽𝙳𝙴 𝙴𝙻 𝚂𝙴𝚁𝚅𝙸𝙳𝙾𝚁 𝚀𝚄𝙴 𝚄𝚂𝙰, 𝚂𝙸 𝙴𝚂 𝚃𝙴𝚁𝙼𝚄𝚇 𝙳𝙴𝚅𝙴𝚂 𝚃𝙴𝙽𝙴𝚁 𝚄𝙽 𝙱𝚄𝙴𝙽 𝙸𝙽𝚃𝙴𝚁𝙽𝙴𝚃 𝙿𝙰𝚁𝙰 𝚀𝚄𝙴 𝙿𝚄𝙴𝙳𝙰 𝚂𝙴𝚁 𝚁𝙰𝙿𝙸𝙳𝙾🚀
+
+>🌻👑𝗖𝗼𝗺𝗮𝗻𝗱𝗼𝘀: 𝙿𝙴𝙽𝙳𝙸𝙴𝙽𝚃𝙴, 𝙽𝙾 𝚃𝙴 𝙰𝙶𝙰𝚂 𝚂𝙿𝙰𝙼 𝚃𝚄 𝙼𝙸𝚂𝙼𝙾. 𝙴𝚂 𝙼𝙴𝙹𝙾𝚁 𝚄𝚂𝙰𝚁 𝚄𝙽 𝙽𝚄𝙼𝙴𝚁𝙾 𝚀𝚄𝙴 𝙽𝙾 𝚂𝙴𝙰 𝚃𝚄 𝙽𝚄𝙼𝙴𝚁𝙾 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻, 𝙿𝙰𝚁𝙰 𝙰𝚂𝙸 𝙴𝚅𝙸𝚃𝙰𝚁 𝚂𝙾𝙿𝙾𝚁𝚃𝙴💚
   
