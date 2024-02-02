@@ -19,7 +19,7 @@ const handler = async (m, {text, conn, usedPrefix, command}) => {
       } else conn.reply(m.chat, why, m, {mentions: [m.sender]});
       break;
   }
-  if (res[0]) conn.reply(m.chat, `*[❗] 𝚂𝙴 𝚄𝚂𝙾 𝙲𝙾𝙽 𝙴𝚇𝙸𝚃𝙾 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${command} 𝙿𝙰𝚁𝙰 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾/𝙰 ${res ? `${res.map((v) => '@' + v.split('@')[0])}` : ''}*`, m, {mentions: res});
+  if (res[0]) conn.reply(m.chat, `*✨𝐸𝑥𝑖𝑡𝑜 𝑆𝑒 𝑈𝑠𝑜 𝐸𝑙 𝐶𝑜𝑚𝑎𝑛𝑑𝑜 ${command} 𝑃𝑎𝑟𝑎 𝐸𝑙 𝑈𝑠𝑢𝑎𝑟𝑖𝑜 ${res ? `${res.map((v) => '@' + v.split('@')[0])}` : ''}*`, m, {mentions: res});
 };
 handler.command = /^(block|unblock)$/i;
 handler.rowner = true;
