@@ -5,7 +5,7 @@ const handler = async (m, { conn, args }) => {
    const json = await res.json();
    let txt = `🌱𝐼𝑛𝑠𝑡𝑎𝑙𝑎𝑐𝑖𝑜𝑛 𝑇𝑒𝑟𝑚𝑢𝑥 𝐴𝑢𝑡𝑜𝑚𝑎𝑡𝑖𝑐𝑎⚓
  ❀ termux-setup-storage
-❀ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/sakura.sh | bash
+ ❀ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/sakura.sh | bash
 
 🌱 𝐼𝑛𝑠𝑡𝑎𝑙𝑎𝑐𝑖𝑜𝑛 𝑀𝑎𝑛𝑢𝑎𝑙 𝑇𝑒𝑟𝑚𝑢𝑥 ⚓
     ❀ cd && termux-setup-storage
@@ -18,14 +18,14 @@ const handler = async (m, { conn, args }) => {
     ❀ npm start
 
 ⚓𝑆𝑒 𝐴𝑝𝑎𝑔𝑜 𝐸𝑙 𝐵𝑜𝑡? 𝐶𝑜𝑚𝑎𝑛𝑑𝑜 𝑃𝑎𝑟𝑎 𝐸𝑛𝑐𝑒𝑛𝑑𝑒𝑟𝑙𝑜🌱
-❀ cd
-❀ cd SakuraBotLite-MD
-❀ npm start
+   ❀ cd
+   ❀ cd SakuraBotLite-MD
+   ❀ npm start
 
 ⚓𝑃𝑒𝑑𝑖𝑟 𝑂𝑡𝑟𝑜 𝑄𝑟 𝑉𝑖𝑎 𝑇𝑒𝑟𝑚𝑢𝑥🌱
-❀ cd SakuraBotLite-MD
-❀ rm -rf SakuraBotSession
-❀ npm start
+   ❀ cd SakuraBotLite-MD
+   ❀ rm -rf SakuraBotSession
+   ❀ npm start
 
 ✨ 𝘓𝘰𝘴 𝘊𝘰𝘮𝘢𝘯𝘥𝘰𝘴 𝘚𝘰𝘯 1 𝘗𝘰𝘳 1 𝘝𝘪𝘢 𝘛𝘦𝘳𝘮𝘶𝘹 🌻
     
