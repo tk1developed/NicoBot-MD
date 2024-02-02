@@ -1,7 +1,9 @@
 import fetch from 'node-fetch';
 const regex = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i;
 const handler = async (m, {args, usedPrefix, command}) => {
-  if (!args[0]) throw `*⏳️𝐸𝑛𝑣𝑖𝑎 𝐸𝑙 𝐿𝑖𝑛𝑘 𝐷𝑒𝑙 𝐺𝑖𝑡ℎ𝑢𝑏 𝐷𝑒𝑙 𝐵𝑜𝑡 𝑄𝑢𝑒 𝑄𝑢𝑖𝑒𝑟𝑎𝑠 𝐷𝑒𝑠𝑐𝑎𝑟𝑔𝑎𝑟 𝐿𝑜𝑠 𝐴𝑟𝑐ℎ𝑖𝑣𝑜𝑧 𝐄𝐣𝐞𝐦𝐩𝐥𝐨: ${usedPrefix + command} https://github.com/diegojadibot/SakuraBotLite-MD*`;
+  if (!args[0]) throw `*⚓𝐸𝑛𝑣𝑖𝑎 𝐸𝑙 𝐺𝑖𝑟ℎ𝑢𝑏.
+ 𝐄𝐣𝐞𝐦𝐩𝐥𝐨: 
+${usedPrefix + command} https://github.com/diegojadibot/SakuraBotLite-MD*`;
   if (!regex.test(args[0])) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙸𝙽𝙺 𝙸𝙽𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾!*';
   let [_, user, repo] = args[0].match(regex) || [];
   repo = repo.replace(/.git$/, '');
