@@ -56,7 +56,7 @@ ${readMore}
 │𖢭➸ 🧭 _${usedPrefix}dsowner_
 ╰━━━━━━━✦✗✦━━━━━━━━
 
-╭─━━ *INFO BOT* ━━─╮
+╭─━━ *INFO - BOT* ━━─╮
 │𖢭➸ 🌻 _${usedPrefix}botreglas_
 │𖢭➸ 🌻 _${usedPrefix}instalarbot_
 │𖢭➸ 🌻 _${usedPrefix}terminosycondiciones_
@@ -101,7 +101,7 @@ ${readMore}
 │𖢭➸ 🛠 _${usedPrefix}disable antiprivado_
 ╰━━━━━━━✦✗✦━━━━━━━━
 
-╭─━━ *DIVERSIONES* ━━─╮
+╭─━━ *DIVERSIONES/JUEGOS* ━━─╮
 │𖢭➸ 🔥 _${usedPrefix}karolg_
 │𖢭➸ 🔥 _${usedPrefix}love_
 │𖢭➸ 🔥 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
@@ -141,7 +141,7 @@ ${readMore}
 │𖢭➸ 🔥 _${usedPrefix}wordfind_
 ╰━━━━━━━✦✗✦━━━━━━━━
 
-╭─━━ *ON/OFF* ━━─╮
+╭─━━ *ENABLE/DISABLE* ━━─╮
 │𖢭➸ 💧 _${usedPrefix}enable *welcome*_
 │𖢭➸ 💧 _${usedPrefix}disable *welcome*_
 │𖢭➸ 💧 _${usedPrefix}enable *modohorny*_
@@ -170,7 +170,7 @@ ${readMore}
 │𖢭➸ 💧 _${usedPrefix}disable *antidelete*_
 ╰━━━━━━━✦✗✦━━━━━━━━
 
-╭─━━ *REPORTE* ━━─╮
+╭─━━ *COMANDO REPORTE* ━━─╮
 │𖢭➸ 🖥 _${usedPrefix}reporte *<texto>*_
 ╰━━━━━━━✦✗✦━━━━━━━━
 
@@ -286,7 +286,7 @@ ${readMore}
 │𖢭➸ 🖼 _${usedPrefix}blur_
 ╰━━━━━━━✦✗✦━━━━━━━━
 
-╭─━━ *PIROPOS* ━━─╮
+╭─━━ *PIROPOS LOVE* ━━─╮
 │𖢭➸ ✏️  _${usedPrefix}piropo_
 │𖢭➸ ✏️  _${usedPrefix}consejo_
 │𖢭➸ ✏️  _${usedPrefix}fraseromantica_
@@ -297,7 +297,7 @@ ${readMore}
 │𖢭➸ 📓 _${usedPrefix}menuanimes_
 ╰━━━━━━━✦✗✦━━━━━━━━
 
-╭─━━ *RANDOM* ━━─╮
+╭─━━ *IMAGEN RANDOM* ━━─╮
 │𖢭➸ 📺 _${usedPrefix}kpop *<blackpink / exo / bts>*_
 │𖢭➸ 📺 _${usedPrefix}cristianoronaldo_
 │𖢭➸ 📺 _${usedPrefix}messi_
@@ -436,7 +436,6 @@ ${readMore}
 │𖢭➸ 🌺 _${usedPrefix}stickermarker *<efecto> <imagen>*_
 │𖢭➸ 🌺 _${usedPrefix}stickerfilter *<efecto> <imagen>*_
 ╰━━━━━━━✦✗✦━━━━━━━━
-
 
 ╭─━━ *FUNCIÓN-CREADOR* ━━─╮
 │𖢭➸ 🐢 > *<funcion>*
