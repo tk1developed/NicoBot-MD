@@ -149,7 +149,6 @@ handler.command = /^(play|play2)$/i;
 
 handler.register = true
 
-handler.limit = true
 
 export default handler;
 
