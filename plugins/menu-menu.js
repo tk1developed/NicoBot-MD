@@ -58,8 +58,11 @@ ${readMore}
 
 ╭─━━ *INFO BOT* ━━─╮
 │𖢭➸ 🌻 _${usedPrefix}botreglas_
+│𖢭➸ 🌻 _${usedPrefix}instalarbot_
 │𖢭➸ 🌻 _${usedPrefix}terminosycondiciones_
 │𖢭➸ 🌻 _${usedPrefix}grupos_
+│𖢭➸ 🌻 _${usedPrefix}sakurita_
+│𖢭➸ 🌻 _${usedPrefix}antiguo_
 │𖢭➸ 🌻 _${usedPrefix}estado_
 │𖢭➸ 🌻 _${usedPrefix}infobot_
 │𖢭➸ 🌻 _${usedPrefix}speedtest_
@@ -99,6 +102,7 @@ ${readMore}
 ╰━━━━━━━✦✗✦━━━━━━━━
 
 ╭─━━ *DIVERSIONES* ━━─╮
+│𖢭➸ 🔥 _${usedPrefix}karolg_
 │𖢭➸ 🔥 _${usedPrefix}love_
 │𖢭➸ 🔥 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
 │𖢭➸ 🔥 _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
