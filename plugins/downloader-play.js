@@ -146,6 +146,11 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 handler.help = ['play', 'play2'].map((v) => v + ' < busqueda >');
 handler.tags = ['downloader'];
 handler.command = /^(play|play2)$/i;
+
+handler.register = true
+
+handler.limit = true
+
 export default handler;
 
 async function search(query, options = {}) {
