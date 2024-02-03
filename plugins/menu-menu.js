@@ -36,7 +36,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 𖢭➸ *🗃Usuarios Totales:* ${rtotal}
 𖢭➸ *📅Fecha:* ${date} 
 𖢭➸ *🧭Versión Actual:* ${vs}
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
  *INFO  - USER*
 𖢭➸ *🔥 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
@@ -47,14 +47,14 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 𖢭➸ *👾SakuCoins:* ${money}
 𖢭➸ *🪙Tokens:* ${joincount}
 𖢭➸ *🎟Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 ${readMore}
  *SOLUCIONES*
 𖢭➸ 🧭 Mensajes en espera
 𖢭➸ 🧭 _${usedPrefix}fixmsgespera_
 𖢭➸ 🧭 Mensajes en espera (owner)
 𖢭➸ 🧭 _${usedPrefix}dsowner_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
  *INFO - BOT*
 𖢭➸ 🌻 _${usedPrefix}botreglas_
@@ -70,11 +70,11 @@ ${readMore}
 𖢭➸ 🌻 _${usedPrefix}owner_
 𖢭➸ 🌻 _${usedPrefix}script_
 𖢭➸ 🌻 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
  *BOT A TU GRUPO*
 𖢭➸ 🙀 _${usedPrefix}join *<enlace / link / url>*_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
  *SER SUBBOT*
 𖢭➸ 💻 _${usedPrefix}serbot_
@@ -82,8 +82,7 @@ ${readMore}
 𖢭➸ 💻 _${usedPrefix}token_
 𖢭➸ 💻 _${usedPrefix}stop_
 𖢭➸ 💻 _${usedPrefix}bots_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
-
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
  *HERRAMIENTAS*
 𖢭➸ 🛠 _${usedPrefix}enable restrict_
 𖢭➸ 🛠 _${usedPrefix}disable restrict_
@@ -99,7 +98,7 @@ ${readMore}
 𖢭➸ 🛠 _${usedPrefix}disable audios_bot_
 𖢭➸ 🛠 _${usedPrefix}enable antiprivado_
 𖢭➸ 🛠 _${usedPrefix}disable antiprivado_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
  *DIVERSIONES*
 𖢭➸ 🔥 _${usedPrefix}karolg_
@@ -139,7 +138,7 @@ ${readMore}
 𖢭➸ 🔥 _${usedPrefix}pista_
 𖢭➸ 🔥 _${usedPrefix}akinator_
 𖢭➸ 🔥 _${usedPrefix}wordfind_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
  *ENABLE/DISABLE*
 𖢭➸ 💧 _${usedPrefix}enable *welcome*_
@@ -168,11 +167,11 @@ ${readMore}
 𖢭➸ 💧 _${usedPrefix}disable *modoadmin*_
 𖢭➸ 💧 _${usedPrefix}enable *antidelete*_
 𖢭➸ 💧 _${usedPrefix}disable *antidelete*_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
  *COMANDO REPORTE*
 𖢭➸ 🖥 _${usedPrefix}reporte *<texto>*_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
  *DESCARGAS*
 𖢭➸ 🛰 _${usedPrefix}instagram *<enlace / link / url>*_
@@ -210,7 +209,7 @@ ${readMore}
 𖢭➸ 🛰 _${usedPrefix}igstalk *<nombre de usuario>*_
 𖢭➸ 🛰 _${usedPrefix}igstory *<nombre de usuario>*_
 𖢭➸ 🛰 _${usedPrefix}tiktokstalk *<username>*_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
  *BUSCADORES*
 𖢭➸ 🔎 _${usedPrefix}githubsearch *<texto>*_
@@ -225,7 +224,7 @@ ${readMore}
 𖢭➸ 🔎 _${usedPrefix}wikipedia *<texto>*_
 𖢭➸ 🔎 _${usedPrefix}ytsearch *<texto>*_
 𖢭➸ 🔎 _${usedPrefix}playstore *<texto>*_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
  *GRUPO AJUSTES*
 𖢭➸ ⚙️ _${usedPrefix}salir *<admins>*_
@@ -258,7 +257,7 @@ ${readMore}
 𖢭➸ ⚙️ _${usedPrefix}fantasmas_
 𖢭➸ ⚙️ _${usedPrefix}destraba_
 𖢭➸ ⚙️ _${usedPrefix}setpp *<imagen>*_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
  *CONVERTIDORES*
 𖢭➸ 🧶 _${usedPrefix}toanime *<imagen>*_
@@ -271,7 +270,7 @@ ${readMore}
 𖢭➸ 🧶 _${usedPrefix}tourl *<video / imagen / audio>*_
 𖢭➸ 🧶 _${usedPrefix}tts *<idioma> <texto>*_
 𖢭➸ 🧶 _${usedPrefix}tts *<efecto> <texto>*_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
  *LOGOS Y EFECTOS*
 𖢭➸ 🖼 _${usedPrefix}logos *<efecto> <texto>*_
@@ -284,7 +283,7 @@ ${readMore}
 𖢭➸ 🖼 _${usedPrefix}itssostupid_
 𖢭➸ 🖼 _${usedPrefix}pixelar_
 𖢭➸ 🖼 _${usedPrefix}blur_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
  *PIROPOS LOVE*
 𖢭➸ ✏️  _${usedPrefix}piropo_
@@ -295,7 +294,7 @@ ${readMore}
 
  *RAND ANIMES*
 𖢭➸ 📓 _${usedPrefix}menuanimes_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
  *IMAGEN RANDOM*
 𖢭➸ 📺 _${usedPrefix}kpop *<blackpink / exo / bts>*_
@@ -345,18 +344,17 @@ ${readMore}
 𖢭➸ 🔊 _${usedPrefix}slow_
 𖢭➸ 🔊 _${usedPrefix}smooth_
 𖢭➸ 🔊 _${usedPrefix}tupai_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
  *CHAT ANONIMO*
 𖢭➸ ✔️ _${usedPrefix}start_
 𖢭➸ ✔️ _${usedPrefix}next_
 𖢭➸ ✔️ _${usedPrefix}leave_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
  *MENU AUDIOS*
 𖢭➸ 📒 _${usedPrefix}menuaudios_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
-
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
  *UTILIDADES*
 𖢭➸ ⚓️ _${usedPrefix}inspect *<link wa_gc>*_
 𖢭➸ ⚓️ _${usedPrefix}chatgpt *<texto>*_
@@ -384,7 +382,7 @@ ${readMore}
 𖢭➸ ⚓️ _${usedPrefix}covid *<pais>*_
 𖢭➸ ⚓️ _${usedPrefix}horario_
 𖢭➸ ⚓ _${usedPrefix}dropmail_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
  *LIMITES/ECONOMIAS*
 𖢭➸ 🌿 _${usedPrefix}adventure_
@@ -406,8 +404,7 @@ ${readMore}
 𖢭➸ 🌿 _${usedPrefix}robar *<cantidad> <@tag>*_
 𖢭➸ 🌿 _${usedPrefix}transfer *<tipo> <cantidad> <@tag>*_
 𖢭➸ 🌿 _${usedPrefix}unreg *<numero de serie>*_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
-
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
  *STICKERS*
 𖢭➸ 🌺 _${usedPrefix}sticker *<responder a imagen o video>*_
 𖢭➸ 🌺 _${usedPrefix}sticker *<enlace / link / url>*_
@@ -435,7 +432,7 @@ ${readMore}
 𖢭➸ 🌺 _${usedPrefix}wm *<packname> <author>*_
 𖢭➸ 🌺 _${usedPrefix}stickermarker *<efecto> <imagen>*_
 𖢭➸ 🌺 _${usedPrefix}stickerfilter *<efecto> <imagen>*_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
  *FUNCIÓN-CREADOR*
 𖢭➸ 🐢 > *<funcion>*
@@ -501,7 +498,7 @@ ${readMore}
 𖢭➸ 🐢 _${usedPrefix}delcmd *<responder a sticker/imagen con comando o texto asignado>*_
 𖢭➸ 🐢 _${usedPrefix}saveimage_
 𖢭➸ 🐢 _${usedPrefix}viewimage_
-✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏`.trim();     if (m.isGroup) { 
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏`.trim();     if (m.isGroup) { 
  // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
