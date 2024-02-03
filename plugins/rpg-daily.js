@@ -43,7 +43,7 @@ const handler = async (m, {isPrems, conn}) => {
   for (const reward of Object.keys(recompensas)) {
     if (!(reward in user)) continue;
     user[reward] += recompensas[reward];
-    texto += `*+${recompensas[reward]}* ${global.rpgshop.emoticon(reward)}\n┃ `;
+    texto += `*+${recompensas[reward]}* ${global.rpgshop.emoticon(reward)}\n➺ `;
   }
   const text = `╭◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 ➺ ✨ 𝙊𝘽𝙏𝙄𝙀𝙉𝙀𝙎 𝙐𝙉 𝙍𝙀𝙂𝘼𝙇𝙊!!
