@@ -1,28 +1,22 @@
 let media = './Menu7.png'
 let handler = async (m, { conn, command }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-let str = `😻𝘏𝘰𝘭𝘢, 𝘛𝘦 𝘐𝘯𝘷𝘪𝘵𝘰 𝘈 𝘜𝘯𝘪𝘳𝘵𝘦 𝘌𝘯 𝘕𝘶𝘦𝘴𝘵𝘳𝘰𝘴 𝘎𝘳𝘶𝘱𝘰𝘴🫶, 𝘛𝘢𝘮𝘣𝘪𝘦𝘯 𝘗𝘢𝘳𝘢 𝘘𝘶𝘦 𝘕𝘰𝘴 𝘚𝘪𝘨𝘢𝘴 𝘌𝘯 𝘕𝘶𝘦𝘴𝘵𝘳𝘰𝘴 𝘊𝘢𝘯𝘢𝘭𝘦𝘴❣️, 𝘠 𝘗𝘢𝘳𝘢 𝘘𝘶𝘦 𝘝𝘪𝘷𝘢𝘴 𝘊𝘰𝘯 𝘕𝘶𝘦𝘴𝘵𝘳𝘢𝘴 𝘊𝘰𝘮𝘶𝘯𝘪𝘥𝘢𝘥𝘦𝘴, 𝘎𝘳𝘶𝘱𝘰𝘴 𝘠 𝘊𝘢𝘯𝘢𝘭𝘦𝘴❤️🫶, 𝘛𝘦 𝘋𝘦𝘫𝘰 𝘓𝘰𝘴 𝘓𝘪𝘯𝘬 𝘋𝘦 𝘓𝘰𝘴 𝘎𝘳𝘶𝘱𝘰𝘴 𝘠 𝘊𝘢𝘯𝘢𝘭𝘦𝘴ꨄ︎ :𝘋
+let str = `💧𝐺𝑅𝑈𝑃𝑂𝑆 𝑂𝐹𝐼𝐶𝐼𝐴𝐿𝐸𝑆
 
-1 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
-▢ 
+▢ 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊 
 https://chat.whatsapp.com/DUAS7osnQ2h3tlYT4bnbfU
 
-2 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
-▢ https://chat.whatsapp.com/L69Ok8LTIJNCTNsJydkXaE
+▢ 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊 https://chat.whatsapp.com/L69Ok8LTIJNCTNsJydkXaE
 
-🧭Grupos En Colaboración:
+🌹𝐺𝑅𝑈𝑃𝑂𝑆 𝐸𝑁 𝐶𝑂𝐿𝐴𝐵𝑂𝑅𝐴𝐶𝐼𝑂𝑁:
 
-1 🌻 𝐍𝐞𝐱𝐮𝐬 𝐁𝐨𝐭 & 𝐒𝐚𝐤𝐮𝐫𝐚 𝐁𝐨𝐭 🪁
-▢ https://chat.whatsapp.com/C7rJdO0tWjRBr37onmz1vS
+▢ 𝐍𝐞𝐱𝐮𝐬 𝐁𝐨𝐭 & 𝐒𝐚𝐤𝐮𝐫𝐚 𝐁𝐨𝐭  https://chat.whatsapp.com/C7rJdO0tWjRBr37onmz1vS
 
-2 ✨𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕 & 𝑺𝒉𝒂𝒏𝒂-𝑩𝒐𝒕🌻
-▢ https://chat.whatsapp.com/HjtosKShIYcE0xldUFSnkF
+▢ 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕 & 𝑺𝒉𝒂𝒏𝒂-𝑩𝒐𝒕 https://chat.whatsapp.com/HjtosKShIYcE0xldUFSnkF
 
-3 🍁 𝑪𝒖𝒓𝒊𝒐𝒔𝒊𝒕𝒚𝑩𝒐𝒕 & 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕 ✨
-▢ https://chat.whatsapp.com/KY0EqhkVFZf7LDq4tJTa4c
+▢ 𝑪𝒖𝒓𝒊𝒐𝒔𝒊𝒕𝒚𝑩𝒐𝒕 & 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕 https://chat.whatsapp.com/KY0EqhkVFZf7LDq4tJTa4c
 
-4 ᰔᩚ♕︎🅜︎🅤︎🅛︎🅣︎🅘︎.🅑︎🅞︎🅣︎🅢︎♕︎ᰔᩚ
-▢ https://chat.whatsapp.com/GU9pwU6WMig2SSvot1Umlm
+▢ ᰔᩚ♕︎🅜︎🅤︎🅛︎🅣︎🅘︎.🅑︎🅞︎🅣︎🅢︎♕︎ᰔᩚ https://chat.whatsapp.com/GU9pwU6WMig2SSvot1Umlm
 ─────────────
 🪁🌥Si Se Restableció El Enlace Del Grupo Entra Aqui En Algunos De Estos Link.!! 
 
