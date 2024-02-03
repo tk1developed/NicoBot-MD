@@ -6,8 +6,7 @@ const handler = async (m, {conn}) => {
   const user = global.db.data.users[m.sender];
   if (!canLevelUp(user.level, user.exp, global.multiplier)) {
     const {min, xp, max} = xpRange(user.level, global.multiplier);
-    throw `
-◆━━━━━━ ✿ 𝐿𝑒𝑣𝑒𝑙𝑢𝑝🌻
+    throw `◆━━━━━━ ✿ 𝐿𝑒𝑣𝑒𝑙𝑢𝑝🌻
 ┋➺ ✯𝐍𝐨𝐦𝐛𝐫𝐞: 
 ┋➺ *${name}*
 ┋─── ❖ ── ✦ ── ❖ ───
@@ -24,8 +23,7 @@ const handler = async (m, {conn}) => {
   while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++;
   if (before !== user.level) {
     const teks = `🎊 Bien hecho ${conn.getName(m.sender)}    Nivel:`;
-    const str = `
-★━━━━━━•𝑳𝒆𝒗𝒆𝒍𝒖𝒑🌻
+    const str = `★━━━━━━•𝑳𝒆𝒗𝒆𝒍𝒖𝒑🌻
 ┋➺ ☆𝐀𝐧𝐭𝐞𝐫𝐢𝐨𝐫 𝐃𝐞𝐥 𝐍𝐢𝐯𝐞𝐥: 
 ┋➺ *${before}*
 ┋─── ❖ ── ✦ ── ❖ ───
