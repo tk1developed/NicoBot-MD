@@ -38,7 +38,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 │𖢭➸ *🧭Versión Actual:* ${vs}
 ╰━━━━━━━✦✗✦━━━━━━━━
 
-╭─━━ *INFO USER* ━━─╮
+╭─━━ *INFO  - USER* ━━─╮
 │𖢭➸ *🔥 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
 │𖢭➸ *🎖Nivel:* ${level}
 │𖢭➸ *🧰Experiencia:* ${exp}
@@ -101,7 +101,7 @@ ${readMore}
 │𖢭➸ 🛠 _${usedPrefix}disable antiprivado_
 ╰━━━━━━━✦✗✦━━━━━━━━
 
-╭─━━ *DIVERSIONES/JUEGOS* ━━─╮
+╭─━━ *DIVERSIONES* ━━─╮
 │𖢭➸ 🔥 _${usedPrefix}karolg_
 │𖢭➸ 🔥 _${usedPrefix}love_
 │𖢭➸ 🔥 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
