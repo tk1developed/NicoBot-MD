@@ -4,7 +4,7 @@ let info = `*💧 𝑂ℎℎ, 𝐺𝑒𝑛𝑖𝑎𝑙 𝑀𝑖𝑛𝑎𝑠𝑡�
 let time = global.db.data.users[m.sender].lastmiming + 600000
 if (new Date - global.db.data.users[m.sender].lastmiming < 600000) throw `*⚓ 𝐻𝑒𝑦 𝑇𝑒 𝑇𝑜𝑐𝑎 𝐸𝑠𝑝𝑒𝑟𝑎𝑟 ${msToTime(time - new Date())} 𝑃𝑎𝑟𝑎 𝑉𝑜𝑙𝑣𝑒𝑟 𝐴 𝑈𝑠𝑎𝑟 𝐸𝑙 𝐶𝑜𝑚𝑎𝑛𝑑𝑜*`  
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*⚓ 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕𝑳𝒊𝒕𝒆-𝑴𝑫 ✨*', 'status@broadcast')   
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*⚓ 𝘈𝘴 𝘔𝘪𝘯𝘢𝘥𝘰 𝘊𝘰𝘯 𝘌𝘹𝘪𝘵𝘰 ✨*', 'status@broadcast')   
 //m.reply(`*[ 🎉 ] 𝙶𝚎𝚗𝚒𝚊𝚕, 𝚖𝚒𝚗𝚊𝚜𝚝𝚎 ${hasil} 𝚇𝙿*`)
 global.db.data.users[m.sender].lastmiming = new Date * 1
 
