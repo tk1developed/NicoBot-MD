@@ -107,6 +107,7 @@ ${yt_play[0].url}\n
 handler.help = ['play3', 'play4'].map((v) => v + ' < busqueda >');
 handler.tags = ['downloader'];
 handler.command = /^(playdoc|playdoc2|play3|play4)$/i;
+handler.register = true
 export default handler;
 
 async function search(query, options = {}) {
