@@ -38,6 +38,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 𖢭➸ *🧭Versión Actual:* ${vs}
 ✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
  *INFO  - USER*
 𖢭➸ *🔥 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
 𖢭➸ *🎖Nivel:* ${level}
@@ -49,6 +50,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 𖢭➸ *🎟Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 ${readMore}
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
  *SOLUCIONES*
 𖢭➸ 🧭 Mensajes en espera
 𖢭➸ 🧭 _${usedPrefix}fixmsgespera_
