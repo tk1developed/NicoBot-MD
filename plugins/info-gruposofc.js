@@ -17,14 +17,11 @@ https://chat.whatsapp.com/DUAS7osnQ2h3tlYT4bnbfU
 ▢ 𝑪𝒖𝒓𝒊𝒐𝒔𝒊𝒕𝒚𝑩𝒐𝒕 & 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕 https://chat.whatsapp.com/KY0EqhkVFZf7LDq4tJTa4c
 
 ▢ ᰔᩚ♕︎🅜︎🅤︎🅛︎🅣︎🅘︎.🅑︎🅞︎🅣︎🅢︎♕︎ᰔᩚ https://chat.whatsapp.com/GU9pwU6WMig2SSvot1Umlm
-─────────────
-🪁🌥Si Se Restableció El Enlace Del Grupo Entra Aqui En Algunos De Estos Link.!! 
 
-Atom.Bio : 
-▢ https://atom.bio/sakuralite
+✨️𝐶𝐴𝑁𝐴𝐿 𝑂𝐹𝐼𝐶𝐼𝐴𝐿
 
-Canal :
-▢  https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n`
+▢ Canal _*SakuraBotLite-MD*_
+https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 /*conn.sendHydrated(m.chat, str, `𝙂𝘼𝙏𝘼 𝘿𝙄𝙊𝙎 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼\n\n\n` + wm, media, 'https://github.com/diegojadibot/SakuraBotLite-MD', 'SakuraBotLite-MD', null, null, [
 ['𝘾𝙪𝙚𝙣𝙩𝙖𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨 ✅', '.cuentassb'],
