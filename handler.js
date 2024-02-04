@@ -1158,7 +1158,7 @@ export async function handler(chatUpdate) {
                             plugin.command === command :
                             false;
 
-        //if (!isAccept) {
+        if (!isAccept) {
           continue;
         }
         m.plugin = name;
@@ -1196,7 +1196,7 @@ const messageText = `
             }
             return;
           }
-          //if (botSpam.antispam && m.text && user && user.lastCommandTime && (Date.now() - user.lastCommandTime) < 30000 && !isROwner) {
+          if (botSpam.antispam && m.text && user && user.lastCommandTime && (Date.now() - user.lastCommandTime) < 30000 && !isROwner) {
             if (user.commandCount === 2) {
               const remainingTime = Math.ceil((user.lastCommandTime + 30000 - Date.now()) / 30000);
               if (remainingTime > 0) {
