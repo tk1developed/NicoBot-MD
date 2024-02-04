@@ -15,6 +15,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 │❢➻ *🧑‍💻Dueño Del Bot:* Diego   
 │❢➻ *🪁Subbot De:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
 │❢➻ *📅Fecha:* ${date} 
+│❢➻ *✨️Version Actual:* ${vs}
 ╰━━━━━━━✦✗✦━━━━━━━━
 
 ╔─━━ *INFO USER* ━━─╗
