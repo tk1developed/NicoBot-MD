@@ -24,7 +24,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 │❢➻ *💎Diamantes:* ${limit}
 │❢➻ *👾SakuCoins:* ${money}
 │❢➻ *🪙Tokens:* ${joincount}
-│❢➻ *🎟Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ╰━━━━━━━✦✗✦━━━━━━━━
 ${readMore}
 ╔─━━ *SOLUCIONES* ━━─╗
