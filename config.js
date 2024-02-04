@@ -43,11 +43,6 @@ global.imagen6 = fs.readFileSync('./Menu3.png');
 //grupos
 
 global.gp1 = 'https://chat.whatsapp.com/KY0EqhkVFZf7LDq4tJTa4c' //colaboracion curiosity
-global.gp2 = 'https://chat.whatsapp.com/LjFxXlCEjQa4f0ByWaGQAG' //colaboracion novabot
-global.gp3 = 'https://chat.whatsapp.com/HXOGzELFOVXFM1KrSoKdqH' //colaboracion multibots
-global.gp4 = 'https://chat.whatsapp.com/FzW5a9g0nJMIdskszkq0dY' //colaboracion grupo bots diego
-global.gp5 = 'https://chat.whatsapp.com/HjtosKShIYcE0xldUFSnkF' //colaboracion shana-sakura
-
 
 global.mods = [];
 
