@@ -1,17 +1,17 @@
 import TicTacToe from '../lib/tictactoe.js';
 const handler = async (m, {conn, usedPrefix, command, text}) => {
   conn.game = conn.game ? conn.game : {};
-  if (Object.values(conn.game).find((room) => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))) throw '*[❗] 𝙰𝚄𝙽 𝙴𝚂𝚃𝙰𝚂 𝙴𝙽 𝚄𝙽 𝙹𝚄𝙴𝙶𝙾 𝙲𝙾𝙽 𝙰𝙻𝙶𝚄𝙸𝙴𝙽*';
-  if (!text) throw `*[❗] 𝚂𝙴 𝚁𝙴𝚀𝚄𝙸𝙴𝚁𝙴 𝙿𝙾𝙽𝙴𝚁 𝚄𝙽 𝙽𝙾𝙼𝙱𝚁𝙴 𝙰 𝙻𝙰 𝚂𝙰𝙻𝙰 𝙳𝙴 𝙹𝚄𝙴𝙶𝙾*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾*\n*◉ ${usedPrefix + command} nueva sala*`;
+  if (Object.values(conn.game).find((room) => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))) throw '*🌱 𝐴𝑢𝑛 𝐸𝑠𝑡𝑎𝑠 𝐽𝑢𝑔𝑎𝑛𝑑𝑜 𝑇𝑜𝑑𝑎𝑏𝑖𝑎.*';
+  if (!text) throw `*🍁 𝑆𝑒 𝑅𝑒𝑞𝑢𝑖𝑒𝑟𝑒 𝑈𝑛 𝑁𝑜𝑚𝑏𝑟𝑒 𝐴 𝐿𝑎 𝑆𝑎𝑙𝑎 𝐷𝑒𝑙 𝐽𝑢𝑒𝑔𝑜.*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾*\n*◉ ${usedPrefix + command} nueva sala*`;
   let room = Object.values(conn.game).find((room) => room.state === 'WAITING' && (text ? room.name === text : true));
   if (room) {
-    await m.reply('*[🕹️] 𝙸𝙽𝙸𝙲𝙸𝙰 𝙴𝙻 𝙹𝚄𝙴𝙶𝙾, 𝚄𝙽 𝙹𝚄𝙶𝙰𝙳𝙾𝚁 𝚂𝙴 𝚄𝙽𝙸𝙾 𝙰 𝙻𝙰 𝙿𝙰𝚁𝚃𝙸𝙳𝙰*');
+    await m.reply('*🕹️ 𝐼𝑛𝑖𝑐𝑖𝑎 𝐸𝑙 𝐽𝑢𝑒𝑔𝑜, 𝑈𝑛 𝐽𝑢𝑔𝑎𝑑𝑜𝑟 𝑆𝑒 𝑈𝑛𝑖𝑜.*');
     room.o = m.chat;
     room.game.playerO = m.sender;
     room.state = 'PLAYING';
     const arr = room.game.render().map((v) => {
       return {
-        X: '❎',
+        X: '✖️',
         O: '⭕',
         1: '1️⃣',
         2: '2️⃣',
@@ -25,9 +25,9 @@ const handler = async (m, {conn, usedPrefix, command, text}) => {
       }[v];
     });
     const str = `
-🎮 𝐓𝐑𝐄𝐒 𝐄𝐍 𝐑𝐀𝐘𝐀 🎮
+🎮 𝐓𝐫𝐞𝐬 𝐄𝐧 𝐑𝐚𝐥𝐥𝐚 🎮
 
-❎ = @${room.game.playerX.split('@')[0]}
+✖️ = @${room.game.playerX.split('@')[0]}
 ⭕ = @${room.game.playerO.split('@')[0]}
 
         ${arr.slice(0, 3).join('')}
@@ -47,8 +47,8 @@ const handler = async (m, {conn, usedPrefix, command, text}) => {
       state: 'WAITING'};
     if (text) room.name = text;
     const imgplay = `https://cope-cdnmed.agilecontent.com/resources/jpg/8/9/1590140413198.jpg`;
-    conn.reply(m.chat, `*🕹 𝐓𝐑𝐄𝐒 𝐄𝐍 𝐑𝐀𝐘𝐀 🎮*\n\n*◉ 𝙴𝚂𝙿𝙴𝚁𝙰𝙽𝙳𝙾 𝙰𝙻 𝚂𝙴𝙶𝚄𝙽𝙳𝙾 𝙹𝚄𝙶𝙰𝙳𝙾𝚁*\n*◉ 𝙿𝙰𝚁𝙰 𝙱𝙾𝚁𝚁𝙰𝚁 𝙾 𝚂𝙰𝙻𝙸𝚁𝚂𝙴 𝙳𝙴 𝙻𝙰 𝙿𝙰𝚁𝚃𝙸𝙳𝙰 𝚄𝚂𝙴𝙽 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix}delttt*\n\n◉ 𝙿𝙰𝚁𝙰 𝚄𝙽𝙸𝚁𝚂𝙴 𝙰 𝙻𝙰 𝙿𝙰𝚁𝚃𝙸𝙳𝙰 𝙴𝚂𝙲𝚁𝙸𝙱𝙰: (${usedPrefix + command} ${text})`, m);
-    // conn.sendButton(m.chat, `*🕹 𝐓𝐑𝐄𝐒 𝐄𝐍 𝐑𝐀𝐘𝐀 🎮*\n\n*◉ 𝙴𝚂𝙿𝙴𝚁𝙰𝙽𝙳𝙾 𝙰𝙻 𝚂𝙴𝙶𝚄𝙽𝙳𝙾 𝙹𝚄𝙶𝙰𝙳𝙾𝚁*\n*◉ 𝙿𝙰𝚁𝙰 𝙱𝙾𝚁𝚁𝙰𝚁 𝙾 𝚂𝙰𝙻𝙸𝚁𝚂𝙴 𝙳𝙴 𝙻𝙰 𝙿𝙰𝚁𝚃𝙸𝙳𝙰 𝚄𝚂𝙴𝙽 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix}delttt*`, wm, imgplay, [['𝚄𝙽𝙸𝚁𝚂𝙴 𝙰 𝙻𝙰 𝙿𝙰𝚁𝚃𝙸𝙳𝙰', `${usedPrefix + command} ${text}`]], m, { mentions: conn.parseMention(text) })
+    conn.reply(m.chat, `*🕹 𝘛𝘳𝘦𝘴 𝘌𝘯 𝘙𝘢𝘭𝘭𝘢 🎮*\n\n*◉ 𝐸𝑠𝑝𝑒𝑟𝑎𝑛𝑑𝑜 𝐴𝑙 𝑆𝑒𝑔𝑢𝑛𝑑𝑜 𝐽𝑢𝑔𝑎𝑑𝑜𝑟*\n*◉ 𝑃𝑎𝑟𝑎 𝐵𝑜𝑟𝑟𝑎𝑟 𝑂 𝑆𝑎𝑙𝑖𝑟𝑡𝑒 𝐷𝑒 𝐿𝑎 𝑃𝑎𝑟𝑡𝑖𝑑𝑎 𝑈𝑠𝑎 𝐸𝑙 𝐶𝑜𝑚𝑎𝑛𝑑𝑜 ${usedPrefix}delttt*\n\n◉ 𝑃𝑎𝑟𝑎 𝑈𝑛𝑖𝑟𝑡𝑒 𝐴 𝐿𝑎 𝑃𝑎𝑟𝑡𝑖𝑑𝑎 𝑈𝑠𝑒 𝐸𝑙 𝐶𝑜𝑚𝑎𝑛𝑑𝑜: (${usedPrefix + command} ${text})`, m);
+    // conn.sendButton(m.chat, `*🕹 𝘛𝘳𝘦𝘴 𝘌𝘯 𝘙𝘢𝘭𝘭𝘢 🎮*\n\n*◉ 𝐸𝑠𝑝𝑒𝑟𝑎𝑛𝑑𝑜 𝐴𝑙 𝑆𝑒𝑔𝑢𝑛𝑑𝑜 𝐽𝑢𝑔𝑎𝑑𝑜𝑟\n*◉ 𝑃𝑎𝑟𝑎 𝐵𝑜𝑟𝑟𝑎𝑟 𝑂 𝑆𝑎𝑙𝑖𝑟𝑠𝑒 𝐷𝑒 𝐿𝑎 𝑃𝑎𝑟𝑡𝑖𝑑𝑎 𝑈𝑠𝑒 𝐸𝑙 𝐶𝑜𝑚𝑎𝑛𝑑𝑜 ${usedPrefix}delttt*`, wm, imgplay, [['𝑈𝑛𝑖𝑟𝑠𝑒 𝐴 𝐿𝑎 𝑃𝑎𝑟𝑡𝑖𝑑𝑎', `${usedPrefix + command} ${text}`]], m, { mentions: conn.parseMention(text) })
     conn.game[room.id] = room;
   }
 };
