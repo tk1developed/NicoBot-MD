@@ -20,7 +20,7 @@ https://chat.whatsapp.com/DUAS7osnQ2h3tlYT4bnbfU
 https://chat.whatsapp.com/FzW5a9g0nJMIdskszkq0dY
 
 ▢ ᰔᩚ♕︎🅜︎🅤︎🅛︎🅣︎🅘︎.🅑︎🅞︎🅣︎🅢︎♕︎ᰔᩚ 
-https://chat.whatsapp.com/KY0EqhkVFZf7LDq4tJTa4c
+https://chat.whatsapp.com/HXOGzELFOVXFM1KrSoKdqH
 
 ✨️𝐶𝐴𝑁𝐴𝐿 𝑂𝐹𝐼𝐶𝐼𝐴𝐿
 
