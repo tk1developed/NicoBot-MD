@@ -47,9 +47,7 @@ global.gp2 = 'https://chat.whatsapp.com/LjFxXlCEjQa4f0ByWaGQAG' //colaboracion n
 global.gp3 = 'https://chat.whatsapp.com/HXOGzELFOVXFM1KrSoKdqH' //colaboracion multibots
 global.gp4 = 'https://chat.whatsapp.com/FzW5a9g0nJMIdskszkq0dY' //colaboracion grupo bots diego
 global.gp5 = 'https://chat.whatsapp.com/HjtosKShIYcE0xldUFSnkF' //colaboracion shana-sakura
-global.canal 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n' //canal sakurita
-global.ofc1 = 'https://chat.whatsapp.com/DUAS7osnQ2h3tlYT4bnbfU' //grupo oficial
-global.ofc2 = 'https://chat.whatsapp.com/L69Ok8LTIJNCTNsJydkXaE' //oficial 2
+
 
 global.mods = [];
 
