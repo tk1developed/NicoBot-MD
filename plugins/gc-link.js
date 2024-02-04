@@ -5,8 +5,7 @@ const handler = async (m, {conn, args}) => {
     contextInfo: {externalAdReply: {mediaUrl: null, mediaType: 1, description: null,
       
       previewType: 0, thumbnail: fs.readFileSync('./Menu2.jpg'),
-      sourceUrl: `https://atom.bio/sakuralite`}}});
-};
+      
 handler.help = ['linkgroup'];
 handler.tags = ['group'];
 handler.command = /^link(gro?up)?$/i;
