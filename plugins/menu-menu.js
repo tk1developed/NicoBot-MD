@@ -12,11 +12,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 //m.react('✨️');
     await conn.sendMessage(m.chat, { react: { text: '💧', key: m.key } })
   let txt =`╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
-┃ *🧑‍💻Dueño Del Bot:* Diego   
-┃ *🚀Bot Oficial:* +57 301 2436429
-┃ *🪁Subbot De:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
-┃ *📅 Fecha:* ${date} 
-┃ *✨️Version Actual:* ${vs}
+┋ *🧑‍💻Dueño Del Bot:* Diego   
+┋ *🚀Bot Oficial:* +57 301 2436429
+┋ *🪁Subbot De:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
+┋ *📅 Fecha:* ${date} 
+┋ *✨️Version Actual:* ${vs}
 ╰◆━━━━━━◆❃◆━━━━━━◆
 
 ╭∴━━━ *INFO USER* ━━━∴╮
