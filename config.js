@@ -42,6 +42,9 @@ global.imagen6 = fs.readFileSync('./Menu3.png');
 
 global.mods = [];
 
+//****************************
+global.gp1 = 'https://chat.whatsapp.com/KY0EqhkVFZf7LDq4tJTa4c'
+global.gp2 = 'https://chat.whatsapp.com/Li46EUQhA5tJqXEENfKPJd'
 
 
 //* *******Tiempo***************
