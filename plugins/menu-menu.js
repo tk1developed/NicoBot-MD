@@ -14,7 +14,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   let txt =`╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
 │❢➻ *🧑‍💻Dueño Del Bot:* Diego   
 │❢➻ *🪁Subbot De:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
-│❢➻ *📅Fecha:* ${date} 
+│❢➻ *📅 Fecha:* ${date} 
+│❢➻ ${uptime}
 │❢➻ *✨️Version Actual:* ${vs}
 ╰━━━━━━━✦✗✦━━━━━━━━
 
