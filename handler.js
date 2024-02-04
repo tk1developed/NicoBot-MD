@@ -1200,7 +1200,7 @@ const messageText = `
             if (user.commandCount === 2) {
               const remainingTime = Math.ceil((user.lastCommandTime + 30000 - Date.now()) / 30000);
               if (remainingTime > 0) {
-                const messageText = `*[ ⏳ ] 𝘌𝘴𝘱𝘦𝘳𝘢 ${remainingTime} 𝘔𝘪𝘯𝘶𝘵𝘰 𝘗𝘢𝘳𝘢 𝘜𝘴𝘢𝘳 𝘖𝘵𝘳𝘰 𝘊𝘰𝘮𝘢𝘯𝘥𝘰*`;
+                const messageText = `*[ ⏳ ] 𝘌𝘴𝘱𝘦𝘳𝘢 ${remainingTime} 𝘚𝘦𝘨𝘶𝘯𝘥𝘰𝘴 𝘗𝘢𝘳𝘢 𝘜𝘴𝘢𝘳 𝘖𝘵𝘳𝘰 𝘊𝘰𝘮𝘢𝘯𝘥𝘰*`;
                 m.reply(messageText);
                 return;
               } else {
