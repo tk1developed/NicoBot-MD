@@ -1,4 +1,4 @@
-7import fetch from 'node-fetch';
+import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   try {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
