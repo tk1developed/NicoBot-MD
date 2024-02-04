@@ -58,6 +58,7 @@ const handler = async (m, {isPrems, conn}) => {
 handler.help = ['daily'];
 handler.tags = ['xp'];
 handler.command = ['daily', 'reclamar', 'reclamo', 'regalo', 'claim'];
+handler.register = true
 export default handler;
 
 function pickRandom(list) {
