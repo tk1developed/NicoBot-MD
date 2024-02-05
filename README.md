@@ -94,3 +94,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 
 - 🦋 Sigueme En El Canal De WhatsApp
+
+- ### 𝑬𝒅𝒊𝒕𝒐𝒓 𝒀 𝑷𝒓𝒐𝒑𝒊𝒆𝒕𝒂𝒓𝒊𝒐 𝑫𝒆𝒍 𝑩𝒐𝒕 🕊️🍓
+<a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="250" height="250" alt="Diego"/></a>
