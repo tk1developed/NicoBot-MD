@@ -4,7 +4,7 @@
 
 ## `🌻𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯✨` 
 <p align="center">
-<img src="https://telegra.ph/file/1fe653ce7a833a782468e.jpg" alt="SakuraBotLite-MD" width="900"/>
+<img src="https://telegra.ph/file/5c68d72ad11dcd531c315.png" alt="SakuraBotLite-MD" width="900"/>
 </p>
 
 
