@@ -4,28 +4,28 @@
 
 ## `🌻𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯✨` 
 <p align="center">
-<img src="https://telegra.ph/file/5c68d72ad11dcd531c315.png" alt="SakuraBotLite-MD" width="900"/>
+<img src="https://telegra.ph/file/4c711545e712b0b957f6c.jpg" alt="SakuraBotLite-MD" width="900"/>
 </p>
 
 
 
 
 
-### `✵ 🌻𝑪𝒐𝒏𝒇𝒊𝒈𝒖𝒓𝒂𝒄𝒊𝒐𝒏🚀`
+- ### `✵ 🌻𝑪𝒐𝒏𝒇𝒊𝒈𝒖𝒓𝒂𝒄𝒊𝒐𝒏🚀`
 - 𝐂𝐥𝐨𝐧𝐚𝐫 𝐑𝐞𝐩𝐨 : 𝐒𝐚𝐤𝐮𝐫𝐚 [Aqui](https://github.com/diegojadibot/SakuraBotLite-MD/fork)
 
    
   
-### `✵ ✨𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒓 𝑷𝒐𝒓 𝑹𝒆𝒏𝒅𝒆𝒓🌻`
+- ### `✵ ✨𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒓 𝑷𝒐𝒓 𝑹𝒆𝒏𝒅𝒆𝒓🌻`
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2diegojadibot%2FSakuraBotLite-MD) 
 
-### `🌻𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒄𝒊𝒐𝒏 𝑷𝒐𝒓 𝑪𝒐𝒅𝒆 𝑺𝒑𝒂𝒄𝒆✨`
+- ### `🌻𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒄𝒊𝒐𝒏 𝑷𝒐𝒓 𝑪𝒐𝒅𝒆 𝑺𝒑𝒂𝒄𝒆✨`
 
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=738341999&ref=main&geo=UsEast)
 ***
 
-### `✵ 🌻𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒄𝒊𝒐𝒏 𝑨𝒖𝒕𝒐𝒎𝒂𝒕𝒊𝒄𝒂 𝑽𝒊𝒂 𝑻𝒆𝒓𝒎𝒖𝒙✨`
+- ### `✵ 🌻𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒄𝒊𝒐𝒏 𝑨𝒖𝒕𝒐𝒎𝒂𝒕𝒊𝒄𝒂 𝑽𝒊𝒂 𝑻𝒆𝒓𝒎𝒖𝒙✨`
 ```bash
 termux-setup-storage
 ```
@@ -34,7 +34,7 @@ termux-setup-storage
 apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/sakura.sh | bash
 ```
 
-### `✵ 🌻𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒄𝒊𝒐𝒏 𝑷𝒐𝒓 𝑻𝒆𝒓𝒎𝒖𝒙 𝑴𝒂𝒏𝒖𝒂𝒍👨‍💻` 
+- ### `✵ 🌻𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒄𝒊𝒐𝒏 𝑷𝒐𝒓 𝑻𝒆𝒓𝒎𝒖𝒙 𝑴𝒂𝒏𝒖𝒂𝒍👨‍💻` 
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 cd && termux-setup-storage
@@ -68,7 +68,7 @@ npm update
 npm start
 ```
 
-### `✵ 🌻𝑨𝒄𝒕𝒊𝒗𝒂𝒓 𝑬𝒍 𝑩𝒐𝒕 𝑺𝒊 𝑺𝒆 𝑨𝒑𝒂𝒈𝒂 𝑽𝒊𝒂 𝑺𝒆𝒓𝒗𝒊𝒅𝒐𝒓𝒆𝒔✨`
+- ### `✵ 🌻𝑨𝒄𝒕𝒊𝒗𝒂𝒓 𝑬𝒍 𝑩𝒐𝒕 𝑺𝒊 𝑺𝒆 𝑨𝒑𝒂𝒈𝒂 𝑽𝒊𝒂 𝑺𝒆𝒓𝒗𝒊𝒅𝒐𝒓𝒆𝒔✨`
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
@@ -76,7 +76,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-### `✵ 🌻𝑷𝒆𝒅𝒊𝒓 𝑶𝒕𝒓𝒐 𝑸𝒓 𝑷𝒐𝒓 𝑻𝒆𝒓𝒎𝒖𝒙👨‍💻` 
+- ### `✵ 🌻𝑷𝒆𝒅𝒊𝒓 𝑶𝒕𝒓𝒐 𝑸𝒓 𝑷𝒐𝒓 𝑻𝒆𝒓𝒎𝒖𝒙👨‍💻` 
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
