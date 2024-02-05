@@ -30,8 +30,6 @@ let menu = `*👋 Hola, ${name}*
 .allmenu
 _(Para ver el menú completo)_`
 
-await conn.reply(m.chat, menu, a, { contextInfo: { externalAdReply: {title: '👋 Hola!!',  sourceUrl: gp1, thumbnail: await (await fetch(pp)).buffer() }}})
-
 
 
 } catch {
