@@ -1,4 +1,3 @@
-
 import ws from 'ws';
 async function handler(m, { conn: _envio, usedPrefix }) {
   const users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])];
