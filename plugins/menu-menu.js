@@ -8,8 +8,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const {exp, limit, level, role} = global.db.data.users[m.sender];
   const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
   const fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': imagen1, thumbnail: imagen1 ,sendEphemeral: true}}};
-    await conn.reply(m.chat, '𝑷𝒓𝒐𝒏𝒕𝒐 𝑺𝒆 𝑳𝒆 𝑬𝒏𝒗𝒊𝒂𝒓𝒂 𝑬𝒍 𝑴𝒆𝒏𝒖 𝑫𝒆𝒍 𝑩𝒐𝒕 ✨...',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '𝘽𝙪𝙚𝙣𝙤𝙨 𝘿𝙞𝙖𝙨 𝘼𝙢𝙤𝙧👋🏻', body: '𝖳𝖾 𝖠𝗆𝗈 𝖡𝖾𝖻𝖾', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
-//m.react('✨️');
+    
     await conn.sendMessage(m.chat, { react: { text: '💧', key: m.key } })
   let txt =`╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
 ┋ *🧑‍💻Dueño Del Bot:* Diego   
@@ -178,7 +177,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃✣➸ 🛰 _#play.2 *<texto>*_
 ┃✣➸ 🛰 _#playdoc *<texto>*_
 ┃✣➸ 🛰 _#playdoc2 *<texto>*_
-┃✣➸b🛰 _#playlist *<texto>*_
+┃✣➸ 🛰 _#playlist *<texto>*_
 ┃✣➸ 🛰 _#spotify *<texto>*_
 ┃✣➸ 🛰 _#ringtone *<texto>*_
 ┃✣➸ 🛰 _#soundcloud *<texto>*_
