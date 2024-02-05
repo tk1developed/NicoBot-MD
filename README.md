@@ -98,17 +98,15 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
+## <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Contacto" width="42" height="42"> Contacto
 
- ### `✵ 🌻𝑫𝒖𝒅𝒂 𝑫𝒆𝒍 𝑩𝒐𝒕? 𝑬𝒔𝒄𝒓𝒊𝒃𝒆𝒎𝒆✨`
-<a href="http://wa.me/573004826011" target="blank"><img src="https://img.shields.io/badge/Diego_Creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+- Si tiene algún problema la bot contactame ฅ^•ﻌ•^ฅ
 
-### `✵ 📄✦𝑨𝒔𝒊𝒔𝒕𝒆𝒏𝒄𝒊𝒂 𝑫𝒊𝒆𝒈𝒐✦📄`
-<a href="http://wa.me/573107133321" target="blank"><img src="https://img.shields.io/badge/Diego_Asistencia-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+* <a href="https://wa.me/51907913096 096"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
+---------
 
-## `🌻𝑷𝒓𝒐𝒑𝒊𝒆𝒕𝒂𝒓𝒊𝒐 𝑫𝒆𝒍 𝑩𝒐𝒕🚀` 
-<a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="250" height="250" alt="Diego"/></a>
+## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Grupo de WhatsApp
 
 
->🌻👑𝗖𝗼𝗺𝗮𝗻𝗱𝗼𝘀: 𝙿𝙴𝙽𝙳𝙸𝙴𝙽𝚃𝙴, 𝙽𝙾 𝚃𝙴 𝙰𝙶𝙰𝚂 𝚂𝙿𝙰𝙼 𝚃𝚄 𝙼𝙸𝚂𝙼𝙾. 𝙴𝚂 𝙼𝙴𝙹𝙾𝚁 𝚄𝚂𝙰𝚁 𝚄𝙽 𝙽𝚄𝙼𝙴𝚁𝙾 𝚀𝚄𝙴 𝙽𝙾 𝚂𝙴𝙰 𝚃𝚄 𝙽𝚄𝙼𝙴𝚁𝙾 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻, 𝙿𝙰𝚁𝙰 𝙰𝚂𝙸 𝙴𝚅𝙸𝚃𝙰𝚁 𝚂𝙾𝙿𝙾𝚁𝚃𝙴💚
-  
+- Canal Oficial Del Bot
