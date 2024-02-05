@@ -43,7 +43,7 @@ global.imagen6 = fs.readFileSync('./Menu3.png');
 
 //grupos
 
-global.gp1 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //colaboracion curiosity
+global.gp1 = 'https://chat.whatsapp.com/EYDr5lgqofw65ml7rejNR7' //colaboracion curiosity
 
 global.mods = [];
 
