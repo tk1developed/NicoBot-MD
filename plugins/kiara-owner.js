@@ -27,7 +27,7 @@ m.reply(`*📑 𝑴𝒆𝒏𝒔𝒂𝒋𝒆 𝑬𝒏𝒗𝒊𝒂𝒅𝒐 𝑨 ${
 }
 handler.help = ['broadcastchats', 'bcchats'].map(v => v + ' <teks>')
 handler.tags = ['owner']
-handler.command = /^(broadcastchats?|bcc(hats?)?)$/i
+handler.command = /^(broadcastchats?|bc(hats?)?)$/i
 handler.rowner = true
 export default handler
 
