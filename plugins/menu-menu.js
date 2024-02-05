@@ -10,7 +10,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': imagen1, thumbnail: imagen1 ,sendEphemeral: true}}};
 
     await conn.sendMessage(m.chat, { react: { text: '🦋', key: m.key } })
-  let txt =`╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
+  let txt =`╭✨️⸽⃕𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🍁⃨፝⃕✰
 ┋ 🕊️𝐃𝐮𝐞𝐧̃𝐨 𝐃𝐞𝐥 𝐁𝐨𝐭: Diego
 ┋ 🍓𝐁𝐨𝐭 𝐎𝐟𝐢𝐜𝐢𝐚𝐥: +57 301 2436429
 ┋ 🍀𝐒𝐨𝐲 𝐒𝐮𝐛𝐛𝐨𝐭 𝐃𝐞: ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
@@ -24,7 +24,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃✣➸ 🍁𝐑𝐚𝐧𝐠𝐨: ${role}
 ┃✣➸ 💎𝐃𝐢𝐚𝐦𝐚𝐧𝐭𝐞: ${limit}
 ┃✣➸ 🌻𝐒𝐚𝐤𝐮𝐂𝐨𝐢𝐧𝐬: ${money}
-┃✣➸ 🌼𝐌𝐨𝐧𝐞𝐝𝐚: ${joincount}
+┃✣➸ 🌼𝐌𝐨𝐧𝐞𝐝𝐚𝐬: ${joincount}
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
 ╭∴━━━ *SOLUCIONES* ━━━∴╮
@@ -49,7 +49,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
 ╭∴━━━ *BOT A TU GRUPO* ━━━∴╮
-┃✣➸ 🙀 _#join *<enlace / link / url>*_
+┃✣➸ 🍓 _#join *<enlace / link / url>*_
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
 ╭∴━━━ *SER SUBBOT* ━━━∴╮
@@ -149,7 +149,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
 ╭∴━━━ *REPORTE* ━━━∴╮
-┃✣➸ 🖥 _#reporte *<texto>*_
+┃✣➸ 🕊️ _#reporte *<texto>*_
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
 ╭∴━━━ *DESCARGAS* ━━━∴╮
