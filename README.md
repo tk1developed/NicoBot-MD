@@ -81,8 +81,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-## <img src="https://telegra.ph/file/4c711545e712b0b957f6c.jpg" alt="𝐂𝐫𝐞𝐚𝐝𝐨𝐫 🍓" width="42" height="42"> 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 🍓
-
 
 ## <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="𝐂𝐫𝐞𝐚𝐝𝐨𝐫 🍓" width="42" height="42"> 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 🍓
 
