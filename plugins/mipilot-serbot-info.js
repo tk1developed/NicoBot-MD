@@ -32,7 +32,7 @@ async function handler(m, { conn: _envio, usedPrefix }) {
   const replyMessage = message.length === 0 ? '*✨️ 𝘕𝘰 𝘏𝘢𝘺 𝘚𝘶𝘣 𝘉𝘰𝘵𝘴 𝘋𝘪𝘴𝘱𝘰𝘯𝘪𝘣𝘭𝘦 𝘗𝘰𝘳 𝘌𝘭 𝘔𝘰𝘮𝘦𝘯𝘵𝘰 . 🌵Vᴇʀɪғɪǫᴜᴇ Mᴀs Tᴀʀᴅᴇ.*' : message;
   const totalUsers = users.length;
   const responseMessage = `${replyMessage.trim()}`.trim();
-await m.reply(`*🚀 𝘈𝘲𝘶𝘪 𝘛𝘪𝘦𝘯𝘦 𝘓𝘢 𝘓𝘪𝘴𝘵𝘢 𝘋𝘦 𝘓𝘰𝘴 𝘚𝘶𝘣 𝘉𝘰𝘵𝘴 𝘈𝘤𝘵𝘪𝘷𝘰𝘴 𝘌𝘯 𝘌𝘴𝘵𝘰𝘴 𝘔𝘰𝘮𝘦𝘯𝘵𝘰𝘴*\n\nSᴜʙ Bᴏᴛs Cᴏɴᴇᴄᴛᴀᴅᴏs : ${totalUsers || '0'}`)
+await m.reply(`*🚀 𝐄𝐬𝐭𝐚 𝐄𝐬 𝐋𝐚 𝐋𝐢𝐬𝐭𝐚 𝐃𝐞 𝐋𝐨𝐬 𝐒𝐮𝐛𝐛𝐨𝐭𝐬 𝐀𝐜𝐭𝐢𝐯𝐨𝐬 𝐄𝐧 𝐄𝐥 𝐁𝐨𝐭.*\n\nSᴜʙ Bᴏᴛs Cᴏɴᴇᴄᴛᴀᴅᴏs : ${totalUsers || '0'}`)
 await _envio.sendMessage(m.chat, {text: responseMessage, mentions: _envio.parseMention(responseMessage)}, {quoted: m});
 }
 handler.command = handler.help = ['listjadibot', 'bots', 'subsbots'];
@@ -43,7 +43,7 @@ export default handler;
 let users = [...new Set([...global.conns.filter(conn => conn.user && conn.state !== 'close').map(conn => conn.user)])]  
 const message = users.map(v => '✨️ Wa.me/' + v.jid.replace(/[^0-9]/g, '') + `?text=${usedPrefix}menu\n(${v.name})\n\n`).join('\n\n')
 const replyMessage = (message.length === 0) ? "*✨ 𝘕𝘰 𝘏𝘢𝘺 𝘚𝘶𝘣𝘣𝘰𝘵𝘴 𝘋𝘪𝘴𝘱𝘰𝘯𝘪𝘣𝘭𝘦 𝘗𝘰𝘳 𝘌𝘭 𝘔𝘰𝘮𝘦𝘯𝘵𝘰 . 🌵Vᴇʀɪғɪǫᴜᴇ Mᴀs Tᴀʀᴅᴇ.*" : message
-await m.reply( '*🚀 𝘈𝘲𝘶𝘪 𝘛𝘪𝘦𝘯𝘦 𝘓𝘢 𝘓𝘪𝘴𝘵𝘢 𝘋𝘦 𝘓𝘰𝘴 𝘚𝘶𝘣 𝘉𝘰𝘵𝘴 𝘈𝘤𝘵𝘪𝘷𝘰𝘴 𝘌𝘯 𝘌𝘴𝘵𝘰𝘴 𝘔𝘰𝘮𝘦𝘯𝘵𝘰𝘴*')
+await m.reply( '*🚀 𝐄𝐬𝐭𝐚 𝐄𝐬 𝐋𝐚 𝐋𝐢𝐬𝐭𝐚 𝐃𝐞 𝐋𝐨𝐬 𝐒𝐮𝐛𝐛𝐨𝐭𝐬 𝐀𝐜𝐭𝐢𝐯𝐨𝐬 𝐄𝐧 𝐄𝐥 𝐁𝐨𝐭𝐭.*')
 await m.reply(replyMessage.trim())}
 handler.command = handler.help = ['listjadibot','bots','subsbots']
 handler.tags = ['jadibot']
