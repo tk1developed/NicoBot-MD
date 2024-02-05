@@ -10,25 +10,11 @@
 
 
 
-### `—◉ 🤖𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕𝑳𝒊𝒕𝒆 𝑩𝒐𝒕 𝑶𝒇𝒊𝒄𝒊𝒂𝒍🤖`
-
-<a href="https://api.whatsapp.com/send/?phone=51935499065&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/Bot_Oficial_1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-
- > NO SPAMEAR COMANDOS
-
-
 
 ### `✵ 🌻𝑪𝒐𝒏𝒇𝒊𝒈𝒖𝒓𝒂𝒄𝒊𝒐𝒏🚀`
 - 𝐂𝐥𝐨𝐧𝐚𝐫 𝐑𝐞𝐩𝐨 : 𝐒𝐚𝐤𝐮𝐫𝐚 [Aqui](https://github.com/diegojadibot/SakuraBotLite-MD/fork)
 
-  
-### `✵ 🌻𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒓𝒍𝒐 𝑷𝒐𝒓 𝑲𝒐𝒚𝒆𝒃✨`
-
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/diegojadibot/SakuraBotLite-MD&branch=master&name=Sakura-Lite)
-  
-### `✵ ✨𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒓 𝑺𝒂𝒌𝒖𝒓𝒂𝑳𝒊𝒕𝒆 𝑷𝒐𝒓 𝑹𝒆𝒑𝒍𝒊𝒕🌻`
-
-[![Run Repl.it](https://repl.it/badge/github/diegojadibot/SakuraBotLite-MD)](https://replit/github/diegojadibot/SakuraBotLite-MD) 
+   
   
 ### `✵ ✨𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒓 𝑷𝒐𝒓 𝑹𝒆𝒏𝒅𝒆𝒓🌻`
 
