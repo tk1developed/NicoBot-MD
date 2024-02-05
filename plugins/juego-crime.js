@@ -3,7 +3,7 @@ let crime = 500
 let diamante = 10
 const handler = async (m, {conn, usedPrefix, command, groupMetadata, participants, isPrems}) => {
 const date = global.db.data.users[m.sender].crime + 3600000; //3600000 = 1 hs
-if (new Date - global.db.data.users[m.sender].crime < 3600000) return m.reply(`🦋 𝐋𝐚 𝐏𝐨𝐥𝐢𝐜𝐢𝐚 𝐄𝐬𝐭𝐚 𝐕𝐢𝐠𝐢𝐥𝐚𝐧𝐝𝐨 𝐄𝐧 𝐄𝐬𝐭𝐨𝐬 𝐌𝐨𝐧𝐞𝐧𝐭𝐨𝐬. 𝐓𝐞𝐠𝐫𝐞𝐬𝐚 𝐄𝐧: ${msToTime(date - new Date())}`)
+if (new Date - global.db.data.users[m.sender].crime < 3600000) return m.reply(`🦋 𝑯𝒆𝒚 𝑳𝒂 𝑷𝒐𝒍𝒊𝒄𝒊𝒂 𝑫𝒆 𝑺𝒂𝒌𝒖𝒓𝒂𝑳𝒊𝒕𝒆 𝑬𝒔𝒕𝒂 𝑽𝒊𝒈𝒊𝒍𝒂𝒏𝒅𝒐 𝑳𝒐𝒔 𝑹𝒐𝒃𝒐𝒔 𝑬𝒏 𝑬𝒔𝒕𝒐𝒔 𝑫𝒊𝒂𝒔 𝑨 𝑩𝒊𝒔𝒕𝒐 𝑹𝒐𝒃𝒐𝒔, 𝑴𝒆𝒋𝒐𝒓 𝑹𝒆𝒈𝒍𝒆𝒔𝒂 𝑬𝒏: ${msToTime(date - new Date())}`)
 let randow
 if (m.isGroup) randow = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false
 else randow = m.chat
