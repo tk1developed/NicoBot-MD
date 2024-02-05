@@ -1,4 +1,5 @@
-//archivo eliminado
+//archivo eliminado kiara
+//archivo bc
 
 
 import fs from 'fs'
@@ -37,7 +38,7 @@ let chats = Object.entries(conn.chats).filter(([jid, chat]) => !jid.endsWith('@g
 let cc = text ? m : m.quoted ? await m.getQuotedObj() : false || m
 let teks = text ? text : cc.text
 for (let id of chats) { 
-conn.sendButton(id, `*╔══❰ 𝐂𝐎𝐌𝐔𝐍𝐈𝐂𝐀𝐃𝐎 ❱══╗*\n*║*\n*╠❧* ${text}\n*║*\n*╚══════════════╝*`, '𝙀𝑪𝒐𝒎𝒖𝒏𝒊𝒄𝒂𝒅𝒐 𝑪𝒓𝒆𝒂𝒅𝒐𝒓\n' + wm, fs.readFileSync('./src/avatar_contact.png'), [['🤖 𝙾𝚆𝙽𝙴𝚁 🤖', '.owner'],['💎 𝙳𝙾𝙽𝙰𝚁 💎', '.donasi']], false, { 
+conn.sendButton(id, `*╭◆━━━━━━◆❃◆━━━━━━◆╮*\n*➻*\n*➻* ${text}\n*➻*\n*╰◆━━━━━━━▣✦▣━━━━━━━━◆╯*`, '𝙀𝑪𝒐𝒎𝒖𝒏𝒊𝒄𝒂𝒅𝒐 𝑪𝒓𝒆𝒂𝒅𝒐𝒓\n' + wm, fs.readFileSync('./src/avatar_contact.png'), [['🤖 𝙾𝚆𝙽𝙴𝚁 🤖', '.owner'],['💎 𝙳𝙾𝙽𝙰𝚁 💎', '.donasi']], false, { 
 contextInfo: { externalAdReply: {
 title: 'ᴄᴏᴍᴜɴɪᴄᴀᴅᴏ ᴏғɪᴄɪᴀʟ ᴀ ᴄʜᴀᴛs ᴘʀɪᴠᴀᴅᴏs',
 body: '𝙱𝚈 𝚂𝙰𝙺𝚄𝚁𝙰𝙱𝙾𝚃', 
