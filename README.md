@@ -6,7 +6,7 @@
 <p align="center">
 <img src="https://telegra.ph/file/1fe653ce7a833a782468e.jpg" alt="SakuraBotLite-MD" width="900"/>
 </p>
-------------------
+
 
 
 
