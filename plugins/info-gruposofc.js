@@ -14,9 +14,12 @@ https://chat.whatsapp.com/DUAS7osnQ2h3tlYT4bnbfU
 
 ▢ 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕 & 𝑺𝒉𝒂𝒏𝒂-𝑩𝒐𝒕 https://chat.whatsapp.com/HjtosKShIYcE0xldUFSnkF
 
-▢ 𝑪𝒖𝒓𝒊𝒐𝒔𝒊𝒕𝒚𝑩𝒐𝒕 & 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕 https://chat.whatsapp.com/KY0EqhkVFZf7LDq4tJTa4c
+▢ 𝑪𝒖𝒓𝒊𝒐𝒔𝒊𝒕𝒚𝑩𝒐𝒕 & 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕 https://chat.whatsapp.com/EYDr5lgqofw65ml7rejNR7
 
-▢ *Grupo Bots*
+▢ 𝑵𝒐𝒗𝒂𝑩𝒐𝒕 & 𝑺𝒂𝒌𝒖𝒓𝒂
+https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8
+
+▢ 𝑮𝒓𝒖𝒑𝒐 𝑩𝒐𝒕𝒔 𝑴𝒖𝒍𝒕𝒊
 https://chat.whatsapp.com/FzW5a9g0nJMIdskszkq0dY
 
 ▢ ᰔᩚ♕︎🅜︎🅤︎🅛︎🅣︎🅘︎.🅑︎🅞︎🅣︎🅢︎♕︎ᰔᩚ 
