@@ -5,7 +5,7 @@ import fs from 'fs'
 let handler = async (m, { conn, text } ) => {  
 const delay = time => new Promise(res => setTimeout(res, time))
 let chats = Object.entries(conn.chats).filter(([jid, chat]) => !jid.endsWith('@g.us') && chat.isChats).map(v => v[0])
-if(!text) throw '*⚠️ INGRESE EL TEXTO QUE QUIERE QUE TRÁMITE*'
+if(!text) throw '*🍓 𝑰𝒏𝒈𝒓𝒆𝒔𝒂 𝑬𝒍 𝑻𝒆𝒙𝒕𝒐 𝑸𝒖𝒆 𝑸𝒖𝒊𝒆𝒓𝒆𝒔 𝑻𝒓𝒂𝒏𝒔𝒎𝒊𝒕𝒊𝒓 𝑨 𝑻𝒐𝒅𝒐 𝑪𝒉𝒂𝒕𝒔.*'
 let cc = text ? m : m.quoted ? await m.getQuotedObj() : false || m
 let teks = text ? text : cc.text
 for (let i of chats) {
