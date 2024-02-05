@@ -1,18 +1,54 @@
-import moment from 'moment-timezone';
-import fetch from 'node-fetch';
-const handler = async (m, { conn, args }) => {
-   const res = await fetch('https://api.github.com/repos/diegojadibot/SakuraBotLite-MD');
-   const json = await res.json();
-   let txt = `           *乂  B O T S C R I P T  乂*\n\n`;
-      txt += `◦  *Nombre:* ${json?.name || '❥ᰰຼ ⃟ᬽ៸𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿༒★»'}\n`;
-      txt += `◦  *Visitantes:* ${json?.watchers_count || '-'}\n`;
-      txt += `◦  *Tamaño:* ${(json?.size / 1024).toFixed(2) || '-'} MB\n`;
-      txt += `◦  *Actualización:* ${moment(json?.updated_at).format('DD/MM/YY - HH:mm:ss') || '-'}\n`;
-      txt += `◦  *Url:* ${json?.html_url || 'https://github.com/diegojadibot/SakuraBotLite-MD'}\n\n`;
-      txt += `	 ${json?.forks_count || '-'} Forks · ${json?.stargazers_count || '-'} Stars · ${json?.open_issues_count || '-'} Issues`;
-   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen6, "mediaUrl": `https://atom.bio/sakuralite`, "sourceUrl": `https://atom.bio/sakuralite`}}}, {quoted: m});
-};
-handler.help = ['scbot'];
-handler.tags = ['info'];
-handler.command = /^(sc|scbot|scrip|script)$/i;
-export default handler;
+//CÓDIGO ADAPTADO POR https://github.com/GataNina-Li | @gata_dios & https://github.com/AzamiJs | @Azami
+
+import fs from 'fs'
+import fetch from 'node-fetch'
+import { xpRange } from '../lib/levelling.js'
+const { levelling } = '../lib/levelling.js'
+import PhoneNumber from 'awesome-phonenumber'
+import { promises } from 'fs'
+import { join } from 'path'
+const { generateWAMessageFromContent, proto } = (await import('@whiskeysockets/baileys')).default
+
+var handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, command }) => {
+
+try {
+
+let name = conn.getName(m.sender)
+
+let pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
+let fkontak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': imagen1, thumbnail: imagen1 ,sendEphemeral: true}}}
+let links = linkSity.getRandom()
+
+//FAKES
+let a = {'key': {'participants': '0@s.whatsapp.net', 'fromMe': false, 'id': '3B64558B07848BD81108C1D14712018E'}, 'message': {'locationMessage': {'name': `${name}`, 'jpegThumbnail': await (await fetch(pp)).buffer(), 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'}
+const ftrol = { key : { remoteJid: 'status@broadcast', participant : '0@s.whatsapp.net' }, message: { orderMessage: { itemCount : 2023, status: 1, surface : 1, message: `${name}!`, orderTitle: `▮Menu ▸`, sellerJid: '0@s.whatsapp.net' }}}
+const fload = { key : { message: `CuriosityBot-MD 🍧` + `\nAzami`, thumbnail: await (await fetch(pp)).buffer(), sellerJid: '0@s.whatsapp.net' }}
+
+
+let menu = `*👋 Hola, ${name}*
+
+.allmenu
+_(Para ver el menú completo)_`
+
+await conn.reply(m.chat, menu, a, { contextInfo: { externalAdReply: {title: '👋 Hola!!',  sourceUrl: gp1, thumbnail: await (await fetch(pp)).buffer() }}})
+
+
+
+} catch {
+conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m, fake, )
+console.log(e)
+}}
+handler.tags = ['bot']
+handler.command = /^(david)$/i
+handler.register = true
+
+export default handler
+
+function clockString(ms) {
+let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
+let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
+let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
+
+function pickRandom(list) {
+return list[Math.floor(Math.random() * list.length)]}
