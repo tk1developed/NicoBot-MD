@@ -12,7 +12,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     await conn.sendMessage(m.chat, { react: { text: '💧', key: m.key } })
   let txt =`╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
 ┋ *🧑‍💻Dueño Del Bot:* Zumy  
-┋ *🚀Bot Oficial:* +57 301 2436429
+┋ *🚀Bot Oficial:* +51 935 499 065
 ┋ *🪁Subbot De:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
 ┋ *📅 Fecha:* ${date} 
 ┋ *✨️Version Actual:* ${vs}
