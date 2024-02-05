@@ -1,4 +1,3 @@
->💖🌹𝗖𝗿𝗲𝗮𝗱𝗼𝗿: 𝙳𝙸𝙴𝙶𝙾 𝙾𝙵𝙸𝙲𝙸𝙰𝙻🌻
 
 >🌿🐢𝗩𝗲𝗿𝘀𝗶𝗼𝗻 𝗗𝗲𝗹 𝗕𝗼𝘁: 1.0.6 (beta)
 
@@ -9,10 +8,8 @@
 
 
 
-
-
 - ### `✵ 🌻𝑪𝒐𝒏𝒇𝒊𝒈𝒖𝒓𝒂𝒄𝒊𝒐𝒏🚀`
-- 𝐂𝐥𝐨𝐧𝐚𝐫 𝐑𝐞𝐩𝐨 : 𝐒𝐚𝐤𝐮𝐫𝐚 [Aqui](https://github.com/diegojadibot/SakuraBotLite-MD/fork)
+ 𝐂𝐥𝐨𝐧𝐚𝐫 𝐑𝐞𝐩𝐨 : 𝐒𝐚𝐤𝐮𝐫𝐚 [Aqui](https://github.com/diegojadibot/SakuraBotLite-MD/fork)
 
    
   
@@ -83,6 +80,9 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > rm -rf SakuraBotSession
 > npm start
 ```
+
+## <img src="https://telegra.ph/file/4c711545e712b0b957f6c.jpg" alt="𝐂𝐫𝐞𝐚𝐝𝐨𝐫 🍓" width="42" height="42"> 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 🍓
+
 
 ## <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="𝐂𝐫𝐞𝐚𝐝𝐨𝐫 🍓" width="42" height="42"> 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 🍓
 
