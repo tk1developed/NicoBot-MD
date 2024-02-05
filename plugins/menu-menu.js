@@ -8,7 +8,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const {exp, limit, level, role} = global.db.data.users[m.sender];
   const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
   const fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': imagen1, thumbnail: imagen1 ,sendEphemeral: true}}};
-    
+
     await conn.sendMessage(m.chat, { react: { text: '💧', key: m.key } })
   let txt =`╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
 ┋ *🧑‍💻Dueño Del Bot:* Diego   
@@ -153,41 +153,41 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
 ╭∴━━━ *DESCARGAS* ━━━∴╮
-┃✣➸ 🛰 _#instagram *<enlace / link / url>*_
-┃✣➸ 🛰 _#mediafire *<enlace / link / url>*_
-┃✣➸ 🛰 _#gitclone *<enlace / link / url>*_
-┃✣➸ 🛰 _#gdrive *<enlace / link / url>*_
-┃✣➸ 🛰 _#tiktok *<enlace / link / url>*_
-┃✣➸ 🛰 _#tiktokimg *<enlace / link / url>*_
-┃✣➸ 🛰 _#xnxxdl *<enlace / link / url>*_
-┃✣➸ 🛰 _#xvideosdl *<enlace / link / url>*_
-┃✣➸ 🛰 _#twitter *<enlace / link / url>*_
-┃✣➸ 🛰 _#fb *<enlace / link / url>*_
-┃✣➸ 🛰 _#ytshort *<enlace / link / url>*_
-┃✣➸ 🛰 _#ytmp3 *<enlace / link / url>*_
-┃✣➸ 🛰 _#ytmp4 *<enlace / link / url>*_
-┃✣➸ 🛰 _#ytmp3doc *<enlace / link / url>*_
-┃✣➸ 🛰 _#ytmp4doc *<enlace / link / url>*_
-┃✣➸ 🛰 _#videodoc *<enlace / link / url>*_
-┃✣➸ 🛰 _#dapk2 *<enlace / link / url>*_
-┃✣➸ 🛰 _#stickerpack *<enlace / link / url>*_
-┃✣➸ 🛰 _#play *<texto>*_
-┃✣➸ 🛰 _#play2 *<texto>*_
-┃✣➸ 🛰 _#play.1 *<texto>*_
-┃✣➸ 🛰 _#play.2 *<texto>*_
-┃✣➸ 🛰 _#playdoc *<texto>*_
-┃✣➸ 🛰 _#playdoc2 *<texto>*_
-┃✣➸ 🛰 _#playlist *<texto>*_
-┃✣➸ 🛰 _#spotify *<texto>*_
-┃✣➸ 🛰 _#ringtone *<texto>*_
-┃✣➸ 🛰 _#soundcloud *<texto>*_
-┃✣➸ 🛰 _#imagen *<texto>*_
-┃✣➸ 🛰 _#pinterest *<texto>*_
-┃✣➸ 🛰 _#wallpaper *<texto>*_
-┃✣➸ 🛰 _#pptiktok *<nombre de usuario>*_
-┃✣➸ 🛰 _#igstalk *<nombre de usuario>*_
-┃✣➸ 🛰 _#igstory *<nombre de usuario>*_
-┃✣➸ 🛰 _#tiktokstalk *<username>*_
+┃✣➸ ☂️ _#instagram *<enlace / link / url>*_
+┃✣➸ ☂️ _#mediafire *<enlace / link / url>*_
+┃✣➸ ☂️ _#gitclone *<enlace / link / url>*_
+┃✣➸ ☂️ _#gdrive *<enlace / link / url>*_
+┃✣➸ ☂️ _#tiktok *<enlace / link / url>*_
+┃✣➸ ☂️ _#tiktokimg *<enlace / link / url>*_
+┃✣➸ ☂️ _#xnxxdl *<enlace / link / url>*_
+┃✣➸ ☂️ _#xvideosdl *<enlace / link / url>*_
+┃✣➸ ☂️ _#twitter *<enlace / link / url>*_
+┃✣➸ ☂️ _#fb *<enlace / link / url>*_
+┃✣➸ ☂️ _#ytshort *<enlace / link / url>*_
+┃✣➸ ☂️ _#ytmp3 *<enlace / link / url>*_
+┃✣➸ ☂️ _#ytmp4 *<enlace / link / url>*_
+┃✣➸ ☂️ _#ytmp3doc *<enlace / link / url>*_
+┃✣➸ ☂️ _#ytmp4doc *<enlace / link / url>*_
+┃✣➸ ☂️ _#videodoc *<enlace / link / url>*_
+┃✣➸ ☂️ _#dapk2 *<enlace / link / url>*_
+┃✣➸ ☂️ _#stickerpack *<enlace / link / url>*_
+┃✣➸ ☂️ _#play *<texto>*_
+┃✣➸ ☂️ _#play2 *<texto>*_
+┃✣➸ ☂️ _#play.1 *<texto>*_
+┃✣➸ ☂️ _#play.2 *<texto>*_
+┃✣➸ ☂️ _#playdoc *<texto>*_
+┃✣➸ ☂️ _#playdoc2 *<texto>*_
+┃✣➸ ☂️ _#playlist *<texto>*_
+┃✣➸ ☂️ _#spotify *<texto>*_
+┃✣➸ ☂️ _#ringtone *<texto>*_
+┃✣➸ ☂️ _#soundcloud *<texto>*_
+┃✣➸ ☂️ _#imagen *<texto>*_
+┃✣➸ ☂️ _#pinterest *<texto>*_
+┃✣➸ ☂️ _#wallpaper *<texto>*_
+┃✣➸ ☂️ _#pptiktok *<nombre de usuario>*_
+┃✣➸ ☂️ _#igstalk *<nombre de usuario>*_
+┃✣➸ ☂️ _#igstory *<nombre de usuario>*_
+┃✣➸ ☂️ _#tiktokstalk *<username>*_
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
 ╭∴━━━ *BUSCADORES* ━━━∴╮
@@ -239,29 +239,29 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
 ╭∴━━━ *CONVERTIDORES* ━━━∴╮
-┃✣➸ 🧶 _#toanime *<imagen>*_
-┃✣➸ 🧶 _#togifaud *<video>*_
-┃✣➸ 🧶 _#toimg *<sticker>*_
-┃✣➸ 🧶 _#tomp3 *<video>*_
-┃✣➸ 🧶 _#tomp3 *<nota de voz>*_
-┃✣➸ 🧶 _#toptt *<video / audio>*_
-┃✣➸ 🧶 _#tovideo *<sticker>*_
-┃✣➸ 🧶 _#tourl *<video / imagen / audio>*_
-┃✣➸ 🧶 _#tts *<idioma> <texto>*_
-┃✣➸ 🧶 _#tts *<efecto> <texto>*_
+┃✣➸ 🐱 _#toanime *<imagen>*_
+┃✣➸ 🐱 _#togifaud *<video>*_
+┃✣➸ 🐱 _#toimg *<sticker>*_
+┃✣➸ 🐱 _#tomp3 *<video>*_
+┃✣➸ 🐱 _#tomp3 *<nota de voz>*_
+┃✣➸ 🐱 _#toptt *<video / audio>*_
+┃✣➸ 🐱 _#tovideo *<sticker>*_
+┃✣➸ 🐱 _#tourl *<video / imagen / audio>*_
+┃✣➸ 🐱 _#tts *<idioma> <texto>*_
+┃✣➸ 🐱 _#tts *<efecto> <texto>*_
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
 ╭∴━━━ *LOGOS Y EFECTOS* ━━━∴╮
-┃✣➸ 🖼 _#logos *<efecto> <texto>*_
-┃✣➸ 🖼 _#logochristmas *<texto>*_
-┃✣➸ 🖼 _#logocorazon *<texto>*_
-┃✣➸ 🖼 _#ytcomment *<texto>*_
-┃✣➸ 🖼 _#hornycard *<@tag>*_
-┃✣➸ 🖼 _#simpcard *<@tag>*_
-┃✣➸ 🖼 _#lolice *<@tag>*_
-┃✣➸ 🖼 _#itssostupid_
-┃✣➸ 🖼 _#pixelar_
-┃✣➸ 🖼 _#blur_
+┃✣➸ 🦋 _#logos *<efecto> <texto>*_
+┃✣➸ 🦋 _#logochristmas *<texto>*_
+┃✣➸ 🦋 _#logocorazon *<texto>*_
+┃✣➸ 🦋 _#ytcomment *<texto>*_
+┃✣➸ 🦋 _#hornycard *<@tag>*_
+┃✣➸ 🦋 _#simpcard *<@tag>*_
+┃✣➸ 🦋 _#lolice *<@tag>*_
+┃✣➸ 🦋 _#itssostupid_
+┃✣➸ 🦋 _#pixelar_
+┃✣➸ 🦋 _#blur_
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
 ╭∴━━━ *PIROPOS* ━━━∴╮
@@ -276,37 +276,37 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
 ╭∴━━━ *RANDOM* ━━━∴╮
-┃✣➸ 📺 _#kpop *<blackpink / exo / bts>*_
-┃✣➸ 📺 _#cristianoronaldo_
-┃✣➸ 📺 _#messi_
-┃✣➸ 📺 _#cat_
-┃✣➸ 📺 _#dog_
-┃✣➸ 📺 _#meme_
-┃✣➸ 📺 _#itzy_
-┃✣➸ 📺 _#blackpink_
-┃✣➸ 📺 _#navidad_
-┃✣➸ 📺 _#wpmontaña_
-┃✣➸ 📺 _#pubg_
-┃✣➸ 📺 _#wpgaming_
-┃✣➸ 📺 _#wpaesthetic_
-┃✣➸ 📺 _#wpaesthetic2_
-┃✣➸ 📺 _#wprandom_
-┃✣➸ 📺 _#wallhp_
-┃✣➸ 📺 _#wpvehiculo_
-┃✣➸ 📺 _#wpmoto_
-┃✣➸ 📺 _#coffee_
-┃✣➸ 📺 _#pentol_
-┃✣➸ 📺 _#caricatura_
-┃✣➸ 📺 _#ciberespacio_
-┃✣➸ 📺 _#technology_
-┃✣➸ 📺 _#doraemon_
-┃✣➸ 📺 _#hacker_
-┃✣➸ 📺 _#planeta_
-┃✣➸ 📺 _#randomprofile_
+┃✣➸ 🌥 _#kpop *<blackpink / exo / bts>*_
+┃✣➸ 🌥 _#cristianoronaldo_
+┃✣➸ 🌥 _#messi_
+┃✣➸ 🌥 _#cat_
+┃✣➸ 🌥 _#dog_
+┃✣➸ 🌥 _#meme_
+┃✣➸ 🌥 _#itzy_
+┃✣➸ 🌥 _#blackpink_
+┃✣➸ 🌥 _#navidad_
+┃✣➸ 🌥 _#wpmontaña_
+┃✣➸ 🌥 _#pubg_
+┃✣➸ 🌥 _#wpgaming_
+┃✣➸ 🌥 _#wpaesthetic_
+┃✣➸ 🌥 _#wpaesthetic2_
+┃✣➸ 🌥 _#wprandom_
+┃✣➸ 🌥 _#wallhp_
+┃✣➸ 🌥 _#wpvehiculo_
+┃✣➸ 🌥 _#wpmoto_
+┃✣➸ 🌥 _#coffee_
+┃✣➸ 🌥 _#pentol_
+┃✣➸ 🌥 _#caricatura_
+┃✣➸ 🌥 _#ciberespacio_
+┃✣➸ 🌥 _#technology_
+┃✣➸ 🌥 _#doraemon_
+┃✣➸ 🌥 _#hacker_
+┃✣➸ 🌥 _#planeta_
+┃✣➸ 🌥 _#randomprofile_
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
 ╭∴━━━ *COMANDO +18* ━━━∴╮
-┃✣➸ 📒 _#hornymenu_
+┃✣➸ 🌹 _#hornymenu_
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
 ╭∴━━━ *EFECTOS DE AUDIOS* ━━━∴╮
