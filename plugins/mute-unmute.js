@@ -1,4 +1,6 @@
 //este comando no existe
+//este archivo es velocidad.
+//creado por diegojadibot
 
 import speed from 'performance-now'
 import { spawn, exec, execSync } from 'child_process'
