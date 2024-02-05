@@ -11,20 +11,20 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
     await conn.sendMessage(m.chat, { react: { text: '🦋', key: m.key } })
   let txt =`╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
-┋ *🧑‍💻Dueño Del Bot:* Diego
-┋ *🚀Bot Oficial:* +57 301 2436429
-┋ *🪁Subbot De:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
-┋ *📅 Fecha:* ${date} 
-┋ *✨️Version Actual:* ${vs}
+┋ 🕊️𝐃𝐮𝐞𝐧̃𝐨 𝐃𝐞𝐥 𝐁𝐨𝐭: Diego
+┋ 🍓𝐁𝐨𝐭 𝐎𝐟𝐢𝐜𝐢𝐚𝐥: +57 301 2436429
+┋ 🍀𝐒𝐨𝐲 𝐒𝐮𝐛𝐛𝐨𝐭 𝐃𝐞: ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
+┋ 🌿𝐃𝐚𝐭𝐞: ${date} 
+┋ 🦎𝐕𝐞𝐫𝐬𝐢𝐨𝐧 𝐃𝐞 𝐒𝐚𝐤𝐮𝐫𝐚: ${vs}
 ╰◆━━━━━━◆❃◆━━━━━━◆
 
 ╭∴━━━ *INFO USER* ━━━∴╮
-┃✣➸ *🎖Nivel:* ${level}
-┃✣➸ *🧰Experiencia:* ${exp}
-┃✣➸ *⚓️Rango:* ${role}
-┃✣➸ *💎Diamantes:* ${limit}
-┃✣➸ *👾SakuCoins:* ${money}
-┃✣➸ *🪙Tokens:* ${joincount}
+┃✣➸ 🐢𝐋𝐞𝐯𝐞𝐥𝐮𝐩: ${level}
+┃✣➸ 🌱𝐄𝐱𝐩:* ${exp}
+┃✣➸ 🍁𝐑𝐚𝐧𝐠𝐨: ${role}
+┃✣➸ 💎𝐃𝐢𝐚𝐦𝐚𝐧𝐭𝐞: ${limit}
+┃✣➸ 🌻𝐒𝐚𝐤𝐮𝐂𝐨𝐢𝐧𝐬: ${money}
+┃✣➸ 🌼𝐌𝐨𝐧𝐞𝐝𝐚: ${joincount}
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
 ╭∴━━━ *SOLUCIONES* ━━━∴╮
