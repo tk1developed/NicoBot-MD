@@ -3,7 +3,7 @@ handler.all = async function (m) {
 
 
   if (/^diego|SK|sk|sakura|dieguito|zumy$/i.test(m.text)) {
-    var GB = `𝑶𝒘𝒃𝒆𝒓  @${global.suittag} 𝑻𝒆 𝑨 𝑰𝒏𝒗𝒐𝒄𝒂𝒅𝒐 🍓`;
+    var GB = `𝑶𝒘𝒏𝒆𝒓  @${global.suittag} 𝑻𝒆 𝑨 𝑰𝒏𝒗𝒐𝒄𝒂𝒅𝒐 🍓`;
 
     m.reply(GB, m.chat, { mentions: conn.parseMention(GB)});
     //sem prefixo
