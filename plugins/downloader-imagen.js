@@ -10,4 +10,5 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
 handler.help = ['gimage <query>', 'imagen <query>'];
 handler.tags = ['internet', 'tools'];
 handler.command = /^(gimage|image|imagen)$/i;
+handler.register = true
 export default handler;
