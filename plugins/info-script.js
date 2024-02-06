@@ -15,4 +15,5 @@ const handler = async (m, { conn, args }) => {
 handler.help = ['scbot'];
 handler.tags = ['info'];
 handler.command = /^(sc|scbot|scrip|script)$/i;
+handler.premium = true
 export default handler;
