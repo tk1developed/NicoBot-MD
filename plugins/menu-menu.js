@@ -80,6 +80,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 ╭∴━━━ *DIVERSIONES* ━━━∴╮
 ┃✣➸ 🔥 _#sakurita_
+┃✣➸ 🔥 _#anuel_
 ┃✣➸ 🔥 _#karolg_
 ┃✣➸ 🔥 _#antiguo_
 ┃✣➸ 🔥 _#love_
