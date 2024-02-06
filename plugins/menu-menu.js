@@ -16,7 +16,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┋ 🍀𝐒𝐨𝐲 𝐒𝐮𝐛𝐛𝐨𝐭 𝐃𝐞: ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || 'No Soy Subbot'}
 ┋ 🌿𝐃𝐚𝐭𝐞: ${date} 
 ┋ 🦎𝐕𝐞𝐫𝐬𝐢𝐨𝐧 𝐃𝐞 𝐒𝐚𝐤𝐮𝐫𝐚: ${vs}
-┋ 🦋𝐓𝐢𝐞𝐦𝐩𝐨 𝐀𝐜𝐭𝐢𝐯𝐚: ${uptime}
 ╰◆━━━━━━◆❃◆━━━━━━◆
 
 ╭∴━━━ *INFO USER* ━━━∴╮
