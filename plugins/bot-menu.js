@@ -7,7 +7,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
 
 let Reglas = ` *🕊️ 𝑴𝑬𝑵𝑼 𝑪𝑨𝑴𝑩𝑰𝑨𝑫𝑶 🦎*\n
 🍁𝐍𝐨𝐭𝐚: 🍓 𝐼𝑛𝑡𝑒𝑛𝑡𝑎𝑠𝑡𝑒𝑠 𝑉𝑒𝑟 𝐸𝑙 𝑀𝑒𝑛𝑢 𝐷𝑒𝑙 𝑆𝑎𝑘𝑢𝑟𝑎𝐵𝑜𝑡𝐿𝑖𝑡𝑒-𝑀𝐷, 𝐸𝑠𝑡𝑒 𝐶𝑜𝑚𝑎𝑛𝑑𝑜 𝐶𝑎𝑚𝑏𝑖𝑜 𝐴ℎ𝑜𝑟𝑎 𝐸𝑠:\n
-.*#configuracion*\n
+.*configuracion*\n
 *𝑻𝒆 𝑨𝒈𝒓𝒂𝒅𝒆𝒔𝒄𝒐 𝑺𝒊 𝑴𝒆 𝑺𝒊𝒈𝒖𝒆𝒔 𝑬𝒏 𝑬𝒍 𝑪𝒂𝒏𝒂𝒍 𝑫𝒆 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕𝑳𝒊𝒕𝒆-𝑴𝑫 🍓*\n
 ${gp1}
 `.trim()  
