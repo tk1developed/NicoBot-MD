@@ -13,8 +13,7 @@ ${md}
 `.trim()  
 await conn.sendFile(m.chat, imagen1, 'gata.mp4', Reglas)
 }
-handler.customPrefix = /menu|menubot|menu|uso, usobot|uso del bot/i
-handler.command = new RegExp
+handler.command = /^(menu|menú|COMANDOS|comandos)$/i;
 handler.register = true
 handler.exp = 70
 export default handler
