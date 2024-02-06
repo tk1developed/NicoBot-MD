@@ -18,4 +18,6 @@ handler.help = ['speedtest'];
 handler.tags = ['info'];
 handler.command = /^(speedtest?|info?|stest?speed)$/i;
 
+handler.register = true
+handler.limit = true
 export default handler;
