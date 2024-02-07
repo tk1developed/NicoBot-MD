@@ -1545,7 +1545,9 @@ global.dfail = (type, m, conn) => {
     private: '*🍓 𝘌𝘴𝘵𝘦 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘚𝘰𝘭𝘰 𝘚𝘦 𝘗𝘶𝘦𝘥𝘦 𝘜𝘴𝘢𝘳 𝘈𝘭 𝘊𝘩𝘢𝘵 𝘗𝘳𝘪𝘷𝘢𝘥𝘰 𝘋𝘦𝘭 𝘉𝘰𝘵.*',
     admin: '*🍓 𝘌𝘴𝘵𝘦 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘚𝘰𝘭𝘰 𝘌𝘴 𝘗𝘢𝘳𝘢 𝘈𝘥𝘮𝘪𝘯𝘴 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰.*',
     botAdmin: '*🍓 𝘗𝘢𝘳𝘢 𝘗𝘰𝘥𝘦𝘳 𝘜𝘴𝘢𝘳 𝘌𝘴𝘵𝘦 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘌𝘴 𝘕𝘦𝘤𝘦𝘴𝘢𝘳𝘪𝘰 𝘘𝘶𝘦 𝘠𝘰 𝘚𝘦𝘢 𝘈𝘥𝘮𝘪𝘯.*',
-    unreg: '*🍓🦋 ¡𝐏𝐚𝐫𝐚 𝐂𝐨𝐧𝐭𝐢𝐧𝐮𝐚𝐫 𝐂𝐨𝐧 𝐄𝐬𝐭𝐚 𝐅𝐮𝐧𝐜𝐢𝐨𝐧 𝐄𝐬 𝐍𝐞𝐜𝐞𝐬𝐚𝐫𝐢𝐨 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐫𝐬𝐞!*\n\n!verificar nombre.edad\n\n*Uso correcto* : !verificar Diego.20',
+    unreg: '*🍓🦋 ¡𝐏𝐚𝐫𝐚 𝐂𝐨𝐧𝐭𝐢𝐧𝐮𝐚𝐫 𝐂𝐨𝐧 𝐄𝐬𝐭𝐚 𝐅𝐮𝐧𝐜𝐢𝐨𝐧 𝐄𝐬 𝐍𝐞𝐜𝐞𝐬𝐚𝐫𝐢𝐨 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐫𝐬𝐞!*\n\n｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍓
+!verificar nombre.edad\n\n｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍓
+*Uso correcto* : !verificar Diego.20',
     restrict: '*🍓 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘙𝘦𝘴𝘵𝘳𝘪𝘯𝘨𝘪𝘥𝘰 𝘗𝘰𝘳 𝘋𝘦𝘴𝘪𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘗𝘳𝘰𝘱𝘪𝘦𝘵𝘢𝘳𝘪𝘰 𝘋𝘦𝘭 𝘉𝘰𝘵.*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
