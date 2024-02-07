@@ -18,7 +18,7 @@ conn.reply(m.chat, tqto, m, fake, )
 handler.before = async m => {
 
 if (/^colaboradores|Colaboradores$/i.test(m.text) ) {
-let texto = `🍓 *𝑮𝒊𝒕𝑯𝒖𝒃 - 𝑪𝒐𝒍𝒂𝒃𝒊𝒓𝒂𝒅𝒐𝒓𝒆𝒔*
+let texto = `🍓 *𝑮𝒊𝒕𝑯𝒖𝒃 - 𝑪𝒐𝒍𝒂𝒃𝒐𝒓𝒂𝒅𝒐𝒓𝒆𝒔*
 
 ❀ https://github.com/AzamiJs
 ❀ https://github.com/elrebelde21
@@ -33,7 +33,6 @@ conn.reply(m.chat, texto, m, fake, )
 
 if (/^cc$/i.test(m.text) ) {
 let contacto = `🍓 *𝑪𝒐𝒏𝒕𝒂𝒄𝒕𝒐 𝑫𝒆 𝑳𝒐𝒔 𝑪𝒐𝒍𝒂𝒃𝒐𝒓𝒂𝒅𝒐𝒓𝒆𝒔* 
-
 
 ❀ *Azami*
 @527294888993
