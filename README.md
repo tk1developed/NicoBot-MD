@@ -99,4 +99,4 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="250" height="250" alt="Diego"/></a>
 
 #### COLABORADORES 
-[![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) [![Wilsmac](https://github.com/Wilsmac.png?size=100)](https://github.com/Wilsmac)
+[![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) [![Wilsmac](https://github.com/Wilsmac.png?size=100)](https://github.com/Wilsmac) [![diegojadibot](https://github.com/diegojadibot.png?size=100)](https://github.com/diegojadibot)
