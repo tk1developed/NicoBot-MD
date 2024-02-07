@@ -312,7 +312,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃✣➸ 🌹 _#hornymenu_
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
-╭∴━━━ *EFECTOS DE AUDIOS* ━━━∴╮
+╭∴━━━ *EFECTOS-AUDIOS* ━━━∴╮
 ┃✣➸ 𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦 𝘈 𝘜𝘯𝘢 𝘕𝘰𝘵𝘢 𝘋𝘦 𝘈𝘶𝘥𝘪𝘰
 ┃✣➸ 🔊 _#bass_
 ┃✣➸ 🔊 _#blown_
@@ -367,7 +367,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃✣➸ 🐢 _#dropmail_
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
-╭∴━━━ *LIMITES/ECONOMIAS* ━━━∴╮
+╭∴━━ *LIMITES/ECONOMIAS* ━━∴╮
 ┃✣➸ 🌿 _#adventure_
 ┃✣➸ 🌿 _#cazar_
 ┃✣➸ 🌿 _#cofre_
@@ -419,7 +419,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
 
-╭∴━━━ *FUNCIÓN-CREADOR* ━━━∴╮
+╭∴━━━ *CREADOR* ━━━∴╮
 ┃✣➸ 💧 > *<funcion>*
 ┃✣➸ 💧 => *<funcion>*
 ┃✣➸ 💧 $ *<funcion>*
