@@ -54,7 +54,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
 ╭∴━━━ *SER SUBBOT* ━━━∴╮
-┃✣➸ 💻 _#serbot_
+┃✣➸ 💻 _#botclone_
 ┃✣➸ 💻 _#deletebot_
 ┃✣➸ 💻 _#token_
 ┃✣➸ 💻 _#stop_
