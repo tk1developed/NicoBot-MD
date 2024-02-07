@@ -100,4 +100,3 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 #### COLABORADORES 
 [![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) 
-> Copyright (c) 2024 **[GataNina-Li](https://github.com/AzamiJs/CuriosityBot-MD/blob/master/LICENSE)**.
