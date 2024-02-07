@@ -99,6 +99,5 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="250" height="250" alt="Diego"/></a>
 
 #### COLABORADORES 
-<a href="https://github.com/diegojadibot/SakuraBotLite-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=diegojadibot/SakuraBotLite-MD" /> 
-</a>
+[![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) 
+> Copyright (c) 2024 **[GataNina-Li](https://github.com/AzamiJs/CuriosityBot-MD/blob/master/LICENSE)**.
