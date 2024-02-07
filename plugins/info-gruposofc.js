@@ -11,8 +11,6 @@ https://chat.whatsapp.com/DUAS7osnQ2h3tlYT4bnbfU
 🌹𝐺𝑅𝑈𝑃𝑂𝑆 𝐸𝑁 𝐶𝑂𝐿𝐴𝐵𝑂𝑅𝐴𝐶𝐼𝑂𝑁:
 
 
-▢ 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕 & 𝑺𝒉𝒂𝒏𝒂-𝑩𝒐𝒕 https://chat.whatsapp.com/HjtosKShIYcE0xldUFSnkF
-
 ▢ 𝑪𝒖𝒓𝒊𝒐𝒔𝒊𝒕𝒚𝑩𝒐𝒕 & 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕 
 https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO
 
