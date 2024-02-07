@@ -11,7 +11,7 @@ let handler = async (m, { conn }) => {
          exec(`neofetch --stdout`, (error, stdout, stderr) => {
           let child = stdout.toString("utf-8");
           let ssd = child.replace(/Memory:/, "Ram:");
-          m.reply(`💗 𝗠𝗶 𝗩𝗲𝗹𝗼𝗰𝗶𝗱𝗮𝗱  ${latensi.toFixed(4)}`);
+          m.reply(`🍓 𝗠𝗶 𝗩𝗲𝗹𝗼𝗰𝗶𝗱𝗮𝗱  ${latensi.toFixed(4)} MS`);
             });
 }
 handler.help = ['ping']
