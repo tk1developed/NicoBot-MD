@@ -10,9 +10,11 @@ https://chat.whatsapp.com/DUAS7osnQ2h3tlYT4bnbfU
 
 🌹𝐺𝑅𝑈𝑃𝑂𝑆 𝐸𝑁 𝐶𝑂𝐿𝐴𝐵𝑂𝑅𝐴𝐶𝐼𝑂𝑁:
 
-
 ▢ 𝑪𝒖𝒓𝒊𝒐𝒔𝒊𝒕𝒚𝑩𝒐𝒕 & 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕 
 https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO
+
+▢ 𝑴𝒂𝒅𝒐𝒌𝒂 & 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕
+https://chat.whatsapp.com/C5BRS176QMqKFaZlAiqFfo
 
 ▢ 𝑵𝒐𝒗𝒂𝑩𝒐𝒕 & 𝑺𝒂𝒌𝒖𝒓𝒂
 https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8
