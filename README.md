@@ -100,3 +100,9 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 #### COLABORADORES 
 [![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) [![Wilsmac](https://github.com/Wilsmac.png?size=100)](https://github.com/Wilsmac) [![diegojadibot](https://github.com/diegojadibot.png?size=100)](https://github.com/diegojadibot) [![Enzito-Vase](https://github.com/Enzito-Vase.png?size=100)](https://github.com/Enzito-Vase) [![Ender-GB-Isis777](https://github.com/Ender-GB-Isis777.png?size=100)](https://github.com/Ender-GB-Isis777)
+
+- AzamiJs/CuriosityBot-MD
+- elrebelde21/NovaBot-MD
+- Wilsmac/FantasyBot-MD
+- Enzito-Vase/MadokaLiteBot-MD
+- Ender-GB-Isis777/Lobo-Bot-Lite
