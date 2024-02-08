@@ -101,6 +101,7 @@ href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot
  <td align="center"><a
 
 
+
  #### 𝑪𝒐𝒍𝒂𝒃𝒐𝒓𝒂𝒅𝒐𝒓𝒆𝒔 𝑫𝒆𝒍 𝑩𝒐𝒕 🕊️
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
