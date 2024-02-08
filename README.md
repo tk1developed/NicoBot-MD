@@ -116,6 +116,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 href="https://github.com/Enzito-Vase"><img src="https://github.com/Enzito-Vase.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖤𝗇𝗓𝗂𝗍𝗈</b></sub></a><br /><sub><i>𝘋𝘦𝘴𝘢𝘳𝘳𝘰𝘭𝘭𝘢𝘥𝘰𝘳 𝘖𝘧𝘪𝘤𝘪𝘢𝘭</i>
     <td align="center"><a 
  <td align="center"><a
-href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png?size=100" width="100px;" alt=""/><br /><sub><b>Diego</b></sub></a><br /><sub><i>𝘊𝘳𝘦𝘢𝘥𝘰𝘳 𝘖𝘧𝘪𝘤𝘪𝘢𝘭</i>
+href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png?size=100" width="100px;" alt=""/><br /><sub><b>Diego</b></sub></a><br /><sub><i>𝘋𝘪𝘦𝘨𝘰 𝘊𝘳𝘦𝘢𝘥𝘰𝘳 𝘖𝘧𝘪𝘤𝘪𝘢𝘭</i>
     <td align="center"><a 
  <td align="center"><a
