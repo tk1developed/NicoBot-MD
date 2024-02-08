@@ -94,8 +94,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ---------
 
-- ### 𝑬𝒅𝒊𝒕𝒐𝒓 𝒀 𝑷𝒓𝒐𝒑𝒊𝒆𝒕𝒂𝒓𝒊𝒐 𝑫𝒆𝒍 𝑩𝒐𝒕 🕊️🍓
-href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖣𝗂𝖾𝗀𝗈 𝖮𝖿𝗂𝖼𝗂𝖺𝗅</b></sub></a><br /><sub><i>𝘊𝘳𝘦𝘢𝘥𝘰𝘳 𝘖𝘧𝘪𝘤𝘪𝘢𝘭</i>
+- ### 𝑬𝒅𝒊𝒕𝒐𝒓 𝒀 𝑷𝒓𝒐𝒑𝒊𝒆𝒕𝒂𝒓𝒊𝒐 𝑫𝒆𝒍 𝑩𝒐𝒕 🕊️🍓 src="https://github.com/diegojadibot.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖣𝗂𝖾𝗀𝗈 𝖮𝖿𝗂𝖼𝗂𝖺𝗅</b></sub></a><br /><sub><i>𝘊𝘳𝘦𝘢𝘥𝘰𝘳 𝘖𝘧𝘪𝘤𝘪𝘢𝘭</i>
     <td align="center"><a 
  <td align="center"><a
 
