@@ -1,7 +1,7 @@
 
 >🌿🐢𝗩𝗲𝗿𝘀𝗶𝗼𝗻 𝗗𝗲𝗹 𝗕𝗼𝘁: 1.0.6 (beta)
 
-## `↳❀ 🍓𝕊𝐚𝗸ᵘ𝗋𝗮𝖫ⁱ𝘁𝐞@𝗢ғ𝐢ᶜ𝗶ᴀ𝐥  ৣ̽🦋⃤͓̽ᬽ̽` 
+## `↳❀ 🍓 𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯 ৣ̽🦋⃤͓̽ᬽ̽` 
 <p align="center">
 <img src="https://telegra.ph/file/4c711545e712b0b957f6c.jpg" alt="SakuraBotLite-MD" width="900"/>
 </p>
@@ -32,7 +32,7 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 ```
 
 - ### `✵ 🌹𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒄𝒊𝒐𝒏 𝑷𝒐𝒓 𝑻𝒆𝒓𝒎𝒖𝒙 𝑴𝒂𝒏𝒖𝒂𝒍👨‍💻` 
-- ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 cd && termux-setup-storage
 ```
@@ -75,7 +75,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 - ### `✵ 🌥𝑷𝒆𝒅𝒊𝒓 𝑶𝒕𝒓𝒐 𝑸𝒓 𝑷𝒐𝒓 𝑻𝒆𝒓𝒎𝒖𝒙👨‍💻` 
 ```bash
-ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
 > rm -rf SakuraBotSession
 > npm start
