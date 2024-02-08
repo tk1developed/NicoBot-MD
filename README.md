@@ -86,7 +86,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 - 🍓 𝑺𝒊 𝑬𝒍 𝑩𝒐𝒕 𝑻𝒊𝒆𝒏𝒆 𝑭𝒂𝒍𝒍𝒂 𝑶 𝑺𝒐𝒍𝒐 𝑸𝒖𝒊𝒆𝒓𝒆𝒔 𝑪𝒐𝒏𝒕𝒂𝒄𝒕𝒂𝒓𝒎𝒆 𝑬𝒔𝒄𝒓𝒊𝒃𝒆 𝑨𝒒𝒖𝒊 𝑻𝒆 𝑫𝒆𝒋𝒐 𝑴𝒊 𝑾𝒉𝒂𝒕𝒔𝑨𝒑𝒑 🕊️
 
-* <a href="https://wa.me/+573107133321"><img alt="𝘾𝙧𝙚𝙖𝙙𝙤𝙧 🍓" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+* <a href="https://wa.me/573107133321"><img alt="𝘾𝙧𝙚𝙖𝙙𝙤𝙧 🍓" src="https://img.shields.io/badge/𝘾𝙧𝙚𝙖𝙙𝙤𝙧 🍓-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 ## <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="𝖡𝗈𝗍 𝖮𝖿𝗂𝖼𝗂𝖺𝗅 🍓" width="42" height="42"> 𝖡𝗈𝗍 𝖮𝖿𝗂𝖼𝗂𝖺𝗅 🍓
 
