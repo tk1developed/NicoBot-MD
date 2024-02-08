@@ -95,7 +95,9 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ---------
 
 - ### 𝑬𝒅𝒊𝒕𝒐𝒓 𝒀 𝑷𝒓𝒐𝒑𝒊𝒆𝒕𝒂𝒓𝒊𝒐 𝑫𝒆𝒍 𝑩𝒐𝒕 🕊️🍓
-<a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="250" height="250" alt="Diego"/></a>
+href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖣𝗂𝖾𝗀𝗈 𝖮𝖿𝗂𝖼𝗂𝖺𝗅</b></sub></a><br /><sub><i>𝘊𝘳𝘦𝘢𝘥𝘰𝘳 𝘖𝘧𝘪𝘤𝘪𝘢𝘭</i>
+    <td align="center"><a 
+ <td align="center"><a
 
 
 - #### 𝑪𝒐𝒍𝒂𝒃𝒐𝒓𝒂𝒅𝒐𝒓𝒆𝒔 𝑫𝒆𝒍 𝑩𝒐𝒕 🕊️
@@ -105,14 +107,14 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
   <tr>
 
   <td align="center"><a 
-  href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖠𝗅𝖾𝗑𝗂𝗌</b></sub></a><br /><sub><i>Desarollador Oficial</i></sub></td>
-    <td align="center"><a href="https://github.com/Ender-GB-Isis777"><img src="https://github.com/Ender-GB-Isis777.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖤𝗇𝖽𝖾𝗋 𝖦𝖡</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
+  href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖠𝗅𝖾𝗑𝗂𝗌</b></sub></a><br /><sub><i>𝘋𝘦𝘴𝘢𝘳𝘳𝘰𝘭𝘭𝘢𝘥𝘰𝘳 𝘖𝘧𝘪𝘤𝘪𝘢𝘭</i></sub></td>
+    <td align="center"><a href="https://github.com/Ender-GB-Isis777"><img src="https://github.com/Ender-GB-Isis777.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖤𝗇𝖽𝖾𝗋 𝖦𝖡</b></sub></a><br /><sub><i>𝘋𝘦𝘴𝘢𝘳𝘳𝘰𝘭𝘭𝘢𝘥𝘰𝘳 𝘖𝘧𝘪𝘤𝘪𝘢𝘭</i>
     <td align="center"><a 
-       <td align="center"><a href="https://github.com/Wilsmac"><img src="https://github.com/Wilsmac.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖶𝗂𝗅𝗆𝖾𝗋</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
+       <td align="center"><a href="https://github.com/Wilsmac"><img src="https://github.com/Wilsmac.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖶𝗂𝗅𝗆𝖾𝗋</b></sub></a><br /><sub><i>𝘋𝘦𝘴𝘢𝘳𝘳𝘰𝘭𝘭𝘢𝘥𝘰𝘳 𝘖𝘧𝘪𝘤𝘪𝘢𝘭</i>
     <td align="center"><a 
-       <td align="center"><a href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖬𝖺𝗋𝗂𝗈</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
+       <td align="center"><a href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖬𝖺𝗋𝗂𝗈</b></sub></a><br /><sub><i>𝘋𝘦𝘴𝘢𝘳𝘳𝘰𝘭𝘭𝘢𝘥𝘰𝘳 𝘖𝘧𝘪𝘤𝘪𝘢𝘭</i>
     <td align="center"><a 
  <td align="center"><a 
-href="https://github.com/Enzito-Vase"><img src="https://github.com/Enzito-Vase.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖤𝗇𝗓𝗂𝗍𝗈</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
+href="https://github.com/Enzito-Vase"><img src="https://github.com/Enzito-Vase.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖤𝗇𝗓𝗂𝗍𝗈</b></sub></a><br /><sub><i>𝘋𝘦𝘴𝘢𝘳𝘳𝘰𝘭𝘭𝘢𝘥𝘰𝘳 𝘖𝘧𝘪𝘤𝘪𝘢𝘭</i>
     <td align="center"><a 
  <td align="center"><a
