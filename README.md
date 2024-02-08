@@ -86,11 +86,9 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 * <a href="https://wa.me/573107133321"><img alt="𝘾𝙧𝙚𝙖𝙙𝙤𝙧 🍓" src="https://img.shields.io/badge/Diego - Creador🍓-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
-> No Spam O Te Bloquea
+> Diego Oficial!
 
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> 𝐁𝐨𝐭 𝐎𝐟𝐢𝐜𝐢𝐚𝐥 🦋
-
-- 🦎 𝘕𝘰 𝘈𝘨𝘢𝘴 𝘚𝘱𝘢𝘮 𝘈𝘭 𝘉𝘰𝘵,𝘚𝘪 𝘕𝘰 𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦 𝘌𝘴 𝘗𝘰𝘳𝘲𝘶𝘦 𝘗𝘶𝘦𝘥𝘦 𝘌𝘴𝘵𝘢𝘳 𝘚𝘢𝘵𝘶𝘳𝘢𝘥𝘰 𝘖 𝘌𝘴𝘵𝘢 𝘌𝘯 𝘚𝘰𝘱𝘰𝘳𝘵𝘦 🍓
 
 * <a href="https://wa.me/573012436429"><img alt="𝘽𝙤𝙩 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 🍓" src="https://img.shields.io/badge/Bot - Oficial🦋-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
