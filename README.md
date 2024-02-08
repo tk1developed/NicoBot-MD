@@ -84,9 +84,9 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ## <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="𝐂𝐫𝐞𝐚𝐝𝐨𝐫 🍓" width="42" height="42"> 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 🍓
 
-- 🍓 𝑺𝒊 𝑬𝒍 𝑩𝒐𝒕 𝑻𝒊𝒆𝒏𝒆 𝑭𝒂𝒍𝒍𝒂 𝑶 𝑺𝒐𝒍𝒐 𝑸𝒖𝒊𝒆𝒓𝒆𝒔 𝑪𝒐𝒏𝒕𝒂𝒄𝒕𝒂𝒓𝒎𝒆 𝑬𝒔𝒄𝒓𝒊𝒃𝒆 𝑨𝒒𝒖𝒊 𝑻𝒆 𝑫𝒆𝒋𝒐 𝑴𝒊 𝑾𝒉𝒂𝒕𝒔𝑨𝒑𝒑 🕊️
-
 * <a href="https://wa.me/573107133321"><img alt="𝘾𝙧𝙚𝙖𝙙𝙤𝙧 🍓" src="https://img.shields.io/badge/Diego - Creador🍓-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+
+> No Spam O Te Bloquea
 
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> 𝐁𝐨𝐭 𝐎𝐟𝐢𝐜𝐢𝐚𝐥 🦋
 
@@ -94,6 +94,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 * <a href="https://wa.me/573012436429"><img alt="𝘽𝙤𝙩 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 🍓" src="https://img.shields.io/badge/Bot - Oficial🦋-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
+> No Spam Al Bot!
 
 ---------
 
