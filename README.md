@@ -105,14 +105,14 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
   <tr>
 
   <td align="center"><a 
-  href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖠𝗅𝖾𝗑𝗂𝗌</b></sub></a><br /><sub><i>𝘋𝘦𝘴𝘢𝘳𝘳𝘰𝘭𝘭𝘢𝘥𝘰𝘳 𝘖𝘧𝘪𝘤𝘪𝘢𝘭</i></sub></td>
-    <td align="center"><a href="https://github.com/Ender-GB-Isis777"><img src="https://github.com/Ender-GB-Isis777.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖤𝗇𝖽𝖾𝗋 𝖦𝖡</b></sub></a><br /><sub><i>𝘋𝘦𝘴𝘢𝘳𝘳𝘰𝘭𝘭𝘢𝘥𝘰𝘳 𝘖𝘧𝘪𝘤𝘪𝘢𝘭</i>
+  href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖠𝗅𝖾𝗑𝗂𝗌</b></sub></a><br /><sub><i>𝖣𝖾𝗌𝖺𝗋𝗋𝗈𝗅𝗅𝖺𝖽𝗈𝗋 𝖮𝖿𝗂𝖼𝗂𝖺𝗅</i></sub></td>
+    <td align="center"><a href="https://github.com/Ender-GB-Isis777"><img src="https://github.com/Ender-GB-Isis777.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖤𝗇𝖽𝖾𝗋 𝖦𝖡</b></sub></a><br /><sub><i>𝖣𝖾𝗌𝖺𝗋𝗋𝗈𝗅𝗅𝖺𝖽𝗈𝗋 𝖮𝖿𝗂𝖼𝗂𝖺𝗅</i>
     <td align="center"><a 
-       <td align="center"><a href="https://github.com/Wilsmac"><img src="https://github.com/Wilsmac.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖶𝗂𝗅𝗆𝖾𝗋</b></sub></a><br /><sub><i>𝘋𝘦𝘴𝘢𝘳𝘳𝘰𝘭𝘭𝘢𝘥𝘰𝘳 𝘖𝘧𝘪𝘤𝘪𝘢𝘭</i>
+       <td align="center"><a href="https://github.com/Wilsmac"><img src="https://github.com/Wilsmac.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖶𝗂𝗅𝗆𝖾𝗋</b></sub></a><br /><sub><i>𝖣𝖾𝗌𝖺𝗋𝗋𝗈𝗅𝗅𝖺𝖽𝗈𝗋 𝖮𝖿𝗂𝖼𝗂𝖺𝗅</i>
     <td align="center"><a 
-       <td align="center"><a href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖬𝖺𝗋𝗂𝗈</b></sub></a><br /><sub><i>𝘋𝘦𝘴𝘢𝘳𝘳𝘰𝘭𝘭𝘢𝘥𝘰𝘳 𝘖𝘧𝘪𝘤𝘪𝘢𝘭</i>
+       <td align="center"><a href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖬𝖺𝗋𝗂𝗈</b></sub></a><br /><sub><i>𝖣𝖾𝗌𝖺𝗋𝗋𝗈𝗅𝗅𝖺𝖽𝗈𝗋 𝖮𝖿𝗂𝖼𝗂𝖺𝗅</i>
     <td align="center"><a 
  <td align="center"><a 
-href="https://github.com/Enzito-Vase"><img src="https://github.com/Enzito-Vase.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖤𝗇𝗓𝗂𝗍𝗈</b></sub></a><br /><sub><i>𝘋𝘦𝘴𝘢𝘳𝘳𝘰𝘭𝘭𝘢𝘥𝘰𝘳 𝘖𝘧𝘪𝘤𝘪𝘢𝘭</i>
+href="https://github.com/Enzito-Vase"><img src="https://github.com/Enzito-Vase.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖤𝗇𝗓𝗂𝗍𝗈</b></sub></a><br /><sub><i>𝖣𝖾𝗌𝖺𝗋𝗋𝗈𝗅𝗅𝖺𝖽𝗈𝗋 𝖮𝖿𝗂𝖼𝗂𝖺𝗅</i>
     <td align="center"><a 
  <td align="center"><a
