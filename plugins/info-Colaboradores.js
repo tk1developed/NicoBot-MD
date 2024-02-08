@@ -26,17 +26,17 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃➸ 🍓𝖢𝗈𝗅𝖺𝖻𝗈𝗋𝖺𝖽𝗈𝗋𝖾𝗌
 ╰◆━━━━━━◆❃◆━━━━━━◆
 
-╭✨️⸽⃕𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼𝘀 𝗚𝗶𝘁𝗛𝘂𝗯🍁⃨፝⃕✰
+╭✨️⸽⃕𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼𝘀 𝗚𝗶𝘁𝗵𝘂𝗯🍁⃨፝⃕✰
 ┃
-┃✣➸ 𝖣𝗂𝖾𝗀𝗈|𝖧𝗂𝗍𝖧𝗎𝖻: https://github.com/diegojadibot/SakuraBotLite-MD
+┃✣➸ 𝖣𝗂𝖾𝗀𝗈|𝖧𝗂𝗍𝗁𝗎𝖻: https://github.com/diegojadibot/SakuraBotLite-MD
 ┃
-┃✣➸ 𝖠𝗓𝖺𝗆𝗂|𝖦𝗂𝗍𝖧𝗎𝖻: https://github.com/AZamijs/Curiositybot-MD
+┃✣➸ 𝖠𝗓𝖺𝗆𝗂|𝖦𝗂𝗍𝗁𝗎𝖻: https://github.com/AZamijs/Curiositybot-MD
 ┃
-┃✣➸ 𝖤𝗇𝖽𝖾𝗋|𝖦𝗂𝗍𝖧𝗎𝖻: https://github.com/Ender-GB-Isis777/LOBO-BOT-MD
+┃✣➸ 𝖤𝗇𝖽𝖾𝗋|𝖦𝗂𝗍𝗁𝗎𝖻: https://github.com/Ender-GB-Isis777/LOBO-BOT-MD
 ┃
-┃✣➸ 𝖬𝖺𝗋𝗂𝗈|𝖧𝗂𝗍𝖧𝗎𝖻: https://github.com/elrebelde21/NovaBot-MD
+┃✣➸ 𝖬𝖺𝗋𝗂𝗈|𝖦𝗂𝗍𝗁𝗎𝖻: https://github.com/elrebelde21/NovaBot-MD
 ┃
-┃✣➸ 𝖤𝗇𝗓𝗈|𝖦𝗂𝗍𝖧𝗎𝖻: https://github.com/Enzito-Vase/MadokadaLite-Bot-MD
+┃✣➸ 𝖤𝗇𝗓𝗈|𝖦𝗂𝗍𝗁𝗎𝖻: https://github.com/Enzito-Vase/MadokadaLite-Bot-MD
 ╰◆━━━━━━◆❃◆━━━━━━◆
 
 ╭✨️⸽⃕𝗡𝘂𝗺𝗲𝗿𝗼𝘀 𝗢𝘄𝗻𝗲𝗿🍁⃨፝⃕✰ 
