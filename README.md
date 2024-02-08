@@ -97,14 +97,14 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 - ### 𝑬𝒅𝒊𝒕𝒐𝒓 𝒀 𝑷𝒓𝒐𝒑𝒊𝒆𝒕𝒂𝒓𝒊𝒐 𝑫𝒆𝒍 𝑩𝒐𝒕 🕊️🍓 
 <a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="250" height="250" alt="Zumy - Diego"/></a>
 
-- ###𝑼𝒏 𝑨𝒈𝒓𝒂𝒅𝒆𝒄𝒊𝒎𝒊𝒆𝒏𝒕𝒐 𝑷𝒂𝒓𝒂 🍓
+- ### 𝑼𝒏 𝑨𝒈𝒓𝒂𝒅𝒆𝒄𝒊𝒎𝒊𝒆𝒏𝒕𝒐 𝑬𝒔𝒑𝒆𝒄𝒊𝒂𝒍 𝑷𝒂𝒓𝒂 🍓
 <!--[![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs)
 [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21)
 [![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs)-->
 <a href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png?size=100" width="100" height="100"></a> | [![NURUTOMO](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) 
 ---|---
-[Bochilgaming](https://github.com/elrebelde21)  | [AzamiJa](https://github.com/AzamiJs)
-games-wabot | wabot-q |
+[elrebelde21](https://github.com/elrebelde21)  | [AzamiJs](https://github.com/AzamiJs)
+Mario | Alexis |
 
 
 - ### 𝑪𝒐𝒍𝒂𝒃𝒐𝒓𝒂𝒅𝒐𝒓𝒆𝒔 𝑫𝒆𝒍 𝑩𝒐𝒕 🕊️
