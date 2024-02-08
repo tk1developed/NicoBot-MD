@@ -21,29 +21,31 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `┏━━━━━━━━━━━━━━━━━━
-┣┅⟣✦ 𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🍓
-┣┅⟣✦ 🍓𝖢𝗈𝗅𝖺𝖻𝗈𝗋𝖺𝖽𝗈𝗋𝖾𝗌
-┗━━━━━━━━━━━━━━━━━━┛
-━━━━━━━━━━━━━━━━━━━━
-┣┅⟣✦ 🌿𝖱𝖾𝗉𝗈𝗌𝗂𝗍𝗈𝗋𝗂𝗈𝗌 - 𝖦𝗂𝗍𝖧𝗎𝖻
+    const str = `╭✨️⸽⃕𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🍁⃨፝⃕✰
+┃➸ 𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🍓
+┃➸ 🍓𝖢𝗈𝗅𝖺𝖻𝗈𝗋𝖺𝖽𝗈𝗋𝖾𝗌
+╰◆━━━━━━◆❃◆━━━━━━◆
 
-┣𝗗𝗶𝗲𝗴𝗼|𝗚𝗶𝘁𝗵𝘂𝗯:https://github.com/diegojadibot/SakuraBotLite-MD
+╭✨️⸽⃕𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼𝘀 𝗚𝗶𝘁𝗛𝘂𝗯🍁⃨፝⃕✰
+┃
+┃✣➸ 𝖣𝗂𝖾𝗀𝗈|𝖧𝗂𝗍𝖧𝗎𝖻: https://github.com/diegojadibot/SakuraBotLite-MD
+┃
+┃✣➸ 𝖠𝗓𝖺𝗆𝗂|𝖦𝗂𝗍𝖧𝗎𝖻: https://github.com/AZamijs/Curiositybot-MD
+┃
+┃✣➸ 𝖤𝗇𝖽𝖾𝗋|𝖦𝗂𝗍𝖧𝗎𝖻: https://github.com/Ender-GB-Isis777/LOBO-BOT-MD
+┃
+┃✣➸ 𝖬𝖺𝗋𝗂𝗈|𝖧𝗂𝗍𝖧𝗎𝖻: https://github.com/elrebelde21/NovaBot-MD
+┃
+┃✣➸ 𝖤𝗇𝗓𝗈|𝖦𝗂𝗍𝖧𝗎𝖻: https://github.com/Enzito-Vase
+╰◆━━━━━━◆❃◆━━━━━━◆
 
-┣𝗔𝘇𝗮𝗺𝗶|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/AZamijs/Curiositybot-MD
+╭✨️⸽⃕𝗡𝘂𝗺𝗲𝗿𝗼𝘀 𝗢𝘄𝗻𝗲𝗿🍁⃨፝⃕✰ 
+┋𝖣𝗂𝖾𝗀𝗈: +57 301 3114854
+┋𝖠𝗑𝖺𝗆𝗂: +52 729 488 8993
+┋𝖤𝗇𝖽𝖾𝗋: +505 5812 4470
+┋𝖤𝗇𝗓𝗈: +54 9 11 6875-8497
+╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
-┣𝗘𝗻𝗱𝗲𝗿|𝗚𝗶𝘁𝗵𝘂𝗯:https://github.com/Ender-GB-Isis777/LOBO-BOT-MD
-
-┣𝗠𝗮𝗿𝗶𝗼|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/elrebelde21/NovaBot-MD
-
-┣𝗘𝗻𝘇𝗼|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/Enzito-Vase
-
-┣┅⟣✦𝗡𝘂𝗺𝗲𝗿𝗼𝘀 
-┣𝗗𝗶𝗲𝗴𝗼:+57 301 3114854
-┣𝗔𝘇𝗮𝗺𝗶:+52 729 488 8993
-┣𝗘𝗻𝗱𝗲𝗿:+505 5812 4470
-┣𝗘𝗻𝘇𝗼:+54 9 11 6875-8497
-┗━━━━━━━━━━━━━━━━━━┛
  `.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
