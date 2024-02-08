@@ -36,7 +36,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃
 ┃✣➸ 𝖬𝖺𝗋𝗂𝗈|𝖧𝗂𝗍𝖧𝗎𝖻: https://github.com/elrebelde21/NovaBot-MD
 ┃
-┃✣➸ 𝖤𝗇𝗓𝗈|𝖦𝗂𝗍𝖧𝗎𝖻: https://github.com/Enzito-Vase/MadokadaLiteBot-MD
+┃✣➸ 𝖤𝗇𝗓𝗈|𝖦𝗂𝗍𝖧𝗎𝖻: https://github.com/Enzito-Vase/MadokadaLite-Bot-MD
 ╰◆━━━━━━◆❃◆━━━━━━◆
 
 ╭✨️⸽⃕𝗡𝘂𝗺𝗲𝗿𝗼𝘀 𝗢𝘄𝗻𝗲𝗿🍁⃨፝⃕✰ 
