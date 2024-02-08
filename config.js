@@ -24,7 +24,7 @@ global.owner = [
 ['5215610314499'], 
 ['51944167935']]
 
-global.suittag = ['573107133321'];
+global.suittag = ['573013482814'];
 global.prems = ['573218138672'];
 
 global.lenguajeSK = es //idioma de sakurabot
