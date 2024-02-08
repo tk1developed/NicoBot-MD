@@ -73,7 +73,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-- ### `✵ 🌥𝑷𝒆𝒅𝒊𝒓 𝑶𝒕𝒓𝒐 𝑸𝒓 𝑷𝒐𝒓 𝑻𝒆𝒓𝒎𝒖𝒙👨‍💻` 
+- ### `✵ 🌥𝑶𝒃𝒕𝒆𝒏𝒆𝒓 𝑶𝒕𝒓𝒐 𝑪𝒐𝒅𝒊𝒈𝒐 𝑸𝑹👨‍💻` 
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
