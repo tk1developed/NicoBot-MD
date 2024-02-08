@@ -88,7 +88,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 * <a href="https://wa.me/573107133321"><img alt="𝘾𝙧𝙚𝙖𝙙𝙤𝙧 🍓" src="https://img.shields.io/badge/Diego - Creador🍓-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
-## <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="𝖡𝗈𝗍 𝖮𝖿𝗂𝖼𝗂𝖺𝗅 🍓" width="42" height="42"> 𝖡𝗈𝗍 𝖮𝖿𝗂𝖼𝗂𝖺𝗅 🍓
+## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> 𝐁𝐨𝐭 𝐎𝐟𝐢𝐜𝐢𝐚𝐥 🦋
 
 - 🦎 𝘕𝘰 𝘈𝘨𝘢𝘴 𝘚𝘱𝘢𝘮 𝘈𝘭 𝘉𝘰𝘵,𝘚𝘪 𝘕𝘰 𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦 𝘌𝘴 𝘗𝘰𝘳𝘲𝘶𝘦 𝘗𝘶𝘦𝘥𝘦 𝘌𝘴𝘵𝘢𝘳 𝘚𝘢𝘵𝘶𝘳𝘢𝘥𝘰 𝘖 𝘌𝘴𝘵𝘢 𝘌𝘯 𝘚𝘰𝘱𝘰𝘳𝘵𝘦 🍓
 
@@ -97,19 +97,8 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ---------
 
-## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Grupo de WhatsApp
-
-
-- 🦋 Sigueme En El Canal De WhatsApp
-
 - ### 𝑬𝒅𝒊𝒕𝒐𝒓 𝒀 𝑷𝒓𝒐𝒑𝒊𝒆𝒕𝒂𝒓𝒊𝒐 𝑫𝒆𝒍 𝑩𝒐𝒕 🕊️🍓
 <a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="250" height="250" alt="Diego"/></a>
 
 #### COLABORADORES 
 [![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) [![Wilsmac](https://github.com/Wilsmac.png?size=100)](https://github.com/Wilsmac) [![diegojadibot](https://github.com/diegojadibot.png?size=100)](https://github.com/diegojadibot) [![Enzito-Vase](https://github.com/Enzito-Vase.png?size=100)](https://github.com/Enzito-Vase) [![Ender-GB-Isis777](https://github.com/Ender-GB-Isis777.png?size=100)](https://github.com/Ender-GB-Isis777)
-
-- AzamiJs/CuriosityBot-MD
-- elrebelde21/NovaBot-MD
-- Wilsmac/FantasyBot-MD
-- Enzito-Vase/MadokaLiteBot-MD
-- Ender-GB-Isis777/Lobo-Bot-Lite
