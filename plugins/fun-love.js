@@ -1,4 +1,4 @@
-*const handler = async (m, { conn, command, text }) => {
+/*const handler = async (m, { conn, command, text }) => {
   const lovePercentage = Math.floor(Math.random() * 100);
   const isHighLove = lovePercentage >= 50;
   const loveMessages = [
@@ -54,4 +54,4 @@ loading()
 handler.help = ['love'];
 handler.tags = ['fun'];
 handler.command = /^(love|amor)$/i;
-export default handler;
+export default handler;*\
