@@ -11,7 +11,7 @@ await m.reply(`🌟 *Hola ${username}, Bienvenido A 𝙎𝙖𝙠𝙪𝙧𝙖𝘽
 📲 _Si Deseas Escribe .menu Para Ver Mis Comandos_ 🌤
 
 📌 *Cualquier Duda O Sugerencia Puedes Contactar A Mi Creador:* 🎉
-📩 +57 310 7133321 📭
+📩 +57 301 3482814 📭
 
 🙏❣️ Si desea apoyar el proyecto Sakura Bot  Lite Puedes Recomendar Mi Bot 🌻🪁`) 
 user.pc = new Date * 1
