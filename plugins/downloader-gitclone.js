@@ -17,4 +17,6 @@ ${usedPrefix + command} https://github.com/diegojadibot/SakuraBotLite-MD`;
 handler.help = ['gitclone <url>'];
 handler.tags = ['downloader'];
 handler.command = /gitclone/i;
+handler.register = true
+handler.premium = true
 export default handler;
