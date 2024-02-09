@@ -10,7 +10,7 @@ import { es } from "./lib/idiomas/total-idiomas.js"
 
 
 global.botnumber = ""
-
+global.confirmCode = ""
 
 global.owner = [ 
 ['573013482814', '🍓 𝑪𝑹𝑬𝑨𝑫𝑶𝑹 🕊️', true],
