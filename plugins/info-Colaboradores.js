@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
   try {
-    const pp = imagen7;
+    const pp = imagen1;
     // let vn = './media/menu.mp3'
     const img = './Menu2.jpg';
     const d = new Date(new Date + 3600000);
@@ -32,7 +32,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃ https://github.com/diegojadibot
 ┃
 ┃✣➸ 𝖠𝗓𝖺𝗆𝗂:
-┃ https://github.com/AZamijs
+┃ https://github.com/AzamiJs
 ┃
 ┃✣➸ 𝖤𝗇𝖽𝖾𝗋:
 ┃ https://github.com/Ender-GB-Isis777
