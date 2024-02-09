@@ -64,7 +64,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     conn.reply(m.chat, '[❕] 𝗔𝗹𝗴𝗼 𝘀𝗮𝗹𝗶𝗼 𝗺𝗮𝗹, 𝗽𝗼𝗿 𝗳𝗮𝘃𝗼𝗿 𝗿𝗲𝗽𝗼𝗿𝘁𝗲𝗹𝗼 𝗮𝗹 𝗦𝘁𝗮𝗳𝗳', m);
   }
 };
-handler.command = /^(colab|colaboradores)$/i;
+handler.command = /^(colab|creditos|colaboradores)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
