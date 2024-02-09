@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
   try {
-    const pp = imagen6;
+    const pp = imagen2;
     // let vn = './media/menu.mp3'
     const img = './Menu2.jpg';
     const d = new Date(new Date + 3600000);
@@ -21,27 +21,32 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `╭✨️⸽⃕𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🍁⃨፝⃕✰
+    const str = `*╭✨️⸽⃕𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🍁⃨፝⃕✰*
 ┃➸ 𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🍓
 ┃➸ 🍓𝖢𝗈𝗅𝖺𝖻𝗈𝗋𝖺𝖽𝗈𝗋𝖾𝗌
 ╰◆━━━━━━◆❃◆━━━━━━◆
 
 ╭✨️⸽⃕𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼𝘀 𝗚𝗶𝘁𝗵𝘂𝗯🍁⃨፝⃕✰
 ┃
-┃✣➸ 𝖣𝗂𝖾𝗀𝗈|𝖧𝗂𝗍𝗁𝗎𝖻: https://github.com/diegojadibot/SakuraBotLite-MD
+┃✣➸ 𝖣𝗂𝖾𝗀𝗈:
+┃✣➸ https://github.com/diegojadibot
 ┃
-┃✣➸ 𝖠𝗓𝖺𝗆𝗂|𝖦𝗂𝗍𝗁𝗎𝖻: https://github.com/AZamijs/Curiositybot-MD
+┃✣➸ 𝖠𝗓𝖺𝗆𝗂:
+┃✣➸ https://github.com/AZamijs
 ┃
-┃✣➸ 𝖤𝗇𝖽𝖾𝗋|𝖦𝗂𝗍𝗁𝗎𝖻: https://github.com/Ender-GB-Isis777/LOBO-BOT-MD
+┃✣➸ 𝖤𝗇𝖽𝖾𝗋:
+┃✣➸https://github.com/Ender-GB-Isis777
 ┃
-┃✣➸ 𝖬𝖺𝗋𝗂𝗈|𝖦𝗂𝗍𝗁𝗎𝖻: https://github.com/elrebelde21/NovaBot-MD
+┃✣➸ 𝖬𝖺𝗋𝗂𝗈:
+┃✣➸ https://github.com/elrebelde21
 ┃
-┃✣➸ 𝖤𝗇𝗓𝗈|𝖦𝗂𝗍𝗁𝗎𝖻: https://github.com/Enzito-Vase/MadokadaLite-Bot-MD
+┃✣➸ 𝖤𝗇𝗓𝗈:
+┃✣➸ https://github.com/Enzito-Vase
 ╰◆━━━━━━◆❃◆━━━━━━◆
 
 ╭✨️⸽⃕𝗡𝘂𝗺𝗲𝗿𝗼𝘀 𝗢𝘄𝗻𝗲𝗿🍁⃨፝⃕✰ 
 ┋𝖣𝗂𝖾𝗀𝗈: @573013482814
-┋𝖠𝗑𝖺𝗆𝗂: @521729 488 8993
+┋𝖠𝗑𝖺𝗆𝗂: @5217294888993
 ┋𝖤𝗇𝖽𝖾𝗋: @50558124470
 ┋𝖤𝗇𝗓𝗈: @5491168758497
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
