@@ -278,7 +278,7 @@ console.log(chalk.bold.red(`[ 🍓 ] Algo salio mal durante la eliminación, arc
 }}
 
 function purgeOldFiles() {
-const directories = ['./MysticSession/', './jadibts/']
+const directories = ['./SakuraBotSession/', './jadibts/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000)
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
