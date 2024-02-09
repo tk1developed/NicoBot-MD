@@ -26,22 +26,22 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃➸ 🍓𝖢𝗈𝗅𝖺𝖻𝗈𝗋𝖺𝖽𝗈𝗋𝖾𝗌
 ╰◆━━━━━━◆❃◆━━━━━━◆
 
-╭✨️⸽⃕𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼𝘀 𝗚𝗶𝘁𝗵𝘂𝗯🍁⃨፝⃕✰
+*╭✨️⸽⃕𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼𝘀 𝗚𝗶𝘁𝗵𝘂𝗯🍁⃨፝⃕✰*
 ┃
 ┃✣➸ 𝖣𝗂𝖾𝗀𝗈:
-┃✣➸ https://github.com/diegojadibot
+┃ https://github.com/diegojadibot
 ┃
 ┃✣➸ 𝖠𝗓𝖺𝗆𝗂:
-┃✣➸ https://github.com/AZamijs
+┃ https://github.com/AZamijs
 ┃
 ┃✣➸ 𝖤𝗇𝖽𝖾𝗋:
-┃✣➸https://github.com/Ender-GB-Isis777
+┃ https://github.com/Ender-GB-Isis777
 ┃
 ┃✣➸ 𝖬𝖺𝗋𝗂𝗈:
-┃✣➸ https://github.com/elrebelde21
+┃ https://github.com/elrebelde21
 ┃
 ┃✣➸ 𝖤𝗇𝗓𝗈:
-┃✣➸ https://github.com/Enzito-Vase
+┃ https://github.com/Enzito-Vase
 ╰◆━━━━━━◆❃◆━━━━━━◆
 
 ╭✨️⸽⃕𝗡𝘂𝗺𝗲𝗿𝗼𝘀 𝗢𝘄𝗻𝗲𝗿🍁⃨፝⃕✰ 
