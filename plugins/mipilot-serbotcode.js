@@ -12,4 +12,5 @@ async function handler(m, {usedPrefix}) {
   handler.command = handler.help = ['token', 'gettoken', 'serbottoken'];
   handler.tags = ['jadibot'];
   handler.register = true
+  handler.private = true;
   export default handler;
