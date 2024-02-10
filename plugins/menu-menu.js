@@ -425,6 +425,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃✣➸ 💧 > *<funcion>*
 ┃✣➸ 💧 => *<funcion>*
 ┃✣➸ 💧 $ *<funcion>*
+┃✣➸ 💧 _#cajafuerte_
 ┃✣➸ 💧 _#reunion_ *<texto>*
 ┃✣➸ 💧 _#setprefix *<prefijo>*_
 ┃✣➸ 💧 _#resetprefix_
