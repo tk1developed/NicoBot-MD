@@ -11,13 +11,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const {exp, limit, level, role} = global.db.data.users[m.sender];
   const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
   const fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': imagen1, thumbnail: imagen1 ,sendEphemeral: true}}};
-    /*await conn.reply(m.chat, '🔊 𝑬𝒏𝒗𝒊𝒂𝒏𝒅𝒐 𝑬𝒍 𝑴𝒆𝒏𝒖 𝑫𝒆 𝑨𝒖𝒅𝒊𝒐𝒔...',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '🦋 𝑀𝑒𝑛𝑢 𝐷𝑒 𝐴𝑢𝑑𝑖𝑜𝑠', body: '👋🏻 𝚂𝙰𝙻𝚄𝙳𝙾 𝙰𝙼𝙸𝙶𝙾', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
-m.react('🚩');*/
+    await conn.reply(m.chat, '🔊 𝑬𝒏𝒗𝒊𝒂𝒏𝒅𝒐 𝑬𝒍 𝑴𝒆𝒏𝒖 𝑫𝒆 𝑨𝒖𝒅𝒊𝒐𝒔...',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '🦋 𝑀𝑒𝑛𝑢 𝐷𝑒 𝐴𝑢𝑑𝑖𝑜𝑠', body: '👋🏻 𝚂𝙰𝙻𝚄𝙳𝙾 𝙰𝙼𝙸𝙶𝙾', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
+m.react('🚩');
     await conn.sendMessage(m.chat, { react: { text: '🙌🏻', key: m.key } })
   let txt =`╭∴━━━ *AUDIOS-BOT* ━━━∴╮
-┃🍓 𝖧𝗈𝗅𝖺 👋🏻
-┃🍓 𝐀𝐪𝐮𝐢 𝐓𝐞 𝐏𝐫𝐞𝐬𝐞𝐧𝐭𝐨 𝐄𝐥 𝐌𝐞𝐧𝐮 𝐃𝐞 𝐀𝐮𝐝𝐢𝐨𝐬.
-┃🍓 𝐍𝐨 𝐀𝐠𝐚𝐬 𝐒𝐩𝐚𝐦 𝐂𝐨𝐧 𝐋𝐨𝐬 𝐀𝐮𝐝𝐢𝐨𝐬.
+┃🕊️ 𝖧𝗈𝗅𝖺👋🏻, 𝖲𝗈𝗒 𝖲𝖺𝗄𝗎𝗋𝖺𝖫𝗂𝗍𝖾
+┃🕊️ 𝐄𝐥 𝐌𝐞𝐧𝐮 𝐃𝐞 𝐀𝐮𝐝𝐢𝐨𝐬.
+┃🕊️ 𝐍𝐨 𝐀𝐠𝐚𝐬 𝐒𝐩𝐚𝐦 𝐂𝐨𝐧 𝐋𝐨𝐬 𝐀𝐮𝐝𝐢𝐨𝐬.
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
 ╭✨️⸽⃕𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🍁⃨፝⃕✰
@@ -60,7 +60,7 @@ m.react('🚩');*/
 ┃✣➸ 🦋 _:c_
 ┃✣➸ 🦋 _a_
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈`;
-   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '🦋⸽⃕   𝐌𝐄𝐍𝐔 - 𝐀𝐔𝐃𝐈𝐎𝐒 - 𝐒𝐀𝐊𝐔𝐑𝐀 🚀⸽⃕✰', "containsAutoReply": true, "mediaType": 1, "thumbnail": [imagen6,imagen1,imagen4].getRandom(), "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
+   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '🦋⸽⃕   𝐌𝐄𝐍𝐔 - 𝐀𝐔𝐃𝐈𝐎𝐒 🚀⸽⃕✰', "containsAutoReply": true, "mediaType": 1, "thumbnail": [imagen6,imagen1,imagen4].getRandom(), "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
  // m.react('🍓');
   } catch {
     conn.reply(m.chat, '🦋 𝑬𝒍 𝑴𝒆𝒏𝒖 𝑫𝒆 𝑨𝒖𝒅𝒊𝒐𝒔 𝑵𝒐 𝑺𝒆 𝑷𝒖𝒅𝒐 𝑬𝒏𝒗𝒊𝒂𝒓 𝑷𝒐𝒓 𝑼𝒏 𝑬𝒓𝒓𝒐𝒓 𝑷𝒐𝒓 𝑭𝒂𝒗𝒐𝒓 𝑪𝒐𝒏𝒕𝒂𝒄𝒕𝒂 𝑨 𝑴𝒊 𝑪𝒓𝒆𝒂𝒅𝒐𝒓 𝑷𝒂𝒓𝒂 𝑸𝒖𝒆 𝑨𝒓𝒓𝒆𝒈𝒍𝒆 𝑬𝒍 𝑪𝒐𝒎𝒂𝒏𝒅𝒐. 🕊️', m);
