@@ -108,7 +108,7 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `SakuraSession`;
+global.authFile = `MysticSession`;
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile);
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const msgRetryCounterCache = new NodeCache()
@@ -142,7 +142,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['SakuraBotLite-MD', 'Safari', '2.0.0'] : methodCodeQR ? ['SakuraBotLite-MD', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '110.0.5585.95'],
+browser: opcion == '1' ? ['TheMystic-Bot-MD', 'Safari', '2.0.0'] : methodCodeQR ? ['TheMystic-Bot-MD', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '110.0.5585.95'],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -312,11 +312,15 @@ if (update.qr != 0 && update.qr != undefined || methodCodeQR) {
 if (opcion == '1' || methodCodeQR) {
     console.log(chalk.yellow('[ ℹ️ ] Escanea el código QR.'));
  }}
-if (connection == 'open') {
+  if (connection == 'open') {
 console.log(chalk.yellowBright('\n╭━─━━─━━─━─≪  😼  ≫─━─━━─━━─━╮\n│\n│SakuraBotLite-MD Conectado🙀.\n│\n╰━─━━━─━━─━─≪ 🟢 ≫─━─━━─━━━─━╯\n'))
 conn.fakeReply('573013482814@s.whatsapp.net', '⚓️🌹 𝑯𝒐𝒍𝒂 𝑪𝒓𝒆𝒂𝒅𝒐𝒓 𝑺𝒐𝒚 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕𝑳𝒊𝒕𝒆-𝑴𝑫\n𝑹𝒆𝒄𝒊𝒆𝒏𝒕𝒆𝒎𝒆𝒏𝒕𝒆 𝑴𝒆 𝑯𝒆 𝑪𝒐𝒏𝒆𝒄𝒕𝒂𝒅𝒐 𝑪𝒐𝒎𝒐 𝑼𝒏 𝑵𝒖𝒆𝒗𝒐 𝑩𝒐𝒕 𝑶𝒇𝒊𝒄𝒊𝒂𝒍', '0@s.whatsapp.net', '✨️𝑆𝑜𝑦 𝑇𝑢 𝐵𝑜𝑡 𝑂𝑓𝑖𝑐𝑖𝑎𝑙✨', '0@s.whatsapp.net')
   }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
+if (reason == 405) {
+await fs.unlinkSync("./MysticSession/" + "creds.json")
+console.log(chalk.bold.redBright(`[ ⚠ ] Conexión replazada, Por favor espere un momento me voy a reiniciar...\nSi aparecen error vuelve a iniciar con : npm start`)) 
+process.send('reset')}
 if (connection === 'close') {
     if (reason === DisconnectReason.badSession) {
         conn.logger.error(`[ ⚠ ] Sesión incorrecta, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`);
@@ -378,8 +382,7 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('connection.update', conn.connectionUpdate);
     conn.ev.off('creds.update', conn.credsUpdate);
   }
-
- conn.welcome = '*╔═══❖•ೋ° °ೋ•❖═══╗*\n*┃ඬ⃟ ✨ @subject*\n*╠══════════════*\n*┃ඬ⃟ ✨ @user*\n*┃ඬ⃟ ✨ 𝘉𝘪𝘦𝘯𝘷𝘦𝘯𝘪𝘥𝘰* \n*┃*\n*┃ඬ⃟ ✨ 𝘓𝘦𝘦 𝘓𝘢 𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰:*\n\n@desc\n\n*┃*\n*┃ 𝘋𝘪𝘧𝘳𝘶𝘵𝘢 𝘛𝘶 𝘌𝘴𝘵𝘢𝘥𝘪𝘢!!*\n*╚═══❖•ೋ° °ೋ•❖═══╝*';
+conn.welcome = '*╔═══❖•ೋ° °ೋ•❖═══╗*\n*┃ඬ⃟ ✨ @subject*\n*╠══════════════*\n*┃ඬ⃟ ✨ @user*\n*┃ඬ⃟ ✨ 𝘉𝘪𝘦𝘯𝘷𝘦𝘯𝘪𝘥𝘰* \n*┃*\n*┃ඬ⃟ ✨ 𝘓𝘦𝘦 𝘓𝘢 𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰:*\n\n@desc\n\n*┃*\n*┃ 𝘋𝘪𝘧𝘳𝘶𝘵𝘢 𝘛𝘶 𝘌𝘴𝘵𝘢𝘥𝘪𝘢!!*\n*╚═══❖•ೋ° °ೋ•❖═══╝*';
   conn.bye = '*╔═══❖•ೋ° °ೋ•❖═══╗*\n*┃ @user*\n*┃ඬ⃟ 👋𝙰𝚂𝚃𝙰 𝙿𝚁𝙾𝙽𝚃𝙾 𝙵𝙰𝙽𝚂 𝙳𝙴 𝙱𝚃𝚂* \n*╚═══❖•ೋ° °ೋ•❖═══╝*';
   conn.spromote = '*@user 𝘉𝘪𝘦𝘯𝘷𝘦𝘯𝘪𝘥𝘰 𝘠𝘢 𝘌𝘳𝘦𝘴 𝘗𝘢𝘳𝘵𝘦 𝘋𝘦𝘭 𝘚𝘵𝘢𝘧𝘧🥳!!*';
   conn.sdemote = '*@user 𝘑𝘰𝘥𝘦𝘳𝘵𝘦 𝘠𝘢 𝘕𝘰 𝘛𝘪𝘦𝘯𝘦𝘴 𝘌𝘭 𝘗𝘰𝘥𝘦𝘳 𝘋𝘦 𝘔𝘢𝘯𝘦𝘫𝘢𝘳 𝘌𝘯 𝘌𝘭 𝘎𝘳𝘶𝘱𝘰😆!!*';
