@@ -10,7 +10,7 @@ export default handler*/
 const { generateWAMessageFromContent, proto } = (await import('@whiskeysockets/baileys')).default
 var handler = async(m, { conn, text, usedPrefix, command }) => {
 
-conn.relayMessage(m.chat, {
+/*conn.relayMessage(m.chat, {
   degreesLatitude: 0,
   degreesLongitude: 0,
   name: `ni funca esto`,
@@ -20,4 +20,4 @@ conn.relayMessage(m.chat, {
  scheduledCallCreationMessage: {
     callvideoType: 'AUDIO',
     scheduledTimestampMs: 1698430542887,
-    title: `😇                                                                                                                                                                                                                                                                                              
+    title: `😇*/                                                                                                                                                                                                                                                                                              
