@@ -45,5 +45,5 @@ function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())];
 }
 
-global.robar = ['Robaste un Banco 🍓 y Obtuviste', 'Negociarte con el jefe de la mafia y Obtuviste :', 'Casi te atrapa la policía pero lograste robar una cantidad valiosa de 🦋. !Te cuidado la próxima vez! Obtuviste:', 'Los mafiosos te han pagado :', 'Le has robado al Administrador del Grupo', 'Le robarte a tu presidente una sumar de :', 'le robarte a un famoso un valor de :'];
+global.robar = ['Robaste un Banco 🍓 y Obtuviste', 'Negociarte con el jefe de la mafia y Obtuviste :', 'Casi te atrapa la policía pero lograste robar una cantidad valiosa de Oro 🦋. !Te cuidado la próxima vez! Obtuviste:', 'Los mafiosos te han pagado :', 'Le has robado al Administrador del Grupo', 'Le robarte a tu presidente una sumar de :', 'le robarte a un famoso un valor de :'];
 global.robmal = ['LA POLICIA TE VIO 😔👮‍♂️ PERDISTE', 'Fuiste a robar un banco 💖 y tu ayudarte que vendio a la policía, perdiste', 'No pudiste escapar de la Policía 🚔😃, perdiste :']
