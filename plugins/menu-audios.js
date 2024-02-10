@@ -84,9 +84,15 @@ const document = doc[Math.floor(Math.random() * doc.length)];
   }
 };
 handler.command = /^(menu2|menuaudios|audios)$/i;
+
 handler.exp = 50;
+
 handler.fail = null;
+
+handler.register = true
+
 export default handler;
+
 function clockString(ms) {
   const h = isNaN(ms) ? '--' : Math.floor(ms / 3600000);
   const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
