@@ -1,4 +1,4 @@
-console.log('✅ㅤIniciando...');
+console.log('🚀ㅤIniciando...');
 import {join, dirname} from 'path';
 import {createRequire} from 'module';
 import {fileURLToPath} from 'url';
@@ -13,7 +13,7 @@ const {name, author} = require(join(__dirname, './package.json'));
 const {say} = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
-say('SakuraBot\nLite WhatsApp', {
+say('SakuraBot\nLite-MD', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
