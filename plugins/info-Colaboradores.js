@@ -30,9 +30,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃✣➸ 𝖣𝗂𝖾𝗀𝗈:
 ┃ https://github.com/diegojadibot
 ┃
-┃✣➸ 𝖠𝗓𝖺𝗆𝗂:
-┃ https://github.com/AzamiJs
-┃
 ┃✣➸ 𝖤𝗇𝖽𝖾𝗋:
 ┃ https://github.com/Ender-GB-Isis777
 ┃
@@ -45,7 +42,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 ╭✨️⸽⃕𝗡𝘂𝗺𝗲𝗿𝗼𝘀 𝗢𝘄𝗻𝗲𝗿🍁⃨፝⃕✰ 
 ┋𝖣𝗂𝖾𝗀𝗈: @573013482814
-┋𝖠𝗓𝖺𝗆𝗂: @5217294888993
+┋𝖬𝖺𝗋𝗂𝗈: @5217294888993
 ┋𝖤𝗇𝖽𝖾𝗋: @50558124470
 ┋𝖤𝗇𝗓𝗈: @5491168758497
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
