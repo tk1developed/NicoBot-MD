@@ -15,7 +15,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 m.react('🚩');*/
     await conn.sendMessage(m.chat, { react: { text: '🙌🏻', key: m.key } })
   let txt =`╭∴━━━ *AUDIOS-BOT* ━━━∴╮
-┃🍓 𝖧𝗈𝗅𝖺 ${taguser}
+┃🍓 𝖧𝗈𝗅𝖺 👋🏻
 ┃🍓 𝐀𝐪𝐮𝐢 𝐓𝐞 𝐏𝐫𝐞𝐬𝐞𝐧𝐭𝐨 𝐄𝐥 𝐌𝐞𝐧𝐮 𝐃𝐞 𝐀𝐮𝐝𝐢𝐨𝐬.
 ┃🍓 𝐍𝐨 𝐀𝐠𝐚𝐬 𝐒𝐩𝐚𝐦 𝐂𝐨𝐧 𝐋𝐨𝐬 𝐀𝐮𝐝𝐢𝐨𝐬.
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
