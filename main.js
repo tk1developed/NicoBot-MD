@@ -81,7 +81,7 @@ global.loadDatabase = async function loadDatabase() {
 };
 loadDatabase();
 
-/* Creditos a Otosaka (https://wa.me/51993966345) */
+/* Creditos a oficial (https://wa.me/573013114854) */
 
 global.chatgpt = new Low(new JSONFile(path.join(__dirname, '/db/chatgpt.json')));
 global.loadChatgptDB = async function loadChatgptDB() {
@@ -108,101 +108,75 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `SakuraSession`;
+global.authFile = `SakuraBotSession`;
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile);
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const msgRetryCounterCache = new NodeCache()
 const {version} = await fetchLatestBaileysVersion();
 let phoneNumber = global.botnumber
 
-const methodCodeQR = process.argv.includes("qr")
-const methodCode = !!phoneNumber || process.argv.includes("code")
-const MethodMobile = process.argv.includes("mobile")
+const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
+const useMobile = process.argv.includes("--mobile")
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout })
 const question = (texto) => new Promise((resolver) => rl.question(texto, resolver))
 
-//Código adaptado para la compatibilidad de ser bot con el código de 8 digitos. Hecho por: https://github.com/GataNina-Li
-let opcion
-if (methodCodeQR) {
-opcion = '1'
-}
-if (!methodCodeQR && !methodCode && !fs.existsSync(`./${authFile}/creds.json`)) {
-do {
-let lineM = '⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》'
-opcion = await question('[ 🦋 ] Seleccione una opción:\n1. Con código QR\n2. Con código de texto de 8 dígitos\n---> ')
-//if (fs.existsSync(`./${authFile}/creds.json`)) {
-//console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
-//process.exit()
-if (!/^[1-2]$/.test(opcion)) {
-console.log('[ ❗ ] Por favor, seleccione solo 1 o 2.\n')
-}} while (opcion !== '1' && opcion !== '2' || fs.existsSync(`./${authFile}/creds.json`))
-}
-
 const connectionOptions = {
-logger: pino({ level: 'silent' }),
-printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
-mobile: MethodMobile, 
-browser: opcion == '1' ? ['SakuraBotLite-MD', 'Safari', '2.0.0'] : methodCodeQR ? ['SakuraBotLite-MD', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '110.0.5585.95'],
-auth: {
-creds: state.creds,
-keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
-},
-markOnlineOnConnect: true, 
-generateHighQualityLinkPreview: true, 
-getMessage: async (clave) => {
-let jid = jidNormalizedUser(clave.remoteJid)
-let msg = await store.loadMessage(jid, clave.id)
-return msg?.message || ""
-},
-msgRetryCounterCache,
-msgRetryCounterMap,
-defaultQueryTimeoutMs: undefined,   
-version
-}
+        logger: pino({ level: 'silent' }),
+        printQRInTerminal: !pairingCode, 
+        mobile: useMobile, 
+        browser: ['Sakura-Bot-Lite-MD', '', ''],
+        auth: {
+            creds: state.creds,
+            keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
+        },
+        markOnlineOnConnect: true, 
+        generateHighQualityLinkPreview: true, 
+        getMessage: async (clave) => {
+            let jid = jidNormalizedUser(clave.remoteJid)
+            let msg = await store.loadMessage(jid, clave.id)
+            return msg?.message || ""
+        },
+        msgRetryCounterCache,
+        msgRetryCounterMap,
+        defaultQueryTimeoutMs: undefined,   
+        version
+};
 
 global.conn = makeWASocket(connectionOptions);
 
-if (!fs.existsSync(`./${authFile}/creds.json`)) {
-if (opcion === '2' || methodCode) {
-//if (fs.existsSync(`./${authFile}/creds.json`)) {
-//console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
-//process.exit()
-//}
-opcion = '2'
-if (!conn.authState.creds.registered) {  
-if (MethodMobile) throw new Error('No se puede usar un código de emparejamiento con la API móvil')
+    if (pairingCode && !conn.authState.creds.registered) {
+        if (useMobile) throw new Error('No se puede usar un código de emparejamiento con la API móvil')
 
-let numeroTelefono
-if (!!phoneNumber) {
-numeroTelefono = phoneNumber.replace(/[^0-9]/g, '')
-if (!Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
-console.log(chalk.bgBlack(chalk.bold.redBright("Comience con el código de país de su número de WhatsApp.\nEjemplo: +5219992095479\n")))
-process.exit(0)
-}} else {
-while (true) {
-numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright('Por favor, escriba su número de WhatsApp.\nEjemplo: +5219992095479\n')))
-numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
+        let numeroTelefono
+        if (!!phoneNumber) {
+            numeroTelefono = phoneNumber.replace(/[^0-9]/g, '')
 
-if (numeroTelefono.match(/^\d+$/) && Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
-break 
-} else {
-console.log(chalk.bgBlack(chalk.bold.redBright("Por favor, escriba su número de WhatsApp.\nEjemplo: +5219992095479.\n")))
-}}
-rl.close()  
-} 
+            if (!Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
+                console.log(chalk.bgBlack(chalk.redBright("Comience con el código de país de su número de WhatsApp, Ejemplo: +5219992095479")))
+                process.exit(0)
+            }
+        } else {
+            numeroTelefono = await question(chalk.bgBlack(chalk.greenBright(`Por favor, escriba su número de WhatsApp 😍\nPor ejemplo: 573013114854 : `)))
+            numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
+            if (!Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
+                console.log(chalk.bgBlack(chalk.redBright("Comience con el código de país de su número de WhatsApp, Ejemplo: 573013114854")))
+
+                numeroTelefono = await question(chalk.bgBlack(chalk.greenBright(`Por favor, escriba su número de WhatsApp 😍\nPor ejemplo: +5219992095479 : `)))
+                numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
+                rl.close()
+            }
+        }
 
         setTimeout(async () => {
             let codigo = await conn.requestPairingCode(numeroTelefono)
             codigo = codigo?.match(/.{1,4}/g)?.join("-") || codigo
-            console.log(chalk.yellow('[ 🍓 ] introduce el código de emparejamiento en WhatsApp.'));
             console.log(chalk.black(chalk.bgGreen(`Su código de emparejamiento: `)), chalk.black(chalk.white(codigo)))
         }, 3000)
-}}
-}
+    }
 
 conn.isInit = false;
 conn.well = false;
-conn.logger.info(`[ 🦋 ] Cargando...\n`);
+conn.logger.info(`Ƈᴀʀɢᴀɴᴅᴏ．．．\n`);
 
 if (!opts['test']) {
   if (global.db) {
@@ -247,13 +221,13 @@ function clearTmp() {
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./MysticSession")
+let directorio = readdirSync("./SakuraBotSession")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-') /*|| file.startsWith('session-') || file.startsWith('sender-') || file.startsWith('app-') */
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./MysticSession/${files}`)
+unlinkSync(`./SakuraBotSession/${files}`)
 })
 } 
 
@@ -274,11 +248,11 @@ unlinkSync(`./jadibts/${directorio}/${fileInDir}`)
 })
 if (SBprekey.length === 0) return; //console.log(chalk.cyanBright(`=> No hay archivos por eliminar.`))
 } catch (err) {
-console.log(chalk.bold.red(`[ 🍓 ] Algo salio mal durante la eliminación, archivos no eliminados`))
+console.log(chalk.bold.red(`=> Algo salio mal durante la eliminación, archivos no eliminados`))
 }}
 
 function purgeOldFiles() {
-const directories = ['./SakuraSession/', './jadibts/']
+const directories = ['./SakuraBotSession/', './jadibts/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000)
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
@@ -308,19 +282,14 @@ async function connectionUpdate(update) {
     global.timestamp.connect = new Date;
   }
   if (global.db.data == null) loadDatabase();
-if (update.qr != 0 && update.qr != undefined || methodCodeQR) {
-if (opcion == '1' || methodCodeQR) {
-    console.log(chalk.yellow('[ 🍓 ] Escanea el código QR.'));
- }}
-  if (connection == 'open') {
+  if (update.qr != 0 && update.qr != undefined) {
+    console.log(chalk.yellow('🚩ㅤEscanea este codigo QR, el codigo QR expira en 60 segundos.'));
+  }
+ if (connection == 'open') {
 console.log(chalk.yellowBright('\n╭━─━━─━━─━─≪  😼  ≫─━─━━─━━─━╮\n│\n│SakuraBotLite-MD Conectado🙀.\n│\n╰━─━━━─━━─━─≪ 🟢 ≫─━─━━─━━━─━╯\n'))
-conn.fakeReply('573013482814@s.whatsapp.net', '⚓️🌹 𝑯𝒐𝒍𝒂 𝑪𝒓𝒆𝒂𝒅𝒐𝒓 𝑺𝒐𝒚 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕𝑳𝒊𝒕𝒆-𝑴𝑫\n𝑹𝒆𝒄𝒊𝒆𝒏𝒕𝒆𝒎𝒆𝒏𝒕𝒆 𝑴𝒆 𝑯𝒆 𝑪𝒐𝒏𝒆𝒄𝒕𝒂𝒅𝒐 𝑪𝒐𝒎𝒐 𝑼𝒏 𝑵𝒖𝒆𝒗𝒐 𝑩𝒐𝒕 𝑶𝒇𝒊𝒄𝒊𝒂𝒍', '0@s.whatsapp.net', '✨️𝑆𝑜𝑦 𝑇𝑢 𝐵𝑜𝑡 𝑂𝑓𝑖𝑐𝑖𝑎𝑙✨', '0@s.whatsapp.net')
+conn.fakeReply('573004826011@s.whatsapp.net', '⚓️🌹 𝑯𝒐𝒍𝒂 𝑪𝒓𝒆𝒂𝒅𝒐𝒓 𝑺𝒐𝒚 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕𝑳𝒊𝒕𝒆-𝑴𝑫\n𝑹𝒆𝒄𝒊𝒆𝒏𝒕𝒆𝒎𝒆𝒏𝒕𝒆 𝑴𝒆 𝑯𝒆 𝑪𝒐𝒏𝒆𝒄𝒕𝒂𝒅𝒐 𝑪𝒐𝒎𝒐 𝑼𝒏 𝑵𝒖𝒆𝒗𝒐 𝑩𝒐𝒕 𝑶𝒇𝒊𝒄𝒊𝒂𝒍', '0@s.whatsapp.net', '✨️𝑆𝑜𝑦 𝑇𝑢 𝐵𝑜𝑡 𝑂𝑓𝑖𝑐𝑖𝑎𝑙✨', '0@s.whatsapp.net')
   }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
-if (reason == 405) {
-await fs.unlinkSync("./SakuraSession/" + "creds.json")
-console.log(chalk.bold.redBright(`[ ⚠ ] Conexión replazada, Por favor espere un momento me voy a reiniciar...\nSi aparecen error vuelve a iniciar con : npm start`)) 
-process.send('reset')}
 if (connection === 'close') {
     if (reason === DisconnectReason.badSession) {
         conn.logger.error(`[ ⚠ ] Sesión incorrecta, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`);
@@ -382,7 +351,8 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('connection.update', conn.connectionUpdate);
     conn.ev.off('creds.update', conn.credsUpdate);
   }
-conn.welcome = '*╔═══❖•ೋ° °ೋ•❖═══╗*\n*┃ඬ⃟ ✨ @subject*\n*╠══════════════*\n*┃ඬ⃟ ✨ @user*\n*┃ඬ⃟ ✨ 𝘉𝘪𝘦𝘯𝘷𝘦𝘯𝘪𝘥𝘰* \n*┃*\n*┃ඬ⃟ ✨ 𝘓𝘦𝘦 𝘓𝘢 𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰:*\n\n@desc\n\n*┃*\n*┃ 𝘋𝘪𝘧𝘳𝘶𝘵𝘢 𝘛𝘶 𝘌𝘴𝘵𝘢𝘥𝘪𝘢!!*\n*╚═══❖•ೋ° °ೋ•❖═══╝*';
+
+        conn.welcome = '*╔═══❖•ೋ° °ೋ•❖═══╗*\n*┃ඬ⃟ ✨ @subject*\n*╠══════════════*\n*┃ඬ⃟ ✨ @user*\n*┃ඬ⃟ ✨ 𝘉𝘪𝘦𝘯𝘷𝘦𝘯𝘪𝘥𝘰* \n*┃*\n*┃ඬ⃟ ✨ 𝘓𝘦𝘦 𝘓𝘢 𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰:*\n\n@desc\n\n*┃*\n*┃ 𝘋𝘪𝘧𝘳𝘶𝘵𝘢 𝘛𝘶 𝘌𝘴𝘵𝘢𝘥𝘪𝘢!!*\n*╚═══❖•ೋ° °ೋ•❖═══╝*';
   conn.bye = '*╔═══❖•ೋ° °ೋ•❖═══╗*\n*┃ @user*\n*┃ඬ⃟ 👋𝙰𝚂𝚃𝙰 𝙿𝚁𝙾𝙽𝚃𝙾 𝙵𝙰𝙽𝚂 𝙳𝙴 𝙱𝚃𝚂* \n*╚═══❖•ೋ° °ೋ•❖═══╝*';
   conn.spromote = '*@user 𝘉𝘪𝘦𝘯𝘷𝘦𝘯𝘪𝘥𝘰 𝘠𝘢 𝘌𝘳𝘦𝘴 𝘗𝘢𝘳𝘵𝘦 𝘋𝘦𝘭 𝘚𝘵𝘢𝘧𝘧🥳!!*';
   conn.sdemote = '*@user 𝘑𝘰𝘥𝘦𝘳𝘵𝘦 𝘠𝘢 𝘕𝘰 𝘛𝘪𝘦𝘯𝘦𝘴 𝘌𝘭 𝘗𝘰𝘥𝘦𝘳 𝘋𝘦 𝘔𝘢𝘯𝘦𝘫𝘢𝘳 𝘌𝘯 𝘌𝘭 𝘎𝘳𝘶𝘱𝘰😆!!*';
@@ -551,6 +521,6 @@ function clockString(ms) {
   const h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24;
   const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
   const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
-  return [d, 'd ', h, 'h ', m, 'm ', s, 's '].map((v) => v.toString().padStart(2, 0)).join('');
+  return [d, ' ☆ ️', h, '☆ ', m, ' ☆ ', s, '  '].map((v) => v.toString().padStart(2, 0)).join('');
 }
 _quickTest().catch(console.error);
