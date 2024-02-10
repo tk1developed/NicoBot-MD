@@ -7,10 +7,10 @@ this.sendContact(m.chat, data.map(([id, name]) => [id, name]), fkontak, { contex
 handler.command = ['contacto', 'contact']  
 export default handler*/
 
-const { generateWAMessageFromContent, proto } = (await import('@whiskeysockets/baileys')).default
+/*const { generateWAMessageFromContent, proto } = (await import('@whiskeysockets/baileys')).default
 var handler = async(m, { conn, text, usedPrefix, command }) => {
 
-/*conn.relayMessage(m.chat, {
+conn.relayMessage(m.chat, {
   degreesLatitude: 0,
   degreesLongitude: 0,
   name: `ni funca esto`,
