@@ -104,7 +104,8 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <table>
   <tr>
 
-    <td align="center"><a href="https://github.com/Ender-GB-Isis777"><img src="https://github.com/Ender-GB-Isis777.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖤𝗇𝖽𝖾𝗋 𝖦𝖡</b></sub></a><br /><sub><i>𝖣𝖾𝗌𝖺𝗋𝗋𝗈𝗅𝗅𝖺𝖽𝗈𝗋 𝖮𝖿𝗂𝖼𝗂𝖺𝗅</i>
+    <td align="center"><a
+<td align="center"><a href="https://github.com/Ender-GB-Isis777"><img src="https://github.com/Ender-GB-Isis777.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖤𝗇𝖽𝖾𝗋 𝖦𝖡</b></sub></a><br /><sub><i>𝖣𝖾𝗌𝖺𝗋𝗋𝗈𝗅𝗅𝖺𝖽𝗈𝗋 𝖮𝖿𝗂𝖼𝗂𝖺𝗅</i>
     <td align="center"><a 
        <td align="center"><a href="https://github.com/Wilsmac"><img src="https://github.com/Wilsmac.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖶𝗂𝗅𝗆𝖾𝗋</b></sub></a><br /><sub><i>𝖣𝖾𝗌𝖺𝗋𝗋𝗈𝗅𝗅𝖺𝖽𝗈𝗋 𝖮𝖿𝗂𝖼𝗂𝖺𝗅</i>
     <td align="center"><a 
