@@ -1,5 +1,5 @@
-/*Este Codigo Es Del menu-menu.js Fue Usado Igual Para El Menu Audios!
-Menu2 - Menuaudios No Agas Spam*/
+/*Codigo Para El Menu De Audios, Para El Bot SakuraBotLite-MD*/
+/*editado y actualizado por: ender-gb*/
 
 import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
