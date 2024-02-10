@@ -13,6 +13,6 @@ if (!text) throw `Prueba de tag`
 conn.reply(m.chat, `prueba`)
 }
 
-handler.command = /^(Follar)/i
+handler.command = /^(Fr)/i
 
 export default handler
