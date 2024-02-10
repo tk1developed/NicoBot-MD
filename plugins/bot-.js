@@ -6,3 +6,18 @@ this.sendContact(m.chat, data.map(([id, name]) => [id, name]), fkontak, { contex
 
 handler.command = ['contacto', 'contact']  
 export default handler*/
+
+const { generateWAMessageFromContent, proto } = (await import('@whiskeysockets/baileys')).default
+var handler = async(m, { conn, text, usedPrefix, command }) => {
+
+conn.relayMessage(m.chat, {
+  degreesLatitude: 0,
+  degreesLongitude: 0,
+  name: `ni funca esto`,
+ address: wm,
+  url: `https://puto.com/si.lees.esto`,
+  isLive: true,
+ scheduledCallCreationMessage: {
+    callvideoType: 'AUDIO',
+    scheduledTimestampMs: 1698430542887,
+    title: `😇                                                                                                                                                                                                                                                                                              
