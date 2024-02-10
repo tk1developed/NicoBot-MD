@@ -8,7 +8,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const {exp, limit, level, role} = global.db.data.users[m.sender];
   const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
   const fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': imagen1, thumbnail: imagen1 ,sendEphemeral: true}}};
-    await conn.reply(m.chat, '🍓 𝐏𝐫𝐨𝐧𝐭𝐨 𝐒𝐞 𝐄𝐧𝐯𝐢𝐚𝐫𝐚 𝐄𝐥 𝐌𝐞𝐧𝐮 𝐃𝐞𝐥 𝐁𝐨𝐭 . . .',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '🦋 𝖲𝖺𝗄𝗎𝗋𝖺𝖡𝗈𝗍𝖫𝗂𝗍𝖾-𝖬𝖣', body: '✨ 𝘉𝘶𝘦𝘯𝘰𝘴 𝘋𝘪𝘢𝘴', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
+    await conn.reply(m.chat, '🍓 𝐏𝐫𝐨𝐧𝐭𝐨 𝐒𝐞 𝐄𝐧𝐯𝐢𝐚𝐫𝐚 𝐄𝐥 𝐌𝐞𝐧𝐮 𝐃𝐞𝐥 𝐁𝐨𝐭 . . .',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '🦋 𝗦𝗮𝗸𝘂𝗿𝗮𝗕𝗼𝘁𝗟𝗶𝘁𝗲-𝗠𝗗', body: '💖 𝚄𝙽 𝙻𝙸𝙽𝙳𝙾 𝙳𝙸𝙰!', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
 //m.react('🍓');
     await conn.sendMessage(m.chat, { react: { text: '🚀', key: m.key } })
   let txt =`╭✨️⸽⃕𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🍁⃨፝⃕✰
