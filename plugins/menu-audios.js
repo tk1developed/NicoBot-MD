@@ -1,3 +1,5 @@
+/*Este Codigo Es Del menu-menu.js Fue Usado Igual Para El Menu Audios!
+Menu2 - Menuaudios No Agas Spam*/
 
 import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
@@ -66,6 +68,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 };
 handler.help = ['menu'];
 handler.tags = ['menu'];
-handler.command = /^(menu2)$/i;
+handler.command = /^(menu2|menuaudios)$/i;
 handler.register = true
 export default handler;
