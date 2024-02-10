@@ -10,7 +10,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const {money, joincount} = global.db.data.users[m.sender];
   const {exp, limit, level, role} = global.db.data.users[m.sender];
   const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
-  const fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': imagen1, thumbnail: imagen6 ,sendEphemeral: true}}};
+  const fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': imagen1, thumbnail: imagen5 ,sendEphemeral: true}}};
     /*await conn.reply(m.chat, '🔊 𝑬𝒏𝒗𝒊𝒂𝒏𝒅𝒐 𝑬𝒍 𝑴𝒆𝒏𝒖 𝑫𝒆 𝑨𝒖𝒅𝒊𝒐𝒔...',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '🦋 𝑀𝑒𝑛𝑢 𝐷𝑒 𝐴𝑢𝑑𝑖𝑜𝑠', body: '👋🏻 𝚂𝙰𝙻𝚄𝙳𝙾 𝙰𝙼𝙸𝙶𝙾', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
 m.react('🚩');*/
     await conn.sendMessage(m.chat, { react: { text: '🙌🏻', key: m.key } })
@@ -21,7 +21,7 @@ m.react('🚩');*/
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
 ╭✨️⸽⃕𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🍁⃨፝⃕✰
-┃✣➸ 🦋 𝑪𝒐𝒎𝒂𝒏𝒅𝒐𝒔 𝑺𝒊𝒏 𝑵𝒊𝒏𝒈𝒖𝒏 𝑷𝒓𝒆𝒇𝒊𝒋𝒐.
+┃✣➸ 🦋 𝑺𝒊𝒏 𝑵𝒊𝒏𝒈𝒖𝒏 𝑷𝒓𝒆𝒇𝒊𝒋𝒐.
 ┃✣➸ 🦋 _Quien es tu sempai botsito 7w7_
 ┃✣➸ 🦋 _Te diagnostico con gay_
 ┃✣➸ 🦋 _No digas eso papu_
