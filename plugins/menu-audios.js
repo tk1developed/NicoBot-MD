@@ -1,31 +1,18 @@
+
 import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
-  if (usedPrefix == 'a' || usedPrefix == 'A') return;
   try {
-    const pp = imagen4;
-    // let vn = './media/menu.mp3'
-    const img = './Menu2.jpg';
-    const d = new Date(new Date + 3600000);
-    const locale = 'es-ES';
-    const week = d.toLocaleDateString(locale, {weekday: 'long'});
-    const date = d.toLocaleDateString(locale, {day: '2-digit', month: '2-digit', year: 'numeric'});
-    const _uptime = process.uptime() * 1000;
-    const uptime = clockString(_uptime);
-    const user = global.db.data.users[m.sender];
-    const {money, joincount} = global.db.data.users[m.sender];
-    const {exp, limit, level, role} = global.db.data.users[m.sender];
-    const rtotalreg = Object.values(global.db.data.users).filter((user) => user.registered == true).length;
-    const rtotal = Object.entries(global.db.data.users).length || '0'
-    const more = String.fromCharCode(8206);
-    const readMore = more.repeat(850);
-    const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
-    const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
+  if (usedPrefix == 'a' || usedPrefix == 'A') return;
 
- await conn.sendMessage(m.chat, { react: { text: '🌹', key: m.key } })
-
-
-const document = doc[Math.floor(Math.random() * doc.length)];
- const str = `${conn.user.jid == global.conn.user.jid ? '' : `╭∴━━━ *AUDIOS-BOT* ━━━∴╮
+  const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 'numeric'});
+  const {money, joincount} = global.db.data.users[m.sender];
+  const {exp, limit, level, role} = global.db.data.users[m.sender];
+  const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
+  const fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': imagen1, thumbnail: imagen1 ,sendEphemeral: true}}};
+    await conn.reply(m.chat, '🔊 𝑬𝒏𝒗𝒊𝒂𝒏𝒅𝒐 𝑬𝒍 𝑴𝒆𝒏𝒖 𝑫𝒆 𝑨𝒖𝒅𝒊𝒐𝒔...',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '🦋 𝑀𝑒𝑛𝑢 𝐷𝑒 𝐴𝑢𝑑𝑖𝑜𝑠', body: '👋🏻 𝚂𝙰𝙻𝚄𝙳𝙾 𝙰𝙼𝙸𝙶𝙾', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
+//m.react('🚩');
+    await conn.sendMessage(m.chat, { react: { text: '🙌🏻', key: m.key } })
+  let txt =`╭∴━━━ *AUDIOS-BOT* ━━━∴╮
 ┃🍓 𝖧𝗈𝗅𝖺 ${taguser}
 ┃🍓 𝐀𝐪𝐮𝐢 𝐓𝐞 𝐏𝐫𝐞𝐬𝐞𝐧𝐭𝐨 𝐄𝐥 𝐌𝐞𝐧𝐮 𝐃𝐞 𝐀𝐮𝐝𝐢𝐨𝐬.
 ┃🍓 𝐍𝐨 𝐀𝐠𝐚𝐬 𝐒𝐩𝐚𝐦 𝐂𝐨𝐧 𝐋𝐨𝐬 𝐀𝐮𝐝𝐢𝐨𝐬.
@@ -70,32 +57,15 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃✣➸ 🦋 _Rawr_
 ┃✣➸ 🦋 _:c_
 ┃✣➸ 🦋 _a_
-╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈`.trim();     if (m.isGroup) { 
- // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
-      const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
-      conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
-    } else {
-      // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
-      const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
-      conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
-    }
+╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈`;
+   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '🦋⸽⃕   𝐌𝐄𝐍𝐔 - 𝐀𝐔𝐃𝐈𝐎𝐒 - 𝐒𝐀𝐊𝐔𝐑𝐀 🚀⸽⃕✰', "containsAutoReply": true, "mediaType": 1, "thumbnail": [imagen6,imagen1,imagen4].getRandom(), "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
+ // m.react('🍓');
   } catch {
-    conn.reply(m.chat, '*🦋 𝑬𝒍 𝑴𝒆𝒏𝒖 𝑫𝒆 𝑨𝒖𝒅𝒊𝒐𝒔 𝑻𝒊𝒆𝒏𝒆 𝑼𝒏 𝑬𝒓𝒓𝒐𝒓 𝑷𝒐𝒓 𝑭𝒂𝒗𝒐𝒓 𝑪𝒐𝒏𝒕𝒂𝒄𝒕𝒂 𝑨 𝑴𝒊 𝑪𝒓𝒆𝒂𝒅𝒐𝒓 🕊️..*', m);
+    conn.reply(m.chat, '🦋 𝑬𝒍 𝑴𝒆𝒏𝒖 𝑫𝒆 𝑨𝒖𝒅𝒊𝒐𝒔 𝑵𝒐 𝑺𝒆 𝑷𝒖𝒅𝒐 𝑬𝒏𝒗𝒊𝒂𝒓 𝑷𝒐𝒓 𝑼𝒏 𝑬𝒓𝒓𝒐𝒓 𝑷𝒐𝒓 𝑭𝒂𝒗𝒐𝒓 𝑪𝒐𝒏𝒕𝒂𝒄𝒕𝒂 𝑨 𝑴𝒊 𝑪𝒓𝒆𝒂𝒅𝒐𝒓 𝑷𝒂𝒓𝒂 𝑸𝒖𝒆 𝑨𝒓𝒓𝒆𝒈𝒍𝒆 𝑬𝒍 𝑪𝒐𝒎𝒂𝒏𝒅𝒐. 🕊️', m);
   }
 };
-handler.command = /^(menu2|menuaudios|audios)$/i;
-
-handler.exp = 50;
-
-handler.fail = null;
-
+handler.help = ['menu'];
+handler.tags = ['menu'];
+handler.command = /^(menu2)$/i;
 handler.register = true
-
 export default handler;
-
-function clockString(ms) {
-  const h = isNaN(ms) ? '--' : Math.floor(ms / 3600000);
-  const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
-  const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
-  return [h, m, s].map((v) => v.toString().padStart(2, 0)).join(':');
-}
