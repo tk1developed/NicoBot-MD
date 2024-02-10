@@ -5,7 +5,7 @@ const handler = async (m, {conn, text, isMods, isOwner, isPrems}) => {
      enviando = true 
   try {
     const link = text //(m.quoted ? m.quoted.text ? m.quoted.text : text : text) || text;
-    if (!link || !link.match(linkRegex)) throw '*[❗] Link erroneo o faltante, ingrese el enlace de un grupo de WhatsApp.*\n\n*—◉ Ejemplo:*\n*◉ #join https://chat.whatsapp.com/FwEUGxkvZD85fIIp0gKyFC*';
+    if (!link || !link.match(linkRegex)) throw '*🍓 𝐓𝐞 𝐅𝐚𝐥𝐭𝐚 𝐄𝐥 𝐋𝐢𝐧𝐤 - 𝐄𝐧𝐥𝐚𝐜𝐞 𝐃𝐞 𝐔𝐧 𝐆𝐫𝐮𝐩𝐢 𝐃𝐞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩.*\n\n*💖 𝐄𝐣𝐞𝐦𝐩𝐥𝐨:*\n*◉ #join https://chat.whatsapp.com/DUAS7osnQ2h3tlYT4bnbfU*';
     const [_, code] = link.match(linkRegex) || [];
     if ( isPrems || isMods || isOwner || m.fromMe) {
       const res = await conn.groupAcceptInvite(code);
@@ -20,7 +20,7 @@ const handler = async (m, {conn, text, isMods, isOwner, isPrems}) => {
     }
   } catch {
     enviando = false 
-    throw '*[❗] Lo sentimos, algo salio mal por favor reportelo o vuelva a intentarlo.*';
+    throw '🦋 𝐋𝐨 𝐒𝐢𝐞𝐧𝐭𝐨 𝐀𝐥𝐠𝐨 𝐅𝐚𝐥𝐥𝐨́ 𝐀𝐥 𝐔𝐬𝐚𝐫 𝐄𝐥 𝐂𝐨𝐦𝐚𝐧𝐝𝐨!';
   }
 };
 handler.help = ['join [chat.whatsapp.com]'];
