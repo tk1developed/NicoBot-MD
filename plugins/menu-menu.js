@@ -116,7 +116,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃✣➸ 🔥 _#topotakus_
 ┃✣➸ 🔥 _#formarpareja_
 ┃✣➸ 🔥 _#verdad_
-┃✣➸ 🔥 _#crime_
+┃✣➸ 🔥 _#abancar_
 ┃✣➸ 🔥 _#reto_
 ┃✣➸ 🔥 _#cancion_
 ┃✣➸ 🔥 _#pista_
