@@ -1,4 +1,4 @@
-const linkRegex = /whatsapp.com\/(?:channel\/)?([0-9A-Za-z]{20,24})/i
+/*const linkRegex = /whatsapp.com\/(?:channel\/)?([0-9A-Za-z]{20,24})/i
 export async function before(m, { isAdmin, isBotAdmin }) {
     if (m.isBaileys && m.fromMe)
         return !0
@@ -16,4 +16,4 @@ export async function before(m, { isAdmin, isBotAdmin }) {
         } else if (!bot.restrict) return m.reply('El Programador y El administrador no seran eliminados!')
     }
     return !0
-}
+}*/
