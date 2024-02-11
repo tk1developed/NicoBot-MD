@@ -6,8 +6,6 @@ let str = `💧𝐺𝑅𝑈𝑃𝑂𝑆 𝑂𝐹𝐼𝐶𝐼𝐴𝐿𝐸𝑆
 ▢ 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
 https://chat.whatsapp.com/L69Ok8LTIJNCTNsJydkXaE
 
-▢ 𝘚𝘰𝘱𝘰𝘳𝘵𝘦 𝘚𝘢𝘬𝘶𝘳𝘢𝘓𝘪𝘵𝘦 (𝙽𝚘 𝙱𝚘𝚝)
-https://chat.whatsapp.com/DUAS7osnQ2h3tlYT4bnbfU
 
 🌹𝐺𝑅𝑈𝑃𝑂𝑆 𝐸𝑁 𝐶𝑂𝐿𝐴𝐵𝑂𝑅𝐴𝐶𝐼𝑂𝑁:
 
