@@ -5,7 +5,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   const teks = `*╭━━[ 𝑹𝑬𝑷𝑶𝑹𝑻𝑬 ]━━━⬣*\n*┃*\n*┃* ➦☬⃝✨𝐶𝑙𝑖𝑒𝑛𝑡𝑒: \n┃ ❁ Wa.me/${m.sender.split`@`[0]}\n*┃*\n*┃* ➦☬⃝✨𝑆𝑚𝑠:\n*┃* ❁ ${text}\n*┃*\n*╰❖────『 𝑆𝑜𝑝𝑜𝑟𝑡𝑒 』────❖*`;
   conn.reply('573013482814@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedJid: [m.sender]}});
   conn.reply('51935499065@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedjid: [m.sender]}});
-  conn.reply('51939041500@s.whatsapp.net',m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedjid: [m.sender]}});
+  conn.reply('5491168758497@s.whatsapp.net',m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedjid: [m.sender]}});
   m.reply(`[ 🌻 ] ☆𝑬𝒙𝒊𝒕𝒐 𝑬𝒍 𝑺𝒎𝒔 𝑺𝒆 𝑬𝒏𝒗𝒊𝒂𝒓𝒂 𝑨 𝑳𝒐𝒔 𝑪𝒓𝒆𝒂𝒅𝒐𝒓𝒆𝒔 𝑫𝒆𝒍 𝑩𝒐𝒕, 𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯☆`);
 };
 handler.help = ['reporte', 'request'].map((v) => v + ' <teks>');
