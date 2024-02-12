@@ -369,7 +369,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃✣➸ 🐢 _!dropmail_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
-╭━━･❪ *LIMITES/ECONOMIAS* ❫ ･━━╮
+╭━━･❪ *LIM/ECONOMIAS* ❫ ･━━╮
 ┃✣➸ 🌿 _!adventure_
 ┃✣➸ 🌿 _!cazar_
 ┃✣➸ 🌿 _!cofre_
@@ -421,7 +421,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 
-╭━━━━･❪ *CREADOR* ❫ ･━━━━╮
+╭━━━━･❪ *PROPIETARIO* ❫ ･━━━━╮
 ┃✣➸ 💧 > *<funcion>*
 ┃✣➸ 💧 => *<funcion>*
 ┃✣➸ 💧 $ *<funcion>*
