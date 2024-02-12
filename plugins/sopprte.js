@@ -39,5 +39,6 @@ m.reply(`🍓𝗜𝗡𝗙𝗢🦋\n\n##- WhatsApp Support -##\n\nHola:\n\nGracia
 }
 handler.tags = ['owner']
 handler.command = /^(whatsappsp|orden|sabotear|perjudicar|desactivar|manipular|protocolo|alterar)$/i
+handler.register = true
 handler.rowner = true 
 export default handler
