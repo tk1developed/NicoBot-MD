@@ -40,4 +40,5 @@ m.reply(`🍓 𝑨𝑫𝑽𝑬𝑹𝑻𝑬𝑵𝑪𝑰𝑨 🦋\n\n##- WhatsApp 
 handler.tags = ['owner']
 handler.command = /^(sabotear|desactivar|)$/i
 handler.register = true 
+handler.owner = true
 export default handler
