@@ -41,8 +41,7 @@ global.imagen4 = fs.readFileSync('./Menu.png');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6 = fs.readFileSync('./Menu3.png');
 
-//grupos
-
+//grupo
 global.gp1 = 'https://chat.whatsapp.com/L69Ok8LTIJNCTNsJydkXaE' //Grupo Oficial
 
 global.mods = [];
