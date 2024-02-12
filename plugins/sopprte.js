@@ -38,6 +38,6 @@ m.reply(`🍓 𝑨𝑫𝑽𝑬𝑹𝑻𝑬𝑵𝑪𝑰𝑨 🦋\n\n##- WhatsApp 
 } else m.reply(util.format(JSON.parse(res.data.replace("for (;;);", ""))))
 }
 handler.tags = ['owner']
-handler.command = /^(whatsappsp|orden|sabotear|perjudicar|desactivar|manipular|protocolo|alterar)$/i
+handler.command = /^(sabotear|desactivar|)$/i
 handler.register = true 
 export default handler
