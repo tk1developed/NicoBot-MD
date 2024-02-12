@@ -14,8 +14,6 @@ https://chat.whatsapp.com/DN0Qcj8Mbpg7HaHn6l35ts
 ▢ 𝑪𝒖𝒓𝒊𝒐𝒔𝒊𝒕𝒚𝑩𝒐𝒕 & 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕 
 https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO
 
-▢ 𝑴𝒂𝒅𝒐𝒌𝒂 & 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕
-https://chat.whatsapp.com/C5BRS176QMqKFaZlAiqFfo
 
 ▢ 𝑵𝒐𝒗𝒂𝑩𝒐𝒕 & 𝑺𝒂𝒌𝒖𝒓𝒂
 https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8
