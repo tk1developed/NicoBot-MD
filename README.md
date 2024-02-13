@@ -6,8 +6,7 @@
 <img src="https://telegra.ph/file/4c711545e712b0b957f6c.jpg" alt="SakuraBotLite-MD" width="900"/>
 </p>
 
-### <img
-src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="🟢 𝖯𝗋𝗎𝖾𝖻𝖺 𝖤𝗅 𝖡𝗈𝗍 𝖠𝗊𝗎𝗂" width="42" height="42"> 🟢 𝖯𝗋𝗎𝖾𝖻𝖺 𝖤𝗅 𝖡𝗈𝗍 𝖠𝗊𝗎𝗂𝒊
+### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="🟢 𝖯𝗋𝗎𝖾𝖻𝖺 𝖤𝗅 𝖡𝗈𝗍 𝖠𝗊𝗎𝗂" width="42" height="42"> 🟢 𝖯𝗋𝗎𝖾𝖻𝖺 𝖤𝗅 𝖡𝗈𝗍 𝖠𝗊𝗎𝗂
 
 > 𝖲𝗂 𝖰𝗎𝗂𝖾𝗋𝖾𝗌 𝖴𝗌𝖺𝗋 𝖤𝗅 𝖡𝗈𝗍 𝖠𝗇𝗍𝖾 𝖣𝖾 𝖨𝗇𝗌𝗍𝖺𝗅𝖺𝗋𝗅𝗈, 𝖴𝗌𝖺𝗅𝗈 𝖠𝗊𝗎𝗂 🟢
 
