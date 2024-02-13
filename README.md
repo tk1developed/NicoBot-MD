@@ -7,6 +7,13 @@
 </p>
 
 
+src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="🟢 𝖯𝗋𝗎𝖾𝖻𝖺 𝖤𝗅 𝖡𝗈𝗍 𝖠𝗊𝗎𝗂" width="42" height="42"> 🟢 𝖯𝗋𝗎𝖾𝖻𝖺 𝖤𝗅 𝖡𝗈𝗍 𝖠𝗊𝗎𝗂𝒊
+
+> 𝖲𝗂 𝖰𝗎𝗂𝖾𝗋𝖾𝗌 𝖴𝗌𝖺𝗋 𝖤𝗅 𝖡𝗈𝗍 𝖠𝗇𝗍𝖾 𝖣𝖾 𝖨𝗇𝗌𝗍𝖺𝗅𝖺𝗋𝗅𝗈, 𝖴𝗌𝖺𝗅𝗈 𝖠𝗊𝗎𝗂 🟢
+
+<a href="https://chat.whatsapp.com/L69Ok8LTIJNCTNsJydkXaE"><img alt="🦋 𝘎𝘳𝘶𝘱𝘰 𝘞𝘩𝘢𝘵𝘴𝘈𝘱𝘱" src="https://img.shields.io/badge/Grupo-SakuraLite🔥-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+
+
 
 - ### `✵ 🦋𝑪𝒐𝒏𝒇𝒊𝒈𝒖𝒓𝒂𝒄𝒊𝒐𝒏🚀`
  𝐂𝐥𝐨𝐧𝐚𝐫 𝐑𝐞𝐩𝐨 : 𝐒𝐚𝐤𝐮𝐫𝐚 [Aqui](https://github.com/diegojadibot/SakuraBotLite-MD/fork)
