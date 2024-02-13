@@ -1,20 +1,31 @@
-/*Codigo Para El Menu De Audios, Para El Bot SakuraBotLite-MD
-editado y actualizado por: ender-gb*/
-
 import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
-  try {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
+  try {
+    const pp = imagen1;
+    // let vn = './media/menu.mp3'
+    const img = './Menu2.jpg';
+    const d = new Date(new Date + 3600000);
+    const locale = 'es-ES';
+    const week = d.toLocaleDateString(locale, {weekday: 'long'});
+    const date = d.toLocaleDateString(locale, {day: '2-digit', month: '2-digit', year: 'numeric'});
+    const _uptime = process.uptime() * 1000;
+    const uptime = clockString(_uptime);
+    const user = global.db.data.users[m.sender];
+    const {money, joincount} = global.db.data.users[m.sender];
+    const {exp, limit, level, role} = global.db.data.users[m.sender];
+    const rtotalreg = Object.values(global.db.data.users).filter((user) => user.registered == true).length;
+    const rtotal = Object.entries(global.db.data.users).length || '0'
+    const more = String.fromCharCode(8206);
+    const readMore = more.repeat(850);
+    const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
+    const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
 
-  const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 'numeric'});
-  const {money, joincount} = global.db.data.users[m.sender];
-  const {exp, limit, level, role} = global.db.data.users[m.sender];
-  const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
-  const fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': imagen1, thumbnail: imagen1 ,sendEphemeral: true}}};
-    /*await conn.reply(m.chat, '🔊 𝑬𝒏𝒗𝒊𝒂𝒏𝒅𝒐 𝑬𝒍 𝑴𝒆𝒏𝒖 𝑫𝒆 𝑨𝒖𝒅𝒊𝒐𝒔...',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '🦋 𝑀𝑒𝑛𝑢 𝐷𝑒 𝐴𝑢𝑑𝑖𝑜𝑠', body: '👋🏻 𝚂𝙰𝙻𝚄𝙳𝙾 𝙰𝙼𝙸𝙶𝙾', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
-m.react('🚩');*/
-    await conn.sendMessage(m.chat, { react: { text: '🙌🏻', key: m.key } })
-  let txt =`╭∴━━━ *AUDIOS-BOT* ━━━∴╮
+ await conn.sendMessage(m.chat, { react: { text: '❤️‍🩹', key: m.key } })
+
+
+const document = doc[Math.floor(Math.random() * doc.length)];
+ const str = `╭∴━━━ *AUDIOS-BOT* ━━━∴╮
 ┃🕊️ 𝖧𝗈𝗅𝖺👋🏻, 𝖲𝗈𝗒 𝖲𝖺𝗄𝗎𝗋𝖺𝖫𝗂𝗍𝖾
 ┃🕊️ 𝐄𝐥 𝐌𝐞𝐧𝐮 𝐃𝐞 𝐀𝐮𝐝𝐢𝐨𝐬.
 ┃🕊️ 𝐍𝐨 𝐀𝐠𝐚𝐬 𝐒𝐩𝐚𝐦 𝐂𝐨𝐧 𝐋𝐨𝐬 𝐀𝐮𝐝𝐢𝐨𝐬.
