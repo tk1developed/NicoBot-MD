@@ -12,10 +12,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 //m.react('🍓');
     await conn.sendMessage(m.chat, { react: { text: '🐈', key: m.key } })
   let txt =`╭━━━━━━━ •♬• ━━━━━━━
-┊
-┊     「 𝐃𝐎𝐍𝐀𝐑 」
-╰━━━━━━━ •♬• ━━━━━━━
-╭━━━━━━━ •♬• ━━━━━━━
 ┇➻ 🦋𝘗𝘶𝘦𝘥𝘦𝘴 𝘋𝘰𝘯𝘢𝘳 𝘈𝘱𝘰𝘺𝘢𝘯𝘥𝘰𝘮𝘦 𝘠 𝘋𝘢𝘯𝘥𝘰𝘭𝘦 𝘜𝘯𝘢 𝘌𝘴𝘵𝘳𝘦𝘭𝘭𝘢 𝘈 𝘔𝘪 𝘙𝘦𝘱𝘰𝘴𝘪𝘵𝘰𝘳𝘪𝘰 𝘖𝘧𝘪𝘤𝘪𝘢𝘭 💖
 ┇
 ┇➻ 😻𝘊𝘰𝘮𝘱𝘢𝘳𝘵𝘦 𝘕𝘶𝘦𝘴𝘵𝘳𝘰 𝘉𝘰𝘵 𝘗𝘢𝘳𝘢 𝘘𝘶𝘦 𝘓𝘰 𝘜𝘴𝘦𝘯 𝘔𝘢𝘴 𝘗𝘦𝘳𝘴𝘰𝘯𝘢𝘴 𝘠 𝘝𝘦𝘢𝘯 𝘌𝘭 𝘔𝘢𝘳𝘢𝘷𝘪𝘭𝘭𝘰𝘴𝘰 𝘉𝘰𝘵! 💖
@@ -28,7 +24,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┇
 ┇➻ 🍓𝘓𝘪𝘯𝘥𝘰 𝘈𝘮𝘢𝘯𝘦𝘤𝘦𝘳 😻
 ╰━━━━━━━ •♬• ━━━━━━━`;
-   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '🍓⸽⃕  𝕾𝖆𝖐𝖚𝖗𝖆 - 𝕭𝖔𝖙 - 𝕷𝖎𝖙𝖊 - 𝕸𝕯 🦋⸽⃕✰', "containsAutoReply": true, "mediaType": 1, "thumbnail": [imagen6,imagen1,imagen4].getRandom(), "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
+   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '😻 𝗗𝗼𝗻𝗮𝗿 - 𝗦𝗮𝗸𝘂𝗿𝗮 - 𝗔𝗽𝗼𝘆𝗮𝗿 😻', "containsAutoReply": true, "mediaType": 1, "thumbnail": [imagen6,imagen1,imagen4].getRandom(), "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
  // m.react('🔥');
   } catch {
     conn.reply(m.chat, '⚠️ 𝑬𝒍 𝑪𝒐𝒎𝒂𝒏𝒅𝒐 𝑻𝒊𝒆𝒏𝒆 𝑼𝒏 𝑬𝒓𝒓𝒐𝒓 𝑪𝒐𝒎𝒖𝒏𝒊𝒒𝒖𝒆𝒍𝒐 𝑨𝒍 𝑪𝒓𝒆𝒂𝒅𝒐𝒓 𝑶 𝑨𝒍 𝑺𝒕𝒂𝒇𝒇.', m);
