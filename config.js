@@ -41,20 +41,18 @@ global.imagen4 = fs.readFileSync('./Menu.png');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6 = fs.readFileSync('./Menu3.png');
 
-//grupos oficiales
-global.gp1 = 'https://chat.whatsapp.com/L69Ok8LTIJNCTNsJydkXaE' /*Grupo Oficial*/
+//Grupos
+global.gp1 = 'https://chat.whatsapp.com/L69Ok8LTIJNCTNsJydkXaE' //Grupo Oficial
 
-global.gp2 = 'https://chat.whatsapp.com/DN0Qcj8Mbpg7HaHn6l35ts' /*Grupo Global*/
+global.gp2 = 'https://chat.whatsapp.com/DN0Qcj8Mbpg7HaHn6l35ts' //Grupo Global
 
-//grupos colaboracion
-global.gp3 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' /*Grupo Sakura Y Curiosity*/
+global.gp3 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //Grupo Colaboracion Con Curiosity
 
-global.gp4 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' /*Grupo Nova Y Sakura*/
+global.gp4 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //Grupo Colaboracion Con Nova
 
-global.gp5 = 'https://chat.whatsapp.com/HXOGzELFOVXFM1KrSoKdqH' /*Grupo MultiBots*/
+global.gp5 = 'https://chat.whatsapp.com/HXOGzELFOVXFM1KrSoKdqH' //Grupo MultiBots
 
-//canal
-global.channel = 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n' /*Canal Oficial*/
+global.channel = 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n' //Canal Oficial
 
 global.mods = [];
 
