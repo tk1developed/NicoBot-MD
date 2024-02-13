@@ -4,26 +4,26 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 let str = `🍓𝐺𝑅𝑈𝑃𝑂𝑆 𝑂𝐹𝐼𝐶𝐼𝐴𝐿𝐸𝑆
 
 ▢ 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵𝘓𝘪𝘵𝘦 | 𝘖𝘍𝘊
-https://chat.whatsapp.com/L69Ok8LTIJNCTNsJydkXaE
+${gp1}
 
 ▢ 𝘚𝘢𝘬𝘶𝘳𝘢𝘓𝘪𝘵𝘦 - 𝘎𝘭𝘰𝘣𝘢𝘭
-https://chat.whatsapp.com/DN0Qcj8Mbpg7HaHn6l35ts
+${gp2}
 
 🦋𝐺𝑅𝑈𝑃𝑂𝑆 𝐸𝑁 𝐶𝑂𝐿𝐴𝐵𝑂𝑅𝐴𝐶𝐼𝑂𝑁:
 
 ▢ 𝑪𝒖𝒓𝒊𝒐𝒔𝒊𝒕𝒚𝑩𝒐𝒕 & 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕 
-https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO
+${gp3}
 
 ▢ 𝑵𝒐𝒗𝒂𝑩𝒐𝒕 & 𝑺𝒂𝒌𝒖𝒓𝒂
-https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8
+${gp4}
 
 ▢ ᰔᩚ♕︎🅜︎🅤︎🅛︎🅣︎🅘︎.🅑︎🅞︎🅣︎🅢︎♕︎ᰔᩚ 
-https://chat.whatsapp.com/HXOGzELFOVXFM1KrSoKdqH
+${gp5}
 
 🌤𝐶𝐴𝑁𝐴𝐿 𝑂𝐹𝐼𝐶𝐼𝐴𝐿
 
 ▢ Canal _*SakuraBotLite-MD*_
-https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n`
+${channel}`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 
 handler.command = /^grupos|linksk|gruposofc|gruposoficiales$/i
