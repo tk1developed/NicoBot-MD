@@ -5,8 +5,8 @@ const handler = async (m, {conn, usedPrefix, command}) => {
   let who;
   if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false;
   else who = m.chat;
-  if (!who) throw `*[❗] Etiqueta a alguien para robar.*`;
-  if (!(who in global.db.data.users)) throw `*[❗] El usuario no se encuentra en mi base de datos.*`;
+  if (!who) throw `*😻 𝖤𝗍𝗂𝗊𝗎𝖾𝗍𝖺 𝖠𝗅𝗀𝗎𝗇 𝖴𝗌𝗎𝖺𝗋𝗂𝗈 𝖯𝖺𝗋𝖺 𝖱𝗈𝖻𝖺𝗋𝗅𝖾.*`;
+  if (!(who in global.db.data.users)) throw `*💖 𝖰𝗎𝗂𝖾𝗇 𝖤𝗌 𝖤𝗌𝖾 𝖴𝗌𝗎𝗌𝖺𝗋𝗂𝗈? 𝖭𝗈 𝖫𝗈 𝖳𝖾𝗇𝗀𝗈 𝖤𝗇 𝖬𝗂 𝖡𝖺𝗌𝖾 𝖣𝖾 𝖣𝖺𝗍𝗈𝗌!.*`;
   const users = global.db.data.users[who];
   const rob = Math.floor(Math.random() * ro);
   if (users.exp < rob) return m.reply(`😔 @${who.split`@`[0]} tiene menos de *${ro} xp*\nNo robes a un indigena v":`, null, {mentions: [who]});
