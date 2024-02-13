@@ -1,27 +1,21 @@
-/*const handler = async (m, {conn, command}) => {
-  console.log(XDDDDDDDDD);
-  new Error('This is an error');
-};
-handler.command = /^(handerror)$/i;
-handler.owner = true;
-export default handler;
-
-var handler = async (m, { conn }) => {
-
-if (!text) throw `Prueba de tag`
-
-conn.reply(m.chat, `prueba`)
+/*let handler = async (m, { conn }) => {
+let totalf = Object.values(global.plugins).filter(
+    (v) => v.help && v.tags
+  ).length;
+conn.reply(m.chat, `• Total de Funciones: ${totalf}`,m)
 }
 
-handler.command = /^(Fr)/i
-
+handler.help = ['totalfunciones']
+handler.tags = ['info']
+handler.command = ['totalfunciones']
+handler.register = true
 export default handler*/
 
 let handler = async (m, { conn }) => {
 let totalf = Object.values(global.plugins).filter(
     (v) => v.help && v.tags
   ).length;
-conn.reply(m.chat, `• Total de Funciones: ${totalf}`,m)
+conn.reply(m.chat, `🦋 𝘛𝘰𝘵𝘢𝘭 𝘍𝘶𝘯𝘤𝘪𝘰𝘯𝘦𝘴: ${totalf}`,m)
 }
 
 handler.help = ['totalfunciones']
