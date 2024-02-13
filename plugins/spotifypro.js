@@ -1,4 +1,4 @@
-// Creditos de los tags a @darlyn1234 y diseño a @ALBERTO9883
+/*Creditos de los tags a @darlyn1234 y diseño a @ALBERTO9883
 // Este plugins descarga por texto, album, track o playlist de spotify.
 import pkg from 'sanzy-spotifydl'; 
 const { downloadTrack, downloadAlbum, search } = pkg; 
@@ -83,4 +83,4 @@ for (let i = 0; i < tracks.length; i++) {
   }
 };
 handler.command = /^(spotifydl|spotifypro)$/i;
-export default handler;
+export default handler;*/
