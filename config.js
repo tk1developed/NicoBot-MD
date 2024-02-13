@@ -12,6 +12,7 @@ import { es } from "./lib/idiomas/total-idiomas.js"
 global.botnumber = ""
 global.confirmCode = ""
 
+/*Numeros de los creadores*/
 global.owner = [
  ['573013482814', '🍓 𝖢𝖱𝖤𝖠𝖣𝖮𝖱 ✨', true], 
  ['5214431467891', '𝖠𝗌𝗂𝗌𝗍𝖾𝗇𝖼𝗂𝖺 𝖲𝖪', true],
@@ -24,13 +25,13 @@ global.prems = ['573218138672'];
 
 global.lenguajeSK = es //idioma de sakurabot
 
-global.packname = '𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🍓🦋';
-global.author = '𝔇𝔦𝔢𝔤𝔬𝔒𝔣𝔦𝔠𝔦𝔞𝔩 🦎';
-global.wm = '𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯💖🦋';
-global.titulowm = '𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯';
-global.titulowm2 = `𝔇𝔦𝔢𝔤𝔬𝔒𝔣𝔦𝔠𝔦𝔞𝔩`
-global.igfg = '𝔇𝔦𝔢𝔤𝔬𝔒𝔣𝔦𝔠𝔦𝔞𝔩';
-global.wait = '*🍓 𝑼𝒏 𝑴𝒐𝒎𝒆𝒏𝒕𝒐 ʕ •́؈•̀ ₎...*';
+global.packname = '𝑆𝑎𝑘𝑢𝑟𝑎𝐵𝑜𝑡𝐿𝑖𝑡𝑒-𝑀𝐷🦋';
+global.author = '𝙳𝙸𝙴𝙶𝙾 💖';
+global.wm = '𝐒𝐚𝐤𝐮𝐫𝐚-𝐁𝐨𝐭 😻';
+global.titulowm = '𝗦𝖺𝗄𝗎𝗋𝖺 : 𝗕𝗈𝗍';
+global.titulowm2 = `𝘋𝘪𝘦𝘨𝘰𝘖𝘧𝘪𝘤𝘪𝘢𝘭`
+global.igfg = '𝖣𝗂𝖾𝗀𝗈𝖮𝖿𝗂𝖼𝗂𝖺𝗅';
+global.wait = '*🦋 𝑈𝑛 𝑀𝑜𝑚𝑒𝑛𝑡𝑜 ʕ •́؈•̀ ₎...*';
 global.vs = '1.0.6 (beta)';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -60,9 +61,9 @@ global.gt = 'SakuraBot';
 global.mysticbot = 'SakuraBot';
 global.md = 'https://github.com/diegojadibot/SakuraBotLite-MD';
 global.mysticbot = 'https://github.com/diegojadibot/SakuraBotLite-MD';
-global.waitt = '*🍓  𝑼𝒏 𝑴𝒐𝒎𝒆𝒏𝒕𝒐 ʕ •́؈•̀ ₎...*';
-global.waittt = '*🍓 𝑼𝒏 𝑴𝒐𝒎𝒆𝒏𝒕𝒐 ʕ •́؈•̀ ₎...*';
-global.waitttt = '*🍓 𝑼𝒏 𝑴𝒐𝒎𝒆𝒏𝒕𝒐 ʕ •́؈•̀ ₎...*';
+global.waitt = '*🦋 𝑈𝑛 𝑀𝑜𝑚𝑒𝑛𝑡𝑜 ʕ •́؈•̀ ₎...*';
+global.waittt = '*🦋 𝑈𝑛 𝑀𝑜𝑚𝑒𝑛𝑡𝑜 ʕ •́؈•̀ ₎...*';
+global.waitttt = '*🦋 𝑈𝑛 𝑀𝑜𝑚𝑒𝑛𝑡𝑜 ʕ •́؈•̀ ₎...*';
 global.nomorown = '573004826011';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
