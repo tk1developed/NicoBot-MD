@@ -94,7 +94,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> 𝐁𝐨𝐭 𝐎𝐟𝐢𝐜𝐢𝐚𝐥 🦋
 
-* <a href="https://wa.me/5491130182250"><img alt="𝘽𝙤𝙩 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 🍓" src="https://img.shields.io/badge/Bot - Oficial🦋-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+* <a href="https://wa.me/17726177069"><img alt="𝘽𝙤𝙩 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 🍓" src="https://img.shields.io/badge/Bot - Oficial🦋-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 > No Agas Spam Al Bot!
 
