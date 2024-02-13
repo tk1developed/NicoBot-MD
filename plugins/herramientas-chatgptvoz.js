@@ -1,4 +1,4 @@
-/*     ◉ Otosaka (https://github.com/6otosaka9)          */
+/*     ◉ Otosaka (https://github.com/6otosaka9)
      ◉ Número: wa.me/51993966345*/
 
 import fetch from 'node-fetch';
