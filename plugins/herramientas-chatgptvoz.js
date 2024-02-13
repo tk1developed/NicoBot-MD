@@ -1,16 +1,6 @@
-/* -------------------------------------------------------*/
-/* [❗]                      [❗]                      [❗] */
-/*                                                       */
-/*       |- [ ⚠ ] - CREDITOS DEL CODIGO - [ ⚠ ] -|      */
-/*     —◉ DESAROLLADO POR OTOSAKA:                       */
 /*     ◉ Otosaka (https://github.com/6otosaka9)          */
-/*     ◉ Número: wa.me/51993966345                       */
-/*                                                       */
-/*     —◉ FT:                                            */
-/*     ◉ BrunoSobrino (https://github.com/BrunoSobrino)  */
-/*                                                       */
-/* [❗]                      [❗]                      [❗] */
-/* -------------------------------------------------------*/
+     ◉ Número: wa.me/51993966345*/
+
 import fetch from 'node-fetch';
 import gtts from 'node-gtts';
 import {readFileSync, unlinkSync} from 'fs';
@@ -131,7 +121,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   }}
  }}
 };
-handler.command = /^(openaivoz|chatgptvoz|iavoz|robotvoz|openai2voz|chatgpt2voz|ia2voz|robot2voz|Mysticvoz|MysticBotvoz|gptvoz|ai_voz|ai_voce)$/i;
+handler.command = /^(openaivoz|chatgptvoz|iavoz|robotvoz|openai2voz|chatgpt2voz|ia2voz|robot2voz|Sakuvoz|SakuraLitevoz|gptvoz|ai_voz|ai_voce)$/i;
 export default handler;
 
 async function tts(text = 'error', lang = 'es') {
