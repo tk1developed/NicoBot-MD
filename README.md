@@ -1,7 +1,7 @@
 
 >🌹🦋𝗩𝗲𝗿𝘀𝗶𝗼𝗻 𝗗𝗲𝗹 𝗕𝗼𝘁: 1.0.6 (beta)
 
-## `🍓 𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯 🦋` 
+## `🍓𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🦋` 
 <p align="center">
 <img src="https://telegra.ph/file/4c711545e712b0b957f6c.jpg" alt="SakuraBotLite-MD" width="900"/>
 </p>
