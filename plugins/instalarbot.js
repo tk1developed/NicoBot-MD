@@ -3,13 +3,13 @@ import fetch from 'node-fetch';
 const handler = async (m, { conn, args }) => {
    const res = await fetch('https://api.github.com/repos/diegojadibot/SakuraBotLite-MD');
    const json = await res.json();
-   let txt = `🍓 𝙄𝙣𝙨𝙩𝙖𝙡𝙖𝙘𝙞𝙤𝙣 𝘼𝙪𝙩𝙤𝙢𝙖𝙩𝙞𝙫𝙖 (𝚃𝙴𝚁𝙼𝚄𝚇)
+   let txt = `🍓 𝙄𝙣𝙨𝙩𝙖𝙡𝙖𝙘𝙞𝙤𝙣 𝘼𝙪𝙩𝙤𝙢𝙖𝙩𝙞𝙘𝙖 (𝚃𝙴𝚁𝙼𝚄𝚇)
    
 ➪ termux-setup-storage
 
 ➪ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/sakura.sh | bash
 
-🦋 𝙄𝙣𝙨𝙩𝙖𝙡𝙘𝙞𝙤𝙣 𝙈𝙖𝙣𝙪𝙖𝙡 (𝚃𝙴𝚁𝙼𝚄𝚇) 🍓
+🦋 𝙄𝙣𝙨𝙩𝙖𝙡𝙖𝙘𝙞𝙤𝙣 𝙈𝙖𝙣𝙪𝙖𝙡 (𝚃𝙴𝚁𝙼𝚄𝚇) 🍓
 
 ➪ cd && termux-setup-storage
 
@@ -28,16 +28,20 @@ const handler = async (m, { conn, args }) => {
 ➪ npm start
 
 🟢 𝐀𝐜𝐭𝐢𝐯𝐚𝐫 𝐄𝐥 𝐁𝐨𝐭 🟢
-   ➪ cd
 
-   ➪ cd SakuraBotLite-MD
+➪ cd
 
-   ➪ npm start
+➪ cd SakuraBotLite-MD
+
+➪ npm start
 
 💖 𝙊𝙗𝙩𝙚𝙣𝙚𝙧 𝙊𝙩𝙧𝙤 𝙌𝙧 😻
-   ❀ cd SakuraBotLite-MD
-   ❀ rm -rf SakuraBotSession
-   ❀ npm start
+
+➪ cd SakuraBotLite-MD
+
+➪ rm -rf SakuraBotSession
+
+➪ npm start
 
 🟢 (𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 1 𝙿𝙾𝚁 1) 🦋
     
