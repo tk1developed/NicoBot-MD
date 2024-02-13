@@ -1,4 +1,5 @@
-
+//▪CÓDIGO BY ALBERTO9883 PRROS XD▪
+//▪NyanCatBot - MD▪
 
 import MessageType from '@whiskeysockets/baileys'
 import util from 'util'
@@ -89,7 +90,7 @@ if (sticker1B) {
         } else
 
 if (sticker2B) {
-        
+        let emot = pickRandom(["🐢", "🌹", "🌺", "🍂"])
 conn.sendMessage(m.chat, { react: { text: emot, key: m.key }})
         } else
 
