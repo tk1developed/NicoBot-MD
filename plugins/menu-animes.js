@@ -83,7 +83,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
     conn.reply(m.chat, '*[ ℹ️ ] Este menu tiene un error interno, por lo cual no fue posible enviarlo.*', m);
   }
 };
-handler.command = /^(menu2|menuaudios)$/i;
+handler.command = /^(animesmenu|menuanimes)$/i;
 handler.register = true
 handler.exp = 50;
 handler.fail = null;
