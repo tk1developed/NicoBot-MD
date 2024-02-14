@@ -44,7 +44,7 @@ curreyCode: 'IDR',
 totalCurrencyCode: '>〰<',
 totalAmount1000: '1000000',
 sellerJid: 'https://github.com/diegojadibot/SakuraBotLite-MD',
-thumbnail: fs.readFileSync('./src/avatar_contact.png')
+thumbnail: fs.readFileSync('./src/Avatar_contact.png')
 }}, {contextInfo: null, quoted: m})
 conn.relayWAMessage(prep)
 //conn.sendMessage(m.chat, `${teks}`, MessageType.text, rtimebro)
