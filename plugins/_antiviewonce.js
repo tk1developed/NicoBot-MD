@@ -12,7 +12,7 @@ export async function before(m, {isAdmin, isBotAdmin}) {
     for await (const chunk of media) {
       buffer = Buffer.concat([buffer, chunk]);
     }
-    const cap = '*- En este grupo, no permitimos que ocultes nada.*'
+    const cap = '😻 𝗔𝗾𝘂𝗶 𝗡𝗼 𝗦𝗲 𝗣𝘂𝗲𝗱𝗲 𝗢𝗰𝘂𝗹𝘁𝗮𝗿 𝗡𝗮𝗱𝗮 🍓'
     if (/video/.test(type)) {
       return mconn.conn.sendFile(m.chat, buffer, 'error.mp4', `${msg[type].caption ? msg[type].caption + '\n\n' + cap : cap}`, m);
     } else if (/image/.test(type)) {
