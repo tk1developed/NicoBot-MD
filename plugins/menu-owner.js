@@ -101,7 +101,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     conn.reply(m.chat, '⚠️ 𝐸𝑟𝑟𝑜𝑟 𝐴𝑙 𝐸𝑛𝑣𝑖𝑎𝑟 𝐸𝑙 𝑀𝑒𝑛𝑢 𝑃𝑜𝑟 𝐹𝑎𝑣𝑜𝑟 𝐼𝑛𝑡𝑒𝑛𝑡𝑒 𝑀𝑎𝑠 𝑇𝑎𝑟𝑑𝑒. 𝑆𝑖 𝑆𝑖𝑔𝑢𝑒 𝐴𝑠𝑖 𝐶𝑜𝑛𝑡𝑎𝑐𝑡𝑎 𝐴𝑙 𝑆𝑡𝑎𝑓𝑓', m);
   }
 };
-handler.command = /^(wtodo|ownermenu|ownermenu)$/i;
+handler.command = /^(wtodo|ownermenu|menuowner)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
