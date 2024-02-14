@@ -11,8 +11,8 @@ const handler = async (m, {conn, usedPrefix, command, text}) => {
     room.state = 'PLAYING';
     const arr = room.game.render().map((v) => {
       return {
-        X: '❎️',
-        O: '⭕️',
+        X: '✖️',
+        O: '⭕',
         1: '1️⃣',
         2: '2️⃣',
         3: '3️⃣',
@@ -27,8 +27,8 @@ const handler = async (m, {conn, usedPrefix, command, text}) => {
     const str = `
 🎮 𝐓𝐫𝐞𝐬 𝐄𝐧 𝐑𝐚𝐥𝐥𝐚 🎮
 
-❎️ = @${room.game.playerX.split('@')[0]}
-⭕️ = @${room.game.playerO.split('@')[0]}
+✖️ = @${room.game.playerX.split('@')[0]}
+⭕ = @${room.game.playerO.split('@')[0]}
 
         ${arr.slice(0, 3).join('')}
         ${arr.slice(3, 6).join('')}
