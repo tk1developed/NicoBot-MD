@@ -425,71 +425,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 
 ╭━━━━･❪ *PROPIETARIO* ❫ ･━━━━╮
-┃💧 > *<funcion>*
-┃💧 => *<funcion>*
-┃💧 $ *<funcion>*
-┃💧 _!cajafuerte_
-┃💧 _!desactivar *<numero>*_
-┃💧 _!reunion_ *<texto>*
-┃💧 _!setprefix *<prefijo>*_
-┃💧 _!resetprefix_
-┃💧 _!autoadmin_
-┃💧 _!grouplist_
-┃💧 _!chetar_
-┃💧 _!leavegc_
-┃💧 _!cajafuerte_
-┃💧 _!blocklist_
-┃💧 _!addowner *<@tag / numero>*_
-┃💧 _!delowner *<@tag / numero>*_
-┃💧 _!block *<@tag / numero>*_
-┃💧 _!unblock *<@tag / numero>*_
-┃💧 _!enable *restrict*_
-┃💧 _!disable *restrict*_
-┃💧 _!enable *autoread*_
-┃💧 _!disable *autoread*_
-┃💧 _!enable *public*_
-┃💧 _!disable *public*_
-┃💧 _!enable *pconly*_
-┃💧 _!disable *pconly*_
-┃💧 _!enable *gconly*_
-┃💧 _!disable *gconly*_
-┃💧 _!enable *anticall*_
-┃💧 _!disable *anticall*_
-┃💧 _!enable *antiprivado*_
-┃💧 _!disable *antiprivado*_
-┃💧 _!enable *antispam*_
-┃💧 _!disable *antispam*_
-┃💧 _!msg *<texto>*_
-┃💧 _!banchat_
-┃💧 _!unbanchat_
-┃💧 _!resetuser *<@tag>*_
-┃💧 _!banuser *<@tag>*_
-┃💧 _!unbanuser *<@tag>*_
-┃💧 _!dardiamantes *<@tag> <cantidad>*_
-┃💧 _!añadirxp *<@tag> <cantidad>*_
-┃💧 _!banuser *<@tag>*_
-┃💧 _!bc *<texto>*_
-┃💧 _!bcchats *<texto>*_
-┃💧 _!bcgc *<texto>*_
-┃💧 _!bcgc2 *<audio>*_
-┃💧 _!bcgc2 *<video>*_
-┃💧 _!bcgc2 *<imagen>*_
-┃💧 _!bcbot *<texto>*_
-┃💧 _!cleartpm_
-┃💧 _!restart_
-┃💧 _!update_
-┃💧 _!banlist_
-┃💧 _!addprem *<@tag> <tiempo>*_
-┃💧 _!addprem2 *<@tag> <tiempo>*_
-┃💧 _!addprem3 *<@tag> <tiempo>*_
-┃💧 _!addprem4 *<@tag> <tiempo>*_
-┃💧 _!delprem *<@tag>*_
-┃💧 _!listcmd_
-┃💧 _!setppbot *<responder a imagen>*_
-┃💧 _!addcmd *<texto> <responder a sticker/imagen>*_
-┃💧 _!delcmd *<responder a sticker/imagen con comando o texto asignado>*_
-┃💧 _!saveimage_
-│❢ _!pviewimage_
+┃💧 !menuowner
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•`;
    await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '🍓⸽⃕  𝕾𝖆𝖐𝖚𝖗𝖆 - 𝕭𝖔𝖙 - 𝕷𝖎𝖙𝖊 - 𝕸𝕯 🦋⸽⃕✰', "containsAutoReply": true, "mediaType": 1, "thumbnail": [imagen6,imagen1,imagen4].getRandom(), "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
  // m.react('🔥');
