@@ -51,7 +51,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 ╰━━━━━━━✦✗✦━━━━━━━━
 𝘉𝘺: 𝘋𝘪𝘦𝘨𝘰𝘖𝘧𝘪𝘤𝘪𝘢𝘭✨`.trim();
 
-  const isEnable = /true|enable|(turn)?on|1/i.test(command);
+  const isEnable = /on|enable|(turn)?on|1/i.test(command);
   const chat = global.db.data.chats[m.chat];
   const user = global.db.data.users[m.sender];
   const bot = global.db.data.settings[conn.user.jid] || {};
@@ -345,5 +345,5 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 };
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
-handler.command = /^((en|dis)able|(tru|fals)e|(turn)?[01])$/i;
+handler.command = /^((off|dis)able|(tru|fals)e|(turn)?[01])$/i;
 export default handler;
