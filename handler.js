@@ -1309,7 +1309,7 @@ const messageText = `
           if (e) {
             let text = format(e);
             for (const key of Object.values(global.APIKeys)) {
-              text = text.replace(new RegExp(key, 'g'), '#HIDDEN#');
+              text = text.replace(new RegExp(key, 'g'), 'Administrador');
             }
             if (e.name) {
               /* for (const [jid] of global.reportes_solicitudes.filter(([number]) => number)) {
