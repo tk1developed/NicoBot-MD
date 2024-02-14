@@ -18,56 +18,52 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
-║    ◉— *𝐒𝐚𝐤𝐮𝐫𝐚 𝐁𝐨𝐭 - 𝐌𝐃* —◉
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *𝗛ola, ${taguser}*
-╰═══╡✯✯✯✯✯✯✯✯✯╞═══╯
-
-┏─━─━─━∞◆∞━─━─━─┓
-┃ *< MENU-ANIME />*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ⁖⃟ ➟ 🧿 _.lolivid_
-┣ ⁖⃟ ➟ 🧿 _.loli_
-┣ ⁖⃟ ➟ 🧿 _.ppcouple_
-┣ ⁖⃟ ➟ 🧿 _.neko_
-┣ ⁖⃟ ➟ 🧿 _.waifu_
-┣ ⁖⃟ ➟ 🧿 _.akira_
-┣ ⁖⃟ ➟ 🧿 _.akiyama_
-┣ ⁖⃟ ➟ 🧿 _.anna_
-┣ ⁖⃟ ➟ 🧿 _.asuna_
-┣ ⁖⃟ ➟ 🧿 _.ayuzawa_
-┣ ⁖⃟ ➟ 🧿 _.boruto_
-┣ ⁖⃟ ➟ 🧿 _.chiho_
-┣ ⁖⃟ ➟ 🧿 _.chitoge_
-┣ ⁖⃟ ➟ 🧿 _.deidara_
-┣ ⁖⃟ ➟ 🧿 _.erza_
-┣ ⁖⃟ ➟ 🧿 _.elaina_
-┣ ⁖⃟ ➟ 🧿 _.eba_
-┣ ⁖⃟ ➟ 🧿 _.emilia_
-┣ ⁖⃟ ➟ 🧿 _.hestia_
-┣ ⁖⃟ ➟ 🧿 _.hinata_
-┣ ⁖⃟ ➟ 🧿 _.inori_
-┣ ⁖⃟ ➟ 🧿 _.isuzu_
-┣ ⁖⃟ ➟ 🧿 _.itachi_
-┣ ⁖⃟ ➟ 🧿 _.itori_
-┣ ⁖⃟ ➟ 🧿 _.kaga_
-┣ ⁖⃟ ➟ 🧿 _.kagura_
-┣ ⁖⃟ ➟ 🧿 _.kaori_
-┣ ⁖⃟ ➟ 🧿 _.keneki_
-┣ ⁖⃟ ➟ 🧿 _.kotori_
-┣ ⁖⃟ ➟ 🧿 _.kurumi_
-┣ ⁖⃟ ➟ 🧿 _.madara_
-┣ ⁖⃟ ➟ 🧿 _.mikasa_
-┣ ⁖⃟ ➟ 🧿 _.miku_
-┣ ⁖⃟ ➟ 🧿 _.minato_
-┣ ⁖⃟ ➟ 🧿 _.naruto_
-┣ ⁖⃟ ➟ 🧿 _.nezuko_
-┣ ⁖⃟ ➟ 🧿 _.sagiri_
-┣ ⁖⃟ ➟ 🧿 _.sasuke_
-┣ ⁖⃟ ➟ 🧿 _.sakura_
-┣ ⁖⃟ ➟ 🧿 _.cosplay_
-┗─━─━─━∞◆∞━─━─━─┛`.trim();
+    const str = `╭━━━･❪ *MENU/ANIME* ❫ ･━━━╮
+┣⟣❥🔮  _${usedPrefix}sakurita_
+┣⟣❥🔮  _${usedPrefix}anuel_
+┣⟣❥🔮  _${usedPrefix}karolg_
+┣⟣❥🔮  _${usedPrefix}antiguo_
+┣⟣❥🔮  _${usedPrefix}lolivid_
+┣⟣❥🔮  _${usedPrefix}loli_
+┣⟣❥🔮  _${usedPrefix}ppcouple_
+┣⟣❥🔮  _${usedPrefix}neko_
+┣⟣❥🔮  _${usedPrefix}waifu_
+┣⟣❥🔮  _${usedPrefix}akira_
+┣⟣❥🔮  _${usedPrefix}akiyama_
+┣⟣❥🔮  _${usedPrefix}anna_
+┣⟣❥🔮  _${usedPrefix}asuna_
+┣⟣❥🔮  _${usedPrefix}ayuzawa_
+┣⟣❥🔮  _${usedPrefix}boruto_
+┣⟣❥🔮  _${usedPrefix}chiho_
+┣⟣❥🔮  _${usedPrefix}chitoge_
+┣⟣❥🔮  _${usedPrefix}deidara_
+┣⟣❥🔮  _${usedPrefix}erza_
+┣⟣❥🔮  _${usedPrefix}elaina_
+┣⟣❥🔮  _${usedPrefix}eba_
+┣⟣❥🔮  _${usedPrefix}emilia_
+┣⟣❥🔮  _${usedPrefix}hestia_
+┣⟣❥🔮  _${usedPrefix}hinata_
+┣⟣❥🔮  _${usedPrefix}inori_
+┣⟣❥🔮  _${usedPrefix}isuzu_
+┣⟣❥🔮  _${usedPrefix}itachi_
+┣⟣❥🔮  _${usedPrefix}itori_
+┣⟣❥🔮  _${usedPrefix}kaga_
+┣⟣❥🔮  _${usedPrefix}kagura_
+┣⟣❥🔮  _${usedPrefix}kaori_
+┣⟣❥🔮  _${usedPrefix}keneki_
+┣⟣❥🔮  _${usedPrefix}kotori_
+┣⟣❥🔮  _${usedPrefix}kurumi_
+┣⟣❥🔮  _${usedPrefix}madara_
+┣⟣❥🔮  _${usedPrefix}mikasa_
+┣⟣❥🔮  _${usedPrefix}miku_
+┣⟣❥🔮  _${usedPrefix}minato_
+┣⟣❥🔮  _${usedPrefix}naruto_
+┣⟣❥🔮  _${usedPrefix}nezuko_
+┣⟣❥🔮  _${usedPrefix}sagiri_
+┣⟣❥🔮  _${usedPrefix}sasuke_
+┣⟣❥🔮  _${usedPrefix}sakura_
+┣⟣❥🔮  _${usedPrefix}cosplay_
+┗━━━━━━━━━━━━━━━━┛`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
