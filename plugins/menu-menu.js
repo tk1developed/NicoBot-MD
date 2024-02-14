@@ -64,6 +64,10 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃💻 _!bots_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
+╭━━━━･❪ *DIVERSIONES* ❫ ･━━━━╮
+┃🔥 _!menujuegos_
+╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
+
 ╭━━━･❪ *HERRAMIENTAS* ❫ ･━━━╮
 ┃🛠 _!enable restrict_
 ┃🛠 _!disable restrict_
@@ -81,48 +85,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃🛠 _!disable antiprivado_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
-╭━━━━･❪ *DIVERSIONES* ❫ ･━━━━╮
-┃🔥 _!sakurita_
-┃🔥 _!anuel_
-┃🔥 _!karolg_
-┃🔥 _!antiguo_
-┃🔥 _!love_
-┃🔥 _!mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
-┃🔥 _!fake *<texto1> <@tag> <texto2>*_
-┃🔥 _!ppt *<papel / tijera /piedra>*_
-┃🔥 _!prostituto *<nombre / @tag>*_
-┃🔥 _!prostituta *<nombre / @tag>*_
-┃🔥 _!gay2 *<nombre / @tag>*_
-┃🔥 _!lesbiana *<nombre / @tag>*_
-┃🔥 _!pajero *<nombre / @tag>*_
-┃🔥 _!pajera *<nombre / @tag>*_
-┃🔥 _!follar *<nombre / @tag>*_
-┃🔥 _!puto *<nombre / @tag>*_
-┃🔥 _!puta *<nombre / @tag>*_
-┃🔥 _!manco *<nombre / @tag>*_
-┃🔥 _!manca *<nombre / @tag>*_
-┃🔥 _!rata *<nombre / @tag>*_
-┃🔥 _!love *<nombre / @tag>*_
-┃🔥 _!doxear *<nombre / @tag>*_
-┃🔥 _!pregunta *<texto>*_
-┃🔥 _!suitpvp *<@tag>*_
-┃🔥 _!slot *<apuesta>*_
-┃🔥 _!ttt *<nombre sala>*_
-┃🔥 _!delttt_
-┃🔥 _!acertijo_
-┃🔥 _!personalidad *<nombre / @tag>*_
-┃🔥 _!simi *<texto>*_
-┃🔥 _!top *<texto>*_
-┃🔥 _!topgays_
-┃🔥 _!topotakus_
-┃🔥 _!formarpareja_
-┃🔥 _!verdad_
-┃🔥 _!abancar_
-┃🔥 _!reto_
-┃🔥 _!cancion_
-┃🔥 _!pista_
-┃🔥 _!akinator_
-┃🔥 _!wordfind_
+╭━━━━･❪ *MENU-ANIMES* ❫ ･━━━━╮
+┃🍨 _!menuanimes_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━━･❪ *ON/OFF* ❫ ･━━━━╮
