@@ -9,8 +9,8 @@ import moment from 'moment-timezone';
 import { es } from "./lib/idiomas/total-idiomas.js"
 
 
-global.botnumber = "+57 301 3482814"
-global.confirmCode = "57"
+global.botnumber = ""
+global.confirmCode = ""
 
 /*Numeros de los creadores*/
 global.owner = [
