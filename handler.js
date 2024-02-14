@@ -94,6 +94,7 @@ export async function handler(chatUpdate) {
         if (!isNumber(user.afk)) user.afk = -1;
                 if (!('autolevelup' in user)) user.autolevelup = true;
                 if (!('role' in user)) user.role = 'Novato';
+        if (!('muto' in user)) user.muto = false
         if (!isNumber(user.agility)) user.agility = 0;
         if (!isNumber(user.anakanjing)) user.anakanjing = 0;
         if (!isNumber(user.anakcentaur)) user.anakcentaur = 0;
@@ -501,6 +502,7 @@ export async function handler(chatUpdate) {
           afkReason: '',
           age: -1,
           agility: 16,
+          muto: false,
           anakanjing: 0,
           anakcentaur: 0,
           anakgriffin: 0,
@@ -1355,7 +1357,17 @@ const messageText = `
       }
     }
     let user; const stats = global.db.data.stats;
-    if (m) {
+    //if (m) {
+      if (m) { 
+        let utente = global.db.data.users[m.sender]
+if (utente.muto == true) {
+let bang = m.key.id
+let cancellazzione = m.key.participant
+await conn.sendMessage(m.chat, {
+delete: {
+remoteJid: m.chat, fromMe: false, id: bang, participant: cancellazzione
+}})
+}
       if (m.sender && (user = global.db.data.users[m.sender])) {
         user.exp += m.exp;
         user.limit -= m.limit * 1;
