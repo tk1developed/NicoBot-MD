@@ -345,5 +345,5 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 };
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
-handler.command = /^((off|dis)able|(tru|fals)e|(turn)?[01])$/i;
+handler.command = /^((en|dis)able|(tru|fals)e|(turn)?[01])$/i;
 export default handler;
