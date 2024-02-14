@@ -216,6 +216,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃⚙️ _!add *<numero>*_
 ┃⚙️ _!kick *<@tag>*_
 ┃⚙️ _!kick2 *<@tag>*_
+┃⚙️ _!mute *<@tag>*_
+┃⚙️ _!unmute *<@tag>*_
 ┃⚙️ _!listanum *<texto>*_
 ┃⚙️ _!kicknum *<texto>*_
 ┃⚙️ _!grupo *<abrir / cerrar>*_
