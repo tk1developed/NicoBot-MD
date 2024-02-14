@@ -10,7 +10,7 @@ import { es } from "./lib/idiomas/total-idiomas.js"
 
 
 global.botnumber = ""
-global.confirmCode = ""
+global.confirmCode = "+51 939 041 500"
 
 /*Numeros de los creadores*/
 global.owner = [
