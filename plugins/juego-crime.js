@@ -26,7 +26,7 @@ if (media === 'text5') return conn.reply(m.chat, `🍓 𝐿𝑒 𝐴𝑠 𝑅�
 console.log(e)}}
 handler.help = ['robar'];
 handler.tags = ['xp'];
-handler.command = /^(abancar|Abancar)$/i
+handler.command = /^(abancar|Abancar|Crime|crime)$/i
 handler.register = true
 handler.group = true
 export default handler;
