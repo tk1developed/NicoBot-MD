@@ -4,15 +4,15 @@ const handler = async (m, {conn, isPrems}) => {
   enviando = true
   const hasil = Math.floor(Math.random() * 5000);
   const time = global.db.data.users[m.sender].lastwork + 60000;
-  if (new Date - global.db.data.users[m.sender].lastwork < 60000) throw `⚔️ *¡Espera un momento pequeño aventurero!* ⚔️\n\n*—◉ Regresa a la travesía en ${msToTime(time - new Date())} ⏳*`;
-  conn.sendMessage(m.chat, {text: `🏞️ *Te embarcas en una emocionante aventura:*\n\n🛠️ *${pickRandom(global.work)}*\n\n*¡Ganaste ${hasil} exp por tu valentía!*`}, {quoted: m});
+  if (new Date - global.db.data.users[m.sender].lastwork < 60000) throw `🟢 *¡𝐄𝐬𝐩𝐞𝐫𝐚 𝐔𝐧𝐨𝐬 𝐌𝐢𝐧𝐮𝐭𝐨𝐬 𝐏𝐞𝐪𝐮𝐞𝐧̃𝐨 𝐓𝐫𝐚𝐛𝐚𝐣𝐚𝐝𝐨𝐫!* 🦋\n\n*😻 𝐑𝐞𝐠𝐥𝐞𝐬𝐚 𝐄𝐧: ${msToTime(time - new Date())} 🚩*`;
+  conn.sendMessage(m.chat, {text: `🍓 *𝑻𝒆 𝑬𝒎𝒃𝒂𝒓𝒄𝒂𝒔 𝑬𝒏 𝑼𝒏𝒂 𝑬𝒎𝒐𝒄𝒊𝒐𝒏𝒂𝒏𝒕𝒆 𝑨𝒗𝒆𝒏𝒕𝒖𝒓𝒂:*\n\n💖 *${pickRandom(global.work)}*\n\n*¡𝐎𝐛𝐭𝐞𝐧𝐢𝐬𝐭𝐞𝐬 ${hasil} 𝑬𝒙𝒑 𝑷𝒐𝒓 𝑺𝒆𝒓 𝑻𝒂𝒏 𝑽𝒂𝒍𝒊𝒆𝒏𝒕𝒆!*`}, {quoted: m});
   global.db.data.users[m.sender].exp += hasil;
   global.db.data.users[m.sender].lastwork = new Date() * 1;
   enviando = false
 };
 handler.help = ['work'];
 handler.tags = ['xp'];
-handler.command = /^(work|trabajar|chambear)$/i
+handler.command = /^(work|trabajar|w)$/i
 handler.fail = null;
 export default handler;
 
