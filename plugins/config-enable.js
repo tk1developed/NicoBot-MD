@@ -6,6 +6,8 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 ┣☆ ඬ⃟🌐 #disable public
 ┣☆ ඬ⃟🌐 #enable privado
 ┣☆ ඬ⃟🌐 #disable privado
+┣☆ ඬ⃟🔥 #enable juegos
+┣☆ ඬ⃟🔥 #disable juegos
 ┣☆ ඬ⃟🧸 #enable modohorny
 ┣☆ ඬ⃟🧸 #disable modohorny
 ┣☆ ඬ⃟🖇️ #enable antilink
