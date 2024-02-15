@@ -51,7 +51,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 ╰━━━━━━━✦✗✦━━━━━━━━
 𝘉𝘺: 𝘋𝘪𝘦𝘨𝘰𝘖𝘧𝘪𝘤𝘪𝘢𝘭✨`.trim();
 
-  const isEnable = /true|enable|(turn)?on|1/i.test(command);
+    const isEnable = /true|enable|(turn)?on|1/i.test(command);
   const chat = global.db.data.chats[m.chat];
   const user = global.db.data.users[m.sender];
   const bot = global.db.data.settings[conn.user.jid] || {};
@@ -310,6 +310,14 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       chat.antiToxic = isEnable;
       break;
+      case 'game': case 'juegos': case 'fun': case 'ruleta':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.game = isEnable          
+break;
     case 'antitraba':
       if (m.isGroup) {
         if (!(isAdmin || isROwner || isOwner)) {
