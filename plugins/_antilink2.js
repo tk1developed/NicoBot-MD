@@ -26,7 +26,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin, text}) {
       await conn.sendMessage(m.chat, {delete: {remoteJid: m.chat, fromMe: false, id: bang, participant: delet}});
       const responseb = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
       if (responseb[0].status === '404') return;
-    } else if (!bot.restrict) return m.reply('*🌱 𝐸𝑙 𝑃𝑟𝑜𝑝𝑖𝑒𝑡𝑎𝑟𝑖𝑜 𝑇𝑖𝑒𝑛𝑒 𝐷𝑒𝑠𝑎𝑐𝑡𝑖𝑣𝑎𝑑𝑜 𝐸𝑙 𝑅𝑒𝑠𝑡𝑟𝑖𝑛𝑔𝑖𝑟 𝑃𝑜𝑟 𝑀𝑜𝑡𝑖𝑣𝑜 𝑁𝑜 𝑃𝑢𝑒𝑑𝑜 𝐸𝑙𝑖𝑚𝑖𝑛𝑎𝑟 𝐴 𝑅𝑎𝑡𝑎𝑠. 𝑃𝑢𝑒𝑑𝑒𝑠 𝐴𝑐𝑡𝑖𝑣𝑎𝑟𝑙𝑜 𝐶𝑜𝑛: #enable restrict ⚓');
+    } else if (!bot.restrict) return m.reply('*🌱 𝐸𝑙 𝑃𝑟𝑜𝑝𝑖𝑒𝑡𝑎𝑟𝑖𝑜 𝑇𝑖𝑒𝑛𝑒 𝐷𝑒𝑠𝑎𝑐𝑡𝑖𝑣𝑎𝑑𝑜 𝐸𝑙 𝑅𝑒𝑠𝑡𝑟𝑖𝑛𝑔𝑖𝑟 𝑃𝑜𝑟 𝑀𝑜𝑡𝑖𝑣𝑜 𝑁𝑜 𝑃𝑢𝑒𝑑𝑜 𝐸𝑙𝑖𝑚𝑖𝑛𝑎𝑟 𝐴 𝑅𝑎𝑡𝑎𝑠. 𝑃𝑢𝑒𝑑𝑒𝑠 𝐴𝑐𝑡𝑖𝑣𝑎𝑟𝑙𝑜 𝐶𝑜𝑛: !enable restrict ⚓');
   }
   return !0;
 }
