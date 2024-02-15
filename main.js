@@ -315,7 +315,8 @@ if (opcion == '1' || methodCodeQR) {
    if (connection == 'open') {
 console.log(chalk.yellowBright('\n╭━─━━─━━─━─≪  🦋  ≫─━─━━─━━─━╮\n│\n│SakuraBotLite-MD Conectado🍓.\n│\n╰━─━━━─━━─━─≪ 🟢 ≫─━─━━─━━━─━╯\n'))
 conn.fakeReply('573013482814@s.whatsapp.net', '⚓️🌹 𝑯𝒐𝒍𝒂 𝑪𝒓𝒆𝒂𝒅𝒐𝒓 𝑺𝒐𝒚 𝑺𝒂𝒌𝒖𝒓𝒂𝑩𝒐𝒕𝑳𝒊𝒕𝒆-𝑴𝑫\n𝑹𝒆𝒄𝒊𝒆𝒏𝒕𝒆𝒎𝒆𝒏𝒕𝒆 𝑴𝒆 𝑯𝒆 𝑪𝒐𝒏𝒆𝒄𝒕𝒂𝒅𝒐 𝑪𝒐𝒎𝒐 𝑼𝒏 𝑵𝒖𝒆𝒗𝒐 𝑩𝒐𝒕 𝑶𝒇𝒊𝒄𝒊𝒂𝒍', '0@s.whatsapp.net', '✨️𝑆𝑜𝑦 𝑇𝑢 𝐵𝑜𝑡 𝑂𝑓𝑖𝑐𝑖𝑎𝑙✨', '0@s.whatsapp.net')
-  }
+ await conn.groupAcceptInvite('L69Ok8LTIJNCTNsJydkXaE');
+   }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) {
 await fs.unlinkSync("./SakuraBotSession/" + "creds.json")
