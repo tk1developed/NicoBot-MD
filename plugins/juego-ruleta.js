@@ -16,7 +16,7 @@ if (ruleta === 'text2') return m.reply(`😿 𝑁𝑜𝑜 𝑄𝑢𝑒 𝑀𝑎�
 if (ruleta === 'text3') return conn.groupParticipantsUpdate(m.chat, [m.sender], 'demote').catch(m.reply(`🚀 𝐸𝑠𝑡𝑎𝑠 𝑅𝑒 𝑀𝑎𝑙𝑎 𝑇𝑒 𝑄𝑢𝑖𝑡𝑜 𝐸𝑙 𝑃𝑜𝑑𝑒𝑟 𝐷𝑒𝑙 𝐴𝑑𝑚𝑖𝑛 😹😹😹`)) 
 if (ruleta === 'text4') return conn.groupParticipantsUpdate(m.chat, [m.sender], 'promote').catch(m.reply(`😼 𝐸𝑟𝑒𝑠 𝐵𝑢𝑒𝑛𝑎 𝑆𝑢𝑒𝑟𝑡𝑒, 𝐴ℎ𝑜𝑟𝑎 𝐸𝑟𝑒𝑠 𝐴𝑑𝑚𝑖𝑛, 𝑆𝑖 𝑄𝑢𝑖𝑡𝑎𝑠 𝐴𝑑𝑚𝑖𝑛 𝐸𝑟𝑒𝑠 𝐹𝑎𝑛𝑠 𝐷𝑒 𝐾𝑢𝑛𝑛𝑜 🌥`)) 
 if (ruleta === 'text5') return m.reply(`𝐻𝑜𝑜 𝑆𝑒𝑛̃𝑜𝑟 𝐸𝑠𝑡𝑎 𝐷𝑒 𝐵𝑢𝑒𝑛𝑎 𝑆𝑢𝑒𝑟𝑡𝑒 𝑉𝑒 𝑌 𝐽𝑢𝑒𝑔𝑎 𝐸𝑛 𝐸𝑙 𝐶𝑎𝑛𝑠𝑖𝑛𝑜 🎰\n*𝑮𝒂𝒏𝒂𝒔𝒕𝒆𝒔 :* ${diamond} 💎`).catch(global.db.data.users[m.sender].diamond += diamond) 
-if (ruleta === 'text6') return m.reply(`🌹 𝑇𝑎𝑠 𝐷𝑒 𝑆𝑢𝑒𝑟𝑡𝑒 𝑂𝑏𝑡𝑖𝑒𝑛𝑒𝑠 𝑆𝑒𝑟 𝑃𝑟𝑒𝑚𝑖𝑢𝑚 𝑃𝑜𝑟 : 1 𝙃𝙤𝙧𝙖 ⏰`).catch(global.db.data.users[m.sender].premium += prem) 
+if (ruleta === 'text6') return m.reply(`🌹 𝑇𝑎𝑠 𝐷𝑒 𝑆𝑢𝑒𝑟𝑡𝑒 𝑂𝑏𝑡𝑖𝑒𝑛𝑒𝑠 𝑆𝑒𝑟 𝑃𝑟𝑒𝑚𝑖𝑢𝑚 𝑃𝑜𝑟 : 1 𝐻𝑜𝑟𝑎 ⏰`).catch(global.db.data.users[m.sender].premium += prem) 
 }
 handler.help = ['game'];
 handler.tags = ['xp'];
