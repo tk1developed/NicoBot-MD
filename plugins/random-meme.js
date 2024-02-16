@@ -8,4 +8,5 @@ const handler = async (m, {command, conn}) => {
 handler.help = ['meme'];
 handler.tags = ['random'];
 handler.command = /^(meme|memes)$/i;
+handler.register = true
 export default handler;
