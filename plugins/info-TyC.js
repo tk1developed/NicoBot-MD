@@ -17,7 +17,7 @@ global.terminos = `𝑺𝑴𝑺 𝑫𝑬𝑳 𝑪𝑹𝑬𝑨𝑫𝑶𝑹✨
 
 𝑪𝒐𝒏𝒕𝒂𝒄𝒕𝒂𝒏𝒐𝒔🚀
 
-✫ Wa.me/573004826011
+✫ Wa.me/+57 301 3482814
 ᯽ diegojadibot
 ✫ Correo electronico: 
 argumedodie@gmail.com
