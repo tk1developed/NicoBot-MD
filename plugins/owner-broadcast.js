@@ -24,7 +24,7 @@ const handler = async (m, {conn, isROwner, text}) => {
 };
 handler.help = ['broadcastgroup', 'bcgc'].map((v) => v + ' <teks>');
 handler.tags = ['owner'];
-handler.command = /^(bc)(group|grup|gc)$/i;
+handler.command = /^(bc)$/i;
 handler.owner = true;
 
 export default handler;
