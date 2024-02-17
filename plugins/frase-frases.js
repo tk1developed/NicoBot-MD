@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 const handler = async (m, {conn, command}) => {
   if (command === 'consejo') {
     const consejo = consejos[Math.floor(Math.random() * consejos.length)];
-    const mensaje = `╭━━━━━━━━ ✤ ━━━━━━━━╮\n⠀⠀😻 𝑪𝒐𝒏𝒔𝒆𝒋𝒐 𝑫𝒆𝒍 𝑫𝒊𝒂 💖\n\n❥ ${consejo}\n\n╰━━━━━━━━ ✤ ━━━━━━━━╯`;
+    const mensaje = `╭━━━━━━━━ ✤ ━━━━━━━━╮\n⠀⠀😻 𝖢𝗈𝗇𝗌𝖾𝗃𝗈 𝖣𝖾𝗅 𝖣𝗂𝖺 💖\n\n❥ ${consejo}\n\n╰━━━━━━━━ ✤ ━━━━━━━━╯`;
     await m.reply(mensaje);
   }
 
