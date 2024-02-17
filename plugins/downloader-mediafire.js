@@ -4,13 +4,13 @@ import cheerio from 'cheerio';
 import {mediafiredl} from '@bochilteam/scraper';
 
 const handler = async (m, {conn, args, usedPrefix, command}) => {
-  if (!args[0]) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝙴𝙽𝙻𝙰𝙲𝙴 𝚅𝙰𝙻𝙸𝙳𝙾 𝙳𝙴 𝙼𝙴𝙳𝙸𝙰𝙵𝙸𝚁𝙴, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command} https://www.mediafire.com/file/r0lrc9ir5j3e2fs/DOOM_v13_UNCLONE*`;
+  if (!args[0]) throw `*😻 𝑃𝑜𝑟 𝐹𝑎𝑣𝑜𝑟 𝐸𝑛𝑣𝑖𝑒 𝑈𝑛 𝐸𝑛𝑙𝑎𝑐𝑒 𝐷𝑒 𝑀𝑑𝑖𝑎𝑓𝑖𝑟𝑒, 𝑺𝒊𝒎𝒊𝒍𝒂𝒓 𝑨: ${usedPrefix + command} https://www.mediafire.com/file/r0lrc9ir5j3e2fs/DOOM_v13_UNCLONE*`;
   try {
     const resEX = await mediafiredl(args[0]);
     const captionES = `
-*📓 𝙽𝙾𝙼𝙱𝚁𝙴:* ${resEX.filename}
-*📁 𝙿𝙴𝚂𝙾:* ${resEX.filesizeH}
-*📄 𝚃𝙸𝙿𝙾:* ${resEX.ext}
+*📓 Nᴏᴍʙʀᴇ:* ${resEX.filename}
+*📁 Pᴇsᴏ:* ${resEX.filesizeH}
+*📄 Tɪᴘᴏ:* ${resEX.ext}
 
 *⏳ 𝙴𝚂𝙿𝙴𝚁𝙴 𝙴𝙽 𝙻𝙾 𝚀𝚄𝙴 𝙴𝙽𝚅𝙸𝙾 𝚂𝚄 𝙰𝚁𝙲𝙷𝙸𝚅𝙾. . . .* 
 `.trim();
@@ -21,9 +21,9 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
       const res = await mediafireDl(args[0]);
       const {name, size, date, mime, link} = res;
       const caption = `
-*📓 𝙽𝙾𝙼𝙱𝚁𝙴:* ${name}
-*📁 𝙿𝙴𝚂𝙾:* ${size}
-*📄 𝚃𝙸𝙿𝙾:* ${mime}
+*📓 Nᴏᴍʙʀᴇ:* ${name}
+*📁 Pᴇsᴏ:* ${size}
+*📄 Tɪᴘᴏ:* ${mime}
 
 *⏳ 𝙴𝚂𝙿𝙴𝚁𝙴 𝙴𝙽 𝙻𝙾 𝚀𝚄𝙴 𝙴𝙽𝚅𝙸𝙾 𝚂𝚄 𝙰𝚁𝙲𝙷𝙸𝚅𝙾. . . .* 
 `.trim();
