@@ -3,7 +3,7 @@
 
 ## `🍓𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🦋` 
 <p align="center">
-<img src="https://telegra.ph/file/c22ace5f5b2ed425f61c8.mp4" alt="SakuraBotLite-MD" width="900"/>
+<img src="https://telegra.ph/file/e5c184e81e1124b028fb9.png" alt="SakuraBotLite-MD" width="900"/>
 </p>
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="𝖯𝗋𝗎𝖾𝖻𝖺 𝖤𝗅 𝖡𝗈𝗍 𝖠𝗊𝗎𝗂" width="42" height="42"> 𝖯𝗋𝗎𝖾𝖻𝖺 𝖤𝗅 𝖡𝗈𝗍 𝖠𝗊𝗎𝗂
