@@ -1,4 +1,4 @@
-//este archivo esta vacio
+
 
 let media = './Menu2.jpg'
 let handler = async (m, { conn, command }) => {
