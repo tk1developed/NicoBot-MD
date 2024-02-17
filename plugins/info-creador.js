@@ -1,6 +1,6 @@
 let handler = async (m, { conn, usedPrefix, isOwner }) => {
-let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:Diego ✨️\nFN:Diego ✨️\nORG:Diego ✨️\nTITLE:\nitem1.TEL;waid=573013482814:573013482814\nitem1.X-ABLabel:Diego ✨️\nX-WA-BIZ-DESCRIPTION:\nX-WA-BIZ-NAME:Diego ✨️\nEND:VCARD`
-await conn.sendMessage(m.chat, { contacts: { displayName: 'Diego ✨️', contacts: [{ vcard }] }}, {quoted: m})
+let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:𝑾𝒂.𝒕.𝑺𝒊𝒏 𝑷𝒆𝒓𝒇𝒊𝒍/𝑶𝒇𝒄\nFN:𝑾𝒂.𝒕.𝑺𝒊𝒏 𝑷𝒆𝒓𝒇𝒊𝒍/𝑶𝒇𝒄\nORG:𝑾𝒂.𝒕.𝑺𝒊𝒏 𝑷𝒆𝒓𝒇𝒊𝒍/𝑶𝒇𝒄\nTITLE:\nitem1.TEL;waid=573013482814:573013482814\nitem1.X-ABLabel:𝑾𝒂.𝒕.𝑺𝒊𝒏 𝑷𝒆𝒓𝒇𝒊𝒍/𝑶𝒇𝒄\nX-WA-BIZ-DESCRIPTION:\nX-WA-BIZ-NAME:𝑾𝒂.𝒕.𝑺𝒊𝒏 𝑷𝒆𝒓𝒇𝒊𝒍/𝑶𝒇𝒄\nEND:VCARD`
+await conn.sendMessage(m.chat, { contacts: { displayName: '𝑾𝒂.𝒕.𝑺𝒊𝒏 𝑷𝒆𝒓𝒇𝒊𝒍/𝑶𝒇𝒄', contacts: [{ vcard }] }}, {quoted: m})
 }
 handler.help = ['owner']
 handler.tags = ['main']
