@@ -27,7 +27,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 const document = doc[Math.floor(Math.random() * doc.length)];
  const str = `╭━━━･❪ *MENU/ANIME* ❫ ･━━━╮
 ┣⟣❥🔮  _!sakurita_
-┣⟣❥🔮  _!anuel_
 ┣⟣❥🔮  _!karolg_
 ┣⟣❥🔮  _!antiguo_
 ┣⟣❥🔮  _!lolivid_
