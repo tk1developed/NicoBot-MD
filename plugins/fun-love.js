@@ -2,7 +2,6 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let name = conn.getName(who)
 const pp = './Menu2.jpg
-
 let love = `\t\t*➺ 𝐸𝑙 𝑀𝑒𝑑𝑖𝑑𝑜𝑟 𝐷𝑒𝑙 𝐴𝑚𝑜𝑟💘*
 
 ╭• ────── ✾ ────── •╮
@@ -14,7 +13,7 @@ let love = `\t\t*➺ 𝐸𝑙 𝑀𝑒𝑑𝑖𝑑𝑜𝑟 𝐷𝑒𝑙 𝐴𝑚
 conn.sendMessage(m.chat, {text: love, mentions: [m.sender]}, {quoted: m})
 
 }
-handler.help = ['love']
+handler.help = ['fun']
 handler.tags = ['juegos']
 handler.command = /^(love|amor|poncentaje)$/i
 
