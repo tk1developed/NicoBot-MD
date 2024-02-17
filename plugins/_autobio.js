@@ -22,7 +22,7 @@ function clockString(ms) {
   return [d, ' • ', h, ' » ', m, ' » ', s].map(v => v.toString().padStart(2, 0)).join('') 
 }*/
 
-if (command == 'status' || command == 'velocidad') {
+if (command == 'sta' || command == 'velocidad') {
 const { performance } = require('perf_hooks') 
 const osu = require('node-os-utils') 
 const used = process.memoryUsage()
