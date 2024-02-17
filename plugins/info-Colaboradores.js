@@ -43,8 +43,6 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃✣➸ 𝖬𝖺𝗋𝗂𝗈:
 ┃ https://github.com/elrebelde21
 ┃
-┃✣➸ 𝖤𝗇𝗓𝗈:
-┃ https://github.com/Enzito-Vase
 ╰◆━━━━━━◆❃◆━━━━━━◆
 
 ╭✨️⸽⃕𝗡𝘂𝗺𝗲𝗿𝗼𝘀 𝗢𝘄𝗻𝗲𝗿🍁⃨፝⃕✰ 
@@ -52,7 +50,6 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┋𝖠𝗓𝖺𝗆𝗂: @5217294888993
 ┋𝖬𝖺𝗋𝗂𝗈: @5492266466080
 ┋𝖤𝗇𝖽𝖾𝗋: @50558124470
-┋𝖤𝗇𝗓𝗈: @5491168758497
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━`.trim();     if (m.isGroup) { 
  // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
@@ -63,7 +60,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
     }
   } catch {
-    conn.reply(m.chat, '*[ ℹ️ ] Este menu tiene un error interno, por lo cual no fue posible enviarlo.*', m);
+    conn.reply(m.chat, '*😻 𝘓𝘰𝘴𝘪𝘦𝘯𝘵𝘰, 𝘌𝘳𝘳𝘰𝘳, 𝘕𝘰 𝘗𝘶𝘦𝘥𝘰 𝘌𝘯𝘷𝘪𝘢𝘳 𝘌𝘭 𝘔𝘦𝘯𝘴𝘢𝘫𝘦!*', m);
   }
 };
 handler.command = /^(colaboradores|Colaboradores)$/i;
