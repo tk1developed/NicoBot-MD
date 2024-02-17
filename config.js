@@ -53,6 +53,8 @@ global.gp5 = 'https://chat.whatsapp.com/HXOGzELFOVXFM1KrSoKdqH' //Grupo MultiBot
 
 global.channel = 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n' //Canal Oficial
 
+global.yt = 'https://www.youtube.com/@SakuraBotLite'
+
 global.mods = [];
 
 
