@@ -9,7 +9,7 @@ const handler = async (m, {conn, command}) => {
 
   if (command === 'fraseromantica') {
     const frase_romantica = frasesromanticas[Math.floor(Math.random() * frasesromanticas.length)];
-    const mensaje = `╭━━━━━━━━ ✤ ━━━━━━━━╮\n⠀⠀😻 𝖥𝗋𝖺𝗌𝖾 𝖱𝗈𝗆𝖺𝗇𝗍𝗂𝖼𝖺𝗌 💖\n\n➺ ${frase_romantica}\n\n╰━━━━━━━━ ✤ ━━━━━━━━╯`;
+    const mensaje = `╭━━━━━━━━ ✤ ━━━━━━━━╮\n⠀⠀😻 𝖥𝗋𝖺𝗌𝖾 𝖱𝗈𝗆𝖺𝗇𝗍𝗂𝖼𝖺 💖\n\n➺ ${frase_romantica}\n\n╰━━━━━━━━ ✤ ━━━━━━━━╯`;
     await m.reply(mensaje);
   }
 
