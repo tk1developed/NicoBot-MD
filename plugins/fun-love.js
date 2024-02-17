@@ -14,9 +14,7 @@ conn.sendMessage(m.chat, {text: love, mentions: [m.sender]}, {quoted: m})
 
 }
 handler.help = ['fun']
-handler.tags = ['juegos']
-handler.command = /^(love|amor|poncentaje)$/i
-
+handler.tags = ['love @user']
+handler.command = /^(love|amor)$/i
 handler.register = true
-
 export default handler
