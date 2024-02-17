@@ -4,7 +4,7 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import {load} from 'cheerio';
 const handler = async (m, {text, usedPrefix, command, conn}) => {
-  if (!text) throw '*[❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙰 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽𝙰 𝙿𝙴𝙻𝙸𝙲𝚄𝙻𝙰 𝙰 𝙱𝚄𝚂𝙲𝙰𝚁*';
+  if (!text) throw '*💖 𝖨𝗇𝗀𝗋𝖾𝗌𝖾 𝖠𝗅𝗀𝗎𝗇 𝖭𝗈𝗆𝖻𝗋𝖾 𝖣𝖾 𝖫𝖺 𝖯𝖾𝗅𝗂𝖼𝗎𝗅𝖺 𝖰𝗎𝖾 𝖣𝖾𝗌𝖾𝖺𝗌 𝖡𝗎𝗌𝖼𝖺𝗋 🐱*';
   let aaaa;
   let img;
   try {
@@ -14,9 +14,9 @@ const handler = async (m, {text, usedPrefix, command, conn}) => {
     aaaa = await searchP(text);
     img = 'https://elcomercio.pe/resizer/RJM30xnujgfmaODGytH1rRVOrAA=/400x0/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/BJ2L67XNRRGHTFPKPDOEQ2AH5Y.jpg';
   }
-  if (aaaa == '') throw '*[❗] 𝙽𝙾 𝚂𝙴 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙾 𝙽𝙸𝙽𝙶𝚄𝙽𝙰 𝙿𝙴𝙻𝙸𝙲𝚄𝙻𝙰*';
-  const res = await aaaa.map((v) => `*🎬 • Nombre:* ${v.title}\n*🍿 • Url:* ${v.link}`).join`\n\n───────────────\n\n`;
-  const ads = '*💫 • Bloqueador de anuncios recomendado:* Block This\n*⛨ • Link:* https://block-this.com/block-this-latest.apk\n\n≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣\n\n';
+  if (aaaa == '') throw '*✨𝘕𝘰 𝘏𝘢𝘺 𝘙𝘦𝘴𝘶𝘭𝘵𝘢𝘥𝘰𝘴 🐈*';
+  const res = await aaaa.map((v) => `*🎬 • 𝐍𝐚𝐦𝐞:* ${v.title}\n*🍿 • Url:* ${v.link}`).join`\n\n───────────────\n\n`;
+  const ads = '*💫 • 𝐁𝐥𝐨𝐪𝐮𝐞𝐚𝐝𝐨𝐫 𝐃𝐞 𝐀𝐧𝐮𝐧𝐜𝐢𝐨𝐬 𝐑𝐞𝐜𝐨𝐦𝐞𝐧𝐝𝐚𝐝𝐨𝐬:* Block This\n*⛨ • 𝐄𝐧𝐥𝐚𝐜𝐞:* https://block-this.com/block-this-latest.apk\n\n≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣\n\n';
   conn.sendMessage(m.chat, {image: {url: img}, caption: ads + res}, {quoted: m});
 };
 handler.command = ['cuevana', 'pelisplus'];
