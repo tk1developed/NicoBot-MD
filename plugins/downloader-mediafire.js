@@ -4,7 +4,7 @@ import cheerio from 'cheerio';
 import {mediafiredl} from '@bochilteam/scraper';
 
 const handler = async (m, {conn, args, usedPrefix, command}) => {
-  if (!args[0]) throw `*😻 𝑃𝑜𝑟 𝐹𝑎𝑣𝑜𝑟 𝐸𝑛𝑣𝑖𝑒 𝑈𝑛 𝐸𝑛𝑙𝑎𝑐𝑒 𝐷𝑒 𝑀𝑑𝑖𝑎𝑓𝑖𝑟𝑒, 𝑺𝒊𝒎𝒊𝒍𝒂𝒓 𝑨: ${usedPrefix + command} https://www.mediafire.com/file/r0lrc9ir5j3e2fs/DOOM_v13_UNCLONE*`;
+  if (!args[0]) throw `*😻 𝑃𝑜𝑟 𝐹𝑎𝑣𝑜𝑟 𝐸𝑛𝑣𝑖𝑒 𝑈𝑛 𝐸𝑛𝑙𝑎𝑐𝑒 𝐷𝑒 𝑀𝑒𝑑𝑖𝑎𝑓𝑖𝑟𝑒, 𝑺𝒊𝒎𝒊𝒍𝒂𝒓 𝑨: ${usedPrefix + command} https://www.mediafire.com/file/r0lrc9ir5j3e2fs/DOOM_v13_UNCLONE*`;
   try {
     const resEX = await mediafiredl(args[0]);
     const captionES = `
