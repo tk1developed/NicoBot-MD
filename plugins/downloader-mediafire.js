@@ -30,7 +30,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
       await m.reply(caption);
       await conn.sendFile(m.chat, link, name, '', m, null, {mimetype: mime, asDocument: true});
     } catch {
-      await m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*\n\n*- 𝙲𝙾𝚁𝚁𝙾𝙱𝙾𝚁𝙴 𝚀𝚄𝙴 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 𝚂𝙴𝙰 𝚂𝙸𝙼𝙸𝙻𝙰𝚁 𝙰:*\n*◉ https://www.mediafire.com/file/r0lrc9ir5j3e2fs/DOOM_v13_UNCLONE*');
+      await m.reply('*😻 𝑃𝑜𝑟 𝐹𝑎𝑣𝑜𝑟 𝐸𝑛𝑣𝑖𝑒 𝑈𝑛 𝐸𝑛𝑙𝑎𝑐𝑒 𝐷𝑒 𝑀𝑒𝑑𝑖𝑎𝑓𝑖𝑟𝑒, 𝑺𝒊𝒎𝒊𝒍𝒂𝒓 𝑨:*\n*◉ https://www.mediafire.com/file/r0lrc9ir5j3e2fs/DOOM_v13_UNCLONE*');
     }
   }
 };
