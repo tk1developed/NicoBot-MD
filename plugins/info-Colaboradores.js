@@ -47,9 +47,13 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 
 ╭✨️⸽⃕𝗡𝘂𝗺𝗲𝗿𝗼𝘀 𝗢𝘄𝗻𝗲𝗿🍁⃨፝⃕✰ 
 ┋𝖣𝗂𝖾𝗀𝗈: @573013482814
+┃
 ┋𝖠𝗓𝖺𝗆𝗂: @5217294888993
+┃
 ┋𝖬𝖺𝗋𝗂𝗈: @5492266466080
+┃
 ┋𝖤𝗇𝖽𝖾𝗋: @50558124470
+┃
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━`.trim();     if (m.isGroup) { 
  // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
