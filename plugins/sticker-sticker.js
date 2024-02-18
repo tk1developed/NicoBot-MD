@@ -37,7 +37,7 @@ stiker = await sticker(false, out, global.packname, global.author)
 if (!stiker) errorMessage = 'ERROR'
 }} else if (args[0]) {
 if (isUrl(args[0])) stiker = await sticker(false, args[0], global.packname, global.author)
-else return m.reply('⚘️ Eɴʟᴀᴄᴇ Iɴᴠᴀʟɪᴅᴏ!')}
+else return m.reply('⚘️ Este Enlace No Es Válido')}
 
 if (stiker) {
 conn.sendFile(m.chat, stiker, 'sticker.webp', '', m)
