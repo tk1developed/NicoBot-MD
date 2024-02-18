@@ -95,8 +95,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃✨️ _!disable *antilink*_
 ┃✨️ _!enable *antilink2*_
 ┃✨️ _!disable *antilink2*_
-┃🛠 _!enable *juegos*_
-┃🛠 _!disable *juegos*_
+┃✨️ _!enable *juegos*_
+┃✨️ _!disable *juegos*_
 ┃✨️ _!enable *detect*_
 ┃✨️ _!disable *detect*_
 ┃✨️ _!enable *audios*_
