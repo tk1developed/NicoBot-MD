@@ -21,7 +21,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const old = performance.now();
   const neww = performance.now();
   const speed = neww - old;
-    await conn.sendMessage(m.chat, { react: { text: '🚀', key: m.key } })
+    await conn.sendMessage(m.chat, { react: { text: '🥀', key: m.key } })
   const info = `
 
 ╭━━━━━━･❪ ❁ ❫ ･━━━━━━
