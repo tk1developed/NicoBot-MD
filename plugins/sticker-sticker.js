@@ -20,7 +20,7 @@ if (/webp|image|video/g.test(mime)) {
 let img = await q.download?.()
 let out
 stiker = await sticker(img, false, global.packname, global.author)
-    //await conn.sendMessage(m.chat, { react: { text: '☘️', key: m.key } })
+    await conn.sendMessage(m.chat, { react: { text: '🐒', key: m.key } })
 await conn.reply(m.chat, `𝐸𝑠𝑝𝑒𝑟𝑎 𝐵𝑟𝑜𝑑𝑒𝑟 𝐸𝑙 𝑆𝑡𝑖𝑘𝑒𝑟 𝑆𝑒 𝐸𝑠𝑡𝑎́ 𝐶𝑟𝑒𝑎𝑛𝑑𝑜⚓..
 
 🌼 𝑺𝒊 𝑬𝒍 𝑺𝒕𝒊𝒄𝒌𝒆𝒓 𝑻𝒊𝒆𝒏𝒆 𝑬𝒓𝒓𝒐𝒓 𝑷𝒐𝒓 𝑭𝒂𝒗𝒐𝒓 𝑹𝒆𝒆𝒏𝒗𝒊𝒆𝒔𝒆𝒍𝒐 𝑨𝒍 𝑪𝒓𝒆𝒂𝒅𝒐𝒓 𝑫𝒆𝒍 𝑩𝒐𝒕.🌱
