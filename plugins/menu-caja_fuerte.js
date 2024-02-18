@@ -5,6 +5,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   } finally {
     const name = await conn.getName(m.sender);
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
+    await conn.sendMessage(m.chat, { react: { text: '✈️', key: m.key } })
     const str = `
 *ミ💖 𝙷𝙾𝙻𝙰 ${taguser} 💖彡*
 
