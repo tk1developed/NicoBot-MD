@@ -47,10 +47,10 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 ┋
 ┋➺ 🪁 *Canal:* 
 ┋➺ ${yt_play[0].author.url}
-│
+┋
 ┋➺ 🏕 *ID:* 
 ┋➺ ${yt_play[0].videoId}
-│
+┋
 ┋➺ 🌤 *Tipo:*
 ┋➺ ${yt_play[0].type}
 ┋
