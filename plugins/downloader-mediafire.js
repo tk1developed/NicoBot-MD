@@ -12,7 +12,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
 *📁 Pᴇsᴏ:* ${resEX.filesizeH}
 *📄 Tɪᴘᴏ:* ${resEX.ext}
 
-*⏳ 𝙴𝚂𝙿𝙴𝚁𝙴 𝙴𝙽 𝙻𝙾 𝚀𝚄𝙴 𝙴𝙽𝚅𝙸𝙾 𝚂𝚄 𝙰𝚁𝙲𝙷𝙸𝚅𝙾. . . .* 
+*⏳ 𝘌𝘴𝘱𝘦𝘳𝘦 𝘌𝘯 𝘓𝘰 𝘘𝘶𝘦 𝘌𝘯𝘷𝘪𝘰 𝘚𝘶 𝘈𝘳𝘤𝘩𝘪𝘷𝘰 𝘋𝘦 𝘔𝘦𝘥𝘪𝘢𝘧𝘪𝘳𝘦. . . .* 
 `.trim();
     m.reply(captionES);
     await conn.sendFile(m.chat, resEX.url, resEX.filename, '', m, null, {mimetype: resEX.ext, asDocument: true});
@@ -25,7 +25,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
 *📁 Pᴇsᴏ:* ${size}
 *📄 Tɪᴘᴏ:* ${mime}
 
-*⏳ 𝙴𝚂𝙿𝙴𝚁𝙴 𝙴𝙽 𝙻𝙾 𝚀𝚄𝙴 𝙴𝙽𝚅𝙸𝙾 𝚂𝚄 𝙰𝚁𝙲𝙷𝙸𝚅𝙾. . . .* 
+*⏳ 𝘌𝘴𝘱𝘦𝘳𝘦 𝘌𝘯 𝘓𝘰 𝘘𝘶𝘦 𝘌𝘯𝘷𝘪𝘰 𝘚𝘶 𝘈𝘳𝘤𝘩𝘪𝘷𝘰 𝘋𝘦 𝘔𝘦𝘥𝘪𝘢𝘧𝘪𝘳𝘦. . . .* 
 `.trim();
       await m.reply(caption);
       await conn.sendFile(m.chat, link, name, '', m, null, {mimetype: mime, asDocument: true});
@@ -36,7 +36,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
 };
 handler.help = ['mediafire'].map((v) => v + ' <url>');
 handler.tags = ['downloader'];
-handler.command = /^(mediafire|mediafiredl|dlmediafire)$/i;
+handler.command = /^(mediafire||fire|mediafiredl|dlmediafire)$/i;
 handler.register = true
 export default handler;
 
