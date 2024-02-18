@@ -13,6 +13,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     } else if (command === 'play4' || command == 'playdoc2') {
       additionalText = 'video 🎥';
     }
+    await conn.sendMessage(m.chat, { react: { text: '⏳️', key: m.key } })
     const texto1 = `*◉——⌈🔊 PLAY DOC 🔊⌋——◉*\n
 ∘😻 *Titulo:*
  ${yt_play[0].title}
