@@ -75,6 +75,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃🛠 _!disable antispam_
 ┃🛠 _!enable anticall_
 ┃🛠 _!disable anticall_
+┃🛠 _!enable juegos_
+┃🛠 _!disable juegos_
 ┃🛠 _!enable modoia_
 ┃🛠 _!disable modoia_
 ┃🛠 _!enable audios_bot_
