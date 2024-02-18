@@ -61,7 +61,7 @@ const handler = async (m, { conn, usedPrefix }) => {
         previewType: "pdf",
         title: "Tᴜ Mᴇᴊᴏʀ Bᴏᴛ!",
         body: wm,
-        thumbnail: imagen3,
+        thumbnail: imagen6,
         sourceUrl: "https://atom.bio/sakuralite",
       },
     },
