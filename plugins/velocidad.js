@@ -9,6 +9,7 @@ let handler = async (m, { conn }) => {
          exec(`neofetch --stdout`, (error, stdout, stderr) => {
           let child = stdout.toString("utf-8");
           let ssd = child.replace(/Memory:/, "Ram:");
+    await conn.sendMessage(m.chat, { react: { text: '😼', key: m.key } })
           m.reply(`🍓 𝗠𝗶 𝗩𝗲𝗹𝗼𝗰𝗶𝗱𝗮𝗱  ${latensi.toFixed(4)} *ms*`);
             });
 }
