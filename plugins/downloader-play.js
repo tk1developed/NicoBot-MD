@@ -25,38 +25,38 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
       additionalText = 'video 🎥';
     }
     await conn.sendMessage(m.chat, { react: { text: '⏰️', key: m.key } })
-    const texto1 = `┏─━─━─━∞◆∞━─━─━─┓
+    const texto1 = `╭─━━━━━━⊱✿⊰━━━━━━─
 │➻ *➥ 🔊 MUSIC PLAY 🔊*
-┗─━─━─━∞◆∞━─━─━─┛
+╰─━━━━━━⊱✿⊰━━━━━━─
 
-┏─━─━─━∞◆∞━─━─━─┓
-│➻ 📌 *Titulo:* 
-│➻ ${yt_play[0].title}
+╭◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
+┋➺ 📌 *Titulo:* 
+┋➺ ${yt_play[0].title}
+┋
+┋➺ 📆 *Publicado:* 
+┋➺ ${yt_play[0].ago}
+┋
+┋➺ ⌚ *Duracion:*
+┋➺ ${secondString(yt_play[0].duration.seconds)}
+┋
+┋➺ 👀 *Vistas:* 
+┋➺ ${`${MilesNumber(yt_play[0].views)}`}
+┋
+┋➺ 🏝 *Autor:* 
+┋➺ ${yt_play[0].author.name}
+┋
+┋➺ 🪁 *Canal:* 
+┋➺ ${yt_play[0].author.url}
 │
-│➻ 📆 *Publicado:* 
-│➻ ${yt_play[0].ago}
+┋➺ 🏕 *ID:* 
+┋➺ ${yt_play[0].videoId}
 │
-│➻ ⌚ *Duracion:*
-│➻ ${secondString(yt_play[0].duration.seconds)}
-│
-│➻ 👀 *Vistas:* 
-│➻ ${`${MilesNumber(yt_play[0].views)}`}
-│➻
-│➻ 🏝 *Autor:* 
-│➻ ${yt_play[0].author.name}
-│
-│➻ 🪁 *Canal:* 
-│➻ ${yt_play[0].author.url}
-│
-│➻ 🏕 *ID:* 
-│➻ ${yt_play[0].videoId}
-│
-│➻ 🌤 *Tipo:*
-│➻ ${yt_play[0].type}
-│
-│➻ 🔗 *Link:* 
-│➻ ${yt_play[0].url}
-┗─━─━─━∞◆∞━─━─━─┛
+┋➺ 🌤 *Tipo:*
+┋➺ ${yt_play[0].type}
+┋
+┋➺ 🔗 *Link:* 
+┋➺ ${yt_play[0].url}
+╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
 ┏─━─━─━∞◆∞━─━─━─┓
 │➻ *_Enviando ${additionalText}, Aguarde Un Momento. . . ．．．_*
