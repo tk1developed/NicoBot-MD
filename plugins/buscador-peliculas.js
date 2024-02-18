@@ -1,6 +1,6 @@
-/* Creado/adaptado por Bruno Sobrino (https://github.com/BrunoSobrino) */
 
-import fetch from 'node-fetch';
+
+/*import fetch from 'node-fetch';
 import axios from 'axios';
 import {load} from 'cheerio';
 const handler = async (m, {text, usedPrefix, command, conn}) => {
@@ -59,4 +59,4 @@ async function searchP(query, numberPage = 1) {
     resultSearch.push({title: title, link: link});
   });
   return resultSearch;
-}
+}*/
