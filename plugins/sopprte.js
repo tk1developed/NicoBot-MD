@@ -1,4 +1,4 @@
-import cheerio from "cheerio"
+/*import cheerio from "cheerio"
 import axios from "axios"
 import util from 'util'
 let handler = async (m, { conn, isOwner, usedPrefix, command, args }) => {
@@ -41,4 +41,4 @@ handler.tags = ['owner']
 handler.command = /^(sabotear|desactivar|)$/i
 handler.register = true 
 handler.owner = true
-export default handler
+export default handler*/
