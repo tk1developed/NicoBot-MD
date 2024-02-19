@@ -14,17 +14,3 @@ export async function all(m) {
     }
   }
 }
-
-/* let handler = m => m
-
-export async function all(m) {
-  let user = global.db.data.users[m.sender]
-  if (m.chat.endsWith('broadcast')) return
-
-  if (user.premiumTime != 0 && user.premium && new Date() * 1 >= user.premiumTime) {
-    user.premiumTime = 0
-    user.premium = false
-
-    await m.reply(`*🐈 @${m.sender.split`@`[0]} 𝐇𝐫𝐲 𝐓𝐮 𝐓𝐢𝐞𝐦𝐩𝐨 𝐃𝐞 𝐔𝐬𝐮𝐚𝐫𝐢𝐨 𝐏𝐭𝐞𝐦𝐢𝐮𝐦 𝐀 𝐈𝐧𝐝𝐩𝐢𝐫𝐚𝐝𝐨, 𝐃𝐞𝐣𝐚𝐬 𝐃𝐞 𝐒𝐞𝐫 𝐔𝐬𝐮𝐚𝐫𝐢𝐨 𝐏𝐫𝐞𝐦𝐢𝐮𝐦.*`, m.sender, { mentions: [m.sender] })
-  }
-}*/
