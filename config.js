@@ -43,7 +43,7 @@ global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6 = fs.readFileSync('./Menu3.png');
 
 //Grupos
-global.gp1 = 'https://chat.whatsapp.com/L69Ok8LTIJNCTNsJydkXaE' //Grupo Oficial
+global.gp1 = 'https://chat.whatsapp.com/DV7fEXPjgTtAIQXFZSIJhP' //Grupo Oficial
 
 global.gp2 = 'https://chat.whatsapp.com/DN0Qcj8Mbpg7HaHn6l35ts' //Grupo Global
 
