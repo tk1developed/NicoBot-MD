@@ -12,11 +12,10 @@ import { es } from "./lib/idiomas/total-idiomas.js"
 global.botnumber = ""
 global.confirmCode = ""
 
-/*Numeros de los creadores*/
+//No quitar los numeros de los creadores!
 global.owner = [
  ['573013482814', '🍓 𝖢𝖱𝖤𝖠𝖣𝖮𝖱 ✨', true],
  ['14043826657', '𝖤𝗌 𝖴𝗇 𝖡𝗈𝗍 😻', true],
- ['12053775786'],
  ['51935499065'],
  ['5491130182250'],
  ['5215610314499']]
@@ -43,7 +42,7 @@ global.imagen4 = fs.readFileSync('./Menu.png');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6 = fs.readFileSync('./Menu3.png');
 
-//Grupos
+//Grupos Ofc
 global.gp1 = 'https://chat.whatsapp.com/DV7fEXPjgTtAIQXFZSIJhP' //Grupo Oficial
 
 global.gp2 = 'https://chat.whatsapp.com/DN0Qcj8Mbpg7HaHn6l35ts' //Grupo Global
@@ -56,6 +55,7 @@ global.gp5 = 'https://chat.whatsapp.com/HXOGzELFOVXFM1KrSoKdqH' //Grupo MultiBot
 
 global.channel = 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n' //Canal Oficial
 
+//Canal de Yt
 global.yt = 'https://www.youtube.com/@SakuraBotLite'
 
 global.mods = [];
