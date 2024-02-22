@@ -12,7 +12,7 @@ let str = `*🍓 GRUPOS OFICIALES*
   *_┃🐢❏ ${gp2}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
- *⚡️ GRUPO EN COLABORACIÓN*
+ *⚡️ GRUPOS EN COLABORACIÓN*
 
     *_╭━━━⊜ Curiosity y SakuraBot_*
   *_┃🌿❏ ${gp3}_*
