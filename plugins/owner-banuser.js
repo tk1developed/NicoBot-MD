@@ -30,7 +30,7 @@ for (let i = 0; i < global.owner.length; i++) {
 ownerNumber = global.owner[i][0];
 if (user.replace(/@s\.whatsapp\.net$/, '') === ownerNumber) {
 aa = ownerNumber + '@s.whatsapp.net'
-await conn.reply(m.chat, `🦋 𝖭𝗈 𝖲𝖾 𝖯𝗎𝖾𝖽𝖾 𝖡𝖺𝗇𝖾𝖺𝗋 𝖤𝗅 𝖯𝗋𝗈𝗉𝗂𝖾𝗍𝖺𝗋𝗂𝗈 @${ownerNumber} 𝖣𝖾𝗅 𝖡𝗈𝗍 : ${sk}`, m, { mentions: [aa] })
+await conn.reply(m.chat, `🦋 𝖭𝗈 𝖲𝖾 𝖯𝗎𝖾𝖽𝖾 𝖡𝖺𝗇𝖾𝖺𝗋 𝖠𝗅 𝖯𝗋𝗈𝗉𝗂𝖾𝗍𝖺𝗋𝗂𝗈 @${ownerNumber} 𝖣𝖾𝗅 𝖡𝗈𝗍 : ${sk}`, m, { mentions: [aa] })
 return
 }}
 users = global.db.data.users
