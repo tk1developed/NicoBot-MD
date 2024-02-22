@@ -36,7 +36,7 @@ await conn.reply(m.chat, `🦋 *𝑁𝑜 𝑆𝑒 𝑃𝑢𝑒𝑑𝑒 𝐵𝑎�
 return
 }}
 users = global.db.data.users
-if (users[user].banned === true) conn.reply(m.chat, `🐱𝙾𝙲𝚄𝚁𝚁𝙸𝙾 𝚄𝙽 𝙵𝙰𝙻𝙻𝙾 𝙰𝙻 𝙱𝙰𝙽𝙴𝙰𝚁 𝙰: @${number}*`, m, { mentions: [user] }) 
+if (users[user].banned === true) conn.reply(m.chat, `🐱𝙾𝙲𝚄𝚁𝚁𝙸𝙾 𝚄𝙽 𝙵𝙰𝙻𝙻𝙾 𝙰𝙻 𝙱𝙰𝙽𝙴𝙰𝚁 𝙰 : @${number}`, m, { mentions: [user] }) 
 users[user].banned = true
 usr = m.sender.split('@')[0]     
 await conn.reply(m.chat, '🦋 𝖯𝖾𝗋𝖿𝖾𝖼𝗍𝗈, 𝖤𝗅 𝖴𝗌𝗎𝖺𝗋𝗂𝗈 𝖸𝖺 𝖤𝗌𝗍𝖺 𝖡𝖺𝗇𝖾𝖺𝖽𝗈, 𝖭𝗈 𝖯𝗈𝖽𝗋𝖺 𝖴𝗌𝖺𝗋 𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿🍀', m, { mentions: [user] })   
