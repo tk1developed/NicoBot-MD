@@ -30,14 +30,14 @@ for (let i = 0; i < global.owner.length; i++) {
 ownerNumber = global.owner[i][0];
 if (user.replace(/@s\.whatsapp\.net$/, '') === ownerNumber) {
 aa = ownerNumber + '@s.whatsapp.net'
-await conn.reply(m.chat, `🦋 𝖭𝗈 𝖲𝖾 𝖯𝗎𝖾𝖽𝖾 𝖡𝖺𝗇𝖾𝖺𝗋 𝖤𝗅 𝖯𝗋𝗈𝗉𝗂𝖾𝗍𝖺𝗋𝗂𝗈 @${ownerNumber} 𝖣𝖾 ${wm}*`, m, { mentions: [aa] })
+await conn.reply(m.chat, `🦋 𝖭𝗈 𝖲𝖾 𝖯𝗎𝖾𝖽𝖾 𝖡𝖺𝗇𝖾𝖺𝗋 𝖤𝗅 𝖯𝗋𝗈𝗉𝗂𝖾𝗍𝖺𝗋𝗂𝗈 @${ownerNumber} 𝖣𝖾 ${packname}*`, m, { mentions: [aa] })
 return
 }}
 users = global.db.data.users
-if (users[user].banned === true) conn.reply(m.chat, `🚩 *No es necesario volver a banear a @${number}*`, m, { mentions: [user] }) 
+if (users[user].banned === true) conn.reply(m.chat, `🦎 *𝖤𝗅 𝖴𝗌𝗎𝖺𝗋𝗂𝗈 𝖸𝖺 𝖥𝗎𝖾 𝖡𝖺𝗇𝖾𝖺𝖽𝗈 𝖭𝗈 𝖤𝗌 𝖭𝖾𝖼𝖾𝗌𝖺𝗋𝗂𝗈 𝖡𝖺𝗇𝖾𝖺𝗋𝗅𝗈 𝖣𝖾 𝖭𝗎𝖾𝗏𝗈 𝖠 @${number}*`, m, { mentions: [user] }) 
 users[user].banned = true
 usr = m.sender.split('@')[0]     
-await conn.reply(m.chat, '🦋 𝖯𝖾𝗋𝖿𝖾𝖼𝗍𝗈, 𝖤𝗅 𝖴𝗌𝗎𝖺𝗋𝗂𝗈 𝖸𝖺 𝖤𝗌𝗍𝖺 𝖡𝖺𝗇𝖾𝖺𝖽𝗈, 𝖭𝗈 𝖯𝗈𝖽𝗋𝖺 𝖴𝗌𝖺𝗋 𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃 😻', m, { mentions: [user] })   
+await conn.reply(m.chat, '🦋 𝖯𝖾𝗋𝖿𝖾𝖼𝗍𝗈, 𝖤𝗅 𝖴𝗌𝗎𝖺𝗋𝗂𝗈 𝖸𝖺 𝖤𝗌𝗍𝖺 𝖡𝖺𝗇𝖾𝖺𝖽𝗈, 𝖭𝗈 𝖯𝗈𝖽𝗋𝖺 𝖴𝗌𝖺𝗋 𝖲𝖺𝗄𝗎𝗋𝖺𝖡𝗈𝗍𝖫𝗂𝗍𝖾-𝖬𝖣 ✨', m, { mentions: [user] })   
 
 }} catch (e) {
 await conn.reply(m.chat, '*Ocurrió un fallo*', m, fake, )
@@ -56,7 +56,7 @@ export default handler
 
 /*const handler = async (m, {conn, participants, usedPrefix, command}) => {
   const BANtext = `🍓 𝐏𝐨𝐫 𝐅𝐚𝐯𝐨𝐫 𝐄𝐭𝐢𝐪𝐮𝐞𝐭𝐚 𝐀 𝐔𝐧 𝐔𝐬𝐚𝐫𝐢𝐨 𝐏𝐚𝐫𝐚 𝐁𝐚𝐧𝐞𝐚𝐫𝐥𝐨 𝐃𝐞𝐥 𝐁𝐨𝐭!`;
-  if (!m.mentionedJid[0] && !m.quoted) return m.reply(BANtext, m.chat, {mentions: conn.parseMention(BANtext)});
+  if (!m.mentionedJid[0] && !m.quoted) return m.reply(BANtext, m.chat,. {mentions: conn.parseMention(BANtext)});
   let who;
   if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender;
   else who = m.chat;
