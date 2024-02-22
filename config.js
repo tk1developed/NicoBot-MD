@@ -30,6 +30,7 @@ global.lenguajeSK = es //idioma de sakurabot
 global.packname = '𝑆𝑎𝑘𝑢𝑟𝑎𝐵𝑜𝑡𝐿𝑖𝑡𝑒-𝑀𝐷🦋';
 global.author = '𝙳𝙸𝙴𝙶𝙾 💖';
 global.wm = '𝐒𝐚𝐤𝐮𝐫𝐚-𝐁𝐨𝐭 😻';
+global.sk = '𝗦𝖺𝗄𝗎𝗋𝖺 : 𝗕𝗈𝗍 - 𝗟𝗂𝗍𝖾';
 global.titulowm = '𝗦𝖺𝗄𝗎𝗋𝖺 : 𝗕𝗈𝗍';
 global.titulowm2 = `𝘋𝘪𝘦𝘨𝘰𝘖𝘧𝘪𝘤𝘪𝘢𝘭`
 global.igfg = '𝖣𝗂𝖾𝗀𝗈𝖮𝖿𝗂𝖼𝗂𝖺𝗅';
