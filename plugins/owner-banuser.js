@@ -6,7 +6,7 @@ const handler = async (m, {conn, participants, usedPrefix, command}) => {
   else who = m.chat;
   const users = global.db.data.users;
   users[who].banned = true;
-  m.reply('*🦋 𝖯𝖾𝗋𝖿𝖾𝖼𝗍𝗈, 𝖤𝗅 𝖴𝗌𝗎𝖺𝗋𝗂𝗈 𝖸𝖺 𝖤𝗌𝗍𝖺 𝖡𝖺𝗇𝖾𝖺𝖽𝗈, 𝖭𝗈 𝖯𝗈𝖽𝗋𝖺 𝖴𝗌𝖺𝗋 ${wm}*');
+  m.reply('*🦋 𝖯𝖾𝗋𝖿𝖾𝖼𝗍𝗈, 𝖤𝗅 𝖴𝗌𝗎𝖺𝗋𝗂𝗈 𝖸𝖺 𝖤𝗌𝗍𝖺 𝖡𝖺𝗇𝖾𝖺𝖽𝗈, 𝖭𝗈 𝖯𝗈𝖽𝗋𝖺 𝖴𝗌𝖺𝗋 𝐒𝐚𝐤𝐮𝐫𝐚-𝐁𝐨𝐭 😻*');
 };
 handler.command = /^banuser$/i;
 handler.rowner = true;
