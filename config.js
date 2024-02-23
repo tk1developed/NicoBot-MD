@@ -21,7 +21,7 @@ global.owner = [
  ['5491130182250'],
  ['5215610314499']]
 
-//Numeros De !contactos. agregate si eres owner.
+//Agregate si eres owner
 global.official = [
 ["573013482814", '👑 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 ✨', 1],
 ["5491130182250", '𝙾𝚆𝙽𝙴𝚁 𝙾𝙵𝙲 ✨', 1],
