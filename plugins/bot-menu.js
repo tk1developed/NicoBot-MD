@@ -1,4 +1,4 @@
-//let media = './Menu2.jpg'
+/*let media = './Menu2.jpg'
 let handler = async (m, { conn, command }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
     await conn.sendMessage(m.chat, { react: { text: '😝', key: m.key } })
@@ -11,9 +11,9 @@ await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 handler.command = /^menu$/i
 handler.register = true
 
-export default handler
+export default handler*/
 
-/*import fs from 'fs'
+import fs from 'fs'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 const { levelling } = '../lib/levelling.js'
@@ -66,4 +66,4 @@ let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
 return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
 
 function pickRandom(list) {
-return list[Math.floor(Math.random() * list.length)]}*/
+return list[Math.floor(Math.random() * list.length)]}
