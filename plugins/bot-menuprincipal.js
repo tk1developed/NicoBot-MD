@@ -20,7 +20,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┋ 👤𝐂𝐥𝐢𝐞𝐧𝐭𝐞: ${taguser}
 ┋ 🐈𝐁𝐨𝐭 𝐎𝐟𝐢𝐜𝐢𝐚𝐥: ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || '𝚂𝙾𝚈 𝚄𝙽 𝙱𝙾𝚃 𝙾𝙵𝙲'}
 ┋ 🌿𝐃𝐚𝐭𝐞: ${date}
-┋ 💻𝐑𝐞𝐠: ${rtotalreg} 𝐃𝐞 ${rtotal} 𝐔𝐬𝐮𝐚𝐫𝐢𝐨𝐬
+┋ 💻𝐔𝐬𝐮𝐚𝐫𝐢𝐨𝐬 𝐔𝐬𝐚́𝐧𝐝𝐨𝐦𝐞: ${rtotal}
 ┋ 🦋𝐕𝐞𝐫𝐬𝐢𝐨𝐧 𝐃𝐞 𝐒𝐚𝐤𝐮𝐫𝐚: ${vs}
 ╰━━━━━━━✦✗✦━━━━━━━━
 
