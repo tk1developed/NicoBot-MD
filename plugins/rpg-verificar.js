@@ -5,7 +5,8 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
   const name2 = conn.getName(m.sender);
   const pp = await conn.profilePictureUrl(m.chat, 'image').catch((_) => global.imagen1);
   if (user.registered === true) throw `👊😆Hᴇʏ Bᴇʙᴇ́ Yᴀ Esᴛᴀs Rᴇɢɪsᴛʀᴀᴅᴏ, Qᴜɪᴇʀᴇs Rᴇɢɪsᴛʀᴀᴛᴇ Dᴇ Nᴜᴇᴠᴏ?\n\n 📌Usᴇ Esᴛᴇ Cᴏᴍᴀɴᴅᴏ Pᴀʀᴀ Eʟɪᴍɪɴᴀʀ Sᴜ Rᴇɢɪsᴛʀᴏ\n*${usedPrefix}unreg* <Número de serie>`;
-  if (!Reg.test(text)) throw `*⚠️𝘌𝘭 𝘍𝘰𝘳𝘮𝘢𝘵𝘰 𝘌𝘴 𝘐𝘯𝘤𝘰𝘳𝘳𝘦𝘤𝘵𝘰*\n\n*🥀 Uso Del Comando:* ${usedPrefix + command} nombre.edad*\n*📍Ejemplo:*
+  if (!Reg.test(text)) throw `*⚠️𝘌𝘭 𝘍𝘰𝘳𝘮𝘢𝘵𝘰 𝘌𝘴 𝘐𝘯𝘤𝘰𝘳𝘳𝘦𝘤𝘵𝘰*\n\n*🥀 Uso Del Comando:* 
+*${usedPrefix + command} nombre.edad*\n*📍Ejemplo:*
  ${usedPrefix + command} ${name2}.20*`;
   let [_, name, splitter, age] = text.match(Reg);
   if (!name) throw '*👊𝘋𝘦𝘷𝘦𝘴 𝘗𝘰𝘯𝘦𝘳 𝘌𝘭 𝘕𝘰𝘮𝘣𝘳𝘦*';
