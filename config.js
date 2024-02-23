@@ -21,7 +21,7 @@ global.owner = [
  ['5491130182250'],
  ['5215610314499']]
 
-//Numeros De !contactos
+//Numeros De !contactos. estoz numeros no pueden ser cambiados.
 global.official = [
 ["573013482814", '👑 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 ✨', 1],
 ["573106909511", '𝚂𝙰𝙺𝚄𝚁𝙰-𝙾𝙵𝙲 🐱', 1], 
