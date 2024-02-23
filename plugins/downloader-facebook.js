@@ -5,12 +5,8 @@ import fbDownloader from 'fb-downloader-scrapper';
 import {facebook} from '@xct007/frieren-scraper';
 import axios from 'axios';
 const handler = async (m, {conn, args, command, usedPrefix}) => {
-  if (!args[0]) throw `🌻🎋 *Ingrese un enlace de facebook*
-
-Ejemplo, !fb https://fb.watch/kAOXy3wf2L/?mibextid=Nif5oz`;
-  if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `🪁 *Ingrese un enlace de facebook*
-
-Ejemplo, !fb https://fb.watch/kAOXy3wf2L/?mibextid=Nif5oz`;
+  if (!args[0]) throw `_*< DESCARGAS - FACEBOOK />*_\n\n*🥀 Ingrese un enlace de Facebook.*\n\n*🌞 Ejemplo:* _${usedPrefix + command} https://fb.watch/fOTpgn6UFQ/_`;
+  if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `_*< DESCARGAS - FACEBOOK />*_\n\n*🥀 Ingrese un enlace de Facebook.*\n\n*🌞 Ejemplo:* _${usedPrefix + command} https://fb.watch/fOTpgn6UFQ/_`;
   try {
     await m.reply(`_*< DESCARGAS - FACEBOOK />*_\n\n*🎋 Se está enviando el video. espere...*`);
     const d2ata = await facebook.v1(args[0]);
@@ -51,7 +47,7 @@ Ejemplo, !fb https://fb.watch/kAOXy3wf2L/?mibextid=Nif5oz`;
             } catch (err5) {
               try {
                 const {result} = await facebookdl(args[0]).catch(async (_) => await facebookdlv2(args[0])).catch(async (_) => await savefrom(args[0]));
-                for (const {url, isVideo} of result.reverse()) await conn.sendFile(m.chat, url, `facebook.${!isVideo ? 'bin' : 'mp4'}`, '*[ 📥 ] Descargas - Facebook*\n---> 𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿.', m);
+                for (const {url, isVideo} of result.reverse()) await conn.sendFile(m.chat, url, `facebook.${!isVideo ? 'bin' : 'mp4'}`, '*📥 Descargas - Facebook*\n---> 𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿.', m);
               } catch (err6) {
                 throw `_*< DESCARGAS - FACEBOOK />*_\n\n*🏝 Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*`;
               }
@@ -63,7 +59,6 @@ Ejemplo, !fb https://fb.watch/kAOXy3wf2L/?mibextid=Nif5oz`;
   }
 };
 handler.command = /^(facebook|fb|facebookdl|fbdl|facebook2|fb2|facebookdl2|fbdl2|facebook3|fb3|facebookdl3|fbdl3|facebook4|fb4|facebookdl4|fbdl4|facebook5|fb5|facebookdl5|fbdl5)$/i;
-handler.register = true
 export default handler;
 
 async function igeh(url_media) {
