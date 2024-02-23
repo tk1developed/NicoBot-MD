@@ -17,7 +17,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     await conn.sendMessage(m.chat, { react: { text: '🚀', key: m.key } })
   let txt =`╭✨️⸽⃕𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🍁⃨፝⃕✰
 ┋ 🐱𝐃𝐮𝐞𝐧̃𝐨 𝐃𝐞𝐥 𝐁𝐨𝐭: Diego
-┋ 👤𝐂𝐥𝐢𝐞𝐧𝐭𝐞: ${taguser}
+┋ 👤𝐂𝐥𝐢𝐞𝐧𝐭𝐞: ${name2}
 ┋ 🐈𝐁𝐨𝐭 𝐎𝐟𝐢𝐜𝐢𝐚𝐥: ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || '𝚂𝙾𝚈 𝚄𝙽 𝙱𝙾𝚃 𝙾𝙵𝙲'}
 ┋ 🌿𝐃𝐚𝐭𝐞: ${date}
 ┋ 👥️️𝐔𝐬𝐮𝐚𝐫𝐢𝐨𝐬 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐝𝐨𝐬: ${rtotal}
