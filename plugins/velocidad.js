@@ -10,7 +10,7 @@ let handler = async (m, { conn }) => {
           let child = stdout.toString("utf-8");
           let ssd = child.replace(/Memory:/, "Ram:");
     
-          m.reply(`⚡️ ${saludo} *_Mi Velocidad_*  ${latensi.toFixed(4)} *ms*`);
+          m.reply(`⚡️ *_Mi Velocidad_*  ${latensi.toFixed(4)} *ms*`);
             });
 }
 handler.help = ['ping']
