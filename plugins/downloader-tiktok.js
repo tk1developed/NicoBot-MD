@@ -6,47 +6,48 @@ import {generateWAMessageFromContent} from '@whiskeysockets/baileys';
 import {tiktokdl} from '@bochilteam/scraper';
 const CFROSAPI = global.APIs.CFROSAPI;
 const handler = async (m, {conn, text, args, usedPrefix, command}) => {
-  if (!text) throw `*< DESCARGAS - TIKTOK />*\n\n*✨ Iɴɢʀᴇsᴇ Uɴ Eɴʟᴀᴄᴇ Dᴇ Vɪᴅᴇᴏ Dᴇ TɪᴋTᴏᴋ.*\n\n*🌵 Eᴊᴇᴍᴘʟᴏ:* _${usedPrefix + command} https://vm.tiktok.com/ZM6UHJYtE/_`;
-  if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `*< DESCARGAS - TIKTOK />*\n\n*⚠️ Iɴɢʀᴇsᴇ Uɴ Eɴʟᴀᴄᴇ Dᴇ Vɪᴅᴇᴏ Dᴇ Tɪᴋᴛᴏᴋ.*\n\n*🌵 𝐸𝑗𝑒𝑚𝑝𝑙𝑜:* _${usedPrefix + command} https://vm.tiktok.com/ZM6UHJYtE /_`;
-  const texto = `*< DESCARGAS - TIKTOK />*\n\n*✨️ 𝘚𝘦 𝘌𝘴𝘵𝘢́ 𝘌𝘯𝘷𝘪𝘢𝘥𝘰 𝘚𝘶 𝘝𝘪𝘥𝘦𝘰 𝘌𝘴𝘱𝘦𝘳𝘦 𝘜𝘯 𝘔𝘰𝘮𝘦𝘯𝘵𝘰...*`;
+  if (!text) throw `_*< DESCARGAS - TIKTOK />*_\n\n*🥀 Ingrese un enlace de TikTok.*\n\n*🌞 Ejemplo:* _${usedPrefix + command} https://vm.tiktok.com/ZM686Q4ER/_`;
+  if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `_*< DESCARGAS - TIKTOK />*_\n\n*🥀 Ingrese un enlace de TikTok.*\n\n*🌞 Ejemplo:* _${usedPrefix + command} https://vm.tiktok.com/ZM686Q4ER/_`;
+  const texto = `_*< DESCARGAS - TIKTOK />*_\n\n*🥀 Espere, Enviando 📍...*`;
   // let buttons = [{ buttonText: { displayText: '♫ 𝙰𝚄𝙳𝙸𝙾 ♫' }, buttonId: `${usedPrefix}tomp3` }]
   try {
     const aa = {quoted: m, userJid: conn.user.jid};
-    const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: texto, contextInfo: {externalAdReply: {title: '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿', body: null, thumbnail: imagen1, sourceUrl: 'https://github.com/diegojadibot/SakuraBotLite-MD'}, mentionedJid: [m.sender]}}}, aa);
+    const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: texto, contextInfo: {externalAdReply: {title: 'ᴛʜᴇ ᴍʏsᴛɪᴄ - ʙᴏᴛ', body: null, thumbnail: imagen1, sourceUrl: 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'}, mentionedJid: [m.sender]}}}, aa);
     await conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id, mentions: [m.sender]});
     const dataFn = await conn.getFile(`${CFROSAPI}/api/tiktokv2?url=${args[0]}`);
-    const desc1n = `*< DESCARGAS - TIKTOK />*\n\n*🌵 𝙍𝙚𝙨𝙥𝙤𝙣𝙙𝙚 𝘼 𝙀𝙨𝙩𝙚 𝙑𝙞𝙙𝙚𝙤 𝘾𝙤𝙣 𝙀𝙡 𝘾𝙤𝙢𝙖𝙣𝙙𝙤* _${usedPrefix}tomp3_ *para convertirlo en audio.*`;
+    const desc1n = `_*< DESCARGAS - TIKTOK />*_\n\n*⚡️ Responde a este vídeo con el comando* _${usedPrefix}tomp3_ *para convertirlo en audio.*`;
     await conn.sendMessage(m.chat, {video: dataFn.data, caption: desc1n}, {quoted: m});
   } catch (ee1) {
   try {
     //const aa = {quoted: m, userJid: conn.user.jid};
-    //const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: texto, contextInfo: {externalAdReply: {title: '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿', body: null, thumbnail: imagen1, sourceUrl: 'https://github.com/diegojadibot/SakuraBotLite-MD'}, mentionedJid: [m.sender]}}}, aa);
+    //const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: texto, contextInfo: {externalAdReply: {title: 'ᴛʜᴇ ᴍʏsᴛɪᴄ - ʙᴏᴛ', body: null, thumbnail: imagen1, sourceUrl: 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'}, mentionedJid: [m.sender]}}}, aa);
     //await conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id, mentions: [m.sender]});
     const dataF = await tiktok.v1(args[0]);
     // let desc1 =  `*𝙽𝙸𝙲𝙺𝙽𝙰𝙼𝙴:* ${dataF.nickname || 'Indefinido'}`
-    const desc1 = `*< DESCARGAS - TIKTOK />*\n\n*🌵 𝙍𝙚𝙨𝙥𝙤𝙣𝙙𝙚 𝘼 𝙀𝙨𝙩𝙚 𝙑𝙞𝙙𝙚𝙤 𝘾𝙤𝙣 𝙀𝙡 𝘾𝙤𝙢𝙖𝙣𝙙𝙤* _${usedPrefix}tomp3_ *para convertirlo en audio.*`;
+    const desc1 = `_*< DESCARGAS - TIKTOK />*_\n\n*⚡️ Responde a este vídeo con el comando* _${usedPrefix}tomp3_ *para convertirlo en audio.*`;
     await conn.sendMessage(m.chat, {video: {url: dataF.play}, caption: desc1}, {quoted: m});
   } catch (e1) {
     try {
       const tTiktok = await tiktokdlF(args[0]);
       // let desc2 = `🔗 *Url:* ${tTiktok.video}`
-      const desc2 = `*< DESCARGAS - TIKTOK />*\n\n*🌵 𝙍𝙚𝙨𝙥𝙤𝙣𝙙𝙚 𝘼 𝙀𝙨𝙩𝙚 𝙑𝙞𝙙𝙚𝙤 𝘾𝙤𝙣 𝙀𝙡 𝘾𝙤𝙢𝙖𝙣𝙙𝙤* _${usedPrefix}tomp3_ *para convertirlo en audio.*`;
+      const desc2 = `_*< DESCARGAS - TIKTOK />*_\n\n*🔥 Responde a este vídeo con el comando* _${usedPrefix}tomp3_ *para convertirlo en audio.*`;
       await conn.sendMessage(m.chat, {video: {url: tTiktok.video}, caption: desc2}, {quoted: m});
     } catch (e2) {
       try {
         const p = await fg.tiktok(args[0]);
         // let te = `*𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴:* ${p.author || 'Indefinido'}`
-        const te = `*< DESCARGAS - TIKTOK />*\n\n*🌵 𝙍𝙚𝙨𝙥𝙤𝙣𝙙𝙚 𝘼 𝙐𝙣 𝙑𝙞𝙙𝙚𝙤 𝘾𝙤𝙣 𝙀𝙡 𝘾𝙤𝙢𝙖𝙣𝙙𝙤* _${usedPrefix}tomp3_ *para convertirlo en audio.*`;
+        const te = `_*< DESCARGAS - TIKTOK />*_\n\n*🔥 Responde a este vídeo con el comando* _${usedPrefix}tomp3_ *para convertirlo en audio.*`;
         await conn.sendMessage(m.chat, {video: {url: p.nowm}, caption: te}, {quoted: m});
       } catch (e3) {
         try {
           const {author: {nickname}, video, description} = await tiktokdl(args[0]);
           const url = video.no_watermark2 || video.no_watermark || 'https://tikcdn.net' + video.no_watermark_raw || video.no_watermark_hd;
           // let cap = `*𝙽𝙸𝙲𝙺𝙽𝙰𝙼𝙴:* ${nickname || 'Indefinido'}`
-          const cap = `*< DESCARGAS - TIKTOK />*\n\n*🌵 𝙍𝙚𝙨𝙥𝙤𝙣𝙙𝙚 𝘼 𝙐𝙣 𝙑𝙞𝙙𝙚𝙤 𝘾𝙤𝙣 𝙀𝙡 𝘾𝙤𝙢𝙖𝙣𝙙𝙤* _${usedPrefix}tomp3_ *para convertirlo en audio.*`;
+          const cap = `_*< DESCARGAS - TIKTOK />*_\n\n*🔥 Responde a este vídeo con el comando* _${usedPrefix}tomp3_ *para convertirlo en audio.*`;
           await conn.sendMessage(m.chat, {video: {url: url}, caption: cap}, {quoted: m});
         } catch {
-          throw `*< DESCARGAS - TIKTOK />*\n\n*🌵 Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*`;
+          throw `_*< DESCARGAS - TIKTOK />*_\n\n*🥀 Error 📍..
+*`;
           }
         }
       }
@@ -54,11 +55,10 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
   }
 };
 handler.command = /^(tiktok|ttdl|tiktokdl|tiktoknowm|tt|ttnowm|tiktokaudio)$/i;
-handler.register = true
 export default handler;
 
 async function tiktokdlF(url) {
-  if (!/tiktok/.test(url)) return `*< DESCARGAS - TIKTOK />*\n\n*✨ Iɴɢʀᴇsᴇ Uɴ Eɴʟᴀᴄᴇ Dᴇ Tɪᴋᴛᴏᴋ.*\n\n*🌵 𝐸𝑗𝑒𝑚𝑝𝑙𝑜:* _${usedPrefix + command} https://vm.tiktok.com/ZM6UHJYtE /_`;
+  if (!/tiktok/.test(url)) return `_*< DESCARGAS - TIKTOK />*_\n\n*🥀 Ingrese un enlace de TikTok.*\n\n*🌞 Ejemplo:* _${usedPrefix + command} https://vm.tiktok.com/ZM686Q4ER/_`;
   const gettoken = await axios.get('https://tikdown.org/id');
   const $ = cheerio.load(gettoken.data);
   const token = $('#download-form > input[type=hidden]:nth-child(2)').attr( 'value' );
