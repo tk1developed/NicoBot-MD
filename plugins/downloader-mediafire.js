@@ -1,39 +1,51 @@
-import fetch from 'node-fetch'
-import { mediafiredl } from '@bochilteam/scraper'
+import axios from 'axios';
+import fetch from 'node-fetch';
+import cheerio from 'cheerio';
+import {mediafiredl} from '@bochilteam/scraper';
 
-var handler = async (m, { conn, args, usedPrefix, command, isOwner, isPrems }) => {
+const handler = async (m, {conn, args, usedPrefix, command}) => {
+  if (!args[0]) throw `*🌿Error Por Favor Envie Un Link De Mediafire, Similar A: ${usedPrefix + command} https://www.mediafire.com/file/r0lrc9ir5j3e2fs/DOOM_v13_UNCLONE*`;
+  try {
+    const resEX = await mediafiredl(args[0]);
+    const captionES = `
+*⚘️ Nombre:* ${resEX.filename}
+*🥀 Peso:* ${resEX.filesizeH}
+*🐈 Tipo:* ${resEX.ext}
 
-let limit
-if((isOwner || isPrems)) limit = 1000
-else limit = 600
+_*⏳ Hey Espere Estoy Enviando Su Archivo. . . .*_`.trim();
+    m.reply(captionES);
+    await conn.sendFile(m.chat, resEX.url, resEX.filename, '', m, null, {mimetype: resEX.ext, asDocument: true});
+  } catch {
+    try {
+      const res = await mediafireDl(args[0]);
+      const {name, size, date, mime, link} = res;
+      const caption = `
+*⚘️ Nombre:* ${name}
+*🥀 Peso:* ${size}
+*🐈 Tipo:* ${mime}
 
-if (!args[0]) return conn.reply(m.chat, `🎌 *Ingrese un enlace de mediafire*\n\nEjemplo, !mediafire https://www.mediafire.com/file/941xczxhn27qbby/GBWA_V12.25FF-By.SamMods-.apk`, m, fake, )
-if (!args[0].match(/mediafire/gi)) conn.reply(m.chat, `⚡️ *Enlace Incorrecto*`, m, fake, )
+ _*⏳ Hey Espere Estoy Enviando Su Archivo. . . .*_`.trim();
+      await m.reply(caption);
+      await conn.sendFile(m.chat, link, name, '', m, null, {mimetype: mime, asDocument: true});
+    } catch {
+      await m.reply('*🌿Error Por Favor Envie Un Link De Mediafire, Similar A:*\n*◉ https://www.mediafire.com/file/r0lrc9ir5j3e2fs/DOOM_v13_UNCLONE*');
+    }
+  }
+};
+handler.help = ['mediafire'].map((v) => v + ' <url>');
+handler.tags = ['downloader'];
+handler.command = /^(mediafire|mediafiredl|dlmediafire)$/i;
+export default handler;
 
-try {
-
-m.react(rwait)
-let full = /f$/i.test(command)
-let u = /https?:\/\//.test(args[0]) ? args[0] : 'https://' + args[0]
-let ss = await (await fetch(global.API('nrtm', '/api/ssweb', { delay: 1000, url: u }))).buffer()
-let res = await mediafiredl(args[0])
-let { url, url2, filename, ext, aploud, filesize, filesizeH } = res
-let isLimit = (isPrems || isOwner ? limit : limit) * 1012 < filesize
-
-await conn.reply(m.chat, `*Nombre:* ${filename}\n*Peso:*  ${filesizeH}\n*Tipo:* ${ext}\n*Subido:* ${aploud}`, m, fake, )
-
-if(!isLimit) await conn.sendFile(m.chat, url, filename, '', m, null, { mimetype: ext, asDocument: true })
-m.react(done)
-} catch (e) {
-conn.reply(m.chat, `🌿 *Se Dio Un Error*`, m, fake, )
-console.log(e)}
-
+async function mediafireDl(url) {
+  const res = await axios.get(`https://www-mediafire-com.translate.goog/${url.replace('https://www.mediafire.com/', '')}?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en&_x_tr_pto=wapp`);
+  const $ = cheerio.load(res.data);
+  const link = $('#downloadButton').attr('href');
+  const name = $('body > main > div.content > div.center > div > div.dl-btn-cont > div.dl-btn-labelWrap > div.promoDownloadName.notranslate > div').attr('title').replaceAll(' ', '').replaceAll('\n', '');
+  const date = $('body > main > div.content > div.center > div > div.dl-info > ul > li:nth-child(2) > span').text();
+  const size = $('#downloadButton').text().replace('Download', '').replace('(', '').replace(')', '').replace('\n', '').replace('\n', '').replace('                         ', '').replaceAll(' ', '');
+  let mime = '';
+  const rese = await axios.head(link);
+  mime = rese.headers['content-type'];
+  return {name, size, date, mime, link};
 }
-handler.help = ['mediafire']
-handler.tags = ['descargas']
-handler.command = ['mediafire', 'mfire']
-
-handler.diamond = true
-handler.register = true
-
-export default handler
