@@ -27,6 +27,7 @@ global.prems = ['573218138672'];
 
 global.lenguajeSK = es //idioma de sakurabot
 
+global.saludo = '⚘️ Buenos Dias';
 global.packname = '𝑆𝑎𝑘𝑢𝑟𝑎𝐵𝑜𝑡𝐿𝑖𝑡𝑒-𝑀𝐷🦋';
 global.author = '𝙳𝙸𝙴𝙶𝙾 💖';
 global.wm = '𝐒𝐚𝐤𝐮𝐫𝐚-𝐁𝐨𝐭 😻';
