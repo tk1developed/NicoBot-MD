@@ -4,7 +4,6 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
     await conn.sendMessage(m.chat, { react: { text: '⚡️', key: m.key } })
 let str = `*🍓 GRUPOS OFICIALES*
 
- *${saludo}*
     *_╭━━━⊜ SakuraBotLite-MD_*
   *_┃🌿❏ ${gp1}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
