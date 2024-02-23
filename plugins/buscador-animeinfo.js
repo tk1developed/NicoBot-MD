@@ -2,7 +2,7 @@ import translate from '@vitalets/google-translate-api';
 import {Anime} from '@shineiichijo/marika';
 const client = new Anime();
 const handler = async (m, {conn, text, usedPrefix}) => {
-  if (!text) return m.reply(`*[❗𝐈𝐍𝐅𝐎❗] INGRESE EL NOMBRE DE ALGUN ANIME A BUSCAR*`);
+  if (!text) return m.reply(`*🥀 Ingrese un nombre de algun anime*`);
   try {
     const anime = await client.searchAnime(text);
     const result = anime.data[0];
@@ -27,7 +27,7 @@ const handler = async (m, {conn, text, usedPrefix}) => {
 ❄ • *Ringkasan:* ${resultes2.text}`;
     conn.sendFile(m.chat, result.images.jpg.image_url, 'error.jpg', AnimeInfo, m);
   } catch {
-    throw `*[❗] ERROR, INTENTELO DE NUEVO*`;
+    throw `*⚡️ Ocurrio un error*`;
   }
 };
 handler.command = /^(anime|animeinfo)$/i;
