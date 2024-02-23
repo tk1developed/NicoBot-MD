@@ -61,7 +61,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   conn.sendMessage(m.chat, Message, { quoted: m });
 };
 
-handler.command = /^(ping|info|status|estado)$/i;
+handler.command = /^(menul)$/i;
 export default handler;
 
 function clockString(ms) {
