@@ -33,27 +33,27 @@ let tags = {
 const defaultMenu = {
   before: `
 *┏━「🐱⸽⃕NʏᴀɴCᴀᴛBᴏᴛ-MD🍁⃨፝⃕✰」━⊜*
-┃⋄ 🕒 *Hora*: %time
-┃⋄ 🗓 *Fecha*: %date
-┃⋄ 📅 *Día*: %week
+┃⋄ 🕒 *Hora*: 
+┃⋄ 🗓 *Fecha*: 
+┃⋄ 📅 *Día*: 
 ┗━━◘
 
 ┏━━⊜ *_INFO USER_* ━⊜
-┃⋄ 📇 *Nombre*:  %taguser
-┃⋄ 🍪 *Galletas*: %cookie
-┃⋄ 📊 *Nivel*: %level (%exp / %maxexp) 
+┃⋄ 📇 *Nombre*:  
+┃⋄ 🍪 *Galletas*: 
+┃⋄ 📊 *Nivel*:  ( / ) 
 ┃⋄ ✨ *Exp*: %totalexp
 ┃⋄ 📍 *Rol*: %role
-┃⋄ 🪪 *Premium*: ${prem ? '✅' : '❌'}
+┃⋄ 🪪 *Premium*: 
 ┗━━◘
 
 ┏━━⊜ *_INFO BOT_* ━⊜
 ┃⋄ 👤 *Owner*: @50499698072
-┃⋄ 💻 *Versión*: %version
-┃⋄ 📊 *Usuarios*: %totalreg
+┃⋄ 💻 *Versión*: 
+┃⋄ 📊 *Usuarios*: 
 ┃⋄ 🗃️ *Lib*: Baileys-MD
-┃⋄ 🧪 *Modo:* ${global.opts['self'] ? 'Privado': 'Público'}
-┃⋄ 📈 *Tiempo Activo*: %uptime
+┃⋄ 🧪 *Modo:* 
+┃⋄ 📈 *Tiempo Activo*: 
 ┗━━◘
 %readmore
 ┏━━━━━━━━━━━━━━┓
