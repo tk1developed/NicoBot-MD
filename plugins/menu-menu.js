@@ -161,7 +161,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 ╭━━━･❪ *BUSCADORES* ❫ ･━━━╮
 ┃🔎 _!githubsearch *<texto>*_
-┃🔎 _!pelisplus *<texto>*_
 ┃🔎 _!modapk *<texto>*_
 ┃🔎 _!stickersearch *<texto>*_
 ┃🔎 _!stickersearch2 *<texto>*_
