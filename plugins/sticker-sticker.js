@@ -10,19 +10,18 @@ let autor = await conn.getName(who)
 let q = m.quoted ? m.quoted : m
 let mime = (q.msg || q).mimetype || q.mediaType || ''
 
-if (!/webp|image|video/g.test(mime) && !text) return m.reply(`⚠️⚓️ 𝐻𝑒𝑦 𝐿𝑎 𝐶𝑜𝑛𝑣𝑒𝑟𝑠𝑖𝑜𝑛 𝐴 𝐹𝑎𝑙𝑙𝑎𝑑𝑜 𝐼𝑛𝑡𝑒𝑛𝑡𝑎 𝐸𝑛𝑣𝑖𝑎𝑟 𝑈𝑛𝑎 𝐼𝑚𝑎𝑔𝑒𝑛 𝑂 𝑈𝑛 𝑉𝑖𝑑𝑒𝑜 𝑌 𝐿𝑢𝑒𝑔𝑜 𝑅𝑒𝑠𝑝𝑜𝑛𝑑𝑒 𝐶𝑜𝑛 𝐸𝑙 𝐶𝑜𝑚𝑎𝑛𝑑𝑜 !s`)
+if (!/webp|image|video/g.test(mime) && !text) return m.reply(`⚠️🥀 𝐻𝑒𝑦 𝐿𝑎 𝐶𝑜𝑛𝑣𝑒𝑟𝑠𝑖𝑜𝑛 𝐴 𝐹𝑎𝑙𝑙𝑎𝑑𝑜 𝐼𝑛𝑡𝑒𝑛𝑡𝑎 𝐸𝑛𝑣𝑖𝑎𝑟 𝑈𝑛𝑎 𝐼𝑚𝑎𝑔𝑒𝑛 𝑂 𝑈𝑛 𝑉𝑖𝑑𝑒𝑜 𝑌 𝐿𝑢𝑒𝑔𝑜 𝑅𝑒𝑠𝑝𝑜𝑛𝑑𝑒 𝐶𝑜𝑛 𝐸𝑙 𝐶𝑜𝑚𝑎𝑛𝑑𝑜 !s`)
 if (/video/g.test(mime)) if ((q.msg || q).seconds > 10) return m.reply('⚠️Eʟ Vɪᴅᴇᴏ Nᴏ Pᴜᴇᴅᴇ Dᴜʀᴀʀ Mᴀs Dᴇ 6 Sᴇɢᴜɴᴅᴏs')
 
 if (/webp|image|video/g.test(mime)) {
 let img = await q.download?.()
 let out
 stiker = await sticker(img, false, global.packname, global.author)
-await conn.reply(m.chat, `𝐸𝑠𝑝𝑒𝑟𝑎 𝐵𝑟𝑜𝑑𝑒𝑟 𝐸𝑙 𝑆𝑡𝑖𝑘𝑒𝑟 𝑆𝑒 𝐸𝑠𝑡𝑎́ 𝐶𝑟𝑒𝑎𝑛𝑑𝑜⚓..
+await conn.reply(m.chat, `*⏰️Espera!!*
 
-🌼 𝑺𝒊 𝑬𝒍 𝑺𝒕𝒊𝒄𝒌𝒆𝒓 𝑻𝒊𝒆𝒏𝒆 𝑬𝒓𝒓𝒐𝒓 𝑷𝒐𝒓 𝑭𝒂𝒗𝒐𝒓 𝑹𝒆𝒆𝒏𝒗𝒊𝒆𝒔𝒆𝒍𝒐 𝑨𝒍 𝑪𝒓𝒆𝒂𝒅𝒐𝒓 𝑫𝒆𝒍 𝑩𝒐𝒕.🌱
+🛠 *Estamos Creando El Sticker, Esto Puede Demorar Algunos Minutos* 🪛
 
-𝖤𝗌𝗍𝖾 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖥𝗎𝖾 𝖧𝖾𝖼𝗁𝗈 𝖯𝗈𝗋 𝖤𝗅 𝖡𝗈𝗍:
-𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯✨🌻`, m)
+🥀 *Evite El Spam* 🏷`, m)
 
 if (!stiker) {
 if (/webp/g.test(mime)) out = await webp2png(img)
