@@ -10,7 +10,8 @@ let autor = await conn.getName(who)
 let q = m.quoted ? m.quoted : m
 let mime = (q.msg || q).mimetype || q.mediaType || ''
 
-if (!/webp|image|video/g.test(mime) && !text) return m.reply(`⚠️ *_La conversión ha fallado, intenta enviar primero imagen/video/gif y luego responde con el comando._*`)
+if (!/webp|image|video/g.test(mime) && !text) return m.reply(`⚠️ *_La Conversión Ha Fallado, i
+Intenta Enviar Primero  Una Imagen O Un Video Y Luego Responde Con El Comando._*`)
 if (/video/g.test(mime)) if ((q.msg || q).seconds > 10) return m.reply('⚠️Eʟ Vɪᴅᴇᴏ Nᴏ Pᴜᴇᴅᴇ Dᴜʀᴀʀ Mᴀs Dᴇ 6 Sᴇɢᴜɴᴅᴏs')
 
 if (/webp|image|video/g.test(mime)) {
