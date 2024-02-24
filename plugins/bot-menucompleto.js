@@ -13,7 +13,7 @@ const defaultMenu = {
 ┃ 𝐌𝐨𝐝𝐨: Publico
 ╰─━━━━━━⊱✿⊰━━━━━━─
 `.trimStart(),
-  header: '┏━━━━━━━✦✗✦━━━━━━━━┓\n*┃𖤈 %Category 𖤈*\n┃━━━━━━━━━━━━━━┃',
+  header: '┏━━━━━━━✦✗✦━━━━━━━━┓\n*┃𖤈 %category 𖤈*\n┃━━━━━━━━━━━━━━━━━┃',
   body: '┋➺ %cmd',
   footer: '┗━━━━━━━✦✗✦━━━━━━━━┛\n',
   after: `
@@ -117,7 +117,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
     let pp = imagen1
-    // await conn.reply(m.chat, '*Enviando el menu . . .*', ftrol) 
+     await conn.reply(m.chat, '*Enviando el menu . . .*', ftrol) 
     conn.sendFile(m.chat, pp, 'menu2.jpg', text.trim(), m, null)
 
 
