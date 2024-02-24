@@ -40,9 +40,9 @@ const defaultMenu = {
 ┃ *Fecha:* %date
 ╰━━━━━━━━━━━━━━◉
 `.trimStart(),
-  header: '╭━━━〔 %category 〕━━━◉\n',
+  header: '╭━━━〔 %category 〕━━━◉',
 body: '┃  %cmd',
-footer: '\n╰━━━━━━━━━━━━━━◉\n',
+footer: '╰━━━━━━━━━━━━━━◉\n',
   after: `
 `,
 }
