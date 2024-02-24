@@ -69,8 +69,7 @@ let td = `${pickRandom([d1,d2,d3,d4,d5,d6])}`
     }
     }
     }
-    await conn.reply(m.chat, '*Enviando el menu . . .*', ftrol) 
-m.react('🚀')     
+    await conn.reply(m.chat, '*Enviando el menu . . .*', ftrol)     
 let menu = `╔══「 I N F O R M A C I Ó N 」═╗
 〬║ႌ〬⫹⫺ ${usedPrefix}estado
 ║ႌ〬⫹⫺ ${usedPrefix}owner
