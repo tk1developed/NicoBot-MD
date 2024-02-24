@@ -1563,7 +1563,9 @@ global.dfail = (type, m, conn) => {
     botAdmin: '*🍓 𝘗𝘢𝘳𝘢 𝘗𝘰𝘥𝘦𝘳 𝘜𝘴𝘢𝘳 𝘌𝘴𝘵𝘦 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘌𝘴 𝘕𝘦𝘤𝘦𝘴𝘢𝘳𝘪𝘰 𝘘𝘶𝘦 𝘠𝘰 𝘚𝘦𝘢 𝘈𝘥𝘮𝘪𝘯.*',
     unreg: '*¡𝐏𝐚𝐫𝐚 𝐂𝐨𝐧𝐭𝐢𝐧𝐮𝐚𝐫 𝐂𝐨𝐧 𝐄𝐬𝐭𝐚 𝐅𝐮𝐧𝐜𝐢𝐨𝐧 𝐄𝐬 𝐍𝐞𝐜𝐞𝐬𝐚𝐫𝐢𝐨 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐫𝐬𝐞!*\n\n!verificar nombre.edad\n\n*Uso correcto* : !verificar Diego.19',
     restrict: '*🍓 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘙𝘦𝘴𝘵𝘳𝘪𝘯𝘨𝘪𝘥𝘰 𝘗𝘰𝘳 𝘋𝘦𝘴𝘪𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘗𝘳𝘰𝘱𝘪𝘦𝘵𝘢𝘳𝘪𝘰 𝘋𝘦𝘭 𝘉𝘰𝘵.*',
-    }[type];
+    }[type]
+if (msg) return conn.reply(m.chat, msg, m, { contextInfo:{ externalAdReply: {title: '📖'  + saludo + ' ' + nombre, body: dev, sourceUrl: global.channel, thumbnailUrl: fotos }}})
+
   const aa = {quoted: m, userJid: conn.user.jid};
   const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '👋🏻 !𝐇𝐨𝐥𝐚!', body: '🦋𝙻𝙸𝙽𝙳𝙾 𝙰𝙽𝙾𝙲𝙷𝙴𝚂𝙴𝚁✨', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
