@@ -15,7 +15,7 @@ export default handler*/
 
 import { execSync } from 'child_process'
 
-var handler = async (m, { conn, text }) => {
+let handler = async (m, { conn, text }) => {
 
 try {
 const stdout = execSync('git pull' + (m.fromMe && text ? ' ' + text : ''));
