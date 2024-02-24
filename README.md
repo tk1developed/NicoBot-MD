@@ -1,7 +1,7 @@
 
 >🥀📍Versión Del Bot: 1.0.6 (beta)
 
-## `🥀Sakura : Bot - Lite - MD📍` 
+### 🥀Sakura : Bot - Lite - MD📍
 <p align="center">
 <img src="https://telegra.ph/file/e5c184e81e1124b028fb9.png" alt="SakuraBotLite-MD" width="900"/>
 </p>
@@ -14,21 +14,21 @@
 
 
 
-- ### ✵ 🌤Configuracion📍
+- ### 🌤Configuracion📍
  𝐂𝐥𝐨𝐧𝐚𝐫 𝐑𝐞𝐩𝐨 : 𝐒𝐚𝐤𝐮𝐫𝐚 [Aqui](https://github.com/diegojadibot/SakuraBotLite-MD/fork)
 
    
   
-- ### ✵ 🐢Instalar Por Render🥀
+- ### 📍Instalar Por Render🥀
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2diegojadibot%2FSakuraBotLite-MD) 
 
-- ### 🌺Instalacion Por Code Space🦋
+- ### 🚩Instalacion Por Code Space🦋
 
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=738341999&ref=main&geo=UsEast)
 ***
 
-- ### ✵ 📍Instalacio Por Termux Automatica🦋
+- ### 📍Instalacio Por Termux Automatica🦋
 ```bash
 termux-setup-storage
 ```
@@ -37,7 +37,7 @@ termux-setup-storage
 apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/sakura.sh | bash
 ```
 
-- ### `✵ 🌹Instalacion Por Termux Manual👨‍💻` 
+- ### ⚡️Instalacion Por Termux Manual👨‍💻
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 cd && termux-setup-storage
@@ -71,7 +71,7 @@ npm update
 npm start
 ```
 
-- ### `✵ ☂️Encender El Bot Devuelta🦋`
+- ### ☂️Encender El Bot Devuelta🦋
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
@@ -79,7 +79,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-- ### ✵ 🌥Obtener Otro Codigo Qr👨‍💻 
+- ### 📍Obtener Otro Codigo Qr👨‍💻 
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
@@ -92,9 +92,9 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 * <a href="https://wa.me/573013482814"><img alt="Creator 🥀" src="https://img.shields.io/badge/Diego - Creator🥀-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
-## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial 🦋
+## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial 🥀
 
-* <a href="https://wa.me/51935499065?text=!menu"><img alt="Bot Oficial 🍓" src="https://img.shields.io/badge/Bot - Oficial🦋-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+* <a href="https://wa.me/51935499065?text=!menu"><img alt="Bot Oficial 📍" src="https://img.shields.io/badge/Bot - Oficial🥀-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 > No Spam Al Bot!
 
