@@ -7,7 +7,6 @@ let tags = {
 }
 const defaultMenu = {
   before: `╭─━━━━━━⊱✿⊰━━━━━━─
-┃ 𝐍𝐨𝐦𝐛𝐫𝐞 𝐃𝐞𝐥 𝐁𝐨𝐭: SakuraBotLite-MD
 ┃ 𝐃𝐮𝐞𝐧̃𝐨 𝐃𝐞𝐥 𝐁𝐨𝐭: Diego
 ┃ 𝐋𝐞𝐧𝐠𝐮𝐚𝐣𝐞: Español
 ┃ 𝐌𝐨𝐝𝐨: Publico
