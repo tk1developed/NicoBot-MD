@@ -16,4 +16,5 @@ handler.help = ['scbot'];
 handler.tags = ['info'];
 handler.command = /^(sc|scbot|scrip|script)$/i;
 handler.register = true
+  user.premium = true
 export default handler;
