@@ -287,9 +287,9 @@ let buttonMessage = {
             'mediaType': 0x1,
             'previewType': "PHOTO",
             'title': 'Hola!!',
-            'thumbnail': fs.readFileSync('./storage/menus/Menu1.jpg'),
+            'thumbnail': fs.readFileSync('./Menu.png'),
             'renderLargerThumbnail': !![],
-            'sourceUrl': ig
+            'sourceUrl': yt
         }
     },
   'caption': menu['trim']()
