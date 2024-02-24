@@ -10,7 +10,7 @@ let handler = async (m, { conn }) => {
           let child = stdout.toString("utf-8");
           let ssd = child.replace(/Memory:/, "Ram:");
 
-          m.reply(`${name} _${saludo}_ *_Usuario_*`);
+          m.reply(`_${saludo}_ *_Usuario_*`);
             });
 }
 handler.help = ['infobot']
@@ -18,3 +18,4 @@ handler.tags = ['main']
 handler.command = ['saludo']
 handler.register = true
 export default handler
+
