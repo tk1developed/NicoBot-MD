@@ -299,7 +299,7 @@ await conn[_0x110137(0x1ba)](m[_0x110137(0x1b5)], buttonMessage, { 'quoted': fko
 conn.reply(m.chat, '*⚠️ EL MENU TIENE UN ERROR PRUEBE CON EL MENUCOMPLETO: (.menucompleto)*', m)
 }}
 handler.tags = ['main']
-handler.command = /^(menu)$/i
+handler.command = /^(menul)$/i
 handler.register = true
 export default handler
 
