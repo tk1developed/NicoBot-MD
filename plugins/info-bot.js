@@ -1,5 +1,5 @@
 
-import fs from 'fs';
+var import fs from 'fs';
 const handler = (m) => m;
 handler.all = async function(m) {
   const vn = './media/bot.mp3';
