@@ -1,5 +1,5 @@
 
->🥀📍Versión Del Bot: 1.0.6 (beta)
+>🥀📍Versión Del Bot: 1.0.7 (beta)
 
 ### 🥀Sakura : Bot - Lite - MD📍
 <p align="center">
