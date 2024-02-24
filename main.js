@@ -315,7 +315,7 @@ if (opcion == '1' || methodCodeQR) {
    if (connection == 'open') {
 console.log(chalk.yellowBright('\n╭━─━━─━━─━─≪  🦋  ≫─━─━━─━━─━╮\n│\n│SakuraBotLite-MD Conectado🐱.\n│\n╰━─━━━─━━─━─≪ 🟢 ≫─━─━━─━━━─━╯\n'))
 conn.fakeReply('573013482814@s.whatsapp.net', '🐱 !𝖧𝖾𝗒 𝖢𝗋𝖾𝖺𝖽𝗈𝗋 𝖬𝖾 𝖤 𝖢𝗈𝗇𝖾𝖼𝗍𝖺𝖽𝗈 𝖢𝗈𝗆𝗈 𝖴𝗇 𝖭𝗎𝖾𝗏𝗈 𝖡𝗈𝗍! 🐈', '0@s.whatsapp.net', '🦋 𝚂𝙾𝚈 𝚃𝚄 𝙱𝙾𝚃 𝙾𝙵𝙲 🐱', '0@s.whatsapp.net')
- await conn.groupAcceptInvite('DV7fEXPjgTtAIQXFZSIJhP');
+ await conn.groupAcceptInvite('CKqHvmFQDL1Kdj6TFHahUn');
    }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) {
