@@ -1,18 +1,25 @@
-function handler(m) {
-let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-const data = global.owner.filter(([id, isCreator]) => id && isCreator) 
-this.sendContact(m.chat, data.map(([id, name]) => [id, name]), fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true }}})
-}
+import fetch from 'node-fetch'
 
-handler.command = ['owner', 'creador']  
+let handler = async (m, { conn, usedPrefix, text, args, command }) => {
+
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let pp = await conn.profilePictureUrl(who).catch(_ => '')
+let name = await conn.getName(who)
+let biografia = await conn.fetchStatus('5217294888993' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
+let biografiaBot = await conn.fetchStatus('5214531287294' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
+let bio = biografia.status?.toString() || 'Sin Biografía'
+let biobot = biografiaBot.status?.toString() || 'Sin Biografía'
+
+await conn.sendContactArray(m.chat, [
+[devnum, `${await conn.getName('5217294888993'+'@s.whatsapp.net')}`, `🍭 Creador`, dev, email, `🇲🇽 México`, `https://www.youtube.com/@Azami_YT`, bio],
+[`${conn.user.jid.split('@')[0]}`, `${await conn.getName(conn.user.jid)}`, `🍧 CuriosityBot-MD`, `📵 No Hacer Spam`, email, `🇲🇽 México`, `https://github.com/AzamiJs/CuriosityBot-MD`, biobot]
+], m)
+
+}
+handler.help = ['owner', 'contacto', 'creador', 'contactos']
+handler.tags = ['info']
+handler.command = /^(owner|contacto|creador|contactos)/i
+
+handler.register = true
+
 export default handler
-
-/*let handler = async (m, { conn, usedPrefix, isOwner }) => {
-let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:𝑾𝒂.𝒕.𝑺𝒊𝒏 𝑷𝒆𝒓𝒇𝒊𝒍/𝑶𝒇𝒄\nFN:𝑾𝒂.𝒕.𝑺𝒊𝒏 𝑷𝒆𝒓𝒇𝒊𝒍/𝑶𝒇𝒄\nORG:𝑾𝒂.𝒕.𝑺𝒊𝒏 𝑷𝒆𝒓𝒇𝒊𝒍/𝑶𝒇𝒄\nTITLE:\nitem1.TEL;waid=573013482814:573013482814\nitem1.X-ABLabel:𝑾𝒂.𝒕.𝑺𝒊𝒏 𝑷𝒆𝒓𝒇𝒊𝒍/𝑶𝒇𝒄\nX-WA-BIZ-DESCRIPTION:\nX-WA-BIZ-NAME:𝑾𝒂.𝒕.𝑺𝒊𝒏 𝑷𝒆𝒓𝒇𝒊𝒍/𝑶𝒇𝒄\nEND:VCARD`
-await conn.sendMessage(m.chat, { contacts: { displayName: '𝑾𝒂.𝒕.𝑺𝒊𝒏 𝑷𝒆𝒓𝒇𝒊𝒍/𝑶𝒇𝒄', contacts: [{ vcard }] }}, {quoted: m})
-}
-handler.help = ['owner']
-handler.tags = ['main']
-handler.command = ['owner', 'creator', 'creador', 'dueño'] 
-
-export default handler*/
