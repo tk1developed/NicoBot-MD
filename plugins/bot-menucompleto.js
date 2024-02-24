@@ -22,16 +22,16 @@ let tags = {
   'owner': 'O W N E R', */
 }
 const defaultMenu = {
-  before: `┏━━━━━━━━━━━━━━━━━━┓
-┣⟣☯︎ *𝙾𝚆𝙽𝙴𝚁:* 𝙷𝙰𝙲𝙷𝙴𝙹𝙾𝚃𝙰
-┣⟣☯︎ *𝙽𝚄𝙼𝙴𝚁𝙾:* +51 992 004 117
-┣⟣☯︎ *𝙸𝙳𝙸𝙾𝙼𝙰:* 𝙴𝚂𝙿𝙰𝙽̃𝙾𝙻 
-┣⟣☯︎ *𝙼𝙾𝙳𝙾:* 𝙿𝚄𝙱𝙻𝙸𝙲𝙾
-┗━━━━━━━━━━━━━━━━━━┛
+  before: `╭─━━━━━━⊱✿⊰━━━━━━─
+┃ 𝐍𝐨𝐦𝐛𝐫𝐞 𝐃𝐞𝐥 𝐁𝐨𝐭: 𝚂𝙰𝙺𝚄𝚁𝙰𝙱𝙾𝚃𝙻𝙸𝚃𝙴-𝙼𝙳
+┃ 𝐃𝐮𝐞𝐧̃𝐨 𝐃𝐞𝐥 𝐁𝐨𝐭: @573013482814
+┃ 𝐋𝐞𝐧𝐠𝐮𝐚𝐣𝐞: 𝙴𝚂𝙿𝙰𝙽̃𝙾𝙻 
+┃ 𝐌𝐨𝐝𝐨: 𝙿𝚄𝙱𝙻𝙸𝙲𝙾
+╰─━━━━━━⊱✿⊰━━━━━━─
 `.trimStart(),
-  header: '┏━━━━━━━━━━━━━━━━┓\n*┃❍ %category ❍*\n┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃',
-  body: '┣⟣❥ %cmd',
-  footer: '┗━━━━━━━━━━━━━━━━┛\n',
+  header: '┏━━━━━━━✦✗✦━━━━━━━━┓\n*┃𖤈 %category 𖤈*\n┃━━━━━━━━━━━━━━┃',
+  body: '┋➺ %cmd',
+  footer: '┗━━━━━━━✦✗✦━━━━━━━━┛\n',
   after: `
 `,
 }
@@ -130,18 +130,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       level, diamond, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
       readmore: readMore
     }
-await conn.reply(m.chat, '*Próximamente se remitirá el menú.*', fkontak, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: saludo, sourceUrl: global.ig, thumbnailUrl: ppBot }}})
- 
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
     let pp = imagen1
     // await conn.reply(m.chat, '*Enviando el menu . . .*', ftrol) 
     conn.sendFile(m.chat, pp, 'menu2.jpg', text.trim(), m, null)
-    /*conn.sendButton(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff', pp, [
-      ['ꨄ︎ Apoyar', `${_p}donate`],
-      ['⏍ Info', `${_p}botinfo`],
-      ['⌬ Grupos', `${_p}gpdylux`]
-    ],m, rpl)*/
 
 
   } catch (e) {
