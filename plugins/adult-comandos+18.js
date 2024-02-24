@@ -1,7 +1,7 @@
 import axios from 'axios';
 import fetch from 'node-fetch';
 const handler = async (m, {command, conn}) => {
-  if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '*🌹 𝐶𝑜𝑚𝑎𝑛𝑑𝑜 𝐷𝑒𝑠𝑎𝑐𝑟𝑖𝑣𝑎𝑑𝑜, 𝑆𝑖 𝐸𝑟𝑒𝑠 𝐴𝑑𝑚𝑖𝑛 𝑈𝑠𝑎: !enable modohorny*';
+  if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '*🌹 𝐶𝑜𝑚𝑎𝑛𝑑𝑜 𝐷𝑒𝑠𝑎𝑐𝑡𝑖𝑣𝑎𝑑𝑜, 𝑆𝑖 𝐸𝑟𝑒𝑠 𝐴𝑑𝑚𝑖𝑛 𝑈𝑠𝑎: !enable modohorny*';
 
   if (command == 'nsfwloli') {
     const res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwloli.json`)).data;
