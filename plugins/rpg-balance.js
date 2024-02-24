@@ -11,7 +11,7 @@ const handler = async (m, {usedPrefix}) => {
 
 ╭• ────── ✾ ────── •
 ┃ *Puedes Comprar Mas 💎*
-┃ *Usa Los Siguentes Comandos*
+┃ *Usando Los Siguentes Comandos*
 ┃ *${usedPrefix}buy <cantidad>*
 ┃ *${usedPrefix}buyall*
 ╰✶⊶⊷⊶⊷❍⊶⊷⊶⊷✶`)
