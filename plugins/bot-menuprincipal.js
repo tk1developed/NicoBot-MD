@@ -399,7 +399,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
    await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '🍓⸽⃕  𝕾𝖆𝖐𝖚𝖗𝖆 - 𝕭𝖔𝖙 - 𝕷𝖎𝖙𝖊 - 𝕸𝕯 🦋⸽⃕✰', "containsAutoReply": true, "mediaType": 1, "thumbnail": [imagen6,imagen1,imagen4].getRandom(), "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
  // m.react('⚘️');
   } catch {
-    conn.reply(m.chat, '⚠️ *El menu tiene un error por favor espere.*', m);
+    conn.reply(m.chat, '⚠️ *EL MENU TIENE UN ERROR USE MENUCOMPLETO: (!menucompleto)*', m);
   }
 };
 handler.help = ['menu'];
