@@ -53,7 +53,7 @@ global.imagen6 = fs.readFileSync('./Menu3.png');
 
 
 //Grupos Ofc
-global.gp1 = 'https://chat.whatsapp.com/DV7fEXPjgTtAIQXFZSIJhP' //Grupo Oficial De SakuraBot
+global.gp1 = 'https://chat.whatsapp.com/CKqHvmFQDL1Kdj6TFHahUn' //Grupo Oficial De SakuraBot
 
 global.gp2 = 'https://chat.whatsapp.com/DN0Qcj8Mbpg7HaHn6l35ts' //Grupo SakuraBot Global
 
