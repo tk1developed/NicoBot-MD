@@ -20,7 +20,7 @@ const defaultMenu = {
 ┃╭──────────────
 ┃┃ *Creador:* Diego
 ┃┃ *Tiempo Activo:* %muptime
-┃┃ *Registrados:* %rtotalreg de %totalreg usuarios
+┃┃ *Registrados:* %totalreg
 ┃╰────────────── 
 ├━━━━━━━━━━━━━━━◉
 ┃
