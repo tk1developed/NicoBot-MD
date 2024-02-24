@@ -15,7 +15,7 @@
 
 
 - ### 🌤Configuracion📍
- 𝐂𝐥𝐨𝐧𝐚𝐫 𝐑𝐞𝐩𝐨 : 𝐒𝐚𝐤𝐮𝐫𝐚 [Aqui](https://github.com/diegojadibot/SakuraBotLite-MD/fork)
+ Clonar Repo : Sakura [Aqui.](https://github.com/diegojadibot/SakuraBotLite-MD/fork)
 
    
   
