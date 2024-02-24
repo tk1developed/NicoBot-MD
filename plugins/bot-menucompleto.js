@@ -16,7 +16,7 @@ const defaultMenu = {
 ┃
 ├━━━〔 I N F O 〕━━━◉
 ┃ *Creador:* Diego
-┃ *Tiempo Activo:* %muptime
+┃ *Tiempo Activa:* %muptime
 ┃ *Registrados:* %totalreg
 ├━━━━━━━━━━━━━━━◉
 ┃
