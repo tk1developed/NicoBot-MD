@@ -46,7 +46,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃🌻 _!velocidad_
 ┃🌻 _!instalarbot_
 ┃🌻 _!botreglas_
-┃🌻 _!totalfunciones_
 ┃🌻 _!terminosycondiciones_
 ┃🌻 _!grupos_
 ┃🌻 _!estado_
@@ -55,6 +54,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃🌻 _!donar_
 ┃🌻 _!owner_
 ┃🌻 _!contactos_
+┃🌻 _!database_
 ┃🌻 _!colaboradores_
 ┃🌻 _!script_
 ┃🌻 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
