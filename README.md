@@ -28,8 +28,8 @@
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=738341999&ref=main&geo=UsEast)
 ***
 
-- ### 📍Instalacio Por Termux Automatica🦋
-[`⚡️ Instalar Termux Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
+- #### 📍Instalacio Por Termux Automatica🦋
+[`⚡️ Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
 ```bash
 termux-setup-storage
 ```
