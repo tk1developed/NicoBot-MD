@@ -100,12 +100,8 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ---------
 
-
-<div align="center">
-  <h1 align="center">🥀 Editor y Propietario Del Bot</h1>
-
-<a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="300" height="300" alt="Diego 🥀"/></a>
-
+- ### Editor Y Propietario Del Bot 🥀📍
+<a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="250" height="250" alt="Zumy - Diego"/></a>
 `SakuraBotLite-MD /
 : By Diego 🥀`
 
