@@ -121,3 +121,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
        <td align="center"><a href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖬𝖺𝗋𝗂𝗈</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
     <td align="center"><a 
  <td align="center"><a 
+<td align="center"><a href="https://github.com/Enzito-Vase"><img src="https://github.com/Enzito-Vase.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖤𝗇𝗓𝗈</b></sub></a><br /><sub><i>Editor Oficial</i>
+    <td align="center"><a 
+       <td align="center"><a
