@@ -110,14 +110,14 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <table>
   <tr>
 
-<td align="center"><a href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖠𝗅𝖾𝗑𝗂𝗌 </b></sub></a><br /><sub><i>𝖣𝖾𝗌𝖺𝗋𝗋𝗈𝗅𝗅𝖺𝖽𝗈𝗋 𝖮𝖿𝗂𝖼𝗂𝖺𝗅</i>
+<td align="center"><a href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖠𝗅𝖾𝗑𝗂𝗌</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
     <td align="center"><a 
        <td align="center"><a
 
-<td align="center"><a href="https://github.com/Ender-GB-Isis777"><img src="https://github.com/Ender-GB-Isis777.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖤𝗇𝖽𝖾𝗋 𝖦𝖡</b></sub></a><br /><sub><i>𝖣𝖾𝗌𝖺𝗋𝗋𝗈𝗅𝗅𝖺𝖽𝗈𝗋 𝖮𝖿𝗂𝖼𝗂𝖺𝗅</i>
+<td align="center"><a href="https://github.com/Ender-GB-Isis777"><img src="https://github.com/Ender-GB-Isis777.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖤𝗇𝖽𝖾𝗋 𝖦𝖡</b></sub></a><br /><sub><i>Colaborador Oficial</i>
     <td align="center"><a 
-       <td align="center"><a href="https://github.com/Wilsmac"><img src="https://github.com/Wilsmac.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖶𝗂𝗅𝗆𝖾𝗋</b></sub></a><br /><sub><i>𝖣𝖾𝗌𝖺𝗋𝗋𝗈𝗅𝗅𝖺𝖽𝗈𝗋 𝖮𝖿𝗂𝖼𝗂𝖺𝗅</i>
+       <td align="center"><a href="https://github.com/Wilsmac"><img src="https://github.com/Wilsmac.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖴𝖽𝖾𝖿𝗂𝗇𝖾𝖽</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
     <td align="center"><a 
-       <td align="center"><a href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖬𝖺𝗋𝗂𝗈</b></sub></a><br /><sub><i>𝖣𝖾𝗌𝖺𝗋𝗋𝗈𝗅𝗅𝖺𝖽𝗈𝗋 𝖮𝖿𝗂𝖼𝗂𝖺𝗅</i>
+       <td align="center"><a href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖬𝖺𝗋𝗂𝗈</b></sub></a><br /><sub><i>Desarrolladod Oficial</i>
     <td align="center"><a 
  <td align="center"><a 
