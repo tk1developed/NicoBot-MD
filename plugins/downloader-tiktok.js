@@ -37,6 +37,7 @@ m.reply(`*⚠️ ERROR AL DESCARGAR EL VÍDEO*`)
 handler.help = ['tiktok']
 handler.tags = ['descargas']
 handler.command = /^(tiktok|tt|ttdl|tiktokdl|tiktoknowm)$/i
+handler.register = true
 handler.diamond = true
 
 export default handler
