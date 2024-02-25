@@ -37,9 +37,6 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃✣➸ 𝖠𝗓𝖺𝗆𝗂:
 ┃ https://github.com/AzamiJs
 ┃
-┃✣➸ 𝖤𝗇𝖽𝖾𝗋:
-┃ https://github.com/Ender-GB-Isis777
-┃
 ┃✣➸ 𝖬𝖺𝗋𝗂𝗈:
 ┃ https://github.com/elrebelde21
 ┃
@@ -54,9 +51,6 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┋
 ┋➸ 𝖬𝖺𝗋𝗂𝗈: 
 ┋@5492266466080
-┋
-┋➸ 𝖤𝗇𝖽𝖾𝗋: 
-┋@50558124470
 ┋
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━`.trim();     if (m.isGroup) { 
  // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
