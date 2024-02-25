@@ -38,7 +38,7 @@ termux-setup-storage
 apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/sakura.sh | bash
 ```
 
-- ### ⚡️Instalacion Por Termux Manual👨‍💻
+- #### ⚡️Instalacion Por Termux Manual👨‍💻
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 cd && termux-setup-storage
