@@ -100,16 +100,8 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ---------
 
+- ### Editor Y Propietario Del Bot 🥀📍
+<a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="250" height="250" alt="Zumy - Diego"/></a>
+
 - ### Colaboradores Del Bot 📍 
-[![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21)
-
-[![Enzito-Vase](https://github.com/Enzito-Vase.png?size=100)](https://github.com/Enzito-Vase)
-[![Wilsmac](https://github.com/Wilsmac.png?size=100)](https://github.com/Wilsmac)
-
-<div align="center">
-  <h1 align="center">Editor y Propietario Del Bot📍🥀</h1>
-
-<a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="300" height="300" alt="Diego 🥀"/></a>
-
-`SakuraBot / By Diego 🔥`
-
+[![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) [![Enzito-Vase](https://github.com/Enzito-Vase.png?size=100)](https://github.com/Enzito-Vase) [![Wilsmac](https://github.com/Wilsmac.png?size=100)](https://github.com/Wilsmac)
