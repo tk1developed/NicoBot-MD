@@ -102,8 +102,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 - ### Editor Y Propietario Del Bot 🥀📍
 <a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="250" height="250" alt="Zumy - Diego"/></a>
-`SakuraBotLite-MD /
-: By Diego 🥀`
 
 - ### Colaboradores Del Bot 🕊️
 <!-- prettier-ignore-start -->
@@ -122,3 +120,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
        <td align="center"><a href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖬𝖺𝗋𝗂𝗈</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
     <td align="center"><a 
  <td align="center"><a
+
+`SakuraBotLite-MD /
+: By Diego 🥀`
