@@ -29,6 +29,11 @@
 ***
 
 - #### 📍Instalacion Por Termux Automatica🦋
+👇 Pasos Para Instalar El Bot Via Termux 👇
+
+[![blog](https://img.shields.io/badge/Video-Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
+](https://youtu.be/X-wQbVhLb8w?si=UdP9uM5SPFRY75nU)
+
 [`⚡️ Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
 ```bash
 termux-setup-storage
