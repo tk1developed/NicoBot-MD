@@ -25,7 +25,7 @@ const handler = async (m, {conn, args, command, usedPrefix}) => {
         const Jjson = await Rres.json();
         let VIDEO = Jjson.result[0];
         if (VIDEO == '' || !VIDEO || VIDEO == null) VIDEO = Jjson.result[1];
-        conn.sendFile(m.chat, VIDEO, 'error.mp4', `*𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝚂𝚄 𝚅𝙸𝙳𝙴𝙾*`, m);
+        conn.sendFile(m.chat, VIDEO, 'error.mp4', `*𝖠𝗊𝗎𝗂 𝖤𝗌𝗍𝖺 𝖲𝗎 𝖵𝗂𝖽𝖾𝗈*`, m);
       } catch (err2) {
         try {
           const ress = await fg.fbdl(args[0]);
