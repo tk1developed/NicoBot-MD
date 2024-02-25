@@ -103,18 +103,10 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 - ### Editor Y Propietario Del Bot 🥀📍
 <a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="250" height="250" alt="Zumy - Diego"/></a>
 
-- ### Colaboradores Del Bot 🕊️
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
+- ### Colaboradores Del Bot 📍 
+[![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs)  
+[![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21)
+[![Enzito-Vase](https://github.com/Enzito-Vase.png?size=100)](https://github.com/Enzito-Vase)
+[![Wilsmac](https://github.com/Wilsmac.png?size=100)](https://github.com/Wilsmac)
 
-<td align="center"><a href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖠𝗅𝖾𝗑𝗂𝗌</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
-    <td align="center"><a 
-       <td align="center"><a
-    <td align="center"><a 
-       <td align="center"><a href="https://github.com/Wilsmac"><img src="https://github.com/Wilsmac.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖴𝖽𝖾𝖿𝗂𝗇𝖾𝖽</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
-    <td align="center"><a 
-       <td align="center"><a href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png?size=100" width="100px;" alt=""/><br /><sub><b>𝖬𝖺𝗋𝗂𝗈</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
-    <td align="center"><a 
- <td align="center"><a
+
