@@ -29,6 +29,7 @@
 ***
 
 - ### 📍Instalacio Por Termux Automatica🦋
+[`⚡️ Instalar Termux Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
 ```bash
 termux-setup-storage
 ```
