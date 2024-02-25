@@ -8,7 +8,7 @@ let user = global.db.data.users[m.sender]
 
 if (new Date() - user.pc < 21600000) return
 await m.reply(`👋 Hola ${username}¡!
-*${saludo}*
+ *${saludo}*
 
 *⚠️ Nota:* No Envié Spam Al Bot!
 ⚡️ Escriba !menu Para Ver Los Comandos Que Dispongo!
