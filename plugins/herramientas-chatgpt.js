@@ -19,7 +19,7 @@ const configuration = new Configuration({organization: global.openai_org_id, api
 const openaiii = new OpenAIApi(configuration);
 const handler = async (m, {conn, text, usedPrefix, command}) => {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
-  if (!text) throw `*📍 *Escriba Una Peticion* ${usedPrefix + command} Conoces A SakuraBotLite-MD?`;
+  if (!text) throw `*📍 Escriba Una Peticion* ${usedPrefix + command} Codigos En Js Para Un Juego De Suerte`;
   try {
         conn.sendPresenceUpdate('composing', m.chat);
         //let sistema1 = await fetch(`https://raw.githubusercontent.com/Skidy89/chat-gpt-jailbreak/main/Text.txt`).then(v => v.text());
@@ -117,5 +117,5 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   }}
  }}
 };
-handler.command = /^(bard|chatgpt|ia|robot|openai2|chatgpt2|ia2|robot2|Lite|SakuraBot)$/i;
+handler.command = /^(chatgpt|ia|robot|openai2|chatgpt2|ia2|robot2|Lite|SakuraBot)$/i;
 export default handler;
