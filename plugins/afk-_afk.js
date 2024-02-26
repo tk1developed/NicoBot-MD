@@ -20,12 +20,7 @@ export function before(m) {
       continue;
     }
     const reason = user.afkReason || '';
-    m.reply(`*📍 No Lo Etiquetes 🥀*
-
-*El Usuario Que Usted Etiqueto Esta Inactivo*      
-*${reason ? 'Motivo: ' + reason : 'Motivo De La Inactividad: _El Usuario No Explico El Motivo_'}*
-*Tiempo TransCurrido De Inactividad: ${(new Date - afkTime).toTimeString()}*
-  `.trim());
+    m.reply(`*📍 No Lo Etiquetes 🥀*`.trim());
   }
   return true;
 }
