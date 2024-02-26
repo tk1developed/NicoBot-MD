@@ -1,4 +1,4 @@
-import fetch from 'node-fetch'
+/*import fetch from 'node-fetch'
 
 let handler = async (m, { text,  usedPrefix, command }) => {
 
@@ -22,4 +22,4 @@ handler.tags = ['ai']
 
 handler.premium = false
 
-export default handler
+export default handler*/
