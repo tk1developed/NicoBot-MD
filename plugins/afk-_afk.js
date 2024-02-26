@@ -2,7 +2,7 @@ export function before(m) {
   const user = global.db.data.users[m.sender];
   if (user.afk > -1) {
     m.reply(`
-  *📍 Dejastes De Estar Inactivo*\n*${user.afkReason ? 'Motivo De La Inactividad: ' + user.afkReason : ''}*
+  *📍 Dejastes De Estar Inactivo*\n*${user.afkReason ? '_Motivo De La Inactividad_: ' + user.afkReason : ''}*
   
   *Tiempo Inactivo: ${(new Date - user.afk).toTimeString()}*
   `.trim());
