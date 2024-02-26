@@ -12,32 +12,32 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const {exp, limit, level, role} = global.db.data.users[m.sender];
   const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/231b618729371a4e30f0e.jpg');
   const fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': saludo, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${saludo},;;;\nFN:${saludo},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': imagen1, thumbnail: imagen1 ,sendEphemeral: true}}};
-    await conn.reply(m.chat, '*!𝗣𝗿𝗼𝘅𝗶𝗺𝗮𝗺𝗲𝗻𝘁𝗲 𝗦𝗲 𝗘𝗻𝘃𝗶𝗮𝗿𝗮́ 𝗘𝗹 𝗠𝗲𝗻𝘂́.*',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋🏻 ¡𝐇𝐨𝐥𝐚!', body: '🦋 𝖫𝗂𝗇𝖽𝗈 𝖠𝗆𝖺𝗇𝖾𝖼𝖾𝗋 🌤', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
+    await conn.reply(m.chat, '*!𝗣𝗿𝗼𝘅𝗶𝗺𝗮𝗺𝗲𝗻𝘁𝗲 𝗦𝗲 𝗘𝗻𝘃𝗶𝗮𝗿𝗮́ 𝗘𝗹 𝗠𝗲𝗻𝘂́.*',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋🏻 ¡𝐇𝐨𝐥𝐚!', body: '🦋 𝖫𝗂𝗇𝖽𝗈 𝖠𝗆𝖺𝗇𝖾𝖼𝖾𝗋 🧸', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
 //m.react('📍');
     await conn.sendMessage(m.chat, { react: { text: '🚀', key: m.key } })
   let txt =`╭✨️⸽⃕𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🍁⃨፝⃕✰
-┋ 🐱𝐃𝐮𝐞𝐧̃𝐨 𝐃𝐞𝐥 𝐁𝐨𝐭: Diego
+┋ 🧸𝐃𝐮𝐞𝐧̃𝐨 𝐃𝐞𝐥 𝐁𝐨𝐭: Diego
 ┋ 👤𝐂𝐥𝐢𝐞𝐧𝐭𝐞: ${taguser}
-┋ 🐈𝐁𝐨𝐭 𝐎𝐟𝐢𝐜𝐢𝐚𝐥: ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || '𝚂𝙾𝚈 𝚄𝙽 𝙱𝙾𝚃 𝙾𝙵𝙲'}
+┋ 🥀𝐁𝐨𝐭 𝐎𝐟𝐢𝐜𝐢𝐚𝐥: ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || '𝚂𝙾𝚈 𝚄𝙽 𝙱𝙾𝚃 𝙾𝙵𝙲'}
 ┋ 🌿𝐃𝐚𝐭𝐞: ${date}
 ┋ 👥️️𝐔𝐬𝐮𝐚𝐫𝐢𝐨𝐬 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐝𝐨𝐬: ${rtotal}
 ┋ 🦋𝐕𝐞𝐫𝐬𝐢𝐨𝐧 𝐃𝐞 𝐒𝐚𝐤𝐮𝐫𝐚: ${vs}
 ╰━━━━━━━✦✗✦━━━━━━━━
 
 ╭━━━━･❪ *INFO USER* ❫ ･━━━━╮
-┃✣➸ 🐢𝐋𝐞𝐯𝐞𝐥𝐮𝐩: ${level}
-┃✣➸ 🌱𝐄𝐱𝐩: ${exp}
-┃✣➸ 🍁𝐑𝐚𝐧𝐠𝐨: ${role}
+┃✣➸ 📍𝐋𝐞𝐯𝐞𝐥𝐮𝐩: ${level}
+┃✣➸ 🧸𝐄𝐱𝐩: ${exp}
+┃✣➸ ⚡️𝐑𝐚𝐧𝐠𝐨: ${role}
 ┃✣➸ 💎𝐃𝐢𝐚𝐦𝐚𝐧𝐭𝐞: ${limit}
-┃✣➸ 🌻𝐒𝐚𝐤𝐮𝐂𝐨𝐢𝐧𝐬: ${money}
-┃✣➸ 🌼𝐌𝐨𝐧𝐞𝐝𝐚𝐬: ${joincount}
+┃✣➸ 💰𝐒𝐚𝐤𝐮𝐂𝐨𝐢𝐧𝐬: ${money}
+┃✣➸ 🪙𝐌𝐨𝐧𝐞𝐝𝐚𝐬: ${joincount}
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━━･❪ *SOLUCIONES* ❫ ･━━━━╮
-┃🐈 Mensajes en espera
-┃🐈 _!fixmsgespera_
-┃🐈 Mensajes en espera (owner)
-┃🐈 _!dsowner_
+┃📍 Mensajes en espera
+┃📍 _!fixmsgespera_
+┃📍 Mensajes en espera (owner)
+┃📍 _!dsowner_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━━･❪ *INFO BOT* ❫ ･━━━━╮
@@ -63,7 +63,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━･❪ *BOT A TU GRUPO* ❫ ･━━╮
-┃🍓 _!join *<enlace / link / url>*_
+┃🧸 _!join *<enlace / link / url>*_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━━･❪ *SER SUBBOT* ❫ ･━━━━╮
@@ -218,16 +218,16 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━･❪ *CONVERTIDORES* ❫ ･━━╮
-┃🐱 _!toanime *<imagen>*_
-┃🐱 _!togifaud *<video>*_
-┃🐱 _!toimg *<sticker>*_
-┃🐱 _!tomp3 *<video>*_
-┃🐱 _!tomp3 *<nota de voz>*_
-┃🐱 _!toptt *<video / audio>*_
-┃🐱 _!tovideo *<sticker>*_
-┃🐱 _!tourl *<video / imagen / audio>*_
-┃🐱 _!tts *<idioma> <texto>*_
-┃🐱 _!tts *<efecto> <texto>*_
+┃🧨 _!toanime *<imagen>*_
+┃🧨 _!togifaud *<video>*_
+┃🧨 _!toimg *<sticker>*_
+┃🧨 _!tomp3 *<video>*_
+┃🧨 _!tomp3 *<nota de voz>*_
+┃🧨 _!toptt *<video / audio>*_
+┃🧨 _!tovideo *<sticker>*_
+┃🧨 _!tourl *<video / imagen / audio>*_
+┃🧨 _!tts *<idioma> <texto>*_
+┃🧨 _!tts *<efecto> <texto>*_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━･❪ *LOGOS Y EFECTOS* ❫ ･━━╮
@@ -285,7 +285,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━･❪ *COMANDO +18* ❫ ･━━━╮
-┃🌹 _!hornymenu_
+┃🧩 _!hornymenu_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━･❪ *EFECTOS-AUDIOS* ❫ ･━━╮
@@ -397,17 +397,17 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╭━━━━･❪ *PROPIETARIO* ❫ ･━━━━╮
 ┃💧 !menuowner
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•`;
-   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '🍓⸽⃕  𝕾𝖆𝖐𝖚𝖗𝖆 - 𝕭𝖔𝖙 - 𝕷𝖎𝖙𝖊 - 𝕸𝕯 🦋⸽⃕✰', "containsAutoReply": true, "mediaType": 1, "thumbnail": [imagen6,imagen1,imagen4].getRandom(), "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
- // m.react('⚘️');
+   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '🧸⸽⃕  𝕾𝖆𝖐𝖚𝖗𝖆 - 𝕭𝖔𝖙 - 𝕷𝖎𝖙𝖊 - 𝕸𝕯 🦋⸽⃕✰', "containsAutoReply": true, "mediaType": 1, "thumbnail": [imagen6,imagen1,imagen4].getRandom(), "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
+ // m.react('🧩');
   } catch {
-    conn.reply(m.chat, '⚠️ *EL MENU TIENE UN ERROR USE MENUCOMPLETO: (!menucompleto)*', m);
+    conn.reply(m.chat, '🧸 *Ocurrió Un Error*', m);
   }
 };
 handler.help = ['menu'];
 handler.tags = ['menu'];
-handler.command = /^(menu|allmenu|menú|help|ayuda)$/i;
+handler.command = /^(menu|allmenu|menú|help|menucompleto)$/i;
 handler.register = true
 export default handler;
 
 var ase = new Date(); var hour = ase.getHours(); switch(hour){ case 0: hour = 'Linda Mañana'; break; case 1: hour = 'Linda Mañana'; break; case 2: hour = 'Linda Mañana'; break; case 3: hour = 'Linda Mañana'; break; case 4: hour = 'linda mañana'; break; case 5: hour = 'Linda Mañana'; break; case 6: hour = 'Linda Mañana'; break; case 7: hour = 'Linda Mañana'; break; case 8: hour = 'Linda Mañana'; break; case 9: hour = 'Linda Mañana'; break; case 10: hour = 'Lindo Dia'; break; case 11: hour = 'Lindo Dia'; break; case 12: hour = 'Lindo Dia'; break; case 13: hour = 'Lindo Dia'; break; case 14: hour = 'Linda Tarde'; break; case 15: hour = 'Linda Tarde'; break; case 16: hour = 'Linda Tarde'; break; case 17: hour = 'Linda Tarde'; break; case 18: hour = 'Linda Noche'; break; case 19: hour = 'Linda Noche'; break; case 20: hour = 'Linda Noche'; break; case 21: hour = 'Linda Noche'; break; case 22: hour = 'Linda Noche'; break; case 23: hour = 'Linda Noche'; break;}
- global.saludo = "🥀" + hour;
+ global.saludo = "🧸" + hour;
