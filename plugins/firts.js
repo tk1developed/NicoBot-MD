@@ -10,9 +10,9 @@ if (new Date() - user.pc < 21600000) return
 await m.reply(`👋 Hola ${username}¡!
  *${saludo}*
 
-*⚠️ Nota:* No Envié Spam Al Bot!
+*⚠️ Nota:* No Envié Spam Al Bot, Si Envias Te Bloquea!
 ⚡️ Escriba !menu Para Ver Los Comandos Que Dispongo!
 
-📍 ¿Quieres Apoyar En El Proyecto Del Bot Para Que Siempre Tenga Actualizaciones? Únete Al Grupo Oficial Del Bot: https://chat.whatsapp.com/CKqHvmFQDL1Kdj6TFHahUn`) 
+📍 ¿Quieres Apoyar En El Proyecto Del Bot Para Que Siempre Tenga Actualizaciones? Puedes Apoyarnos Con Una Estrellita🌟 Al Repositorio.`) 
 user.pc = new Date * 1
 }
