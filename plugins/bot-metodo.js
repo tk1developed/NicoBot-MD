@@ -10,7 +10,7 @@ let handler = async (m, { conn }) => {
           let child = stdout.toString("utf-8");
           let ssd = child.replace(/Memory:/, "Ram:");
 
-          m.reply(`${saludo}\n\n*🌤 Tenemos 2 Metodos De Vinculacion!*\n\nTenemos:\n\n- Texto De 8 Digitos.\n- Codigo Qr.\n\n*📍 Espero Y Lo Instales*`);
+          m.reply(`${saludo}\n\n*🌤 Tenemos 2 Metodos De Vinculaciones!*\n\nTenemos:\n\n- Texto De 8 Digitos.\n- Codigo Qr.\n\n*📍 Espero Y Lo Instales*`);
             });
 }
 handler.help = ['info']
