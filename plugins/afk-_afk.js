@@ -20,7 +20,7 @@ export function before(m) {
       continue;
     }
     const reason = user.afkReason || '';
-    m.reply(`*📍 No Lo Etiquetes 🥀*`.trim());
+    m.reply(`*📍 El Usuario Esta Inactivo No Lo Etiquetes 🥀*`.trim());
   }
   return true;
 }
