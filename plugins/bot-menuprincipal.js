@@ -285,7 +285,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━･❪ *COMANDO +18* ❫ ･━━━╮
-┃🧩 _!hornymenu_
+┃🔥 _!hornymenu_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━･❪ *EFECTOS-AUDIOS* ❫ ･━━╮
@@ -315,32 +315,32 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━･❪ *UTILIDADES* ❫ ･━━━╮
-┃🐢 _!inspect *<link wa_gc>*_
-┃🐢 _!chatgpt *<texto>*_
-┃🐢 _!delchatgpt_
-┃🐢 _!gptvoz *<texto>*_
-┃🐢 _!dall-e *<texto>*_
-┃🐢 _!spamwa *<numero|texto|cantidad>*_
-┃🐢 _!tamaño *<cantidad> <imagen / video>*_
-┃🐢 _!readviewonce *<imagen / video>*_
-┃🐢 _!clima *<país> <ciudad>*_
-┃🐢 _!encuesta *<texto1|texto2...>*_
-┃🐢 _!afk *<motivo>*_
-┃🐢 _!ocr *<responde a imagen>*_
-┃🐢 _!hd *<responde a imagen>*_
-┃🐢 _!acortar *<enlace / link / url>*_
-┃🐢 _!calc *<operacion math>*_
-┃🐢 _!del *<mensaje>*_
-┃🐢 _!whatmusic *<audio>*_
-┃🐢 _!readqr *<imagen (QR)>*_
-┃🐢 _!qrcode *<texto>*_
-┃🐢 _!readmore *<texto1| texto2>*_
-┃🐢 _!styletext *<texto>*_
-┃🐢 _!traducir *<texto>*_
-┃🐢 _!nowa *<numero>*_
-┃🐢 _!covid *<pais>*_
-┃🐢 _!horario_
-┃🐢 _!dropmail_
+┃🧩 _!inspect *<link wa_gc>*_
+┃🧩 _!chatgpt *<texto>*_
+┃🧩 _!delchatgpt_
+┃🧩 _!gptvoz *<texto>*_
+┃🧩 _!dall-e *<texto>*_
+┃🧩 _!spamwa *<numero|texto|cantidad>*_
+┃🧩 _!tamaño *<cantidad> <imagen / video>*_
+┃🧩 _!readviewonce *<imagen / video>*_
+┃🧩 _!clima *<país> <ciudad>*_
+┃🧩 _!encuesta *<texto1|texto2...>*_
+┃🧩 _!afk *<motivo>*_
+┃🧩 _!ocr *<responde a imagen>*_
+┃🧩 _!hd *<responde a imagen>*_
+┃🧩 _!acortar *<enlace / link / url>*_
+┃🧩 _!calc *<operacion math>*_
+┃🧩 _!del *<mensaje>*_
+┃🧩 _!whatmusic *<audio>*_
+┃🧩 _!readqr *<imagen (QR)>*_
+┃🧩 _!qrcode *<texto>*_
+┃🧩 _!readmore *<texto1| texto2>*_
+┃🧩 _!styletext *<texto>*_
+┃🧩 _!traducir *<texto>*_
+┃🧩 _!nowa *<numero>*_
+┃🧩 _!covid *<pais>*_
+┃🧩 _!horario_
+┃🧩 _!dropmail_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━･❪ *LIM/ECONOMIAS* ❫ ･━━╮
