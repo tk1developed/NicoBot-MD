@@ -34,32 +34,32 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━━･❪ *SOLUCIONES* ❫ ･━━━━╮
-┃📍 Mensajes en espera
-┃📍 _!fixmsgespera_
-┃📍 Mensajes en espera (owner)
-┃📍 _!dsowner_
+┃🥀 Mensajes en espera
+┃🥀 _!fixmsgespera_
+┃🥀 Mensajes en espera (owner)
+┃🥀 _!dsowner_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━━･❪ *INFO BOT* ❫ ･━━━━╮
-┃🌻 _!cuentas_
-┃🌻 _!saludo_
-┃🌻 _!velocidad_
-┃🌻 _!metodo_
-┃🌻 _!totalf_
-┃🌻 _!instalarbot_
-┃🌻 _!botreglas_
-┃🌻 _!terminosycondiciones_
-┃🌻 _!grupos_
-┃🌻 _!estado_
-┃🌻 _!infobot_
-┃🌻 _!speedtest_
-┃🌻 _!donar_
-┃🌻 _!owner_
-┃🌻 _!contactos_
-┃🌻 _!database_
-┃🌻 _!colaboradores_
-┃🌻 _!script_
-┃🌻 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+┃📍 _!cuentas_
+┃📍 _!saludo_
+┃📍 _!velocidad_
+┃📍 _!metodo_
+┃📍 _!totalf_
+┃📍 _!instalarbot_
+┃📍 _!botreglas_
+┃📍 _!terminosycondiciones_
+┃📍 _!grupos_
+┃📍 _!estado_
+┃📍 _!infobot_
+┃📍 _!speedtest_
+┃📍 _!donar_
+┃📍 _!owner_
+┃📍 _!contactos_
+┃📍 _!database_
+┃📍 _!colaboradores_
+┃📍 _!script_
+┃📍 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━･❪ *BOT A TU GRUPO* ❫ ･━━╮
@@ -96,76 +96,76 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━･❪ *ENABLE/DISABLE* ❫ ･━━━╮
-┃✨️ _!enable *welcome*_
-┃✨️ _!disable *welcome*_
-┃✨️ _!enable *modohorny*_
-┃✨️ _!disable *modohorny*_
-┃✨️ _!enable *antilink*_
-┃✨️ _!disable *antilink*_
-┃✨️ _!enable *antilink2*_
-┃✨️ _!disable *antilink2*_
-┃✨️ _!enable *juegos*_
-┃✨️ _!disable *juegos*_
-┃✨️ _!enable *detect*_
-┃✨️ _!disable *detect*_
-┃✨️ _!enable *audios*_
-┃✨️ _!disable *audios*_
-┃✨️ _!enable *autosticker*_
-┃✨️ _!disable *autosticker*_
-┃✨️ _!enable *antiviewonce*_
-┃✨️ _!disable *antiviewonce*_
-┃✨️ _!enable *antitoxic*_
-┃✨️ _!disable *antitoxic*_
-┃✨️ _!enable *antitraba*_
-┃✨️ _!disable *antitraba*_
-┃✨️ _!enable *antiarabes*_
-┃✨️ _!disable *antiarabes*_
-┃✨️ _!enable *modoadmin*_
-┃✨️ _!disable *modoadmin*_
-┃✨️ _!enable *antidelete*_
-┃✨️ _!disable *antidelete*_
+┃🌲 _!enable *welcome*_
+┃🌲 _!disable *welcome*_
+┃🌲 _!enable *modohorny*_
+┃🌲 _!disable *modohorny*_
+┃🌲 _!enable *antilink*_
+┃🌲 _!disable *antilink*_
+┃🌲 _!enable *antilink2*_
+┃🌲 _!disable *antilink2*_
+┃🌲 _!enable *juegos*_
+┃🌲 _!disable *juegos*_
+┃🌲 _!enable *detect*_
+┃🌲 _!disable *detect*_
+┃🌲 _!enable *audios*_
+┃🌲 _!disable *audios*_
+┃🌲 _!enable *autosticker*_
+┃🌲 _!disable *autosticker*_
+┃🌲 _!enable *antiviewonce*_
+┃🌲 _!disable *antiviewonce*_
+┃🌲 _!enable *antitoxic*_
+┃🌲 _!disable *antitoxic*_
+┃🌲 _!enable *antitraba*_
+┃🌲 _!disable *antitraba*_
+┃🌲 _!enable *antiarabes*_
+┃🌲 _!disable *antiarabes*_
+┃🌲 _!enable *modoadmin*_
+┃🌲 _!disable *modoadmin*_
+┃🌲 _!enable *antidelete*_
+┃🌲 _!disable *antidelete*_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━━･❪ *REPORTE* ❫ ･━━━━╮
-┃🕊️ _!reporte *<texto>*_
+┃🌹 _!reporte *<texto>*_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━━･❪ *DESCARGAS* ❫ ･━━━━╮
-┃☂️ _!instagram *<enlace / link / url>*_
-┃☂️ _!mediafire *<enlace / link / url>*_
-┃☂️ _!gitclone *<enlace / link / url>*_
-┃☂️ _!gdrive *<enlace / link / url>*_
-┃☂️ _!tiktok *<enlace / link / url>*_
-┃☂️ _!tiktokimg *<enlace / link / url>*_
-┃☂️ _!xnxxdl *<enlace / link / url>*_
-┃☂️ _!xvideosdl *<enlace / link / url>*_
-┃☂️ _!twitter *<enlace / link / url>*_
-┃☂️ _!fb *<enlace / link / url>*_
-┃☂️ _!ytshort *<enlace / link / url>*_
-┃☂️ _!ytmp3 *<enlace / link / url>*_
-┃☂️ _!ytmp4 *<enlace / link / url>*_
-┃☂️ _!ytmp3doc *<enlace / link / url>*_
-┃☂️ _!ytmp4doc *<enlace / link / url>*_
-┃☂️ _!videodoc *<enlace / link / url>*_
-┃☂️ _!dapk2 *<enlace / link / url>*_
-┃☂️ _!stickerpack *<enlace / link / url>*_
-┃☂️ _!play *<texto>*_
-┃☂️ _!play2 *<texto>*_
-┃☂️ _!play.1 *<texto>*_
-┃☂️ _!play.2 *<texto>*_
-┃☂️ _!playdoc *<texto>*_
-┃☂️ _!playdoc2 *<texto>*_
-┃☂️ _!playlist *<texto>*_
-┃☂️ _!spotify *<texto>*_
-┃☂️ _!ringtone *<texto>*_
-┃☂️ _!soundcloud *<texto>*_
-┃☂️ _!imagen *<texto>*_
-┃☂️ _!pinterest *<texto>*_
-┃☂️ _!wallpaper *<texto>*_
-┃☂️ _!pptiktok *<nombre de usuario>*_
-┃☂️ _!igstalk *<nombre de usuario>*_
-┃☂️ _!igstory *<nombre de usuario>*_
-┃☂️ _!tiktokstalk *<username>*_
+┃🛰 _!instagram *<enlace / link / url>*_
+┃🛰 _!mediafire *<enlace / link / url>*_
+┃🛰 _!gitclone *<enlace / link / url>*_
+┃🛰 _!gdrive *<enlace / link / url>*_
+┃🛰 _!tiktok *<enlace / link / url>*_
+┃🛰 _!tiktokimg *<enlace / link / url>*_
+┃🛰 _!xnxxdl *<enlace / link / url>*_
+┃🛰 _!xvideosdl *<enlace / link / url>*_
+┃🛰 _!twitter *<enlace / link / url>*_
+┃🛰 _!fb *<enlace / link / url>*_
+┃🛰 _!ytshort *<enlace / link / url>*_
+┃🛰 _!ytmp3 *<enlace / link / url>*_
+┃🛰 _!ytmp4 *<enlace / link / url>*_
+┃🛰 _!ytmp3doc *<enlace / link / url>*_
+┃🛰 _!ytmp4doc *<enlace / link / url>*_
+┃🛰 _!videodoc *<enlace / link / url>*_
+┃🛰 _!dapk2 *<enlace / link / url>*_
+┃🛰 _!stickerpack *<enlace / link / url>*_
+┃🛰 _!play *<texto>*_
+┃🛰 _!play2 *<texto>*_
+┃🛰 _!play.1 *<texto>*_
+┃🛰 _!play.2 *<texto>*_
+┃🛰 _!playdoc *<texto>*_
+┃🛰 _!playdoc2 *<texto>*_
+┃🛰 _!playlist *<texto>*_
+┃🛰 _!spotify *<texto>*_
+┃🛰 _!ringtone *<texto>*_
+┃🛰 _!soundcloud *<texto>*_
+┃🛰 _!imagen *<texto>*_
+┃🛰 _!pinterest *<texto>*_
+┃🛰 _!wallpaper *<texto>*_
+┃🛰 _!pptiktok *<nombre de usuario>*_
+┃🛰 _!igstalk *<nombre de usuario>*_
+┃🛰 _!igstory *<nombre de usuario>*_
+┃🛰 _!tiktokstalk *<username>*_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━･❪ *BUSCADORES* ❫ ･━━━╮
@@ -218,29 +218,29 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━･❪ *CONVERTIDORES* ❫ ･━━╮
-┃🧨 _!toanime *<imagen>*_
-┃🧨 _!togifaud *<video>*_
-┃🧨 _!toimg *<sticker>*_
-┃🧨 _!tomp3 *<video>*_
-┃🧨 _!tomp3 *<nota de voz>*_
-┃🧨 _!toptt *<video / audio>*_
-┃🧨 _!tovideo *<sticker>*_
-┃🧨 _!tourl *<video / imagen / audio>*_
-┃🧨 _!tts *<idioma> <texto>*_
-┃🧨 _!tts *<efecto> <texto>*_
+┃🦎 _!toanime *<imagen>*_
+┃🦎 _!togifaud *<video>*_
+┃🦎 _!toimg *<sticker>*_
+┃🦎 _!tomp3 *<video>*_
+┃🦎 _!tomp3 *<nota de voz>*_
+┃🦎 _!toptt *<video / audio>*_
+┃🦎 _!tovideo *<sticker>*_
+┃🦎 _!tourl *<video / imagen / audio>*_
+┃🦎 _!tts *<idioma> <texto>*_
+┃🦎 _!tts *<efecto> <texto>*_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━･❪ *LOGOS Y EFECTOS* ❫ ･━━╮
-┃🦋 _!logos *<efecto> <texto>*_
-┃🦋 _!logochristmas *<texto>*_
-┃🦋 _!logocorazon *<texto>*_
-┃🦋 _!ytcomment *<texto>*_
-┃🦋 _!hornycard *<@tag>*_
-┃🦋 _!simpcard *<@tag>*_
-┃🦋 _!lolice *<@tag>*_
-┃🦋 _!itssostupid_
-┃🦋 _!pixelar_
-┃🦋 _!blur_
+┃📌 _!logos *<efecto> <texto>*_
+┃📌 _!logochristmas *<texto>*_
+┃📌 _!logocorazon *<texto>*_
+┃📌 _!ytcomment *<texto>*_
+┃📌 _!hornycard *<@tag>*_
+┃📌 _!simpcard *<@tag>*_
+┃📌 _!lolice *<@tag>*_
+┃📌 _!itssostupid_
+┃📌 _!pixelar_
+┃📌 _!blur_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━━･❪ *PIROPOS* ❫ ･━━━━╮
@@ -255,33 +255,33 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━━･❪ *RANDOM* ❫ ･━━━━╮
-┃🌥 _!kpop *<blackpink / exo / bts>*_
-┃🌥 _!cristianoronaldo_
-┃🌥 _!messi_
-┃🌥 _!cat_
-┃🌥 _!dog_
-┃🌥 _!meme_
-┃🌥 _!itzy_
-┃🌥 _!blackpink_
-┃🌥 _!navidad_
-┃🌥 _!wpmontaña_
-┃🌥 _!pubg_
-┃🌥 _!wpgaming_
-┃🌥 _!wpaesthetic_
-┃🌥 _!wpaesthetic2_
-┃🌥 _!wprandom_
-┃🌥 _!wallhp_
-┃🌥 _!wpvehiculo_
-┃🌥 _!wpmoto_
-┃🌥 _!coffee_
-┃🌥 _!pentol_
-┃🌥 _!caricatura_
-┃🌥 _!ciberespacio_
-┃🌥 _!technology_
-┃🌥 _!doraemon_
-┃🌥 _!hacker_
-┃🌥 _!planeta_
-┃🌥 _!randomprofile_
+┃🛸 _!kpop *<blackpink / exo / bts>*_
+┃🛸 _!cristianoronaldo_
+┃🛸 _!messi_
+┃🛸 _!cat_
+┃🛸 _!dog_
+┃🛸 _!meme_
+┃🛸 _!itzy_
+┃🛸 _!blackpink_
+┃🛸 _!navidad_
+┃🛸 _!wpmontaña_
+┃🛸 _!pubg_
+┃🛸 _!wpgaming_
+┃🛸 _!wpaesthetic_
+┃🛸 _!wpaesthetic2_
+┃🛸 _!wprandom_
+┃🛸 _!wallhp_
+┃🛸 _!wpvehiculo_
+┃🛸 _!wpmoto_
+┃🛸 _!coffee_
+┃🛸 _!pentol_
+┃🛸 _!caricatura_
+┃🛸 _!ciberespacio_
+┃🛸 _!technology_
+┃🛸 _!doraemon_
+┃🛸 _!hacker_
+┃🛸 _!planeta_
+┃🛸 _!randomprofile_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━･❪ *COMANDO +18* ❫ ･━━━╮
@@ -305,9 +305,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━･❪ *CHAT ANONIMO* ❫ ･━━━╮
-┃✔️ _!start_
-┃✔️ _!next_
-┃✔️ _!leave_
+┃🦊 _!start_
+┃🦊 _!next_
+┃🦊 _!leave_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━･❪ *MENU AUDIOS* ❫ ･━━━╮
@@ -344,54 +344,54 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━･❪ *LIM/ECONOMIAS* ❫ ･━━╮
-┃🌿 _!adventure_
-┃🌿 _!cazar_
-┃🌿 _!cofre_
-┃🌿 _!balance_
-┃🌿 _!claim_
-┃🌿 _!heal_
-┃🌿 _!lb_
-┃🌿 _!levelup_
-┃🌿 _!myns_
-┃🌿 _!perfil_
-┃🌿 _!work_
-┃🌿 _!minar_
-┃🌿 _!minar2_
-┃🌿 _!buy_
-┃🌿 _!buyall_
-┃🌿 _!verificar_
-┃🌿 _!robar *<cantidad> <@tag>*_
-┃🌿 _!transfer *<tipo> <cantidad> <@tag>*_
-┃🌿 _!unreg *<numero de serie>*_
+┃⚡️ _!adventure_
+┃⚡️ _!cazar_
+┃⚡️ _!cofre_
+┃⚡️ _!balance_
+┃⚡️ _!claim_
+┃⚡️ _!heal_
+┃⚡️ _!lb_
+┃⚡️ _!levelup_
+┃⚡️ _!myns_
+┃⚡️ _!perfil_
+┃⚡️ _!work_
+┃⚡️ _!minar_
+┃⚡️ _!minar2_
+┃⚡️ _!buy_
+┃⚡️ _!buyall_
+┃⚡️ _!verificar_
+┃⚡️ _!robar *<cantidad> <@tag>*_
+┃⚡️ _!transfer *<tipo> <cantidad> <@tag>*_
+┃⚡️ _!unreg *<numero de serie>*_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━━･❪ *STICKERS* ❫ ･━━━━╮
-┃🌺 _!sticker *<responder a imagen o video>*_
-┃🌺 _!sticker *<enlace / link / url>*_
-┃🌺 _!sticker2 *<responder a imagen o video>*_
-┃🌺 _!sticker2 *<enlace / link / url>*_
-┃🌺 _!s *<responder a imagen o video>*_
-┃🌺 _!s *<enlace / link / url>*_
-┃🌺 _!emojimix *<emoji 1>&<emoji 2>*_
-┃🌺 _!scircle *<imagen>*_
-┃🌺 _!sremovebg *<imagen>*_
-┃🌺 _!semoji *<tipo> <emoji>*_
-┃🌺 _!qc *<texto>*_
-┃🌺 _!attp *<texto>*_
-┃🌺 _!attp2 *<texto>*_
-┃🌺 _!attp3 *<texto>*_
-┃🌺 _!ttp *<texto>*_
-┃🌺 _!ttp2 *<texto>*_
-┃🌺 _!ttp3 *<texto>*_
-┃🌺 _!ttp4 *<texto>*_
-┃🌺 _!ttp5 *<texto>*_
-┃🌺 _!pat *<@tag>*_
-┃🌺 _!slap *<@tag>*_
-┃🌺 _!kiss *<@tag>*_
-┃🌺 _!dado_
-┃🌺 _!wm *<packname> <author>*_
-┃🌺 _!stickermarker *<efecto> <imagen>*_
-┃🌺 _!stickerfilter *<efecto> <imagen>*_
+┃🌳 _!sticker *<responder a imagen o video>*_
+┃🌳 _!sticker *<enlace / link / url>*_
+┃🌳 _!sticker2 *<responder a imagen o video>*_
+┃🌳 _!sticker2 *<enlace / link / url>*_
+┃🌳 _!s *<responder a imagen o video>*_
+┃🌳 _!s *<enlace / link / url>*_
+┃🌳 _!emojimix *<emoji 1>&<emoji 2>*_
+┃🌳 _!scircle *<imagen>*_
+┃🌳 _!sremovebg *<imagen>*_
+┃🌳 _!semoji *<tipo> <emoji>*_
+┃🌳 _!qc *<texto>*_
+┃🌳 _!attp *<texto>*_
+┃🌳 _!attp2 *<texto>*_
+┃🌳 _!attp3 *<texto>*_
+┃🌳 _!ttp *<texto>*_
+┃🌳 _!ttp2 *<texto>*_
+┃🌳 _!ttp3 *<texto>*_
+┃🌳 _!ttp4 *<texto>*_
+┃🌳 _!ttp5 *<texto>*_
+┃🌳 _!pat *<@tag>*_
+┃🌳 _!slap *<@tag>*_
+┃🌳 _!kiss *<@tag>*_
+┃🌳 _!dado_
+┃🌳 _!wm *<packname> <author>*_
+┃🌳 _!stickermarker *<efecto> <imagen>*_
+┃🌳 _!stickerfilter *<efecto> <imagen>*_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━━･❪ *PROPIETARIO* ❫ ･━━━━╮
