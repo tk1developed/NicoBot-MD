@@ -110,4 +110,4 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 
 - ### Colaboradores Del Bot 📍
-[![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) [![Enzito-Vase](https://github.com/Enzito-Vase.png?size=100)](https://github.com/Enzito-Vase) [![Wilsmac](https://github.com/Wilsmac.png?size=100)](https://github.com/Wilsmac) [![Wilsmac](https://github.com/Ender-GB-Isis777.png?size=100)](https://github.com/Ender-GB-Isis777)
+[![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) [![Enzito-Vase](https://github.com/Enzito-Vase.png?size=100)](https://github.com/Enzito-Vase) [![Wilsmac](https://github.com/Wilsmac.png?size=100)](https://github.com/Wilsmac)
