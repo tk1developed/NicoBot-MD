@@ -36,11 +36,11 @@ global.lenguajeSK = es //idioma de sakurabot
 
 global.packname = '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🧸';
 global.author = '𝖣𝗂𝖾𝗀𝗈 📍';
-global.wm = '𝐒𝐚𝐤𝐮𝐫𝐚-𝐁𝐨𝐭 🧸';
+global.wm = 'Sakura : Bot 🧸';
 global.sk = '𝗦𝖺𝗄𝗎𝗋𝖺 : 𝗕𝗈𝗍 - 𝗟𝗂𝗍𝖾';
 global.titulowm = '𝗦𝖺𝗄𝗎𝗋𝖺 : 𝗕𝗈𝗍';
 global.titulowm2 = `𝘿𝙞𝙚𝙜𝙤 𝙊𝙛𝙞𝙘𝙞𝙖𝙡`
-global.igfg = '𝘿𝙞𝙚𝙜𝙤 𝙊𝙛𝙞𝙘𝙞𝙖𝙡';
+global.igfg = 'Diego Oficial';
 global.wait = '*📍 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ʕ •́؈•̀ ₎...*';
 global.vs = '1.0.7 (beta)';
 
