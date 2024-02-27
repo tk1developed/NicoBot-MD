@@ -21,16 +21,16 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
 
- await conn.sendMessage(m.chat, { react: { text: '⚘️', key: m.key } })
+ await conn.sendMessage(m.chat, { react: { text: '🧩', key: m.key } })
 
 
 const document = doc[Math.floor(Math.random() * doc.length)];
  const str = `╭✨️⸽⃕𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🍁⃨፝⃕✰*
-┃➸ 𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🍓
-┃➸ 🍓𝖢𝗈𝗅𝖺𝖻𝗈𝗋𝖺𝖽𝗈𝗋𝖾𝗌
+┃➸ 𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🧸
+┃➸ 📍𝖢𝗈𝗅𝖺𝖻𝗈𝗋𝖺𝖽𝗈𝗋𝖾𝗌
 ╰◆━━━━━━◆❃◆━━━━━━◆
 
-*╭✨️⸽⃕𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼𝘀 𝗚𝗶𝘁𝗵𝘂𝗯🍁⃨፝⃕✰*
+*╭🧸⸽⃕𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼𝘀 𝗚𝗶𝘁𝗵𝘂𝗯📍✰*
 ┃✣➸ 𝖣𝗂𝖾𝗀𝗈:
 ┃ https://github.com/diegojadibot
 ┃
@@ -45,7 +45,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃
 ╰◆━━━━━━◆❃◆━━━━━━◆
 
-╭✨️⸽⃕𝗡𝘂𝗺𝗲𝗿𝗼𝘀 - 𝗖𝗿𝗲𝗮𝗱𝗼𝗿𝗲𝘀🍁⃨፝⃕✰ 
+╭🧸⸽⃕𝗡𝘂𝗺𝗲𝗿𝗼𝘀 - 𝗖𝗿𝗲𝗮𝗱𝗼𝗿𝗲𝘀📍✰ 
 ┋➸ 𝖣𝗂𝖾𝗀𝗈: 
 ┋@573013482814
 ┋
