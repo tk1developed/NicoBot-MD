@@ -12,7 +12,7 @@ import { es } from "./lib/idiomas/total-idiomas.js"
 global.botnumber = ""
 global.confirmCode = ""
 
-//No quitar los numeros de los creadores!
+//No quites los numeros de los propietarios
 global.owner = [
  ['573013482814', '👑 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 🧸', true],
  ['5491130182250', '𝙾𝚆𝙽𝙴𝚁 𝙾𝙵𝙲 ✨', true],
