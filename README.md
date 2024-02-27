@@ -1,6 +1,8 @@
 
 >🧸📍Versión Del Bot: 1.0.7 (beta)
 
+> 📍🚀Este Es El Repositorio Oficial, Si Quieres Clonar El Bot Por Favor No Quites Los Owners.
+
 ### 🧸Sakura : Bot - Lite - MD📍
 <p align="center">
 <img src="https://telegra.ph/file/e5c184e81e1124b028fb9.png" alt="SakuraBotLite-MD" width="900"/>
