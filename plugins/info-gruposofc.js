@@ -2,34 +2,34 @@ let media = './Menu7.png'
 let handler = async (m, { conn, command }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
     await conn.sendMessage(m.chat, { react: { text: '⚡️', key: m.key } })
-let str = `*🍓 GRUPOS OFICIALES*
+let str = `*📍 GRUPOS OFICIALES*
 
     *_╭━━━⊜ SakuraBotLite-MD_*
-  *_┃🌿❏ ${gp1}_*
+  *_┃🧸❏ ${gp1}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
     *_╭━━━⊜ SakuraLite-Global_*
-  *_┃🐢❏ ${gp2}_*
+  *_┃📍❏ ${gp2}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
- *⚡️ GRUPOS EN COLABORACIÓN*
+ *🥀 GRUPOS EN COLABORACIÓN*
 
     *_╭━━━⊜ Curiosity y SakuraBot_*
-  *_┃🌿❏ ${gp3}_*
+  *_┃🧸❏ ${gp3}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
     *_╭━━━⊜ NovaBot & SakuraBot_*
-  *_┃🐢❏ ${gp4}_*
+  *_┃📍❏ ${gp4}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
     *_╭━━━⊜ Multi.Bots_*
-  *_┃🌿❏ ${gp5}_*
+  *_┃🧸❏ ${gp5}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
-  *🌤 CANAL OFICIAL*
+  *🥀 CANAL OFICIAL*
 
     *_╭━━━⊜ Canal SakuraLite_*
-  *_┃🐢❏ ${channel}_*
+  *_┃📍❏ ${channel}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 
