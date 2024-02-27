@@ -1,11 +1,11 @@
 import { execSync } from 'child_process'
 
 var handler = async (m, { conn, text }) => {
-
+await conn.sendMessage(m.chat, { react: { text: '👏🏻', key: m.key } })
 try {
 const stdout = execSync('git pull' + (m.fromMe && text ? ' ' + text : ''));
 let messager = stdout.toString()
-if (messager.includes('Already up to date.')) messager = '🧸 *No Hay Actualizaciones.*'
+if (messager.includes('Already up to date.')) messager = '🧸 *No Hay Actualizaciones Pendientes.*'
 if (messager.includes('Updating')) messager = '🧸 *Actualizacion Exitosa.*\n\n' + stdout.toString()
 conn.reply(m.chat, messager,)
 } catch { 
@@ -39,3 +39,23 @@ handler.command = /^(update|actualizar|gitpull)$/i
 handler.rowner = true
 
 export default handler
+
+/*import {execSync} from "child_process"
+let handler = async (m, {conn, text}) => {
+    await conn.sendMessage(m.chat, { react: { text: '🏷', key: m.key } })
+  await m.reply(`🐱 𝐄 𝐒 𝐏 𝐄 𝐑 𝐀 🚀`)
+  try {
+    if (global.conn.user.jid == conn.user.jid) {
+      let stdout = execSync("git pull" + (m.fromMe && text ? " " + text : ""))
+      await await await conn.reply(m.chat, stdout.toString(), m)
+    }
+  } catch {
+    var update = execSync("git remote set-url origin https://github.com/diegojadibot/SakuraBotLite-MD.git && git pull")
+    await await await m.reply(update.toString())
+  }
+};
+handler.help = ["update"]
+handler.tags = ["owner"]
+handler.command = /^update|actualizar$/i
+handler.rowner = true
+export default handler*/
