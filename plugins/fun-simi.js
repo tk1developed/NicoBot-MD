@@ -20,7 +20,7 @@ const handler = async (m, {text, command, args, usedPrefix}) => {
       const resu2 = await reis2.json();
       m.reply(resu2[0][0][0]);
     } catch {
-      throw `*[❗] 𝙴𝚁𝚁𝙾𝚁, 𝚅𝚄𝙴𝙻𝚅𝙴 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*`;
+      throw `🧸 *Ocurrió Un Error*`;
     }
   }
 };
