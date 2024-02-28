@@ -1346,7 +1346,7 @@ _Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Pr
             }
           }
           if (m.limit) {
-            m.reply('*🧸 Se Usaron ' + +m.limit + ' Diamante(s) (Limites).*');
+            m.reply('*🧸 Se Usaron ' + +m.limit + ' Diamante(s) (Limite).*');
           }
         }
         break;
