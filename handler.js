@@ -1185,13 +1185,14 @@ export async function handler(chatUpdate) {
             if (user.bannedMessageCount < 3) {
               const messageNumber = user.bannedMessageCount + 1;
 const messageText = `
-╔═════════════════════╗
- ❰ 🚫 ❱ *¡••𝑈𝑠𝑎𝑟𝑖𝑜 𝐵𝑎𝑛𝑒𝑎𝑑𝑜••* ❰ 🚫 ❱
- 𝑨𝒗𝒊𝒔𝒐  ${messageNumber}/Total: 3)
-—◉ ${user.bannedReason ? `\n*𝑴𝒐𝒕𝒊𝒗𝒐:* ${user.bannedReason}` : '*𝑴𝒐𝒕𝒊𝒗𝒐:* 𝑆𝑖𝑛 𝐸𝑠𝑝𝑒𝑐𝑖𝑓𝑖𝑐𝑎𝑟'}
-—◉ *𝘚𝘪 𝘊𝘰𝘯𝘴𝘪𝘥𝘦𝘳𝘢𝘴 𝘘𝘶𝘦 𝘌𝘴 𝘜𝘯 𝘌𝘳𝘳𝘰𝘳 𝘠 𝘚𝘪 𝘛𝘪𝘦𝘯𝘦𝘴 𝘗𝘳𝘶𝘦𝘣𝘢𝘴, 𝘗𝘶𝘦𝘥𝘦𝘴 𝘊𝘰𝘮𝘶𝘯𝘪𝘤𝘢𝘳𝘵𝘦 𝘊𝘰𝘯 𝘌𝘭 𝘖𝘸𝘯𝘦𝘳 𝘋𝘦𝘭 𝘉𝘰𝘵 𝘠 𝘈𝘱𝘦𝘭𝘢𝘳 𝘓𝘢 𝘚𝘶𝘴𝘱𝘦𝘯𝘴𝘪𝘰́𝘯.*
-—◉ *Iɴᴛᴇɴᴛᴀ Rᴇᴛɪʀᴀʀ Eʟ Bᴀɴᴇᴏ Aǫᴜɪ:* Wa.me/573013482814
-╚═════════════════════╝
+╭━━━━━━━✦✗✦━━━━━━━━╮
+ 🚫 *Usuario Baneado* 🚫
+*Aviso*  ${messageNumber}/Total: 3)
+${user.bannedReason ? `\n*Motivo:* 
+${user.bannedReason}` : '*Motivo:* Sin Especificar'}
+_Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Propietario Del Bot Y Apelar La Suspención._
+*Intenta Quitar El Baneo Aqui:* Wa.me/573013482814
+╰━━━━━━━✦✗✦━━━━━━━━╯
                `.trim();
               m.reply(messageText);
               user.bannedMessageCount++;
@@ -1206,7 +1207,7 @@ const messageText = `
             if (user.commandCount === 2) {
               const remainingTime = Math.ceil((user.lastCommandTime + 30000 - Date.now()) / 30000);
               if (remainingTime > 0) {
-                const messageText = `*[ ⏳ ] 𝘌𝘴𝘱𝘦𝘳𝘢 ${remainingTime} 𝘚𝘦𝘨𝘶𝘯𝘥𝘰𝘴 𝘗𝘢𝘳𝘢 𝘜𝘴𝘢𝘳 𝘖𝘵𝘳𝘰 𝘊𝘰𝘮𝘢𝘯𝘥𝘰*`;
+                const messageText = `*⏰️ Espera ${remainingTime} Segundos Para Utilizar Otro Comando*`;
                 m.reply(messageText);
                 return;
               } else {
@@ -1272,11 +1273,11 @@ const messageText = `
           m.exp += xp;
         }
         if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-          mconn.conn.reply(m.chat, `*💎𝑯𝒆𝒚 𝑻𝒆 𝑨𝒔 𝑸𝒖𝒆𝒅𝒂𝒅𝒐 𝑺𝒊𝒏 𝑫𝒊𝒂𝒎𝒂𝒏𝒕𝒆𝒔 𝑪𝒐𝒎𝒑𝒓𝒂 𝑫𝒊𝒂𝒎𝒂𝒏𝒕𝒆 𝑼𝒔𝒂𝒏𝒅𝒐 𝑬𝒍 𝑪𝒐𝒎𝒂𝒏𝒅𝒐: ${usedPrefix}buyall*`, m);
+          mconn.conn.reply(m.chat, `*💎 Te As Quedado Sin Diamantes, Compra Dimantes Utilizando El Comando: ${usedPrefix}buyall*`, m);
           continue; 
         }
         if (plugin.level > _user.level) {
-          mconn.conn.reply(m.chat, `*🌹 𝐬𝐞 𝐫𝐞𝐪𝐮𝐢𝐞𝐫𝐞 𝐭𝐞𝐧𝐞𝐫 𝐞𝐥 𝐧𝐢𝐯𝐞𝐥 ${plugin.level} 𝐩𝐚𝐫𝐚 𝐩𝐨𝐝𝐞𝐫 𝐮𝐬𝐚𝐫 𝐞𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨. 𝐭𝐮 𝐧𝐢𝐯𝐞𝐥 𝐚𝐜𝐭𝐮𝐚𝐥 𝐞𝐬 ${_user.level}, 𝐮𝐬𝐚 𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 ${usedPrefix} 𝐥𝐯𝐥 𝐩𝐚𝐫𝐚 𝐬𝐮𝐛𝐢𝐫 𝐝𝐞 𝐧𝐢𝐯𝐞𝐥 𝐜𝐨𝐧 𝐞𝐱𝐩.*`, m);
+          mconn.conn.reply(m.chat, `*🧸 Se Requiere Tener El Nivel ${plugin.level} Para Poder Utilizar El Comando. Tu Nivel Actual Es ${_user.level}, Usa El Comando: ${usedPrefix} lvl Para Subir De Nivel Con Exp.*`, m);
           continue; 
         }
         const extra = {
@@ -1345,7 +1346,7 @@ const messageText = `
             }
           }
           if (m.limit) {
-            m.reply('*🍓 𝑆𝑒 𝑈𝑠𝑎𝑟𝑜𝑛 ' + +m.limit + ' 𝐷𝑖𝑎𝑚𝑎𝑛𝑡𝑒(𝑠) (𝑳𝒊𝒎𝒊𝒕𝒆).*');
+            m.reply('*🧸 Se Usaron ' + +m.limit + ' Diamante(s) (Limites).*');
           }
         }
         break;
@@ -1559,11 +1560,11 @@ global.dfail = (type, m, conn) => {
     private: '*¡Esta Función Solo Se Puede Utilizar Al Chat Privado Del Bot!*',
     admin: '*¡Esta Función Solo Se Puede Utilizar Por Un Admin Del Grupo!*',
     botAdmin: '*!Para Poder Utilizar Este Comando Es Necesario Que El Bot Sea Admin!*',
-    unreg: '*¡𝐏𝐚𝐫𝐚 𝐂𝐨𝐧𝐭𝐢𝐧𝐮𝐚𝐫 𝐂𝐨𝐧 𝐄𝐬𝐭𝐚 𝐅𝐮𝐧𝐜𝐢𝐨𝐧 𝐄𝐬 𝐍𝐞𝐜𝐞𝐬𝐚𝐫𝐢𝐨 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐫𝐬𝐞!*\n\n!verificar nombre.edad\n\n*Uso correcto* : !verificar Diego.20',
+    unreg: '*¡Para Continuar Con Esta Función Es Necesario Registrarse!*\n\n!verificar nombre.edad\n\n*Uso Correcto* : !verificar Diego.18',
     restrict: '*!Esta Función Fué Deshabilitado Por Mi Desarrollador*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '👋🏻 !𝐇𝐨𝐥𝐚!', body: '🦋𝙻𝙸𝙽𝙳𝙾 𝙰𝙽𝙾𝙲𝙷𝙴𝚂𝙴𝚁✨', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '👋🏻 !𝗛𝗼𝗹𝗮!', body: '🧸 𝙻𝙸𝙽𝙳𝙰 𝙼𝙰𝙽̃𝙰𝙽𝙰 🧸', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
