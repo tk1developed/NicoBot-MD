@@ -21,17 +21,17 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
 
- await conn.sendMessage(m.chat, { react: { text: '🌥', key: m.key } })
+ await conn.sendMessage(m.chat, { react: { text: '🌳', key: m.key } })
 
 
 const document = doc[Math.floor(Math.random() * doc.length)];
- const str = `🧸 𝙄𝙣𝙨𝙩𝙖𝙡𝙖𝙘𝙞𝙤𝙣 𝘼𝙪𝙩𝙤𝙢𝙖𝙩𝙞𝙘𝙖 (𝚃𝙴𝚁𝙼𝚄𝚇)
+ const str = `🧸 *Instalación Automatica* (Termux)
    
 ➪ termux-setup-storage
 
 ➪ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/sakura.sh | bash
 
-🧸 𝙄𝙣𝙨𝙩𝙖𝙡𝙖𝙘𝙞𝙤𝙣 𝙈𝙖𝙣𝙪𝙖𝙡 (𝚃𝙴𝚁𝙼𝚄𝚇) 📍
+🧸 *Instalación Manual* (Termux) 📍
 
 ➪ cd && termux-setup-storage
 
@@ -49,7 +49,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 
 ➪ npm start
 
-🟢 𝐀𝐜𝐭𝐢𝐯𝐚𝐫 𝐄𝐥 𝐁𝐨𝐭 🟢
+🟢 *Activar El Bot* 🟢
 
 ➪ cd
 
@@ -57,17 +57,17 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 
 ➪ npm start
 
-🧸 𝙊𝙗𝙩𝙚𝙣𝙚𝙧 𝙊𝙩𝙧𝙤 𝙌𝙧 📍
+🧸 *Obtener Otro Codigo Qr* 📍
 
 ➪ cd SakuraBotLite-MD
 
-➪ rm -rf SakuraBotSession
+➪ rm -rf sessions
 
 ➪ npm start
 
-🟢 (𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 1 𝙿𝙾𝚁 1) 📍
+🟢 (Comandos 1 Por 1) 📍
     
-    🧸 𝑆𝑖 𝑇𝑖𝑒𝑛𝑒𝑠 𝐷𝑢𝑑𝑎 𝑆𝑜𝑏𝑟𝑒 𝑀𝑖 𝐶𝑟𝑒𝑎𝑑𝑜𝑟 𝑂 𝐷𝑒𝑙 𝐵𝑜𝑡 𝐶𝑜𝑛𝑡𝑎𝑐𝑡𝑎𝑙𝑜 𝐸𝑠𝑐𝑟𝑖𝑏𝑒: #𝑐𝑟𝑒𝑎𝑑𝑜𝑟 📍`.trim();     if (m.isGroup) { 
+    🧸 *Si Tienes Duda Sobre Mi Propietario Utiliza El Comando: !creador* 📍`.trim();     if (m.isGroup) { 
  // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
@@ -80,7 +80,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
     conn.reply(m.chat, '📍 *Ocurrió Un Error*', m);
   }
 };
-handler.command = /^(instalarbot|descargarbot)$/i;
+handler.command = /^(instalarbot|descargarbot|activarbot)$/i;
 handler.register = true
 handler.exp = 50;
 handler.fail = null;
