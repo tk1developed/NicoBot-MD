@@ -335,6 +335,11 @@ break;
           global.dfail('admin', m, conn); 
           throw false;
         }
+break
+case 'autolevelup':
+case 'levelup':
+isUser = true
+user.autolevelup = isEnable
       }
       chat.antiArab = isEnable;
       break;
