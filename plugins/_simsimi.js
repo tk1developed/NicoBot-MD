@@ -1,4 +1,4 @@
-/*import fetch from 'node-fetch';
+import fetch from 'node-fetch';
 const handler = (m) => m;
 
 handler.before = async (m) => {
@@ -29,4 +29,4 @@ handler.before = async (m) => {
   }
   return true;
 };
-export default handler;*/
+export default handler;
