@@ -30,7 +30,6 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃💧 => *<funcion>*
 ┃💧 $ *<funcion>*
 ┃💧 _!cajafuerte_
-┃💧 _!desactivar *<numero>*_
 ┃💧 _!reunion_ *<texto>*
 ┃💧 _!setprefix *<prefijo>*_
 ┃💧 _!resetprefix_
