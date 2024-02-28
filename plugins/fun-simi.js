@@ -1,4 +1,4 @@
-import translate from '@vitalets/google-translate-api';
+/*import translate from '@vitalets/google-translate-api';
 import fetch from 'node-fetch';
 const handler = async (m, {text, command, args, usedPrefix}) => {
   if (!text) throw `*✨🌵 Iɴɢʀᴇsᴇ Uɴ Tᴇxᴛᴏ Pᴀʀᴀ Hᴀʙʟᴀʀ Cᴏɴ Sɪᴍɪ O Sᴀᴋᴜʀᴀ*\n\n*𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix}sakura Hola Bot*`;
@@ -27,4 +27,4 @@ const handler = async (m, {text, command, args, usedPrefix}) => {
 handler.help = ['simi', 'bot'].map((v) => v + ' <teks>');
 handler.tags = ['fun'];
 handler.command = /^((sim)?simi|saku|alexa|bot)$/i;
-export default handler;
+export default handler;*/
