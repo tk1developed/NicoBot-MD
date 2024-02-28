@@ -1,5 +1,5 @@
 //import db from '../lib/database.js'
-import { canLevelUp } from '../lib/levelling.js'
+/*import { canLevelUp } from '../lib/levelling.js'
 
 export async function before(m, { conn }) {
     let user = global.db.data.users[m.sender]
@@ -20,4 +20,4 @@ export async function before(m, { conn }) {
 ┇  *📍 Fecha : ${new Date().toLocaleString('id-ID')}*
 ╰•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•`.trim())
     }
-} 
+}*/
