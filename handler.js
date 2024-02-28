@@ -1553,10 +1553,10 @@ global.dfail = (type, m, conn) => {
   const msg = {
     rowner: '*¡Este Comando Es Exclusivo Para Mi Desarrollador!*',
     owner: '*¡El Uso Del Comando Solo Lo Puede Usar Mi Desarrollador!*',
-    mods: '*¡Esta Función Solo Lo Puede Usar Mi Propietario!*',
+    mods: '*¡Esta Función Solo Lo Puede Utilizar Mi Propietario!*',
     premium: '*¡Esta Función Solo Se Puede Usar Por Los Usuarios Premium*',
     group: '*¡Esta Función Solo Se Puede Usar En Grupos!*',
-    private: '*¡Esta Función Solo Se Puede Utilizar En Chat Privado!*',
+    private: '*¡Esta Función Solo Se Puede Utilizar En Chat Privado Del Bot!*',
     admin: '*¡Esta Función Solo Se Puede Utilizar Por Un Admin Del Grupo!*',
     botAdmin: '*!Para Poder Utilizar Este Comando Es Necesario Que El Bot Sea Admin!*',
     unreg: '*¡𝐏𝐚𝐫𝐚 𝐂𝐨𝐧𝐭𝐢𝐧𝐮𝐚𝐫 𝐂𝐨𝐧 𝐄𝐬𝐭𝐚 𝐅𝐮𝐧𝐜𝐢𝐨𝐧 𝐄𝐬 𝐍𝐞𝐜𝐞𝐬𝐚𝐫𝐢𝐨 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐫𝐬𝐞!*\n\n!verificar nombre.edad\n\n*Uso correcto* : !verificar Diego.20',
