@@ -61,7 +61,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 
 ➪ cd SakuraBotLite-MD
 
-➪ rm -rf sessions
+➪ rm -rf SakuraBotSession
 
 ➪ npm start
 
