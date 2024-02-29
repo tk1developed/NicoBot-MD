@@ -22,7 +22,7 @@ const handler = async (m, { conn, usedPrefix }) => {
       }
     }
     if (filesDeleted === 0) {
-      await conn.sendMessage(m.chat, {text: '*📍 No Se Encontro El Archivo Para Eliminar La Carpeta sessions.*'}, {quoted: m});
+      await conn.sendMessage(m.chat, {text: '*📍 No Se Encontro El Archivo Para Eliminar La Carpeta SakuraBotSession.*'}, {quoted: m});
     } else {
       await conn.sendMessage(m.chat, {text: `*🧸 Se Eliminaron ${filesDeleted} Archivos De Sesion, Excepto El Archivo creds.json.*`}, {quoted: m});
     }
