@@ -2,7 +2,7 @@ const handler = async (m, {text}) => {
   const user = global.db.data.users[m.sender];
   user.afk = + new Date;
   user.afkReason = text;
-  m.reply(`*📍 El Usuario ${conn.getName(m.sender)} Estará Inactivo*\n\n*Motivo: ${text ? ': ' + text : ''}*
+  m.reply(`*📍 El Usuario ${conn.getName(m.sender)} Estará Inactivo*\n\n*Motivo: ${text ? ': ' + text : 'No Puso Motivo!'}*
 `);
 };
 handler.help = ['afk [alasan]'];
