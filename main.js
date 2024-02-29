@@ -108,7 +108,7 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `sessions`;
+global.authFile = `SakuraBotSession`;
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile);
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const msgRetryCounterCache = new NodeCache()
@@ -247,7 +247,7 @@ function clearTmp() {
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./sessions")
+let directorio = readdirSync("./SakuraBotSession")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-') /*|| file.startsWith('session-') || file.startsWith('sender-') || file.startsWith('app-') */
 })
@@ -278,7 +278,7 @@ console.log(chalk.bold.red(`[ 🍓 ] Algo salio mal durante la eliminación, arc
 }}
 
 function purgeOldFiles() {
-const directories = ['./sessions/', './jadibts/']
+const directories = ['./SakuraBotSession/', './jadibts/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000)
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
@@ -319,7 +319,7 @@ conn.fakeReply('573013482814@s.whatsapp.net', '🧸 ¡Hey Creador Me E Conectado
    }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) {
-await fs.unlinkSync("./sessions/" + "creds.json")
+await fs.unlinkSync("./SakuraBotSession/" + "creds.json")
 console.log(chalk.bold.redBright(`[ ⚠ ] Conexión replazada, Por favor espere un momento me voy a reiniciar...\nSi aparecen error vuelve a iniciar con : npm start`)) 
 process.send('reset')}
 if (connection === 'close') {
@@ -384,14 +384,14 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-  conn.welcome = '*╔═══❖•ೋ° °ೋ•❖═══╗*\n*┃ඬ⃟ ✨ @subject*\n*╠══════════════*\n*┃ඬ⃟ ✨ @user*\n*┃ඬ⃟ ✨ 𝘉𝘪𝘦𝘯𝘷𝘦𝘯𝘪𝘥𝘰* \n*┃*\n*┃ඬ⃟ ✨ 𝘓𝘦𝘦 𝘓𝘢 𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰:*\n\n@desc\n\n*┃*\n*┃ 𝘋𝘪𝘧𝘳𝘶𝘵𝘢 𝘛𝘶 𝘌𝘴𝘵𝘢𝘥𝘪𝘢!!*\n*╚═══❖•ೋ° °ೋ•❖═══╝*';
+  conn.welcome = '*╔═══❖•ೋ° °ೋ•❖═══╗*\n*┃ඬ⃟ ✨️ @subject*\n*╠══════════════*\n*┃ඬ⃟ ✨️ @user*\n*┃ඬ⃟ ✨️ 𝘉𝘪𝘦𝘯𝘷𝘦𝘯𝘪𝘥𝘰* \n*┃*\n*┃ඬ⃟ ✨️ 𝘓𝘦𝘦 𝘓𝘢 𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰:*\n\n@desc\n\n*┃*\n*┃ 𝘋𝘪𝘧𝘳𝘶𝘵𝘢 𝘛𝘶 𝘌𝘴𝘵𝘢𝘥𝘪𝘢!!*\n*╚═══❖•ೋ° °ೋ•❖═══╝*';
   conn.bye = '*╔═══❖•ೋ° °ೋ•❖═══╗*\n*┃ @user*\n*┃ඬ⃟ 👋𝙰𝚂𝚃𝙰 𝙿𝚁𝙾𝙽𝚃𝙾 𝙵𝙰𝙽𝚂 𝙳𝙴 𝙱𝚃𝚂* \n*╚═══❖•ೋ° °ೋ•❖═══╝*';
   conn.spromote = '*@user 𝘉𝘪𝘦𝘯𝘷𝘦𝘯𝘪𝘥𝘰 𝘠𝘢 𝘌𝘳𝘦𝘴 𝘗𝘢𝘳𝘵𝘦 𝘋𝘦𝘭 𝘚𝘵𝘢𝘧𝘧🥳!!*';
   conn.sdemote = '*@user 𝘑𝘰𝘥𝘦𝘳𝘵𝘦 𝘠𝘢 𝘕𝘰 𝘛𝘪𝘦𝘯𝘦𝘴 𝘌𝘭 𝘗𝘰𝘥𝘦𝘳 𝘋𝘦 𝘔𝘢𝘯𝘦𝘫𝘢𝘳 𝘌𝘯 𝘌𝘭 𝘎𝘳𝘶𝘱𝘰😆!!*';
-  conn.sDesc = '*𝘚𝘦 𝘏𝘢 𝘊𝘰𝘯𝘧𝘪𝘨𝘶𝘳𝘢𝘥𝘰 𝘜𝘯𝘢 𝘕𝘶𝘦𝘷𝘢 𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰*\n\n*𝙉𝙪𝙚𝙫𝙖 𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙘𝙞𝙤́𝙣:* @desc';
-  conn.sSubject = '*𝘚𝘦 𝘏𝘢 𝘏𝘦𝘤𝘩𝘰 𝘜𝘯 𝘊𝘢𝘮𝘣𝘪𝘰 𝘌𝘯 𝘌𝘭 𝘕𝘰𝘮𝘣𝘳𝘦 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰*\n*𝙉𝙪𝙚𝙫𝙤 𝙉𝙤𝙢𝙗𝙧𝙚:* @subject';
-  conn.sIcon = '*𝘚𝘦 𝘏𝘢 𝘊𝘢𝘮𝘣𝘪𝘢𝘥𝘰 𝘓𝘢 𝘍𝘰𝘵𝘰 𝘋𝘦 𝘗𝘦𝘳𝘧𝘪𝘭 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰✨!!*';
-  conn.sRevoke = '*𝘚𝘦 𝘏𝘢 𝘙𝘦𝘴𝘵𝘢𝘣𝘭𝘦𝘤𝘪𝘥𝘰 𝘌𝘭 𝘓𝘪𝘯𝘬 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰!!*\n*𝙇𝙞𝙣𝙠 𝘼𝙘𝙩𝙪𝙖𝙡𝙞𝙯𝙖𝙙𝙤:* @revoke';
+  conn.sDesc = '*𝘚𝘦 𝘏𝘢 𝘊𝘰𝘯𝘧𝘪𝘨𝘶𝘳𝘢𝘥𝘰 𝘜𝘯𝘢 𝘕𝘶𝘦𝘷𝘢 𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰*\n\n*Nueva Descripción:* @desc';
+  conn.sSubject = '*𝘚𝘦 𝘏𝘢 𝘏𝘦𝘤𝘩𝘰 𝘜𝘯 𝘊𝘢𝘮𝘣𝘪𝘰 𝘌𝘯 𝘌𝘭 𝘕𝘰𝘮𝘣𝘳𝘦 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰*\n*Nuevo Nombre:* @subject';
+  conn.sIcon = '*𝘚𝘦 𝘏𝘢 𝘊𝘢𝘮𝘣𝘪𝘢𝘥𝘰 𝘓𝘢 𝘍𝘰𝘵𝘰 𝘋𝘦 𝘗𝘦𝘳𝘧𝘪𝘭 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰🧸!!*';
+  conn.sRevoke = '*𝘚𝘦 𝘏𝘢 𝘙𝘦𝘴𝘵𝘢𝘣𝘭𝘦𝘤𝘪𝘥𝘰 𝘌𝘭 𝘓𝘪𝘯𝘬 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰!!*\n*Link Actualizado:* @revoke';
 
   conn.handler = handler.handler.bind(global.conn);
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
