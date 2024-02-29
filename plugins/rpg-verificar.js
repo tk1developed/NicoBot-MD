@@ -20,10 +20,10 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
   user.regTime = + new Date;
   user.registered = true;
   const sn = createHash('md5').update(m.sender).digest('hex');
-  const caption = `╭━━━ •🐱⸽⃕𝘛𝘶 𝘙𝘦𝘨𝘪𝘴𝘵𝘳𝘰🍁⃨፝⃕✰• ━━━
+  const caption = `╭━━━ •🧸⸽⃕𝘛𝘶 𝘙𝘦𝘨𝘪𝘴𝘵𝘳𝘰🍁⃨፝⃕✰• ━━━
 ┃ ${saludo}: ${name}
-┃ *🌹𝐸𝑑𝑎𝑑:* ${age} años
-┃ *🐈𝑁𝑢𝑚𝑒𝑟𝑜 𝑑𝑒 𝑆𝑒𝑟𝑖𝑒:* 
+┃ *🧩Edad:* ${age} años
+┃ *📍Numero De Serie:* 
 ┃ ${sn}
 ◈ ━━━━━━━ ⸙ ━━━━━━━ ◈`;
   // let author = global.author
