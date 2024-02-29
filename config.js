@@ -68,6 +68,8 @@ global.channel = 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n' //Canal
 
 global.yt = 'https://www.youtube.com/@SakuraBotLite' //Canal De Youtube
 
+global.md = 'https://github.com/diegojadibot/SakuraBotLite-MD' //Github Oficial
+
 global.fb = 'https://www.facebook.com/sakuritabot?mibextid=ZbWKwL' //Facebook Del Propietario
 
 
@@ -90,7 +92,6 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 global.wm2 = `${dia} ${fecha}\nSakuritaBot`;
 global.gt = 'SakuraBot';
 global.mysticbot = 'SakuraBot';
-global.md = 'https://github.com/diegojadibot/SakuraBotLite-MD';
 global.mysticbot = 'https://github.com/diegojadibot/SakuraBotLite-MD';
 global.waitt = '*📍 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ʕ •́؈•̀ ₎...*';
 global.waittt = '*📍 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ʕ •́؈•̀ ₎...*';
