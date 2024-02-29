@@ -2,7 +2,7 @@ const {generateWAMessageFromContent, prepareWAMessageMedia, proto} = (await impo
 import fetch from 'node-fetch';
 const {getBinaryNodeChild, getBinaryNodeChildren} = (await import('@whiskeysockets/baileys')).default;
 const handler = async (m, {conn, text, participants, args}) => {
-  if (!global.db.data.settings[conn.user.jid].restrict) throw '*[ ⚠️ ] 𝙴𝙻 𝙾𝚆𝙽𝙴𝚁 𝚃𝙸𝙴𝙽𝙴 𝚁𝙴𝚂𝚃𝚁𝙸𝙽𝙶𝙸𝙳𝙾 (𝚎𝚗𝚊𝚋𝚕𝚎 𝚛𝚎𝚜𝚝𝚛𝚒𝚌𝚝 / 𝚍𝚒𝚜𝚊𝚋𝚕𝚎 𝚛𝚎𝚜𝚝𝚛𝚒𝚌𝚝) 𝙴𝙻 𝚄𝚂𝙾 𝙳𝙴 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾*';
+  if (!global.db.data.settings[conn.user.jid].restrict) throw '*¡Este Comando Esta Desabilitado Por El Propietario Del Bot!*';
   if (!args[0]) throw '*🦋 𝐈𝐧𝐠𝐫𝐞𝐬𝐞 𝐄𝐥 𝐍𝐮𝐦𝐞𝐫𝐨 𝐃𝐞 𝐀𝐥𝐠𝐮𝐧𝐚 𝐏𝐞𝐫𝐬𝐨𝐧𝐚 𝐐𝐮𝐞 𝐐𝐮𝐢𝐞𝐫𝐚𝐬 𝐀𝐧̃𝐚𝐝𝐢𝐫 𝐀𝐥 𝐆𝐫𝐮𝐩𝐨.*';
   try {
     const _participants = participants.map((user) => user.id);
