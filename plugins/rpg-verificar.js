@@ -7,14 +7,14 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
   if (user.registered === true) throw `👊😆Hᴇʏ Bᴇʙᴇ́ Yᴀ Esᴛᴀs Rᴇɢɪsᴛʀᴀᴅᴏ, Qᴜɪᴇʀᴇs Rᴇɢɪsᴛʀᴀᴛᴇ Dᴇ Nᴜᴇᴠᴏ?\n\n 📌Usᴇ Esᴛᴇ Cᴏᴍᴀɴᴅᴏ Pᴀʀᴀ Eʟɪᴍɪɴᴀʀ Sᴜ Rᴇɢɪsᴛʀᴏ\n*${usedPrefix}unreg* <Número de serie>`;
   if (!Reg.test(text)) throw `*⚠️ Mal Uso Del Comando*\n\n*🥀 Uso Del Comando:* 
 *${usedPrefix + command} nombre.edad*\n\n*📍Ejemplo:*
- ${usedPrefix + command} *${name2}.20*`;
+ ${usedPrefix + command} *${name2}.18*`;
   let [_, name, splitter, age] = text.match(Reg);
-  if (!name) throw '*👊𝘋𝘦𝘷𝘦𝘴 𝘗𝘰𝘯𝘦𝘳 𝘌𝘭 𝘕𝘰𝘮𝘣𝘳𝘦*';
-  if (!age) throw '*[❗] 𝘓𝘢 𝘌𝘥𝘢𝘥 𝘌𝘴 𝘕𝘦𝘴𝘦𝘴𝘢𝘳𝘪𝘰 𝘗𝘢𝘳𝘢 𝘌𝘭 𝘙𝘦𝘨𝘪𝘴𝘵𝘳𝘰*';
-  if (name.length >= 30) throw '😆𝘞𝘰𝘰 𝘛𝘶 𝘕𝘰𝘮𝘣𝘳𝘦 𝘌𝘴 𝘓𝘢𝘳𝘨𝘰, 𝘜𝘴𝘢 𝘖𝘵𝘳𝘰';
+  if (!name) throw '*🧸 Debes Poner El Nombre*';
+  if (!age) throw '*📍 La Edad Es Necesaria Para El Registro*';
+  if (name.length >= 30) throw '📍 *Tu Nombre Es Muy Largo*';
   age = parseInt(age);
-  if (age > 60) throw '*[❗] 𝘞𝘩𝘢𝘵𝘴,𝘊𝘰𝘮𝘰 𝘝𝘪𝘷𝘦𝘴 𝘉𝘪𝘦𝘫𝘰? 👴🏻*';
-  if (age < 5) throw '*[❗] 𝘊𝘰𝘮𝘰 𝘘𝘶𝘦 𝘜𝘯 𝘉𝘦𝘣𝘦́ 𝘚𝘢𝘣𝘦 𝘜𝘴𝘢𝘳 𝘞𝘩𝘢𝘵𝘴𝘈𝘱𝘱? 😲*';
+  if (age > 60) throw '*🧩 Como Vives Tan Biejo?*';
+  if (age < 5) throw '*🧩 Un Bebé Usa WhatsApp?*';
   user.name = name.trim();
   user.age = age;
   user.regTime = + new Date;
