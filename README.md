@@ -88,7 +88,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> rm -rf sessions
+> rm -rf SakuraBotSession
 > npm start
 ```
 
