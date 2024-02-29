@@ -5,13 +5,13 @@ import path from 'path';
 
 const handler = async (m, { conn, usedPrefix }) => {
   if (global.conn.user.jid !== conn.user.jid) {
-    return conn.sendMessage(m.chat, {text: '*🧸 Tienes Que Utilizarlo En El Bot Oficial.*'}, {quoted: m});
+    return conn.sendMessage(m.chat, {text: '*🧸 Tienes Que Utilizarlo En El Numero Del Bot Oficial.*'}, {quoted: m});
   }
   await conn.sendMessage(m.chat, {text: '*🧩 Iɴɪᴄɪᴀɴᴅᴏ Eʟ Pʀᴏᴄᴇsᴏ Dᴇ Eʟɪᴍɪɴᴀᴄɪᴏ́ɴ Dᴇ Tᴏᴅᴏs Lᴏs Aʀᴄʜɪᴠᴏs Dᴇ Sᴇssɪᴏɴ, Exᴇᴄᴛᴏ Eʟ Aʀᴄʜɪᴠᴏ creds.json...*'}, {quoted: m});
   const sessionPath = './SakuraBotSession/';
   try {
     if (!existsSync(sessionPath)) {
-      return await conn.sendMessage(m.chat, {text: '*📍 La Carpeta sessions No Existe O Está Vacia.*'}, {quoted: m});
+      return await conn.sendMessage(m.chat, {text: '*📍 La Carpeta SakuraBotSession No Existe O Está Vacia.*'}, {quoted: m});
     }
     const files = await fs.readdir(sessionPath);
     let filesDeleted = 0;
