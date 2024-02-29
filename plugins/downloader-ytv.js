@@ -86,7 +86,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
         enviando = false
       } catch {
         await conn.sendMessage(m.chat, {text: `*🥀 No Se Pudo Descargar El Video.*`, edit: key}, {quoted: m});
-        throw '*🧸 Ocurrió Un Error*';
+        throw '*🧸 Error Intentalo Mas Tarde!*';
       }
     }
   }
