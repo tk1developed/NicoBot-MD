@@ -13,7 +13,7 @@ export async function before(m, {conn, participants}) {
   const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
 
   if (chat.detect2 && m.messageStubType == 29) {
-    let txt1 = `_Hay Un Nuevo Admin En El Grupo._\n\n`;
+    let txt1 = `_Recientemente Hay Un Nuevo Administrador._\n\n`;
     txt1 += `*Grupo:* ${groupName}\n`;
     txt1 += `*Nuevo Admin:* @${m.messageStubParameters[0].split`@`[0]}\n`;
     txt1 += `*Le Dió Admin:* @${m.sender.split`@`[0]}`;
@@ -21,7 +21,7 @@ export async function before(m, {conn, participants}) {
   }
 
   if (chat.detect2 && m.messageStubType == 30) {
-    let txt2 = `_Fué Desgradado Como Administrador._\n\n`;
+    let txt2 = `_Recientemente Se A Desgradado a Un Administrador._\n\n`;
     txt2 += `*Grupo:* ${groupName}\n`;
     txt2 += `*Se Quito A:* @${m.messageStubParameters[0].split`@`[0]}\n`;
     txt2 += `*Ejecutado Por:* @${m.sender.split`@`[0]}`;
