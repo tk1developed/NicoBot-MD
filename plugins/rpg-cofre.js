@@ -1,8 +1,8 @@
 const handler = async (m, {isPrems, conn}) => {
   const time = global.db.data.users[m.sender].lastcofre + 86400000; // 36000000 10 Horas //86400000 24 Horas
-  if (new Date - global.db.data.users[m.sender].lastcofre < 86400000) throw `[❗𝐈𝐍𝐅𝐎❗] 𝚈𝙰 𝚁𝙴𝙲𝙻𝙰𝙼𝙰𝚂𝚃𝙴 𝚃𝚄 𝙲𝙾𝙵𝚁𝙴\n𝚅𝚄𝙴𝙻𝚅𝙴 𝙴𝙽 *${msToTime(time - new Date())}* 𝙿𝙰𝚁𝙰 𝚅𝙾𝙻𝚅𝙴𝚁 𝙰 𝚁𝙴𝙲𝙻𝙰𝙼𝙰𝚁`;
+  if (new Date - global.db.data.users[m.sender].lastcofre < 86400000) throw `🥀 Ya Recramastes Tu Cofre\n⏰️Regresa En: *${msToTime(time - new Date())}* Para Volver A Reclamar`;
 
-  const img = 'https://images3.alphacoders.com/125/1251707.png';
+  const img = 'https://telegra.ph/file/62ba6688963b0ad407edd.png';
   const dia = Math.floor(Math.random() * 30);
   const tok = Math.floor(Math.random() * 10);
   const mystic = Math.floor(Math.random() * 4000);
@@ -15,12 +15,13 @@ const handler = async (m, {isPrems, conn}) => {
 
   const texto = `
 ╔══🎉═🎉═🎉══⬣
-║🛒 𝙾𝙱𝚃𝙸𝙴𝙽𝙴𝚂 𝚄𝙽 𝙲𝙾𝙵𝚁𝙴
+║🧸 *Obtienes Un Cofre*
+║ ${saludo}
 ║┈┈┈┈┈┈┈┈┈┈┈┈┈
-║➢ *${dia} Diamantes* 💎
-║➢ *${tok} Tokens* 🪙
-║➢ *${mystic} SakuCoins* 👾
-║➢ *${expp} Exp* ⚡
+║ *${dia} Diamantes* 💎
+║ *${tok} Tokens* 🪙
+║ *${mystic} SakuCoins* 💸
+║ *${expp} Exp* ⚡
 ╚═════════════════⬣`;
 
   const fkontak = {
