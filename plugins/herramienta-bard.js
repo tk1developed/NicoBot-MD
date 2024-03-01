@@ -6,7 +6,7 @@ if (!text) throw `🧸 _*Ingrese Un Texto*_`
 
 try {
 
-await m.reply(wait)
+conn.sendPresenceUpdate('composing', m.chat)
 var apii = await fetch(`https://aemt.me/bard?text=${text}`)
 var res = await apii.json()
 await m.reply(res.result)
