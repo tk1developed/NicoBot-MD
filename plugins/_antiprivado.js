@@ -1,4 +1,4 @@
-const comandos = /piedra|papel|tijera|estado|verificar|creador|grupos|instalarbot|términos|bots|deletebot|serbot|botclone|registrar|deletesesion|jadibot/i
+const comandos = /piedra|papel|tijera|términos|bots|deletebot|serbot|botclone|deletesesion|jadibot/i
 export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner, usedPrefix, command }) {
 if (m.isBaileys && m.fromMe) return !0
 if (m.isGroup) return !1
@@ -18,7 +18,7 @@ await conn.reply(m.chat, mensaje, m, { mentions: [m.sender] })
 
 } else if (user.counterPrivate === 1) {
 let grupos = [ gp1, gp2, ].getRandom()
-mensaje = `*Otra Vez, Ya Que Dije No Escriba Al Privado 📍*\n\n*Usa El Bot Uniendote Al Grupo Oficial👇*\n${grupos}\n\n*Esta Es La Ultima Advertencia, Si Escribes Algun Otro Comando Serás Bloqueado(A)* ‼️\n🧸 \`\`\`INFPRMACIÓN 2/3\`\`\` 🧩`
+mensaje = `*Otra Vez, Ya Que Dije No Escriba Al Privado 📍*\n\n*Usa El Bot Uniendote Al Grupo Oficial👇*\n${grupos}\n\n*Esta Es La Ultima Advertencia, Si Escribes Algun Otro Comando Serás Bloqueado(A)*\n🧸 \`\`\`INFPOMACIÓN 2/3\`\`\` 🧩`
 await conn.reply(m.chat, mensaje, m, { mentions: [m.sender] }) 
 
 } else if (user.counterPrivate === 2) {
