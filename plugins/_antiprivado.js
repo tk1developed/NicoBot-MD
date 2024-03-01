@@ -18,7 +18,7 @@ await conn.reply(m.chat, mensaje, m, { mentions: [m.sender] })
 
 } else if (user.counterPrivate === 1) {
 let grupos = [ gp1, gp2, ].getRandom()
-mensaje = `*Otra Vez, Ya Que Dije No Escriba Al Privado 📍*\n\n*Usa El Bot Uniendote Al Grupo Oficial👇*\n${gp1}\n\n*Esta Es La Ultima Advertencia, Si Escribes Algun Otro Comando Serás Bloqueado(A)*\n🧸 \`\`\`INFORMACIÓN 2/3\`\`\` 🧩`
+mensaje = `*Hola @${m.sender.split`@`[0]}*, *Esta Es La 2/3 Advertencia!*\n\n🥀 *Puedes Unirte Al Grupo Oficial Del Bot!*\n${gp1}*\n🧸 \`\`\`INFORMACIÓN 2/3\`\`\` 🧩`
 await conn.reply(m.chat, mensaje, m, { mentions: [m.sender] }) 
 
 } else if (user.counterPrivate === 2) {
