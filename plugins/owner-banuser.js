@@ -40,7 +40,7 @@ usr = m.sender.split('@')[0]
 await conn.reply(m.chat, '✅️ *Usuario Baneado Con Éxito*', m, { mentions: [user] })   
 
 }} catch (e) {
-await conn.reply(m.chat, '*Ocurrió un fallo*', m, fake, )
+await conn.reply(m.chat, '*Ocurrió un fallo*' )
 console.log(e) 
 }
 
