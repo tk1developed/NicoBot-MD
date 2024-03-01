@@ -6,7 +6,7 @@ const handler = async (m, {conn, text}) => {
   if (!who) throw '🧸 *Etiqueta Al Usuario Baneado*';
   const users = global.db.data.users;
   users[who].banned = false;
-  conn.reply(m.chat, `🧸 *Perfecto El Usuario Ya Me Pudde Usar*`, m);
+  conn.reply(m.chat, `🧸 *Perfecto El Usuario Ya Me Puede Usar*`, m);
 };
 handler.help = ['unbanuser'];
 handler.tags = ['owner'];
