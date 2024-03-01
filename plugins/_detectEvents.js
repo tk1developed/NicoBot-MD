@@ -29,7 +29,7 @@ export async function before(m, {conn, participants}) {
   }
 
   if (chat.detect2 && m.messageStubType == 27) {
-    let txt3 = `_Recientemente Se Ha Incorporado Un Nuevo Miembro._\n\n`;
+    let txt3 = `_Recientemente Se Ha Incorporado Al Grupo Un Nuevo Miembro._\n\n`;
     txt3 += `*Grupo:* ${groupName}\n`;
     if (!m.sender.endsWith('@g.us')) {
       txt3 += `*Se Añadio A:* @${m.messageStubParameters[0].split`@`[0]}\n`;
