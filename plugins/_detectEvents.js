@@ -55,13 +55,13 @@ export async function before(m, {conn, participants}) {
   if (chat.detect2 && m.messageStubType == 32) {
     let ax;
     if (m.messageStubParameters[0] === m.sender) {
-      ax = 'salido';
+      ax = 'Salido';
     } else {
-      ax = 'eliminado';
+      ax = 'Eliminado';
     }
     let txt5 = `_Recientememte Se Ha ${ax} Un  Miembro Del Grupo._\n\n`;
     txt5 += `*Grupo:* ${groupName}\n`;
-    if (ax === 'eliminado') {
+    if (ax === 'Eliminado') {
       txt5 += `*Se Eliminó A:* @${m.messageStubParameters[0].split`@`[0]}\n`;
       txt5 += `*Ejecutado Por:* @${m.sender.split`@`[0]}`;
     } else {
@@ -73,9 +73,9 @@ export async function before(m, {conn, participants}) {
   if (chat.detect2 && m.messageStubType == 26) {
     let accion;
     if (m.messageStubParameters[0].split`@`[0] === 'on') {
-      accion = 'cerrado';
+      accion = 'Cerrado';
     } else {
-      accion = 'abierto';
+      accion = 'Abierto';
     }
     let txt6 = `_Se Ha Realizado Una Nueva Configuracion Al Grupo._\n\n`;
     txt6 += `*Grupo:* ${groupName}\n`;
