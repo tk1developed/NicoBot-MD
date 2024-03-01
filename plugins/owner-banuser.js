@@ -13,7 +13,7 @@ number = text
 }
 user = conn.user.jid.split`@`[0] + '@s.whatsapp.net'
 bot = conn.user.jid.split`@`[0] 
-bant = `🧸 *Etiquete A Una Persona*\n\nEjemplo: !${command} @${number}`
+bant = `🧸 *Etiquete A Una Persona*\n\nEjemplo: !${command} @${global.suittag}`
 if (!text && !m.quoted) return conn.reply(m.chat, bant, m, { mentions: [user] })               
 try {
 if(text) {
@@ -52,4 +52,3 @@ handler.command = /^banuser$/i
 handler.rowner = true
 
 export default handler
-
