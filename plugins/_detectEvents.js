@@ -21,7 +21,7 @@ export async function before(m, {conn, participants}) {
   }
 
   if (chat.detect2 && m.messageStubType == 30) {
-    let txt2 = `_Fué Desgradado De Administrador._\n\n`;
+    let txt2 = `_Fué Desgradado Como Administrador._\n\n`;
     txt2 += `*Grupo:* ${groupName}\n`;
     txt2 += `*Se Quito A:* @${m.messageStubParameters[0].split`@`[0]}\n`;
     txt2 += `*Ejecutado Por:* @${m.sender.split`@`[0]}`;
