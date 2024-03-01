@@ -76,7 +76,7 @@ npm update
 npm start
 ```
 
-- #### 📍Activar El Bot En Caso De Detenerse🧸
+- #### 📍Activar En Caso De Detenerse🧸
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
