@@ -25,7 +25,7 @@ user = number + '@s.whatsapp.net'
 }} catch (e) {
 } finally {
 number = user.split('@')[0]
-if(user === conn.user.jid) return conn.reply(m.chat, `📍 *Yo Como Bot No Puedo Banearme Yo Mismo!*`, m, { mentions: [user] })   
+if(user === conn.user.jid) return conn.reply(m.chat, `📍 *Yo No Me Puedo Banearme!*`, m, { mentions: [user] })   
 for (let i = 0; i < global.owner.length; i++) {
 ownerNumber = global.owner[i][0];
 if (user.replace(/@s\.whatsapp\.net$/, '') === ownerNumber) {
@@ -37,7 +37,7 @@ users = global.db.data.users
 if (users[user].banned === true) conn.reply(m.chat, `📍 *Este Usuario* @${number} *Ya Fue Baneado Del Bot No Es Necesario Banearlo De Nuevo* 🧸`, m, { mentions: [user] }) 
 users[user].banned = true
 usr = m.sender.split('@')[0]     
-await conn.reply(m.chat, '🧸 *Perfecto El Usuario Ya Esta Baneado, Ya No Puede Usarme*', m, { mentions: [user] })   
+await conn.reply(m.chat, '🧸 *Perfecto El Usuario Ya No Me Podra Usar!*', m, { mentions: [user] })   
 
 }} catch (e) {
 await conn.reply(m.chat, '*Ocurrió un fallo*', m, fake, )
