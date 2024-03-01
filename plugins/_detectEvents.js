@@ -1,10 +1,4 @@
-// Creditos del codigo a @Gatito-kw //
-
-/* GitHub: https://github.com/Gatito-kw */
-
-/* Bot: https://github.com/Gatito-kw/nekobot-md */
-
-import {WAMessageStubType} from '@whiskeysockets/baileys';
+/*import {WAMessageStubType} from '@whiskeysockets/baileys';
 import fetch from 'node-fetch';
 
 export async function before(m, {conn, participants}) {
@@ -96,4 +90,4 @@ export async function before(m, {conn, participants}) {
     txt7 += `*◦  𝙃𝙚𝙘𝙝𝙤 𝙋𝙤𝙧:* @${m.sender.split`@`[0]}`;
     await conn.sendMessage(m.chat, {image: {url: pp}, caption: txt7, mentions: mentionsContentM}, {quoted: fkontak2});
   }
-} /* Cierre del comando */
+}*/ /* Cierre del comando */
