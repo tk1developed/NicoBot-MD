@@ -1,4 +1,4 @@
-/*import {WAMessageStubType} from '@whiskeysockets/baileys';
+import {WAMessageStubType} from '@whiskeysockets/baileys';
 import fetch from 'node-fetch';
 
 export async function before(m, {conn, participants}) {
@@ -24,7 +24,7 @@ export async function before(m, {conn, participants}) {
     let txt2 = `*𝘍𝘶𝘦́ 𝘏𝘦𝘤𝘩𝘢𝘥𝘰 𝘋𝘦 𝘈𝘥𝘮𝘪𝘯𝘪𝘴𝘵𝘳𝘢𝘥𝘰𝘳.*\n\n`;
     txt2 += `*◦  𝙂𝙧𝙪𝙥𝙤:* ${groupName}\n`;
     txt2 += `*◦  𝙎𝙚 𝙌𝙪𝙞𝙩𝙤 𝘼:* @${m.messageStubParameters[0].split`@`[0]}\n`;
-    txt2 += `*◦  𝙃𝙚𝙘𝙝𝙤 𝙋𝙤𝙧:* @${m.sender.split`@`[0]}`;
+    txt2 += `*◦  𝙍𝙚𝙖𝙡𝙞𝙯𝙖𝙙𝙤 𝙋𝙤𝙧:* @${m.sender.split`@`[0]}`;
     await conn.sendMessage(m.chat, {image: img, caption: txt2, mentions: mentionsString}, {quoted: fkontak2});
   }
 
@@ -33,7 +33,7 @@ export async function before(m, {conn, participants}) {
     txt3 += `*◦  𝙂𝙧𝙪𝙥𝙤:* ${groupName}\n`;
     if (!m.sender.endsWith('@g.us')) {
       txt3 += `*◦  𝙎𝙚 𝘼𝙣̃𝙖𝙙𝙞𝙤 𝘼:* @${m.messageStubParameters[0].split`@`[0]}\n`;
-      txt3 += `*◦  𝘼𝙘𝙚𝙥𝙩𝙖𝙙𝙤 𝙋𝙤𝙧:* @${m.sender.split`@`[0]}`;
+      txt3 += `*◦  𝙍𝙚𝙖𝙡𝙞𝙯𝙖𝙙𝙤 𝙋𝙤𝙧:* @${m.sender.split`@`[0]}`;
     } else {
       txt3 += `*◦  𝙎𝙚 𝘼𝙣̃𝙖𝙙𝙞𝙤:* @${m.messageStubParameters[0].split`@`[0]}\n`;
     }
@@ -45,7 +45,7 @@ export async function before(m, {conn, participants}) {
     txt4 += `*◦  𝙂𝙧𝙪𝙥𝙤:* ${groupName}\n`;
     if (!m.sender.endsWith('@g.us')) {
       txt4 += `*◦  𝙋𝙖𝙧𝙩𝙞𝙘𝙞𝙥𝙖𝙣𝙩𝙚 𝙀𝙡𝙞𝙢𝙞𝙣𝙖𝙙𝙤:* @${m.messageStubParameters[0].split`@`[0]}\n`;
-      txt4 += `*◦  𝙃𝙚𝙘𝙝𝙤 𝙋𝙤𝙧:* @${m.sender.split`@`[0]}`;
+      txt4 += `*◦  𝙍𝙚𝙖𝙡𝙞𝙯𝙖𝙙𝙤 𝙋𝙤𝙧:* @${m.sender.split`@`[0]}`;
     } else {
       txt4 += `*◦  𝙎𝙚 𝙀𝙡𝙞𝙢𝙞𝙣𝙤 𝘼:* @${m.messageStubParameters[0].split`@`[0]}\n`;
     }
@@ -63,7 +63,7 @@ export async function before(m, {conn, participants}) {
     txt5 += `*◦  𝙂𝙧𝙪𝙥𝙤:* ${groupName}\n`;
     if (ax === 'eliminado') {
       txt5 += `*◦  𝙎𝙚 𝙀𝙡𝙞𝙢𝙞𝙣𝙤 𝘼:* @${m.messageStubParameters[0].split`@`[0]}\n`;
-      txt5 += `*◦  𝙃𝙚𝙘𝙝𝙤 𝙋𝙤𝙧:* @${m.sender.split`@`[0]}`;
+      txt5 += `*◦  𝙍𝙚𝙖𝙡𝙞𝙯𝙖𝙙𝙤 𝙋𝙤𝙧:* @${m.sender.split`@`[0]}`;
     } else {
       txt5 += `*◦  𝙎𝙚 𝙎𝙖𝙡𝙞𝙤:* @${m.messageStubParameters[0].split`@`[0]}\n`;
     }
@@ -87,7 +87,7 @@ export async function before(m, {conn, participants}) {
   if (chat.detect2 && m.messageStubType == 21) {
     let txt7 = `*𝘚𝘦 𝘏𝘢 𝘊𝘢𝘮𝘣𝘪𝘢𝘥𝘰 𝘌𝘭 𝘕𝘰𝘮𝘣𝘳𝘦 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰.*\n\n`;
     txt7 += `*◦  𝙉𝙪𝙚𝙫𝙤 𝙉𝙤𝙢𝙗𝙧𝙚:* ${'```' + groupName + '```'}\n`;
-    txt7 += `*◦  𝙃𝙚𝙘𝙝𝙤 𝙋𝙤𝙧:* @${m.sender.split`@`[0]}`;
+    txt7 += `*◦  𝙍𝙚𝙖𝙡𝙞𝙯𝙖𝙙𝙤 𝙋𝙤𝙧:* @${m.sender.split`@`[0]}`;
     await conn.sendMessage(m.chat, {image: {url: pp}, caption: txt7, mentions: mentionsContentM}, {quoted: fkontak2});
   }
-}*/ /* Cierre del comando */
+}
