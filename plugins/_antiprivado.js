@@ -1,36 +1,13 @@
-const comandos = /piedra|papel|tijera|términos|bots|deletebot|serbot|botclone|deletesesion|jadibot/i
-export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner, usedPrefix, command }) {
-if (m.isBaileys && m.fromMe) return !0
-if (m.isGroup) return !1
-if (!m.message) return !0
-const regex = new RegExp(`^${comandos.source}$`, 'i')
-if (regex.test(m.text.toLowerCase().trim())) return !0
-
-let chat, user, bot, mensaje
-chat = global.db.data.chats[m.chat]
-user = global.db.data.users[m.sender]
-bot = global.db.data.settings[this.user.jid] || {}
-
-if (bot.antiPrivate && !isOwner && !isROwner) {
-if (user.counterPrivate === 0) {
-mensaje = `Hola *@${m.sender.split`@`[0]}*, *Está Prohibido Escribirle Al Bot Al Privado*\n\n🥀 *Puedes Unirte Al Grupo Oficial Del Bot!*\n${gp1}\n\n🧸 \`\`\`INFORMACIÓN 1/3\`\`\` 🧩`
-await conn.reply(m.chat, mensaje, m, { mentions: [m.sender] })  
-
-} else if (user.counterPrivate === 1) {
-let grupos = [ gp1, gp2, ].getRandom()
-mensaje = `*Hola @${m.sender.split`@`[0]}*, *Esta Es La 2/3 Advertencia!*\n\n🚀 *Usa El Bot En El Grupo Oficial!*\n${gp1}\n\n🧸 \`\`\`INFORMACIÓN 2/3\`\`\` 🧩`
-await conn.reply(m.chat, mensaje, m, { mentions: [m.sender] }) 
-
-} else if (user.counterPrivate === 2) {
-mensaje = `*@${m.sender.split`@`[0]} No Entiendes, Te Advertí Ahora Serás Bloqueado(A)*\n\n⚠️ \`\`\`INFORMACIÓN 3/3 \`\`\` ⚠️`
-await conn.reply(m.chat, mensaje, m, { mentions: [m.sender] }) 
-
-user.counterPrivate = -1
-await this.updateBlockStatus(m.sender, 'block')
+export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner}) {
+  if (m.isBaileys && m.fromMe) return !0;
+  if (m.isGroup) return !1;
+  if (!m.message) return !0;
+  if (m.text.includes('PIEDRA') || m.text.includes('PAPEL') || m.text.includes('TIJERA') || m.text.includes('serbot') || m.text.includes('jadibot')) return !0;
+  const chat = global.db.data.chats[m.chat];
+  const bot = global.db.data.settings[this.user.jid] || {};
+  if (bot.antiPrivate && !isOwner && !isROwner) {
+    await m.reply(`*👋 Hola @${m.sender.split`@`[0]}, Está Prohibido Escribir Al Privado Del Bot, Por Lo Cual Serás Bloqueado. Unete Al Grupo Oficial*\n\n${gp1}`, false, {mentions: [m.sender]});
+    await this.updateBlockStatus(m.chat, 'block');
+  }
+  return !1;
 }
-user.counterPrivate++
-}
-return !1
-}
-
-//Codigo GataBot!
