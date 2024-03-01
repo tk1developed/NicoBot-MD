@@ -25,7 +25,7 @@ user = number + '@s.whatsapp.net'
 }} catch (e) {
 } finally {
 number = user.split('@')[0]
-if(user === conn.user.jid) return conn.reply(m.chat, `⚡️ @${bot} *No Puede Ser Baneado Con Este Comando`, m, { mentions: [user] })   
+if(user === conn.user.jid) return conn.reply(m.chat, `⚡️ @${bot} *No Puede Ser Baneado Con Este Comando*`, m, { mentions: [user] })   
 for (let i = 0; i < global.owner.length; i++) {
 ownerNumber = global.owner[i][0];
 if (user.replace(/@s\.whatsapp\.net$/, '') === ownerNumber) {
