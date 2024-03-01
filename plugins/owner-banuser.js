@@ -13,7 +13,7 @@ number = text
 }
 user = conn.user.jid.split`@`[0] + '@s.whatsapp.net'
 bot = conn.user.jid.split`@`[0] 
-bant = `⚡️ *Etiqueta A Algun Usuario*`
+bant = `🧸 *Etiquete A Una Persona*\n\nEjemplo: !${command} @${number}`
 if (!text && !m.quoted) return conn.reply(m.chat, bant, m, { mentions: [user] })               
 try {
 if(text) {
@@ -34,7 +34,7 @@ await conn.reply(m.chat, `🧸 *No Se Puede Banear El Propietario* @${ownerNumbe
 return
 }}
 users = global.db.data.users
-if (users[user].banned === true) conn.reply(m.chat, `📍 *Este Usuario* @${number} *Ya Fue Baneado Del Bot No Es Necesario Banearlo De Nuevo* 🧸`, m, { mentions: [user] }) 
+if (users[user].banned === true) conn.reply(m.chat, `📍 *No Es Necesario Volver A Banear A* @${number}`, m, { mentions: [user] }) 
 users[user].banned = true
 usr = m.sender.split('@')[0]     
 await conn.reply(m.chat, '✅️ *Se Baneo El Usuario Con Exito*', m, { mentions: [user] })   
@@ -52,3 +52,4 @@ handler.command = /^banuser$/i
 handler.rowner = true
 
 export default handler
+
