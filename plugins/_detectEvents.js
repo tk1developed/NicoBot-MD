@@ -21,7 +21,7 @@ export async function before(m, {conn, participants}) {
   }
 
   if (chat.detect2 && m.messageStubType == 30) {
-    let txt2 = `_Recientemente Se A Desgradado Ha Un Administrador._\n\n`;
+    let txt2 = `_Recientemente Se Ha Desgradado Ha Un Administrador._\n\n`;
     txt2 += `*Grupo:* ${groupName}\n`;
     txt2 += `*Se Quito A:* @${m.messageStubParameters[0].split`@`[0]}\n`;
     txt2 += `*Ejecutado Por:* @${m.sender.split`@`[0]}`;
@@ -29,7 +29,7 @@ export async function before(m, {conn, participants}) {
   }
 
   if (chat.detect2 && m.messageStubType == 27) {
-    let txt3 = `_Ha Llegado Un Nuevo Particicipante Al Grupo, Bienvenido(A)._\n\n`;
+    let txt3 = `_Recientemente Se Ha Incorporado Un Nuevo Miembro._\n\n`;
     txt3 += `*Grupo:* ${groupName}\n`;
     if (!m.sender.endsWith('@g.us')) {
       txt3 += `*Se Añadio A:* @${m.messageStubParameters[0].split`@`[0]}\n`;
@@ -41,7 +41,7 @@ export async function before(m, {conn, participants}) {
   }
 
   if (chat.detect2 && m.messageStubType == 28) {
-    let txt4 = `_Un Participante Menos En El Grupo, Adios Fans De Bts._\n\n`;
+    let txt4 = `_Recientemente Se Ha Eliminado A Un Miembro Del Grupo._\n\n`;
     txt4 += `*Grupo:* ${groupName}\n`;
     if (!m.sender.endsWith('@g.us')) {
       txt4 += `*Participante Eliminado:* @${m.messageStubParameters[0].split`@`[0]}\n`;
@@ -77,7 +77,7 @@ export async function before(m, {conn, participants}) {
     } else {
       accion = 'abierto';
     }
-    let txt6 = `_Se A Realizado Una Nueva Configuracion Al Grupo._\n\n`;
+    let txt6 = `_Se Ha Realizado Una Nueva Configuracion Al Grupo._\n\n`;
     txt6 += `*Grupo:* ${groupName}\n`;
     txt6 += `*El Grupo Se A:* ${'```' + accion + '```'}\n`;
     txt6 += `*Ejecutado Por:* @${m.sender.split`@`[0]}`;
