@@ -59,7 +59,7 @@ export async function before(m, {conn, participants}) {
     } else {
       ax = 'Eliminado';
     }
-    let txt5 = `_Recientememte Se Ha ${ax} Un  Miembro Del Grupo._\n\n`;
+    let txt5 = `_Recientemente Se Ha ${ax} Un  Miembro Del Grupo._\n\n`;
     txt5 += `*Grupo:* ${groupName}\n`;
     if (ax === 'Eliminado') {
       txt5 += `*Se Eliminó A:* @${m.messageStubParameters[0].split`@`[0]}\n`;
