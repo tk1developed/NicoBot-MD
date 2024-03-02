@@ -169,9 +169,9 @@ fi
 clear
 echo -e "\e[36m
 ┏╍┅┅┅╍⪻ 𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭-𝐌𝐃 ⪼┅┅┅┅┅┓
-┋❥ 𝐂𝐫𝐞𝐚𝐝𝐨𝐫: diegojadibot
+┋❥ 𝐏𝐫𝐨𝐩𝐢𝐞𝐭𝐚𝐫𝐢𝐨: diegojadibot
 ┋❥ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: www.youtube.com/@SakuraBotLite
-┋❥ 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: www.facebook.com/Diego Crn
+┋❥ 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: www.facebook.com/sakuralite
 ┋❥ 𝐆𝐢𝐭𝐇𝐮𝐛: github.com/diegojadibot
 ┋❥ 𝐍𝐮𝐦𝐞𝐫𝐨: +57 301 3482814
 ┋┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅
@@ -202,8 +202,8 @@ echo -e "\e[36m
  ╲       ╲          ╱
       ╲         ╱
           ︶ 
-𝐆 𝐑 𝐀 𝐂 𝐈 𝐀 𝐒, 𝐏 𝐎 𝐑, 𝐏 𝐑 𝐄 𝐅 𝐄 𝐑 𝐈 𝐑 𝐍 𝐎 𝐒 🦋\n\e[0m"
+𝐆 𝐑 𝐀 𝐂 𝐈 𝐀 𝐒, 𝐏 𝐎 𝐑, 𝐏 𝐑 𝐄 𝐅 𝐄 𝐑 𝐈 𝐑 𝐍 𝐎 𝐒\n\e[0m"
 
 
-echo -e "\033[01;32m\033[01m🚀 Iniciando El Bot¡!\nSakuritaBot-MD\n\033[0m"
+echo -e "\033[01;32m\033[01m🚀 Iniciando El Bot¡!\nSakuraBotLite-MD\n\033[0m"
 npm start
