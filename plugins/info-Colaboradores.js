@@ -35,7 +35,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃ https://github.com/diegojadibot
 ┃
 ┃✣➸ 𝖤𝗇𝗓𝗂𝗍𝗈:
-┃ https://github.com/Enzito-Vase
+┃ https://github.com/EnzoVaselevich
 ┃
 ┃✣➸ 𝖠𝗓𝖺𝗆𝗂:
 ┃ https://github.com/AzamiJs
