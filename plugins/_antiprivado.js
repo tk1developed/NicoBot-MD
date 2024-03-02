@@ -10,4 +10,4 @@
     await this.updateBlockStatus(m.chat, 'block');
   }
   return !1;
-}*_
+}*/
