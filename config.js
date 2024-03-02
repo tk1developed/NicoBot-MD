@@ -46,8 +46,6 @@ global.igfg = 'Diego Oficial';
 global.wait = '*📍 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ʕ •́؈•̀ ₎...*';
 global.vs = '1.0.7 (beta)';
 
-global.grupos = [ gp, gp2, channel ].getRandom()
-
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
