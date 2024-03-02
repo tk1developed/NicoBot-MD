@@ -1,5 +1,4 @@
 import fetch from 'node-fetch';
-let grupos = [ gp, gp2, channel ].getRandom()
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   try {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
@@ -21,7 +20,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┋ 👤𝐂𝐥𝐢𝐞𝐧𝐭𝐞: ${taguser}
 ┋ 🥀𝐁𝐨𝐭 𝐎𝐟𝐢𝐜𝐢𝐚𝐥: ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || '𝚂𝙾𝚈 𝚄𝙽 𝙱𝙾𝚃 𝙾𝙵𝙲'}
 ┋ 🌿𝐃𝐚𝐭𝐞: ${date}
-${grupos}
 ┋ 👥️️𝐔𝐬𝐮𝐚𝐫𝐢𝐨𝐬 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐝𝐨𝐬: ${rtotal}
 ┋ 🦋𝐕𝐞𝐫𝐬𝐢𝐨𝐧 𝐃𝐞 𝐒𝐚𝐤𝐮𝐫𝐚: ${vs}
 ╰━━━━━━━✦✗✦━━━━━━━━
@@ -398,7 +396,7 @@ ${grupos}
 ╭━━━━･❪ *PROPIETARIO* ❫ ･━━━━╮
 ┃💧 !menuowner
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•`;
-   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '乂 𝚂 𝙰 𝙺 𝚄 𝚁 𝙰 - 𝙱 𝙾 𝚃 - 𝙻 𝙸 𝚃 𝙴 - 𝙼 𝙳 乂', "containsAutoReply": true, "mediaType": 1, "thumbnail": [imagen6,imagen1,imagen4].getRandom(), "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
+   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '乂 𝚂 𝙰 𝙺 𝚄 𝚁 𝙰 - 𝙱 𝙾 𝚃 - 𝙻 𝙸 𝚃 𝙴 - 𝙼 𝙳 乂', "containsAutoReply": true, "mediaType": 1, "thumbnail": [imagen6,imagen1,imagen4].getRandom(), "mediaUrl": global.channel, "sourceUrl": global.channel}}}, {quoted: fkon});
  // m.react('🧩');
   } catch {
     conn.reply(m.chat, '🧸 *Ocurrió Un Error*', m);
