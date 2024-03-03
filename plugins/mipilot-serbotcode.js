@@ -6,7 +6,7 @@ async function handler(m, {usedPrefix}) {
         await m.reply(`El token te permite iniciar sesion en otros bots, recomendamos no compartirlo con nadie.\n\n*Tu token es:*`)
         await m.reply(token)
     } else {
-        await m.reply(`*No Tienes Ningun Token, Utiliza: ${usedPrefix}botclone Para Crear Un Token 📍.*`)
+        await m.reply(`*No Tienes Ningun Token Activo, Utiliza: ${usedPrefix}botclone Para Crear Un Token 📍.*`)
     }
   }
   handler.command = handler.help = ['token', 'gettoken', 'serbottoken'];
