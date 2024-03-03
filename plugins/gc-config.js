@@ -9,7 +9,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
   }[(args[0] || '')];
   if (isClose === undefined) {
     throw `
-*⚡️ Mal Uso Del Comando*
+⚡️ *Mal Uso Del Comando*
 
  ${usedPrefix + command} abrir*
  ${usedPrefix + command} cerrar*
