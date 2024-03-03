@@ -40,7 +40,7 @@ if (!stiker) stiker = e
 } finally {
 if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: ``, mediaType: 2, sourceUrl: [gp1, channel, md, fb].getRandom(), thumbnail: imagen4}}}, { quoted: m })
 
-else throw `╰⊱❗️⊱ *LO USO MAL* ⊱❗️⊱╮\n\n_La Conversión Falló Por Favor Responda A Una Imagen, Video, Gif Para Realizar El Sticker Use:_ *${usedPrefix + command}*`
+else throw `⚠️ _La Conversión Ha Fallado, Intenta Enviar Primero  Una Imagen O Un Video Y Luego Responde Con El Comando._`
 
 }}
 handler.help = ['stiker (caption|reply media)', 'stiker <url>', 'stikergif (caption|reply media)', 'stikergif <url>']
