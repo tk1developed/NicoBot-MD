@@ -6,7 +6,7 @@ const handler = async (m, {conn, isAdmin}) => {
   try {
     await conn.groupParticipantsUpdate(m.chat, [m.sender], 'promote');
   } catch {
-    await m.reply('*I'm sorry an error occurred*');
+    await m.reply('📍 *Ocurrió Un Error*');
   }
 };
 handler.command = /^(tenerpoder|autoadmin)$/i;
