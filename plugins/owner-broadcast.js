@@ -9,7 +9,7 @@ const handler = async (m, {conn, command, participants, usedPrefix, text}) => {
   const teks4 = text ? text : cc4.text;
   const groups2 = Object.keys(await conn.groupFetchAllParticipating());
   const chats2 = Object.keys(global.db.data.users).filter((user) => user.endsWith('@s.whatsapp.net'));
-  await conn.reply(m.chat, '*✅️ Enviando El Mensaje A Todos Los Chats*', m);
+  await conn.reply(m.chat, '*✅️ Enviando A Todos Los Chats*', m);
   const start2 = new Date().getTime();
   const usersTag2 = participants.map((u) => conn.decodeJid(u.id));
   let totalPri2 = 0;
