@@ -3,13 +3,13 @@
 import {randomBytes} from 'crypto';
 
 const handler = async (m, {conn, command, participants, usedPrefix, text}) => {
-  if (!text) return '*😻 𝘘𝘶𝘦 𝘛𝘦𝘹𝘵𝘰?*';
+  if (!text) return '*😻 Que Texto?*';
   const fkontak = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${conn.user.jid.split('@')[0]}:${conn.user.jid.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
   const cc4 = text ? m : m.quoted ? await m.getQuotedObj() : false || m;
   const teks4 = text ? text : cc4.text;
   const groups2 = Object.keys(await conn.groupFetchAllParticipating());
   const chats2 = Object.keys(global.db.data.users).filter((user) => user.endsWith('@s.whatsapp.net'));
-  await conn.reply(m.chat, '🦋 𝙀𝙣𝙫𝙞𝙖𝙙𝙤 𝘼 𝙏𝙤𝙙𝙤𝙨 𝙇𝙤𝙨 𝘾𝙝𝙖𝙩𝙨 💖', m);
+  await conn.reply(m.chat, '*✅️ Enviando El Comunicado*', m);
   const start2 = new Date().getTime();
   const usersTag2 = participants.map((u) => conn.decodeJid(u.id));
   let totalPri2 = 0;
