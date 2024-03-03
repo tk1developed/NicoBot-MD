@@ -24,7 +24,7 @@ var shadow = async (m, {
 
 if (command == "menu" || command == "menú") {
 let uwu = `╦══════════════════ ⪨
-┃│✾ ⋟ *${ucapan()}*
+┃│
 ┃│✾ ⋟ *tenemos varios tipos de menus*
 ┃│✾ ⋟ 1
 ┃│✾ ⋟ *#menucompleto*
