@@ -13,7 +13,7 @@ let handler = async (m, { conn }) => {
           m.reply(`_${saludo}_ *_Usuario_*`);
             });
 }
-handler.help = ['infobot']
+handler.help = ['info']
 handler.tags = ['main']
 handler.command = ['saludo']
 handler.register = true
