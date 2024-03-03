@@ -21,7 +21,7 @@ const handler = async (m, {conn, usedPrefix, text}) => {
   } catch (e) {
   } finally {
     conn.groupParticipantsUpdate(m.chat, [user], 'promote');
-    conn.reply(m.chat, `📍 Ordenes Recibidas`, m);
+    conn.reply(m.chat, `✅️ Ordenes Recibidas`, m);
   }
 };
 handler.help = ['*593xxx*', '*@usuario*', '*responder chat*'].map((v) => 'promote ' + v);
