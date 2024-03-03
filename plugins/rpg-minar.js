@@ -1,6 +1,6 @@
 let handler = async (m, { conn, isPrems}) => {
 let hasil = Math.floor(Math.random() * 1000)
-let info = `*💧 𝑂ℎℎ, 𝐺𝑒𝑛𝑖𝑎𝑙 𝑀𝑖𝑛𝑎𝑠𝑡𝑒𝑠: ${hasil} 𝑋𝑃 🌹*`
+let info = `_*💧 Ohh, Genial Minastes: ${hasil} XP 🌹*_`
 let time = global.db.data.users[m.sender].lastmiming + 600000
 if (new Date - global.db.data.users[m.sender].lastmiming < 600000) throw `*⏰️ Te Toca Esperar ${msToTime(time - new Date())} Para Volver Usar El Comando*`  
 
