@@ -13,5 +13,4 @@ handler.tags = ['owner']
 handler.command = /^(setbotname|cambianombre)$/i
 
 handler.owner = true
-
 export default handler
