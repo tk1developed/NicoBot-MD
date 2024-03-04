@@ -141,7 +141,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
   }
 } catch (error) {
     console.log(error)
-    throw '*[❗] Error, por favor vuelva a intentarlo.*';
+    throw '*🍭 Error, por favor vuelva a intentarlo.*';
   }
 };
 handler.help = ['play', 'play2'].map((v) => v + ' < busqueda >');
