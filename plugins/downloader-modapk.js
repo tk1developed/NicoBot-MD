@@ -11,7 +11,7 @@ const handler = async (m, {conn, usedPrefix: prefix, command, text}) => {
     }
     await conn.sendMessage(m.chat, {document: {url: data5.dllink}, mimetype: 'application/vnd.android.package-archive', fileName: data5.name + '.apk', caption: null}, {quoted: m});
   } catch {
-    throw `*✨ 𝑬𝒓𝒓𝒐𝒓 𝑵𝒐 𝑺𝒆 𝑷𝒖𝒅𝒐 𝑬𝒏𝒗𝒊𝒂𝒓 𝑬𝒍 𝑨𝒓𝒄𝒉𝒊𝒗𝒐.*`;
+    throw `*🍭 Error No Se Pudo Enviar El Archivo.*`;
   }    
 };
 handler.command = /^(apk|modapk|dapk2|aptoide|aptoidedl)$/i;
