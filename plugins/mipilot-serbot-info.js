@@ -38,3 +38,5 @@ await _envio.sendMessage(m.chat, {text: responseMessage, mentions: _envio.parseM
 handler.command = handler.help = ['listjadibot', 'bots', 'subsbots'];
 handler.tags = ['jadibot'];
 export default handler;
+//handler.register = true
+//handler.private = true
