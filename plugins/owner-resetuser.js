@@ -29,5 +29,4 @@ const handler = async (m, { conn, text }) => {
 handler.tags = ['owner'];
 handler.command = /(restablecerdatos|deletedatauser|resetuser)$/i;
 handler.rowner = true;
-//handler.register = true
 export default handler;
