@@ -99,7 +99,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial 📍
 
-* <a href="https://wa.me/5491165601378?text=!menu"><img alt="Bot Oficial 📍" src="https://img.shields.io/badge/Bot - Oficial📍-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+* <a href="https://wa.me/14437013473?text=!menu"><img alt="Bot Oficial 📍" src="https://img.shields.io/badge/Bot - Oficial📍-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 > No Spam Al Bot!
 
