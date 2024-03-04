@@ -4,14 +4,14 @@ const handler = async (m, {conn, usedPrefix, command}) => {
  try {    
   let q = m.quoted ? m.quoted : m;
   let mime = (q.msg || q).mimetype || q.mediaType || "";
-  if (!mime) throw `*[❗] 𝙴𝙽𝚅𝙸𝙴 𝚄𝙽𝙰 𝙸𝙼𝙰𝙶𝙴𝙽 𝙾 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰 𝙰 𝚄𝙽𝙰 𝙸𝙼𝙰𝙶𝙴𝙽 𝙲𝙾𝙽 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix + command}*`;
-  if (!/image\/(jpe?g|png)/.test(mime)) throw `*[❗] 𝙴𝙻 𝙵𝙾𝚁𝙼𝙰𝚃𝙾 𝙳𝙴𝙻 𝙰𝚁𝙲𝙷𝙸𝚅𝙾 (${mime}) 𝙽𝙾 𝙴𝚂 𝙲𝙾𝙼𝙿𝙰𝚁𝚃𝙸𝙱𝙻𝙴, 𝙴𝙽𝚅𝙸𝙰 𝙾 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰 𝚄𝙽𝙰 𝙵𝙾𝚃𝙾*`;
-  m.reply("*🌻 𝐸𝑠𝑝𝑒𝑟𝑒 𝐸𝑠𝑡𝑎𝑚𝑜𝑠 𝑃𝑟𝑜𝑐𝑒𝑠𝑎𝑛𝑑𝑜 𝐿𝑎 𝐼𝑚𝑎𝑔𝑒𝑛 𝐸𝑛 𝐻𝐷...*");
+  if (!mime) throw `*🍭 Envie Una Imagen Y Luego Responda Con El Comando !hd*`;
+  if (!/image\/(jpe?g|png)/.test(mime)) throw `*🚩 El Formato Del Archivo (${mime}) No Es Compartible, Envia O Responde A Una Foto*`;
+  m.reply("*⏰️ Espera Estamos Procesando La Imagen En HD...*");
   let img = await q.download?.();
   let pr = await remini(img, "enhance");
   conn.sendMessage(m.chat, {image: pr}, {quoted: m});
  } catch {
-  throw "*[❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙴 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*";
+  throw "*⚡️ Ocurrió Un Error*";
  }
 };
 handler.help = ["remini", "hd", "enhance"];
