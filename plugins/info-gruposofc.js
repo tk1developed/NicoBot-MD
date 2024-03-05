@@ -8,7 +8,6 @@ let str = `*📍 GRUPO OFICIAL*
   *_┃🧸❏ ${gp1}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
-
  *🥀 GRUPOS EN COLABORACIÓN*
 
     *_╭━━━⊜ Curiosity y SakuraBot_*
