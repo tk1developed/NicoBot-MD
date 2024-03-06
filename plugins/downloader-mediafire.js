@@ -35,7 +35,6 @@ _*⏳ Hey Espere Estoy Enviando Su Archivo. . . .*_`.trim();
 handler.help = ['mediafire'].map((v) => v + ' <url>');
 handler.tags = ['downloader'];
 handler.command = /^(mediafire|mediafiredl|dlmediafire)$/i;
-handler.register = true
 export default handler;
 
 async function mediafireDl(url) {
