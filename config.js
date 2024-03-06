@@ -35,6 +35,7 @@ global.prems = ['573218138672'];
 
 global.lenguajeSK = es //idioma de sakurabot
 
+//nombre del bot
 global.packname = '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🧸';
 global.author = '𝖣𝗂𝖾𝗀𝗈 ⚡️';
 global.wm = 'Sakura : Bot 🧸';
@@ -45,6 +46,7 @@ global.igfg = 'Diego Oficial';
 global.wait = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
 global.vs = '1.0.7 (beta)';
 
+//imagenes
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
