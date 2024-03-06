@@ -6,7 +6,7 @@ const handler = async (m, {conn, usedPrefix, command}) => {
   let mime = (q.msg || q).mimetype || q.mediaType || "";
   if (!mime) throw `*🍭 Envie Una Imagen Y Luego Responda Con El Comando !hd*`;
   if (!/image\/(jpe?g|png)/.test(mime)) throw `*🚩 El Formato Del Archivo (${mime}) No Es Compartible, Envia O Responde A Una Foto*`;
-  m.reply("*⏰️ Espera Estamos Procesando La Imagen En HD...*");
+  m.reply("_*📖 MEJORANDO LA CALIDAD*_");
   let img = await q.download?.();
   let pr = await remini(img, "enhance");
   conn.sendMessage(m.chat, {image: pr}, {quoted: m});
