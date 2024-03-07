@@ -13,11 +13,11 @@ const handler = async (m, {conn}) => {
 ┋➺ *📍Nivel:* 
 ┋➺ *${user.level}*
 ┋─── ❖ ── ✦ ── ❖ ───
-┋➺ *🧩Experto:*
+┋➺ *🧩Exp:*
 ┋➺ *${user.exp - min}/${xp}*
 ◆━━━━━━◆❃◆━━━━━━◆
 
-Te Hace Falta *${max - user.exp}* De Experto  Para Subir Un Nuevo Nivel 🧸📍
+Te Falta *${max - user.exp}* De Exp Para Subir De Nivel 🧸📍
 `.trim();
   }
   const before = user.level * 1;
