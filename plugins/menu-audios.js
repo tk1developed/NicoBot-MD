@@ -48,10 +48,12 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃✣➸ 🦋 _Audio hentai_
 ┃✣➸ 🦋 _Chica lgante_
 ┃✣➸ 🦋 _Feliz navidad_
+┃✣➸ 🦋 _Onichan_
 ┃✣➸ 🦋 _Vete a la vrg_
 ┃✣➸ 🦋 _Pasa pack Bot_
 ┃✣➸ 🦋 _Atencion grupo_
 ┃✣➸ 🦋 _Marica quien_
+┃✣➸ 🦋 _Uwu_
 ┃✣➸ 🦋 _Murio el grupo_
 ┃✣➸ 🦋 _Oh me vengo_
 ┃✣➸ 🦋 _tio que rico_
