@@ -16,6 +16,7 @@ const handler = async (m, {conn}) => {
 ┋➺ *🧩Experto:*
 ┋➺ *${user.exp - min}/${xp}*
 ◆━━━━━━◆❃◆━━━━━━◆
+
 Te Hace Falta *${max - user.exp}* De Experto  Para Subir Un Nuevo Nivel 🧸📍
 `.trim();
   }
