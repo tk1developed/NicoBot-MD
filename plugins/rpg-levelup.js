@@ -17,7 +17,7 @@ const handler = async (m, {conn}) => {
 ┋➺ *${user.exp - min}/${xp}*
 ◆━━━━━━◆❃◆━━━━━━◆
 
-Te Hace Falta *${max - user.exp}* De Exp Para Subir De Nivel 🧸📍
+*Te Hace Falta ${max - user.exp} De Exp Para Subir De Nivel* 🧸📍
 `.trim();
   }
   const before = user.level * 1;
