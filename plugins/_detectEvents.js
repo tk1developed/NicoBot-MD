@@ -1,4 +1,4 @@
-/*import {WAMessageStubType} from '@whiskeysockets/baileys';
+import {WAMessageStubType} from '@whiskeysockets/baileys';
 import fetch from 'node-fetch';
 
 export async function before(m, {conn, participants}) {
@@ -90,4 +90,4 @@ export async function before(m, {conn, participants}) {
     txt7 += `*Realizado Por:* @${m.sender.split`@`[0]}`;
     await conn.sendMessage(m.chat, {image: {url: pp}, caption: txt7, mentions: mentionsContentM}, {quoted: fkontak2});
   }
-}*/
+}
