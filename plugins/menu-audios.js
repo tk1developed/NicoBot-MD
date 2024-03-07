@@ -36,7 +36,6 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃✣➸ 🦋 _Quien es tu sempai botsito 7w7_
 ┃✣➸ 🦋 _Te diagnostico con gay_
 ┃✣➸ 🦋 _No digas eso papu_
-┃✣➸ 🦋 _A nadie le importa_
 ┃✣➸ 🦋 _Fiesta del admin_
 ┃✣➸ 🦋 _Fiesta del administrador_ 
 ┃✣➸ 🦋 _Vivan los novios_
