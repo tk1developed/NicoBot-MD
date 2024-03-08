@@ -1,66 +1,4 @@
-var handler = async (m) => {
-
-let tqto = `📖 *Colaboradores*
-➸ 𝖣𝗂𝖾𝗀𝗈 𝖢𝗋𝖾𝖺𝖽𝗈𝗋
-➸ 𝖤𝗇𝗓𝗂𝗍𝗈
-➸ 𝖠𝗓𝖺𝗆𝗂
-➸ 𝖬𝖺𝗋𝗂𝗈
-`
-
-conn.reply(m.chat, tqto, )
-
-handler.before = async m => {
-
-if (/^colaboradores|Colaboradores$/i.test(m.text) ) {
-let texto = `*╭🧸⸽⃕𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼𝘀 𝗚𝗶𝘁𝗵𝘂𝗯📍✰*
-┃✣➸ 𝖣𝗂𝖾𝗀𝗈:
-┃ https://github.com/diegojadibot
-┃
-┃✣➸ 𝖤𝗇𝗓𝗂𝗍𝗈:
-┃ https://github.com/EnzoVaselevich
-┃
-┃✣➸ 𝖠𝗓𝖺𝗆𝗂:
-┃ https://github.com/AzamiJs
-┃
-┃✣➸ 𝖬𝖺𝗋𝗂𝗈:
-┃ https://github.com/elrebelde21
-┃
-╰◆━━━━━━◆❃◆━━━━━━◆
-
-_Envie "ss" Para Obtener El Contacto De Los Colaboradores_`
-
-conn.reply(m.chat, texto, )
-}
-
-if (/^ss$/i.test(m.text) ) {
-let contacto = `╭🧸⸽⃕𝗡𝘂𝗺𝗲𝗿𝗼𝘀 - 𝗖𝗿𝗲𝗮𝗱𝗼𝗿𝗲𝘀📍✰ 
-┋➸ 𝖣𝗂𝖾𝗀𝗈: 
-┋@573013482814
-┋
-┋➸ 𝖤𝗇𝗓𝗂𝗍𝗈: 
-┋@5491130182250
-┋
-┋➸ 𝖠𝗓𝖺𝗆𝗂: 
-┋@5217294888993
-┋
-┋➸ 𝖬𝖺𝗋𝗂𝗈: 
-┋@5492266466080
-┋
-╰◈ ━━━━━━━ ⸙ ━━━━━━━`
-
-m.reply(contacto, m.chat, { mentions: conn.parseMention(contacto)})}
-}
-
-}
-handler.help = ['tqto', 'creditos', 'credits', 'thanks', 'thanksto']
-handler.tags = ['info']
-handler.command = /^(credits|creditos|credit|thanks|thanksto|tqto)$/i
-
-handler.register = true
-
-export default handle
-
-/*import fetch from 'node-fetch';
+import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
   try {
@@ -143,4 +81,4 @@ function clockString(ms) {
   const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
   const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
   return [h, m, s].map((v) => v.toString().padStart(2, 0)).join(':');
-}*/
+}
