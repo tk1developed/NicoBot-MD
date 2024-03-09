@@ -22,10 +22,14 @@ let str = `*📍 GRUPO OFICIAL*
   *_┃🧸❏ ${gp4}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
-  *🥀 CANAL OFICIAL*
+  *🥀 CANALES OFICIALES*
 
     *_╭━━━⊜ Canal SakuraLite_*
   *_┃📍❏ ${channel}_*
+*_╰━━━━━━━━━━━━━━━━⊜_*
+
+    *_╭━━━⊜ Canal Team SakuraBot_*
+  *_┃📍❏ ${channel2}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 
