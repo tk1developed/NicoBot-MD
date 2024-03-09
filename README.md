@@ -34,10 +34,7 @@
 ](https://youtu.be/X-wQbVhLb8w?si=UdP9uM5SPFRY75nU)
 
 [`🧩 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
-
-<!-- Instalación-->
-<b><details><summary>🍧Instalación Termux Automatica</summary></b>  
-
+ 
 ```bash
 termux-setup-storage
 ```
@@ -45,10 +42,10 @@ termux-setup-storage
 ```bash
 apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/sakura.sh | bash
 ```
-</details>
 
-<!-- Instalación-->
-<b><details><summary>🍧Instalación Termux Manual</summary></b>  
+- #### 📍Instalacion Por Termux Manual👨‍💻
+> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+
 ```bash
 cd && termux-setup-storage
 ```
@@ -80,6 +77,7 @@ npm update
 ```bash
 npm start
 ```
+</details>
 
 - #### 📍Activar En Caso De Detenerse En Termux🧸
 ```bash
@@ -96,7 +94,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > rm -rf SakuraBotSession
 > npm start
 ```
-</details>
+
 
 ## <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Creator 🧸" width="42" height="42"> Creator 🧸
 
@@ -109,6 +107,17 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > No Spam Al Bot!
 
 ---------
+
+<!-- Mensaje-Own-->
+<b><details><summary>🍧Mensaje Del Creador</summary></b>  
+- Yo DiegoOficial Les Invito A Darle Una Estrella A Mi Repositorio, El Bot Es Bueno, Si Te Parece Bueno Puedes Instalarlo Por Termux O Otros Servidores.
+
+- Este Bot Tiene Poco Comandos Pero Divertido, El Bot Se Une Automaticamente Al Grupo Oficial Del Bot, Si El Bot Tiene Una Falla Me La Pueden Desir A Mi Chat O Al Grupo Oficial Del Bot.
+
+- El Bot Tiene 2 Metodos A Activarse A Tu WhatsApp, 1] Mediante Qr, 2] Mediante Un Texto 8 Digitos.
+
+- Siguenos En Todas Nuestras Redes Sociales. Gracias.
+</details>
 
 - ### Editor Y Propietario Del Bot 🧩📍
 <a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="250" height="250" alt="Diego 🧸"/></a>
