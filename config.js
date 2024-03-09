@@ -68,6 +68,8 @@ global.gp4 = 'https://chat.whatsapp.com/HXOGzELFOVXFM1KrSoKdqH' //Grupo MultiBot
 
 global.channel = 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n' //Canal Oficial
 
+global.channel2 = 'https://whatsapp.com/channel/0029VaP7SK3545uyUq582c2s' //Canal Team SakuraBot
+
 global.yt = 'https://www.youtube.com/@SakuraBotLite' //Canal De Youtube
 
 global.md = 'https://github.com/diegojadibot/SakuraBotLite-MD' //Github Oficial
