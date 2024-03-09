@@ -13,8 +13,11 @@
 <a href="https://chat.whatsapp.com/CKqHvmFQDL1Kdj6TFHahUn"><img alt="📍 Grupo Oficial" src="https://img.shields.io/badge/Grupo-Official-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
+
 - ### 🌤Configuracion🧩
- Clonar Repo : SakuraBot [Aqui.](https://github.com/diegojadibot/SakuraBotLite-MD/fork) 
+ Clonar Repo : SakuraBot [Aqui.](https://github.com/diegojadibot/SakuraBotLite-MD/fork)
+
+   
   
 - ### 🧸Instalar Por Render🧩
 
@@ -25,8 +28,11 @@
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=738341999&ref=main&geo=UsEast)
 ***
 
+- #### 📍Instalacion Por Termux Automatica🧸
+
 [![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/X-wQbVhLb8w?si=UdP9uM5SPFRY75nU)
+
 [`🧩 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
 
 <!-- Instalación-->
@@ -34,33 +40,44 @@
 ```bash
 termux-setup-storage
 ```
+
 ```bash
 apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/sakura.sh | bash
 ```
+
+- #### 📍Instalacion Por Termux Manual👨‍💻
+> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 <!-- Instalación-->
 <b><details><summary>🍧Instalación Termux Manual</summary></b>  
 ```bash
 cd && termux-setup-storage
 ```
+
 ```bash
 apt-get update -y && apt-get upgrade -y
 ```
+
 ```bash
 pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
 ```
+
 ```bash
 git clone https://github.com/diegojadibot/SakuraBotLite-MD.git && cd SakuraBotLite-MD
 ```
+
 ```bash
 yarn install
 ```
+
 ```bash
 npm install
 ```
+
 ```bash
 npm update
 ```
+
 ```bash
 npm start
 ```
