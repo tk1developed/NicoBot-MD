@@ -37,6 +37,7 @@
 
 <!-- Instalación-->
 <b><details><summary>🍧Instalación Termux Automatica</summary></b>  
+
 ```bash
 termux-setup-storage
 ```
@@ -44,9 +45,7 @@ termux-setup-storage
 ```bash
 apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/sakura.sh | bash
 ```
-
-- #### 📍Instalacion Por Termux Manual👨‍💻
-> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+</details>
 
 <!-- Instalación-->
 <b><details><summary>🍧Instalación Termux Manual</summary></b>  
@@ -81,6 +80,7 @@ npm update
 ```bash
 npm start
 ```
+</details>
 
 - #### 📍Activar En Caso De Detenerse En Termux🧸
 ```bash
