@@ -35,6 +35,6 @@ await conn.updateProfilePicture(bot, img)
 conn.reply(m.chat, '> Cambiando La Imagen.
 ', m)
 } else throw `> 🙀𝘕𝘰 𝘚𝘦 𝘌𝘯𝘤𝘰𝘯𝘵𝘳𝘰́ 𝘕𝘪𝘯𝘨𝘶𝘯𝘢 𝘐𝘮𝘢𝘨𝘦𝘯, 𝘗𝘰𝘳 𝘍𝘢𝘷𝘰𝘳 𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦 𝘈 𝘜𝘯𝘢 𝘐𝘮𝘢𝘨𝘦𝘯 𝘜𝘴𝘢𝘯𝘥𝘰 𝘌𝘭 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 ${usedPrefix + command}`}
-handler.command = /^setppbot|cambiar$/i
+handler.command = /^setppbot$/i
 handler.rowner = true
 export default handler*/
