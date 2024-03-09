@@ -34,6 +34,9 @@
 ](https://youtu.be/X-wQbVhLb8w?si=UdP9uM5SPFRY75nU)
 
 [`🧩 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
+
+<!-- Instalación-->
+<b><details><summary>🍧Instalación Termux Automatica</summary></b>  
 ```bash
 termux-setup-storage
 ```
@@ -44,6 +47,9 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 
 - #### 📍Instalacion Por Termux Manual👨‍💻
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+
+<!-- Instalación-->
+<b><details><summary>🍧Instalación Termux Manual</summary></b>  
 ```bash
 cd && termux-setup-storage
 ```
