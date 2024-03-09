@@ -19,22 +19,6 @@ function _0x31ac(_0x16c31d, _0x391554) {
     throw _0x2359c0(0x1bf)+(_0x33d1e6+_0x480711)+'*';
   }
 }; handler['command']=/^setppbot$/i, handler[_0x34771d(0x1c0)]=!![]; export default handler; function _0x14c2() {
-  const _0x1897e4=['AUTO', 'user', '8CJixwu', 'getHeight', 'getBufferAsync', 'w:profile:picture', '*> \x20Cambiando\x20La\x20Imagen\x20...', 'picture', 'read', '1419731ZjYevm', 'MIME_JPEG', '82272azbcaw', '350agtQLJ', '279gQMikZ', 'mimetype', '188728rlRvtO', 'msg', 'jid', 'image', '1705364hxGRFM', '14905ZvBfug', '2578255zmHnCy', 'getWidth', 'reply', '1780230pdlTpE', 'download', 'quoted', 'query', '2810ZHRQDi', 'resize', '*🙀\x20𝘕𝘰\x20𝘚𝘦\x20𝘌𝘯𝘤𝘰𝘯𝘵𝘳𝘰́\x20𝘕𝘪𝘯𝘨𝘶𝘯𝘢\x20𝘐𝘮𝘢𝘨𝘦𝘯,\x20𝘗𝘰𝘳\x20𝘍𝘢𝘷𝘰𝘳\x20𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦\x20𝘈\x20𝘜𝘯𝘢\x20𝘐𝘮𝘢𝘨𝘦𝘯\x20𝘜𝘴𝘢𝘯𝘥𝘰\x20𝘌𝘭\x20𝘊𝘰𝘮𝘢𝘯𝘥𝘰\x20', 'rowner']; _0x14c2=function() {
+  const _0x1897e4=['AUTO', 'user', '8CJixwu', 'getHeight', 'getBufferAsync', 'w:profile:picture', '*🫶😻\x20𝘚𝘦\x20𝘊𝘢𝘮𝘣𝘪𝘰\x20𝘊𝘰𝘯\x20𝘌𝘹𝘪𝘵𝘰\x20𝘓𝘢\x20𝘍𝘰𝘵𝘰\x20𝘋𝘦\x20𝘗𝘦𝘳𝘧𝘪𝘭\x20𝘋𝘦𝘭\x20𝘕𝘶𝘮𝘦𝘳𝘰\x20𝘋𝘦𝘭\x20𝘉𝘰𝘵*', 'picture', 'read', '1419731ZjYevm', 'MIME_JPEG', '82272azbcaw', '350agtQLJ', '279gQMikZ', 'mimetype', '188728rlRvtO', 'msg', 'jid', 'image', '1705364hxGRFM', '14905ZvBfug', '2578255zmHnCy', 'getWidth', 'reply', '1780230pdlTpE', 'download', 'quoted', 'query', '2810ZHRQDi', 'resize', '*🙀\x20𝘕𝘰\x20𝘚𝘦\x20𝘌𝘯𝘤𝘰𝘯𝘵𝘳𝘰́\x20𝘕𝘪𝘯𝘨𝘶𝘯𝘢\x20𝘐𝘮𝘢𝘨𝘦𝘯,\x20𝘗𝘰𝘳\x20𝘍𝘢𝘷𝘰𝘳\x20𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦\x20𝘈\x20𝘜𝘯𝘢\x20𝘐𝘮𝘢𝘨𝘦𝘯\x20𝘜𝘴𝘢𝘯𝘥𝘰\x20𝘌𝘭\x20𝘊𝘰𝘮𝘢𝘯𝘥𝘰\x20', 'rowner']; _0x14c2=function() {
     return _0x1897e4;
   }; return _0x14c2();
-}
-
-/* let handler = async (m, { conn, usedPrefix, command }) => {
-let bot = conn.user.jid
-let q = m.quoted ? m.quoted : m
-let mime = (q.msg || q).mimetype || ''
-if (/image/.test(mime)) {
-let img = await q.download()
-if (!img) throw `> 🙀𝘕𝘰 𝘚𝘦 𝘌𝘯𝘤𝘰𝘯𝘵𝘳𝘰́ 𝘕𝘪𝘯𝘨𝘶𝘯𝘢 𝘐𝘮𝘢𝘨𝘦𝘯, 𝘗𝘰𝘳 𝘍𝘢𝘷𝘰𝘳 𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦 𝘈 𝘜𝘯𝘢 𝘐𝘮𝘢𝘨𝘦𝘯 𝘜𝘴𝘢𝘯𝘥𝘰 𝘌𝘭 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 ${usedPrefix + command}`
-await conn.updateProfilePicture(bot, img)
-conn.reply(m.chat, '> Cambiando La Imagen.
-', m)
-} else throw `> 🙀𝘕𝘰 𝘚𝘦 𝘌𝘯𝘤𝘰𝘯𝘵𝘳𝘰́ 𝘕𝘪𝘯𝘨𝘶𝘯𝘢 𝘐𝘮𝘢𝘨𝘦𝘯, 𝘗𝘰𝘳 𝘍𝘢𝘷𝘰𝘳 𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦 𝘈 𝘜𝘯𝘢 𝘐𝘮𝘢𝘨𝘦𝘯 𝘜𝘴𝘢𝘯𝘥𝘰 𝘌𝘭 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 ${usedPrefix + command}`}
-handler.command = /^setppbot$/i
-handler.rowner = true
-export default handler*/
