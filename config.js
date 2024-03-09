@@ -9,8 +9,10 @@ import moment from 'moment-timezone';
 import { es } from "./lib/idiomas/total-idiomas.js"
 
 
-global.botnumber = ""
-global.confirmCode = ""
+//BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
+//Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
+global.botNumber = '' //Ejemplo: +59309090909
+global.confirmCode = ''
 
 //No quites los numeros de los propietarios
 global.owner = [
