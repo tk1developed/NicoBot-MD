@@ -1,6 +1,6 @@
 const handler = async (m, {conn, participants, command, usedPrefix}) => {
   if (!global.db.data.settings[conn.user.jid].restrict) throw '*¡Este Comando Esta Desabilitado Por El Propietario Del Bot!*';
-  const kicktext = `*🍧 Etiqueta A Una Persoma O Responda A Un Mensaje Pafa Elimianarlo Del Grupo.*\n\n*📖 Ejemplo:*\n*${usedPrefix + command} @${global.suittag}*`;
+  const kicktext = `*🍧 Etiqueta A Una Persona O Responda A Un Mensaje Para Elimianarlo Del Grupo.*\n\n*📖 Ejemplo:*\n*${usedPrefix + command} @${global.suittag}*`;
   if (!m.mentionedJid[0] && !m.quoted) return m.reply(kicktext, m.chat, {mentions: conn.parseMention(kicktext)});
   if (m.message.extendedTextMessage === undefined || m.message.extendedTextMessage === null) return m.reply('*🥀 Etiqueta A Una Persona O Responda Al Mensaje.*');
   if (m.message.extendedTextMessage.contextInfo.participant !== null && m.message.extendedTextMessage.contextInfo.participant != undefined && m.message.extendedTextMessage.contextInfo.participant !== '') {
