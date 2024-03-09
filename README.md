@@ -80,7 +80,6 @@ npm update
 ```bash
 npm start
 ```
-</details>
 
 - #### 📍Activar En Caso De Detenerse En Termux🧸
 ```bash
@@ -97,7 +96,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > rm -rf SakuraBotSession
 > npm start
 ```
-
+</details>
 
 ## <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Creator 🧸" width="42" height="42"> Creator 🧸
 
