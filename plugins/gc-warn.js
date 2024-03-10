@@ -14,7 +14,7 @@ const handler = async (m, {conn, text, command, usedPrefix}) => {
   const dReason = 'Sin motivo';
   const msgtext = text || dReason;
   const sdms = msgtext.replace(/@\d+-?\d* /g, '');
-  const warntext = `*Etiqueta a algun usuario o responda a un mensaje*\n\n*Ejemplo:*\n*${
+  const warntext = `*Etiqueta a algun usuario o responda a un mensaje del grupo\n\n*Ejemplo:*\n*${
     usedPrefix + command
   } @${global.suittag}*`;
   if (!who) {
