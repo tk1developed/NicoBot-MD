@@ -1,5 +1,5 @@
 //CÓDIGO CREADO POR elrebelde21 : https://github.com/elrebelde21
-/*let crime = 500
+let crime = 500
 let diamante = 10
 const handler = async (m, {conn, usedPrefix, command, groupMetadata, participants, isPrems}) => {
 const date = global.db.data.users[m.sender].crime + 3600000; //3600000 = 1 hs
@@ -46,4 +46,4 @@ function pickRandom(list) {
 }
 
 global.robar = ['Robaste un Banco 🍧 y Obtuviste', 'Negociarte con el jefe de la mafia y Obtuviste :', 'Casi te atrapa la policía pero lograste robar una cantidad valiosa de Oro 🥀. !Te cuidado la próxima vez! Obtuviste:', 'Los mafiosos te han pagado :', 'Le has robado al Administrador del Grupo', 'Le robarte a tu presidente una sumar de :', 'le robarte a un famoso un valor de :'];
-global.robmal = ['LA POLICIA TE VIO 😔👮‍♂️ PERDISTE', 'Fuiste a robar un banco 💖 y tu ayudarte que vendio a la policía, perdiste', 'No pudiste escapar de la Policía 🚔😃, perdiste :']*/
+global.robmal = ['LA POLICIA TE VIO 😔👮‍♂️ PERDISTE', 'Fuiste a robar un banco 💖 y tu ayudarte que vendio a la policía, perdiste', 'No pudiste escapar de la Policía 🚔😃, perdiste :']
