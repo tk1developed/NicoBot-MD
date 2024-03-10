@@ -1,6 +1,6 @@
-//codigo - CuriosityBot, elrebelde21
+/*codigo - CuriosityBot, elrebelde21
 
-//import * as baileys from '@adiwajshing/baileys'
+import * as baileys from '@adiwajshing/baileys'
 let baileys = (await import(global.baileys)).default
 
 let handler = async (m, { conn, text }) => {
@@ -42,7 +42,7 @@ const extractGroupMetadata = (result) => {
         return metadata
 }
 
-/*import * as baileys from '@adiwajshing/baileys'
+import * as baileys from '@adiwajshing/baileys'
 
 let handler = async (m, { conn, text }) => {
         let [, code] = text.match(/chat\.whatsapp\.com\/(?:invite\/)?([0-9A-Za-z]{20,24})/i) || []
