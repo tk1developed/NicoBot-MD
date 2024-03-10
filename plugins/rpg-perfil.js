@@ -13,19 +13,19 @@ const handler = async (m, {conn, usedPrefix, participants, isPrems}) => {
     const username = conn.getName(who);
     const prem = global.prems.includes(who.split `@` [0]);
     const sn = createHash('md5').update(who).digest('hex');
-    const str = `*ꨄ︎ 𝘕𝘰𝘮𝘣𝘳𝘦:* ${username} ${registered ? '(' + name + ') ': ''}
+    const str = `*Nombre:* ${username} ${registered ? '(' + name + ') ': ''}
 
-*ꨄ︎ 𝘕𝘶𝘮𝘦𝘳𝘰:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
+*Número:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
 
-*ꨄ︎ 𝘓𝘪𝘯𝘬:* wa.me/${who.split`@`[0]}${registered ? '\n\n*ꨄ︎ 𝘌𝘥𝘢𝘥:* ' + age + ' años' : ''}
+*Link:* wa.me/${who.split`@`[0]}${registered ? '\n\n*Edad:* ' + age + ' años' : ''}
 
-*ꨄ︎ 𝘓𝘪𝘮𝘪𝘵𝘦:* ${limit} 𝚄𝚂𝙾𝚂
+*Límite:* ${limit} 𝚄𝚂𝙾𝚂
 
-*ꨄ︎ 𝘙𝘦𝘨𝘪𝘴𝘵𝘳𝘢𝘥𝘰:* ${registered ? '✅': '❎'}
+*Registrado:* ${registered ? '✅': '❎'}
 
-*ꨄ︎ 𝘗𝘳𝘦𝘮𝘪𝘶𝘮:* ${premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❎') || ''}
+*Premium:* ${premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❎') || ''}
 
-*ꨄ︎ 𝘕𝘶𝘮𝘦𝘳𝘰 𝘋𝘦 𝘚𝘦𝘳𝘪𝘦:* 
+*Número de serie:* 
 ${sn}`;
     conn.sendMessage(m.chat, {image: {url: pp}, caption: str}, {quoted: m});
   }
