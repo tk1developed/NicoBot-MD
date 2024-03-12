@@ -74,6 +74,10 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃💻 _!bots_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
+╭━━･❪ *INSTALAR SAKURABOT* ❫ ･━━╮
+┃🧸 _!descargarbot_
+╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
+
 ╭━━━･❪ *HERRAMIENTAS* ❫ ･━━━╮
 ┃🛠 _!enable restrict_
 ┃🛠 _!disable restrict_
