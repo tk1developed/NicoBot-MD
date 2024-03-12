@@ -46,7 +46,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃📍 _!velocidad_
 ┃📍 _!metodo_
 ┃📍 _!totalf_
-┃📍 _!instalarbot_
 ┃📍 _!terminosycondiciones_
 ┃📍 _!grupos_
 ┃📍 _!estado_
@@ -62,6 +61,10 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃📍 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
+╭━･❪ *INSTALAR SAKURABOT* ❫ ･━╮
+┃🧑🏻‍💻 _!descargarbot_
+╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
+
 ╭━━･❪ *BOT A TU GRUPO* ❫ ･━━╮
 ┃🧸 _!join *<enlace / link / url>*_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
@@ -72,10 +75,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃💻 _!token_
 ┃💻 _!stop_
 ┃💻 _!bots_
-╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
-
-╭━━･❪ *INSTALAR SAKURABOT* ❫ ･━━╮
-┃🧸 _!descargarbot_
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━･❪ *HERRAMIENTAS* ❫ ･━━━╮
