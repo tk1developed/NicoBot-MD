@@ -50,7 +50,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
     conn.reply(m.chat, '📍 *Ocurrió Un Error*', m);
   }
 };
-handler.command = /^(donar|apoyar)$/i;
+handler.command = /^(donar|Donar)$/i;
 handler.register = true
 handler.exp = 50;
 handler.fail = null;
