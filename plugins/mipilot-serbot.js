@@ -100,7 +100,7 @@ if (store) {
 const msg = store.loadMessage(key.remoteJid, key.id)
 return msg.message && undefined
 } return {
-conversation: 'SakuraBotLite-MD',
+conversation: 'CuriosityBot-MD',
 }}}
 
 let conn = makeWASocket(connectionOptions)
@@ -139,7 +139,7 @@ await fs.unlinkSync('./jadibts/' + id + '/creds.json')
 
 //thank you aiden_notLogic
 
-return await conn.reply(m.chat, '🌸 *Conexión Cerrada*')
+return await conn.reply(m.chat, '🌸 *Conexión Cerrada*', )
 }
 if (reason === DisconnectReason.restartRequired) {
 jddt()
@@ -149,12 +149,12 @@ sleep(4000)
 return conn.reply(m.chat, '🌸 *La conexión se ha cerrado, tendras que volver a conectarse usando:*\n!deletebot (Para borrar los datos y poder volver a solitar el QR o el código de emparejamiento', m, fake, )
 } else if (reason == 428) {
 await endSesion(false)
-return conn.reply(m.chat, '🌹 *La conexión se ha cerrado de manera inesperada, intentaremos reconectar...*')
+return conn.reply(m.chat, '🌹 *La conexión se ha cerrado de manera inesperada, intentaremos reconectar...*', )
 } else if (reason === DisconnectReason.connectionLost) {
 await jddt()
 return console.log('🌸 Conexión perdida con el servidor, reconectando')
 } else if (reason === DisconnectReason.badSession) {
-return await conn.reply(m.chat, '🌹 *La conexión se ha cerrado, deberá de conectarse manualmente*')
+return await conn.reply(m.chat, '🌹 *La conexión se ha cerrado, deberá de conectarse manualmente*', )
 } else if (reason === DisconnectReason.timedOut) {
 await endSesion(false)
 return console.log('🌸 Tiempo de conexión agotado, reconectando....')
