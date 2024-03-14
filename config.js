@@ -62,9 +62,9 @@ global.gp3 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //NovaBot Y Saku
 
 global.gp4 = 'https://chat.whatsapp.com/HXOGzELFOVXFM1KrSoKdqH' //Grupo MultiBots
 
-global.channel = 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n' //Canal Oficial
+global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
 
-global.channel2 = 'https://whatsapp.com/channel/0029VaP7SK3545uyUq582c2s' //Canal Team SakuraBot
+//global.channel2 = 'https://whatsapp.com/channel/0029VaP7SK3545uyUq582c2s' //Canal Team SakuraBot
 
 global.yt = 'https://www.youtube.com/@SakuraBotLite' //Canal De Youtube
 
