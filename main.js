@@ -314,7 +314,7 @@ if (opcion == '1' || methodCodeQR) {
  }}
    if (connection == 'open') {
 console.log(chalk.yellowBright('\n╭━─━━─━━─━─≪  🚀  ≫─━─━━─━━─━╮\n│\n│Conectado Correctamente Al WhatsApp.\n│\n╰━─━━━─━━─━─≪ 🟢 ≫─━─━━─━━━─━╯\n'))
-//conn.fakeReply('573013482814@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy SakuraBot\nRecientemente Me E Conectado', '0@s.whatsapp.net')
+conn.fakeReply('573218138672@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy SakuraBot\nRecientemente Me E Conectado', '0@s.whatsapp.net')
  await conn.groupAcceptInvite('CKqHvmFQDL1Kdj6TFHahUn');
    }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
