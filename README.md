@@ -100,8 +100,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 * <a href="https://wa.me/573013482814"><img alt="Creator 🧸" src="https://img.shields.io/badge/Diego - Creator🧸-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
-### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Canal Oficial" width="42" height="42"> Canal Oficial
-* <a href="https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A"><img alt="🌸 Canal Oficial" src="https://img.shields.io/badge/Canal-Oficial-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial 📍
 
