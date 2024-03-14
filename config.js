@@ -42,7 +42,7 @@ global.titulowm = '𝗦𝖺𝗄𝗎𝗋𝖺 : 𝗕𝗈𝗍';
 global.titulowm2 = `𝘿𝙞𝙚𝙜𝙤 𝙊𝙛𝙞𝙘𝙞𝙖𝙡`
 global.igfg = 'Diego Oficial';
 global.wait = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
-global.vs = '1.0.7 (beta)';
+global.vs = '1.0.7';
 
 //imagenes
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
