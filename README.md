@@ -8,7 +8,7 @@
 
 <p align="center"> 
 <a href="https://github.com/diegojadibot"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=FF00FF&center=falso&vCenter=falso&lines=SakuraBotLite-MD+🌸;Gracias+Por+Visitar+Este+Repositorio✨️" height="90px"></a> 
-</p
+
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
 
 > Si Deseas Probar El Bot Antes De Instalarlo, Click Abajo.🟢
