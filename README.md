@@ -12,6 +12,13 @@
 
 <a href="https://chat.whatsapp.com/CKqHvmFQDL1Kdj6TFHahUn"><img alt="📍 Grupo Oficial" src="https://img.shields.io/badge/Grupo-Oficial-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
+<!-- Mensaje-Own-->
+<b><details><summary>🌹Mensaje Del Propietario</summary></b>  
+- Hola, Amigos Y Amigas.
+
+- 🧃 Nota: Sí editas el Bot completo por favor deja el número principal del creador 
+
+</details>
 
 
 - ### 🌤Configuracion🧩
