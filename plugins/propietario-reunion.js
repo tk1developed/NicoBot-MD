@@ -8,7 +8,7 @@ let handler = async(m, { conn, command, text }) => {
     let texto = `🌸 @${m.sender.split`@`[0]} 𝐀 𝐒𝐨𝐥𝐢𝐜𝐢𝐭𝐚𝐝𝐨 𝐋𝐚 𝐏𝐫𝐞𝐬𝐞𝐧𝐜𝐢𝐚 𝐃𝐞 𝐋𝐨𝐬 𝐎𝐰𝐧𝐞𝐫 𝐏𝐨𝐫 𝐌𝐨𝐭𝐢𝐯𝐨: 
 ¡${text}
 Staff SakuraBot - Diego 🌹`
-m.reply('🚀 Se Le Ah Enviado El Mensajes Ah Los Propietarios Del Bot')
+m.reply('🌸 Se Le Ah Enviado El Mensaje Ah Los Propietarios Del Bot')
 for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
                         let data = (await conn.onWhatsApp(jid))[0] || {}
                         if (data.exists)
