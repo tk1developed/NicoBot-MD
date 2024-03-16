@@ -117,5 +117,5 @@ href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.p
   <h1 align="center">Editor y Propietario Del Bot</h1>
 
 <a
-href="https://github.com/diegojadibot"><img src="https://github.com/dirgojadibot.png" width="200" height="200" alt="Diego"/></a>
+href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="200" height="200" alt="Diego"/></a>
 `🌸 SakuraBotLite-MD🌹༉`
