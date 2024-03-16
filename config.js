@@ -11,7 +11,7 @@ import { es } from "./lib/idiomas/total-idiomas.js"
 global.botnumber = ""
 global.confirmCode = ""
 
-//No quites los numeros de los propietarios
+//no quites los numeros de los propietarios
 global.owner = [
  ['573012482694', '👑 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 ⚡️', true],
  ['5217294888993', '𝗢𝘄𝗻𝗲𝗿 📖', true],
@@ -34,7 +34,7 @@ global.prems = ['573218138672'];
 
 global.lenguajeSK = es //idioma de sakurabot
 
-//nombre del bot
+//nombre del  bot
 global.packname = '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌸';
 global.author = '𝖣𝗂𝖾𝗀𝗈 ⚡️';
 global.wm = 'Sakura : Bot 🌹';
@@ -71,7 +71,7 @@ global.md = 'https://github.com/diegojadibot/SakuraBotLite-MD' //Github Oficial
 global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Facebook Del Propietario
 
 
-//Saludo User, Buen Dia
+//saludo user, buen dia
 var ase = new Date(); var hour = ase.getHours(); switch(hour){ case 0: hour = 'Linda Mañana'; break; case 1: hour = 'Linda Mañana'; break; case 2: hour = 'Linda Mañana'; break; case 3: hour = 'Linda Mañana'; break; case 4: hour = 'linda mañana'; break; case 5: hour = 'Linda Mañana'; break; case 6: hour = 'Linda Mañana'; break; case 7: hour = 'Linda Mañana'; break; case 8: hour = 'Linda Mañana'; break; case 9: hour = 'Linda Mañana'; break; case 10: hour = 'Lindo Dia'; break; case 11: hour = 'Lindo Dia'; break; case 12: hour = 'Lindo Dia'; break; case 13: hour = 'Lindo Dia'; break; case 14: hour = 'Linda Tarde'; break; case 15: hour = 'Linda Tarde'; break; case 16: hour = 'Linda Tarde'; break; case 17: hour = 'Linda Tarde'; break; case 18: hour = 'Linda Noche'; break; case 19: hour = 'Linda Noche'; break; case 20: hour = 'Linda Noche'; break; case 21: hour = 'Linda Noche'; break; case 22: hour = 'Linda Noche'; break; case 23: hour = 'Linda Noche'; break;}
 global.saludo = '🧃' + hour;
 
