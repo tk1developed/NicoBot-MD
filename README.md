@@ -108,7 +108,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ---------
 
 ## `Colaboradores` 
-<a href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJ.png" width="200" height="200" alt="Alexis"/></a>
+<a href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png" width="200" height="200" alt="Alexis"/></a>
 <a
 href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png" width="200" height="200" alt="Mario"/></a>
 
@@ -118,4 +118,4 @@ href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.p
 
 <a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="300" height="300" alt="Diego"/></a>
 
-`🌸◌*̥₊ SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ ◌❐🌹༉`
+`🌸 SakuraBotLite-MD🌹༉`
