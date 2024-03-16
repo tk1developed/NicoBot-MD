@@ -107,14 +107,14 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > No Spam Al Bot!
 ---------
 
-## `Colaboradores` 
+## `Colaboradores Del Bot 🌹` 
 <a href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png" width="200" height="200" alt="Alexis"/></a>
 <a
 href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png" width="200" height="200" alt="Mario"/></a>
 
 ---------
 <div align="center">
-  <h1 align="center">Editor y Propietario del Bot</h1>
+  <h1 align="center">Editor y Propietario del Bot⚡️</h1>
 
 <a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="300" height="300" alt="Diego"/></a>
 
