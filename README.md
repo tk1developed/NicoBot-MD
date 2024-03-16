@@ -107,8 +107,9 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > No Spam Al Bot!
 
 ---------
-- ### Colaboradores Del Bot 📍
+-`Colaboradores`
 [![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) 
+
 [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21)
 ---------
 <div align="center">
