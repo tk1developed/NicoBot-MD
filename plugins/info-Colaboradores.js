@@ -50,7 +50,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┋@5217294888993
 ┋
 ┋➸ 𝖬𝖺𝗋𝗂𝗈: 
-┋@5492266466080
+┋@5492266613038
 ┋
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━`.trim();     if (m.isGroup) { 
  // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
