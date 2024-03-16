@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
   try {
-    const pp = imagen6;
+    const pp = imagen1;
     // let vn = './media/menu.mp3'
     const img = './Menu2.jpg';
     const d = new Date(new Date + 3600000);
@@ -34,9 +34,6 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃✣➸ 𝖣𝗂𝖾𝗀𝗈:
 ┃ https://github.com/diegojadibot
 ┃
-┃✣➸ 𝖤𝗇𝗓𝗂𝗍𝗈:
-┃ https://github.com/EnzoVaselevich
-┃
 ┃✣➸ 𝖠𝗓𝖺𝗆𝗂:
 ┃ https://github.com/AzamiJs
 ┃
@@ -48,9 +45,6 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ╭🧸⸽⃕𝗡𝘂𝗺𝗲𝗿𝗼𝘀 - 𝗖𝗿𝗲𝗮𝗱𝗼𝗿𝗲𝘀📍✰ 
 ┋➸ 𝖣𝗂𝖾𝗀𝗈: 
 ┋@573013482814
-┋
-┋➸ 𝖤𝗇𝗓𝗂𝗍𝗈: 
-┋@5491130182250
 ┋
 ┋➸ 𝖠𝗓𝖺𝗆𝗂: 
 ┋@5217294888993
