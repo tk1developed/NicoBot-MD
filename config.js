@@ -21,7 +21,7 @@ global.owner = [
  ['5491130182250'],
  ['5215610314499']]
 
-//Agregate si eres owner
+//agregate si eres owner
 global.contactos = [
 ["573012482694", '𝗗𝗶𝗲𝗴𝗼 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 ⚡️', 1],
 ["5217294888993", '𝗢𝘄𝗻𝗲𝗿 📖', 1],
@@ -52,7 +52,6 @@ global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
 global.imagen4 = fs.readFileSync('./Menu.png');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6 = fs.readFileSync('./Menu3.png');
-
 
 //Grupos Ofc Y Perfiles
 global.gp1 = 'https://chat.whatsapp.com/CKqHvmFQDL1Kdj6TFHahUn' //Grupo Oficial De SakuraBot
