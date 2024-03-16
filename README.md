@@ -113,4 +113,4 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 
 - ### Colaboradores Del Bot 📍
-[![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) [![EnzoVaseLevich](https://github.com/EnzoVaselevich.png?size=100)](https://github.com/EnzoVaselevich)
+[![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21)
