@@ -105,12 +105,17 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 * <a href="https://wa.me/573218138672?text=!menu"><img alt="Bot Oficial 📍" src="https://img.shields.io/badge/Bot - Oficial📍-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 > No Spam Al Bot!
-
 ---------
 
-- ### Editor Y Propietario Del Bot 🧩📍
-<a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="250" height="250" alt="Diego 🧸"/></a>
+## `Colaboradores` 
+<a href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJ.png" width="200" height="200" alt="Alexis"/></a>
+<a
+href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png" width="200" height="200" alt="Mario"/></a>
 
+---------
+<div align="center">
+  <h1 align="center">Editor y Propietario del Bot</h1>
 
-- ### Colaboradores Del Bot 📍
-[![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21)
+<a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="300" height="300" alt="Diego"/></a>
+
+`🌸◌*̥₊ SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ ◌❐🌹༉`
