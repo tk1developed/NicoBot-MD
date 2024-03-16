@@ -9,4 +9,4 @@ await this.sendMessage(m.chat, {text: `🧸 𝙌𝙐𝙀 𝙔𝙊 𝙌𝙐𝙀?`
 
 
 return !0 }
-export default handle
+export default handler
