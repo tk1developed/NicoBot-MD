@@ -107,14 +107,10 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > No Spam Al Bot!
 
 ---------
--`Colaboradores`
-[![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) 
 
-[![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21)
----------
-<div align="center">
-  <h1 align="center">Editor y Propietario del Bot</h1>
+- ### Editor Y Propietario Del Bot 🧩📍
+<a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="250" height="250" alt="Diego 🧸"/></a>
 
-<a href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="300" height="300" alt="Diego"/></a>
 
-`Ⓢ︎ Sakura - Bot / By Diego 🌹`
+- ### Colaboradores Del Bot 📍
+[![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) [![EnzoVaseLevich](https://github.com/EnzoVaselevich.png?size=100)](https://github.com/EnzoVaselevich)
