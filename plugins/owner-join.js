@@ -26,4 +26,5 @@ const handler = async (m, {conn, text, isMods, isOwner, isPrems}) => {
 handler.help = ['join [chat.whatsapp.com]'];
 handler.tags = ['premium'];
 handler.command = /^join|unete|unirte$/i;
+handler.register = true
 export default handler;
