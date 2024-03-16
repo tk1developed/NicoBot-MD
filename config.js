@@ -69,7 +69,7 @@ global.yt = 'https://www.youtube.com/@SakuraBotLite' //Canal De Youtube
 
 global.md = 'https://github.com/diegojadibot/SakuraBotLite-MD' //Github Oficial
 
-global.fb = 'https://www.facebook.com/sakuritabot?mibextid=ZbWKwL' //Facebook Del Propietario
+global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Facebook Del Propietario
 
 
 //Saludo User, Buen Dia
