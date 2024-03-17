@@ -386,8 +386,8 @@ global.reloadHandler = async function(restatConn) {
 
   conn.welcome = '*╔═══❖•ೋ° °ೋ•❖═══╗*\n*┃ඬ⃟ ✨️ @subject*\n*╠══════════════*\n*┃ඬ⃟ ✨️ @user*\n*┃ඬ⃟ ✨️ 𝘉𝘪𝘦𝘯𝘷𝘦𝘯𝘪𝘥𝘰* \n*┃*\n*┃ඬ⃟ ✨️ 𝘓𝘦𝘦 𝘓𝘢 𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰:*\n\n@desc\n\n*┃*\n*┃ 𝘋𝘪𝘧𝘳𝘶𝘵𝘢 𝘛𝘶 𝘌𝘴𝘵𝘢𝘥𝘪𝘢!!*\n*╚═══❖•ೋ° °ೋ•❖═══╝*';
   conn.bye = '*╔═══❖•ೋ° °ೋ•❖═══╗*\n*┃ @user*\n*┃ඬ⃟ 👋𝙰𝚂𝚃𝙰 𝙿𝚁𝙾𝙽𝚃𝙾 𝙵𝙰𝙽𝚂 𝙳𝙴 𝙱𝚃𝚂* \n*╚═══❖•ೋ° °ೋ•❖═══╝*';
-  conn.spromote = '@user *Ahora Es Admin De Este Grupo🥳!!*';
-  conn.sdemote = '@user *Deja De Ser Admin En Este Grupo!!*';
+  conn.spromote = '@user\n*Ahora Es Admin De Este Grupo🥳!!*';
+  conn.sdemote = '@user\n*Deja De Ser Admin En Este Grupo!!*';
   conn.sDesc = '*𝘚𝘦 𝘏𝘢 𝘊𝘰𝘯𝘧𝘪𝘨𝘶𝘳𝘢𝘥𝘰 𝘜𝘯𝘢 𝘕𝘶𝘦𝘷𝘢 𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰*\n\n*Nueva Descripción:* @desc';
   conn.sSubject = '*El Nombre Del Grupo Cambió A:* @subject';
   conn.sIcon = '*Se Ha Cambiado El Icono Del Grupo!!*';
