@@ -46,37 +46,20 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ```bash
-cd && termux-setup-storage
+termux-setup-storage
 ```
-
 ```bash
-apt-get update -y && apt-get upgrade -y
+apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
-
 ```bash
-pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
+git clone https://github.com/diegojadibot/SakuraBotLite-MD && cd SakuraBotLite-MD
 ```
-
 ```bash
-git clone https://github.com/diegojadibot/SakuraBotLite-MD.git && cd SakuraBotLite-MD
+yarn install && npm install
 ```
-
-```bash
-yarn install
-```
-
-```bash
-npm install
-```
-
-```bash
-npm update
-```
-
 ```bash
 npm start
 ```
-</details>
 
 - #### 📍Activar En Caso De Detenerse En Termux🧸
 ```bash
