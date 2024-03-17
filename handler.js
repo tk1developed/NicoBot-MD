@@ -997,8 +997,8 @@ export async function handler(chatUpdate) {
         if (!('antiCall' in settings)) settings.antiCall = true;
         if (!('antiPrivate' in settings)) settings.antiPrivate = false;
         if (!('modejadibot' in settings)) settings.modejadibot = false;
-        if (!('antispam' in settings)) settings.antispam = true;
-        if (!('audios_bot' in settings)) settings.audios_bot = false;  
+        if (!('antispam' in settings)) settings.antispam = false;
+        if (!('audios_bot' in settings)) settings.audios_bot = true;  
         if (!('modoia' in settings)) settings.modoia = false;      
       } else {
         global.db.data.settings[this.user.jid] = {
@@ -1009,8 +1009,8 @@ export async function handler(chatUpdate) {
           antiCall: true,
           antiPrivate: false,
           modejadibot: true,
-          antispam: true,
-          audios_bot: false,
+          antispam: false,
+          audios_bot: true,
           modoia: false
         };
       }
