@@ -19,9 +19,9 @@ json = await (await fetch(`https://aemt.me/removebg?url=${text.trim()}`)).json()
 } else return m.reply(`*Responde a una imagen o ingresa una url que sea \`(jpg, jpeg o png)\` para quitar el fondo*`)
 
 await mensajesEditados(conn, m, key)
-await conn.sendMessage(m.chat, { text: waitttttt, edit: key })
+await conn.sendMessage(m.chat, { text: waitt, edit: key })
 await conn.sendMessage(m.chat, { image: { url: json.url.result }, caption: null }, { quoted: m })
-await conn.sendFile(m.chat, stiker ? stiker : await sticker(false, json.url.result, global.packname, global.author), 'sticker.webp', '', null, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: '• STICKER •', mediaType: 2, sourceUrl: channel, thumbnail: imagen4}}})
+await conn.sendFile(m.chat, stiker ? stiker : await sticker(false, json.url.result, global.packname, global.author), 'sticker.webp', '', null, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: '• STICKER •', mediaType: 2, sourceUrl: global.channel, thumbnail: imagen4}}})
 }
 handler.command = /^(s?removebg)$/i
 export default handler
@@ -32,7 +32,7 @@ return urlRegex.test(text)
 }
 
 async function mensajesEditados(conn, m, key) {
-const mensajes = [ waitt, waittt ]
+const mensajes = [ waitt ]
 key = await conn.sendMessage(m.chat, { text: wait, quoted: m })
 for (let i = 0; i < mensajes.length; i++) {
 await new Promise(resolve => setTimeout(resolve, 1000))
