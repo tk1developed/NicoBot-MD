@@ -16,14 +16,14 @@ json = await (await fetch(`https://aemt.me/removebg?url=${media}`)).json()
 stiker = await sticker(false, json.url.result, global.packname, global.author)
 } else if (text) {
 json = await (await fetch(`https://aemt.me/removebg?url=${text.trim()}`)).json()
-} else return m.reply(`*Responde a una imagen o ingresa una url que sea \`(jpg, jpeg o png)\` para quitar el fondo*`)
+} else return m.reply(`*Responda A Una Imagen Que Quieras Quitarle El Fondo*`)
 
 await mensajesEditados(conn, m, key)
 await conn.sendMessage(m.chat, { text: waitt, edit: key })
 await conn.sendMessage(m.chat, { image: { url: json.url.result }, caption: null }, { quoted: m })
-await conn.sendFile(m.chat, stiker ? stiker : await sticker(false, json.url.result, global.packname, global.author), 'sticker.webp', '', null, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: '• STICKER •', mediaType: 2, sourceUrl: global.channel, thumbnail: imagen4}}})
+await conn.sendFile(m.chat, stiker ? stiker : await sticker(false, json.url.result, global.packname, global.author), 'sticker.webp', '', null, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: 'By: Diego 🌹', mediaType: 2, sourceUrl: global.channel, thumbnail: imagen4}}})
 }
-handler.command = /^(s?removebg)$/i
+handler.command = /^(s?removesb)$/i
 export default handler
 
 const isUrl = (text) => {
