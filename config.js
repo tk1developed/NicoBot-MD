@@ -32,7 +32,7 @@ global.prems = ['573218138672'];
 
 global.lenguajeSK = es //idioma de sakurabot
 
-//• ↳ ◜𝐌𝐀𝐑𝐂𝐀 𝐃𝐄 𝐀𝐆𝐔𝐀◞ • ⚔
+//𝐌𝐀𝐑𝐂𝐀𝐒 𝐃𝐄 𝐀𝐆𝐔𝐀
 global.packname = '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌸';
 global.author = '𝖣𝗂𝖾𝗀𝗈 ⚡️';
 global.wm = 'Sakura : Bot 🌹';
@@ -42,18 +42,16 @@ global.titulowm2 = `𝘿𝙞𝙚𝙜𝙤 𝙊𝙛𝙞𝙘𝙞𝙖𝙡`
 global.igfg = 'Diego Oficial';
 global.wait = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
 global.vs = '1.0.7';
-//▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 
-//• ↳ ◜𝐈𝐌𝐀𝐆𝐄𝐍𝐄𝐒◞ • ⚔
+//𝐈𝐌𝐀𝐆𝐄𝐍𝐄𝐒
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
 global.imagen4 = fs.readFileSync('./Menu.png');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6 = fs.readFileSync('./Menu3.png');
-//▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 
-//• ↳ ◜𝐆𝐑𝐔𝐏𝐎𝐒 𝐎𝐅𝐈𝐂𝐈𝐀𝐋𝐄𝐒◞ • ⚔
+//𝐆𝐑𝐔𝐏𝐎𝐒 𝐎𝐅𝐈𝐂𝐈𝐀𝐋𝐄𝐒
 global.gp1 = 'https://chat.whatsapp.com/CKqHvmFQDL1Kdj6TFHahUn' //Grupo Oficial De SakuraBot
 
 global.gp2 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //CuriosityBot Y SakuraBot
@@ -69,12 +67,10 @@ global.yt = 'https://www.youtube.com/@SakuraBotLite' //Canal De Youtube
 global.md = 'https://github.com/diegojadibot/SakuraBotLite-MD' //Github Oficial
 
 global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Facebook Del Propietario
-//▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 
-//• ↳ ◜𝐒𝐀𝐋𝐔𝐃𝐎◞ • ⚔
+//𝐒𝐀𝐋𝐔𝐃𝐎
 var ase = new Date(); var hour = ase.getHours(); switch(hour){ case 0: hour = 'Linda Mañana'; break; case 1: hour = 'Linda Mañana'; break; case 2: hour = 'Linda Mañana'; break; case 3: hour = 'Linda Mañana'; break; case 4: hour = 'linda mañana'; break; case 5: hour = 'Linda Mañana'; break; case 6: hour = 'Linda Mañana'; break; case 7: hour = 'Linda Mañana'; break; case 8: hour = 'Linda Mañana'; break; case 9: hour = 'Linda Mañana'; break; case 10: hour = 'Lindo Dia'; break; case 11: hour = 'Lindo Dia'; break; case 12: hour = 'Lindo Dia'; break; case 13: hour = 'Lindo Dia'; break; case 14: hour = 'Linda Tarde'; break; case 15: hour = 'Linda Tarde'; break; case 16: hour = 'Linda Tarde'; break; case 17: hour = 'Linda Tarde'; break; case 18: hour = 'Linda Noche'; break; case 19: hour = 'Linda Noche'; break; case 20: hour = 'Linda Noche'; break; case 21: hour = 'Linda Noche'; break; case 22: hour = 'Linda Noche'; break; case 23: hour = 'Linda Noche'; break;}
 global.saludo = '🧃' + hour;
-//▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 
 global.mods = [];
 
