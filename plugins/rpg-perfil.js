@@ -20,8 +20,9 @@ const handler = async (m, {conn, usedPrefix, participants, isPrems}) => {
 🌼 • *Tag:* @${who.replace(/@.+/, '')}
 
 📞 • *Numero:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
-🔗 • *Link:* wa.me/${who.split`@`[0]}${registered ? '\n\n🧃 • *Edad:* ' + age + ' años' : ''}
-💎 • *Limite: ${limit} Usos
+🔗 • *Link:* wa.me/${who.split`@`[0]}${registered ? '
+🧃 • *Edad:* ' + age + ' años' : ''}
+💎 • *Limite: ${limit} Usos*
 📇 • *Registrado:* ${registered ? '✅': '❎'}
 🔮 • *Premium:* ${premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❎') || ''}`;
     conn.sendMessage(m.chat, {image: {url: pp}, caption: str}, {quoted: m});
