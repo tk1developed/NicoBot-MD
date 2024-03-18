@@ -55,7 +55,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const Message = {
     document: { url: `https://github.com/diegojadibot/SakuraBotLite-MD` },
     mimetype: `application/${document}`,
-    fileName: `Sakira Bot Lite 🌸`,
+    fileName: `Sakura Bot Lite 🌸`,
     fileLength: 99999999999999,
     pageCount: 200,
     contextInfo: {
