@@ -1536,13 +1536,7 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
         if (!chat?.antidelete) return 
         if (!msg) return 
         if (!msg?.isGroup) return 
-                const antideleteMessage = `┏━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━━
-  *🌸 𝙐𝙨𝙪𝙖𝙧𝙞𝙤:* @${participant.split`@`[0]}
-  _⏳ Enviando El Mensaje Eliminado..._
-      
-  _🧃 Para Desactivar Esta Función, Utilice El Comando:_
-  *😸 #disable antidelete*
-┗━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━━`.trim();
+                const antideleteMessage = `┏━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━⬣\n┃🌸 *❏ Nombre:* @${participant.split`@`[0]}\n┃🕒 *❏ Hora:* ${time}\n┃📅 *❏ Fecha:* ${date}\n┃🥗 *❏ Enviando mensaje...*\n┗━━━━━━━━━━━━━━━━━⬣`.trim();
         await mconn.conn.sendMessage(msg.chat, {text: antideleteMessage, mentions: [participant]}, {quoted: msg})
         mconn.conn.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
     } catch (e) {
