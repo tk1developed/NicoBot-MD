@@ -1542,7 +1542,7 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
       
   _🧃 Para Desactivar Esta Función, Utilice El Comando:_
   *😸 #disable antidelete*
- ┗━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━━`.trim();
+┗━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━━`.trim();
         await mconn.conn.sendMessage(msg.chat, {text: antideleteMessage, mentions: [participant]}, {quoted: msg})
         mconn.conn.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
     } catch (e) {
