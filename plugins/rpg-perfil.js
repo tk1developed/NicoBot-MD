@@ -14,7 +14,6 @@ const handler = async (m, {conn, usedPrefix, participants, isPrems}) => {
     const prem = global.prems.includes(who.split `@` [0]);
     const sn = createHash('md5').update(who).digest('hex');
     const str = `. . . *🌸 P E R F I L 🌹* . . .
-
 🌹 • *Nombre:* ${username}
 
 🌼 • *Tag:* @${who.replace(/@.+/, '')}
