@@ -938,7 +938,7 @@ export async function handler(chatUpdate) {
         if (!('isBanned' in chat)) chat.isBanned = false;
         if (!('welcome' in chat)) chat.welcome = true;
         if (!('detect' in chat)) chat.detect = true;
-        if (!('detect2' in chat)) chat.detect2 = true;
+        if (!('detect2' in chat)) chat.detect2 = false;
         if (!('sWelcome' in chat)) chat.sWelcome = '';
         if (!('sBye' in chat)) chat.sBye = '';
         if (!('sPromote' in chat)) chat.sPromote = '';
@@ -964,7 +964,7 @@ export async function handler(chatUpdate) {
           isBanned: false,
           welcome: true,
           detect: true,
-          detect2: true,
+          detect2: false,
           sWelcome: '',
           sBye: '',
           sPromote: '',
