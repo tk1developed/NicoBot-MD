@@ -991,9 +991,9 @@ export async function handler(chatUpdate) {
       if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {};
       if (settings) {
         if (!('self' in settings)) settings.self = false;
-        if (!('autoread' in settings)) settings.autoread = true;
-        if (!('autoread2' in settings)) settings.autoread2 = true;
-        if (!('restrict' in settings)) settings.restrict = true;
+        if (!('autoread' in settings)) settings.autoread = false;
+        if (!('autoread2' in settings)) settings.autoread2 = false;
+        if (!('restrict' in settings)) settings.restrict = false;
         if (!('antiCall' in settings)) settings.antiCall = true;
         if (!('antiPrivate' in settings)) settings.antiPrivate = false;
         if (!('modejadibot' in settings)) settings.modejadibot = false;
@@ -1003,9 +1003,9 @@ export async function handler(chatUpdate) {
       } else {
         global.db.data.settings[this.user.jid] = {
           self: false,
-          autoread: true,
-          autoread2: true,
-          restrict: true,
+          autoread: false,
+          autoread2: false,
+          restrict: false,
           antiCall: true,
           antiPrivate: false,
           modejadibot: true,
