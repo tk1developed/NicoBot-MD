@@ -11,7 +11,7 @@ import { es } from "./lib/idiomas/total-idiomas.js"
 global.botnumber = ""
 global.confirmCode = ""
 
-//no quites los numeros de los propietarios
+//• ↳ᏢϴΝ ᏞϴՏ ΝႮ́ᎷᎬᎡϴՏ ϘႮᎬ ϘႮᏆᎬᎡᎪՏ
 global.owner = [
  ['573012482597', '👑 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 ⚡️', true],
  ['5217294888993', '𝗢𝘄𝗻𝗲𝗿 📖', true],
@@ -32,7 +32,7 @@ global.prems = ['573218138672'];
 
 global.lenguajeSK = es //idioma de sakurabot
 
-//𝐌𝐀𝐑𝐂𝐀𝐒 𝐃𝐄 𝐀𝐆𝐔𝐀
+//• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
 global.packname = '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌸';
 global.author = '𝖣𝗂𝖾𝗀𝗈 ⚡️';
 global.wm = 'Sakura : Bot 🌹';
@@ -43,7 +43,13 @@ global.igfg = 'Diego Oficial';
 global.wait = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
 global.vs = '1.0.7';
 
-//𝐈𝐌𝐀𝐆𝐄𝐍𝐄𝐒
+//• ↳ ◜𝑴𝑺𝑮 𝑫𝑬 𝑬𝑺𝑷𝑬𝑹𝑨◞ • 🈸
+global.wait = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
+global.waitt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
+global.waittt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
+global.waitttt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
+
+//• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
@@ -51,7 +57,7 @@ global.imagen4 = fs.readFileSync('./Menu.png');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6 = fs.readFileSync('./Menu3.png');
 
-//𝐆𝐑𝐔𝐏𝐎𝐒 𝐎𝐅𝐈𝐂𝐈𝐀𝐋𝐄𝐒
+//• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
 global.gp1 = 'https://chat.whatsapp.com/CKqHvmFQDL1Kdj6TFHahUn' //Grupo Oficial De SakuraBot
 
 global.gp2 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //CuriosityBot Y SakuraBot
@@ -68,14 +74,14 @@ global.md = 'https://github.com/diegojadibot/SakuraBotLite-MD' //Github Oficial
 
 global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Facebook Del Propietario
 
-//𝐒𝐀𝐋𝐔𝐃𝐎
+//• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶 𝑹𝑷𝑮◞ • ⚔
 var ase = new Date(); var hour = ase.getHours(); switch(hour){ case 0: hour = 'Linda Mañana'; break; case 1: hour = 'Linda Mañana'; break; case 2: hour = 'Linda Mañana'; break; case 3: hour = 'Linda Mañana'; break; case 4: hour = 'linda mañana'; break; case 5: hour = 'Linda Mañana'; break; case 6: hour = 'Linda Mañana'; break; case 7: hour = 'Linda Mañana'; break; case 8: hour = 'Linda Mañana'; break; case 9: hour = 'Linda Mañana'; break; case 10: hour = 'Lindo Dia'; break; case 11: hour = 'Lindo Dia'; break; case 12: hour = 'Lindo Dia'; break; case 13: hour = 'Lindo Dia'; break; case 14: hour = 'Linda Tarde'; break; case 15: hour = 'Linda Tarde'; break; case 16: hour = 'Linda Tarde'; break; case 17: hour = 'Linda Tarde'; break; case 18: hour = 'Linda Noche'; break; case 19: hour = 'Linda Noche'; break; case 20: hour = 'Linda Noche'; break; case 21: hour = 'Linda Noche'; break; case 22: hour = 'Linda Noche'; break; case 23: hour = 'Linda Noche'; break;}
 global.saludo = '🧃' + hour;
 
 global.mods = [];
 
 
-//* *******Tiempo***************
+//• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
 global.d = new Date(new Date + 3600000);
 global.locale = 'es';
 global.dia = d.toLocaleDateString(locale, {weekday: 'long'});
@@ -88,9 +94,7 @@ global.wm2 = `${dia} ${fecha}\nSakuritaBot`;
 global.gt = 'SakuraBot';
 global.mysticbot = 'SakuraBot';
 global.mysticbot = 'https://github.com/diegojadibot/SakuraBotLite-MD';
-global.waitt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
-global.waittt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
-global.waitttt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
+global.waitt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 
 global.nomorown = '573012482694';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
