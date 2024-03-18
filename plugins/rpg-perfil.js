@@ -15,7 +15,9 @@ const handler = async (m, {conn, usedPrefix, participants, isPrems}) => {
     const sn = createHash('md5').update(who).digest('hex');
     const str = `. . . *🌸 P E R F I L 🌹* . . .
 
-🌹 • *Nombre:* ${username} ${registered ? '(' + name + ') ': ''}
+🌹 • *Nombre:* ${username}
+
+🌼 • *Tag:* @${who.replace(/@.+/, '')}
 
 📞 • *Numero:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
 🔗 • *Link:* wa.me/${who.split`@`[0]}${registered ? '\n\n🧃 • *Edad:* ' + age + ' años' : ''}
