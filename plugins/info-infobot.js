@@ -17,7 +17,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const used = process.memoryUsage();
   const { restrict, antiCall, antiprivado, modejadibot } =
     global.db.data.settings[conn.user.jid] || {};
-  const { autoread, gconly, pconly, self } = global.opts || {};
+  const { autoread, reaction, gconly, pconly, self } = global.opts || {};
   const old = performance.now();
   const neww = performance.now();
   const speed = neww - old;
