@@ -17,7 +17,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const used = process.memoryUsage();
   const { restrict, antiCall, antiprivado, modejadibot } =
     global.db.data.settings[conn.user.jid] || {};
-  const { autoread, reaction, gconly, pconly, self } = global.opts || {};
+  const { autoread, gconly, pconly, self } = global.opts || {};
   const old = performance.now();
   const neww = performance.now();
   const speed = neww - old;
@@ -34,12 +34,6 @@ const handler = async (m, { conn, usedPrefix }) => {
 │➸ 𝘊𝘩𝘢𝘵𝘴 𝘗𝘳𝘪𝘷𝘢𝘥𝘰𝘴: *${chats.length - groups.length}*
 │➸ 𝘊𝘩𝘢𝘵𝘴 𝘋𝘦 𝘎𝘳𝘶𝘱𝘰𝘴: *${groups.length}* 
 │➸ 𝘊𝘩𝘢𝘵𝘴 𝘛𝘰𝘵𝘢𝘭𝘦𝘴: *${chats.length}* 
-│
-│•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•
-│
-│➸ *📇Autoread* ${autoread ? "activo" : "desactivado"}
-│➸ *🧃Restrict* ${restrict ? "activo" : "desactivado"}
-│➸ *🔮Reacción* ${reaction ? "activo" : "desactivado"}
 │
 │•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•
 │
