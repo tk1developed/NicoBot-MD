@@ -30,6 +30,8 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 ┣☆ ඬ⃟🛡️ !disable antiviewonce
 ┣☆ ඬ⃟🛡️ !enable antitoxic
 ┣☆ ඬ⃟🛡️ !disable antitoxic
+┣☆ ඬ⃟🛡️ !enable reaction
+┣☆ ඬ⃟🛡️ !disable reaction
 ┣☆ ඬ⃟🛡️ !enable antitraba
 ┣☆ ඬ⃟🛡️ !disable antitraba
 ┣☆ ඬ⃟📡 !enable pconly
@@ -53,7 +55,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 ╰━━━━━━━✦✗✦━━━━━━━━
 𝘉𝘺: 𝘋𝘪𝘦𝘨𝘰𝘖𝘧𝘪𝘤𝘪𝘢𝘭✨`.trim();
 
-         const isEnable = /true|enable|(turn)?on|1/i.test(command);
+         const isEnable = /on|enable|(turn)?on|1/i.test(command);
   const chat = global.db.data.chats[m.chat];
   const user = global.db.data.users[m.sender];
   const bot = global.db.data.settings[conn.user.jid] || {};
