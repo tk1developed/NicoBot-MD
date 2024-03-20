@@ -312,6 +312,14 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       chat.antiToxic = isEnable;
       break;
+case 'reaction': case 'reaccion': case 'emojis': case 'antiemojis': case 'reacciones': case 'reaciones':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.reaction = isEnable          
+break;
       case 'game': case 'juegos': case 'fun': case 'ruleta':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
