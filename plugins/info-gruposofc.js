@@ -1,5 +1,8 @@
-let handler  = async (m, { conn, usedPrefix: _p }) => {
-let info = `*📍 GRUPO OFICIAL*
+let media = './Menu7.png'
+let handler = async (m, { conn, command }) => {
+let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
+    await conn.sendMessage(m.chat, { react: { text: '⚡️', key: m.key } })
+let str = `*📍 GRUPO OFICIAL*
 
     *_╭━━━⊜ SakuraBotLite-MD_*
   *_┃🧸❏ ${gp1}_*
@@ -19,13 +22,11 @@ let info = `*📍 GRUPO OFICIAL*
 
     *_╭━━━⊜ Canal SakuraLite_*
   *_┃📍❏ ${channel}_*
-*_╰━━━━━━━━━━━━━━━━⊜_*`.trim() 
-conn.reply(m.chat, info, m, {
-contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: `${wm}`,
-body: '', previewType: 0, thumbnail: imagen4, sourceUrl: channel}}})
-//conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿', 'status@broadcast')
-}
-handler.command = /^grupos$/i
-export default handler
+*_╰━━━━━━━━━━━━━━━━⊜_*`
+await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 
+handler.command = /^grupos|linksk|gruposofc|gruposoficiales$/i
+handler.register = true
+handler.exp = 33
+
+export default handler
