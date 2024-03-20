@@ -39,6 +39,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 │
 │➸ *📇Autoread* ${autoread ? "activo" : "desactivado"}
 │➸ *🧃Restrict* ${restrict ? "activo" : "desactivado"}
+│➸ *🔮Reacción* ${reaction ? "activo" : "desactivado"}
 │
 │•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•
 │
