@@ -17,7 +17,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin}) {
       const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`;
       if (m.text.includes(linkThisGroup)) return !0;
     }
-    await this.sendMessage(m.chat, {text: `**¡Enlace detectado!, Mandaste un enlace prohibido por lo cual seras eliminado*`, mentions: [m.sender]}, {quoted: m});
+    await this.sendMessage(m.chat, {text: `*¡Enlace detectado!, Mandaste un enlace prohibido por lo cual seras eliminado*`, mentions: [m.sender]}, {quoted: m});
     if (!isBotAdmin) return m.reply('🌹 *No soy admin, no puedo eliminar intrusos*');
     if (isBotAdmin && bot.restrict) {
       await conn.sendMessage(m.chat, {delete: {remoteJid: m.chat, fromMe: false, id: bang, participant: delet}});
