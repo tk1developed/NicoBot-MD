@@ -1,15 +1,9 @@
-let handler = async (m) => {
-
-global.db.data.chats[m.chat].isBanned = true
-conn.reply(m.chat, `✅ *Este chat fue baneado con éxito*`)
-
-}
-handler.help = ['banchat']
-handler.tags = ['own']
-handler.command = /^banchat$/i
-
-handler.botAdmin = true
-handler.admin = true 
-handler.group = true
-
-export default handler
+const handler = async (m) => {
+  global.db.data.chats[m.chat].isBanned = true;
+  m.reply('✅️ *Chat Baneado Con Exito, Ya No Podran Usar SakuraBotLite - MD*');
+};
+handler.help = ['banchat'];
+handler.tags = ['owner'];
+handler.command = /^banchat$/i;
+handler.rowner = true;
+export default handler;
