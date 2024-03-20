@@ -314,9 +314,6 @@ if (update.qr != 0 && update.qr != undefined || methodCodeQR) {
 if (opcion == '1' || methodCodeQR) {
     console.log(chalk.yellow('[ 🦋 ] Escanea el código QR.'));
  }}
-      if (connection == 'open') {
-console.log(chalk.yellowBright('\nUsuarios Conectado 🟢'))
-
    if (connection == 'open') {
 console.log(chalk.yellowBright('\n╭━─━━─━━─━─≪  🚀  ≫─━─━━─━━─━╮\n│\n│Conectado Correctamente Al WhatsApp.\n│\n╰━─━━━─━━─━─≪ 🟢 ≫─━─━━─━━━─━╯\n'))
 //conn.fakeReply('573012482694@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy SakuraBot\nRecientemente Me E Conectado', '0@s.whatsapp.net')
