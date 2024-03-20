@@ -23,7 +23,7 @@ let info = `*📍 GRUPO OFICIAL*
 conn.reply(m.chat, info, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: `${wm}`,
-body: '', previewType: 0, thumbnail: imagen2, sourceUrl: nna}}})
+body: '', previewType: 0, thumbnail: imagen4, sourceUrl: channel}}})
 //conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿', 'status@broadcast')
 }
 handler.command = /^grupos$/i
