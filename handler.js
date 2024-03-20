@@ -945,7 +945,7 @@ export async function handler(chatUpdate) {
         if (!('sDemote' in chat)) chat.sDemote = '';
         if (!('delete' in chat)) chat.antidelete = true;
         if (!('modohorny' in chat)) chat.modohorny = false;
-        if (!('reaction' in chat)) chat.reaction = true,
+        if (!('reaction' in chat)) chat.reaction = true;
         if (!('autosticker' in chat)) chat.autosticker = false;
         if (!('audios' in chat)) chat.audios = true;
         if (!('antiLink' in chat)) chat.antiLink = true;
