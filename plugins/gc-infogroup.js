@@ -34,6 +34,7 @@ ${listAdmin}
 *Autosticker:* ${autosticker ? '✅' : '❌'} 
 *Audios:* ${audios ? '✅' : '❌'} 
 *Antiviewonce:* ${antiviewonce ? '✅' : '❌'} 
+*Reacción* ${reaction ? "✅️" : "❌️"}
 *Antidelete:* ${antidelete ? '✅' : '❌'} 
 *Antitoxic:* ${antiToxic ? '✅' : '❌'} 
 *Antitraba:* ${antiTraba ? '✅' : '❌'} 
