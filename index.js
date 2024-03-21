@@ -1,4 +1,4 @@
-console.log('🚀ㅤIniciando...');
+console.log('🚀 Iniciando...');
 import {join, dirname} from 'path';
 import {createRequire} from 'module';
 import {fileURLToPath} from 'url';
@@ -17,7 +17,7 @@ say('SakuraBot\nLite-MD', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`Bot Creado Por Zumy @diego`, {
+say(`Bot creado por Diego Oficial`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']});
@@ -32,17 +32,17 @@ function start(file) {
   isRunning = true;
   const args = [join(__dirname, file), ...process.argv.slice(2)];
 
-  say('Ajuste la pantalla para escanear el codigo QR', {
+  /** say('😸 Escanea el código QR o introduce el código de emparejamiento en WhatsApp.', {
     font: 'console',
     align: 'center',
-    gradient: ['red', 'magenta']});
+    gradient: ['red', 'magenta']}); **/
 
   setupMaster({
     exec: args[0],
     args: args.slice(1)});
   const p = fork();
   p.on('message', (data) => {
-    console.log('[RECEIVED]', data);
+    console.log('[RECIBIDO]', data);
     switch (data) {
       case 'reset':
         p.process.kill();
@@ -56,7 +56,7 @@ function start(file) {
   });
   p.on('exit', (_, code) => {
     isRunning = false;
-    console.error('❎ㅤOcurrio un error inesperado:', code);
+    console.error('⚠️ Ocurrio un error inesperado:', code);
 
     p.process.kill();
     isRunning = false;
