@@ -129,7 +129,7 @@ opcion = '1'
 if (!methodCodeQR && !methodCode && !fs.existsSync(`./${authFile}/creds.json`)) {
 do {
 let lineM = '⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》'
-opcion = await question('[ 🍓 ] Seleccione una opción:\n1. Con código QR\n2. Con código de texto de 8 dígitos\n---> ')
+opcion = await question('╭⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》\n┊ ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n┊ ┊ MÉTODO DE VINCULACIÓN\n┊ ╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n┊ ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n┊ ┊ ¿CÓMO DESEA CONECTARSE?\n┊ ┊ ⇢  Opción 1: Código QR\n┊ ┊ ⇢  Opción 2: Código de 8 digitos.\n┊ ╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n┊ ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n┊ ┊ Escriba sólo el número de\n┊ ┊ la opción para conectarse.\n┊ ╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n╰⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》\n---> ')
 //if (fs.existsSync(`./${authFile}/creds.json`)) {
 //console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
 //process.exit()
