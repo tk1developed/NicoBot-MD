@@ -8,7 +8,7 @@ if (process.send) { process.send('uptime')
 _muptime = await new Promise(resolve => { process.once('message', resolve) 
 setTimeout(resolve, 2000) }) * 1000}
 let uptime = clockString(_uptime)
-let bio = `${[`${global.wm}`, `🤖 𝙴𝚂𝚃𝙴 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙷𝙰𝙲𝙴 𝚄𝚂𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃 𝚂𝙰𝙺𝚄𝚁𝙰𝙱𝙾𝚃𝙻𝙸𝚃𝙴-𝙼𝙳 🌸 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙰 :  ${uptime}`, `𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃 🌸 Tu Seguridad Es Mi Prioridad Y Tu Confianza Mi Genialidad`].getRandom()}`
+let bio = `${[`🤖 ⓘ 𝐇𝐨𝐥𝐚 𝐒𝐨𝐲 𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃 ╏ 𝐔𝐬𝐚 #menu 𝐏𝐚𝐫𝐚 𝐕𝐞𝐫 𝐋𝐚 𝐋𝐢𝐬𝐭𝐚 𝐃𝐞 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 🌹 𝐌𝐢 𝐓𝐢𝐞𝐦𝐩𝐨 𝐀𝐜𝐭𝐢𝐯𝐚 𝐄𝐬 : ${uptime}`, `💖𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐨 𝐀 𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃 𝐔𝐬𝐞 #botclone 𝐏𝐚𝐫𝐚 𝐒𝐞𝐫 𝐔𝐧 𝐒𝐮𝐛𝐛𝐨𝐭 (𝐁𝐞𝐭𝐚)`].getRandom()}`
 await this.updateProfileStatus(bio).catch(_ => _)
 //await this.updateProfilePicture(imagen6.catch(_ => _)
 setting.status = new Date() * 1
