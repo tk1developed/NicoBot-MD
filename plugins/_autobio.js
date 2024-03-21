@@ -1,4 +1,4 @@
-/*let handler = m => m 
+let handler = m => m 
 handler.all = async function (m) {
 let setting = global.db.data.settings[this.user.jid]
         
@@ -8,7 +8,7 @@ if (process.send) { process.send('uptime')
 _muptime = await new Promise(resolve => { process.once('message', resolve) 
 setTimeout(resolve, 2000) }) * 1000}
 let uptime = clockString(_uptime)
-let bio = `🤖 ⓘ 𝐇𝐨𝐥𝐚 𝐒𝐨𝐲 𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃 ╏ 𝐔𝐭𝐢𝐥𝐢𝐜𝐞 #menu 𝐏𝐚𝐫𝐚 𝐕𝐞𝐫 𝐋𝐚 𝐋𝐢𝐬𝐭𝐚 𝐃𝐞 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 🌹 𝐌𝐢 𝐓𝐢𝐞𝐦𝐩𝐨 𝐀𝐜𝐭𝐢𝐯𝐚 𝐄𝐬 : ${uptime}`
+let bio = `𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊┃☆𝗜𝗻𝗳𝗼:𝗖𝗿𝗲𝗮𝗱𝗼𝗿☆┃𝗧𝗶𝗺𝗲${uptime}\n𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗕𝗼𝘁 𝗝𝗮𝘃𝗮𝘀𝗰𝗿𝗶𝗽`
 await this.updateProfileStatus(bio).catch(_ => _)
 //await this.updateProfilePicture(imagen6.catch(_ => _)
 setting.status = new Date() * 1
@@ -21,4 +21,4 @@ function clockString(ms) {
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
   return [d, ' » ', h, ' ・ ', m, ' ・ ', s].map(v => v.toString().padStart(2, 0)).join('') 
-}*/
+}
