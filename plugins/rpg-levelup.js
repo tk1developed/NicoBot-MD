@@ -37,9 +37,9 @@ Te falta *${max - user.exp}* de *XP* para subir de nivel
     }
 }
 
-handler.help = ['levelup']
-handler.tags = ['xp']
+handler.help = ['levelup'];
+handler.tags = ['xp'];
 
-handler.command = ['nivel', 'lvl', 'levelup', 'level'] 
+handler.command = ['nivel', 'lvl', 'levelup', 'level'];
 
-export default handler
+export default handler;
