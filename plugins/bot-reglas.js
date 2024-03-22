@@ -1,6 +1,6 @@
 var handler = async (m, { conn, usedPrefix, command}) => {
 
-let Reglas = `🎌 *Respeta las reglas de CuriosityBot*\n
+let Reglas = `🎌 *Respeta las reglas de SakuraBot*\n
 ⬡ No llamar
 ⬡ No hacer spam
 ⬡ Contacta al creador si es necesario
