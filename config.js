@@ -43,11 +43,6 @@ global.titulowm2 = `𝘿𝙞𝙚𝙜𝙤 𝙊𝙛𝙞𝙘𝙞𝙖𝙡`
 global.igfg = 'Diego Oficial';
 global.vs = '1.0.7';
 
-global.cuentas = [channel, gp1, gp2, gp3, yt, fb, md].getRandom()
-global.ImgSK = [imagen6, imagen4, imagen1].getRandom()
-
-global.fake = { contextInfo: { mentionedJid: conn.parseMention(wm), forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363200015845018@newsletter', serverMessageId: '', newsletterName: 'SB - UPDATE 🌸' }, externalAdReply: { title: wm, body: packname, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: ImgSK, thumbnail: imagen1, sourceUrl: cuentas }}}, { quoted: m } //fake con reenviado de canal
-
 //• ↳ ◜𝑴𝑺𝑮 𝑫𝑬 𝑬𝑺𝑷𝑬𝑹𝑨◞ • 🈸
 global.wait = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
 global.waitt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
