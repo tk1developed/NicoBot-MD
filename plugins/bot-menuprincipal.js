@@ -82,7 +82,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ├ׁ̟̇  「 Sᴇʀ ʙᴏᴛ Jᴀᴅɪʙᴏᴛ 」
 ├━─━─━─≪≪✠≫≫─━─━─━╯
 ├ׁ̟̇❍✎ _!botclone_
-├ׁ̟̇❍✎ _!deletebot_
+├ׁ̟̇❍✎ _!deletesesion_
 ├ׁ̟̇❍✎ _!token_
 ├ׁ̟̇❍✎ _!stop_
 ├ׁ̟̇❍✎ _!bots_
