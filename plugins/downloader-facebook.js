@@ -1,7 +1,7 @@
 let handler = async (m, { conn, command, args }) => {
         if (!args[0]) return m.reply('Link?')
         if (!isUrl(args[0])) return m.reply('*📌 Por favor use un Link*')
-        if (!args[0].match(/www.facebook.com|fb.watch/g)) return m.reply('*✳️Su link es inválido*\n\n📌 Por favor, use un link de Facebook\n')
+        if (!args[0].match(https://www.facebook.com/)) return m.reply('*✳️Su link es inválido*\n\n📌 Por favor, use un link de Facebook\n')
         let name = await conn.getName(m.sender)
         let mcarga = m.reply(MultiNK.Proces(name))
         await mcarga
@@ -15,7 +15,7 @@ m.reply(MultiNK.Error0())
 
 handler.help = ['fbdl <link>']
 handler.tags = ['servicio']
-handler.command = /^(fbdl)$/i
+handler.command = /^(fb)$/i
 handler.limit = true
 
 export default handler
