@@ -45,7 +45,7 @@ global.vs = '1.0.7';
 
 global.cuentas = [channel, gp1, gp2, gp3, yt, fb, md].getRandom()
 
-global.fake = { contextInfo: { mentionedJid: conn.parseMention(wm), forwardingScore: 888, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363200015845018@newsletter', serverMessageId: '', newsletterName: `${taguser}` }, externalAdReply: { title: saludo, body: md, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: imagen4, thumbnail: imagen6, sourceUrl: cuentas }}}, { quoted: m }
+global.fake = { contextInfo: { mentionedJid: conn.parseMention(wm), forwardingScore: 888, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363200015845018@newsletter', serverMessageId: '', newsletterName: `${wm}` }, externalAdReply: { title: saludo, body: md, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: imagen4, thumbnail: imagen6, sourceUrl: cuentas }}}, { quoted: m }
 
 //• ↳ ◜𝑴𝑺𝑮 𝑫𝑬 𝑬𝑺𝑷𝑬𝑹𝑨◞ • 🈸
 global.wait = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
