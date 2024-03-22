@@ -1,7 +1,7 @@
 {
   "name": "SakuraBotLite-MD",
   "version": "1.0.0",
-  "description": "Super Bot",
+  "description": "Un Bot De WhatsApp",
   "main": "index.js",
   "type": "module",
   "directories": {
