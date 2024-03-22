@@ -534,6 +534,7 @@ async function _quickTest() {
   }));
   const [ffmpeg, ffprobe, ffmpegWebp, convert, magick, gm, find] = test;
   const s = global.support = {ffmpeg, ffprobe, ffmpegWebp, convert, magick, gm, find};
+  Object.freeze(global.support);
   }
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
