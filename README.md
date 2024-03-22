@@ -81,7 +81,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/update.sh | bash
 ```
-Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respaldo de su database.json y se agregará a la versión más reciente.
+Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 
 > Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
 
