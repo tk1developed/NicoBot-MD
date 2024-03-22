@@ -1,5 +1,9 @@
-import fg from 'api-dylux'
-import { tiktokdl } from '@bochilteam/scraper'
+import fg from 'api-dylux';
+import fetch from 'node-fetch';
+import {savefrom, facebookdl, facebookdlv2} from '@bochilteam/scraper';
+import fbDownloader from 'fb-downloader-scrapper';
+import {facebook} from '@xct007/frieren-scraper';
+import axios from 'axios';
 const handler = async (m, {conn, args, command, usedPrefix}) => {
   if (!args[0]) throw `⚠️ _Ingrese Un Enlace De Facebook_\n\n*Ejemplo:*\n*${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/`;
   if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `⚠️ _Ingrese Un Enlace De Facebook_\n\n*Ejemplo:*\n*${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/`;
