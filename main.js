@@ -129,28 +129,7 @@ opcion = '1'
 if (!methodCodeQR && !methodCode && !fs.existsSync(`./${authFile}/creds.json`)) {
 do {
 let lineM = '⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》'
-opcion = await question('╭⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》  
-┊ ${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
-┊ ${chalk.blueBright('┊')} ${chalk.blue.bgBlue.bold.cyan('MÉTODO DE VINCULACIÓN')}
-┊ ${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}   
-┊ ${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}     
-┊ ${chalk.blueBright('┊')} ${chalk.green.bgMagenta.bold.yellow('¿CÓMO DESEA CONECTARSE?')}
-┊ ${chalk.blueBright('┊')} ${chalk.bold.redBright('⇢  Opción 1:')} ${chalk.greenBright('Código QR.')}
-┊ ${chalk.blueBright('┊')} ${chalk.bold.redBright('⇢  Opción 2:')} ${chalk.greenBright('Código de 8 digitos.')}
-┊ ${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
-┊ ${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}     
-┊ ${chalk.blueBright('┊')} ${chalk.italic.magenta('Escriba sólo el número de')}
-┊ ${chalk.blueBright('┊')} ${chalk.italic.magenta('la opción para conectarse.')}
-┊ ${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
-┊ ${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}    
-┊ ${chalk.blueBright('┊')} ${chalk.red.bgRed.bold.green('CONSEJO:')}
-┊ ${chalk.blueBright('┊')} ${chalk.italic.cyan('Si usa Termux, Replit, Linux, o Windows')}
-┊ ${chalk.blueBright('┊')} ${chalk.italic.cyan('Use estos comandos para una ejecución directa:')}
-┊ ${chalk.blueBright('┊')} ${chalk.bold.yellow(`npm run qr ${chalk.italic.magenta('(Inicia con código QR)')}`)}
-┊ ${chalk.blueBright('┊')} ${chalk.bold.yellow(`npm run code ${chalk.italic.magenta('(Inicia con código de 8 dígitos)')}`)}
-┊ ${chalk.blueBright('┊')} ${chalk.bold.yellow(`npm start ${chalk.italic.magenta('(Inicio predeterminado con opciones)')}`)}
-┊ ${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
-╰⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》\n---> ')
+opcion = await question('╭⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》\n┊ ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n┊ ┊ MÉTODO DE VINCULACIÓN\n┊ ╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n┊ ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n┊ ┊ ¿CÓMO DESEA CONECTARSE?\n┊ ┊ ⇢  Opción 1: Código QR\n┊ ┊ ⇢  Opción 2: Código de 8 digitos.\n┊ ╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n┊ ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n┊ ┊ Escriba sólo el número de\n┊ ┊ la opción para conectarse.\n┊ ╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n╰⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》\n---> ')
 //if (fs.existsSync(`./${authFile}/creds.json`)) {
 //console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
 //process.exit()
