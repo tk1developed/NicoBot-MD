@@ -14,7 +14,7 @@ function _0x7d77(_0x3884d3, _0x297cf0) {
     _0x7d7709=_0x7d7709-0x1b0; const _0x2ead54=_0x5346a4[_0x7d7709]; return _0x2ead54;
   }, _0x7d77(_0x3884d3, _0x297cf0);
 } const _0xe8344c=_0x7d77; function _0x5346() {
-  const _0x2ebb89=['error', 'help', '24jWtTwj', 'command', '╰⊱💚⊱ *ÉXITO* ⊱💚⊱╮\x20\x20*TE\x20VOY\x20A\x20ESTRAÑAR\x20𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌸🌹\x20CHAOO!!\x20🥹*', 'fromMe', 'split', '6858gzqVbM', 'La\x20carpeta\x20o\x20archivo\x20de\x20sesion\x20no\x20existen\x20', 'jid', '50TGXqLs', '*⚡️\x20Use\x20este\x20comando\x20directamente\x20en\x20el\x20numero\x20del\x20Bot\x20principal*', '443584xjTIxm', 'deletebot', '79052UoJUol', '3857359pKoOWl', 'sendMessage', './jadibts/', '28btHpPP', '190emRVsT', '42Qwxenc', '1893708Sdldqv', 'jadibot', 'conn', '1133253ZlNWaF', 'chat', 'mentionedJid', '4686144IHEtEb', 'user']; _0x5346=function() {
+  const _0x2ebb89=['error', 'help', '24jWtTwj', 'command', '╰⊱💚⊱ *ÉXITO* ⊱💚⊱╮\x20\n\n*TE\x20VOY\x20A\x20ESTRAÑAR\x20𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌸🌹\x20CHAOO!!\x20🥹*', 'fromMe', 'split', '6858gzqVbM', 'La\x20carpeta\x20o\x20archivo\x20de\x20sesion\x20no\x20existen\x20', 'jid', '50TGXqLs', '*⚡️\x20Use\x20este\x20comando\x20directamente\x20en\x20el\x20numero\x20del\x20Bot\x20principal*', '443584xjTIxm', 'deletebot', '79052UoJUol', '3857359pKoOWl', 'sendMessage', './jadibts/', '28btHpPP', '190emRVsT', '42Qwxenc', '1893708Sdldqv', 'jadibot', 'conn', '1133253ZlNWaF', 'chat', 'mentionedJid', '4686144IHEtEb', 'user']; _0x5346=function() {
     return _0x2ebb89;
   }; return _0x5346();
 }(function(_0x384d26, _0x49a7ad) {
