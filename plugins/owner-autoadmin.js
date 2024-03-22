@@ -1,4 +1,4 @@
-/*const handler = async (m, {conn, isAdmin}) => {
+const handler = async (m, {conn, isAdmin}) => {
   if (m.fromMe) return;
   if (isAdmin) throw '💖 *YA USTED ES ADMIN*';
   try {
@@ -11,4 +11,4 @@ handler.command = /^(tenerpoder|autoadmin)$/i;
 handler.rowner = true;
 handler.group = true;
 handler.botAdmin = true;
-export default handler;*/
+export default handler;
