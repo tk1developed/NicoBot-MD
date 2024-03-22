@@ -135,8 +135,8 @@ opcion = await question(`╭${lineM}╮
 ┃ ${chalk.blueBright('╰━━━━━━━━━━━━━━━━━━━')}   
 ┃ ${chalk.blueBright('╭━━━━━━━━━━━━━━━━━━━ ')}     
 ┃ ${chalk.blueBright('┃')} ${chalk.green.bgMagenta.bold.yellow('¿CÓMO DESEA CONECTARSE?')}
-┃ ${chalk.blueBright('┃')} ${chalk.bold.redBright('☛  Opción 1:')} ${chalk.greenBright('Código QR.')}
-┃ ${chalk.blueBright('┃')} ${chalk.bold.redBright('☛  Opción 2:')} ${chalk.greenBright('Código de 8 digitos.')}
+┃ ${chalk.blueBright('┃')} ${chalk.bold.redBright('»  Opción 1:')} ${chalk.greenBright('Código QR.')}
+┃ ${chalk.blueBright('┃')} ${chalk.bold.redBright('»  Opción 2:')} ${chalk.greenBright('Código de 8 digitos.')}
 ┃ ${chalk.blueBright('╰━━━━━━━━━━━━━━━━━━━')}
 ┃ ${chalk.blueBright('╭━━━━━━━━━━━━━━━━━━━ ')}     
 ┃ ${chalk.blueBright('┃')} ${chalk.italic.magenta('Escriba sólo el número de')}
