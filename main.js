@@ -129,7 +129,7 @@ opcion = '1'
 if (!methodCodeQR && !methodCode && !fs.existsSync(`./${authFile}/creds.json`)) {
 do {
 let lineM = '⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》'
-opcion = await question('╭⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》\n┊ ${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')\n┊ ${chalk.blueBright('┊') ${chalk.greenBright('MÉTODO DE VINCULACIÓN')\n┊ ${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')\n┊ ${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')\n┊ ${chalk.blueBright('┊') ${chalk.blueBright('¿CÓMO DESEA CONECTARSE?')\n┊ ${chalk.blueBright('┊') ${chalk.blueBright('⇢  Opción 1: Código QR')\n┊ ${chalk.blueBright('┊') ${chalk.greenBright(' ⇢  Opción 2: Código de 8 digitos.')\n┊ ${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')\n┊ ${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')\n┊ ${chalk.blueBright('┊') Escriba sólo el número de\n┊ ${chalk.blueBright('┊') ${chalk.greenBright('la opción para conectarse.)\n┊ ${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')\n╰⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》\n---> ')
+opcion = await question('╭⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》\n┊ ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n┊ ┊ MÉTODO DE VINCULACIÓN\n┊ ╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n┊ ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n┊ ┊ ¿CÓMO DESEA CONECTARSE?\n┊ ┊ ⇢  Opción 1: Código QR\n┊ ┊ ⇢  Opción 2: Código de 8 digitos.\n┊ ╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n┊ ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n┊ ┊ Escriba sólo el número de\n┊ ┊ la opción para conectarse.\n┊ ╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n╰⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》\n---> ')
 //if (fs.existsSync(`./${authFile}/creds.json`)) {
 //console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
 //process.exit()
