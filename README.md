@@ -76,6 +76,11 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > rm -rf SakuraBotSession
 > npm start
 ```
+- ### 📍Actualizar SakuraBot🟢
+```bash
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/update.sh | bash
+```
+
 - ### 📍 Activar En Heroku 🚀
 para usuarios del heroku
 
