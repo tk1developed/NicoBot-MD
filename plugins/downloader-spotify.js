@@ -25,7 +25,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     await conn.sendMessage(m.chat, {audio: music.data, fileName: `${spty.name}.mp3`, mimetype: 'audio/mpeg'}, {quoted: m});
   } catch (error) {
     console.error(error);
-    throw '_*< DESCARGAS - SPOTIFY />*_\n\n*😸 Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*', m, fake, );
+    throw '_*< DESCARGAS - SPOTIFY />*_\n\n*😸 Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*';
   }
 };
 handler.command = /^(spotify|music)$/i;
