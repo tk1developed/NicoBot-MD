@@ -128,21 +128,21 @@ opcion = '1'
 }
 if (!methodCodeQR && !methodCode && !fs.existsSync(`./${authFile}/creds.json`)) {
 do {
-let lineM = '⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》'
-opcion = await question(`╭${lineM}  
-┊ ${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
-┊ ${chalk.blueBright('┊')} ${chalk.blue.bgBlue.bold.cyan('MÉTODO DE VINCULACIÓN')}
-┊ ${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}   
-┊ ${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}     
-┊ ${chalk.blueBright('┊')} ${chalk.green.bgMagenta.bold.yellow('¿CÓMO DESEA CONECTARSE?')}
-┊ ${chalk.blueBright('┊')} ${chalk.bold.redBright('⇢  Opción 1:')} ${chalk.greenBright('Código QR.')}
-┊ ${chalk.blueBright('┊')} ${chalk.bold.redBright('⇢  Opción 2:')} ${chalk.greenBright('Código de 8 digitos.')}
-┊ ${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
-┊ ${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}     
-┊ ${chalk.blueBright('┊')} ${chalk.italic.magenta('Escriba sólo el número de')}
-┊ ${chalk.blueBright('┊')} ${chalk.italic.magenta('la opción para conectarse.')}
-┊ ${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
-╰${lineM}\n${chalk.bold.magentaBright('---> ')}`)
+let lineM = '━━━━━━━━━━━━━━━━━━━━'
+opcion = await question(`╭${lineM}╮  
+┃ ${chalk.blueBright('╭━━━━━━━━━━━━━━━━━━━')}
+┃ ${chalk.blueBright('┃')} ${chalk.blue.bgBlue.bold.cyan('MÉTODO DE VINCULACIÓN')}
+┃ ${chalk.blueBright('╰━━━━━━━━━━━━━━━━━━━')}   
+┃ ${chalk.blueBright('╭━━━━━━━━━━━━━━━━━━━ ')}     
+┃ ${chalk.blueBright('┃')} ${chalk.green.bgMagenta.bold.yellow('¿CÓMO DESEA CONECTARSE?')}
+┃ ${chalk.blueBright('┃')} ${chalk.bold.redBright('☛  Opción 1:')} ${chalk.greenBright('Código QR.')}
+┃ ${chalk.blueBright('┃')} ${chalk.bold.redBright('☛  Opción 2:')} ${chalk.greenBright('Código de 8 digitos.')}
+┃ ${chalk.blueBright('╰━━━━━━━━━━━━━━━━━━━')}
+┃ ${chalk.blueBright('╭━━━━━━━━━━━━━━━━━━━ ')}     
+┃ ${chalk.blueBright('┃')} ${chalk.italic.magenta('Escriba sólo el número de')}
+┃ ${chalk.blueBright('┃')} ${chalk.italic.magenta('la opción para conectarse.')}
+┃ ${chalk.blueBright('╰━━━━━━━━━━━━━━━━━━━ ')} 
+╰${lineM}╯\n${chalk.bold.magentaBright('---> ')}`)
 //if (fs.existsSync(`./${authFile}/creds.json`)) {
 //console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
 //process.exit()
