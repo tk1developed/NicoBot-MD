@@ -13,7 +13,7 @@ var handlers = stats.slice(0, 10).map(({ name, total, last }) => {
 return `⬡ *Comando* : *${name}*\n⬡ *Usos* : ${total}`
 }).join`\n\n`
 
-conn.reply(m.chat, handlers, m,)
+conn.reply(m.chat, handlers, m, fake, )
 }
 
 if (command == 'database' || command == 'usuarios' || command == 'user') {
