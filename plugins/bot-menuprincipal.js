@@ -19,13 +19,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 *${wm}*
 
-Hola ${taguser} 🌩!*  Espero Tengas Una Linda Tarde/Noche, En Qué Puedo Ayudarte ¡?
+Hola ${taguser} !!, Espero Tengas Una Linda Tarde/Noche, En Qué Puedo Ayudarte ¡?
 
 
 			  *★ Información De Usuario ★*
 ╭─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
 │╭─────────────────
-││🌩 *Nombre:* @${taguser}
+││🌩 *Nombre:* ${taguser}
 ││🌩 *Dólares:* ${joincount}
 ││🌩 *Nivel:* ${level}
 ││🌩 *Coins:* ${money}
