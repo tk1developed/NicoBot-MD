@@ -22,7 +22,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *★ Información De Usuario ★*
 ╭─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
 │╭─────────────────
-││🌩 *Nombre:* ${user}
+││🌩 *Nombre:* ${taguser}
 ││🌩 *Dólares:* ${joincount}
 ││🌩 *Nivel:* ${level}
 ││🌩 *Coins:* ${money}
