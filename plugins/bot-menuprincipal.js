@@ -19,7 +19,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 *${wm}*
 
-Hola ${taguser} !!, Espero Tengas Una Linda Tarde/Noche, En Qué Puedo Ayudarte ¡?
+Hola ${taguser} ! Espero Tengas Una Linda Tarde/Noche, En Qué Puedo Ayudarte ¡?
 
 
 			  *★ Información De Usuario ★*
@@ -38,7 +38,7 @@ Hola ${taguser} !!, Espero Tengas Una Linda Tarde/Noche, En Qué Puedo Ayudarte 
 │╭─────────────────
 ││📇 *Usuarios En Total:* ${rtotal}
 ││🌩 *Usuarios Registrados:* ${rtotalreg}
-││🕒 *Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}
+││🕒 *Hora:* ${moment.tz('America/Colombia').format('HH:mm:ss')}
 │╰─────────────────
 ╰─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
 
