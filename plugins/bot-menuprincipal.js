@@ -19,13 +19,10 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 *${wm}*
 
-Hola ${taguser} ! Espero Tengas Una Linda Tarde/Noche, En Qué Puedo Ayudarte ¡?
-
-
-			  *★ Información De Usuario ★*
+*★ Información De Usuario ★*
 ╭─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
 │╭─────────────────
-││🌩 *Nombre:* ${taguser}
+││🌩 *Nombre:* ${user}
 ││🌩 *Dólares:* ${joincount}
 ││🌩 *Nivel:* ${level}
 ││🌩 *Coins:* ${money}
@@ -33,7 +30,7 @@ Hola ${taguser} ! Espero Tengas Una Linda Tarde/Noche, En Qué Puedo Ayudarte ¡
 │╰─────────────────
 ╰─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ ---  
 
- 			 *★ Información Del Bot ★* 
+*★ Información Del Bot ★* 
 ╭─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
 │╭─────────────────
 ││📇 *Usuarios En Total:* ${rtotal}
@@ -43,7 +40,7 @@ Hola ${taguser} ! Espero Tengas Una Linda Tarde/Noche, En Qué Puedo Ayudarte ¡
 │╰─────────────────
 ╰─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
 
- 			  *✦ 𝐈𝐧𝐟𝐨 𝐍𝐏𝐌 ✦* 
+*✦ 𝐈𝐧𝐟𝐨 𝐍𝐏𝐌 ✦* 
 ╭─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
 │╭─────────────────
 ││🔮 *Nombre:* SakuraBotLite
