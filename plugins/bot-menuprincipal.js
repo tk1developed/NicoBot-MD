@@ -38,7 +38,7 @@ Hola ${taguser} !!, Espero Tengas Una Linda Tarde/Noche, En Qué Puedo Ayudarte 
 │╭─────────────────
 ││📇 *Usuarios En Total:* ${rtotal}
 ││🌩 *Usuarios Registrados:* ${rtotalreg}
-││ ${bottime}
+││🕒 *Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}
 │╰─────────────────
 ╰─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
 
