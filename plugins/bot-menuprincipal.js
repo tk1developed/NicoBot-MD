@@ -1,27 +1,38 @@
 import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
-  try {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
-
-  const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 'numeric'});
-  const {money, joincount} = global.db.data.users[m.sender];
-
- const rtotalreg = Object.values(global.db.data.users).filter((user) => user.registered == true).length;
+  try {
+    const pp = naufraMenus.getRandom()
+    // let vn = './media/menu.mp3'
+    const img = './Menu2.jpg';
+    const d = new Date(new Date + 3600000);
+    const locale = 'es-ES';
+    const week = d.toLocaleDateString(locale, {weekday: 'long'});
+    const date = d.toLocaleDateString(locale, {day: '2-digit', month: '2-digit', year: 'numeric'});
+    const _uptime = process.uptime() * 1000;
+    const uptime = clockString(_uptime);
+    const user = global.db.data.users[m.sender];
+    const {money, joincount} = global.db.data.users[m.sender];
+    const {exp, limit, level, role} = global.db.data.users[m.sender];
+    const rtotalreg = Object.values(global.db.data.users).filter((user) => user.registered == true).length;
     const rtotal = Object.entries(global.db.data.users).length || '0'
-        const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
-  const {exp, limit, level, role} = global.db.data.users[m.sender];
-  const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
-  const fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': saludo, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${saludo},;;;\nFN:${saludo},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': imagen1, thumbnail: imagen1 ,sendEphemeral: true}}};
-    await conn.reply(m.chat, '*!𝗣𝗿𝗼𝘅𝗶𝗺𝗮𝗺𝗲𝗻𝘁𝗲 𝗦𝗲 𝗘𝗻𝘃𝗶𝗮𝗿𝗮́ 𝗘𝗹 𝗠𝗲𝗻𝘂́.*',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋🏻 ¡𝐇𝐨𝐥𝐚!', body: '🦋 𝖫𝗂𝗇𝖽𝗈 𝖠𝗆𝖺𝗇𝖾𝖼𝖾𝗋 🧸', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
-//m.react('📍');
-    await conn.sendMessage(m.chat, { react: { text: '🚀', key: m.key } })
-  let txt =`╭─╮︹︹⊹︹︹⊹︹︹⊹︹︹╭─╮
+    const more = String.fromCharCode(8206);
+    const readMore = more.repeat(850);
+    const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
+    const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
+
+ await conn.sendMessage(m.chat, { react: { text: '🚀', key: m.key } })
+
+
+const document = doc[Math.floor(Math.random() * doc.length)];
+ const str = `╭─╮︹︹⊹︹︹⊹︹︹⊹︹︹╭─╮
     ⚘݄𖠵⃕⁖𖥔͢Menu ꪶ͢𝑩𝒐𝒕⋆᭄͙̈
 ╚▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬▭╝
   
 ╭࣭࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬◌⃘۪֟፝֯۫۫︎⃪𐇽۫۬🌻⃘⃪۪֟፝֯۫۫۫۬◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫╮
      *I N F O*
 ⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪⚘۪۬𝐂𝐫𝐞𝐚𝐝𝐨𝐫: Diego
+⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪⚘۪۬𝐓𝐢𝐞𝐦𝐩𝐨 𝐀𝐜𝐭𝐢𝐯𝐚: ${uptime}
 ⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪⚘۪۬𝐂𝐥𝐢𝐞𝐧𝐭𝐞: ${taguser}
 ⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪⚘۪۬𝐁𝐨𝐭 𝐎𝐟𝐢𝐜𝐢𝐚𝐥: ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || '𝚂𝙾𝚈 𝚄𝙽 𝙱𝙾𝚃 𝙾𝙵𝙲'}
 ⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪⚘۪۬𝐃𝐚𝐭𝐞: ${date}
@@ -448,15 +459,27 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ├ׁ̟̇       「 Oᴡɴᴇʀ 」
 ├━─━─━─≪≪✠≫≫─━─━─━╯
 ├ׁ̟̇❍✎ !menuowner
-*໋̇ꥇ╰ׁ̻─ׅׄ ⊹ٜ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪ׄ߭꒷ٜ߭ׄ꒦۪ׄ߭꒷ٜׄ߭꒦*`;
-   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '🌹⸽⃕  𝕾𝖆𝖐𝖚𝖗𝖆 - 𝕭𝖔𝖙 - 𝕷𝖎𝖙𝖊 - 𝕸𝕯 🌸⸽⃕✰', "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen6, "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
- // m.react('🧩');
+*໋̇ꥇ╰ׁ̻─ׅׄ ⊹ٜ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪߭ׄ꒷ٜ߭ׄ꒦۪ׄ߭꒷ٜ߭ׄ꒦۪ׄ߭꒷ٜׄ߭꒦*`.trim();     if (m.isGroup) { 
+ // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
+            const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
+      conn.sendMessage(m.chat, {text: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.saludo, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen6, "mediaUrl": `https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A`, "sourceUrl": `https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A`}}}, {quoted: m});
+    } else {
+      // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
+      const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
+      conn.sendMessage(m.chat, {text: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.saludo, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen6, "mediaUrl": `https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A`, "sourceUrl": `https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A`}}}, {quoted: fkontak2});
+    }
   } catch {
-    conn.reply(m.chat, '🧸 *Ocurrió Un Error*', m);
+    conn.reply(m.chat, '😸 Ocurrio un error inesperado, intentelo de nuevo...', m);
   }
 };
-handler.help = ['menu'];
-handler.tags = ['menu'];
-handler.command = /^(menu|allmenu|menú|help|menucompleto)$/i;
+handler.command = /^(menu|allmenu|menú|menucompleto|allmenú)$/i;
 handler.register = true
+handler.exp = 50;
+handler.fail = null;
 export default handler;
+function clockString(ms) {
+  const h = isNaN(ms) ? '--' : Math.floor(ms / 3600000);
+  const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
+  const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
+  return [h, m, s].map((v) => v.toString().padStart(2, 0)).join(':');
+}
