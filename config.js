@@ -49,7 +49,7 @@ global.waittt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 global.waitttt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
 
 //• ↳ ◜𝑮𝑬𝑻.𝑹𝑨𝑵𝑫𝑶𝑴◞ • 🔮
-global.sakuImg = [imagen1, imagen4, imagen6, imagen3].getRandom()
+global.sakuImg = [imagen1, imagen2, imagen4, imagen6, imagen3].getRandom()
 
 global.redes = [channel, gp1, gp2, gp3, md, yt, fb].getRandom()
 
