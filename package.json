@@ -1,35 +1,33 @@
-{
-  "name": "SakuraBotLite-MD",
-  "version": "1.0.0",
-  "description": "El Mejor Bot",
-  "main": "index.js",
-  "type": "module",
-  "directories": {
-    "lib": "lib",
-    "src": "src",
-    "plugins": "plugins"
-  },
-    "scripts": {
-    "start": "node index.js",
-    "qr": "node index.js qr",
-    "code": "node index.js code",
-    "test": "node test.js",
-    "test2": "nodemon index.js", 
-    "eslint": "eslint .",
-    "eslintfix": "eslint --fix ."
-  },
-  "homepage": "https://github.com/diegojadibot/SakuraBotLite-MD",
-  "author": {
-    "name": "diegojadibot"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/diegojadibot/SakuraBotLite-MD.git"
-  },
-  "bugs": {
-    "url": "https://github.com/diegojadibot/SakuraBotLite-MD/issues"
-  },
-  "license": "GPL-3.0-or-later",
+{ 
+   "name": "SakuraBotLite-MD", 
+   "version": "1.0.0", 
+   "description": "Un Bot De WhatsApp", 
+   "main": "index.js", 
+   "type": "module", 
+   "directories": { 
+     "lib": "lib", 
+     "src": "src", 
+     "plugins": "plugins" 
+   }, 
+   "scripts": { 
+     "start": "node index.js", 
+     "test": "node test.js", 
+     "test2": "nodemon index.js", 
+     "eslint": "eslint .", 
+     "eslintfix": "eslint --fix ." 
+   }, 
+   "homepage": "https://github.com/diegojadibot/SakuraBotLite-MD", 
+   "author": { 
+     "name": "diegojadibot" 
+   }, 
+   "repository": { 
+     "type": "git", 
+     "url": "git+https://github.com/diegojadibot/SakuraBotLite-MD.git" 
+   }, 
+   "bugs": { 
+     "url": "https://github.com/diegojadibot/SakuraBotLite-MD/issues" 
+   }, 
+     "license": "GPL-3.0-or-later",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@bochilteam/scraper": "^4.2.4",
