@@ -24,7 +24,7 @@ conn.reply(m.chat, `${saludo}
 
 🗂️ *Tengo ${rtotalreg} Usuarios Registrados*
 
-📂 *${totalreg} No Estan Registrados*`, m, fake )
+📂 *${totalreg} No Estan Registrados*`, )
 }
 
 }
