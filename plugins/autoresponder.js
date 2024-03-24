@@ -5,9 +5,9 @@ handler.all = async function (m, {conn}) {
 let chat = global.db.data.chats[m.chat]
 
 if (m.mentionedJid.includes(this.user.jid) && m.isGroup && !chat.isBanned) {
-let stiker = await sticker(imagen1, false, global.packname, global.author)  
+let stiker = await sticker(imagen4, false, global.packname, global.author)  
 this.sendFile(m.chat, stiker, 'sticker.webp', null, m, false, { 
-contextInfo: { externalAdReply: { title: '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 💖🌻', body: 'Dɪᴇɢᴏ Oғɪᴄɪᴀʟ', sourceUrl: `https://github.com/diegojadibot/SakuraBotLite-MD`, thumbnail: imagen2}}})}
+contextInfo: { externalAdReply: { title: '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 💖🌻', body: 'Dɪᴇɢᴏ Oғɪᴄɪᴀʟ', sourceUrl: `https://github.com/diegojadibot/SakuraBotLite-MD`, thumbnail: imagen1}}})}
 
 return !0 }
 export default handler
