@@ -11,7 +11,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let chat = global.db.data.chats[m.chat]
 let user = global.db.data.users[who]
 let username = conn.getName(who)
-let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './src/avatar_contact.png')
+let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './src/Avatar_contact.png')
 
 if ((m.isBaileys && m.fromMe) || m.fromMe ) return true
 
@@ -20,7 +20,7 @@ if (chat.chatbot) {
 let sticker1A = /Xd|xd|xD|XD/i
 let sticker1B = sticker1A.exec(m.text)
 
-/let sticker2A = /nyan|cat|Nyan|Cat/i
+/*let sticker2A = /nyan|cat|Nyan|Cat/i
 let sticker2B = sticker2A.exec(m.text)
 
 let sticker3A = /Gracias|gracias/i
@@ -86,7 +86,7 @@ if (sticker1B) {
         conn.sendFile(m.chat, vn, 'xd.webp', null, m, true, { type: 'webpMessage', ptt: true, contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: `${username}`, body: ``, mediaType: 2, sourceUrl: ``, thumbnailUrl: pp}}}, { quoted: m })
         } else
 
-/if (sticker2B) {
+/*if (sticker2B) {
         let emot = pickRandom(["🐢", "🌹", "🌺", "🍂"])
 conn.sendMessage(m.chat, { react: { text: emot, key: m.key }})
         } else
