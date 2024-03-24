@@ -36,10 +36,10 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 > • ${yt_play[0].url}
 > •┄┄┄┄┄┄┄┄┄┄┄┄•
 > 👑 𝘼𝙐𝙏𝙊𝙍:
-> • ${yt_play[ 0 ].author.name}
+> • ${yt_play[0].author.name}
 > •┄┄┄┄┄┄┄┄┄┄┄┄•
 > 🌸 𝘾𝘼𝙉𝘼𝙇:
-> • ${yt_play[ 0 ].author.url}
+> • ${yt_play[0].author.url}
 > •┄┄┄┄┄┄┄┄┄┄┄┄•
 > ⏰️ 𝘿𝙐𝙍𝘼𝘾𝙄𝙊𝙉:
 > • ${secondString(yt_play[0].duration.seconds)}
