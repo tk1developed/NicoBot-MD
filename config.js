@@ -48,14 +48,6 @@ global.waitt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 global.waittt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
 global.waitttt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
 
-//• ↳ ◜𝑮𝑬𝑻.𝑹𝑨𝑵𝑫𝑶𝑴◞ • 🔮
-global.sakuImg = [imagen1, imagen2, imagen4, imagen6, imagen3].getRandom()
-
-global.redes = [channel, gp1, gp2, gp3, md, yt, fb].getRandom()
-
-//• ↳ ◜𝑭𝑨𝑲𝑬◞ • 🌩
-global.fake = { contextInfo: { mentionedJid: conn.parseMention(wm), forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: 'channel/0029VaQD7LAJP216tu9liI2A/208@newsletter', serverMessageId: '', newsletterName: 'SB - UPDATE 🌩' }, externalAdReply: { title: wm, body: vs, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: sakuImg, thumbnail: imagen6, sourceUrl: redes }}}, { quoted: m } //fake con reenviado de canal
-
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
