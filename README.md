@@ -43,6 +43,10 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 ```
 
 - #### 📍Instalacion Por Termux Manual👨‍💻
+
+[![blog](https://img.shields.io/badge/Instalacion-Manual-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
+](https://youtu.be/9-v4XwMTJYE?si=STdO2GwZR1GAmXfA)
+
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ```bash
