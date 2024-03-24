@@ -25,42 +25,20 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
       additionalText = 'video 🎥';
     }
     await conn.sendMessage(m.chat, { react: { text: '⏰️', key: m.key } })
-    const texto1 = `╭─━━━━━━⊱✿⊰━━━━━━─
-│➻ *➥ 🔊 MUSIC PLAY 🔊*
-╰─━━━━━━⊱✿⊰━━━━━━─
+    const texto1 = `♡₊˚ ₊✧♡₊˚ 📎・₊✧★🎸🎧°⋆♡₊˚ 🛰️
+> ⓘ 𝙏𝙄𝙏𝙐𝙇𝙊/𝙉𝙊𝙈𝘽𝙍𝙀:
+> • ${yt_play[0].title}
+> •┄┄┄┄┄┄┄┄┄┄┄┄•
+> ⓘ 𝙋𝙐𝘽𝙇𝙄𝘾𝘼𝘿𝙊 𝙀𝙉: 
+> • ${yt_play[0].ago}
+> •┄┄┄┄┄┄┄┄┄┄┄┄•
+> ⓘ 𝙇𝙄𝙉𝙆/𝙀𝙉𝙇𝘼𝘾𝙀:
+> • ${yt_play[0].url}
+♡₊˚ 🛰️₊✧♡₊˚ 📎・₊✧★🎸🎧°⋆♡₊˚ 📎
+03:06 =============⬤---------------- ${secondString(yt_play[0].duration.seconds)}
+               ⇆ㅤ ◁ㅤ❚❚ㅤ▷ㅤ ↻
 
-╭◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
-┋➺ 📌 *Titulo:* 
-┋➺ ${yt_play[0].title}
-┋
-┋➺ 📆 *Publicado:* 
-┋➺ ${yt_play[0].ago}
-┋
-┋➺ ⌚ *Duracion:*
-┋➺ ${secondString(yt_play[0].duration.seconds)}
-┋
-┋➺ 👀 *Vistas:* 
-┋➺ ${`${MilesNumber(yt_play[0].views)}`}
-┋
-┋➺ 🏝 *Autor:* 
-┋➺ ${yt_play[0].author.name}
-┋
-┋➺ 🪁 *Canal:* 
-┋➺ ${yt_play[0].author.url}
-┋
-┋➺ 🏕 *ID:* 
-┋➺ ${yt_play[0].videoId}
-┋
-┋➺ 🌤 *Tipo:*
-┋➺ ${yt_play[0].type}
-┋
-┋➺ 🔗 *Link:* 
-┋➺ ${yt_play[0].url}
-╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
-
-┏─━─━─━∞◆∞━─━─━─┓
-│➻ *_Enviando ${additionalText}, Aguarde Un Momento. . . ．．．_*
-┗─━─━─━∞◆∞━─━─━─┛`.trim();
+> *_Enviando ${additionalText}, Aguarde Un Momento..._*`.trim();
         conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play') {
     try {    
