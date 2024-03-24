@@ -22,7 +22,7 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*🦋 𝐿𝑜𝑠 �
  await conn.sendMessage(m.chat, { react: { text: '👏🏻', key: m.key } })
 
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `*╭━━•『  MENU +🔞 』•━━╮*
+    const str = `*╭━━━•『  MENU +🔞 』•━━━╮*
 *│╭─────━───────━────*
 ││ ◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸🔞 _.pack_
 ││ ◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸🔞 _.pack2_
