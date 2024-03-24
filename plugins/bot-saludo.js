@@ -10,7 +10,7 @@ let handler = async (m, { conn }) => {
           let child = stdout.toString("utf-8");
           let ssd = child.replace(/Memory:/, "Ram:");
 
-          m.reply(`_${saludo}_ *_Usuario_*`);
+          m.reply(`_${saludo}_ *_Usuario_*`, m, fake, );
             });
 }
 handler.help = ['info']
