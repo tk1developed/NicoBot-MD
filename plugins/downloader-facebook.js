@@ -8,7 +8,7 @@ for (const { url, isVideo } of result.reverse()) await conn.sendFile(m.chat, url
 await m.reply('⚠️ _Ingrese Un Enlace De Facebook_\n\n*Ejemplo:*\n*!fb* https://fb.watch/fOTpgn6UFQ/')
 console.log(e)
 }}
-handler.help = ['facebbok'].map(v => v + ' <url>')
+handler.help = ['facebook'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 handler.command = /^((facebook|fb)(downloder|dl)?)$/i
 
