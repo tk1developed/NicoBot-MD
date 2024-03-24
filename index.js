@@ -15,10 +15,10 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('SakuraBotLite\nMD', {
+say('Sakura\nBotLite\nMD', {
 font: 'block',
 align: 'center',
-colors: ['green', 'blue']
+colors: ['blue', 'green']
 })
 say(`Bot En Desarrollo, By: Diego Oficial`, {
 font: 'console',
