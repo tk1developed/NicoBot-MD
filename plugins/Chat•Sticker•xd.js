@@ -82,7 +82,7 @@ let sticker21B = sticker21A.exec(m.text)*/
 
 //▪AQUI AGREGA LOS DIRECTORIOS DEL STICKER A MANDAR▪
 if (sticker1B) {
-        let vn = './stickers'
+        let vn = './sticker.jpg'
         conn.sendFile(m.chat, vn, 'xd.webp', null, m, true, { type: 'webpMessage', ptt: true, contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: `${username}`, body: ``, mediaType: 2, sourceUrl: ``, thumbnailUrl: pp}}}, { quoted: m })
         } else
 
