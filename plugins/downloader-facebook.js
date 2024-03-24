@@ -13,4 +13,4 @@ handler.tags = ['downloader']
 handler.command = /^((facebook|fb)(downloder|dl)?)$/i
 
 handler.register = true
-export default handler`
+export default handler
