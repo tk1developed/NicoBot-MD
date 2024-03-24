@@ -1,11 +1,6 @@
-import fg from 'api-dylux';
-import fetch from 'node-fetch';
-import {savefrom, facebookdl, facebookdlv2} from '@bochilteam/scraper';
-import fbDownloader from 'fb-downloader-scrapper';
-import {facebook} from '@xct007/frieren-scraper';
-import axios from 'axios';
-const handler = async (m, {conn, args, command, usedPrefix}) => {
-  if (!args[0]) throw `⚠️ _Ingrese Un Enlace De Facebook_\n\n*Ejemplo:*\n*${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/`;
+import { facebookdl, facebookdlv2 } from '@bochilteam/scraper'
+let handler = async (m, { conn, args, usedPrefix, command }) => {
+if (!args[0]) throw `⚠️ _Ingrese Un Enlace De Facebook_\n\n*Ejemplo:*\n*${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/`;
   if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `⚠️ _Ingrese Un Enlace De Facebook_\n\n*Ejemplo:*\n*${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/`;
   try {
     await m.reply(`*🥀 ᴅᴇsᴄᴀʀɢᴀɴᴅᴏ sᴜ ᴠɪᴅᴇᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ ᴘᴏʀ ғᴀᴠᴏʀ, ᴇsᴛᴇ ᴘʀᴏᴄᴇsᴏ ᴘᴜᴇᴅᴇ ᴅᴜʀᴀʀ ᴇɴᴛʀᴇ 2 ʏ 10 ᴍɪɴᴜᴛᴏs ᴅᴇᴘᴇɴᴅɪᴇɴᴅᴏ ᴅᴇ ʟᴀ ᴅᴜʀᴀᴄɪᴏɴ ᴅᴇʟ ᴠɪᴅᴇᴏ...*`);
@@ -87,4 +82,5 @@ async function igeh(url_media) {
       reject(e.message);
     }
   });
-}
+
+
