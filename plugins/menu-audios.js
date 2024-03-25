@@ -39,11 +39,10 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃✣➸ 🦋 _Fiesta del admin_
 ┃✣➸ 🦋 _Fiesta del administrador_ 
 ┃✣➸ 🦋 _Vivan los novios_
-┃✣➸ 🦋 _Feliz cumpleaños_
 ┃✣➸ 🦋 _Noche de paz_
 ┃✣➸ 🦋 _Buenos dias_
-┃✣➸ 🦋 _Buenos tardes_
-┃✣➸ 🦋 _Buenos noches_
+┃✣➸ 🦋 _Buenas tardes_
+┃✣➸ 🦋 _Buenas noches_
 ┃✣➸ 🦋 _Audio hentai_
 ┃✣➸ 🦋 _Chica lgante_
 ┃✣➸ 🦋 _Feliz navidad_
@@ -62,7 +61,6 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃✣➸ 🦋 _Nyanpasu_
 ┃✣➸ 🦋 _Te amo_
 ┃✣➸ 🦋 _Yamete_
-┃✣➸ 🦋 _Bañate_
 ┃✣➸ 🦋 _La biblia_
 ┃✣➸ 🦋 _Mierda de Bot_
 ┃✣➸ 🦋 _Siuuu_
