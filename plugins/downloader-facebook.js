@@ -8,7 +8,7 @@ const handler = async (m, { conn, args }) => {
         const response = await fetch(apiUrl);
 
         if (response.ok) {
-            m.reply('*Descargando el video, por favor espera...*');
+            m.reply('*⏳️ Descargando El Video, Por Favor Espere...*');
 
             const data = await response.json();
             const videoUrl = data.result[0];
@@ -20,7 +20,7 @@ const handler = async (m, { conn, args }) => {
 
             conn.sendFile(m.chat, fileBuffer, fileName, "", m);
 
-            m.reply('*Video de Facebook descargado correctamente.*');
+            m.reply('*🔮 Video De Facebook Descargado Correctamente.*');
         } else {
             throw `error
 
