@@ -91,7 +91,6 @@ global.fecha = d.toLocaleDateString('es', {day: 'numeric', month: 'numeric', yea
 global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
-global.botoficial = ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || '𝚂𝙾𝚈 𝚄𝙽 𝙱𝙾𝚃 𝙾𝙵𝙲'};
 //* ****************************
 global.wm2 = `${dia} ${fecha}\nSakuritaBot`;
 global.gt = 'SakuraBot';
