@@ -1,4 +1,4 @@
-/*export async function before(m) {
+export async function before(m) {
 
 const username = conn.getName(m.sender)
 
@@ -20,4 +20,4 @@ await m.reply(`👋 Hola ${username}¡!
 
 📍 ¿Quieres Apoyar En El Proyecto Del Bot Para Que Siempre Tenga Actualizaciones? Puedes Apoyarnos Con Una Estrellita🌟 Al Repositorio.`) 
 user.pc = new Date * 1
-}*/
+}
