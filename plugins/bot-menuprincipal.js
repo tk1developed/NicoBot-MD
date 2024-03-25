@@ -35,13 +35,14 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ││🌩 *Usuarios Registrados:* ${rtotalreg}
 ││📅 *Fecha:* ${date}
 ││🕒 *Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}
+││🔮 *Bot Oficial:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || '𝚂𝙾𝚈 𝚄𝙽 𝙱𝙾𝚃 𝙾𝙵𝙲'}
 │╰─────────────────
 ╰─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
 
 *✦ Info NPM ✦* 
 ╭─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
 │╭─────────────────
-││🔮 *Nombre:* SakuraBotLite
+││🌸 *Nombre:* SakuraBotLite
 ││📇 *Description:* Bot - JavaScript
 ││🐢 *Versión:* ${vs}
 ││🌹 *Main:* index.js
