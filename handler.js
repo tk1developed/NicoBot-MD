@@ -943,7 +943,7 @@ export async function handler(chatUpdate) {
         if (!('sBye' in chat)) chat.sBye = '';
         if (!('sPromote' in chat)) chat.sPromote = '';
         if (!('sDemote' in chat)) chat.sDemote = '';
-        if (!('delete' in chat)) chat.antidelete = true;
+        if (!('delete' in chat)) chat.antidelete = false;
         if (!('modohorny' in chat)) chat.modohorny = false;
         if (!('reaction' in chat)) chat.reaction = true;
         if (!('autosticker' in chat)) chat.autosticker = false;
@@ -970,7 +970,7 @@ export async function handler(chatUpdate) {
           sBye: '',
           sPromote: '',
           sDemote: '',
-          antidelete: true,
+          antidelete: false,
           modohorny: false,
           reaction: true,
           autosticker: false,
