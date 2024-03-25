@@ -38,4 +38,5 @@ handler.help = ['fb'];
 handler.tags = ['dl'];
 handler.command = ['fb', 'face'];
 
+handler.register = true;
 export default handler;
