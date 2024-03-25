@@ -35,7 +35,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ││🌩 *Usuarios Registrados:* ${rtotalreg}
 ││🚩 *Dia:* ${dia}
 ││📅 *Mes:* ${mes}
-││💧 *Año:* ${dia}
+││💧 *Año:* ${año}
 ││🕒 *Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}
 ││🔮 *Bot Oficial:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || '𝚂𝙾𝚈 𝚄𝙽 𝙱𝙾𝚃 𝙾𝙵𝙲'}
 │╰─────────────────
