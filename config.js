@@ -94,6 +94,7 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 //* ****************************
 global.wm2 = `${dia} ${fecha}\nSakuritaBot`;
 global.gt = 'SakuraBot';
+global.botactivo = `${uptime}`;
 global.mysticbot = 'SakuraBot';
 global.mysticbot = 'https://github.com/diegojadibot/SakuraBotLite-MD';
 global.nomorown = '573012482694';
