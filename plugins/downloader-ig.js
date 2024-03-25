@@ -35,4 +35,5 @@ handler.help = ['instagram'];
 handler.tags = ['dl'];
 handler.command = /^(instagramdl|instagram|igdl|ig)$/i;
 
+handler.register = true;
 export default handler;
