@@ -14,4 +14,4 @@ mario,
 alexis,
 daniel*/
 
-global.fake = { contextInfo: { mentionedJid: conn.parseMention(wm), forwardingScore: 888, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363263466636910@newsletter', serverMessageId: '', newsletterName: saludo + ` ${name}` }, externalAdReply: { title: wm + ` 🌩`, body: dev, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: imagen6, thumbnail: imagen1, sourceUrl: channel }}}, { quoted: fkontak } //fake con reenviado de canal
+global.fake = { contextInfo: { mentionedJid: null, forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363263466636910@newsletter', serverMessageId: '', newsletterName: 'SB UPDATE 🌸' }, externalAdReply: { title: wm, body: vs, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: imagen6, thumbnail: imagen4, sourceUrl: channel }}}, { quoted: m } //fake con reenviado de canal
