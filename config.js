@@ -62,15 +62,11 @@ global.imagen8 = fs.readFileSync('./Que.jpg');
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
 global.gp1 = 'https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9' //Grupo Oficial De SakuraBot
 
-global.gp2 = 'https://chat.whatsapp.com/ELnVAXLgSbU47kDy8QxGes' //Grupo Sb Update
+global.gp2 = 'https://chat.whatsapp.com/KITv2RmsFg75Vl3t5iuEfM' //Grupo SakuraBotLite Test 
 
-global.gp3 = 'https://chat.whatsapp.com/GoDDEsNAiZIL89bdIRUYqK' //GRUPO TEST BOT SAKURABOT
+global.gp3 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //CuriosityBot Y SakuraBot
 
-global.gp4 = 'https://chat.whatsapp.com/KITv2RmsFg75Vl3t5iuEfM' //Grupo SakuraBotLite Test 
-
-global.gp5 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //CuriosityBot Y SakuraBot
-
-global.gp6 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //NovaBot Y SakuraBot
+global.gp4 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //NovaBot Y SakuraBot
 
 global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
 
