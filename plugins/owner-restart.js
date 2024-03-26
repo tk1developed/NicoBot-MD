@@ -10,7 +10,7 @@ process.send('reset')
 
 }
 handler.help = ['restart']
-handler.tags = ['own']
+handler.tags = ['owner']
 handler.command = ['restart','reiniciar'] 
 
 handler.rowner = true
