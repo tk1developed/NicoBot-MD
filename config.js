@@ -35,7 +35,7 @@ global.lenguajeSK = es //idioma de sakurabot
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
 global.packname = '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌸';
-global.author = '𝖣𝗂𝖾𝗀𝗈 ⚡️';
+global.author = '𝖣𝗂𝖾𝗀𝗈 🌩';
 global.wm = 'Sakura : Bot 🌹';
 global.sk = '𝗦𝖺𝗄𝗎𝗋𝖺 : 𝗕𝗈𝗍 - 𝗟𝗂𝗍𝖾';
 global.titulowm = '𝗦𝖺𝗄𝗎𝗋𝖺 : 𝗕𝗈𝗍';
