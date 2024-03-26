@@ -18,7 +18,7 @@ try { res = await tts(text, lang) }
 catch (e) {
 m.reply(e + '')
 text = args.join(' ')
-if (!text) throw `Ejemplo:\n*${usedPrefix + command} es GataBot*`
+if (!text) throw `Ejemplo:\n*${usedPrefix + command} es SakuraBot*`
 await conn.sendPresenceUpdate('recording', m.chat)
 res = await tts(text, defaultLang)
 } finally {
