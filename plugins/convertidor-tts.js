@@ -1,32 +1,28 @@
 import gtts from 'node-gtts'
 import { readFileSync, unlinkSync } from 'fs'
 import { join } from 'path'
-
 const defaultLang = 'es'
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-
 let lang = args[0]
 let text = args.slice(1).join(' ')
-if ((args[0] || '').length !== 2) {
-lang = defaultLang
+if ((args[0] || '').length !== 2) { 
+lang = defaultLang 
 text = args.join(' ')
 }
 if (!text && m.quoted?.text) text = m.quoted.text
-
 let res
 try { res = await tts(text, lang) }
 catch (e) {
 m.reply(e + '')
 text = args.join(' ')
-if (!text) throw `Ejemplo:\n*${usedPrefix + command} es SakuraBot*`
-await conn.sendPresenceUpdate('recording', m.chat)
+if (!text) throw `*El Texto*`
 res = await tts(text, defaultLang)
 } finally {
-if (res) conn.sendFile(m.chat, res, 'tts.opus', null, m, true)
+if (res) conn.sendFile(m.chat, res, 'tts.opus', null, m, true)    
 }}
 handler.help = ['tts <lang> <teks>']
 handler.tags = ['tools']
-handler.command = /^g?tts|totts$/i
+handler.command = /^g?tts$/i
 export default handler
 
 function tts(text, lang = 'es') {
