@@ -18,7 +18,7 @@ await m.reply(`👋 Hola ${username}¡!
 
 *⚡️ Escribe !grupos Para Ver Los Grupos Oficiales Del Bot 🦊*
 
-📍 ¿Quieres Apoyar En El Proyecto Del Bot Para Que Siempre Tenga Actualizaciones? Puedes Apoyarnos Con Una Estrellita🌟 Al Repositorio.`, m, fake, )
+📍 ¿Quieres Apoyar En El Proyecto Del Bot Para Que Siempre Tenga Actualizaciones? Puedes Apoyarnos Con Una Estrellita🌟 Al Repositorio.`)
 
 user.pc = new Date * 1
 }
