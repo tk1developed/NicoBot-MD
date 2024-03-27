@@ -5,7 +5,7 @@ const handler = async (m, {conn, text, isMods, isOwner, isPrems}) => {
      enviando = true 
   try {
     const link = text //(m.quoted ? m.quoted.text ? m.quoted.text : text : text) || text;
-    if (!link || !link.match(linkRegex)) throw '🌩 *Ingrese el link de un grupo*\n\nEjemplo, !unete https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9`, m, fake, )
+    if (!link || !link.match(linkRegex)) throw '*🍭 Te Falta El Link - Enlace De Un Grupo De WhatsApp.*\n\n*💖 Ejemplo:*\n*◉ #join https://chat.whatsapp.com/CKqHvmFQDL1Kdj6TFHahUn*';
     const [_, code] = link.match(linkRegex) || [];
     if ( isPrems || isMods || isOwner || m.fromMe) {
       const res = await conn.groupAcceptInvite(code);
@@ -20,7 +20,7 @@ const handler = async (m, {conn, text, isMods, isOwner, isPrems}) => {
     }
   } catch {
     enviando = false 
-    throw '📍 *Error Al Usar El Comando*';
+    throw '*🍭 Te Falta El Link - Enlace De Un Grupo De WhatsApp.*\n\n*💖 Ejemplo:*\n*◉ #join https://chat.whatsapp.com/CKqHvmFQDL1Kdj6TFHahUn*';
   }
 };
 handler.help = ['join [chat.whatsapp.com]'];
@@ -28,4 +28,3 @@ handler.tags = ['premium'];
 handler.command = /^join|unete|unirte$/i;
 handler.register = true
 export default handler;
-
