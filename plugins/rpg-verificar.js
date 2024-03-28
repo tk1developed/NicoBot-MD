@@ -24,11 +24,11 @@ let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)
 //m.react('📩') 
 await conn.sendMessage(m.chat, { react: { text: '📩', key: m.key } })
 let regbot = `╭━━ •🧸⸽⃕ 𝖱𝖾𝗀𝗂𝗌𝗍𝗋𝖺𝖽𝗈 🍁⃨፝⃕✰• ━━
-┃ ${saludo}: ${name}
-┃ *🌸Edad:* ${age} años
+┃ *🌩Nombre*: ${name}
+┃ *⚡️Edad:* ${age} años
 ┃ *📞Numero De Serie:* 
 ┃ ${sn}
-◈ ━━━━━━ ⸙ ━━━━━━ ◈`
+◈ ━━━━━━━ ⸙ ━━━━━━━ ◈`
 await m.reply(regbot)
 // await conn.sendUrl(m.chat, regbot, m, { externalAdReply: { mediaType: 1, renderLargerThumbnail: true, thumbnail: pp, thumbnailUrl: pp, title: 'Registrado 📩', }})
 
