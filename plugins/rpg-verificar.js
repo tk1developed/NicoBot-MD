@@ -21,7 +21,8 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   user.regTime = + new Date
   user.registered = true
 let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)        
-m.react('📩') 
+//m.react('📩') 
+await conn.sendMessage(m.chat, { react: { text: '📩', key: m.key } })
 let regbot = `╭━━━ •🧸⸽⃕𝘛𝘶 𝘙𝘦𝘨𝘪𝘴𝘵𝘳𝘰🍁⃨፝⃕✰• ━━━
 ┃ ${saludo}: ${name}
 ┃ *🧩Edad:* ${age} años
