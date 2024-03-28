@@ -26,7 +26,7 @@ await conn.sendMessage(m.chat, { react: { text: '📩', key: m.key } })
 let regbot = `╭━ • 📇 𝖱𝖾𝗀𝗂𝗌𝗍𝗋𝖺𝖽𝗈 📇 • ━╮
 ┃ *🌩Nombre*: ${name}
 ┃ *⚡️Edad:* ${age} años
-┃ *📞Numero De Serie:* 
+┃ *🔮Numero De Serie:* 
 ┃ ${sn}
 ╰━━━━━━━ ⸙ ━━━━━━━╯`
 await m.reply(regbot)
