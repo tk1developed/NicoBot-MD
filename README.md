@@ -3,7 +3,7 @@
 
 ### Sakura : Bot - Lite - MD 🌸
 <p align="center">
-<img src="https://telegra.ph/file/b02bbca79774c02bda357.jpg" alt="Bot-WhatsApp" width="900"/>
+<img src="https://telegra.ph/file/9379ac50c5285dc976e2e.png" alt="Bot-WhatsApp" width="900"/>
 </p>
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
