@@ -1,5 +1,5 @@
 import { mediaFromUrl } from "../functions/mediaFromUrl.js";
-import facebook from "@xaviabot/fb-downloader";
+import facebook from "@fb-downloader-scrapper";
 
 export default {
   name: "facebook",
