@@ -1,42 +1,80 @@
-import fetch from 'node-fetch';
+import { mediaFromUrl } from "../functions/mediaFromUrl.js";
+import facebook from "@xaviabot/fb-downloader";
 
-const handler = async (m, { conn, args }) => {
-    if (!args[0]) throw `⚠️ _Ingrese Un Enlace De Facebook_\n\n*Ejemplo:*\n*!fb* https://fb.watch/fOTpgn6UFQ/`;
+export default {
+  name: "facebook",
+  description: "Descarga videos de facebook🎥.",
+  alias: ["fb", "f", "fc"],
+  use: "!facebook 'url'",
 
+  run: async (socket, msg, args) => {
     try {
-        const apiUrl = `https://api.lolhuman.xyz/api/facebook?apikey=Gatadios&url=${encodeURIComponent(args[0])}`;
-        const response = await fetch(apiUrl);
+      const url = args.join(" ");
 
-        if (response.ok) {
-            m.reply('*⏳️ Descargando El Video, Por Favor Espere...*');
+      if (!url) {
+        socket.sendMessage(msg.messages[0].key.remoteJid, {
+          text: "Ingresa la URL de un video de facebook que desees.",
+        });
 
-            const data = await response.json();
-            const videoUrl = data.result[0];
+        return;
+      }
 
-            const fileName = "fb.mp4";
+      socket.sendMessage(msg.messages[0]?.key.remoteJid, {
+        react: { text: "📹", key: msg.messages[0]?.key },
+      });
 
-            const videoResponse = await fetch(videoUrl);
-            const fileBuffer = await videoResponse.buffer();
+      const { hd, sd } = await facebook(url);
 
-            conn.sendFile(m.chat, fileBuffer, fileName, "", m);
+      const video = await mediaFromUrl(hd || sd);
 
-            m.reply('*🔮 Video De Facebook Descargado Correctamente.*');
-        } else {
-            throw `error
+      if (video === "limit exceeded") {
+        await socket.sendMessage(msg.messages[0]?.key?.remoteJid, {
+          text: "No pude enviar el video ya que este supera el limite del peso permitido por mi codigo base😔.",
+        });
 
-No se pudo obtener el contenido de Facebook.`;
-        }
+        socket.sendMessage(msg.messages[0]?.key?.remoteJid, {
+          react: { text: "❌", key: msg.messages[0]?.key },
+        });
+
+        return;
+      }
+
+      await socket.sendMessage(msg.messages[0]?.key.remoteJid, {
+        video: video.data,
+      });
+
+      socket.sendMessage(msg.messages[0]?.key.remoteJid, {
+        react: { text: "✅", key: msg.messages[0]?.key },
+      });
     } catch (error) {
-        console.error(error);
-        throw `error
+      console.error(error);
 
-Ocurrió un error al descargar el video de Facebook: ${error.message}`;
+      if (error?.includes("Please enter the valid Facebook URL")) {
+        await socket.sendMessage(msg.messages[0].key.remoteJid, {
+          text: "Asegurate de que sea una URL de facebook válida.",
+        });
+
+        socket.sendMessage(msg.messages[0]?.key?.remoteJid, {
+          react: { text: "❌", key: msg.messages[0]?.key },
+        });
+
+        return;
+      }
+
+      if (error?.includes("Unable to fetch video information")) {
+        await socket.sendMessage(msg.messages[0]?.key?.remoteJid, {
+          text: "El video no existe o es privado :v, prueba con otro.",
+        });
+
+        socket.sendMessage(msg.messages[0]?.key?.remoteJid, {
+          react: { text: "❌", key: msg.messages[0]?.key },
+        });
+
+        return;
+      }
+
+      socket.sendMessage(msg.messages[0]?.key?.remoteJid, {
+        react: { text: "❌", key: msg.messages[0]?.key },
+      });
     }
-};
-
-handler.help = ['fb'];
-handler.tags = ['dl'];
-handler.command = ['fb', 'face'];
-
-handler.register = true;
-export default handler;
+  },
