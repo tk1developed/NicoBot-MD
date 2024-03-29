@@ -1,39 +1,47 @@
-import gtts from 'node-gtts'
-import { readFileSync, unlinkSync } from 'fs'
-import { join } from 'path'
-const defaultLang = 'es'
-let handler = async (m, { conn, args, usedPrefix, command }) => {
-let lang = args[0]
-let text = args.slice(1).join(' ')
-if ((args[0] || '').length !== 2) { 
-lang = defaultLang 
-text = args.join(' ')
-}
-if (!text && m.quoted?.text) text = m.quoted.text
-let res
-try { res = await tts(text, lang) }
-catch (e) {
-m.reply(e + '')
-text = args.join(' ')
-if (!text) throw `*El Texto*`
-res = await tts(text, defaultLang)
-} finally {
-if (res) conn.sendFile(m.chat, res, 'tts.opus', null, m, true)    
-}}
-handler.help = ['tts <lang> <teks>']
-handler.tags = ['tools']
-handler.command = /^g?tts$/i
-export default handler
+import { getAudioBuffer } from "simple-tts-mp3";
 
-function tts(text, lang = 'es') {
-console.log(lang, text)
-return new Promise((resolve, reject) => {
-try {
-let tts = gtts(lang)
-let filePath = join(global.__dirname(import.meta.url), '../tmp', (1 * new Date) + '.wav')
-tts.save(filePath, text, () => {
-resolve(readFileSync(filePath))
-unlinkSync(filePath)
-})
-} catch (e) { reject(e) }
-})}
+export default {
+  name: "tts",
+  description: "Convierte texto a voz con el texto que proporciones.",
+  alias: [],
+  use: "!tts 'texto'",
+
+  run: async (socket, msg, args) => {
+    try {
+      const content = args.join(" ");
+
+      if (!content) {
+        socket.sendMessage(msg.messages[0].key.remoteJid, {
+          text: "Ingresa un texto para convertir a voz.",
+        });
+
+        return;
+      }
+
+      socket.sendMessage(msg.messages[0].key.remoteJid, {
+        react: { text: "🕑", key: msg.messages[0]?.key },
+      });
+
+      const tts = await getAudioBuffer(content, "es");
+
+      await socket.sendMessage(msg.messages[0].key.remoteJid, {
+        audio: tts,
+        mimetype: "audio/mp4",
+      });
+
+      socket.sendMessage(msg.messages[0].key.remoteJid, {
+        react: { text: "✅", key: msg.messages[0]?.key },
+      });
+    } catch (error) {
+      console.error(error);
+
+      await socket.sendMessage(msg.messages[0].key.remoteJid, {
+        text: "Ha ocurrido un error inesperado.",
+      });
+
+      socket.sendMessage(msg.messages[0].key.remoteJid, {
+        react: { text: "❌", key: msg.messages[0]?.key },
+      });
+    }
+  },
+};
