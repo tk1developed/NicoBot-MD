@@ -69,8 +69,6 @@ global.gp3 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //CuriosityBot Y
 
 global.gp4 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //NovaBot Y SakuraBot
 
-global.gp5 = 'https://chat.whatsapp.com/CH6Kc8UEpASLJCVasfZOuC' //SakuraBot Y DiablaBot
-
 global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
 
 global.yt = 'https://www.youtube.com/@SakuraBotLite' //Canal De Youtube
