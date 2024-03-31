@@ -35,7 +35,7 @@ conn.sendMessage(m.chat, {text: menu, mentions: [m.sender]}, {quoted: m})
 }
 handler.help = ['menu']
 handler.tags = ['help']
-handler.command = /^(menu|comandos)$/i
+handler.command = /^(creditos|colaboradores)$/i
 
 handler.register = true
 
