@@ -11,7 +11,7 @@ await delay(1000 * 1)
 conn.reply(m.chat, `🌩 𝐏𝐑𝐄𝐆𝐔𝐍𝐓𝐀𝐒 🌩
   
 *Pregunta:* ${text}
-*Respuesta:*${['Si','Tal vez sí','Posiblemente','Probablemente no','No','Imposible','Por que haces estas preguntas','Por eso te dejo','Para que quieres saber','No te dire la respuesta'].getRandom()}`)
+*Respuesta:* ${['Si','Tal vez sí','Posiblemente','Probablemente no','No','Imposible','Por que haces estas preguntas','Por eso te dejo','Para que quieres saber','No te dire la respuesta'].getRandom()}`)
 
 }
 handler.help = ['pregunta']
