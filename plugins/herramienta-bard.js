@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 
 var handler = async (m, { text,  usedPrefix, command }) => {
 
-if (!text) throw `🧸 _*Ingrese Un Texto*_`
+if (!text) throw `🔮 _*INGRESE UN TEXTO*_`
 
 try {
 
