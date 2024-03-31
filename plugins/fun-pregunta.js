@@ -16,7 +16,7 @@ conn.reply(m.chat, `🌩 𝐏𝐑𝐄𝐆𝐔𝐍𝐓𝐀𝐒 🌩
 }
 handler.help = ['pregunta']
 handler.tags = ['juegos']
-handler.command = /^preguntas|apakah$/i
+handler.command = /^pregunta|preguntas|apakah$/i
 
 handler.register = true
 
