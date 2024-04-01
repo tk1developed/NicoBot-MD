@@ -66,6 +66,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ││  「 𓂃͡Iɴғᴏ ʙᴏᴛ 」
 │├━━━━━━━━━━━━━━━━╯
 ││🤖✎ _!cuentas_
+││🤖✎ _!host_
 ││🤖✎ _!saludo_
 ││🤖✎ _!velocidad_
 ││🤖✎ _!metodo_
