@@ -45,7 +45,7 @@ body: `✅ Hosting de Calidad`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/EQTd.jpg', 
 sourceUrl: 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'}}},
-{ quoted: fkontak})
+)
 }
 handler.tags =['info'] 
 handler.help = ['infinity', 'host', 'hosting'] 
