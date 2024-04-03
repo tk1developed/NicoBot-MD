@@ -26,7 +26,7 @@ let handler = async (m, { conn: _conn, args, usedPrefix, command, isOwner }) => 
 
   let parent = args[0] && args[0] == 'plz' ? _conn : await global.conn
   if (!((args[0] && args[0] == 'plz') || (await global.conn).user.jid == _conn.user.jid)) {
-	throw `🚩 Este comando solo los puede usar el bot principal: wa.me/${global.conn.user.jid.split`@`[0]}?text=${usedPrefix + command}`
+	throw `🌦 Este comando solo los puede usar el bot principal: wa.me/${global.conn.user.jid.split`@`[0]}?text=${usedPrefix + command}`
 }
 
 	//=====
@@ -96,7 +96,7 @@ if (methodCode && !conn.authState.creds.registered) {
         let codeBot = await conn.requestPairingCode(cleanedNumber);
         codeBot = codeBot?.match(/.{1,4}/g)?.join("-") || codeBot;
         //parent.sendMessage(m.chat, { text: `➤ Code: *${codeBot}*\n\n${mssg.botqr}` }, { quoted: m })
-        parent.sendFile(m.chat, 'https://i.ibb.co/SKKdvRb/code.jpg', 'qrcode.png', `🚩 Code: *${codeBot}*\n\n`, m)
+        parent.sendFile(m.chat, 'https://i.ibb.co/SKKdvRb/code.jpg', 'qrcode.png', `🔮 Código De Vinculación: *${codeBot}*\n\n`, m)
         rl.close();
     }, 3000);
 }
@@ -136,7 +136,7 @@ async function connectionUpdate(update) {
     if (connection == 'open') {
     conn.isInit = true
     global.conns.push(conn)
-    await parent.sendMessage(m.chat, {text : args[0] ? `✅ conectado` : `✅ conectando con éxito`}, { quoted: m })
+    await parent.sendMessage(m.chat, {text : args[0] ? `✅ conectado` : `✅ Conectando Con Exito`}, { quoted: m })
     await sleep(5000)
     if (args[0]) return
 		await parent.sendMessage(conn.user.jid, {text : `Los mensajes se esta cargado esperé un momento... `}, { quoted: m })
