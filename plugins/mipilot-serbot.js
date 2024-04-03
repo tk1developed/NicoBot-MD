@@ -258,7 +258,7 @@ function _0x4386() {
         'bnZYj',
         'badSession',
         'LhpFh',
-        '🚀\x20*JadiBot\x20-\x20SakuraBot*\x0a\x0aEscanea\x20este\x20QR\x20para\x20convertirte\x20en\x20un\x20bot\x20temporal\x0a\x0a1.\x20Haga\x20clic\x20en\x20los\x20tres\x20puntos\x20en\x20la\x20esquina\x20superior\x20derecha.\x0a2.\x20Toca\x20Dispositivos\x20vinculados.\x0a3.\x20Vincular\x20un\x20dispositivo.\x0a4.\x20Escanea\x20este\x20QR.\x0a\x0aQR\x20Caduca\x20en\x2020\x20segundos.',
+        (lenguajeSK['smsIniJadi']()),
         '18qkkgpa',
         'nMpUe',
         'rDavx',
