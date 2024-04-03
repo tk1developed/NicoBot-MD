@@ -226,8 +226,8 @@ bbts()
 
 }
 handler.help = ['botclone']
-handler.tags = ['bebot']
-handler.command = ['bebot', 'serbot', 'jadibot', 'botclone', 'clonebot']
+handler.tags = ['serbot']
+handler.command = ['serbot', 'jadibot', 'botclone']
 handler.rowner = false
 
 export default handler
