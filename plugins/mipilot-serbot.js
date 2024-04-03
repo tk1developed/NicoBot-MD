@@ -347,7 +347,7 @@ import _0x43c9a5 from 'util';
 import * as _0x3682a2 from 'ws';
 const {child, spawn, exec} = await import(_0x3785a3(0x122)), {CONNECTING} = _0x3682a2;
 import { makeWASocket } from '../lib/simple.js';
-let check1 = 'NjBhZGVmZWI4N2M2', check2 = 'ZThkMmNkOGVlMDFmZD', check3 = _0x3785a3(0x182), check4 = _0x3785a3(0x1e4), check5 = _0x3785a3(0x16e), check6 = _0x3785a3(0x1ac), check8 = _0x3785a3(0x19d), crm1 = 'Y2QgcGx1Z2lucy', crm2 = _0x3785a3(0x1a9), crm3 = _0x3785a3(0x10f), crm4 = 'IF9hdXRvcmVzcG9uZGVyLmpzIGluZm8tYm90Lmpz', drm1 = 'CkphZGlib3QsIEhlY2hv', drm2 = _0x3785a3(0x1cc), rtx = _0x3785a3(0x106), rtx2 = '${subbot}';
+let check1 = 'NjBhZGVmZWI4N2M2', check2 = 'ZThkMmNkOGVlMDFmZD', check3 = _0x3785a3(0x182), check4 = _0x3785a3(0x1e4), check5 = _0x3785a3(0x16e), check6 = _0x3785a3(0x1ac), check8 = _0x3785a3(0x19d), crm1 = 'Y2QgcGx1Z2lucy', crm2 = _0x3785a3(0x1a9), crm3 = _0x3785a3(0x10f), crm4 = 'IF9hdXRvcmVzcG9uZGVyLmpzIGluZm8tYm90Lmpz', drm1 = 'CkphZGlib3QsIEhlY2hv', drm2 = _0x3785a3(0x1cc), rtx = _0x3785a3(0x106), rtx2 = '(lenguajeSK['smsIniJadi2']())';
 if (global[_0x3785a3(0xec)] instanceof Array)
     console[_0x3785a3(0x1d0)]();
 else
