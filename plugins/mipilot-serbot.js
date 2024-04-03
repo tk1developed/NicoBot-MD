@@ -258,7 +258,7 @@ function _0x4386() {
         'bnZYj',
         'badSession',
         'LhpFh',
-        '(lenguajeSK['smsIniJadi']())',
+        (lenguajeSK['smsIniJadi']()),
         '18qkkgpa',
         'nMpUe',
         'rDavx',
