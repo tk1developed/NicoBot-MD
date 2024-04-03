@@ -97,8 +97,8 @@ if (methodCode && !conn.authState.creds.registered) {
         codeBot = codeBot?.match(/.{1,4}/g)?.join("-") || codeBot;
         //parent.sendMessage(m.chat, { text: `➤ Code: *${codeBot}*\n\n${mssg.botqr}` }, { quoted: m })
         parent.sendFile(m.chat, 'https://i.ibb.co/SKKdvRb/code.jpg', 'qrcode.png', `🔮 Código De Vinculación: *${codeBot}*`, m)
-parent.sendFile(m.chat, `*⊹ • • • ミ★ 𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩 ミ★• • • ⊹*\n\n*ღ Versión de 𝗦𝗮𝗸𝘂𝗿𝗮𝗕𝗼𝘁𝗟𝗶𝘁𝗲-𝗠𝗗 🌹💖 » _1.0.7_*
-*ღ Versión de JadiBot » _1.0.5_*\n\n🟢 *_NUEVA FUNCIÓN DE HACERTE UN SUB BOT_* 🟢\n\n*1️⃣ Diríjase en los tres puntos en la esquina superior derecha*\n*2️⃣ Ir a la opción Dispositivos vinculados*\n*3️⃣ da click en vincular con codigo de teléfono*\n*4️⃣ pega el codigo a continuación*`, m)
+parent.sendMessage(m.chat, { text: `➤ Code: **⊹ • • • ミ★ 𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩 ミ★• • • ⊹*\n\n*ღ Versión de 𝗦𝗮𝗸𝘂𝗿𝗮𝗕𝗼𝘁𝗟𝗶𝘁𝗲-𝗠𝗗 🌹💖 » _1.0.7_*
+*ღ Versión de JadiBot » _1.0.5_*\n\n🟢 *_NUEVA FUNCIÓN DE HACERTE UN SUB BOT_* 🟢\n\n*1️⃣ Diríjase en los tres puntos en la esquina superior derecha*\n*2️⃣ Ir a la opción Dispositivos vinculados*\n*3️⃣ da click en vincular con codigo de teléfono*\n*4️⃣ pega el codigo a continuación**\n\n${mssg.botqr}` }, { quoted: m })
         rl.close();
     }, 3000);
 }
