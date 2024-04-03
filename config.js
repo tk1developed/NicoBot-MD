@@ -44,6 +44,18 @@ global.titulowm2 = `𝘿𝙞𝙚𝙜𝙤 𝙊𝙛𝙞𝙘𝙞𝙖𝙡`
 global.igfg = 'Diego Oficial';
 global.vs = '1.0.7';
 
+global.subbot = '*ミ★ 𝐒𝐚𝐤𝐮𝐫𝐚𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃 - 𝐒𝐮𝐛-𝐁𝐨𝐭 ミ★*
+
+*🌹 VERSION SAKURABOTLITE-MD » _1.0.7_*
+*ღ Versión de JadiBot » _1.0.2 (Beta)_*
+
+🟢 *_NUEVA FUNCIÓN DE HACERTE UN JADIBOT_* 🟢
+
+*1️⃣ Diríjase en los tres puntos en la esquina superior derecha*
+*2️⃣ Ir a la opción Dispositivos vinculados*
+*3️⃣ da click en vincular con codigo de teléfono*
+*4️⃣ pega el codigo a continuación*'
+
 //• ↳ ◜𝑴𝑺𝑮 𝑫𝑬 𝑬𝑺𝑷𝑬𝑹𝑨◞ • 🈸
 global.wait = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
 global.waitt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
