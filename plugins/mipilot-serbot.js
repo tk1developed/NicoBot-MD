@@ -96,7 +96,8 @@ if (methodCode && !conn.authState.creds.registered) {
         let codeBot = await conn.requestPairingCode(cleanedNumber);
         codeBot = codeBot?.match(/.{1,4}/g)?.join("-") || codeBot;
         //parent.sendMessage(m.chat, { text: `➤ Code: *${codeBot}*\n\n${mssg.botqr}` }, { quoted: m })
-        parent.sendFile(m.chat, 'https://i.ibb.co/SKKdvRb/code.jpg', 'qrcode.png', `🔮 Código De Vinculación: *${codeBot}*\n\n`, m)
+        parent.sendFile(m.chat, 'https://i.ibb.co/SKKdvRb/code.jpg', 'qrcode.png', `🔮 Código De Vinculación: *${codeBot}*`, m)
+parent.sendFile(m.chat, 'https://i.ibb.co/SKKdvRb/code.jpg', 'qrcode.png', `🔮 Código De Vinculación: *Ninguno*`, m)
         rl.close();
     }, 3000);
 }
