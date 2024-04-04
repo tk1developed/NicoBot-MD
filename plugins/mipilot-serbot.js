@@ -1,4 +1,4 @@
-./*⚠ PROHIBIDO EDITAR ⚠
+/*⚠ PROHIBIDO EDITAR ⚠
 
 El codigo de este archivo esta totalmente hecho por:
 - Aiden_NotLogic >> https://github.com/ferhacks
@@ -142,7 +142,7 @@ function _0x4386() {
         'XCFnR',
         'forEach',
         'getTime',
-        '🔵\x20*La\x20conexión\x20se\x20ha\x20cerrado\x20de\x20manera\x20inesperada,\x20intentaremos\x20reconectar...*',
+        '😸\x20*La\x20conexión\x20se\x20ha\x20cerrado\x20de\x20manera\x20inesperada,\x20intentaremos\x20reconectar...*',
         'MMAXd',
         'EgmRe',
         'TiduQ',
@@ -458,7 +458,7 @@ let handler = async (_0x4f587c, {
         };
     let _0x5b9326 = _0xdc1bab;
     if (_0x2824d1['fzFpN'](_0xdc1bab[_0x6e12d5(0x14e)][_0x6e12d5(0x10d)], global[_0x6e12d5(0x15e)]['user'][_0x6e12d5(0x10d)]))
-        return _0x5b9326[_0x6e12d5(0x1cf)](_0x4f587c['chat'], '🔵\x20*Diríjase\x20al\x20número\x20principal\x20del\x20bot*\x0awa.me/' + global['conn'][_0x6e12d5(0x14e)][_0x6e12d5(0x10d)][_0x6e12d5(0x1b3)]`@`[-0x1 * 0x105d + -0x372 + 0x13cf] + _0x6e12d5(0x1e5) + _0x2824d1['BsolQ'](_0x4c84b0, _0x26d36e), _0x4f587c);
+        return _0x5b9326[_0x6e12d5(0x1cf)](_0x4f587c['chat'], '🔮\x20*Diríjase\x20al\x20número\x20principal\x20del\x20bot*\x0awa.me/' + global['conn'][_0x6e12d5(0x14e)][_0x6e12d5(0x10d)][_0x6e12d5(0x1b3)]`@`[-0x1 * 0x105d + -0x372 + 0x13cf] + _0x6e12d5(0x1e5) + _0x2824d1['BsolQ'](_0x4c84b0, _0x26d36e), _0x4f587c);
     const _0x4f2a3c = _0x188ac4[0x16f9 * -0x1 + -0x16e8 + 0x105 * 0x2d] && _0x188ac4[0x1 * 0x8a4 + 0x1b4f + -0x1 * 0x23f3][_0x6e12d5(0x1af)](_0x2824d1['Paink']) ? !![] : _0x188ac4[-0x4 * 0x3b + -0x11 * 0x1cb + -0x3c * -0x86] && _0x188ac4[0x1250 + -0x2310 + 0x10c1]['includes'](_0x2824d1[_0x6e12d5(0x185)]) ? !![] : ![];
     let _0x357ece = _0x4f587c[_0x6e12d5(0x16c)] && _0x4f587c['mentionedJid'][-0x3 * -0x17 + -0x1bb4 + 0x925 * 0x3] ? _0x4f587c['mentionedJid'][-0xa * 0x14b + -0x1be8 + -0x2 * -0x146b] : _0x4f587c[_0x6e12d5(0xf9)] ? _0x5b9326[_0x6e12d5(0x14e)][_0x6e12d5(0x10d)] : _0x4f587c[_0x6e12d5(0x137)], _0x31dc0a = '' + _0x357ece[_0x6e12d5(0x1b3)]`@`[-0x167d + -0x240 * -0xc + -0x483];
     if (_0x4f2a3c) {
@@ -549,10 +549,8 @@ let handler = async (_0x4f587c, {
                 },
                 'KyPzi': _0x3097cf(0x1f1),
                 'DQaGV': _0x3097cf(0xe2),
-                'BKonp':
-                                
-                'uQKvd':
-                '*•\x20Hola,\x20Gracias\x20por\x20unirte!!*\x0a*━━━━━━━━━━━━━━━━━*\x0a\x0a🍧\x20*•\x20Nombre:*\x20@user\x0a@desc',
+                'BKonp': _0x3097cf(0x117),
+                'uQKvd': '*•\x20Hola,\x20Gracias\x20por\x20unirte!!*\x0a*━━━━━━━━━━━━━━━━*\x0a\x0a🍧\x20*•\x20Nombre:*\x20@user\x0a⚠️\x20\x20Recuerda\x20leer\x20la\x20descripción*\x0a@desc',
                 'nMpUe': _0x2824d1[_0x3097cf(0x18a)],
                 'sNCiu': _0x2824d1['hdIEk'],
                 'WYJJy': _0x2824d1[_0x3097cf(0x1e7)],
@@ -692,7 +690,7 @@ let handler = async (_0x4f587c, {
                     'dgJWR': 'creds.update',
                     'UifwQ': _0x3dff0d[_0x3fc6ce(0x19e)],
                     'mwQYr': _0x3dff0d['uQKvd'],
-                    'Uddwd': '*╭══════ ⎘『 ♡ 』⎗ ══════╮*\x0a╏\x20@user\x0a╏\x20*NO\x20LE\x20SABE\x20AL\x20GRUPO,\x20CHAO!!*\x20*╰══════ ⎘『 ♡ 』⎗ ══════╯*',
+                    'Uddwd': '*•\x20Gracias\x20por\x20haber\x20sido\x20parte\x20del\x20grupo*\x0a*━━━━━━━━━━━━━━━━━━━━━━━*\x0a\x0a🍧\x20*•\x20Nombre:*\x20@user',
                     'XvKBW': _0x3dff0d[_0x3fc6ce(0x108)],
                     'EQidq': _0x3dff0d[_0x3fc6ce(0x11e)],
                     'SGSuq': _0x3dff0d['WYJJy'],
