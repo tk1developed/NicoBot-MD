@@ -549,8 +549,9 @@ let handler = async (_0x4f587c, {
                 },
                 'KyPzi': _0x3097cf(0x1f1),
                 'DQaGV': _0x3097cf(0xe2),
-                'BKonp': _0x3097cf(0x117),
-                'uQKvd': (lenguajeSK['smswelcome']()),
+                'BKonp':                               
+                'uQKvd':
+                '*•\x20Hola,\x20Gracias\x20por\x20unirte!!*\x0a*━━━━━━━━━━━━━━━━━*\x0a\x0a🍧\x20*•\x20Nombre:*\x20@user\x0a@desc',
                 'nMpUe': _0x2824d1[_0x3097cf(0x18a)],
                 'sNCiu': _0x2824d1['hdIEk'],
                 'WYJJy': _0x2824d1[_0x3097cf(0x1e7)],
