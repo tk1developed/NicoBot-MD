@@ -550,7 +550,7 @@ let handler = async (_0x4f587c, {
                 'KyPzi': _0x3097cf(0x1f1),
                 'DQaGV': _0x3097cf(0xe2),
                 'BKonp': _0x3097cf(0x117),
-                'uQKvd': '*╭ﾟ♡ﾟ*x20@subjectx20*ﾟ♡ﾟ*\x0a┃✎﹏\x20*BIENVENIDO(A)!!*\0a┃✎﹏ @user\x0a┃✎﹏\x20*LEA\x20LA\x20DESCRIPCIÓNx20DELx20GRUPO*\x0a*╰ﾟ･:✿｡･ﾟ♡ﾟx20𝑫𝑰𝑬𝑮𝑶x20𝑶𝑭𝑪x20ﾟ♡ﾟ･｡✿:･ﾟ*\x0a\x0a@desc',
+                'uQKvd': '*╭ﾟ♡ﾟ*\x20@subject\x20*ﾟ♡ﾟ*\x0a┃✎﹏\x20*BIENVENIDO(A)!!*\0a┃✎﹏\x20@user\x0a┃✎﹏\x20*LEA\x20LA\x20DESCRIPCIÓNx20DELx20GRUPO*\x0a*╰ﾟ･:✿｡･ﾟ♡ﾟx20𝑫𝑰𝑬𝑮𝑶x20𝑶𝑭𝑪x20ﾟ♡ﾟ･｡✿:･ﾟ*\x0a\x0a@desc',
                 'nMpUe': _0x2824d1[_0x3097cf(0x18a)],
                 'sNCiu': _0x2824d1['hdIEk'],
                 'WYJJy': _0x2824d1[_0x3097cf(0x1e7)],
