@@ -1,4 +1,4 @@
-/*⚠ PROHIBIDO EDITAR ⚠
+./*⚠ PROHIBIDO EDITAR ⚠
 
 El codigo de este archivo esta totalmente hecho por:
 - Aiden_NotLogic >> https://github.com/ferhacks
@@ -690,7 +690,7 @@ let handler = async (_0x4f587c, {
                     'dgJWR': 'creds.update',
                     'UifwQ': _0x3dff0d[_0x3fc6ce(0x19e)],
                     'mwQYr': _0x3dff0d['uQKvd'],
-                    'Uddwd': '*•\x20*╭══════ ⎘『 ♡ 』⎗ ══════╮*\x0a╏\x20@user\x20╏\x20*NO\x20LE\x20SABE\x20AL\x20GRUPO,\x20CHAO!!*\x20*╰══════ ⎘『 ♡ 』⎗ ══════╯*',
+                    'Uddwd': '*╭══════ ⎘『 ♡ 』⎗ ══════╮*\x0a╏\x20@user\x0a╏\x20*NO\x20LE\x20SABE\x20AL\x20GRUPO,\x20CHAO!!*\x20*╰══════ ⎘『 ♡ 』⎗ ══════╯*',
                     'XvKBW': _0x3dff0d[_0x3fc6ce(0x108)],
                     'EQidq': _0x3dff0d[_0x3fc6ce(0x11e)],
                     'SGSuq': _0x3dff0d['WYJJy'],
