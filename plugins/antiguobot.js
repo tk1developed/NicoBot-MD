@@ -147,16 +147,16 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
-    let pp = './src/fg_logo.jpg'
+    let pp = './Menu2.jpg'
 
-    conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(), m, null, rpl)
+    conn.sendFile(m.chat, pp, 'Menu.png', text.trim(), m, null, rpl)
     /*conn.sendButton(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff', pp, [
       ['ꨄ︎ Apoyar', `${_p}donate`],
       ['⏍ Info', `${_p}botinfo`],
       ['⌬ Grupos', `${_p}gpdylux`]
     ],m, rpl)*/
 
-    m.react('📚') 
+    //m.react('📚') 
 
   } catch (e) {
     conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error', m)
