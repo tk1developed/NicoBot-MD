@@ -25,7 +25,7 @@ resultado += segundos + " segundos";
 return resultado;
 }
 const message = users.map((v, index) => `(${index + 1})\n🔌 Wa.me/${v.user.jid.replace(/[^0-9]/g, '')}?text=${usedPrefix}ping\n*🚩 Nombre:* *${v.user.name || '-'}*\n*⏰ Tiempo Activa:* ${ v.uptime ? convertirMsADiasHorasMinutosSegundos(Date.now() - v.uptime) : "Desconocido"}`).join('\n\n••••••••••••••••••••••••••••••••••••\n\n');
-  const replyMessage = message.length === 0 ? '*🌸 No Hay Sub Bots Disponibles.\n- 🍭Verifique Mas Tarde.*' : message;
+  const replyMessage = message.length === 0 ? '*🌸 No Hay Sub Bots Disponibles. Verifique Mas Tarde.*' : message;
 const totalUsers = users.length;
 const responseMessage = `💜 LISTA DE JADIBOTS ACTIVOS\n\n🌩️ Puedes Contactarlos Para Pedir Que Se Unan A Tu Grupo.\n\n🔮 Si El Texto Aparece En Blanco Significa Que No Ahi Sub Bots Activos.\n\n💚 Cada Usuario Sub Bot Msneja La Función Como Quiera, El Numero Principal No Se Hace Responsable.\n\n🤖 *Sub Bots Conectado:* ${totalUsers || '0'}\n\n${replyMessage.trim()}`.trim();
 await _envio.sendMessage(m.chat, {text: responseMessage, mentions: _envio.parseMention(responseMessage)}, {quoted: m})}
