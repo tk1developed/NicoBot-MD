@@ -41,13 +41,11 @@ const defaultMenu = {
 • https://fgmods.xyz
 ─────────────
 %readmore
-Ⓟ = Premium
-ⓓ = Diamantes
 -----  -----  -----  -----  -----
   ≡ *LISTA DE MENUS*
 `.trimStart(),
   header: '┌─⊷ *%category*',
-  body: '▢ %cmd %isdiamond %isPremium',
+  body: '▢ %cmd',
   footer: '└───────────\n',
   after: `
 `,
