@@ -13,6 +13,6 @@ let handler = async (m, { conn, usedPrefix, text }) => {
 
 handler.help = ['pajeame'];
 handler.tags = ['fun'];
-handler.command = /^pajeame|paja$/i;
+handler.command = /^pajeame|ups$/i;
 
 export default handler;
