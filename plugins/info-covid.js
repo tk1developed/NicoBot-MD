@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+/*import fetch from 'node-fetch';
 const handler = async (m, {text, usedPrefix, command}) => {
   if (!text) throw `*INGRESE UN NOMBRE DE ALGUN PAIS!*`;
   const res = await fetch(global.API('https://covid19.mathdro.id', '/api/countries/'+ (text)));
@@ -18,4 +18,4 @@ const handler = async (m, {text, usedPrefix, command}) => {
 handler.help = ['covid'].map((v) => v + ' <país>');
 handler.tags = ['info'];
 handler.command = /^(corona|covid|covid19)$/i;
-export default handler;
+export default handler;*/
