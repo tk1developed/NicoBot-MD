@@ -441,7 +441,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ││⚙️✎ _!styletext *<texto>*_
 ││⚙️✎ _!traducir *<texto>*_
 ││⚙️✎ _!nowa *<numero>*_
-││⚙️✎ _!covid *<pais>*_
 ││⚙️✎ _!horario_
 ││⚙️✎ _!dropmail
 │╰─────────────────
