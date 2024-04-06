@@ -328,7 +328,7 @@ if (opcion == '1' || methodCodeQR) {
     console.log(chalk.yellow('[ 🦋 ] Escanea el código QR.'));
  }}
      if (connection == 'open') {
-    await conn.groupAcceptInvite('DrnPDROIs6W8ZGCLPvKL0t')
+    await conn.groupAcceptInvite('Eaa9JFA53ps7WHMv2VHbO9')
     console.log(chalk.green('\nSakuraBotLite-MD Conectado ✅️ \n'))
   }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
