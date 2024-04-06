@@ -1,71 +1,93 @@
-import {WAMessageStubType} from '@whiskeysockets/baileys'
-import fetch from 'node-fetch'
-import { readdirSync, unlinkSync, existsSync, promises as fs, rmSync } from 'fs'
-import path from 'path'
+import {WAMessageStubType} from '@whiskeysockets/baileys';
+import fetch from 'node-fetch';
 
-const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
-
-export async function before(m, { conn, participants, groupMetadata}) {
-if (!m.messageStubType || !m.isGroup) return
-let usuario = `@${m.sender.split`@`[0]}`
-const groupName = (await conn.groupMetadata(m.chat)).subject
-const groupAdmins = participants.filter((p) => p.admin)
-let pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
-const img = await (await fetch(pp)).buffer()
-const chat = global.db.data.chats[m.chat]
-const mentionsString = [m.sender, m.messageStubParameters[0], ...groupAdmins.map((v) => v.id)]
-const mentionsContentM = [m.sender, m.messageStubParameters[0]]
+export async function before(m, {conn, participants}) {
+  if (!m.messageStubType || !m.isGroup) return !0;
+  const groupName = (await conn.groupMetadata(m.chat)).subject;
+  const groupAdmins = participants.filter((p) => p.admin);
+  const pp = await conn.profilePictureUrl(m.chat, 'image').catch((_) => null) || './src/avatar_contact.png';
+  const img = await (await fetch(pp)).buffer();
+  const chat = global.db.data.chats[m.chat];
+  const mentionsString = [m.sender, m.messageStubParameters[0], ...groupAdmins.map((v) => v.id)];
+  const mentionsContentM = [m.sender, m.messageStubParameters[0]];
   const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
-const links = linkSity.getRandom()
 
-if (chat.detect2 && m.messageStubType == 2) {
-const chatId = m.isGroup ? m.chat : m.sender;
-const uniqid = chatId.split('@')[0];
-const sessionPath = './SakuraBotSession/';
-const files = await fs.readdir(sessionPath);
-let filesDeleted = 0;
-for (const file of files) {
-if (file.includes(uniqid)) {
-await fs.unlink(path.join(sessionPath, file));
-filesDeleted++;
-console.log(`⚠️ Eliminacion session (PreKey) que provocan el undefined el chat`)}}}
+  if (chat.detect2 && m.messageStubType == 29) {
+    let txt1 = `_Recientemente Se Ha Promovido Un Nuevo Administrador._\n\n`;
+    txt1 += `*Grupo:* ${groupName}\n`;
+    txt1 += `*Nuevo Admin:* @${m.messageStubParameters[0].split`@`[0]}\n`;
+    txt1 += `*Le Dió Admin:* @${m.sender.split`@`[0]}`;
+    await conn.sendMessage(m.chat, {image: img, caption: txt1, mentions: mentionsString}, {quoted: fkontak2});
+  }
 
-if (chat.detect2 && m.messageStubType == 21) {
-await this.sendMessage(m.chat, { text: `🚩 ${usuario} *Ha cambiado el nombre del grupo*`, mentions: [m.sender], mentions: (await conn.groupMetadata(m.chat)).participants.map(v => v.id) }, { quoted: fkontak2, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100}) 
+  if (chat.detect2 && m.messageStubType == 30) {
+    let txt2 = `_Recientemente Se Ha Desgradado Ha Un Administrador._\n\n`;
+    txt2 += `*Grupo:* ${groupName}\n`;
+    txt2 += `*Se Quito A:* @${m.messageStubParameters[0].split`@`[0]}\n`;
+    txt2 += `*Ejecutado Por:* @${m.sender.split`@`[0]}`;
+    await conn.sendMessage(m.chat, {image: img, caption: txt2, mentions: mentionsString}, {quoted: fkontak2});
+  }
 
-} else if (chat.detect2 && m.messageStubType == 22) {
-await this.sendMessage(m.chat, { text: `🚩 ${usuario} *Ha cambiado la imágen del grupo*`, mentions: [m.sender] }, { quoted: fliveLoc, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100}) 
+  if (chat.detect2 && m.messageStubType == 27) {
+    let txt3 = `_Recientemente Se Ha Incorporado Al Grupo Un Nuevo Miembro._\n\n`;
+    txt3 += `*Grupo:* ${groupName}\n`;
+    if (!m.sender.endsWith('@g.us')) {
+      txt3 += `*Se Añadio A:* @${m.messageStubParameters[0].split`@`[0]}\n`;
+      txt3 += `*Ejecutado Por:* @${m.sender.split`@`[0]}`;
+    } else {
+      txt3 += `*Se Añadio A:* @${m.messageStubParameters[0].split`@`[0]}\n`;
+    }
+    await conn.sendMessage(m.chat, {image: img, caption: txt3, mentions: mentionsContentM}, {quoted: fkontak2});
+  }
 
-} else if (chat.detect2 && m.messageStubType == 24) {
-await this.sendMessage(m.chat, { text: `🚩 ${usuario} *Ha modificado la descripción!*\n\nNueva descripción:\n\n${m.messageStubParameters[0]}`, mentions: [m.sender] }, { quoted: fliveLoc, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+  if (chat.detect2 && m.messageStubType == 28) {
+    let txt4 = `_Recientemente Se Ha Eliminado A Un Miembro Del Grupo._\n\n`;
+    txt4 += `*Grupo:* ${groupName}\n`;
+    if (!m.sender.endsWith('@g.us')) {
+      txt4 += `*Participante Eliminado:* @${m.messageStubParameters[0].split`@`[0]}\n`;
+      txt4 += `*Ejecutado Por:* @${m.sender.split`@`[0]}`;
+    } else {
+      txt4 += `*Se Eliminó A:* @${m.messageStubParameters[0].split`@`[0]}\n`;
+    }
+    await conn.sendMessage(m.chat, {image: {url: pp}, caption: txt4, mentions: mentionsContentM}, {quoted: fkontak2});
+  }
 
-} else if (chat.detect2 && m.messageStubType == 25) {
-await this.sendMessage(m.chat, { text: `🚩 *Ahora ${m.messageStubParameters[0] == 'on' ? 'solo admins' : 'todos'} pueden editar la información del grupo*`, mentions: [m.sender] }, { quoted: fkontak2, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+  if (chat.detect2 && m.messageStubType == 32) {
+    let ax;
+    if (m.messageStubParameters[0] === m.sender) {
+      ax = 'Salido';
+    } else {
+      ax = 'Eliminado';
+    }
+    let txt5 = `_Recientemente Se Ha ${ax} Un  Miembro Del Grupo._\n\n`;
+    txt5 += `*Grupo:* ${groupName}\n`;
+    if (ax === 'Eliminado') {
+      txt5 += `*Se Eliminó A:* @${m.messageStubParameters[0].split`@`[0]}\n`;
+      txt5 += `*Ejecutado Por:* @${m.sender.split`@`[0]}`;
+    } else {
+      txt5 += `*Se Salio:* @${m.messageStubParameters[0].split`@`[0]}\n`;
+    }
+    await conn.sendMessage(m.chat, {image: {url: pp}, caption: txt5, mentions: mentionsContentM}, {quoted: fkontak2});
+  }
 
-} else if (chat.detect2 && m.messageStubType == 26) {
-await this.sendMessage(m.chat, { text: `🚩 *El grupo ha sido ${m.messageStubParameters[0] == 'on' ? 'cerrado' : 'abierto'}*\n\n${m.messageStubParameters[0] == 'on' ? 'solo admins' : 'todos'} pueden enviar mensajes`, mentions: [m.sender] }, { quoted: fkontak2, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+  if (chat.detect2 && m.messageStubType == 26) {
+    let accion;
+    if (m.messageStubParameters[0].split`@`[0] === 'on') {
+      accion = 'Cerrado';
+    } else {
+      accion = 'Abierto';
+    }
+    let txt6 = `_Se Ha Realizado Una Nueva Configuracion Al Grupo._\n\n`;
+    txt6 += `*Grupo:* ${groupName}\n`;
+    txt6 += `*El Grupo Se A:* ${'```' + accion + '```'}\n`;
+    txt6 += `*Ejecutado Por:* @${m.sender.split`@`[0]}`;
+    await conn.sendMessage(m.chat, {image: {url: pp}, caption: txt6, mentions: mentionsContentM}, {quoted: fkontak2});
+  }
 
-} else if (chat.detect2 && m.messageStubType == 29) {
-let txt1 = `🚩 *Nuevo admin*\n\n`
-txt1 += `Nombre: @${m.messageStubParameters[0].split`@`[0]}\n`
-txt1 += `Le otorgó admin: @${m.sender.split`@`[0]}`
-
-await conn.sendMessage(m.chat, {text: txt1, mentions: [...txt1.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...txt1.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.wm, "containsAutoReply": true, "mediaType": 1, "thumbnail": img, "mediaUrl": links, "sourceUrl": md}}})
-
-} else if (chat.detect2 && m.messageStubType == 30) {
-let txt2 = `🚩 *Un admin menos*\n\n`
-txt2 += `Nombre: @${m.messageStubParameters[0].split`@`[0]}\n`
-txt2 += `Le quitó admin: @${m.sender.split`@`[0]}`
-
-await conn.sendMessage(m.chat, {text: txt2, mentions: [...txt2.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...txt2.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.wm, "containsAutoReply": true, "mediaType": 1, "thumbnail": img, "mediaUrl": links, "sourceUrl": md}}})
-
-} else if (chat.detect2 && m.messageStubType == 72) {
-await this.sendMessage(m.chat, { text: `🚩 ${usuario} *Cambió la duración de mensajes temporales a @${m.messageStubParameters[0]}*`, mentions: [m.sender] }, { quoted: fkontak2, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
-
-} else if (chat.detect2 && m.messageStubType == 123) {
-await this.sendMessage(m.chat, { text: `🚩 ${usuario} *Desactivó los mensajes temporales*`, mentions: [m.sender] }, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
-} else {
-console.log({messageStubType: m.messageStubType,
-messageStubParameters: m.messageStubParameters,
-type: WAMessageStubType[m.messageStubType], 
-})}}
+  if (chat.detect2 && m.messageStubType == 21) {
+    let txt7 = `_Se Ha Cambiado El Nombre Del Grupo._\n\n`;
+    txt7 += `*Nuevo Nombre:* ${'```' + groupName + '```'}\n`;
+    txt7 += `*Realizado Por:* @${m.sender.split`@`[0]}`;
+    await conn.sendMessage(m.chat, {image: {url: pp}, caption: txt7, mentions: mentionsContentM}, {quoted: fkontak2});
+  }
+}
