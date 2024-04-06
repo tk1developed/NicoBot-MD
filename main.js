@@ -327,10 +327,10 @@ if (update.qr != 0 && update.qr != undefined || methodCodeQR) {
 if (opcion == '1' || methodCodeQR) {
     console.log(chalk.yellow('[ 🦋 ] Escanea el código QR.'));
  }}
-     if (connection == 'open') {
-    await conn.groupAcceptInvite('Eaa9JFA53ps7WHMv2VHbO9')
-    console.log(chalk.green('\nSakuraBotLite-MD Conectado ✅️ \n'))
-  }
+   if (connection == 'open') {
+console.log(chalk.greenBright('\n╭┈ ┈ ┈ ┈ ┈ • 𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌸 • ┈ ┈ ┈ ┈ ┈╮\n┊ 💚 CONEXIÓN EXITOSA CON WHATSAPP 💚\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'))
+//conn.fakeReply('573012482694@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy SakuraBot\nRecientemente Me E Conectado', '0@s.whatsapp.net')
+   }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) {
 await fs.unlinkSync("./SakuraBotSession/" + "creds.json")
