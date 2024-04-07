@@ -1,4 +1,4 @@
-export async function before(m, {match}) {
+/*export async function before(m, {match}) {
   if (!m.chat.endsWith('@s.whatsapp.net')) {
     return !0;
   }
@@ -20,4 +20,4 @@ export async function before(m, {match}) {
     conn.sendMessage(m.chat, {text: `*[❗] No estás en un chat, por favor espera a estar en uno.*`}, {quoted: m});
   }
   return !0;
-}
+}*/
