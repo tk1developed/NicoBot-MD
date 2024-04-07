@@ -14,10 +14,11 @@ conn.reply(m.chat, `✅ ${wm} *Se unió al grupo*`, m)
 await delay(5 * 5000)
 let res = await conn.groupAcceptInvite(code)
 } else {
-const data = global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)
-
-await delay(1 * 1000)
-for (let jid of data.map(([id]) => [id] + '@s.whatsapp.net').filter(v => v != conn.user.jid)) m.reply(m.chat, `🚩 *Solicitud*\n\n*Usuario*\n` + ' wa.me/' + m.sender.split('@')[0] + '\n\n*Enlace*\n ' + link, jid)
+      const data = global.owner.filter(([id]) => id)[0];
+      const dataArray = Array.isArray(data) ? data : [data];
+      for (const entry of dataArray) await conn.sendMessage(entry + '@s.whatsapp.net', {text: '*🦋 NUEVA SOLICITUD DE UN BOT PARA UN GRUPO 🍓*\n\n*Solicitante:* ' + '@' + m.sender.split('@')[0] + '\n*Link del grupo:* ' + link, mentions: [m.sender], contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [m.sender], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen6, "mediaUrl": `${link}`, "sourceUrl": `${link}`}}}, {quoted: m});
+      enviando = false 
+    }
 
 conn.reply(m.chat, `*✅ Su enlace se envió a Mí Propietario(a)*`, m)
 }
