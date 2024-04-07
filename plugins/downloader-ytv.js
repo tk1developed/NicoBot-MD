@@ -4,7 +4,7 @@ import fetch from 'node-fetch'
 var handler = async (m, { conn, args, usedPrefix, command }) => {
 
 if (!args[0]) return conn.reply(m.chat, `🎌 *Ingrese un enlace de YouTube*\n\nEjemplo, !${command} https://youtu.be/85xI8WFMIUY`, m)
-m.react(rwait)
+await conn.sendMessage(m.chat, { react: { text: '⏳️', key: m.key } })
 
 await conn.reply(m.chat, `⏰ Espere un momento`, m)
 
@@ -33,7 +33,7 @@ m.react(done)
 await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `*Título*\n${n}\n\n*Peso*\n${n3}`, thumbnail: await fetch(n4) }, { quoted: m })
 } catch {
 await conn.reply(m.chat, `🚩 *Ocurrió un error*`, m)
-m.react(error)}}
+ await conn.sendMessage(m.chat, { react: { text: '❌️', key: m.key } })
 
 }
 handler.help = ['ytv']
