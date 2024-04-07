@@ -8,18 +8,14 @@ let str = `*🔮 GRUPOS OFICIALES*
   *_┃🌩❏ ${gp1}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
-    *_╭━━━⊜ SakuraBot Test_*
-  *_┃🌩❏ ${gp2}_*
-*_╰━━━━━━━━━━━━━━━━⊜_*
-
  *🔮 GRUPOS EN COLABORACIÓN*
 
     *_╭━━━⊜ Curiosity y SakuraBot_*
-  *_┃🌦❏ ${gp3}_*
+  *_┃🌦❏ ${gp2}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
     *_╭━━━⊜ NovaBot & SakuraBot_*
-  *_┃🌦❏ ${gp4}_*
+  *_┃🌦❏ ${gp3}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
   *🔮 CANAL OFICIAL*
