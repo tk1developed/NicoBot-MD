@@ -20,7 +20,7 @@ const handler = async (m, {conn, text, isMods, isOwner, isPrems}) => {
     }
   } catch {
     enviando = false 
-    //throw '*📇 Ejemplo:*\n!unete https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9';
+    throw '🚩 *Ocurrió Un Error*';
   }
 };
 handler.help = ['join [chat.whatsapp.com]'];
@@ -28,5 +28,3 @@ handler.tags = ['premium'];
 handler.command = /^join|unete|unirte$/i;
 handler.register = true
 export default handler;
-
-  
