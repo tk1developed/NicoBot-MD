@@ -286,15 +286,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ││  「 Cᴏɴᴠᴇʀᴛɪᴅᴏʀᴇs 」
 │├━━━━━━━━━━━━━━━━╯
 ││🔊✎ _!toanime *<imagen>*_
-││🔊✎ _!togifaud *<video>*_
-││🔊✎ _!toimg *<sticker>*_
-││🔊✎ _!tomp3 *<video>*_
-││🔊✎ _!tomp3 *<nota de voz>*_
-││🔊✎ _!toptt *<video / audio>*_
-││🔊✎ _!tovideo *<sticker>*_
 ││🔊✎ _!tourl *<video / imagen / audio>*_
-││🔊✎ _!tts *<idioma> <texto>*_
-││🔊✎ _!tts *<efecto> <texto>*_
 │╰─────────────────
 ╰─ - ✦⢄⢁✩*⢄⢁✧⡠*✩⡈⡠✦ - ─╯
 
