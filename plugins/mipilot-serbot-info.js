@@ -25,9 +25,9 @@ resultado += segundos + " segundos";
 return resultado;
 }
 const message = users.map((v, index) => `(${index + 1})\n🔌 Wa.me/${v.user.jid.replace(/[^0-9]/g, '')}?text=${usedPrefix}ping\n*🚩 Nombre:* *${v.user.name || '-'}*\n*⏰ Tiempo Activa:* ${ v.uptime ? convertirMsADiasHorasMinutosSegundos(Date.now() - v.uptime) : "Desconocido"}`).join('\n\n••••••••••••••••••••••••••••••••••••\n\n');
-  const replyMessage = message.length === 0 ? '*🌸 No Hay Sub Bots Disponibles. Verifique Mas Tarde.*' : message;
+  const replyMessage = message.length === 0 ? '_🌸 ACTUALMENTE NO HAY BOTS CONECTADOS, VERIFIQUE MAS TARDE._' : message;
 const totalUsers = users.length;
-const responseMessage = `*💜 LISTA DE JADIBOTS ACTIVOS*\n\n*🌩️ Puedes Contactar A Los Sub Bots Para Pedir Que Se Unan A Tu Grupo.*\n\n*🔮 Si El Texto Aparece En Blanco Significa Que No Hay Sub Bots Activos.*\n\n*💚 Cada Usuario Sub Bot Maneja La Función Como Quiera, El Numero Principal No Se Hace Responsable Del Mal Uso De Su Bot.*\n\n🤖 *Sub Bots Conectado:* ${totalUsers || '0'}\n\n${replyMessage.trim()}`.trim();
+const responseMessage = `*🌹LISTA DE SUB-BOTS ACTIVOS*\n\n*💫 PUEDES CONTACTAR CON LOS SUB-BOTS ACTIVOS PARA INVITARLOS A QUE SE UNAN A TU GRUPO*\n\n*✨ SI EL TEXTO APARECE DE COLOR BLANCO SIN NUMERO O CONECTADOS SIGNIFICA QUE NO HAY BOTS ACTIVOS POR EL MOMENTO*\n\n🌟 DATO: CADA USUARIO QUE ES SUB-BOT MANEJA LA FUNCION A SU GUSTO. EL EQUIPO DE SAKURABOT Y EL NUMERO DEL BOT PRINCIPAL NO SE HACE CARGO DE SU MAL USO.\n\n* _🌹SUB-BOTS CONECTADOS: ${totalUsers || '0'}\n\n${replyMessage.trim()}`.trim();
 await _envio.sendMessage(m.chat, {text: responseMessage, mentions: _envio.parseMention(responseMessage)}, {quoted: m})}
 handler.command = handler.help = ['listjadibot', 'bots', 'subsbots'];
 handler.tags = ['jadibot'];
