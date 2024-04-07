@@ -34,6 +34,9 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃✣➸ 𝖣𝗂𝖾𝗀𝗈:
 ┃ https://github.com/diegojadibot
 ┃
+┃✣➸ Ender Tally:
+┃https://github.com/Ender-GB-Isis777
+┃
 ┃✣➸ 𝖣𝖺𝗇𝗂𝖾𝗅:
 ┃https://github.com/MoonContentCreator
 ┃
@@ -48,6 +51,9 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ╭🧸⸽⃕𝗡𝘂𝗺𝗲𝗿𝗼𝘀 - 𝗖𝗿𝗲𝗮𝗱𝗼𝗿𝗲𝘀📍✰ 
 ┋➸ 𝖣𝗂𝖾𝗀𝗈: 
 ┋@573012482597
+┋
+┋➸ Ender Tally:
+┋@50558124470
 ┋
 ┋➸ 𝖣𝖺𝗇𝗂𝖾𝗅:
 ┋@33760536110
