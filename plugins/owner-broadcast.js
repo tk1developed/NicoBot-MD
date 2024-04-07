@@ -3,7 +3,7 @@
 import {randomBytes} from 'crypto';
 
 const handler = async (m, {conn, command, participants, usedPrefix, text}) => {
-  if (!text) return '*😻 Que Texto?*';
+  if (!text) return '*Y EL TEXTO?*';
   const fkontak = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${conn.user.jid.split('@')[0]}:${conn.user.jid.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
   const cc4 = text ? m : m.quoted ? await m.getQuotedObj() : false || m;
   const teks4 = text ? text : cc4.text;
@@ -47,7 +47,7 @@ const handler = async (m, {conn, command, participants, usedPrefix, text}) => {
 };
 handler.help = ['broadcast', 'bc'].map((v) => v + ' <teks>');
 handler.tags = ['owner'];
-handler.command = /^(bc)$/i;
+handler.command = /^(bc|comunicado)$/i;
 
 handler.owner = true;
 
