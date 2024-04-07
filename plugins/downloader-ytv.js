@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 
 var handler = async (m, { conn, args, usedPrefix, command }) => {
 
-if (!args[0]) return conn.reply(m.chat, `🎌 *Ingrese un enlace de YouTube*\n\nEjemplo, !${command} https://youtu.be/85xI8WFMIUY`, m, fake, )
+if (!args[0]) return conn.reply(m.chat, `🎌 *Ingrese un enlace de YouTube*\n\nEjemplo, !${command} https://youtu.be/85xI8WFMIUY`, m)
 //m.react(rwait)
 
 await conn.reply(m.chat, `⏰ Espere un momento`, m)
