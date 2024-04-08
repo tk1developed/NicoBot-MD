@@ -119,10 +119,6 @@ para usuarios del heroku
 <a
 href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="200" height="200" alt="Diego"/></a>
 
-## Colaboradores Del Bot ✨️  
-
-href="https://github.com/Ender-GB-Isis777"><img src="https://github.com/Ender-GB-Isis777.png?size=100" width="100px;" alt=""/><br /><sub><b>Ender GB</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
-    <td align="center"><a 
-       <td align="center"><a  align="center"><a[![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) 
+## Colaboradores Del Bot ✨️   align="center"><a[![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) 
 ![Ender-GB-Isis777](https://github.com/Ender-GB-Isis777.png?size=100)
 [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) [![MoonContentCreator](https://github.com/MoonContentCreator.png?size=100)](https://github.com/MoonContentCreator)
