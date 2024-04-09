@@ -37,12 +37,12 @@ if (!(isPrems || isOwner || isROwner)) { //Para Usuarios
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let mentionedJid = [who]
 let username = conn.getName(who)
-//if (!args[1]) throw `${mg}*USE EL COMANDO COMO ESTE EJEMPLO*\n*${usedPrefix + command} enlace y Número de Token(s)*\n\n*EJEMPLO*\n*${usedPrefix + command} ${nn} 3*\n\n*3 TOKEN 🪙 = 30 MINUTOS*`
-//if (!linkRegex.test(args[0])) throw `${fg}𝙀𝙉𝙇𝘼𝘾𝙀 𝙉𝙊 𝙑𝘼𝙇𝙄𝘿𝙊.` //Aquí 
-if (user.joincount <= 1) return conn.sendButton( m.chat, wm, texto2, img1, [[`🏪 𝘾𝙊𝙈𝙋𝙍𝘼𝙍 : 𝘽𝙐𝙔 3 ${rpgshopp.emoticon('joincount')}`, `.buy joincount 3`]], fkontak, m)
-if (isNaN(args[1])) return conn.sendButton( m.chat, wm, texto4, img1, [[`🍀 𝙈 𝙀 𝙉 𝙐`, `.menu`]], fkontak, m)
-if (args[1] < 3) return conn.sendButton( m.chat, wm, texto5, img2, [[`🍀 𝙈 𝙀 𝙉 𝙐`, `.menu`]], fkontak, m)
-if (args[1] > 3) return conn.sendButton( m.chat, wm, texto6, img2, [[`🍀 𝙈 𝙀 𝙉 𝙐`, `.menu`]], fkontak, m) //Solo ingresará si tiene 3 Token(s)
+//if (!args[1]) throw `${global.vs}*USE EL COMANDO COMO ESTE EJEMPLO*\n*${usedPrefix + command} enlace y Número de Token(s)*\n\n*EJEMPLO*\n*${usedPrefix + command} ${gp1} 3*\n\n*3 TOKEN 🪙 = 30 MINUTOS*`
+//if (!linkRegex.test(args[0])) throw `${global.vs}𝙀𝙉𝙇𝘼𝘾𝙀 𝙉𝙊 𝙑𝘼𝙇𝙄𝘿𝙊.` //Aquí 
+if (user.joincount <= 1) return conn.sendButton( m.chat, wm, texto2, imagen4, [[`🏪 𝘾𝙊𝙈𝙋𝙍𝘼𝙍 : 𝘽𝙐𝙔 3 ${rpgshopp.emoticon('joincount')}`, `.buy joincount 3`]], fkontak, m)
+if (isNaN(args[1])) return conn.sendButton( m.chat, wm, texto4, imagen4, [[`🍀 𝙈 𝙀 𝙉 𝙐`, `.menu`]], fkontak, m)
+if (args[1] < 3) return conn.sendButton( m.chat, wm, texto5, imagen4, [[`🍀 𝙈 𝙀 𝙉 𝙐`, `.menu`]], fkontak, m)
+if (args[1] > 3) return conn.sendButton( m.chat, wm, texto6, imagen4, [[`🍀 𝙈 𝙀 𝙉 𝙐`, `.menu`]], fkontak, m) //Solo ingresará si tiene 3 Token(s)
 
 await delay(3 * 3000)
 let res = await conn.groupAcceptInvite(code)
