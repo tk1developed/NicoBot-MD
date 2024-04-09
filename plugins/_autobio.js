@@ -1,4 +1,4 @@
-67let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i
+let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i
 import fetch from 'node-fetch';
 
 let handler = async (m, { conn, args, text, users, user, usedPrefix, command, isPrems, isOwner, isROwner}) => {
