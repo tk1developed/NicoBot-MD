@@ -328,7 +328,7 @@ if (opcion == '1' || methodCodeQR) {
     console.log(chalk.yellow('[ 🦋 ] Escanea el código QR.'));
  }}
    if (connection == 'open') {
-console.log(color(`\n${lenguajeSK['smsConexion']()} ` + JSON.stringify(sock.user, null, 2), 'yellow'))
+console.log(chalk.greenBright(`\n${lenguajeSK['smsConexion']()} ` + JSON.stringify(sock.user, null, 2), 'yellow'))
 console.log(chalk.greenBright('\n╭┈ ┈ ┈ ┈ ┈ • 𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌸 • ┈ ┈ ┈ ┈ ┈╮\n┊ 💚 CONEXIÓN EXITOSA CON WHATSAPP 💚\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'))
 //conn.fakeReply('573012482694@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy SakuraBot\nRecientemente Me E Conectado', '0@s.whatsapp.net')
    }
