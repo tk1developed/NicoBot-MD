@@ -19,7 +19,7 @@ const fkontak = {
         }, 
         "participant": "0@s.whatsapp.net"
     }
-if (!args[0]) throw `⚠️ _Ingrese Un Enlace De Facebook_\n\n*Ejemplo:*\n*!fb*\nhttps://www.instagram.com/p/CCoI4DQBGVQ/?igshid=YmMyMTA2M2Y=`
+if (!args[0]) throw `⚠️ _Ingrese Un Enlace De Instagram_\n\n*Ejemplo:*\n*!fb*\nhttps://www.instagram.com/p/CCoI4DQBGVQ/?igshid=YmMyMTA2M2Y=`
   const { key } = await conn.sendMessage(m.chat, {text: wait}, {quoted: fkontak});
 // await delay(1000 * 2);
 await conn.sendMessage(m.chat, {text: waitt, edit: key});
