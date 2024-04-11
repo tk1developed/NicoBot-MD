@@ -11,7 +11,7 @@ let handler = async (m, { conn }) => {
 }
 handler.help = ['dado']
 handler.tags = ['game']
-handler.command = /^(dado|dados)$/i
+handler.command = /^(dado)$/i
 handler.command = new RegExp
 export default handler
 
