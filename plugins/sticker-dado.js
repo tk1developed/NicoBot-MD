@@ -1,4 +1,4 @@
-const da = [
+/*const da = [
   'https://tinyurl.com/gdd01',
   'https://tinyurl.com/gdd02',
   'https://tinyurl.com/gdd003',
@@ -17,4 +17,4 @@ export default handler
 
 function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
-}
+}*/
