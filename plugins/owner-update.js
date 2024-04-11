@@ -24,7 +24,7 @@ await conn.reply(m.chat, errorMessage,)
 }
 } catch (error) {
 console.error(error)
-let errorMessage2 = '📍 *Ocurrió Un Error.*'
+let errorMessage2 = '🚩 *Ocurrió Un Error.*'
 if (error.message) {
 errorMessage2 += '\n*- Mensaje de error:* ' + error.message;
 }
