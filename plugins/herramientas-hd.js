@@ -5,13 +5,13 @@ const handler = async (m, {conn, usedPrefix, command}) => {
   let q = m.quoted ? m.quoted : m;
   let mime = (q.msg || q).mimetype || q.mediaType || "";
   if (!mime) throw `*Y LA IMAGEN?*`;
-  if (!/image\/(jpe?g|png)/.test(mime)) throw `╰⊱🧿⊱ *𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼 ⊱🧿⊱╮\n\nEL FORMATO DEL ARCHIVO (${mime}) NO ES COMPATIBLE, ENVÍA O RESPONDE A UNA FOTO`;
-  m.reply("*🧿 𝙈𝙀𝙅𝙊𝙍𝘼𝙉𝘿𝙊 𝙇𝘼 𝘾𝘼𝙇𝙄𝘿𝘼𝘿...*");
+  if (!/image\/(jpe?g|png)/.test(mime)) throw `El formato del archivo (${mime}) no es compatible, envía o responda a una imagen`;
+  m.reply("*🧿 𝖬𝖾𝗃𝗈𝗋𝖺𝗇𝖽𝗈 𝗅𝖺 𝖼𝖺𝗅𝗂𝖽𝖺𝖽 𝖽𝖾 𝗅𝖺 𝗂𝗆𝖺𝗀𝖾𝗇*");
   let img = await q.download?.();
   let pr = await remini(img, "enhance");
   conn.sendMessage(m.chat, {image: pr}, {quoted: m});
  } catch {
-  throw "𝙁𝘼𝙇𝙇𝙊, 𝙋𝙊𝙍 𝙁𝘼𝙑𝙊𝙍 𝙑𝙐𝙀𝙇𝙑𝘼 𝘼 𝙄𝙉𝙏𝙀𝙉𝙏𝘼𝙍";
+  throw "*ᖴᗩᒪᒪO, ᑭOᖇ ᖴᗩᐯOᖇ ᐯᑌᗴᒪᐯᗩ ᗩ IᑎTᗴᑎTᗩᖇ*";
  }
 };
 handler.help = ["remini", "hd", "enhance"];
