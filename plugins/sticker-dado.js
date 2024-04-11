@@ -1,4 +1,4 @@
-/*const da = [
+const da = [
   'https://tinyurl.com/gdd01',
   'https://tinyurl.com/gdd02',
   'https://tinyurl.com/gdd003',
@@ -11,10 +11,10 @@ let handler = async (m, { conn }) => {
 }
 handler.help = ['dado']
 handler.tags = ['game']
-handler.command = /^(dado)$/i
+handler.customPrefix = /dado|lancia/i
 handler.command = new RegExp
 export default handler
 
 function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
-}*/
+}
