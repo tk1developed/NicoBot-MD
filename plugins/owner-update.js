@@ -5,8 +5,8 @@ await conn.sendMessage(m.chat, { react: { text: '🔮', key: m.key } })
 try {
 const stdout = execSync('git pull' + (m.fromMe && text ? ' ' + text : ''));
 let messager = stdout.toString()
-if (messager.includes('Already up to date.')) messager = '╰⊱🧿⊱ *INFORMACIÓN* ⊱🧿⊱╮\n\n𝖸𝖺 𝖾𝗌𝗍𝖺 𝖺𝖼𝗍𝗎𝖺𝗅𝗂𝗓𝖺𝖽𝗈 𝖺 𝗅𝖺 𝗏𝖾𝗋𝗌𝗂𝗈́𝗇 𝗋𝖾𝖼𝗂𝖾𝗇𝗍𝖾.'
-if (messager.includes('Updating')) messager = '╰⊱🧿⊱ *INFORMACIÓN* ⊱🧿⊱╮\n\n𝖠𝖼𝗍𝗎𝖺𝗅𝗂𝗓𝖺𝗇𝖽𝗈 𝖾𝗅 𝖻𝗈𝗍 𝖺 𝗅𝖺 𝗏𝖾𝗋𝗌𝗂𝗈́𝗇 𝗆𝖺𝗌 𝗋𝖾𝖼𝗂𝖾𝗇𝗍𝖾.\n\n' + stdout.toString()
+if (messager.includes('Already up to date.')) messager = '╰⊱🧿⊱ *𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢́𝗡* ⊱🧿⊱╮\n\n*𝖸𝖠 𝖲𝖠𝖪𝖴𝖱𝖠𝖡𝖮𝖳 𝖤𝖲𝖳𝖠 𝖠𝖢𝖳𝖴𝖠𝖫𝖨𝖹𝖠𝖣𝖮 𝖠 𝖫𝖠 𝖵𝖤𝖱𝖲𝖨𝖮́𝖭 𝖬𝖠𝖲 𝖱𝖤𝖢𝖨𝖤𝖭𝖳𝖤.*'
+if (messager.includes('Updating')) messager = '✅️ *Actualizacion Exitosa.*\n\n' + stdout.toString()
 conn.reply(m.chat, messager,)
 } catch { 
 try {
@@ -24,7 +24,7 @@ await conn.reply(m.chat, errorMessage,)
 }
 } catch (error) {
 console.error(error)
-let errorMessage2 = '🚩 *Ocurrió Un Error.*'
+let errorMessage2 = '📍 *Ocurrió Un Error.*'
 if (error.message) {
 errorMessage2 += '\n*- Mensaje de error:* ' + error.message;
 }
