@@ -8,7 +8,7 @@ if (process.send) { process.send('uptime')
 _muptime = await new Promise(resolve => { process.once('message', resolve) 
 setTimeout(resolve, 2000) }) * 1000}
 let uptime = clockString(_uptime)
-let bio = `${uptime} ⌛ ⁝⁝ 🧿 𝗕𝘆: 𝗚𝗹𝗼𝗯𝗮𝗹-𝗦𝗞` 
+let bio = `🧿 𝗕𝘆: 𝗚𝗹𝗼𝗯𝗮𝗹-𝗦𝗞` 
 await this.updateProfileStatus(bio).catch(_ => _)
 setting.status = new Date() * 1
 } 
