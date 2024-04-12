@@ -1,11 +1,17 @@
-import fetch from "node-fetch"
-import yts from "yt-search"
-import ytdl from 'ytdl-core'
-import axios from 'axios'
-import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
-let handler = async (m, { conn, command, args, text, usedPrefix }) => {
-let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality   
-if (!text) throw `⚊⚊⚊⚊⚊⚊✬✥✬⚊⚊⚊⚊⚊⚊
+import fetch from 'node-fetch';
+import axios from 'axios';
+import yts from 'yt-search';
+import {youtubedl, youtubedlv2} from '@bochilteam/scraper';
+import ytdl from 'ytdl-core';
+import {bestFormat, getUrlDl} from '../lib/y2dl.js';
+import YTDL from "../lib/ytdll.js";
+import fs from "fs";
+let limit1 = 100;
+let limit2 = 400;
+let limit_a1 = 50;
+let limit_a2 = 400;
+const handler = async (m, {conn, command, args, text, usedPrefix}) => {
+  if (!text) throw `⚊⚊⚊⚊⚊⚊✬✥✬⚊⚊⚊⚊⚊⚊
 *⚓⚠️ 𝘕𝘰𝘮𝘣𝘳𝘦 𝘋𝘦 𝘓𝘢 𝘊𝘢𝘯𝘤𝘪𝘰𝘯 𝘍𝘢𝘭𝘵𝘢𝘯𝘵𝘦, 𝘗𝘰𝘳 𝘍𝘢𝘷𝘰𝘳 𝘐𝘯𝘨𝘳𝘦𝘴𝘦 𝘌𝘭 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘔𝘢𝘴 𝘌𝘭 𝘕𝘰𝘮𝘣𝘳𝘦 𝘋𝘦 𝘓𝘢 𝘊𝘢𝘯𝘤𝘪𝘰𝘯*
 ⚊⚊⚊⚊⚊⚊✬✥✬⚊⚊⚊⚊⚊⚊
 * » ◇ « ✧ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾 » ◇ « ✧:*
