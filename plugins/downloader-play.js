@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 import axios from 'axios';
-//import yts from 'yt-search';
+import yts from 'yt-search';
 import {youtubedl, youtubedlv2} from '@bochilteam/scraper';
 import ytdl from 'ytdl-core';
 //import {bestFormat, getUrlDl} from '../lib/y2dl.js';
