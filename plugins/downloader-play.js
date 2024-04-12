@@ -3,50 +3,32 @@ import axios from 'axios';
 import yts from 'yt-search';
 import {youtubedl, youtubedlv2} from '@bochilteam/scraper';
 import ytdl from 'ytdl-core';
-//import {bestFormat, getUrlDl} from '../lib/y2dl.js';
-//import YTDL from "../lib/ytdll.js";
-//import fs from "fs";
+import {bestFormat, getUrlDl} from '../lib/y2dl.js';
+import YTDL from "../lib/ytdll.js";
+import fs from "fs";
 let limit1 = 100;
 let limit2 = 400;
 let limit_a1 = 50;
 let limit_a2 = 400;
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
-  if (!text) throw `⚊⚊⚊⚊⚊⚊✬✥✬⚊⚊⚊⚊⚊⚊
-*⚓⚠️ 𝘕𝘰𝘮𝘣𝘳𝘦 𝘋𝘦 𝘓𝘢 𝘊𝘢𝘯𝘤𝘪𝘰𝘯 𝘍𝘢𝘭𝘵𝘢𝘯𝘵𝘦, 𝘗𝘰𝘳 𝘍𝘢𝘷𝘰𝘳 𝘐𝘯𝘨𝘳𝘦𝘴𝘦 𝘌𝘭 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘔𝘢𝘴 𝘌𝘭 𝘕𝘰𝘮𝘣𝘳𝘦 𝘋𝘦 𝘓𝘢 𝘊𝘢𝘯𝘤𝘪𝘰𝘯*
-⚊⚊⚊⚊⚊⚊✬✥✬⚊⚊⚊⚊⚊⚊
-* » ◇ « ✧ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾 » ◇ « ✧:*
-*${usedPrefix + command} Sombra - Maiye Torrex*`;
+  if (!text) throw `[❗] 𝐅𝐚𝐥𝐥𝐨, 𝐏𝐫𝐢𝐦𝐞𝐫𝐨 𝐢𝐧𝐠𝐫𝐞𝐬𝐚 𝐞𝐥 𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞 𝐥𝐚 𝐦𝐮𝐬𝐢𝐜𝐚 \n\n—◉ 𝐄𝐣𝐞𝐦𝐩𝐥𝐨:\n${usedPrefix + command} 𝐍𝐞𝐤𝐨𝐳𝐢𝐥𝐥𝐚`;
   try {
     const yt_play = await search(args.join(' '));
     let additionalText = '';
     if (command === 'play') {
-      additionalText = 'audio 🔊';
+      additionalText = '𝐀𝐮𝐝𝐢𝐨 🔊';
     } else if (command === 'play2') {
-      additionalText = 'video 🎥';
+      additionalText = '𝐕𝐢𝐝𝐞𝐨 🎥';
     }
-    await conn.sendMessage(m.chat, { react: { text: '⏰️', key: m.key } })
-    const texto1 = `₊✧♡₊˚ 🌩・₊✧★🎸🎧°⋆♡₊˚ 🔮
-> 🌩 𝙏𝙄𝙏𝙐𝙇𝙊:
-> • ${yt_play[0].title}
-> ◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸━━━━━━━━━━━━━━━◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸
-> 🌦 𝙋𝙐𝘽𝙇𝙄𝘾𝘼𝘿𝙊 𝙀𝙉: 
-> • ${yt_play[0].ago}
-> ◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸━━━━━━━━━━━━━━━◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸
-> 🔮 𝙀𝙉𝙇𝘼𝘾𝙀:
-> • ${yt_play[0].url}
-> ◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸━━━━━━━━━━━━━━━◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸
-> 👑 𝘼𝙐𝙏𝙊𝙍:
-> • ${yt_play[0].author.name}
-> ◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸━━━━━━━━━━━━━━━◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸
-> 🌸 𝘾𝘼𝙉𝘼𝙇:
-> • ${yt_play[0].author.url}
-> ◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸━━━━━━━━━━━━━━━◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸
-> ⏰️ 𝘿𝙐𝙍𝘼𝘾𝙄𝙊𝙉:
-> • ${secondString(yt_play[0].duration.seconds)}
-₊♡₊˚ 🌩 ・₊✧★🎸🎧°⋆♡₊˚ 🔮
-
-> *_Enviando ${additionalText}, Aguarde Un Momento..._*`.trim();
-        conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
+    const texto1 = `🐺𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗🐺
+☆ 📑 𝐓𝐢𝐭𝐮𝐥𝐨: ${yt_play[0].title}
+☆ 🎼 𝐃𝐮𝐫𝐚𝐜𝐢𝐨𝐧: ${secondString(yt_play[0].duration.seconds)}
+☆ 🗓️ 𝐕𝐢𝐬𝐭𝐚𝐬: ${`${MilesNumber(yt_play[0].views)}`}
+☆ 🖋️ 𝐀𝐮𝐭𝐨𝐫: ${yt_play[0].author.name}
+☆ 🎞️ 𝐂𝐚𝐧𝐚𝐥: ${yt_play[0].author.url}
+☆ 📄 𝐋𝐢𝐧𝐤: ${yt_play[0].url}\n
+☆ _𝙴𝙽𝚅𝙸𝙰𝙽𝙳𝙾 ${additionalText}, 𝙴𝚂𝙿𝙴𝚁𝙴 𝚄𝙽𝙾𝚂 𝚂𝙴𝙶𝚄𝙽𝙳𝙾𝚂．．．_\n𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯`.trim();
+    conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play') {
     try {    
     const q = '128kbps';
@@ -126,16 +108,12 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
   }
 } catch (error) {
     console.log(error)
-    throw '*🍭 Error, por favor vuelva a intentarlo.*';
+    throw '[❗] 𝐅𝐚𝐥𝐥𝐨,𝐈𝐧𝐭𝐞𝐧𝐭𝐚 𝐦𝐚𝐬 𝐭𝐚𝐫𝐝𝐞.';
   }
 };
 handler.help = ['play', 'play2'].map((v) => v + ' < busqueda >');
 handler.tags = ['downloader'];
 handler.command = /^(play|play2)$/i;
-
-handler.register = true
-
-
 export default handler;
 
 async function search(query, options = {}) {
@@ -185,32 +163,29 @@ import yts from 'yt-search';
 import ytdl from 'ytdl-core';
 import axios from 'axios';
 import {youtubedl, youtubedlv2} from '@bochilteam/scraper';
-import {bestFormat, getUrlDl} from '../lib/y2dl.js';
+i𝙻{bestFormat, getUrlDl} from '../lib/y2dl.js';
 import YTDL from "../lib/ytdll.js";
 import fs from "fs";
 let limit1 = 100;
 let limit2 = 400;
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
-  if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} Good Feeling - Flo Rida*`;
+  if (!text) throw `[❗]𝐅𝐚𝐥𝐥𝐨, 𝐩𝐫𝐢𝐦𝐞𝐫𝐨 𝐢𝐧𝐠𝐫𝐞𝐬𝐚 𝐞𝐥 𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞 𝐥𝐚 𝐦𝐮𝐬𝐢𝐜𝐚\n\n—◉ 𝐄𝐣𝐞𝐦𝐩𝐥𝐨:\n*${usedPrefix + command} 𝐅𝐞𝐫𝐧𝐚𝐧𝐟𝐥𝐨𝐰 - 𝐫𝐚𝐩`;
   try {
     const yt_play = await search(args.join(' '));
     let additionalText = '';
     if (command === 'play') {
-      additionalText = 'audio 🔊';
+      additionalText = '𝐀𝐮𝐝𝐢𝐨 🔊';
     } else if (command === 'play2') {
-      additionalText = 'video 🎥';
+      additionalText = '𝐕𝐢𝐝𝐞𝐨 🎥';
     }
-    const texto1 = `*◉——⌈🔊 YOUTUBE PLAY 🔊⌋——◉*\n
-❏ 📌 *Titulo:* ${yt_play[0].title}
-❏ 📆 *Publicado:* ${yt_play[0].ago}
-❏ ⌚ *Duracion:* ${secondString(yt_play[0].duration.seconds)}
-❏ 👀 *Vistas:* ${`${MilesNumber(yt_play[0].views)}`}
-❏ 👤 *Autor:* ${yt_play[0].author.name}
-❏ ⏯️ *Canal:* ${yt_play[0].author.url}
-❏ 🆔 *ID:* ${yt_play[0].videoId}
-❏ 🪬 *Tipo:* ${yt_play[0].type}
-❏ 🔗 *Link:* ${yt_play[0].url}\n
-❏ *_Enviando ${additionalText}, aguarde un momento．．．_*`.trim();
+    const texto1 = ``🐺𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗🐺
+☆ 📑 𝐓𝐢𝐭𝐮𝐥𝐨: ${yt_play[0].title}
+☆ 🎼 𝐃𝐮𝐫𝐚𝐜𝐢𝐨𝐧: ${secondString(yt_play[0].duration.seconds)}
+☆ 🗓️ 𝐕𝐢𝐬𝐭𝐚𝐬: ${`${MilesNumber(yt_play[0].views)}`}
+☆ 🖋️ 𝐀𝐮𝐭𝐨𝐫: ${yt_play[0].author.name}
+☆ 🎞️ 𝐂𝐚𝐧𝐚𝐥: ${yt_play[0].author.url}
+☆ 📄 𝐋𝐢𝐧𝐤: ${yt_play[0].url}\n
+☆ _𝙴𝙽𝚅𝙸𝙰𝙽𝙳𝙾 ${additionalText}, 𝙴𝚂𝙿𝙴𝚁𝙴 𝚄𝙽𝙾𝚂 𝚂𝙴𝙶𝚄𝙽𝙳𝙾𝚂．．．_\n𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯`.trim();
     conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play') {
       try {      
@@ -270,7 +245,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
                   const ress = await ytdl.chooseFormat(infoo.formats, {filter: 'audioonly'});
                   conn.sendMessage(m.chat, {audio: {url: ress.url}, fileName: __res[0].title + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
                 } catch {
-                  await conn.reply(m.chat, '*[❗] Error, no fue posible descargar el audio.*', m);
+                  await conn.reply(m.chat, '[❗]𝐅𝐚𝐥𝐥𝐨,𝐧𝐨 𝐬𝐞 𝐩𝐮𝐞𝐝𝐨 𝐝𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐫 𝐝𝐢𝐜𝐡𝐨 𝐚𝐮𝐝𝐢𝐨.', m);
                 }
               }
             }
@@ -296,10 +271,10 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     const fileSizeInMB = fileSizeInKB / 1024;
     const size = fileSizeInMB.toFixed(2);    
     if (size >= limit2) {  
-    await conn.sendMessage(m.chat, {text: `*[ ✔ ] Descargue su video en ${dl_url}*`}, {quoted: m});
+    await conn.sendMessage(m.chat, {text: `[ ☑️ ] 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐮𝐞 𝐞𝐥 𝐯𝐢𝐝𝐞𝐨 𝐞𝐧 ${dl_url}*`}, {quoted: m});
     return    
     }     
-    const cap = `*◉—⌈📥 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐃𝐋 📥⌋—◉*\n\n❏ *Título:* ${ttl}\n❏ *Peso:* ${size} MB`.trim();
+    const cap = `*◉—⌈📥 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐃𝐋 📥⌋—◉*\n\n❏ 𝐓𝐢𝐭𝐮𝐥𝐨: ${ttl}\n❏ 𝐏𝐞𝐬𝐨: ${size} MB`.trim();
     if (size >= limit1 && size <= limit2) {  
     await conn.sendMessage(m.chat, {document: sex, caption: cap, mimetype: 'video/mp4', fileName: ttl + `.mp4`}, {quoted: m});   
     return
@@ -309,7 +284,9 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     }      
    } catch (error) {
      console.log(error)
-     throw '*[❗] Error, no fue posible descargar el video.*';
+     throw '[❗]𝐅𝐚𝐥𝐥𝐨, 𝐧𝐨 𝐥𝐨𝐠𝐫𝐞 𝐝𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐫 𝐬𝐮 𝐯𝐢𝐝𝐞𝐨\nAndroid Download 👉: https://fontboard.page.link/share
+
+iOS Download 👉: https://apps.apple.com/app/id1636254820.*';
   }
   try {
     const formats = await bestFormat(yt_play[0].url, 'video');
