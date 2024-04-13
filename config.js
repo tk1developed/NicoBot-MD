@@ -30,7 +30,7 @@ global.contactos = [
 global.suittag = ['573012482597'];
 global.prems = ['573218138672'];
 
-global.sakuraVidMenu = ['https://qu.ax/AAvg.mp4', 'https://qu.ax/SeFS.mp4', 'https://qu.ax/NqZN.mp4'].getRandom()
+global.sakuraVidMenu = ['https://qu.ax/AAvg.mp4', 'https://qu.ax/SeFS.mp4', 'https://qu.ax/NqZN.mp4'];
 
 global.lenguajeSK = es //idioma de sakurabot
 
