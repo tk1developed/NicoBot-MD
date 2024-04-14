@@ -17,7 +17,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     await conn.sendMessage(m.chat, { react: { text: '⭐️', key: m.key } })
   let txt =`╭*۰꒷⏝꒷۰꒷.✦˖ ࣪ ִֶָ  ★ ˖ ࣪ ִֶָ ۰✦.꒷۰꒷⏝*
 
-${saludo} ${taguser}
+${saludo}
 
 *★ Información De Usuario ★*
 ╭─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
