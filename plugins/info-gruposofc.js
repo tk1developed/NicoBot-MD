@@ -18,7 +18,10 @@ let str = `*🔮 GRUPOS OFICIALES*
   *_┃🌦❏ ${gp3}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
-  *🔮 CANAL OFICIAL*
+*_╭━━━⊜ Lobo-Bot-Lite SakuraBot_*
+*_┃🌦❏https://whatsapp.com/channel/0029VaCtl9r05MUjcuMd9l2W
+*_╰━━━━━━━━━━━━━━━━⊜_*
+
 
     *_╭━━━⊜ Canal SakuraLite_*
   *_┃🌦❏ ${channel}_*
