@@ -17,8 +17,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     await conn.sendMessage(m.chat, { react: { text: '⭐️', key: m.key } })
   let txt =`╭*۰꒷⏝꒷۰꒷.✦˖ ࣪ ִֶָ  ★ ˖ ࣪ ִֶָ ۰✦.꒷۰꒷⏝*
 
-${saludo}
-
 *★ Información De Usuario ★*
 ╭─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
 │╭─────────────────
@@ -37,7 +35,7 @@ ${saludo}
 ││🌩 *Usuarios Registrados:* ${rtotalreg}
 ││📅 *Fecha:* ${date}
 ││🕒 *Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}
-││🧿 *Bot Oficial:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || '𝙴𝚂𝚃𝙴 𝙴𝚂 𝙴𝙻 𝙱𝙾𝚃 𝙾𝙵𝙲'}
+││🧿 *Bot Oficial:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || '𝚂𝙾𝚈 𝚄𝙽 𝙱𝙾𝚃 𝙾𝙵𝙲'}
 │╰─────────────────
 ╰─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
 
