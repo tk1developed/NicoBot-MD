@@ -76,7 +76,7 @@ global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Faceboo
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶 𝑹𝑷𝑮◞ • ⚔
 var ase = new Date(); var hour = ase.getHours(); switch(hour){ case 0: hour = 'Lɪɴᴅᴀ Nᴏᴄʜᴇ 🌙'; break; case 1: hour = 'Lɪɴᴅᴀ Nᴏᴄʜᴇ 💤'; break; case 2: hour = 'Lɪɴᴅᴀ Nᴏᴄʜᴇ 🦉'; break; case 3: hour = 'Lɪɴᴅᴀ Mᴀɴ̃ᴀɴᴀ ✨'; break; case 4: hour = 'Lɪɴᴅᴀ Mᴀɴ̃ᴀɴᴀ 💫'; break; case 5: hour = 'Lɪɴᴅᴀ Mᴀɴ̃ᴀɴᴀ 🌅'; break; case 6: hour = 'Lɪɴᴅᴀ Mᴀɴ̃ᴀɴᴀ 🌄'; break; case 7: hour = 'Lɪɴᴅᴀ Mᴀɴ̃ᴀɴᴀ 🌅'; break; case 8: hour = 'Lɪɴᴅᴀ Mᴀɴ̃ᴀɴᴀ 💫'; break; case 9: hour = 'Lɪɴᴅᴀ Mᴀɴ̃ᴀɴᴀ ✨'; break; case 10: hour = 'Lɪɴᴅᴏ Dɪᴀ 🌞'; break; case 11: hour = 'Lɪɴᴅᴏ Dɪᴀ 🌨'; break; case 12: hour = 'Lɪɴᴅᴏ Dɪᴀ ❄'; break; case 13: hour = 'Lɪɴᴅᴏ Dɪᴀ 🌤'; break; case 14: hour = 'Lɪɴᴅᴀ Tᴀʀᴅᴇ 🌇'; break; case 15: hour = 'Lɪɴᴅᴀ Tᴀʀᴅᴇ 🥀'; break; case 16: hour = 'Lɪɴᴅᴀ Tᴀʀᴅᴇ 🌹'; break; case 17: hour = 'Lɪɴᴅᴀ Tᴀʀᴅᴇ 🌆'; break; case 18: hour = 'Lɪɴᴅᴀ Nᴏᴄʜᴇ 🌙'; break; case 19: hour = 'Lɪɴᴀ Nᴏᴄʜᴇ 🌃'; break; case 20: hour = 'Lɪɴᴅᴀ Nᴏᴄʜᴇ 🌌'; break; case 21: hour = 'Lɪɴᴅᴀ Nᴏᴄʜᴇ 🌃'; break; case 22: hour = 'Lɪɴᴅᴀ Nᴏᴄʜᴇ 🌙'; break; case 23: hour = 'Lɪɴᴅᴀ Nᴏᴄʜᴇ 🌃'; break;}
-  global.saludo = " " + hour;
+global.saludo = "" + hour;
 
 global.mods = [];
 
