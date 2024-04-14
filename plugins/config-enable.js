@@ -290,15 +290,18 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       bot.antiPrivate = isEnable;
       break;
     case 'modejadibot':
-      isAll = true;
-      if (!isROwner) {
-        global.dfail('rowner', m, conn);
-        throw false;
-      }
-      bot.modejadibot = isEnable;
-      break;
-    case 'antispam':
-      isAll = true;
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+bot.modejadibot = isEnable
+break     
+case 'nyimak':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
       if (!(isROwner || isOwner)) {
         global.dfail('owner', m, conn);
         throw false;
