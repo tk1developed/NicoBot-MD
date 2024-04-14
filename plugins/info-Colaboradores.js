@@ -37,6 +37,9 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃✣➸ 𝖠𝗓𝖺𝗆𝗂:
 ┃ https://github.com/AzamiJs
 ┃
+┃➸ Ender Tally:
+┃@50558124470
+┃
 ┃✣➸ 𝖣𝖺𝗇𝗂𝖾𝗅:
 ┃https://github.com/MoonContentCreator
 ┃
@@ -51,6 +54,9 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┋
 ┋➸ 𝖠𝗓𝖺𝗆𝗂: 
 ┋@5217294888993
+┋
+┋➸ Ender Tally:
+┋@50558124470
 ┋
 ┋➸ 𝖣𝖺𝗇𝗂𝖾𝗅:
 ┋@33760536110
