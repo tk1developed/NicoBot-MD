@@ -70,4 +70,4 @@ async function searchPelisPlus(query, numberPage = 1) {
   })
 
   return resultSearch
-}*/
+}
