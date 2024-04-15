@@ -24,22 +24,4 @@ const handler = async (m, {text, usedPrefix, command, conn}) => {
 };   
 handler.command = ['cuevana', 'pelisplus']
 
-export default handler
-
-const safeLoad = async (url, options = {}) => {
-  try {
-    const { data: pageData } = await axios.get(url, options)
-    const $ = load(pageData)
-    return $
-  } catch (err) {
-    if (err.response)
-      throw new Error(err.response.statusText)
-    throw err
-  }
-}
-
-async function searchContent(query, numberPage = 1) {
-  const $ = await safeLoad(`https://cuevana3.info/page/${numberPage}/`, {
-    params: { s: query }
-  })
-
+export default handler;
