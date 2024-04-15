@@ -4,9 +4,6 @@ import axios from 'axios';
 
 const handler = async (m, {text, usedPrefix, command, conn}) => {
  try {
-  //const idioma = global.db.data.users[m.sender].language
-  //const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  //const tradutor = _translate.plugins.buscador_peliculas
   if (!text) throw `*💖 𝖨𝗇𝗀𝗋𝖾𝗌𝖾 𝖠𝗅𝗀𝗎𝗇 𝖭𝗈𝗆𝖻𝗋𝖾 𝖣𝖾 𝖫𝖺 𝖯𝖾𝗅𝗂𝖼𝗎𝗅𝖺 𝖰𝗎𝖾 𝖣𝖾𝗌𝖾𝖺𝗌 𝖡𝗎𝗌𝖼𝖺𝗋 🐱*`;
   let aaaa;
   let img;
@@ -22,7 +19,7 @@ const handler = async (m, {text, usedPrefix, command, conn}) => {
   const ads = '*💫 • 𝐁𝐥𝐨𝐪𝐮𝐞𝐚𝐝𝐨𝐫 𝐃𝐞 𝐀𝐧𝐮𝐧𝐜𝐢𝐨𝐬 𝐑𝐞𝐜𝐨𝐦𝐞𝐧𝐝𝐚𝐝𝐨𝐬:* Block This\n*⛨ • 𝐄𝐧𝐥𝐚𝐜𝐞:* https://block-this.com/block-this-latest.apk\n\n≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣\n\n`;
   conn.sendMessage(m.chat, {image: {url: img}, caption: ads + res}, {quoted: m});
  } catch {
-   return conn.sendMessage(m.chat, {text: '*[❗] Error, no se obtuvieron resultados.'}, {quoted: m});   
+   return conn.sendMessage(m.chat, {text: '*❗ Error, no se obtuvieron resultados.'}, {quoted: m});   
  }    
 };   
 handler.command = ['cuevana', 'pelisplus'];
