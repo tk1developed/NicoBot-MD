@@ -1,4 +1,4 @@
-import fetch from 'node-fetch'
+/*import fetch from 'node-fetch'
 import axios from 'axios'
 import { load } from 'cheerio'
 
@@ -68,4 +68,4 @@ const link = element.attr('href')
 resultSearch.push({title: title, link: link})
 })
 return resultSearch
-}
+}*/
