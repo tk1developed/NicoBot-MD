@@ -43,31 +43,3 @@ async function searchContent(query, numberPage = 1) {
     params: { s: query }
   })
 
-  const resultSearch = []
-
-  $(".results-post > article").each((_, e) => {
-    const element = $(e)
-    const title = element.find("header > h2").text()
-    const link = element.find(".lnk-blk").attr("href")
-    resultSearch.push({ title: title, link: link })
-  })
-
-  return resultSearch
-}
-
-async function searchPelisPlus(query, numberPage = 1) {
-  const $ = await safeLoad(`https://pelisplushd.cx/search/`, {
-    params: { s: query, page: numberPage }
-  })
-
-  const resultSearch = []
-
-  $("a[class^='Posters']").each((_, e) => {
-    const element = $(e)
-    const title = element.find(".listing-content > p").text()
-    const link = element.attr("href")
-    resultSearch.push({ title: title,  link: link })
-  })
-
-  return resultSearch
-}
