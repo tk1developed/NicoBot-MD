@@ -22,10 +22,52 @@ const handler = async (m, {text, usedPrefix, command, conn}) => {
    return conn.sendMessage(m.chat, {text: '*❗ Error, no se obtuvieron resultados.'}, {quoted: m});   
  }    
 };   
-handler.command = ['cuevana', 'pelisplus'];
+handler.command = ['cuevana', 'pelisplus']
 
-export default handler;
+export default handler
 
-async function searchC(query) {
-  const response = await axios.get(`https://wwv.cuevana8.com/search?q=${query}`);
-  const $ = cheerio.load(response.data);
+const safeLoad = async (url, options = {}) => {
+  try {
+    const { data: pageData } = await axios.get(url, options)
+    const $ = load(pageData)
+    return $
+  } catch (err) {
+    if (err.response)
+      throw new Error(err.response.statusText)
+    throw err
+  }
+}
+
+async function searchContent(query, numberPage = 1) {
+  const $ = await safeLoad(`https://cuevana3.info/page/${numberPage}/`, {
+    params: { s: query }
+  })
+
+  const resultSearch = []
+
+  $(".results-post > article").each((_, e) => {
+    const element = $(e)
+    const title = element.find("header > h2").text()
+    const link = element.find(".lnk-blk").attr("href")
+    resultSearch.push({ title: title, link: link })
+  })
+
+  return resultSearch
+}
+
+async function searchPelisPlus(query, numberPage = 1) {
+  const $ = await safeLoad(`https://pelisplushd.cx/search/`, {
+    params: { s: query, page: numberPage }
+  })
+
+  const resultSearch = []
+
+  $("a[class^='Posters']").each((_, e) => {
+    const element = $(e)
+    const title = element.find(".listing-content > p").text()
+    const link = element.attr("href")
+    resultSearch.push({ title: title,  link: link })
+  })
+
+  return resultSearch
+}*/
