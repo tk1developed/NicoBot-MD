@@ -1,7 +1,8 @@
-/* Creado por Bruno Sobrino (https://github.com/BrunoSobrino) */
+/* Creado/adaptado por Bruno Sobrino (https://github.com/BrunoSobrino) */
+
 import fetch from 'node-fetch';
 import axios from 'axios';
-
+import {load} from 'cheerio';
 const handler = async (m, {text, usedPrefix, command, conn}) => {
   if (!text) throw '*[❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙰 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽𝙰 𝙿𝙴𝙻𝙸𝙲𝚄𝙻𝙰 𝙰 𝙱𝚄𝚂𝙲𝙰𝚁*';
   let aaaa;
