@@ -26,6 +26,7 @@ const handler = async (m, {text, usedPrefix, command, conn}) => {
  }    
 };   
 handler.command = ['cuevana', 'pelisplus'];
+
 export default handler;
 
 async function searchC(query) {
