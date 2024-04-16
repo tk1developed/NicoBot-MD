@@ -24,7 +24,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 await conn.sendMessage(m.chat, { react: { text: '⭐️', key: m.key } })
 
     const document = doc[Math.floor(Math.random() * doc.length)];
- const str = ``╭*۰꒷⏝꒷۰꒷.✦˖ ࣪ ִֶָ  ★ ˖ ࣪ ִֶָ ۰✦.꒷۰꒷⏝*
+ const str = `╭*۰꒷⏝꒷۰꒷.✦˖ ࣪ ִֶָ  ★ ˖ ࣪ ִֶָ ۰✦.꒷۰꒷⏝*
 
 *★ Información De Usuario ★*
 ╭─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
