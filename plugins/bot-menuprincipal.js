@@ -520,6 +520,7 @@ await conn.sendMessage(m.chat, { react: { text: '⭐️', key: m.key } })
   }
 };
 handler.command = /^(menu|menú|help|allmenu|comandos)$/i;
+handler.register = true;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
