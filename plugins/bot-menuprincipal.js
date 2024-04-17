@@ -23,7 +23,7 @@ import { xpRange } from '../lib/levelling.js'
   'frases': 'FRASES',
   'downloader': 'DESCARGAS',
   'tools': 'HERRAMIENTAS',
-  'fun': 'DIVERSION',
+  'fun': 'DIVERSIONES',
   'nsfw': 'NSFW', 
   'image': 'IMAGE',
   'random': 'RANDOM',
@@ -36,7 +36,6 @@ import { xpRange } from '../lib/levelling.js'
   'adm': 'ADMINISTRADOR',
   'General': 'GENERAL',
   'transformador': 'CONVERTIDOR',
-  'juegos': 'JUEGOS',
 }
 
 const defaultMenu = {
