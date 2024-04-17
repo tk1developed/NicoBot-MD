@@ -1,110 +1,24 @@
-const palabras = [
-    "gato",
-    "perro",
-    "pájaro",
-    "elefante",
-    "tigre",
-    "ballena",
-    "mariposa",
-    "tortuga",
-    "conejo",
-    "rana",
-    "pulpo",
-    "ardilla",
-    "jirafa",
-    "cocodrilo",
-    "pingüino",
-    "delfín",
-    "serpiente",
-    "hámster",
-    "mosquito",
-    "abeja",
-]
+/*let handler = m => m
+handler.all = async function (m) {
+let setting = global.db.data.settings[this.user.jid]
 
-const intentosMaximos = 10
-
-const gam = new Map()
-
-function elegirPalabraAleatoria() {
-return palabras[Math.floor(Math.random() * palabras.length)]
-}
-
-function ocultarPalabra(palabra, letrasAdivinadas) {
-let palabraOculta = ""
-for (const letra of palabra) {
-if (letrasAdivinadas.includes(letra)) {
-palabraOculta += letra
-} else {
-palabraOculta += "_"
-}}
-return palabraOculta
-}
-
-function mostrarAhorcado(intentos) {
-const dibujo = [
-" ____",
-" |  |",
-intentos < 6 ? " |  O" : " |",
-intentos < 5 ? " | /" : intentos < 4 ? " | / " : intentos < 3 ? " | / \\" : intentos < 2 ? " | / \\ " : " |",
-intentos < 2 ? "_|_" : " |",
-]
-return dibujo.slice(0, intentosMaximos - intentos).join("\n")
-}
-
-function juegoTerminado(sender, mensaje, palabra, letrasAdivinadas, intentos) {
-if (intentos === 0) {
-gam.delete(sender)
-return `¡Perdiste! La palabra era "${palabra}".\n\n${mostrarAhorcado(intentos)}`
-} else if (!mensaje.includes("_")) {
-gam.delete(sender)
-return `¡Ganaste! Adivinaste la palabra "${palabra}".`
-} else {
-return `${mensaje}\n\n${mostrarAhorcado(intentos)}`
-}}
-let handler = async (m, { conn }) => {
-let users = global.db.data.users[m.sender]
-if (gam.has(m.sender)) {
-return conn.reply(m.chat, "Ya tienes un juego en curso. ¡Termina ese primero!", m)
-}
-let palabra = elegirPalabraAleatoria()
-let letrasAdivinadas = []
-let intentos = intentosMaximos
-let mensaje = ocultarPalabra(palabra, letrasAdivinadas)
-gam.set(m.sender, { palabra, letrasAdivinadas, intentos })
-let ejemplo = `¡Bienvenido al juego del ahorcado! Adivina la palabra:\n\n${mensaje}\n\nIntentos restantes: ${intentos}`
-let instrucciones = `Para adivinar letras, envía una letra a la vez. Por ejemplo, si crees que la letra "a" está en la palabra, envía "a". Si adivinas incorrectamente 6 veces, pierdes el juego.\n\n*NOTA:* *• Lamentamos informarles que este juego no da xp ni coins, solo se hizo con el fin de entretener y que sea usado*`
-conn.reply(m.chat, ejemplo + "\n\n" + instrucciones, m)
-}
-
-handler.before = async (m, { conn }) => {
-let users = global.db.data.users[m.sender]
-let juego = gam.get(m.sender)
-if (!juego) return
-let { palabra, letrasAdivinadas, intentos } = juego
-if (m.text.length === 1 && m.text.match(/[a-zA-Z]/)) {
-let letra = m.text.toLowerCase()
-if (!letrasAdivinadas.includes(letra)) {
-letrasAdivinadas.push(letra)
-if (!palabra.includes(letra)) {
-intentos--
-}
-}
-let mensaje = ocultarPalabra(palabra, letrasAdivinadas)
-let respuesta = juegoTerminado(m.sender, mensaje, palabra, letrasAdivinadas, intentos)
-if (respuesta.includes("¡Perdiste!") || respuesta.includes("¡Ganaste!")) {
- conn.reply(m.chat, respuesta, m)
-} else {
-gam.set(m.sender, { palabra, letrasAdivinadas, intentos })
-conn.reply(m.chat, respuesta + `\n\nIntentos restantes: ${intentos}`, m)
-}
-} else {
-let mensaje = ocultarPalabra(palabra, letrasAdivinadas);
-let respuesta = juegoTerminado(m.sender, mensaje, palabra, letrasAdivinadas, intentos)
-conn.reply(m.chat, respuesta, m)
-gam.delete(m.sender)
-}
-}
-handler.help = ['ahorcado']
-handler.tags = ['fun']
-handler.command = ['ahorcado']
+let _uptime = process.uptime() * 1000
+let _muptime
+if (process.send) { process.send('uptime')
+_muptime = await new Promise(resolve => { process.once('message', resolve) 
+setTimeout(resolve, 2000) }) * 1000}
+let uptime = clockString(_uptime)
+let bio = `𝗕𝗼𝘁: ${[`𝖲𝖺𝗄𝗎𝗋𝖺𝖡𝗈𝗍𝖫𝗂𝗍𝖾-𝖬𝖣 🧿`, `𝖲𝖺𝗄𝗎𝗋𝖺-𝖡𝗈𝗍-𝖫𝗂𝗍𝖾-𝖬𝖣 🌼`].getRandom()}                                        
+                                        𝗔𝗰𝘁𝗶𝘃𝗮: ${uptime}                                                                                 𝗢𝘄𝗻𝗲𝗿: ${[`𝖣𝗂𝖾𝗀𝗈 𝖮𝖿𝗂𝖼𝗂𝖺𝗅 💋`, `𝖣𝗂𝖾𝗀𝗈 𝖲𝖪 💜`].getRandom()}` 
+await this.updateProfileStatus(bio).catch(_ => _)
+setting.status = new Date() * 1
+} 
 export default handler
+
+function clockString(ms) {
+  let d = isNaN(ms) ? '--' : Math.floor(ms / 86400000)
+  let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
+  let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
+  let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+  return [d, ' » ', h, ' ・ ', m, ' ・ ', s].map(v => v.toString().padStart(2, 0)).join('') 
+}*/
