@@ -21,7 +21,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
 
-await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*',  fkontak2, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 ¡𝗛𝗼𝗹𝗮!', body:  'Botsito', sourceUrl: global.yt }}})
+await conn.reply(m.chat, '*Enviando El Menu Del Bot 💋*', fkontak2, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: saludo, sourceUrl: global.channel }}})
 
 await conn.sendMessage(m.chat, { react: { text: '⭐️', key: m.key } })
 
