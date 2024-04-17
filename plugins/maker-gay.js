@@ -7,7 +7,7 @@ const handler = async (m, {conn}) => {
   await conn.sendMessage(m.chat, {audio: {url: vn}, fileName: `error.mp3`, mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
 };
 handler.help = ['gay'];
-handler.tags = ['game'];
+handler.tags = ['fun'];
 handler.command = /^(gay)$/i;
 handler.register = true
 export default handler;
