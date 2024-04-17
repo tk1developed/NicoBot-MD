@@ -29,7 +29,7 @@ RESPONDE A ESTE MENSAJE CON LAS RESPUESTAS!`.trim();
   if (!aa) return conn.sendFile(m.chat, json.link_song, 'coba-lagi.mp3', '', m);
 };
 handler.help = ['tebaklagu'];
-handler.tags = ['game'];
+handler.tags = ['fun'];
 handler.command = /^cancion|canción$/i;
 export default handler;
 async function fetchJson(url, options) {
