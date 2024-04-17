@@ -53,6 +53,6 @@ function handler(m, {groupMetadata, command, conn, participants}) {
   }
 }
 handler.help = handler.command = ['topgays', 'topotakus'];
-handler.tags = ['games'];
+handler.tags = ['fun'];
 handler.group = true;
 export default handler;
