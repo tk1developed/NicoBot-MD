@@ -17,7 +17,7 @@ const handler = async (m, {conn, args: [effect], text: txt, usedPrefix, command,
   await conn.sendMessage(m.chat, {image: {url: res.image}, caption: `*𝚃𝙾𝙼𝙰 𝚃𝚄 𝙸𝙼𝙰𝙶𝙴𝙽 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻𝙸𝚉𝙰𝙳𝙰!!*\n*𝙴𝙵𝙴𝙲𝚃𝙾: ${effect}*`}, {quoted: m});  
 };
 handler.help = ['logos'];
-handler.tags = ['nulis'];
+handler.tags = ['transformador'];
 handler.command = /^(logo|logos|logos2)$/i;
 export default handler;
 
