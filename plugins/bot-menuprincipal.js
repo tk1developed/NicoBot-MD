@@ -187,7 +187,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     let pp2 = 'https://telegra.ph/file/3956f8ab5f8896406f77c.mp4'
 
     let img = await (await fetch('https://tinyurl.com/2y223gks')).buffer()  
-await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: saludo, sourceUrl: global.yt, thumbnail: imagen6 }}})
+await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', est, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: saludo, sourceUrl: global.yt, thumbnail: imagen6 }}})
     
 
 await conn.sendMessage(m.chat, { react: { text: '⭐️', key: m.key } })
@@ -195,7 +195,7 @@ await conn.sendMessage(m.chat, { react: { text: '⭐️', key: m.key } })
 //await conn.sendFile(m.chat, wm, text.trim(), img, img, channel, m)
 
     
-    conn.sendMessage(m.chat, { video: { url: [pp1, pp2].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: m })
+    conn.sendMessage(m.chat, { video: { url: [pp1, pp2].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: est })
 
    //let img = await (await fetch('https://tinyurl.com/242jfywv')).buffer() 
 
@@ -223,6 +223,8 @@ function clockString(ms) {
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
 }
+
+const est = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'ꤸ𒐴𝐙𝚵𝐑𝚯 𝜯𝑾𝚯𒂟𓆪\nCreated By おElias', orderTitle: 'Bang', thumbnail: imagen6, sellerJid: '0@s.whatsapp.net'}}}
 
   var ase = new Date();
   var hour = ase.getHours();
