@@ -14,7 +14,7 @@ import { xpRange } from '../lib/levelling.js'
   'img': 'IMAGENES',
   'group': 'GRUPOS',
   'logo': 'MAKER - LOGOS',
-  'enable': 'ON - OFF', 
+  'internet': 'INTERNET', 
   'premium': 'PREMIUM',
   'downloader': 'DESCARGAS',
   'tools': 'HERRAMIENTAS',
