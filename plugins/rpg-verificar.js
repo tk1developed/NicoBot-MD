@@ -24,7 +24,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   let img = await (await fetch('https://telegra.ph/file/015dd23bace0fe0c9bc9d.jpg')).buffer()  
   let str = ` Rᴇɢɪsᴛʀᴏ - Usᴜᴀʀɪᴏ 🚩
 
-🌩 *Nᴏᴍʙʀᴇ:* ${name}
+🌩 *Nᴏᴍʙʀᴇ* : ${name}
 💚 *Eᴅᴀᴅ* : ${age} años
 🌼 *Nᴜᴍᴇʀᴏ ᴅᴇ sᴇʀɪᴇ* :
 ${sn}`
