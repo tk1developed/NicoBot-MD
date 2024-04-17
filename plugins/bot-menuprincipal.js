@@ -32,6 +32,15 @@ import { xpRange } from '../lib/levelling.js'
   'gata': 'GATA',
   'owner': 'CREADOR', 
   'audio': 'EFECTO - AUDIO', 
+  'info': 'INFORMACIÓN',
+  'nulis': 'NULIS',
+  'maker': 'MAKER',
+  'ai': 'AI',
+  'music': 'MUSIC',
+  'adm': 'ADMINISTRADOR',
+  'herramientas': 'HERRAMIENTAS',
+  'General': 'GENERAL',
+  'transformador': 'TRANSFORMADOR',
   'juegos': 'JUEGOS',
 }
 
