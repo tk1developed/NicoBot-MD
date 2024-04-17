@@ -4,38 +4,38 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 
   let tags = {
-  'main': 'I N F O',
-  'search': 'BUSQUEDAS',
-  'jadibot': 'SUB  BOTS',
-  'rpg': 'ECONOMIA',
-  'rg': 'REGISTRO',
-  'sticker': 'STICKER',
-  'xp': 'EXP',
-  'calculator': 'CALCULATOR',
-  'fix': 'FIX',
-  'group': 'GRUPOS',
-  'buscadores': 'BUSCADORES',
-  'database': 'DATABASE',
-  'internet': 'INTERNET', 
-  'stalk': 'STALK',
-  'premium': 'PREMIUM',
-  'frases': 'FRASES',
-  'downloader': 'DESCARGAS',
-  'tools': 'HERRAMIENTAS',
-  'fun': 'DIVERSIONES',
-  'nsfw': 'NSFW', 
-  'image': 'IMAGE',
-  'random': 'RANDOM',
-  'anime': 'ANIMES',
-  'advanced': 'ADVANCED',
-  'owner': 'CREADOR', 
-  'audio': 'EFECTO - AUDIO', 
-  'info': 'INFORMACIÓN',
-  'ai': 'AI',
-  'adm': 'ADMINISTRADOR',
-  'General': 'GENERAL',
-  'maker': 'MAKER',
-  'transformador': 'CONVERTIDOR',
+  'main': 'Iɴғᴏ',
+  'search': 'Bᴜsǫᴜᴇᴅᴀs',
+  'jadibot': 'Sᴜʙ Jᴀᴅɪʙᴏᴛs',
+  'rpg': 'Eᴄᴏɴᴏᴍɪᴀ',
+  'rg': 'Rᴇɢɪsᴛʀᴏ',
+  'sticker': 'Sᴛɪᴄᴋᴇʀ',
+  'xp': 'Exᴘ',
+  'calculator': 'Cᴀʟᴄᴜʟᴀᴛᴏʀ',
+  'fix': 'Fɪx',
+  'group': 'Gʀᴜᴘᴏs',
+  'buscadores': 'Bᴜsᴄᴀᴅᴏʀᴇs',
+  'database': 'Dᴀᴛᴀʙᴀsᴇ',
+  'internet': 'Iɴᴛᴇʀɴᴇᴛ', 
+  'stalk': 'Sᴛᴀʟᴋ',
+  'premium': 'Pʀᴇᴍɪᴜᴍ',
+  'frases': 'Fʀᴀsᴇs',
+  'downloader': 'Dᴇsᴄᴀʀɢᴀs',
+  'tools': 'Hᴇʀʀᴀᴍɪᴇɴᴛᴀs',
+  'fun': 'Dɪᴠᴇʀsɪᴏɴᴇs',
+  'nsfw': 'Nsғᴡ', 
+  'image': 'Iᴍᴀɢᴇ',
+  'random': 'Rᴀɴᴅᴏᴍ',
+  'anime': 'Aɴɪᴍᴇs',
+  'advanced': 'Aᴠᴀɴᴄᴇᴅ',
+  'owner': 'Pʀᴏᴘɪᴇᴛᴀʀɪᴏ', 
+  'audio': 'Eғᴇᴄᴛᴏ - Aᴜᴅɪᴏ', 
+  'info': 'Iɴғᴏʀᴍᴀᴄɪᴏɴ',
+  'ai': 'Aɪ',
+  'adm': 'Aᴅᴍɪɴ',
+  'General': 'Gᴇɴᴇʀᴀʟ',
+  'maker': 'Mᴀᴋᴇʀ',
+  'transformador': 'Cᴏᴍᴠᴇʀᴛɪᴅᴏʀᴇs',
 }
 
 const defaultMenu = {
@@ -57,23 +57,24 @@ const defaultMenu = {
  ✰્᭄͜͡ *Nɪᴠᴇʟ* : %level 
 *✧━─━─✰──✧ - ✧──✰─━─━✧*
 %readmore
-╔═══════⩽✰⩾═══════╗
-║				𝐌𝐄𝐍𝐔 - 𝐈𝐍𝐅𝐎
-╠═══════⩽✰⩾═══════╝
-║╭──────────────┄
-║│  ⃪⃮⃔⃝✰ *.owner*
-║│  ⃪⃮⃔⃝✰ *.grupos*
-║│  ⃪⃮⃔⃝✰ *.info*
-║│  ⃪⃮⃔⃝✰ *.menu*
-║│  ⃪⃮⃔⃝✰ *.ping*
-║│  ⃪⃮⃔⃝✰ *.runtime*
-║│  ⃪⃮⃔⃝✰ *.totalfunciones*
-║│  ⃪⃮⃔⃝✰ *.blocklist*
-║╰──────────────┄
-╚═══════⩽✰⩾═══════╝
+╭✦⢄✩*⢄⢁ ☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬◌⃘۪֟፝֯۫۫︎۫۬🍨⃘⃪۪֟፝֯۫۫۫۬◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸ ⡠*✩⡠✦╮
+│╭━━━━━━━━━━━━━━━━╮
+││ 「Mᴇɴᴜ - Iɴғᴏ」
+│├━━━━━━━━━━━━━━━━╯
+││  ⃪⃮⃔⃝✰ *.owner*
+││  ⃪⃮⃔⃝✰ *.grupos*
+││  ⃪⃮⃔⃝✰ *.info*
+││  ⃪⃮⃔⃝✰ *.menu*
+││  ⃪⃮⃔⃝✰ *.ping*
+││  ⃪⃮⃔⃝✰ *.runtime*
+││  ⃪⃮⃔⃝✰ *.totalfunciones*
+││  ⃪⃮⃔⃝✰ *.blocklist*
+│╰─────────────────
+╰─ - ✦⢄⢁✩*⢄⢁✧⡠*✩⡈⡠✦ - ─╯
+
          *乂 ⺀ ʟɪꜱᴛᴀ - ᴄᴏᴍᴀɴᴅᴏꜱ ⺀ 乂*
 `.trimStart(),
-  header: '╭✦⢄✩*⢄⢁☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬◌⃘۪֟፝֯۫۫︎۫۬🤖⃘⃪۪֟፝֯۫۫۫۬◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸⡠*✩⡠✦╮\n│╭─────────────────\n││\t\t「 %category 」 \n│├━━━━━━━━━━━━━━━━╯',
+  header: '╭✦⢄✩*⢄⢁ ☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬◌⃘۪֟፝֯۫۫︎۫۬🍨⃘⃪۪֟፝֯۫۫۫۬◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸ ⡠*✩⡠✦╮\n│╭━━━━━━━━━━━━━━━━╮\n││\t\t「 %category 」 \n│├━━━━━━━━━━━━━━━━╯',
   body: '││  ⃪⃮⃔⃝✰ *%cmd*\n',
   footer: '│╰─────────────────\n╰─ - ✦⢄⢁✩*⢄⢁✧⡠*✩⡈⡠✦ - ─╯\n',
   after: 'Bʏ: おDɪᴇɢᴏ Oғᴄ',
