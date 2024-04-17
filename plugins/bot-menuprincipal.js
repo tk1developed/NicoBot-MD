@@ -35,7 +35,7 @@ import { xpRange } from '../lib/levelling.js'
   'adm': 'Aᴅᴍɪɴ',
   'General': 'Gᴇɴᴇʀᴀʟ',
   'maker': 'Mᴀᴋᴇʀ',
-  'transformador': 'Cᴏᴍᴠᴇʀᴛɪᴅᴏʀᴇs',
+  'transformador': 'Cᴏɴᴠᴇʀᴛɪᴅᴏʀᴇs',
 }
 
 const defaultMenu = {
@@ -66,8 +66,7 @@ const defaultMenu = {
 ││  ⃪⃮⃔⃝✰ *.info*
 ││  ⃪⃮⃔⃝✰ *.menu*
 ││  ⃪⃮⃔⃝✰ *.ping*
-││  ⃪⃮⃔⃝✰ *.runtime*
-││  ⃪⃮⃔⃝✰ *.totalfunciones*
+││  ⃪⃮⃔⃝✰ *.contactos*
 ││  ⃪⃮⃔⃝✰ *.blocklist*
 │╰─────────────────
 ╰─ - ✦⢄⢁✩*⢄⢁✧⡠*✩⡈⡠✦ - ─╯
