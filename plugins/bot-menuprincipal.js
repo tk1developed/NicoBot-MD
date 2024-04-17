@@ -163,12 +163,10 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
-    let pp = 'https://telegra.ph/file/299a96d02df317a666298.mp4'
-    let pp2 = 'https://telegra.ph/file/ebdd21ac78c5c66d272a4.mp4'
-    let pp3 = 'https://telegra.ph/file/90b730e225b2783b06fc1.mp4'
-    let pp4 = 'https://telegra.ph/file/584ccba841aac93d2f4e6.mp4'
-    let pp5 = 'https://tinyurl.com/28s29ls8'
-    let pp6 = 'https://tinyurl.com/2ygfsfwt'
+  
+   let pp1 = 'https://telegra.ph/file/cab0bf344ba83d79c1a47.mp4'
+    let pp2 = 'https://telegra.ph/file/3956f8ab5f8896406f77c.mp4'
+
     let img = await (await fetch('https://tinyurl.com/2y223gks')).buffer()  
 await conn.reply(m.chat, '*Enviando El Menu Del Bot 💋*', m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: saludo, sourceUrl: global.channel }}})
    //await m.react('🌼')
@@ -176,7 +174,7 @@ await conn.reply(m.chat, '*Enviando El Menu Del Bot 💋*', m, { contextInfo:{ f
 //await conn.sendFile(m.chat, wm, text.trim(), img, img, channel, m)
 
     //m.react('⭐')
-    conn.sendMessage(m.chat, { video: { url: [pp, pp2, pp3, pp4, pp5, pp6].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: m })
+    conn.sendMessage(m.chat, { video: { url: [pp1, pp2].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: m })
 
    //let img = await (await fetch('https://tinyurl.com/242jfywv')).buffer() 
 
