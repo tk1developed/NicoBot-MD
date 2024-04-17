@@ -1,5 +1,5 @@
 import fg from 'api-dylux' 
-import axios from "axios"
+//import axios from "axios"
 import { tiktokdl } from '@bochilteam/scraper'
 let handler = async (m, { conn, text, args, usedPrefix, command}) => {
 if (!args[0]) throw `🚩 Ingresa el enlace del vídeo de TikTok.`
