@@ -34,7 +34,7 @@ contextInfo: {
 forwardingScore: 9999, 
 isForwarded: true, 
 externalAdReply: {
-title: wm,
+title: packname,
 body: saludo,
 thumbnailUrl: img,
 thumbnail: img,
