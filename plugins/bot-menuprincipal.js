@@ -7,7 +7,7 @@ import { xpRange } from '../lib/levelling.js'
   'main': 'I N F O',
   'search': 'BUSQUEDAS',
   'game': 'JUEGOS',
-  //'serbot': 'SUB  BOTS',
+  'jadibot': 'SUB  BOTS',
   'rpg': 'ECONOMIA',
   'rg': 'REGISTRO',
   'sticker': 'STICKER',
@@ -22,7 +22,7 @@ import { xpRange } from '../lib/levelling.js'
   'nsfw': 'NSFW', 
   'cmd': 'DATABASE',
   'owner': 'CREADOR', 
-  //'audio': 'EFECTO - AUDIO', 
+  'audio': 'EFECTO - AUDIO', 
   //'advanced': 'AVANZADO',
 }
 
