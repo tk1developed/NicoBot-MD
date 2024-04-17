@@ -40,7 +40,7 @@ const handler = async (m, {conn, isPrems}) => { // lastmiming
   user.lastcoins = new Date * 1;
 };
 handler.help = ['minar2'];
-handler.tags = ['rg'];
+handler.tags = ['gata'];
 handler.command = ['minar2', 'miming2', 'mine2', 'minarsakucoins', 'minarcoins', 'minarshin'];
 handler.fail = null;
 handler.exp = 0;
