@@ -34,11 +34,11 @@ contextInfo: {
 forwardingScore: 9999, 
 isForwarded: true, 
 externalAdReply: {
-title: botname,
+title: wm,
 body: textbot,
 thumbnailUrl: img,
 thumbnail: img,
-sourceUrl: global.canal,
+sourceUrl: global.channel,
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
