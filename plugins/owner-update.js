@@ -34,7 +34,7 @@ await conn.reply(m.chat, errorMessage2,)
 
 }
 handler.help = ['update', 'actualizar']
-handler.tags = ['own']
+handler.tags = ['owner']
 handler.command = /^(update|actualizar|gitpull)$/i
 handler.rowner = true
 
