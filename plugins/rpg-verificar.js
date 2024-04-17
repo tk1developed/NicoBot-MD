@@ -21,12 +21,12 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   user.regTime = + new Date
   user.registered = true
   let sn = createHash('md5').update(m.sender).digest('hex')
-  let img = await (await fetch('https://tinyurl.com/225ul2sg')).buffer()  
-  let str = `*–  R E G I S T R O  -  U S E R  –*
+  let img = await (await fetch('https://telegra.ph/file/015dd23bace0fe0c9bc9d.jpg')).buffer()  
+  let str = ` Rᴇɢɪsᴛʀᴏ - Usᴜᴀʀɪᴏ 🚩
 
-✧ *Nombre:* ${name}
-✧ *Edad* : ${age} años
-✧ *Numero de serie* :
+✧ *Nᴏᴍʙʀᴇ:* ${name}
+✧ *Eᴅᴀᴅ* : ${age} años
+✧ *Nᴜᴍᴇʀᴏ ᴅᴇ sᴇʀɪᴇ* :
 ${sn}`
 conn.sendMessage(m.chat, {
 text: str,
