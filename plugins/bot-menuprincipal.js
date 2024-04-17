@@ -40,7 +40,7 @@ import { xpRange } from '../lib/levelling.js'
 
 const defaultMenu = {
   before: `
-*%saludo %taguser*
+*%taguser*
 
          *☩ ⺀ Iɴғᴏ Bᴏᴛ ⺀ ☩*
  ➣ *Vᴇʀɪғɪᴄᴀᴅᴏs* : %totalreg
