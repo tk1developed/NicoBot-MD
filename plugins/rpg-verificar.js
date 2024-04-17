@@ -35,7 +35,7 @@ forwardingScore: 9999,
 isForwarded: true, 
 externalAdReply: {
 title: wm,
-body: textbot,
+body: saludo,
 thumbnailUrl: img,
 thumbnail: img,
 sourceUrl: global.channel,
