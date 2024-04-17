@@ -33,8 +33,6 @@ import { xpRange } from '../lib/levelling.js'
   'random': 'RANDOM',
   'anime': 'ANIMES',
   'advanced': 'ADVANCED',
-  'own': 'OWNER',
-  'gata': 'GATA',
   'owner': 'CREADOR', 
   'audio': 'EFECTO - AUDIO', 
   'info': 'INFORMACIÓN',
