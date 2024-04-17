@@ -19,7 +19,7 @@ throw '📍 *Ocurrió Un Error*'
 }
 handler.command = ['bard']
 handler.help = ['bard']
-handler.tags = ['herramientas']
+handler.tags = ['tools']
 
 handler.premium = false
 
