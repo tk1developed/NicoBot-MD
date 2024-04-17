@@ -10,7 +10,7 @@ let handler = async (m, { conn }) => {
   conn.sendFile(m.chat, pickRandom(da), 'dado.webp', '', m)
 }
 handler.help = ['dado']
-handler.tags = ['game']
+handler.tags = ['fun']
 handler.customPrefix = /dado|lancia/i
 handler.command = new RegExp
 export default handler
