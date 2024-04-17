@@ -68,7 +68,7 @@ const handler = async (m, {
   }
 };
 handler.help = ['dropmail'];
-handler.tags = ['misc'];
+handler.tags = ['tools'];
 handler.command = /^(dropmail)$/i;
 export default handler;
 
