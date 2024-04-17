@@ -27,6 +27,6 @@ const handler = async (m, {conn, usedPrefix}) => {
     }, timeout)];
 };
 handler.help = ['acertijo'];
-handler.tags = ['game'];
+handler.tags = ['fun'];
 handler.command = /^(acertijo|acert|adivinanza|tekateki)$/i;
 export default handler;
