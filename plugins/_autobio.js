@@ -21,7 +21,7 @@ const palabras = [
     "abeja",
 ]
 
-const intentosMaximos = 6
+const intentosMaximos = 10
 
 const gam = new Map()
 
