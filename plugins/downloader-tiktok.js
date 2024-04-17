@@ -1,4 +1,5 @@
-import fg from 'api-dylux'
+import fg from 'api-dylux' 
+import axios from "axios"
 import { tiktokdl } from '@bochilteam/scraper'
 
 var handler = async (m, { conn, text, args, usedPrefix, command}) => {
