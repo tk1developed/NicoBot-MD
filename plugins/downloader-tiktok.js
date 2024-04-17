@@ -4,7 +4,7 @@ import { tiktokdl } from '@bochilteam/scraper'
 let handler = async (m, { conn, text, args, usedPrefix, command}) => {
 if (!args[0]) throw `🚩 Ingresa el enlace del vídeo de TikTok.`
 if (!args[0].match(/tiktok/gi)) return conn.reply(m.chat, `Verifica que el link sea de TikTok`,  m).then(_ => m.react('✖️'))
-await m.react('🕓')
+//await m.react('🕓')
 try {
 let tiktokData = await tryServer1(args[0])
 if (!tiktokData) { return m.react('✖️')}
@@ -18,9 +18,9 @@ let txt = `*乂  T I K T O K  -  D O W N L O A D*\n\n`
     txt += `	✩  *Comentarios* : ${tiktokData.stats.commentCount}\n`
     txt += `	✩  *Share* : ${tiktokData.stats.shareCount}\n`
     txt += `	✩  *Visitas* : ${tiktokData.stats.playCount}\n\n`
-    txt += `🚩 *${textbot}*`
+    txt += `🚩 *${saludo}*`
 await conn.sendMessage(m.chat, { video: { url: videoURL }, caption: txt }, { quoted: m})
-await m.react('✅')
+//await m.react('✅')
 } catch {
 try {
 let tiktokData3 = await tryServer3(args[0])
@@ -38,23 +38,23 @@ let txt = `*乂  T I K T O K  -  D O W N L O A D*\n\n`
     txt += `	✩  *Share* : ${share_count}\n`
     txt += `	✩  *Visitas* : ${play_count}\n`
     txt += `	✩  *Tamaño* : ${sizeInMB_size} MB\n\n`
-    txt += `🚩 *${textbot}*`
+    txt += `🚩 *${saludo}*`
 await conn.sendMessage(m.chat, { video: { url: play }, caption: txt }, { quoted: m})
-await m.react('✅')
+//await m.react('✅')
 } catch {
 try {
 let p = await fg.tiktok(args[0])
 await conn.sendFile(m.chat, p.play, "out.png", listo, m)
-await m.react('✅')
+//await m.react('✅')
 } catch {
 try {
 const { video } = await tiktokdl(args[0])
 const url = video.no_watermark2 || video.no_watermark || 'https://tikcdn.net' + video.no_watermark_raw || video.no_watermark_hd
 if (!url) return m.react('✖️')
 await conn.sendFile(m.chat, url, "out.png", listo, m)
-await m.react('✅')
+//await m.react('✅')
 } catch {
-await m.react('✖️')
+//await m.react('✖️')
 }}}}}
 handler.help = ['tiktok *<url tt>*']
 handler.tags = ['downloader']
