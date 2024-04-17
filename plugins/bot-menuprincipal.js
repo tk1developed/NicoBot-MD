@@ -42,7 +42,7 @@ const defaultMenu = {
   before: `
 *✰.｡.『 𝐒𝐚𝐤𝐮𝐫𝐚 - 𝐁𝐨𝐭 - 𝐌𝐃 』.｡.✰*
 
-,*Hola %taguser 👋, Soy SakuraBot ;)*
+*Hola %taguser 👋, Soy SakuraBot ;)*
 
          *☩ ⺀ Iɴғᴏ Bᴏᴛ ⺀ ☩*
  ✰્᭄͜͡ *Vᴇʀɪғɪᴄᴀᴅᴏs* : %totalreg
