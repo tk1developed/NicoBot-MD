@@ -35,7 +35,7 @@ Ocurrió un error al descargar el video de Facebook: ${error.message}`;
 };
 
 handler.help = ['fb'];
-handler.tags = ['dl'];
+handler.tags = ['downloader'];
 handler.command = ['fb', 'face'];
 
 handler.register = true;
