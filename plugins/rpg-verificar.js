@@ -46,6 +46,6 @@ renderLargerThumbnail: true
 handler.help = ['reg'].map(v => v + ' *<nombre.edad>*')
 handler.tags = ['rg']
 
-handler.command = ['verify', 'reg', 'register', 'registrar'] 
+handler.command = ['verify', 'reg', 'verificar', 'registrar'] 
 
 export default handler
