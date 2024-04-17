@@ -39,7 +39,7 @@ global.wm = 'Sakura : Bot 🌹';
 global.titulowm = '𝗦𝖺𝗄𝗎𝗋𝖺 : 𝗕𝗈𝗍';
 global.titulowm2 = `𝘿𝙞𝙚𝙜𝙤 𝙊𝙛𝙞𝙘𝙞𝙖𝙡`
 global.igfg = 'Diego Oficial';
-global.sk = 'Rᴇɢɪsᴛʀᴀᴅᴏ Pᴏʀ: SᴀᴋᴜʀᴀBᴏᴛ';
+global.sk = 'Rᴇɢɪsᴛʀᴀᴅᴏ Pᴏʀ : SᴀᴋᴜʀᴀBᴏᴛ';
 global.vs = '1.0.7';
 global.vsJB = '1.0.2';
 
