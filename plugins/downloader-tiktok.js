@@ -42,7 +42,7 @@ conn.reply(m.chat, `🚩 *Ocurrió un fallo*`, m)
 
 }
 handler.help = ['tiktok']
-handler.tags = ['descargas']
+handler.tags = ['downloader']
 handler.command = /^(tiktok|ttdl|tiktokdl|tiktoknowm)$/i
 
 //handler.limit = true
