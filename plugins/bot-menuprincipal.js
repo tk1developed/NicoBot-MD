@@ -195,7 +195,7 @@ await conn.sendMessage(m.chat, { react: { text: '⭐️', key: m.key } })
 //await conn.sendFile(m.chat, wm, text.trim(), img, img, channel, m)
 
     
-    conn.sendMessage(m.chat, { video: { url: [pp1, pp2].getRandom() }, gifPlayback: true, caption: text.trim(), channel, mentions: [m.sender] }, { quoted: m })
+    conn.sendMessage(m.chat, { video: { url: [pp1, pp2].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: m })
 
    //let img = await (await fetch('https://tinyurl.com/242jfywv')).buffer() 
 
