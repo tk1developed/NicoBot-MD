@@ -161,7 +161,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 await conn.reply(m.chat, '*Enviando El Menu Del Bot 💋*', m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: saludo, sourceUrl: global.channel }}})
    //await m.react('🌼')
 
-await conn.sendAi(m.chat, wm, text.trim(), img, img, channel, m)
+await conn.sendFile(m.chat, wm, text.trim(), img, img, channel, m)
 
     //m.react('⭐')
     //conn.sendMessage(m.chat, { video: { url: [pp, pp2, pp3, pp4, pp5, pp6].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: estilo })
