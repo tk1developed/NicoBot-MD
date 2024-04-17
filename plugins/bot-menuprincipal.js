@@ -185,7 +185,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
    let pp1 = 'https://telegra.ph/file/cab0bf344ba83d79c1a47.mp4'
     let pp2 = 'https://telegra.ph/file/3956f8ab5f8896406f77c.mp4'
 
-    let img = await (await fetch('https://tinyurl.com/2y223gks')).buffer()  
+    //let img = await (await fetch('https://tinyurl.com/2y223gks')).buffer()  
+
 await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: saludo, sourceUrl: global.yt, thumbnail: imagen6 }}})
     
 
