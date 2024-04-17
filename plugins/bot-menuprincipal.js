@@ -34,6 +34,7 @@ import { xpRange } from '../lib/levelling.js'
   'ai': 'AI',
   'adm': 'ADMINISTRADOR',
   'General': 'GENERAL',
+  'maker': 'MAKER',
   'transformador': 'CONVERTIDOR',
 }
 
