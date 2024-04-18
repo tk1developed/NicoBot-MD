@@ -1,6 +1,6 @@
 > 🚩🧿Versión Del Bot: 1.0.7
 
-### Sakura : Bot - Lite - MD 🌸
+### Hoshino - MD 🪐
 <p align="center">
 <img src="https://telegra.ph/file/9379ac50c5285dc976e2e.png" alt="Bot-WhatsApp" width="900"/>
 </p>
@@ -13,13 +13,13 @@
 
 
 - ### 🌤Configuracion🧩
- Clonar Repo : SakuraBot [Aqui.](https://github.com/diegojadibot/SakuraBotLite-MD/fork)
+ Clonar Repo : HoshinoBot [Aqui.](https://github.com/diegojadibot/Hoshino-MD/fork)
 
 
 
 - ### 🧸Instalar Por Render🧩
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2diegojadibot%2FSakuraBotLite-MD) 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2diegojadibot%2FHoshino-MD) 
 
 - ### 📍Instalar Por Code Space🧸
 
@@ -38,7 +38,7 @@ termux-setup-storage
 ```
 
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/sakura.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/Hoshino-MD/master/sakura.sh | bash
 ```
 
 - #### 📍Instalacion Por Termux Manual👨‍💻
@@ -55,7 +55,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/diegojadibot/SakuraBotLite-MD && cd SakuraBotLite-MD
+git clone https://github.com/diegojadibot/Hoshino-MD && cd Hoshino-MD
 ```
 ```bash
 yarn install && npm install
@@ -68,21 +68,21 @@ npm start
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd SakuraBotLite-MD
+> cd Hoshino-MD
 > npm start
 ```
 
 - ### 📍Obtener Otro Codigo Qr👨‍💻 
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd SakuraBotLite-MD
+> cd Hoshino-MD
 > rm -rf SakuraBotSession
 > npm start
 ```
 - ### 📍Actualizar SakuraBot 🟢
-> Note Comandos para actualizar SakuraBotLite-MD de forma automática
+> Note Comandos para actualizar Hoshino-MD de forma automática
 ```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/update.sh | bash
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/diegojadibot/Hoshino-MD/master/update.sh | bash
 ```
 Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 
@@ -91,7 +91,7 @@ Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respa
 - ### 📍 Activar En Heroku 🚀
 para usuarios del heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/diegojadibot/SakuraBotLite-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/diegojadibot/Hoshino-MD)
 
 #### Heroku Buildpack
 | BuildPack | LINK |
