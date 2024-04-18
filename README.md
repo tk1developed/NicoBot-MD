@@ -5,36 +5,54 @@
 <img src="https://telegra.ph/file/9379ac50c5285dc976e2e.png" alt="Bot-WhatsApp" width="900"/>
 </p>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+<p align="center">
+
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
 
 > Si Deseas Probar El Bot Antes De Instalarlo, Click Abajo.🟢
 
 <a href="https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9"><img alt="📍 Grupo Oficial" src="https://img.shields.io/badge/Grupo-Oficial-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+<p align="center">
+
+
 
 - ### 🌤Configuracion🧩
  Clonar Repo : SakuraBot [Aqui.](https://github.com/diegojadibot/SakuraBotLite-MD/fork)
 
-> [!Warning]
-> Tenga en cuenta que para cualquier instalacion debe contar con una red estable y con los requisitos solicitados previamente.
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+<p align="center">
    
   
 - ### 🧸Instalar Por Render🧩
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2diegojadibot%2FSakuraBotLite-MD) 
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+<p align="center">
+
 - ### 📍Instalar Por Code Space🧸
 
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=738341999&ref=main&geo=UsEast)
 ***
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+<p align="center">
 
 - #### 📍Instalacion Por Termux Automatica🧸
 
 [![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/X-wQbVhLb8w?si=UdP9uM5SPFRY75nU)
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+<p align="center">
+
 [`🧩 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+<p align="center">
  
 ```bash
 termux-setup-storage
@@ -42,12 +60,18 @@ termux-setup-storage
 
 ```bash
 apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/sakura.sh | bash
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+<p align="center">
 ```
 
 - #### 📍Instalacion Por Termux Manual👨‍💻
 
 [![blog](https://img.shields.io/badge/Instalacion-Manual-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/9-v4XwMTJYE?si=STdO2GwZR1GAmXfA)
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+<p align="center">
 
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
@@ -67,6 +91,9 @@ yarn install && npm install
 npm start
 ```
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+<p align="center">
+
 - #### 📍Activar En Caso De Detenerse En Termux🧸
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
@@ -75,6 +102,9 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+<p align="center">
+
 - ### 📍Obtener Otro Codigo Qr👨‍💻 
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
@@ -82,6 +112,10 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > rm -rf SakuraBotSession
 > npm start
 ```
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+<p align="center">
+
 - ### 📍Actualizar SakuraBot 🟢
 > Note Comandos para actualizar SakuraBotLite-MD de forma automática
 ```bash
@@ -90,6 +124,9 @@ grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https:/
 Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 
 > Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+<p align="center">
 
 - ### 📍 Activar En Heroku 🚀
 para usuarios del heroku
@@ -104,10 +141,16 @@ para usuarios del heroku
 
 ***
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+<p align="center">
+
 
 ## <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Creator 🧸" width="42" height="42"> Creator 🧸
 
 * <a href="https://wa.me/573012482597"><img alt="Creator 🧸" src="https://img.shields.io/badge/Diego - Creator🧸-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+<p align="center">
 
 
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial 📍
@@ -116,9 +159,14 @@ para usuarios del heroku
 
 > No Spam Al Bot!
 ---------
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+<p align="center">
 
 ### Editor Y Propietario Del Bot 🌹⚡️
 <a
 href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="200" height="200" alt="Diego"/></a>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+<p align="center">
 
 ## Colaboradores Del Bot ✨️   [![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![Ender-GB-Isis777](https://github.com/Ender-GB-Isis777.png?size=100)](https://github.com/Ender-GB-Isis777) [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) [![MoonContentCreator](https://github.com/MoonContentCreator.png?size=100)](https://github.com/MoonContentCreator)
