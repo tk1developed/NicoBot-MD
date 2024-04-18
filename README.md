@@ -26,9 +26,6 @@
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=738341999&ref=main&geo=UsEast)
 ***
 
-> [!tip]
-> Tenga en cuenta que para cualquier instalacion debe contar con una red estable y con los requisitos solicitados previamente.
-
 
 - #### 📍Instalacion Por Termux Automatica🧸
 
@@ -83,7 +80,8 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > rm -rf SakuraBotSession
 > npm start
 ```
-- ### 📍Actualizar SakuraBot 🟢
+> [!Warning]
+> 📍Actualizar SakuraBot 🟢
 > Note Comandos para actualizar SakuraBotLite-MD de forma automática
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/update.sh | bash
@@ -92,7 +90,8 @@ Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respa
 
 > Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
 
-- ### 📍 Activar En Heroku 🚀
+> [!tip]
+> 📍 Activar En Heroku 🚀
 para usuarios del heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/diegojadibot/SakuraBotLite-MD)
