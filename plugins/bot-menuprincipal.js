@@ -174,18 +174,12 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     let pp4 = 'https://telegra.ph/file/a93526e2cec4c7fa92cbf.mp4' 
     let pp5 = 'https://telegra.ph/file/a0666882afc04ffe05f8c.mp4' 
     let pp6 = 'https://telegra.ph/file/7ac3bde746aeb986c2aa6.mp4' 
-    //let img = await (await fetch('https://tinyurl.com/2y223gks')).buffer()  
-   //await m.react('🪷') 
-   
-//await conn.sendAi(m.chat, botname, text.trim(), img, img, canal, estilo) 
+     
+ 
+    conn.sendMessage(m.chat, { video: { url: [pp, pp2, pp3, pp4, pp5, pp6].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: m }) 
     
-    m.react('🪷') 
-    conn.sendMessage(m.chat, { video: { url: [pp, pp2, pp3, pp4, pp5, pp6].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: estilo }) 
-    
-      await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', estilo, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: saludo, sourceUrl: global.channel }}})
-   //let img = await (await fetch('https://tinyurl.com/242jfywv')).buffer() 
-   
-//conn.sendFile(m.chat, img, 'out.png', text.trim(), m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': true, externalAdReply:{ showAdAttribution: false, title: gcname, body: `h`, mediaType: 2, sourceUrl: canal, thumbnail: miniurl}, mentions: [m.sender]}}, { quoted: m }) 
+      
+  
 
   } catch (e) { 
     conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error.', m) 
