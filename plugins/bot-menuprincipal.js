@@ -4,7 +4,7 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js' 
 
   let tags = { 
-  ' 'main': 'Iɴғᴏ',
+  'main': 'Iɴғᴏ',
   'search': 'Bᴜsǫᴜᴇᴅᴀs',
   'jadibot': 'Sᴜʙ Jᴀᴅɪʙᴏᴛs',
   'rpg': 'Eᴄᴏɴᴏᴍɪᴀ',
@@ -35,7 +35,7 @@ const defaultMenu = {
   before: ` 
 ✶⊶⊷⊶⊷✶ 「ZᴇʀᴏTᴡᴏBᴏᴛ」 ✶⊶⊷⊶⊷✶
 
-*%greeting %taguser*
+*Hola %taguser 👋 Soy ZeroTwo ;)*
 
 ╭━─━─━─≪✠≫─━─━─━╮
 ╏   「Iɴғᴏ Bᴏᴛ」 
