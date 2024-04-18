@@ -26,7 +26,7 @@
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=738341999&ref=main&geo=UsEast)
 ***
 
-> [!Warning]
+> [!tip]
 > Tenga en cuenta que para cualquier instalacion debe contar con una red estable y con los requisitos solicitados previamente.
 
 
