@@ -15,6 +15,9 @@
 - ### 🌤Configuracion🧩
  Clonar Repo : SakuraBot [Aqui.](https://github.com/diegojadibot/SakuraBotLite-MD/fork)
 
+> [!Warning]
+> Tenga en cuenta que para cualquier instalacion debe contar con una red estable y con los requisitos solicitados previamente.
+
    
   
 - ### 🧸Instalar Por Render🧩
