@@ -8,10 +8,10 @@ const handler = async (m, { conn, usedPrefix }) => {
     return conn.sendMessage(m.chat, {text: '*🧸 Tienes Que Utilizarlo En El Numero Del Bot Oficial.*'}, {quoted: m});
   }
   await conn.sendMessage(m.chat, {text: '*🧩 Iɴɪᴄɪᴀɴᴅᴏ Eʟ Pʀᴏᴄᴇsᴏ Dᴇ Eʟɪᴍɪɴᴀᴄɪᴏ́ɴ Dᴇ Tᴏᴅᴏs Lᴏs Aʀᴄʜɪᴠᴏs Dᴇ Sᴇssɪᴏɴ, Exᴇᴄᴛᴏ Eʟ Aʀᴄʜɪᴠᴏ creds.json...*'}, {quoted: m});
-  const sessionPath = './SakuraBotSession/';
+  const sessionPath = './MultiverseSession/';
   try {
     if (!existsSync(sessionPath)) {
-      return await conn.sendMessage(m.chat, {text: '*📍 La Carpeta SakuraBotSession No Existe O Está Vacia.*'}, {quoted: m});
+      return await conn.sendMessage(m.chat, {text: '*📍 La Carpeta MultiverseSession No Existe O Está Vacia.*'}, {quoted: m});
     }
     const files = await fs.readdir(sessionPath);
     let filesDeleted = 0;
@@ -22,7 +22,7 @@ const handler = async (m, { conn, usedPrefix }) => {
       }
     }
     if (filesDeleted === 0) {
-      await conn.sendMessage(m.chat, {text: '*📍 No Se Encontro El Archivo Para Eliminar La Carpeta SakuraBotSession.*'}, {quoted: m});
+      await conn.sendMessage(m.chat, {text: '*📍 No Se Encontro El Archivo Para Eliminar La Carpeta MultiverseSession.*'}, {quoted: m});
     } else {
       await conn.sendMessage(m.chat, {text: `*🧸 Se Eliminaron ${filesDeleted} Archivos De Sesion, Excepto El Archivo creds.json.*`}, {quoted: m});
     }
