@@ -1,10 +1,10 @@
 {
-  "name": "Multiverse-MD",
+  "name": "SakuraBotLite-MD",
   "website": "https://github.com/diegojadibot",
   "description": "Mejor Bot",
-  "repository": "https://github.com/diegojadibot/Multiverse-MD",
-  "logo": "https://raw.githubusercontent.com/diegojadibot/Multiverse-MD/master/src/pictures/heroku-icon.jpg",
-  "success_url": "https://github.com/diegojadibot/Multiverse-MD",
+  "repository": "https://github.com/diegojadibot/SakuraBotLite-MD",
+  "logo": "https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/src/pictures/heroku-icon.jpg",
+  "success_url": "https://github.com/diegojadibot/SakuraBotLite-MD",
   "keywords": [
     "nodejs",
     "heroku",
