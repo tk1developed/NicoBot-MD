@@ -12,7 +12,7 @@ let handler = async (m, { conn, args }) => {
       txt += `        ◦  *Url* : ${json.html_url}\n`
       txt += `        ◦  *Forks* : ${json.forks_count}\n`
       txt += `        ◦  *Stars* : ${json.stargazers_count}`
-   await conn.sendFile(m.chat, thumbnail, 'out.png', txt, m)
+   await conn.sendFile(m.chat, thumbnail, 'Menu.png', txt, m)
 
 }
 
