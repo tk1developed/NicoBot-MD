@@ -1,18 +1,19 @@
-import speed from 'performance-now'
-import { spawn, exec, execSync } from 'child_process'
+import fetch from 'node-fetch'
+import moment from 'moment-timezone'
 
-let handler = async (m, { conn }) => {
-         let timestamp = speed();
-         let latensi = speed() - timestamp;
-         exec(`neofetch --stdout`, (error, stdout, stderr) => {
-          let child = stdout.toString("utf-8");
-          let ssd = child.replace(/Memory:/, "Ram:");
+var handler = async (m, { conn, usedPrefix }) => {
 
-          m.reply(`👋 Hola ${name} Aqui Está El Script Del Bot, Puedes Usar #instalarbot Para Ver Los Comandos De Intalación En Termux\n\nhttps://github.com/diegojadibot/Multiverse-MD`);
-            });
+let res = await fetch('https://api.github.com/repos/diegojadibot/Multiverse-MD')
+let json = await res.json()
+
+let git = `*乂  B O T  -  S C R I P T*\n\n◦ *Nombre* : ${json.name}\n◦ *Visitantes* : ${json.watchers_count}\n◦ *Peso* : ${(json.size / 1024).toFixed(2)} MB\n◦ *Actualizado* : ${moment(json.updated_at).format('DD/MM/YY - HH:mm:ss')}\n◦ *Url* : ${json.html_url}\n\n           ${json.forks_count} Forks · ${json.stargazers_count} Stars · ${json.open_issues_count} Issues\n\n${azami}`
+await conn.sendUrl(m.chat, git, m, { externalAdReply: { mediaType: 1, renderLargerThumbnail: true, thumbnail: imagen4, thumbnailUrl: imagen6, title: '\t\t\t\t\t\t᭡͡ᩬ🍧✩̣̣̣̣̣ͯ𝑴𝒖𝒍𝒕𝒊𝒗𝒆𝒓𝒔𝒆𝑩𝒐𝒕-𝑴𝑫᭡͡ᩬ🍧✩̣̣̣̣̣ͯ', }})
+
 }
-handler.help = ['info']
-handler.tags = ['main']
-handler.command = ['sc', 'script']
+handler.tags =['info'] 
+handler.help = ['script'] 
+handler.command = ['sc', 'script', 'codigo', 'git', 'github']
+
 handler.register = true
+
 export default handler
