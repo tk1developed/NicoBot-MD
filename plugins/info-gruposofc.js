@@ -4,17 +4,17 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
     await conn.sendMessage(m.chat, { react: { text: '📇', key: m.key } })
 let str = `*🔮 GRUPOS OFICIALES*
 
-    *_╭━━━⊜ SakuraBotLite-MD_*
+    *_╭━━━⊜ MultiverseBot-MD_*
   *_┃🌩❏ ${gp1}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
  *🔮 GRUPOS EN COLABORACIÓN*
 
-    *_╭━━━⊜ Curiosity y SakuraBot_*
+    *_╭━━━⊜ Curiosity y Multiverse_*
   *_┃🌦❏ ${gp2}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
-    *_╭━━━⊜ NovaBot & SakuraBot_*
+    *_╭━━━⊜ NovaBot & Multiverse_*
   *_┃🌦❏ ${gp3}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
