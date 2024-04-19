@@ -40,9 +40,9 @@ import { xpRange } from '../lib/levelling.js'
 
 const defaultMenu = {
   before: `
-*✰.｡.『 𝐌𝐮𝐥𝐭𝐢𝐯𝐞𝐫𝐬𝐞 - 𝐌𝐃 』.｡.✰*
+*✰.｡.『 𝐒𝐚𝐤𝐮𝐫𝐚 - 𝐁𝐨𝐭 - 𝐌𝐃 』.｡.✰*
 
-*𝖧𝗈𝗅𝖺 %taguser 👋, Soy Multiverse ;)*
+*𝖧𝗈𝗅𝖺 %taguser 👋, Soy Sakura ;)*
 
          *☩ ⺀ Iɴғᴏ Bᴏᴛ ⺀ ☩*
  ✰્᭄͜͡ *Vᴇʀɪғɪᴄᴀᴅᴏs* : %totalreg
