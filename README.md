@@ -80,7 +80,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 - ### 🪐 Actualizar SakuraBot 🟢
-> Note Comandos para actualizar Multiverse - MD de forma automática
+> Note Comandos para actualizar Sakura - MD de forma automática
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/update.sh | bash
 ```
