@@ -15,6 +15,6 @@ let handler = async (m, { conn }) => {
 }
 handler.help = ['info']
 handler.tags = ['main']
-handler.command = ['saludo']
+handler.command = ['sc', 'script']
 handler.register = true
 export default handler
