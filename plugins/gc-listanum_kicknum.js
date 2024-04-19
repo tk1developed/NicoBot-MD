@@ -1,5 +1,5 @@
 /*              Codigo Creado Por Bruno Sobrino
-      (github.com/diegojadibot/Multiverse-MD)
+      (https://github.com/diegojadibot/Multiverse-MD)
 */
 
 const handler = async (m, {conn, args, groupMetadata, participants, usedPrefix, command, isBotAdmin, isSuperAdmin}) => {
