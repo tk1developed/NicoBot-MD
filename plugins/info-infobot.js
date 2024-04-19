@@ -48,7 +48,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `github.com/diegojadibot/Multiverse-MD` },
+    document: { url: `https://github.com/diegojadibot/Multiverse-MD` },
     mimetype: `application/${document}`,
     fileName: `Multiverse Bot 🪐`,
     fileLength: 99999999999999,
@@ -57,7 +57,7 @@ const handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "github.com/diegojadibot/Multiverse-MD",
+        mediaUrl: "https://github.com/diegojadibot/Multiverse-MD",
         mediaType: 2,
         previewType: "pdf",
         title: "Tᴜ Mᴇᴊᴏʀ Bᴏᴛ!",
