@@ -12,21 +12,21 @@
 <a href="https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9"><img alt="📍 Grupo Oficial" src="https://img.shields.io/badge/Grupo-Oficial-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
-- ### 🌤Configuracion🧩
+- ### ⚙️Configuracion🧩
  Clonar Repo : HoshinoBot [Aqui.](https://github.com/diegojadibot/Hoshino-MD/fork)
 
 
 
-- ### 🧸Instalar Por Render🧩
+- ### 🪐 Instalar Por Render🧩
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2diegojadibot%2FHoshino-MD) 
 
-- ### 📍Instalar Por Code Space🧸
+- ### 🪐 Instalar Por Code Space🧸
 
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=738341999&ref=main&geo=UsEast)
 ***
 
-- #### 📍Instalacion Por Termux Automatica🧸
+- #### 🪐 Instalacion Por Termux Automatica🧸
 
 [![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/X-wQbVhLb8w?si=UdP9uM5SPFRY75nU)
@@ -38,10 +38,10 @@ termux-setup-storage
 ```
 
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/Hoshino-MD/master/sakura.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/Hoshino-MD/master/hoshino.sh | bash
 ```
 
-- #### 📍Instalacion Por Termux Manual👨‍💻
+- #### 🪐 Instalacion Por Termux Manual👨‍💻
 
 [![blog](https://img.shields.io/badge/Instalacion-Manual-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/9-v4XwMTJYE?si=STdO2GwZR1GAmXfA)
@@ -64,7 +64,7 @@ yarn install && npm install
 npm start
 ```
 
-- #### 📍Activar En Caso De Detenerse En Termux🧸
+- #### 🪐 Activar En Caso De Detenerse En Termux🧸
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
@@ -72,14 +72,14 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-- ### 📍Obtener Otro Codigo Qr👨‍💻 
+- ### 🪐 Obtener Otro Codigo Qr👨‍💻 
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd Hoshino-MD
-> rm -rf SakuraBotSession
+> rm -rf HoshinoSession
 > npm start
 ```
-- ### 📍Actualizar SakuraBot 🟢
+- ### 🪐 Actualizar Hoshino 🟢
 > Note Comandos para actualizar Hoshino-MD de forma automática
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/diegojadibot/Hoshino-MD/master/update.sh | bash
@@ -102,14 +102,9 @@ para usuarios del heroku
 ***
 
 
-## <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Creator 🧸" width="42" height="42"> Creator 🧸
-
-* <a href="https://wa.me/573012482597"><img alt="Creator 🧸" src="https://img.shields.io/badge/Diego - Creator🧸-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
-
-
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial 📍
 
-* <a href="https://wa.me/51939041500?text=!menu"><img alt="Bot Oficial 📍" src="https://img.shields.io/badge/Bot - Oficial📍-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+* <a href="https://wa.me/573218138672?text=!menu"><img alt="Bot Oficial 📍" src="https://img.shields.io/badge/Bot - Oficial📍-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 > No Spam Al Bot!
 ---------
