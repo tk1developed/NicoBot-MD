@@ -1,5 +1,5 @@
 {
-  "name": "SakuraBotLite-MD",
+  "name": "Hoshino-MD",
   "version": "1.0.7",
   "description": "El Mejor Bot",
   "main": "index.js",
@@ -18,16 +18,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/diegojadibot/SakuraBotLite-MD",
+  "homepage": "https://github.com/diegojadibot/Hoshino-MD",
   "author": {
     "name": "Dɪᴇɢᴏ Oғᴄ"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diegojadibot/SakuraBotLite-MD.git"
+    "url": "git+https://github.com/diegojadibot/Hoshino-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/diegojadibot/SakuraBotLite-MD/issues"
+    "url": "https://github.com/diegojadibot/Hoshino-MD/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
