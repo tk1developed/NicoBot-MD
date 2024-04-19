@@ -8,7 +8,7 @@ let handler = async (m, { conn }) => {
           let child = stdout.toString("utf-8");
           let ssd = child.replace(/Memory:/, "Ram:");
 
-          m.reply(`https://github.com/diegojadibot/Multiverse-MD`);
+          m.reply(`👋 Hola ${name} Aqui Está El Script Del Bot, Puedes Usar #instalarbot Para Ver Los Comandos De Intalación En Termux\n\nhttps://github.com/diegojadibot/Multiverse-MD`);
             });
 }
 handler.help = ['info']
