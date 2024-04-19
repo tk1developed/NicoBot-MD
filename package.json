@@ -1,5 +1,5 @@
 {
-  "name": "Multiverse-MD",
+  "name": "MultiverseBot-MD",
   "version": "1.0.7",
   "description": "El Mejor Bot",
   "main": "index.js",
@@ -18,13 +18,13 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/diegojadibot/Multiverse-MD",
+  "homepage": "https://github.com/diegojadibot/MultiverseBot-MD",
   "author": {
     "name": "Dɪᴇɢᴏ Oғᴄ"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diegojadibot/Multiverse-MD.git"
+    "url": "git+https://github.com/diegojadibot/MultiverseBot-MD.git"
   },
   "bugs": {
     "url": "https://github.com/diegojadibot/Multiverse-MD/issues"
