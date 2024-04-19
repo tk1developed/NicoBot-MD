@@ -1,4 +1,4 @@
-console.log('🧿 Iniciando...')
+console.log('🚀 Iniciando...')
 import { join, dirname } from 'path'
 import { createRequire } from 'module'
 import { fileURLToPath } from 'url'
@@ -15,7 +15,7 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('Hoshino-MD', {
+say('Multiverse-MD', {
 font: 'block',
 align: 'center',
 colors: ['cyan', 'blue']
