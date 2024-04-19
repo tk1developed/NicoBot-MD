@@ -1,23 +1,20 @@
-import moment from 'moment-timezone'
-import fetch from 'node-fetch'
+//comando de https://github.com/diegojadibot/Multiverse-MD
 
-let handler = async (m, { conn, args }) => {
-   let res = await fetch('https://github.com/diegojadibot/Multiverse-MD')
-   let json = await res.json()
-   let txt = `*B O T  -  S C R I P T*\n\n`
-      txt += `        ◦  *Nombre* : ${json.name}\n`
-      txt += `        ◦  *Visitas* : ${json.watchers_count}\n`
-      txt += `        ◦  *Peso* : ${(json.size / 1024).toFixed(2)} MB\n`
-      txt += `        ◦  *Actualizado* : ${moment(json.updated_at).format('DD/MM/YY - HH:mm:ss')}\n`
-      txt += `        ◦  *Url* : ${json.html_url}\n`
-      txt += `        ◦  *Forks* : ${json.forks_count}\n`
-      txt += `        ◦  *Stars* : ${json.stargazers_count}`
-   await conn.sendFile(m.chat, thumbnail, 'Menu.png', txt, m)
+import speed from 'performance-now'
+import { spawn, exec, execSync } from 'child_process'
 
+let handler = async (m, { conn }) => {
+         let timestamp = speed();
+         let latensi = speed() - timestamp;
+         exec(`neofetch --stdout`, (error, stdout, stderr) => {
+          let child = stdout.toString("utf-8");
+          let ssd = child.replace(/Memory:/, "Ram:");
+
+          m.reply(`https://github.com/diegojadibot/Multiverse-MD`);
+            });
 }
-
-handler.help = ['script']
+handler.help = ['info']
 handler.tags = ['main']
-handler.command = ['script', 'sc']
-handler.register = true 
+handler.command = ['saludo']
+handler.register = true
 export default handler
