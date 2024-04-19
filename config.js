@@ -13,33 +13,33 @@ global.confirmCode = ""
 
 //• ↳𝑷𝑶𝑵 𝑳𝑶𝑺 𝑵𝑼𝑴𝑬𝑹𝑶𝑺 𝑸𝑼𝑬 𝑸𝑼𝑰𝑬𝑹𝑨𝑺
 global.owner = [
-['573012482597', '👑 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 ⚡️', true],
-['5214531287294', '𝚉𝙰𝙼 𝙾𝚆𝙽𝙴𝚁 🍧', true],
-['50558124470', '𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝚂𝙰𝙺𝚄𝚁𝙰 💻', true],
+['573012482597', '👑 Cʀᴇᴀᴅᴏʀ ⚡️', true],
+['5214531287294', 'Zᴀᴍ Oᴡɴᴇʀ 🍧', true],
+['50558124470', 'Sᴜᴘᴘʀᴛ Mᴜʟᴛɪᴠᴇʀsᴇ 💻', true],
 ['447700168473'],
 ['5492266613038'],
 ['51935499065']]
 
 //• ↳𝑨𝑮𝑹𝑬𝑮𝑨𝑻𝑬 𝑺𝑰 𝑬𝑹𝑬𝑺 𝑶𝑾𝑵𝑬𝑹
 global.contactos = [
-["573012482597", '💚 𝙳𝙸𝙴𝙶𝙾 𝙾𝙵𝙲 💋', 1],
-["5214531287294", '𝚉𝙰𝙼 𝙾𝚆𝙽𝙴𝚁 🍧', 1],
-["447700168473", '𝙳𝙴𝚂𝙰𝚁𝚁𝙾𝙻𝙻𝙰𝙳𝙾𝚁 🐈', 1],
-["50558124470", '𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝚂𝙰𝙺𝚄𝚁𝙰 💻', 1]]
+["573012482597", '💚 Dɪᴇɢᴏ Oғᴄ 💋', 1],
+["5214531287294", 'Zᴀᴍ Oᴇɴᴇʀ 🍧', 1],
+["447700168473", 'Dᴇsᴀʀʀᴏʟʟᴀᴅᴏʀ 🐈', 1],
+["50558124470", 'Sᴜᴘᴘʀᴛ Mᴜʟᴛɪᴠᴇʀsᴇ 💻', 1]]
 
 global.suittag = ['573012482597'];
 global.prems = ['573218138672'];
 
-global.lenguajeSK = es //idioma de sakurabot
+global.lenguajeMS = es //idioma de multiversebot
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
-global.packname = '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌸';
-global.author = '𝖣𝗂𝖾𝗀𝗈 🌩';
-global.wm = 'Sakura : Bot 🌹';
-global.titulowm = '𝗦𝖺𝗄𝗎𝗋𝖺 : 𝗕𝗈𝗍';
-global.titulowm2 = `𝘿𝙞𝙚𝙜𝙤 𝙊𝙛𝙞𝙘𝙞𝙖𝙡`
+global.packname = '𝙈𝙪𝙡𝙩𝙞𝙫𝙚𝙧𝙨𝙚𝘽𝙤𝙩-𝙈𝘿 🌸';
+global.author = 'Dɪᴇɢᴏ 🌩';
+global.wm = 'Multiverse 🌹';
+global.titulowm = '𝗠𝗎𝗅𝗍𝗂𝗏𝖾𝗋𝗌𝖾 : 𝗕𝗈𝗍';
+global.titulowm2 = `𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜`
 global.igfg = 'Diego Oficial';
-global.sk = 'Rᴇɢɪsᴛʀᴀᴅᴏ Pᴏʀ : SᴀᴋᴜʀᴀBᴏᴛ';
+global.sk = 'Rᴇɢɪsᴛʀᴀᴅᴏ Pᴏʀ : MᴜʟᴛɪᴠᴇʀsᴇBᴏᴛ';
 global.vs = '1.0.7';
 global.vsJB = '1.0.2';
 
@@ -60,17 +60,17 @@ global.imagen7 = fs.readFileSync('./AhoraQue.png');
 global.imagen8 = fs.readFileSync('./Que.jpg');
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9' //Grupo Oficial De SakuraBot
+global.gp1 = 'https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9' //Grupo Oficial De Multiverse
 
-global.gp2 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //CuriosityBot Y SakuraBot
+global.gp2 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //CuriosityBot Y Multiverse
 
-global.gp3 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //NovaBot Y SakuraBot
+global.gp3 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //NovaBot Y Multiverse
 
 global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
 
 global.yt = 'https://www.youtube.com/@SakuraBotLite' //Canal De Youtube
 
-global.md = 'https://github.com/diegojadibot/SakuraBotLite-MD' //Github Oficial
+global.md = 'https://github.com/diegojadibot/Multiverse-MD' //Github Oficial
 
 global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Facebook Del Propietario
 
@@ -91,9 +91,9 @@ global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
 global.wm2 = `${dia} ${fecha}\nSakuritaBot`;
-global.gt = 'SakuraBot';
-global.mysticbot = 'SakuraBot';
-global.mysticbot = 'https://github.com/diegojadibot/SakuraBotLite-MD';
+global.gt = 'MultiverseBot';
+global.mysticbot = 'MultiverseBot';
+global.mysticbot = 'https://github.com/diegojadibot/Multiverse-MD';
 global.nomorown = '573012482694';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
