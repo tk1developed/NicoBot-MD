@@ -2,7 +2,7 @@
 
 #!/data/data/com.termux/files/usr/bin/bash 
 # Interpretación determinada para la ejecución     
-COMANDOS = "pkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/diegojadibot/Hoshino-MD\ncd Hoshino-MD\nyarn install\nnpm install\nnpm start"
+COMANDOS = "pkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/diegojadibot/Multiverse-MD\ncd Multiverse-MD\nyarn install\nnpm install\nnpm start"
 
 echo -e "\e[35m
 
@@ -134,11 +134,11 @@ echo -e "\e[35m
 ╚═╝░░╚═╝░░╚═╝░░  ╚═╝╚═╝░░╚══╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚══════╝\n\e[0m"
 
 echo -e "\033[1;35m"
-git clone https://github.com/diegojadibot/Hoshino-MD.git
+git clone https://github.com/diegojadibot/Multiverse-MD.git
 echo -e "\033[01;32m\033[01mLa clonación se ha descargado e instalado correctamente.\nThe clone has been downloaded and installed successfully.\n\033[0m"
 
 echo -e "\033[01;32m\033[01mCambiando al directorio del repositorio!!\nChanging to the repository directory!!\n\033[0m" 
-cd Hoshino-MD
+cd Multiverse-MD
 
 echo -e "\e[36m
 █░█ █▀█ █▀▄ ▄▀█ ▀█▀ █▀▀   █▄█ ▄▀█ █▀█ █▄░█
@@ -168,7 +168,7 @@ fi
 
 clear
 echo -e "\e[36m
-┏╍┅┅┅╍⪻ Hᴏsʜɪɴᴏ - MD ⪼┅┅┅┅┅┓
+┏╍┅┅┅╍⪻ Mᴜʟᴛɪᴠᴇʀsᴇ - MD ⪼┅┅┅┅┅┓
 ┋❥ 𝐏𝐫𝐨𝐩𝐢𝐞𝐭𝐚𝐫𝐢𝐨: diegojadibot
 ┋❥ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: www.youtube.com/@SakuraBotLite
 ┋❥ 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: www.facebook.com/diegosaroficial
@@ -204,5 +204,5 @@ echo -e "\e[36m
 𝐆 𝐑 𝐀 𝐂 𝐈 𝐀 𝐒, 𝐏 𝐎 𝐑, 𝐏 𝐑 𝐄 𝐅 𝐄 𝐑 𝐈 𝐑 𝐍 𝐎 𝐒\n\e[0m"
 
 
-echo -e "\033[01;32m\033[01m🚀 Iniciando El Bot¡!\nHoshino-MD\n\033[0m"
+echo -e "\033[01;32m\033[01m🚀 Iniciando El Bot¡!\nMultiverse-MD\n\033[0m"
 npm start
