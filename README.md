@@ -1,6 +1,6 @@
 > 🚩🧿Versión Del Bot: 1.0.7
 
-## Multiverse - MD 🪐
+### Sakura - Bot - Lite - MD 🪐
 <p align="center">
 <img src="https://telegra.ph/file/2d04f8cd12aa985fc9430.png" alt="Bot-WhatsApp" width="900"/>
 </p>
@@ -13,13 +13,13 @@
 
 
 - ### ⚙️Configuracion🧩
- Clonar Repo : Multiverse [Aqui.](https://github.com/diegojadibot/Multiverse-MD/fork)
+ Clonar Repo : Sakura [Aqui.](https://github.com/diegojadibot/SakuraBotLite-MD/fork)
 
 
 
 - ### 🪐 Instalar Por Render🧩
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2diegojadibot%2FMultiverse-MD) 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2diegojadibot%2FSakuraBotLite-MD) 
 
 - ### 🪐 Instalar Por Code Space🧸
 
@@ -38,7 +38,7 @@ termux-setup-storage
 ```
 
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/Multiverse-MD/master/start.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/start.sh | bash
 ```
 
 - #### 🪐 Instalacion Por Termux Manual👨‍💻
@@ -55,7 +55,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/diegojadibot/Multiverse - MD && cd Multiverse-MD
+git clone https://github.com/diegojadibot/SakuraBotLite-MD && cd SakuraBotLite-MD
 ```
 ```bash
 yarn install && npm install
@@ -68,21 +68,21 @@ npm start
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd Multiverse-MD
+> cd SakuraBotLite-MD
 > npm start
 ```
 
 - ### 🪐 Obtener Otro Codigo Qr👨‍💻 
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd Multiverse-MD
+> cd SakuraBotLite-MD
 > rm -rf MultiverseSession
 > npm start
 ```
-- ### 🪐 Actualizar Multiverse 🟢
+- ### 🪐 Actualizar SakuraBot 🟢
 > Note Comandos para actualizar Multiverse - MD de forma automática
 ```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/diegojadibot/Multiverse-MD/master/update.sh | bash
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/update.sh | bash
 ```
 Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 
@@ -91,7 +91,7 @@ Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respa
 - ### 📍 Activar En Heroku 🚀
 para usuarios del heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/diegojadibot/Multiverse-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/diegojadibot/SakuraBotLite-MD)
 
 #### Heroku Buildpack
 | BuildPack | LINK |
