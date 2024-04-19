@@ -1,6 +1,6 @@
 > 🚩🧿Versión Del Bot: 1.0.7
 
-### Sakura - Bot - Lite - MD 🪐
+### Sakura - Bot - Lite - MD 🌼
 <p align="center">
 <img src="https://telegra.ph/file/2d04f8cd12aa985fc9430.png" alt="Bot-WhatsApp" width="900"/>
 </p>
@@ -12,12 +12,12 @@
 <a href="https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9"><img alt="📍 Grupo Oficial" src="https://img.shields.io/badge/Grupo-Oficial-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
-- ### ⚙️Configuracion🧩
+- ### ⚙️Configuracion
  Clonar Repo : Sakura [Aqui.](https://github.com/diegojadibot/SakuraBotLite-MD/fork)
 
 
 
-- ### 🪐 Instalar Por Render🧩
+- ###  🐈 Instalar Por Render🧩
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2diegojadibot%2FSakuraBotLite-MD) 
 
@@ -76,7 +76,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd SakuraBotLite-MD
-> rm -rf MultiverseSession
+> rm -rf SakuraSession
 > npm start
 ```
 - ### 🪐 Actualizar SakuraBot 🟢
