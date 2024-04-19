@@ -131,7 +131,6 @@ do {
 let lineM = '━━━━━━━━━━━━━━━━━━━━'
 opcion = await question(`${chalk.bold.blueBright('╭──────⊱◈◈◈⊰──────╮')}\n${chalk.blue.bgBlue.bold.cyan('»  Opción 1:')} ${chalk.blue.bgBlue.bold.green('Código QR.')}
 ${chalk.blue.bgBlue.bold.cyan('»  Opción 2:')} ${chalk.blue.bgBlue.bold.green('Código de 8 digitos.')}\n${chalk.bold.blueBright('╰──────⊱◈◈◈⊰──────╯')}\n${chalk.bold.magentaBright('---> ')}`)
-${chalk.blue.bgBlue.bold.cyan('MÉTODO DE VINCULACIÓN')}
 //if (fs.existsSync(`./${authFile}/creds.json`)) {
 //console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
 //process.exit()
