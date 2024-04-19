@@ -5,7 +5,7 @@ const handler = async (m, { conn, args }) => {
    const json = await res.json();
    let txt = `           *🧸 𝗕𝗼𝘁 - 𝗦𝗰𝗿𝗶𝗽𝘁 📍*\n\n`;
       txt += `◦  *𝐑𝐞𝐩𝐨:* ${json?.name || '🧸 Multiverse-MD'}\n`;
-      txt += `◦  *Visitantes:* ${json?.watchers_count || '-'}\n`;
+      txt += `◦  *𝐕𝐢𝐬𝐢𝐭𝐚𝐧𝐭𝐞𝐬:* ${json?.watchers_count || '-'}\n`;
       txt += `◦  *𝐓𝐚𝐦𝐚𝐧̃𝐨:* ${(json?.size / 1024).toFixed(2) || '-'} MB\n`;
       txt += `◦  *𝐀𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐜𝐢𝐨𝐧:* ${moment(json?.updated_at).format('DD/MM/YY - HH:mm:ss') || '-'}\n`;
       txt += `◦  *Url:* ${json?.html_url || 'https://github.com/diegojadibot/Multiverse-MD'}\n\n`;
