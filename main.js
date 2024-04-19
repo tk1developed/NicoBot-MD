@@ -129,8 +129,8 @@ opcion = '1'
 if (!methodCodeQR && !methodCode && !fs.existsSync(`./${authFile}/creds.json`)) {
 do {
 let lineM = '━━━━━━━━━━━━━━━━━━━━'
-opcion = await question(`${chalk.bold.blueBright('╭──────⊱◈◈◈⊰──────╮')}\n${chalk.pink.bgPink.bold.cyan('»  Opción 1:')} ${chalk.blue.bgBlue.bold.green('Código QR.')}
-${chalk.blue.bgBlue.bold.cyan('»  Opción 2:')} ${chalk.pink.bgPink.bold.green('Código de 8 digitos.')}\n${chalk.bold.blueBright('╰──────⊱◈◈◈⊰──────╯')}\n${chalk.bold.magentaBright('---> ')}`)
+opcion = await question(`${chalk.bold.blueBright('╭──────⊱◈◈◈⊰──────╮')}\n${chalk.green.bgGreen.bold.green('»  Opción 1:')} ${chalk.cyan.bgCyan.bold.cyan('Código QR.')}
+${chalk.greem.bgGreen.bold.green('»  Opción 2:')} ${chalk.cyan.bgCyan.bold.cyan('Código de 8 digitos.')}\n${chalk.bold.blueBright('╰──────⊱◈◈◈⊰──────╯')}\n${chalk.bold.magentaBright('---> ')}`)
 //if (fs.existsSync(`./${authFile}/creds.json`)) {
 //console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
 //process.exit()
