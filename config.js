@@ -33,9 +33,9 @@ global.prems = ['573218138672'];
 global.lenguajeMS = es //idioma de multiversebot
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
-global.packname = '𝙈𝙪𝙡𝙩𝙞𝙫𝙚𝙧𝙨𝙚𝘽𝙤𝙩-𝙈𝘿 🌸';
+global.packname = '𝙈𝙪𝙡𝙩𝙞𝙫𝙚𝙧𝙨𝙚𝘽𝙤𝙩-𝙈𝘿 🪐';
 global.author = 'Dɪᴇɢᴏ 🌩';
-global.wm = 'Multiverse 🌹';
+global.wm = 'Multiverse 🌼';
 global.titulowm = '𝗠𝗎𝗅𝗍𝗂𝗏𝖾𝗋𝗌𝖾 : 𝗕𝗈𝗍';
 global.titulowm2 = `𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜`
 global.igfg = 'Diego Oficial';
