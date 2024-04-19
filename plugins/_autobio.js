@@ -8,8 +8,8 @@ if (process.send) { process.send('uptime')
 _muptime = await new Promise(resolve => { process.once('message', resolve) 
 setTimeout(resolve, 2000) }) * 1000}
 let uptime = clockString(_uptime)
-let bio = `𝗕𝗼𝘁: ${[`𝖲𝖺𝗄𝗎𝗋𝖺𝖡𝗈𝗍𝖫𝗂𝗍𝖾-𝖬𝖣 🧿`, `𝖲𝖺𝗄𝗎𝗋𝖺-𝖡𝗈𝗍-𝖫𝗂𝗍𝖾-𝖬𝖣 🌼`].getRandom()}                                        
-                                        𝗔𝗰𝘁𝗶𝘃𝗮: ${uptime}                                                                                 𝗢𝘄𝗻𝗲𝗿: ${[`𝖣𝗂𝖾𝗀𝗈 𝖮𝖿𝗂𝖼𝗂𝖺𝗅 💋`, `𝖣𝗂𝖾𝗀𝗈 𝖲𝖪 💜`].getRandom()}` 
+let bio = `𝗕𝗼𝘁: ${[`𝖬𝗎𝗅𝗍𝗂𝗏𝖾𝗋𝗌𝖾-𝖬𝖣 🧿`, `𝖬𝗎𝗅𝗍𝗂𝗏𝖾𝗋𝗌𝖾𝖡𝗈𝗍-𝖫𝖬𝖣 🌼`].getRandom()}                                        
+                                       𝗔𝗰𝘁𝗶𝘃𝗮: ${uptime}                                                                                 𝗢𝘄𝗻𝗲𝗿: ${[`𝖣𝗂𝖾𝗀𝗈 𝖮𝖿𝗂𝖼𝗂𝖺𝗅 💋`, `𝖣𝗂𝖾𝗀𝗈 𝖬𝖲 💜`].getRandom()}` 
 await this.updateProfileStatus(bio).catch(_ => _)
 setting.status = new Date() * 1
 } 
