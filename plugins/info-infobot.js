@@ -37,7 +37,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 │
 │•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•
 │
-│➸ 𝗠𝘂𝗹𝘁𝗶𝘃𝗲𝗿𝘀𝗲𝗕𝗼𝘁-𝗠𝗗 🪐
+│➸ 𝗦𝗮𝗸𝘂𝗿𝗮𝗕𝗼𝘁𝗟𝗶𝘁𝗲-𝗠𝗗 🪐
 ╰━━━━━━･❪ ❁ ❫ ･━━━━━━❖`.trim();
   const doc = [
     "pdf",
@@ -48,22 +48,22 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://github.com/diegojadibot/Multiverse-MD` },
+    document: { url: `https://github.com/diegojadibot/SakuraBotLite-MD` },
     mimetype: `application/${document}`,
-    fileName: `Multiverse Bot 🪐`,
+    fileName: `Sakura Bot 🪐`,
     fileLength: 99999999999999,
     pageCount: 200,
     contextInfo: {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://github.com/diegojadibot/Multiverse-MD",
+        mediaUrl: "https://github.com/diegojadibot/SakuraBotLite-MD",
         mediaType: 2,
         previewType: "pdf",
         title: "Tᴜ Mᴇᴊᴏʀ Bᴏᴛ!",
         body: wm,
         thumbnail: imagen6,
-        sourceUrl: "https://atom.bio/sakuralite",
+        sourceUrl: "https://github.com/diegojadibot/SakuraBotLite-MD",
       },
     },
     caption: info,
