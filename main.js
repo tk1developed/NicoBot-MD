@@ -108,7 +108,7 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `MultiverseSession`;
+global.authFile = `SakuraSession`;
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile);
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const msgRetryCounterCache = new NodeCache()
@@ -268,7 +268,7 @@ return file.startsWith('pre-key-') /*|| file.startsWith('session-') || file.star
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./MultiverseSession/${files}`)
+unlinkSync(`./SakuraSession/${files}`)
 })
 } 
 
@@ -293,7 +293,7 @@ console.log(chalk.bold.red(`[ 🍓 ] Algo salio mal durante la eliminación, arc
 }}
 
 function purgeOldFiles() {
-const directories = ['./MultiverseSession/', './jadibts/']
+const directories = ['./SakuraSession/', './jadibts/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000)
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
@@ -333,7 +333,7 @@ console.log(chalk.greenBright('\n╭┈ ┈ ┈ ┈ ┈ • 𝗦𝗮𝗸𝘂𝗿
    }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) {
-await fs.unlinkSync("./MultiverseSession/" + "creds.json")
+await fs.unlinkSync("./SakuraSession/" + "creds.json")
 console.log(chalk.bold.redBright(`[ ⚠ ] Conexión replazada, Por favor espere un momento me voy a reiniciar...\nSi aparecen error vuelve a iniciar con : npm start`)) 
 process.send('reset')}
 if (connection === 'close') {
