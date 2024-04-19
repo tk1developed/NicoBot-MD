@@ -40,9 +40,9 @@ import { xpRange } from '../lib/levelling.js'
 
 const defaultMenu = {
   before: `
-*✰.｡.『 𝐒𝐚𝐤𝐮𝐫𝐚 - 𝐁𝐨𝐭 - 𝐌𝐃 』.｡.✰*
+*✰.｡.『 𝐌𝐮𝐥𝐭𝐢𝐯𝐞𝐫𝐬𝐞 - 𝐌𝐃 』.｡.✰*
 
-*𝖧𝗈𝗅𝖺 %taguser 👋, 𝖲𝗈𝗒 𝖲𝖺𝗄𝗎𝗋𝖺𝖡𝗈𝗍 ;)*
+*𝖧𝗈𝗅𝖺 %taguser 👋, Soy Multiverse ;)*
 
          *☩ ⺀ Iɴғᴏ Bᴏᴛ ⺀ ☩*
  ✰્᭄͜͡ *Vᴇʀɪғɪᴄᴀᴅᴏs* : %totalreg
@@ -187,10 +187,12 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 
     //let img = await (await fetch('https://tinyurl.com/2y223gks')).buffer()  
 
-await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: saludo, sourceUrl: global.yt, thumbnail: imagen6 }}})
+//await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: saludo, sourceUrl: global.yt, thumbnail: imagen6 }}})
+
+await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: saludo, sourceUrl: global.yt, thumbnail: 'https://telegra.ph/file/add43be1dfe45c86060e0.jpg' }}})
 
 
-await conn.sendMessage(m.chat, { react: { text: '⭐️', key: m.key } })
+await conn.sendMessage(m.chat, { react: { text: '🚀', key: m.key } })
 
 //await conn.sendFile(m.chat, wm, text.trim(), img, img, channel, m)
 
