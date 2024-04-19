@@ -4,21 +4,21 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
     await conn.sendMessage(m.chat, { react: { text: '📇', key: m.key } })
 let str = `*🔮 GRUPOS OFICIALES*
 
-    *_╭━━━⊜ MultiverseBot-MD_*
+    *_╭━━━⊜ SakuraBotLite-MD_*
   *_┃🌩❏ ${gp1}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
  *🔮 GRUPOS EN COLABORACIÓN*
 
-    *_╭━━━⊜ Curiosity y Multiverse_*
+    *_╭━━━⊜ Curiosity y Sakura_*
   *_┃🌦❏ ${gp2}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
-    *_╭━━━⊜ NovaBot & Multiverse_*
+    *_╭━━━⊜ NovaBot & Sakura_*
   *_┃🌦❏ ${gp3}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
-    *_╭━━━⊜ Canal Multiverse_*
+    *_╭━━━⊜ Canal Sakura_*
   *_┃🌦❏ ${channel}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
