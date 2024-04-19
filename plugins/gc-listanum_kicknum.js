@@ -1,5 +1,5 @@
 /*              Codigo Creado Por Bruno Sobrino
-      (https://github.com/diegojadibot/Multiverse-MD)
+      (https://github.com/diegojadibot/SakuraBotLite-MD)
 */
 
 const handler = async (m, {conn, args, groupMetadata, participants, usedPrefix, command, isBotAdmin, isSuperAdmin}) => {
