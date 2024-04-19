@@ -79,7 +79,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > rm -rf MultiverseSession
 > npm start
 ```
-- ### 🪐 Actualizar Hoshino 🟢
+- ### 🪐 Actualizar Multiverse 🟢
 > Note Comandos para actualizar Multiverse - MD de forma automática
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/diegojadibot/Multiverse-MD/master/update.sh | bash
