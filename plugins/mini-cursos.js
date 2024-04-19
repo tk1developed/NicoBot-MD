@@ -1,4 +1,4 @@
-//https://github.com/diegojadibot/SakuraBotLite-MD
+//github.com/diegojadibot/Multiverse-MD
 
 import speed from 'performance-now'
 import { spawn, exec, execSync } from 'child_process'
