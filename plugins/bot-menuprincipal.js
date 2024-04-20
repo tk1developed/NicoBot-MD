@@ -185,7 +185,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
    let pp1 = 'https://telegra.ph/file/b6c5744019dc6917f4f2a.mp4'
     let pp2 = 'https://telegra.ph/file/b0f6acd276d956dbe37fe.mp4'
 
- let pp1 = 'https://telegra.ph/file/5aa4f3dc814c09a97d7d3.jpg'
+ let pp = 'https://telegra.ph/file/5aa4f3dc814c09a97d7d3.jpg'
 
     //let img = await (await fetch('https://tinyurl.com/2y223gks')).buffer()  
 
