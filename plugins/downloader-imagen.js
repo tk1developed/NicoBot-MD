@@ -4,12 +4,6 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   const res = await googleImage(text);
   const image = await res.getRandom();
   const link = image;
-conn.reply(m.chat, global.wait, m, {
-contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
-title: packname,
-body: saludo,
-previewType: 0, thumbnail: imagen6,
-sourceUrl: channel }}})
   conn.sendFile(m.chat, link, 'error.jpg', `*📍 Resultado De: ${text}*`, m);
 };
 handler.help = ['gimage <query>', 'imagen <query>'];
