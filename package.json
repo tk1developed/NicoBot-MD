@@ -18,16 +18,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/diegojadibot/SakuraBotLite-MD",
+  "homepage": "https://github.com/Diego-SK-177/SakuraBotLite-MD",
   "author": {
     "name": "Dɪᴇɢᴏ Oғᴄ"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diegojadibot/SakuraBotLite-MD.git"
+    "url": "git+https://github.com/Diego-SK-177/SakuraBotLite-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/diegojadibot/SakuraBotLite-MD/issues"
+    "url": "https://github.com/Diego-SK-177/SakuraBotLite-MD/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
