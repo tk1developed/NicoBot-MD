@@ -69,7 +69,7 @@ global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal
 
 global.yt = 'https://www.youtube.com/@SakuraBotLite' //Canal De Youtube
 
-global.md = 'https://github.com/diegojadibot/SakuraBotLite-MD' //Github Oficial
+global.md = 'https://github.com/Diego-SK-177/SakuraBotLite-MD' //Github Oficial
 
 global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Facebook Del Propietario
 
@@ -92,7 +92,7 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 global.wm2 = `${dia} ${fecha}\nSakura`;
 global.gt = 'SakuraBot';
 global.mysticbot = 'SakuraBot';
-global.mysticbot = 'https://github.com/diegojadibot/SakuraBotLite-MD';
+global.mysticbot = 'https://github.com/Diego-SK-177/SakuraBotLite-MD';
 global.nomorown = '573012482694';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
