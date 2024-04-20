@@ -1,4 +1,4 @@
-//comando https://github.com/diegojadibot/SakuraBotLite-MD
+//comando https://github.com/Diego-SK-177/SakuraBotLite-MD
 
 import speed from 'performance-now'
 import { spawn, exec, execSync } from 'child_process'
