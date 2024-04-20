@@ -9,7 +9,7 @@ contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttributio
 title: packname,
 body: saludo,
 previewType: 0, thumbnail: miniurl,
-sourceUrl: chanmel }}})
+sourceUrl: channel }}})
   conn.sendFile(m.chat, link, 'error.jpg', `*📍 Resultado De: ${text}*`, m);
 };
 handler.help = ['gimage <query>', 'imagen <query>'];
