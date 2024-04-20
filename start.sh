@@ -2,7 +2,7 @@
 
 #!/data/data/com.termux/files/usr/bin/bash 
 # Interpretación determinada para la ejecución     
-COMANDOS = "pkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/diegojadibot/SakuraBotLite-MD\ncd SakuraBotLite-MD\nyarn install\nnpm install\nnpm start"
+COMANDOS = "pkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/Diego-SK-177/SakuraBotLite-MD\ncd SakuraBotLite-MD\nyarn install\nnpm install\nnpm start"
 
 echo -e "\e[35m
 
@@ -134,7 +134,7 @@ echo -e "\e[35m
 ╚═╝░░╚═╝░░╚═╝░░  ╚═╝╚═╝░░╚══╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚══════╝\n\e[0m"
 
 echo -e "\033[1;35m"
-git clone https://github.com/diegojadibot/SakuraBotLite-MD.git
+git clone https://github.com/Diego-SK-177/SakuraBotLite-MD.git
 echo -e "\033[01;32m\033[01mLa clonación se ha descargado e instalado correctamente.\nThe clone has been downloaded and installed successfully.\n\033[0m"
 
 echo -e "\033[01;32m\033[01mCambiando al directorio del repositorio!!\nChanging to the repository directory!!\n\033[0m" 
@@ -172,7 +172,7 @@ echo -e "\e[36m
 ┋❥ 𝐏𝐫𝐨𝐩𝐢𝐞𝐭𝐚𝐫𝐢𝐨: diegojadibot
 ┋❥ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: www.youtube.com/@SakuraBotLite
 ┋❥ 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: www.facebook.com/diegosaroficial
-┋❥ 𝐆𝐢𝐭𝐇𝐮𝐛: github.com/diegojadibot
+┋❥ 𝐆𝐢𝐭𝐇𝐮𝐛: github.com/Diego-SK-177
 ┋❥ 𝐍𝐮𝐦𝐞𝐫𝐨: +57 301 2482694
 ┋┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅
 ┋❥ 👋 𝐇𝐨𝐥𝐚 𝐮𝐬𝐮𝐚𝐫𝐢𝐨 𝐠𝐫𝐚𝐜𝐢𝐚𝐬 𝐩𝐨𝐫 𝐩𝐫𝐞𝐟𝐞𝐫𝐢𝐫𝐧𝐨𝐬.
