@@ -4,7 +4,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   const res = await googleImage(text);
   const image = await res.getRandom();
   const link = image;
-conn.reply(m.chat, global.wait, m, {
+//conn.reply(m.chat, global.wait, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
 title: packname,
 body: saludo,
