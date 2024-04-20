@@ -29,7 +29,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
    
 ➪ termux-setup-storage
 
-➪ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/start.sh | bash
+➪ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Diego-SK-177/SakuraBotLite-MD/master/start.sh | bash
 
 🧸 *Instalación Manual* (Termux) 📍
 
@@ -39,7 +39,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 
 ➪ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
 
-➪ git clone https://github.com/diegojadibot/SakuraBotLite-MD.git && cd SakuraBotLite-MD
+➪ git clone https://github.com/Diego-SK-177/SakuraBotLite-MD.git && cd SakuraBotLite-MD
 
 ➪ yarn install
 
@@ -53,7 +53,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 
 ➪ cd
 
-➪ cd Multiverse-MD
+➪ cd SakuraBotLite-MD
 
 ➪ npm start
 
@@ -61,7 +61,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 
 ➪ cd SakuraBotLite-MD
 
-➪ rm -rf MultiverseSession
+➪ rm -rf SakuraSession
 
 ➪ npm start
 
