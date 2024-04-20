@@ -13,13 +13,13 @@
 
 
 - ### ⚙️Configuracion
- Clonar Repo : Sakura [Aqui.](https://github.com/diegojadibot/SakuraBotLite-MD/fork)
+ Clonar Repo : Sakura [Aqui.](https://github.com/Diego-SK-177/SakuraBotLite-MD/fork)
 
 
 
 - ###  🐈 Instalar Por Render🧩
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2diegojadibot%2FSakuraBotLite-MD) 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2Diego-SK-177%2FSakuraBotLite-MD) 
 
 - ### 🪐 Instalar Por Code Space🧸
 
@@ -38,7 +38,7 @@ termux-setup-storage
 ```
 
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/start.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Diego-SK-177/SakuraBotLite-MD/master/start.sh | bash
 ```
 
 - #### 🪐 Instalacion Por Termux Manual👨‍💻
@@ -55,7 +55,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/diegojadibot/SakuraBotLite-MD && cd SakuraBotLite-MD
+git clone https://github.com/Diego-SK-177/SakuraBotLite-MD && cd SakuraBotLite-MD
 ```
 ```bash
 yarn install && npm install
@@ -82,7 +82,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 - ### 🪐 Actualizar SakuraBot 🟢
 > Note Comandos para actualizar Sakura - MD de forma automática
 ```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/update.sh | bash
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/Diego-SK-177/SakuraBotLite-MD/master/update.sh | bash
 ```
 Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 
@@ -91,7 +91,7 @@ Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respa
 - ### 📍 Activar En Heroku 🚀
 para usuarios del heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/diegojadibot/SakuraBotLite-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Diego-SK-177/SakuraBotLite-MD)
 
 #### Heroku Buildpack
 | BuildPack | LINK |
@@ -100,7 +100,6 @@ para usuarios del heroku
 | **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
 
 ***
-
 
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial 📍
 
