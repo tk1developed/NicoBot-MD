@@ -10,12 +10,6 @@ let limit1 = 100;
 let limit2 = 400;
 let limit_a1 = 50;
 let limit_a2 = 400;
-conn.reply(m.chat, global.wait, m, {
-contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
-title: packname,
-body: saludo,
-previewType: 0, thumbnail: imagen6,
-sourceUrl: channel }}})
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
   if (!text) throw `⚊⚊⚊⚊⚊⚊✬✥✬⚊⚊⚊⚊⚊⚊
 *⚓⚠️ 𝘕𝘰𝘮𝘣𝘳𝘦 𝘋𝘦 𝘓𝘢 𝘊𝘢𝘯𝘤𝘪𝘰𝘯 𝘍𝘢𝘭𝘵𝘢𝘯𝘵𝘦, 𝘗𝘰𝘳 𝘍𝘢𝘷𝘰𝘳 𝘐𝘯𝘨𝘳𝘦𝘴𝘦 𝘌𝘭 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘔𝘢𝘴 𝘌𝘭 𝘕𝘰𝘮𝘣𝘳𝘦 𝘋𝘦 𝘓𝘢 𝘊𝘢𝘯𝘤𝘪𝘰𝘯*
