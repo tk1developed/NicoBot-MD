@@ -48,7 +48,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://github.com/diegojadibot/SakuraBotLite-MD` },
+    document: { url: `https://github.com/Diego-SK-177/SakuraBotLite-MD` },
     mimetype: `application/${document}`,
     fileName: `Sakura Bot 🪐`,
     fileLength: 99999999999999,
@@ -57,13 +57,13 @@ const handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://github.com/diegojadibot/SakuraBotLite-MD",
+        mediaUrl: "https://github.com/Diego-SK-177/SakuraBotLite-MD",
         mediaType: 2,
         previewType: "pdf",
         title: "Tᴜ Mᴇᴊᴏʀ Bᴏᴛ!",
         body: wm,
         thumbnail: imagen6,
-        sourceUrl: "https://github.com/diegojadibot/SakuraBotLite-MD",
+        sourceUrl: "https://github.com/Diego-SK-177/SakuraBotLite-MD",
       },
     },
     caption: info,
