@@ -8,7 +8,7 @@ conn.reply(m.chat, global.wait, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
 title: packname,
 body: saludo,
-previewType: 0, thumbnail: miniurl,
+previewType: 0, thumbnail: imagen6,
 sourceUrl: channel }}})
   conn.sendFile(m.chat, link, 'error.jpg', `*📍 Resultado De: ${text}*`, m);
 };
