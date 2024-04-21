@@ -1,8 +1,8 @@
 > 🚩🧿Versión Del Bot: 1.0.7
 
-# Kana - Arima - MD 🌼
+# Yotsuba - Nakano - MD 🌼
 <p align="center">
-<img src= "https://telegra.ph/file/852e26c73a229c5308121.jpg" alt="Kana-Arima" width="900"/>
+<img src= "https://telegra.ph/file/852e26c73a229c5308121.jpg" alt="Nakano" width="900"/>
 </p>
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
@@ -13,7 +13,7 @@
 
 
 - ### ⚙️Configuracion
- Clonar Repo : Kana [Aqui.](https://github.com/Diego-YL-177/Kana-Arima-MD/fork)
+ Clonar Repo : Kana [Aqui.](https://github.com/Diego-YL-177/Yotsuba-Nakano-MD/fork)
 
 
 
@@ -42,7 +42,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/Diego-YL-177/Kana-Arima-MD && cd Kana-Arima-MD
+git clone https://github.com/Diego-YL-177/Yotsuba-Nakano-MD && cd Yotsuba-Nakano-MD
 ```
 ```bash
 yarn install && npm install
@@ -55,30 +55,30 @@ npm start
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd Kana-Arima-MD
+> cd Yotsuba-Nakano-MD
 > npm start
 ```
 
 - ### 🪐 Obtener Otro Codigo Qr👨‍💻 
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd Kana-Arima-MD
-> rm -rf ArimaSession
+> cd Yotsuba-Nakano-MD
+> rm -rf sessios
 > npm start
 ```
-- ### 🪐 Actualizar Kana 🟢
-> Note Comandos para actualizar Arima - MD de forma automática
+- ### 🪐 Actualizar Yotsuba 🟢
+> Note Comandos para actualizar Yotsuba - MD de forma automática
 ```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/Diego-YL-177/Kana-Arima-MD/master/update.sh | bash
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/Diego-YL-177/Yotsuba-Nakano-MD/master/update.sh | bash
 ```
-Para que no pierda su progreso en Kana, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
+Para que no pierda su progreso en Yotsuba, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 
 > Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
 
 - ### 📍 Activar En Heroku 🚀
 para usuarios del heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Diego-YL-177/Kana-Arima-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Diego-YL-177/Yotsuba-Nakano-MD)
 
 #### Heroku Buildpack
 | BuildPack | LINK |
