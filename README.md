@@ -1,6 +1,6 @@
 > 🚩🧿Versión Del Bot: 1.0.7
 
-### Sakura - Bot - Lite - MD 🌼
+### Kana - Arima - MD 🌼
 <p align="center">
 <img src="https://telegra.ph/file/2d04f8cd12aa985fc9430.png" alt="Bot-WhatsApp" width="900"/>
 </p>
@@ -13,13 +13,13 @@
 
 
 - ### ⚙️Configuracion
- Clonar Repo : Sakura [Aqui.](https://github.com/Diego-SK-177/SakuraBotLite-MD/fork)
+ Clonar Repo : Kana [Aqui.](https://github.com/Diego-LD-177/Kana-Arima-MD/fork)
 
 
 
 - ###  🐈 Instalar Por Render🧩
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2Diego-SK-177%2FSakuraBotLite-MD) 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2Diego-LD-177%2Kana-Arima-MD) 
 
 - ### 🪐 Instalar Por Code Space🧸
 
@@ -38,7 +38,7 @@ termux-setup-storage
 ```
 
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Diego-SK-177/SakuraBotLite-MD/master/start.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Diego-LD-177/Kana-Arima-MD/master/start.sh | bash
 ```
 
 - #### 🪐 Instalacion Por Termux Manual👨‍💻
@@ -55,7 +55,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/Diego-SK-177/SakuraBotLite-MD && cd SakuraBotLite-MD
+git clone https://github.com/Diego-LD-177/Kana-Arima-MD && cd Kana-Arima-MD
 ```
 ```bash
 yarn install && npm install
@@ -68,30 +68,30 @@ npm start
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd SakuraBotLite-MD
+> cd Kana-Arima-MD
 > npm start
 ```
 
 - ### 🪐 Obtener Otro Codigo Qr👨‍💻 
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd SakuraBotLite-MD
+> cd Kana-Arima-MD
 > rm -rf SakuraSession
 > npm start
 ```
-- ### 🪐 Actualizar SakuraBot 🟢
-> Note Comandos para actualizar Sakura - MD de forma automática
+- ### 🪐 Actualizar Kana 🟢
+> Note Comandos para actualizar Arima - MD de forma automática
 ```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/Diego-SK-177/SakuraBotLite-MD/master/update.sh | bash
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/Diego-LD-177/Kana-Arima-MD/master/update.sh | bash
 ```
-Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
+Para que no pierda su progreso en Kana, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 
 > Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
 
 - ### 📍 Activar En Heroku 🚀
 para usuarios del heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Diego-SK-177/SakuraBotLite-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Diego-LD-177/Kana-Arima-MD)
 
 #### Heroku Buildpack
 | BuildPack | LINK |
@@ -110,6 +110,6 @@ para usuarios del heroku
 
 ### Editor Y Propietario Del Bot 🌹⚡️
 <a
-href="https://github.com/Diego-SK-177"><img src="https://github.com/Diego-SK-177.png" width="200" height="200" alt="Diego"/></a>
+href="https://github.com/Diego-LD-177"><img src="https://github.com/Diego-LD-177.png" width="200" height="200" alt="Diego"/></a>
 
 ## Colaboradores Del Bot ✨️   [![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![Ender-GB-Isis777](https://github.com/Ender-GB-Isis777.png?size=100)](https://github.com/Ender-GB-Isis777) [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) [![MoonContentCreator](https://github.com/MoonContentCreator.png?size=100)](https://github.com/MoonContentCreator)
