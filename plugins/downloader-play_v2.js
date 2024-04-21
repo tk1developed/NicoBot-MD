@@ -6,7 +6,7 @@ let fileName;
 let apiUrl;
 let enviando = false;
 const handler = async (m, { command, usedPrefix, conn, text }) => {
-  if (!text) throw `*[❗] Nombre de la canción/video faltante, por favor ingrese el comando más el nombre, título o link de alguna canción o video de YouTube.*\n\n*—◉ Ejemplo 1:*\n*${usedPrefix + command}* Good Feeling - Flo Rida\n*—◉ Ejemplo 2:*\n*${usedPrefix + command}* https://youtu.be/JLWRZ8eWyZo?si=EmeS9fJvS_OkDk7p`;
+  if (!text) throw `*⚠️ Nombre de la canción/video faltante, por favor ingrese el comando más el nombre, título o link de alguna canción o video de YouTube.*\n\n*—◉ Ejemplo 1:*\n*${usedPrefix + command}* Good Feeling - Flo Rida\n*—◉ Ejemplo 2:*\n*${usedPrefix + command}* https://youtu.be/JLWRZ8eWyZo?si=EmeS9fJvS_OkDk7p`;
 if (enviando) return;
     enviando = true
   try {
@@ -27,7 +27,7 @@ if (enviando) return;
 
     if (!data.resultado || !data.resultado.url) {
       enviando = false;
-      throw `*[❗] No se pudo obtener la URL del video/canción.*`;
+      throw `*🛑 No se pudo obtener la URL del video/canción.*`;
     } else {
       try {
         if (command === 'play.1') {
@@ -56,7 +56,7 @@ if (enviando) return;
             }
           } catch {
             enviando = false;
-            throw `*[❗] Error al descargar el video/canción desde las APIs disponibles.`;
+            throw `*⚠️ Error al descargar el video/canción desde las APIs disponibles.`;
           }
        }
     }
@@ -69,11 +69,11 @@ if (enviando) return;
       enviando = false;
     } else {
       enviando = false;
-      throw `*[❗] Error al descargar el video/canción desde las APIs disponibles.`;
+      throw `*⚠️ Error al descargar el video/canción desde las APIs disponibles.`;
     }
   } catch (error) {
     enviando = false;
-    throw `*[❗] Error: ${error.message || 'Ocurrió un error inesperado'}.*`;
+    throw `*⚠️ Error: ${error.message || 'Ocurrió un error inesperado'}.*`;
   }
 };
 handler.help = ['play.1', 'play.2'].map((v) => v + ' <texto>');
@@ -87,7 +87,7 @@ import yts from 'yt-search';
 import ytdl from 'ytdl-core';
 import axios from 'axios';
 const handler = async (m, {command, usedPrefix, conn, text}) => {
-  if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙾 𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝚈𝙾𝚄𝚃𝚄𝙱𝙴*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} Good Feeling - Flo Rida*`;
+  if (!text) throw `*🛑 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙾 𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝚈𝙾𝚄𝚃𝚄𝙱𝙴*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} Good Feeling - Flo Rida*`;
   try {
     if (command == 'play.1') {
       conn.reply(m.chat, `*_⏳Sᴇ ᴇsᴛᴀ ᴘʀᴏᴄᴇsᴀɴᴅᴏ Sᴜ ᴀᴜᴅɪᴏ...⏳_*`, m);
@@ -96,7 +96,7 @@ const handler = async (m, {command, usedPrefix, conn, text}) => {
         const audiocore = mediaa.result2?.[0]?.audio || mediaa.result2?.[1]?.audio || mediaa.result2?.[2]?.audio || null;
         const aa = await conn.sendMessage(m.chat, {audio: {url: audiocore}, fileName: `error.mp3`, mimetype: 'audio/mpeg'}, {quoted: m});
         if (!aa) {
-        throw new Error('*[❗] El primero metodo fallo, intentando otro...*');
+        throw new Error('*🛑 El primero metodo fallo, intentando otro...*');
        }        
       } catch {
         const res = await fetch(`https://api.lolhuman.xyz/api/ytplay2?apikey=${lolkeysapi}&query=${text}`);
@@ -111,7 +111,7 @@ const handler = async (m, {command, usedPrefix, conn, text}) => {
         const mediaa = await ytPlayVid(text);
         const aa_2 = await conn.sendMessage(m.chat, {video: {url: mediaa.result}, fileName: `error.mp4`, caption: `_𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭_`, thumbnail: mediaa.thumb, mimetype: 'video/mp4'}, {quoted: m});
         if (!aa_2) {
-        throw new Error('*[❗] El primero metodo fallo, intentando otro...*');
+        throw new Error('*🛑 El primero metodo fallo, intentando otro...*');
        }
       } catch {
         const res = await fetch(`https://api.lolhuman.xyz/api/ytplay2?apikey=${lolkeysapi}&query=${text}`);
@@ -120,7 +120,7 @@ const handler = async (m, {command, usedPrefix, conn, text}) => {
       }
     }
   } catch {
-    throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*';
+    throw '*⚠️ Ocurrió un error*';
   }
 };
 handler.help = ['play.1', 'play.2'].map((v) => v + ' <texto>');
