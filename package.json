@@ -1,5 +1,5 @@
 {
-  "name": "SakuraBotLite-MD",
+  "name": "Kana-Arima-MD",
   "version": "1.0.7",
   "description": "El Mejor Bot",
   "main": "index.js",
@@ -18,16 +18,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/Diego-SK-177/SakuraBotLite-MD",
+  "homepage": "https://github.com/Diego-YL-177/Kana-Arima-MD",
   "author": {
     "name": "Dɪᴇɢᴏ Oғᴄ"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Diego-SK-177/SakuraBotLite-MD.git"
+    "url": "git+https://github.com/Diego-YL-177/Kana-Arima-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/Diego-SK-177/SakuraBotLite-MD/issues"
+    "url": "https://github.com/Diego-YL-177/Kana-Arima-MD/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
