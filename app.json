@@ -1,10 +1,10 @@
 {
-  "name": "Kana-Arima-MD",
+  "name": "Yotsuba-Nakano-MD",
   "website": "https://github.com/Diego-YL-177",
   "description": "Mejor Bot",
-  "repository": "https://github.com/Diego-YL-177/Kana-Arima-MD",
-  "logo": "https://raw.githubusercontent.com/Diego-YL-177/Kana-Arima-MD/master/src/pictures/heroku-icon.jpg",
-  "success_url": "https://github.com/Diego-YL-177/Kana-Arima-MD",
+  "repository": "https://github.com/Diego-YL-177/Yotsuba-Nakano-MD",
+  "logo": "https://raw.githubusercontent.com/Diego-YL-177/Yotsuba-Nakano-MD/master/src/pictures/heroku-icon.jpg",
+  "success_url": "https://github.com/Diego-YL-177/Yotsuba-Nakano-MD",
   "keywords": [
     "nodejs",
     "heroku",
