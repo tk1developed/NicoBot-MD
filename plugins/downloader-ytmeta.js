@@ -19,11 +19,11 @@ const extract = (await ytdl.getBasicInfo(text)).videoDetails.title;
     genre: s.meta.category || "-",
     comment: {
       language: "spa",
-      text: '🤴🏻 Descarga por Diego-SK-177 & SakuraBotLite-MD 🤖',
+      text: '🌩 Descarga por Diego-YL-177 & Yotsuba-Nakano-MD 🚩',
     },
     unsynchronisedLyrics: {
       language: "spa",
-      text: '🤴🏻 Descarga por Diego-SK-177 & SakuraBotLite-MD 🤖',
+      text: '🌩 Descarga por Diego-SK-177 & Yotsuba-Nakano-MD 🚩',
     },
     image: {
       mime: "image/jpeg",
