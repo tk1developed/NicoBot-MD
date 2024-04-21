@@ -35,7 +35,7 @@ forwardingScore: 9999,
 isForwarded: true, 
 externalAdReply: {
 title: sk,
-body: saludo,
+body: team,
 thumbnailUrl: img,
 thumbnail: img,
 sourceUrl: global.channel,
