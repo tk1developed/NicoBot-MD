@@ -63,7 +63,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd Yotsuba-Nakano-MD
-> rm -rf sessios
+> rm -rf NakanoSession
 > npm start
 ```
 - ### 🪐 Actualizar Yotsuba 🟢
