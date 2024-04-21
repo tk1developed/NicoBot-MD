@@ -22,5 +22,5 @@ async function handler(m, { conn: _envio, usedPrefix }) {
 
 handler.command = ['listjadibot', 'bots']
 handler.help = ['bots']
-handler.tags = ['serbot']
+handler.tags = ['jadibot']
 export default handler
