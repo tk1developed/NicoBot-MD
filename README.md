@@ -13,7 +13,7 @@
 
 
 - ### ⚙️Configuracion
- Clonar Repo : Kana [Aqui.](https://github.com/Diego-YL-177/Yotsuba-Nakano-MD/fork)
+ Clonar Repo : Yotsuba [Aqui.](https://github.com/Diego-YL-177/Yotsuba-Nakano-MD/fork)
 
 
 
