@@ -2,7 +2,7 @@
 
 ## Kana - Arima - MD 🌼
 <p align="center">
-<img src="https://telegra.ph/file/2d04f8cd12aa985fc9430.png" alt="Bot-WhatsApp" width="900"/>
+<img src= "https://telegra.ph/file/852e26c73a229c5308121.jpg" alt="Kana-Arima" width="900"/>
 </p>
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
