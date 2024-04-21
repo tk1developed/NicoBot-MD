@@ -29,7 +29,7 @@ global.contactos = [
 global.suittag = ['573012482597'];
 global.prems = ['573218138672'];
 
-global.lenguajeYL = es //idioma de kana
+global.lenguajeYL = es //idioma de yotsuba
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
 global.packname = '𝗬𝗼𝘁𝘀𝘂𝗯𝗮 𝗡𝗮𝗸𝗮𝗻𝗼 - 𝗠𝗗 💛';
