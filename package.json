@@ -1,5 +1,5 @@
 {
-  "name": "Kana-Arima-MD",
+  "name": "Yotsuba-Nakano-MD",
   "version": "1.0.7",
   "description": "El Mejor Bot",
   "main": "index.js",
@@ -18,16 +18,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/Diego-YL-177/Kana-Arima-MD",
+  "homepage": "https://github.com/Diego-YL-177/Yotsuba-Nakano-MD",
   "author": {
     "name": "Dɪᴇɢᴏ Oғᴄ"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Diego-YL-177/Kana-Arima-MD.git"
+    "url": "git+https://github.com/Diego-YL-177/Yotsuba-Nakano-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/Diego-YL-177/Kana-Arima-MD/issues"
+    "url": "https://github.com/Diego-YL-177/Yotsuba-Nakano-MD/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
