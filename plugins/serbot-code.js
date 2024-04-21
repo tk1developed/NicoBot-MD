@@ -23,26 +23,20 @@ if (global.conns instanceof Array) console.log()
 else global.conns = []
 
 let handler = async (m, { conn: parent, args, usedPrefix, command, isOwner }) => {
-//if (!global.db.data.settings[conn.user.jid].serbot) throw `🚩 Este comando solo puede ser utilizado en el bot oficial wa.me/573016968714?text=.serbot`
-  /*let conn = args[0] && args[0] == 'plz' ? _conn : await global.conn
-  if (!((args[0] && args[0] == 'plz') || (await global.conn).user.jid == _conn.user.jid)) {
-	throw `Este comando solo puede ser usado en el bot principal! wa.me/${global.conn.user.jid.split`@`[0]}?text=${usedPrefix}code`
-}*/
 
-	//=====
   async function serbot() {
 
   let authFolderB = crypto.randomBytes(10).toString('hex').slice(0, 8)
   //let authFolderB = m.sender.split('@')[0]
 
 
-    if (!fs.existsSync("./jadibts/"+ authFolderB)){
-        fs.mkdirSync("./jadibts/"+ authFolderB, { recursive: true });
+    if (!fs.existsSync("./serbot/"+ authFolderB)){
+        fs.mkdirSync("./serbot/"+ authFolderB, { recursive: true });
     }
     args[0] ? fs.writeFileSync("./serbot/" + authFolderB + "/creds.json", JSON.stringify(JSON.parse(Buffer.from(args[0], "base64").toString("utf-8")), null, '\t')) : ""
     
 //--
-const {state, saveState, saveCreds} = await useMultiFileAuthState(`./jadibts/${authFolderB}`)
+const {state, saveState, saveCreds} = await useMultiFileAuthState(`./serbot/${authFolderB}`)
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const msgRetryCounterCache = new NodeCache()
 const {version} = await fetchLatestBaileysVersion();
@@ -91,14 +85,14 @@ if (methodCode && !conn.authState.creds.registered) {
     setTimeout(async () => {
         let codeBot = await conn.requestPairingCode(cleanedNumber);
         codeBot = codeBot?.match(/.{1,4}/g)?.join("-") || codeBot;
-        let txt = '`–  S E R B O T  -  S U B B O T`\n\n'
+        let txt = ` –  *S E R B O T  -  S U B B O T*\n\n`
             txt += `┌  ✩  *Usa este Código para convertirte en un Sub Bot*\n`
             txt += `│  ✩  Pasos\n`
             txt += `│  ✩  *1* : Haga click en los 3 puntos\n`
             txt += `│  ✩  *2* : Toque dispositivos vinculados\n`
             txt += `│  ✩  *3* : Selecciona *Vincular con el número de teléfono*\n` 
             txt += `└  ✩  *4* : Escriba el Codigo\n\n`
-            txt += `> *Nota:* Este Código solo funciona en el número que lo solicito`
+            txt += `*Nota:* Este Código solo funciona en el número que lo solicito`
          await parent.sendMessage(m.chat, { text: txt }, { quoted: m })
          await parent.sendMessage(m.chat, { text: codeBot }, { quoted: m })
         rl.close();
@@ -129,13 +123,11 @@ async function connectionUpdate(update) {
     if (connection == 'open') {
     conn.isInit = true
     global.conns.push(conn)
-    await parent.sendMessage(m.chat, {text : args[0] ? 'Conectado con exito\n\n*Nota:* El número del bot principal es: https://wa.me/' + global.conn.user.jid.split`@`[0] : 'Conectado exitosamente con WhatsApp\n\n*Nota:* Esto es temporal\nSi el Bot principal se reinicia o se desactiva, todos los sub bots tambien lo haran\n\nPuede iniciar sesión sin el codigo qr con el siguiente mensaje, envialo cuando no funcione el bot...', { quoted: m })
+    await parent.sendMessage(m.chat, {text : args[0] ? 'Conectado con exito\n\n*Nota:* El número del bot principal es: https://wa.me/' + global.conn.user.jid.split`@`[0x0] : 'Conectado exitosamente con WhatsApp\n\n*Nota:* Esto es temporal\nSi el Bot principal se reinicia o se desactiva, todos los sub bots tambien lo haran\n\nPuede iniciar sesión sin el codigo qr con el siguiente mensaje, envialo cuando no funcione el bot...\n\n*Nota:* El número del bot principal es: https://wa.me/' + global.conn.user.jid.split`@`[0x0] + '\n\nEl número del bot puede cambiar, guarda este enlace:\nhttps://chat.whatsapp.com/JUbscwIz19iKWHDnXSNoXQ' }, { quoted: m })
     await sleep(5000)
     if (args[0]) return
 		await parent.sendMessage(conn.user.jid, {text : `La siguiente vez que se conecte envía el siguiente mensaje para iniciar sesión sin escanear otro código *QR*`}, { quoted: m })
-		await parent.sendMessage(conn.user.jid, {text : usedPrefix + command + " " + Buffer.from(fs.readFileSync("./jadibts/" + authFolderB + "/creds.json"), "utf-8").toString("base64")}, { quoted: m })
-		
-	//	await conn.sendMessage('5218261009198@s.whatsapp.net', {text : usedPrefix + command + " " + Buffer.from(fs.readFileSync("./jadibts/" + authFolderB + "/creds.json"), "utf-8").toString("base64")}, { quoted: m })
+		parent.sendMessage(conn.user.jid, {text : usedPrefix + command + " " + Buffer.from(fs.readFileSync("./serbot/" + authFolderB + "/creds.json"), "utf-8").toString("base64")}, { quoted: m })
 	  }
  
   }
@@ -200,7 +192,7 @@ serbot()
 }
 handler.help = ['code']
 handler.tags = ['serbot']
-handler.command = ['code', 'codebot']
+handler.command = ['code']
 handler.rowner = false
 
 export default handler
@@ -208,8 +200,6 @@ export default handler
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
-
-
 
 /*const {
     useMultiFileAuthState,
