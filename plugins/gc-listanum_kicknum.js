@@ -1,5 +1,5 @@
 /*              Codigo Creado Por Bruno Sobrino
-      (https://github.com/diegojadibot/SakuraBotLite-MD)
+      (https://github.com/Diego-YL-177/Yotsuba-Nakano-MD)
 */
 
 const handler = async (m, {conn, args, groupMetadata, participants, usedPrefix, command, isBotAdmin, isSuperAdmin}) => {
