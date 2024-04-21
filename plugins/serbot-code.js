@@ -36,13 +36,13 @@ let handler = async (m, { conn: parent, args, usedPrefix, command, isOwner }) =>
   //let authFolderB = m.sender.split('@')[0]
 
 
-    if (!fs.existsSync("./serbot/"+ authFolderB)){
-        fs.mkdirSync("./serbot/"+ authFolderB, { recursive: true });
+    if (!fs.existsSync("./jadibts/"+ authFolderB)){
+        fs.mkdirSync("./jadibts/"+ authFolderB, { recursive: true });
     }
     args[0] ? fs.writeFileSync("./serbot/" + authFolderB + "/creds.json", JSON.stringify(JSON.parse(Buffer.from(args[0], "base64").toString("utf-8")), null, '\t')) : ""
     
 //--
-const {state, saveState, saveCreds} = await useMultiFileAuthState(`./serbot/${authFolderB}`)
+const {state, saveState, saveCreds} = await useMultiFileAuthState(`./jadibts/${authFolderB}`)
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const msgRetryCounterCache = new NodeCache()
 const {version} = await fetchLatestBaileysVersion();
@@ -129,13 +129,13 @@ async function connectionUpdate(update) {
     if (connection == 'open') {
     conn.isInit = true
     global.conns.push(conn)
-    await parent.sendMessage(m.chat, {text : args[0] ? 'Conectado con exito\n\n*Nota:* El número del bot principal es: https://wa.me/' + global.conn.user.jid.split`@`[0] : 'Conectado exitosamente con WhatsApp\n\n*Nota:* Esto es temporal\nSi el Bot principal se reinicia o se desactiva, todos los sub bots tambien lo haran\n\nPuede iniciar sesión sin el codigo qr con el siguiente mensaje, envialo cuando no funcione el bot...\n\n*Nota:* El número del bot principal es: https://wa.me/' + global.conn.user.jid.split`@`[0] + '\n\nEl número del bot puede cambiar, guarda este enlace:\https://chat.whatsapp.com/La4sJ0SeygtJs6hexdiuV7' }, { quoted: m })
+    await parent.sendMessage(m.chat, {text : args[0] ? 'Conectado con exito\n\n*Nota:* El número del bot principal es: https://wa.me/' + global.conn.user.jid.split`@`[0] : 'Conectado exitosamente con WhatsApp\n\n*Nota:* Esto es temporal\nSi el Bot principal se reinicia o se desactiva, todos los sub bots tambien lo haran\n\nPuede iniciar sesión sin el codigo qr con el siguiente mensaje, envialo cuando no funcione el bot...\n\n*Nota:* El número del bot principal es: https://wa.me/' + global.conn.user.jid.split`@`[0] + ' }, { quoted: m })
     await sleep(5000)
     if (args[0]) return
 		await parent.sendMessage(conn.user.jid, {text : `La siguiente vez que se conecte envía el siguiente mensaje para iniciar sesión sin escanear otro código *QR*`}, { quoted: m })
-		await parent.sendMessage(conn.user.jid, {text : usedPrefix + command + " " + Buffer.from(fs.readFileSync("./serbot/" + authFolderB + "/creds.json"), "utf-8").toString("base64")}, { quoted: m })
+		await parent.sendMessage(conn.user.jid, {text : usedPrefix + command + " " + Buffer.from(fs.readFileSync("./jadibts/" + authFolderB + "/creds.json"), "utf-8").toString("base64")}, { quoted: m })
 		
-	//	await conn.sendMessage('5218261009198@s.whatsapp.net', {text : usedPrefix + command + " " + Buffer.from(fs.readFileSync("./serbot/" + authFolderB + "/creds.json"), "utf-8").toString("base64")}, { quoted: m })
+	//	await conn.sendMessage('5218261009198@s.whatsapp.net', {text : usedPrefix + command + " " + Buffer.from(fs.readFileSync("./jadibts/" + authFolderB + "/creds.json"), "utf-8").toString("base64")}, { quoted: m })
 	  }
  
   }
