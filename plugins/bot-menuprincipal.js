@@ -40,9 +40,7 @@ import { xpRange } from '../lib/levelling.js'
 
 const defaultMenu = {
   before: `
-*✰.｡.『 𝐒𝐚𝐤𝐮𝐫𝐚 - 𝐁𝐨𝐭 - 𝐌𝐃 』.｡.✰*
-
-*𝖧𝗈𝗅𝖺 %taguser 👋, Soy SakuraBot ;)*
+*✰.｡.『 𝐊𝐚𝐧𝐚 𝐀𝐫𝐢𝐦𝐚 - 𝐌𝐃 』.｡.✰*
 
          *☩ ⺀ Iɴғᴏ Bᴏᴛ ⺀ ☩*
  ✰્᭄͜͡ *Vᴇʀɪғɪᴄᴀᴅᴏs* : %totalreg
@@ -182,20 +180,21 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
 
-   let pp1 = 'https://telegra.ph/file/b6c5744019dc6917f4f2a.mp4'
-    let pp2 = 'https://telegra.ph/file/b0f6acd276d956dbe37fe.mp4'
+   let pp1 = 'https://telegra.ph/file/a0522133be2985a8aedc5.mp4'
+    let pp2 = 'https://telegra.ph/file/e5c3e4c49eab0efa9c2d9.mp4'
+    let pp3 = 'https://telegra.ph/file/a7fa62c23d5811b526959.mp4'
 
     //let img = await (await fetch('https://tinyurl.com/2y223gks')).buffer()  
 
-await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: saludo, sourceUrl: global.yt, thumbnail: imagen6 }}})
+await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '✰ 𝐊𝐚𝐧𝐚 𝐀𝐫𝐢𝐦𝐚 - 𝐌𝐃 ✰', body: saludo, sourceUrl: global.channel, thumbnail: imagen6 }}})
 
 
-await conn.sendMessage(m.chat, { react: { text: '🚀', key: m.key } })
+await conn.sendMessage(m.chat, { react: { text: '💫', key: m.key } })
 
 //await conn.sendFile(m.chat, wm, text.trim(), img, img, channel, m)
 
 
-    conn.sendMessage(m.chat, { video: { url: [pp1, pp2].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: m })
+    conn.sendMessage(m.chat, { video: { url: [pp1, pp2, pp3].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: m })
 
    //let img = await (await fetch('https://tinyurl.com/242jfywv')).buffer() 
 
