@@ -1,6 +1,6 @@
 > 🚩🧿Versión Del Bot: 1.0.7
 
-## Kana - Arima - MD 🌼
+# Kana - Arima - MD 🌼
 <p align="center">
 <img src= "https://telegra.ph/file/852e26c73a229c5308121.jpg" alt="Kana-Arima" width="900"/>
 </p>
