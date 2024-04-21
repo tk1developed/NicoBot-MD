@@ -5,7 +5,7 @@ import ytdl from 'ytdl-core';
 import axios from 'axios';
 import {bestFormat, getUrlDl} from '../lib/y2dl.js';
 const handler = async (m, {conn, args, usedPrefix, command}) => {
-  if (!args[0]) throw '*📍 Ingrese Un Enlace De Youtube.*';
+  if (!args[0]) throw '*🚩 Ingrese Un Enlace De Youtube.*';
   let enviando;
   if (enviando) return  
       enviando = true    
@@ -22,15 +22,15 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
             youtubeLink = matchingItem.urls[index];
           } else {
             enviando = false  
-            throw `*🧩 No se encontro un enlace para ese numero, por favor ingrese un numero entre el 1 y el ${matchingItem.urls.length}*`;
+            throw `*⚠️ No se encontro un enlace para ese numero, por favor ingrese un numero entre el 1 y el ${matchingItem.urls.length}*`;
           }
         } else {
           enviando = false  
-          throw `*📍 Para poder hacer uso del comando de esta forma (${usedPrefix + command} <numero>), por favor realiza la busqueda de videos con el comando ${usedPrefix}playlist <texto>*`;
+          throw `*⚠️ Para poder hacer uso del comando de esta forma (${usedPrefix + command} <numero>), por favor realiza la busqueda de videos con el comando ${usedPrefix}playlist <texto>*`;
         }
       } else {
         enviando = false  
-        throw `*📍 Para poder hacer uso del comando de esta forma (${usedPrefix + command} <numero>), por favor realiza la busqueda de videos con el comando ${usedPrefix}playlist <texto>*`;
+        throw `*⚠️ Para poder hacer uso del comando de esta forma (${usedPrefix + command} <numero>), por favor realiza la busqueda de videos con el comando ${usedPrefix}playlist <texto>*`;
       }
     }
   }
@@ -46,11 +46,11 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
     const roundedFileSizeInMB = fileSizeInMB.toFixed(2);
    if (fileSizeInMB > 100) {
     await conn.sendMessage(m.chat, {document: buff, caption: `*Titulo:* ${ttl_1}\n*Peso Del Video:* ${roundedFileSizeInMB} MB`, fileName: ttl_1 + '.mp4', mimetype: 'video/mp4'}, {quoted: m});
-    await conn.sendMessage(m.chat, {text: `*🧩 Video Descargado Exitosamente*\n\n*Se envío en formato de docuemnto debido a que el video pesa ${roundedFileSizeInMB} MB y supera el limite establecido por WhatsApp.*\n*◉ Titulo:* ${ttl_1}`, edit: key}, {quoted: m});
+    await conn.sendMessage(m.chat, {text: `*💫 Video Descargado Exitosamente*\n\n*Se envío en formato de docuemnto debido a que el video pesa ${roundedFileSizeInMB} MB y supera el limite establecido por WhatsApp.*\n*◉ Titulo:* ${ttl_1}`, edit: key}, {quoted: m});
     enviando = false
    } else {
     await conn.sendMessage(m.chat, {video: buff, caption: `*Titulo:* ${ttl_1}\n*Peso Del Video:* ${roundedFileSizeInMB} MB`, fileName: ttl_1 + '.mp4', mimetype: 'video/mp4'}, {quoted: m});
-    await conn.sendMessage(m.chat, {text: `*🧩 Video Descargado Exitosamente*`, edit: key}, {quoted: m});
+    await conn.sendMessage(m.chat, {text: `*🚩 Video Descargado Exitosamente*`, edit: key}, {quoted: m});
     enviando = false   
    }
  } catch (ee) {
@@ -64,14 +64,14 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
     const ttl = yt.title;
     const size = yt.video[q].fileSizeH;
     await conn.sendMessage(m.chat, {video: {url: dl_url}, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `*Titulo:* ${ttl}\n*Peso Del Video:* ${size}`, thumbnail: await fetch(yt.thumbnail)}, {quoted: m});
-    await conn.sendMessage(m.chat, {text: '*🧩 Video Descargado Exitosamente*', edit: key}, {quoted: m});
+    await conn.sendMessage(m.chat, {text: '*🚩 Video Descargado Exitosamente*', edit: key}, {quoted: m});
     enviando = false
   } catch (ee2) {
     console.log(ee2)
     try {
       const mediaa = await ytMp4(youtubeLink);
-      await conn.sendMessage(m.chat, {video: {url: mediaa.result}, fileName: `error.mp4`, caption: ` ❥ᰰຼ ⃟ᬽ៸𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿༒★»`, thumbnail: mediaa.thumb, mimetype: 'video/mp4'}, {quoted: m});
-      await conn.sendMessage(m.chat, {text: '*🧩 Video Descargado Exitosamente*', edit: key}, {quoted: m});
+      await conn.sendMessage(m.chat, {video: {url: mediaa.result}, fileName: `error.mp4`, caption: `✰ 𝗬𝗼𝘁𝘀𝘂𝗯𝗮 𝗡𝗮𝗸𝗮𝗻𝗼 ★`, thumbnail: mediaa.thumb, mimetype: 'video/mp4'}, {quoted: m});
+      await conn.sendMessage(m.chat, {text: '*🚩 Video Descargado Exitosamente*', edit: key}, {quoted: m});
       enviando = false
     } catch {
       try {
@@ -82,11 +82,11 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
         const n3 = lolh.result.size;
         const n4 = lolh.result.thumbnail;
         await conn.sendMessage(m.chat, {video: {url: n2}, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `*Titulo:* ${n}\n*Peso Del Video:* ${n3}`, thumbnail: await fetch(n4)}, {quoted: m});
-        await conn.sendMessage(m.chat, {text: '*🧩 Video Descargado Exitosamente*', edit: key}, {quoted: m});
+        await conn.sendMessage(m.chat, {text: '*🚩 Video Descargado Exitosamente*', edit: key}, {quoted: m});
         enviando = false
       } catch {
-        await conn.sendMessage(m.chat, {text: `*🥀 No Se Pudo Descargar El Video.*`, edit: key}, {quoted: m});
-        throw '*🧸 Error Intentalo Mas Tarde!*';
+        await conn.sendMessage(m.chat, {text: `*📢 No Se Pudo Descargar El Video.*`, edit: key}, {quoted: m});
+        throw '*🛑 Error Intentalo Mas Tarde!*';
       }
     }
   }
