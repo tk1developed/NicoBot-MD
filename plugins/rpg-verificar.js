@@ -22,12 +22,15 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   user.registered = true
   let sn = createHash('md5').update(m.sender).digest('hex')
   let img = await (await fetch('https://telegra.ph/file/967e7e15d4573be7a137f.jpg')).buffer()  
-  let str = ` Rᴇɢɪsᴛʀᴏ - Usᴜᴀʀɪᴏ 🚩
-
-🌩 *Nᴏᴍʙʀᴇ* : ${name}
-💚 *Eᴅᴀᴅ* : ${age} años
-🌼 *Nᴜᴍᴇʀᴏ ᴅᴇ sᴇʀɪᴇ* :
-${sn}`
+  let str = `╔═𑁍֯══════════════.✰֯═╗
+║ • Yᴏᴛsᴜʙᴀ Nᴀᴋᴀɴᴏ - MD 🪷
+╠═.✰֯══════════════𑁍֯═╝
+╩ ┌──𑁍̥˚──◌──────✰̥˚─┄
+𑁍 │Nombre: ${name}
+𑁍 │Edad : ${age} años 
+𑁍 │Ns : ${ns}
+╦ └──✰̥˚──────◌──𑁍̥˚─⳹
+╚════════════════.✰.═╝`
 conn.sendMessage(m.chat, {
 text: str,
 contextInfo: { 
