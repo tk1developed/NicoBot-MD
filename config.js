@@ -29,7 +29,7 @@ global.contactos = [
 global.suittag = ['573012482597'];
 global.prems = ['573218138672'];
 
-global.lenguajeSK = es //idioma de sakurabot
+global.lenguajeYL = es //idioma de kana
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
 global.packname = '𝙆𝙖𝙣𝙖 𝘼𝙧𝙞𝙢𝙖 - 𝙈𝘿 🍄';
