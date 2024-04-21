@@ -91,7 +91,7 @@ function _0x5eec() {
         'fdSPq',
         'now',
         'includes',
-        'SakuraBot',
+        'Kana-Arima',
         'NzZjM2ZmMzU2MTEyMzM3OTczOWU5ZmFmMDZjYzUzO',
         'Unzso',
         'registered',
@@ -104,7 +104,7 @@ function _0x5eec() {
         'loggedOut',
         'ElOyX',
         'KjvHb',
-        (lenguajeSK['smsIniJadi2']()),
+        (lenguajeYL['smsIniJadi2']()),
         'output',
         'Leyendo\x20mensaje\x20entrante:',
         'readFileSync',
@@ -126,7 +126,7 @@ function _0x5eec() {
         'TsdtN',
         'unlinkSync',
         '🌼\x20Razon\x20de\x20desconexión\x20desconocida:\x20${reason\x20||\x20\x22\x22}\x20>>\x20${connection\x20||\x20\x22\x22}',
-        (lenguajeSK['smsIniJadi']()),
+        (lenguajeYL['smsIniJadi']()),
         'PzMEs',
         'message.delete',
         'VSkUK',
@@ -213,7 +213,7 @@ function _0x5eec() {
         'YDFAq',
         'hefzn',
         'AwVqR',
-        'SakuraBotLite-MD',
+        'Kana-Arima-MD',
         'callUpdate',
         'ZDkrO',
         '¡Se\x20ha\x20modificado\x20el\x20título\x20del\x20grupo!',
@@ -306,7 +306,7 @@ function _0x32c8(_0x4b5268, _0x330de0) {
         return _0x3c6347;
     }, _0x32c8(_0x4b5268, _0x330de0);
 }
-let check1 = _0x54c6f6(0x12c), check2 = _0x54c6f6(0x153), check3 = _0x54c6f6(0x184), check4 = _0x54c6f6(0x1fb), check5 = _0x54c6f6(0x195), check6 = _0x54c6f6(0x136), check8 = 'NjNmYmJjYzA1YmFiY2MzZGU4MGRlICBpbmZvLWJvdC5qcwo', crm1 = _0x54c6f6(0x1da), crm2 = _0x54c6f6(0x1e1), crm3 = _0x54c6f6(0x13d), crm4 = _0x54c6f6(0x126), drm1 = _0x54c6f6(0x181), drm2 = 'cmFCb3RMaXRlLU1EKiDwn6e/', rtx = _0x54c6f6(0x1b7), rtx2 = _0x54c6f6(0x1a1);
+let check1 = _0x54c6f6(0x12c), check2 = _0x54c6f6(0x153), check3 = _0x54c6f6(0x184), check4 = _0x54c6f6(0x1fb), check5 = _0x54c6f6(0x195), check6 = _0x54c6f6(0x136), check8 = 'NjNmYmJjYzA1YmFiY2MzZGU4MGRlICBpbmZvLWJvdC5qcwo', crm1 = _0x54c6f6(0x1da), crm2 = _0x54c6f6(0x1e1), crm3 = _0x54c6f6(0x13d), crm4 = _0x54c6f6(0x126), drm1 = '', drm2 = '', rtx = _0x54c6f6(0x1b7), rtx2 = _0x54c6f6(0x1a1);
 if (global[_0x54c6f6(0x12f)] instanceof Array)
     console[_0x54c6f6(0x19b)]();
 else
