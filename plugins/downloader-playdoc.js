@@ -4,7 +4,7 @@ import ytdl from 'ytdl-core';
 import axios from 'axios';
 import {youtubedl, youtubedlv2} from '@bochilteam/scraper';
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
-  if (!text) throw `*🥀 Escriba Un Nombre De Alguna Cancion*\n\n*Ejemplo:*\n*${usedPrefix + command} Sombra - Maiye Torrex* `;
+  if (!text) throw `*🚩 Escriba Un Nombre De Alguna Cancion*\n\n*Ejemplo:*\n*${usedPrefix + command} Sombra - Maiye Torrex* `;
   try {
     const yt_play = await search(args.join(' '));
     let additionalText = '';
@@ -94,15 +94,15 @@ ${yt_play[0].url}\n
             const n2 = lolh.result.link;
             const n3 = lolh.result.size;
             const n4 = lolh.result.thumbnail;
-            await conn.sendMessage(m.chat, {document: {url: n2}, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `⚘️ *Titulo:* ${n}\n🥀 *Peso Del Video:* ${n3}`, thumbnail: await fetch(n4)}, {quoted: m});
+            await conn.sendMessage(m.chat, {document: {url: n2}, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `🏜 *Titulo:* ${n}\n🛑 *Peso Del Video:* ${n3}`, thumbnail: await fetch(n4)}, {quoted: m});
           } catch {
-            await conn.reply(m.chat, '*🥀 No Fue Posible Enviar El Video.*', m);
+            await conn.reply(m.chat, '*⚠️ No Fue Posible Enviar El Video.*', m);
           }
         }
       }
     }
   } catch {
-    throw '*🥀 Error intentelo mas tarde*';
+    throw '*⚠️ Error intentelo mas tarde*';
   }
 };
 handler.help = ['play3', 'play4'].map((v) => v + ' < busqueda >');
