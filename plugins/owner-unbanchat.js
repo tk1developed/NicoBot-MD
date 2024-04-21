@@ -1,6 +1,6 @@
 const handler = async (m) => {
   global.db.data.chats[m.chat].isBanned = false;
-  m.reply('*Bot Desactivado*');
+  m.reply('*Bot Encendido*');
 };
 handler.help = ['unbanchat'];
 handler.tags = ['owner'];
