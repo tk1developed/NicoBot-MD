@@ -25,13 +25,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 
 const document = doc[Math.floor(Math.random() * doc.length)];
- const str = `🧸 *Instalación Automatica* (Termux)
-   
-➪ termux-setup-storage
-
-➪ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Diego-SK-177/SakuraBotLite-MD/master/start.sh | bash
-
-🧸 *Instalación Manual* (Termux) 📍
+ const str = `💚 *Instalación Manual* (Termux) 🐢
 
 ➪ cd && termux-setup-storage
 
@@ -39,7 +33,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 
 ➪ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
 
-➪ git clone https://github.com/Diego-SK-177/SakuraBotLite-MD.git && cd SakuraBotLite-MD
+➪ git clone https://github.com/Diego-YL-177/Yotsuba-Nakano-MD.git && cd Yotsuba-Nakano-MD
 
 ➪ yarn install
 
@@ -53,15 +47,15 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 
 ➪ cd
 
-➪ cd SakuraBotLite-MD
+➪ cd Yotsuba-Nakano-MD
 
 ➪ npm start
 
-🧸 *Obtener Otro Codigo Qr* 📍
+💚 *Obtener Otro Codigo Qr* 📍
 
-➪ cd SakuraBotLite-MD
+➪ cd Yotsuba-Nakano-MD
 
-➪ rm -rf SakuraSession
+➪ rm -rf NakanoSession
 
 ➪ npm start
 
