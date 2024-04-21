@@ -26,25 +26,12 @@
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=738341999&ref=main&geo=UsEast)
 ***
 
-- #### 🪐 Instalacion Por Termux Automatica🧸
-
-[![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
-](https://youtu.be/X-wQbVhLb8w?si=UdP9uM5SPFRY75nU)
-
-[`🧩 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
-
-```bash
-termux-setup-storage
-```
-
-```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Diego-YL-177/Kana-Arima-MD/master/start.sh | bash
-```
-
 - #### 🪐 Instalacion Por Termux Manual👨‍💻
 
 [![blog](https://img.shields.io/badge/Instalacion-Manual-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/9-v4XwMTJYE?si=STdO2GwZR1GAmXfA)
+
+[`🪐 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
 
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
