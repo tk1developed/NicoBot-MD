@@ -37,7 +37,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 │
 │•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•
 │
-│➸ 𝗦𝗮𝗸𝘂𝗿𝗮𝗕𝗼𝘁𝗟𝗶𝘁𝗲-𝗠𝗗 🪐
+│➸ 𝐒𝐭𝐚𝐫𝐥𝐢𝐠𝐡𝐭𝐬 𝐓𝐞𝐚𝐦 🪐
 ╰━━━━━━･❪ ❁ ❫ ･━━━━━━❖`.trim();
   const doc = [
     "pdf",
@@ -48,22 +48,22 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://github.com/Diego-SK-177/SakuraBotLite-MD` },
+    document: { url: `https://github.com/Diego-YL-177/Yotsuba-Nakano-MD` },
     mimetype: `application/${document}`,
-    fileName: `Sakura Bot 🪐`,
+    fileName: `𝐘𝐨𝐭𝐬𝐮𝐧𝐚 𝐍𝐚𝐤𝐚𝐧𝐨 🪐`,
     fileLength: 99999999999999,
     pageCount: 200,
     contextInfo: {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://github.com/Diego-SK-177/SakuraBotLite-MD",
+        mediaUrl: "https://github.com/Diego-YL-177/Yotsuba-Nakano-MD",
         mediaType: 2,
         previewType: "pdf",
-        title: "Tᴜ Mᴇᴊᴏʀ Bᴏᴛ!",
+        title: "𝐒𝐭𝐚𝐫𝐥𝐢𝐠𝐡𝐭𝐬 𝐓𝐞𝐚𝐦",
         body: wm,
         thumbnail: imagen6,
-        sourceUrl: "https://github.com/Diego-SK-177/SakuraBotLite-MD",
+        sourceUrl: "https://github.com/Diego-YL-177/Yotsuba-Nakano-MD",
       },
     },
     caption: info,
