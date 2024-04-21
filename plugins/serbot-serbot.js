@@ -34,20 +34,20 @@ return str
 }
 
 let uniqid = randomString(10)
-let dir = `./serbot/${uniqid}`
+let dir = `./jadibts/${uniqid}`
 if (!fs.existsSync(dir)) {
 fs.mkdirSync(dir, { recursive: true })
 }
 if (args[0]) {
 fs.writeFileSync(`${dir}/creds.json`, Buffer.from(args[0], 'base64').toString('utf-8'))
 }
-const { state, saveState, saveCreds } = await useMultiFileAuthState("./serbot/" + uniqid)
+const { state, saveState, saveCreds } = await useMultiFileAuthState("./jadibts/" + uniqid)
 let { version, isLatest } = await fetchLatestBaileysVersion()  
 const connectionOptions = {
 version,
 printQRInTerminal: true,
 auth: state,
-browser: ["Miku Nakano", 'Safari', "1.0.0"],
+browser: ["Kana Arima", 'Safari', "1.0.0"],
 patchMessageBeforeSending: message => {
 const requiresPatch = !!(message.buttonsMessage || message.templateMessage || message.listMessage)
 if (requiresPatch) {
@@ -110,13 +110,13 @@ return console.log(await creloadHandler(true)['catch'](console.error))
       if (connection == "open") {
         conn.isInit = true
         global.conns.push(conn)
-        await parentw.sendMessage(m.chat, {text : args[0] ? 'Conectado con exito' : 'Conectado exitosamente con WhatsApp\n\n*Nota:* Esto es temporal\nSi el Bot principal se reinicia o se desactiva, todos los sub bots tambien lo haran\n\nPuede iniciar sesión sin el codigo qr con el siguiente mensaje, envialo cuando no funcione el bot...\n\nEl número del bot puede cambiar, guarda este enlace:\https://chat.whatsapp.com/JUbscwIz19iKWHDnXSNoXQ' }, { quoted: m })
+        await parentw.sendMessage(m.chat, {text : args[0] ? 'Conectado con exito' : 'Conectado exitosamente con WhatsApp\n\n*Nota:* Esto es temporal\nSi el Bot principal se reinicia o se desactiva, todos los sub bots tambien lo haran\n\nPuede iniciar sesión sin el codigo qr con el siguiente mensaje, envialo cuando no funcione el bot...' }, { quoted: m })
         await sleep(5000)
         if (args[0]) {
           return
         }
         await parentw.sendMessage(conn.user.jid, { text: "La siguiente vez que se conecte envía el siguiente mensaje para iniciar sesión sin escanear otro código *QR*" }, { quoted: m })
-        parentw.sendMessage(conn.user.jid, { text: usedPrefix + command + " " + Buffer.from(fs.readFileSync("./serbot/" + uniqid + '/creds.json'), 'utf-8').toString('base64')
+        parentw.sendMessage(conn.user.jid, { text: usedPrefix + command + " " + Buffer.from(fs.readFileSync("./jadibts/" + uniqid + '/creds.json'), 'utf-8').toString('base64')
         }, { quoted: m })
       }
     }
