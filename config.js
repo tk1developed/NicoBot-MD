@@ -32,13 +32,13 @@ global.prems = ['573218138672'];
 global.lenguajeSK = es //idioma de sakurabot
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
-global.packname = '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌸';
+global.packname = '𝙆𝙖𝙣𝙖 𝘼𝙧𝙞𝙢𝙖 - 𝙈𝘿 🍄';
 global.author = 'Dɪᴇɢᴏ 🌩';
-global.wm = 'Sakura : Bot 🌼';
-global.titulowm = '𝗦𝖺𝗄𝗎𝗋𝖺 : 𝗕𝗈𝗍 - 𝗟𝗂𝗍𝖾';
+global.wm = 'Kana : Arima 🌼';
+global.titulowm = '𝗞𝖺𝗆𝖺 : 𝗔𝗋𝗂𝗆𝖺 - 𝗠𝗗';
 global.titulowm2 = `𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜`
 global.igfg = 'Diego Oficial';
-global.sk = 'Rᴇɢɪsᴛʀᴀᴅᴏ Pᴏʀ : SᴀᴋᴜʀᴀBᴏᴛ';
+global.sk = 'Rᴇɢɪsᴛʀᴀᴅᴏ Pᴏʀ : Kᴀɴᴀ Aʀɪᴍᴀ';
 global.vs = '1.0.7';
 global.vsJB = '1.0.2';
 
@@ -59,17 +59,17 @@ global.imagen7 = fs.readFileSync('./AhoraQue.png');
 global.imagen8 = fs.readFileSync('./Que.jpg');
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9' //Grupo Oficial De Sakura
+global.gp1 = 'https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9' //Grupo Oficial De Kana
 
-global.gp2 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //CuriosityBot Y Sakura
+global.gp2 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //CuriosityBot Y Kana
 
-global.gp3 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //NovaBot Y Sakura
+global.gp3 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //NovaBot Y Kana
 
 global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
 
 global.yt = 'https://www.youtube.com/@SakuraBotLite' //Canal De Youtube
 
-global.md = 'https://github.com/Diego-SK-177/SakuraBotLite-MD' //Github Oficial
+global.md = 'https://github.com/Diego-YL-177/Kana-Arima-MD' //Github Oficial
 
 global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Facebook Del Propietario
 
@@ -89,10 +89,11 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nSakura`;
-global.gt = 'SakuraBot';
-global.mysticbot = 'SakuraBot';
-global.mysticbot = 'https://github.com/Diego-SK-177/SakuraBotLite-MD';
+global.wm2 = `${dia} ${fecha}\nKana`;
+global.gt = 'Arima';
+global.mysticbot = 'Arima';
+global.mysticbot = 'https://github.com/Diego-YL-177/
+Kana-Arima-MD';
 global.nomorown = '573012482694';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
