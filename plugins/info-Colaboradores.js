@@ -32,7 +32,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 
 *╭🧸⸽⃕𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼𝘀 𝗚𝗶𝘁𝗵𝘂𝗯📍✰*
 ┃✣➸ 𝖣𝗂𝖾𝗀𝗈:
-┃ https://github.com/Diego-SK-177
+┃ https://github.com/Diego-YL-177
 ┃
 ┃✣➸ 𝖠𝗓𝖺𝗆𝗂:
 ┃ https://github.com/AzamiJs
