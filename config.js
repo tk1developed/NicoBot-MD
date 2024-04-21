@@ -39,7 +39,7 @@ global.wm = 'Yotsuba : Nakano 🌼';
 global.titulowm = '𝗬𝗈𝗍𝗌𝗎𝖻𝖺 : 𝗡𝖺𝗄𝖺𝗇𝗈';
 global.titulowm2 = `𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜`
 global.igfg = 'Diego Oficial';
-global.sk = 'Rᴇɢɪsᴛʀᴀᴅᴏ Pᴏʀ : Yᴏᴛsᴜʙᴀ Nᴀᴋᴀɴᴏ';
+global.sk = 'Yᴏᴛsᴜʙᴀ Nᴀᴋᴀɴᴏ - MD';
 global.vs = '1.0.7';
 global.vsJB = '1.0.2';
 
