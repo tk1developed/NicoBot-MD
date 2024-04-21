@@ -32,7 +32,7 @@ global.prems = ['573218138672'];
 global.lenguajeYL = es //idioma de yotsuba
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
-global.packname = '𝗬𝗼𝘁𝘀𝘂𝗯𝗮 𝗡𝗮𝗸𝗮𝗻𝗼 - 𝗠𝗗 💛';
+global.packname = '𝐘𝐨𝐭𝐬𝐮𝐛𝐚 𝐍𝐚𝐤𝐚𝐧𝐨 - 𝐌𝐃 🪷';
 global.author = 'Dɪᴇɢᴏ 🌩';
 global.wm = 'Yotsuba : Nakano 🌼';
 global.titulowm = '𝗬𝗈𝗍𝗌𝗎𝖻𝖺 : 𝗡𝖺𝗄𝖺𝗇𝗈';
