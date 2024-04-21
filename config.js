@@ -32,7 +32,7 @@ global.prems = ['573218138672'];
 global.lenguajeYL = es //idioma de kana
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
-global.packname = '𝙆𝙖𝙣𝙖 𝘼𝙧𝙞𝙢𝙖 - 𝙈𝘿 🍄';
+global.packname = '𝗞𝗮𝗻𝗮 𝗔𝗿𝗶𝗺𝗮 - 𝗠𝗗 🍄';
 global.author = 'Dɪᴇɢᴏ 🌩';
 global.wm = 'Kana : Arima 🌼';
 global.titulowm = '𝗞𝖺𝗆𝖺 : 𝗔𝗋𝗂𝗆𝖺 - 𝗠𝗗';
