@@ -1,6 +1,6 @@
-//comando https://github.com/diegojadibot/SakuraBotLite-MD
+//comando https://github.com/Diego-YL-177/Yotsuba-Nakano-MD
 
-import speed from 'performance-now'
+/*import speed from 'performance-now'
 import { spawn, exec, execSync } from 'child_process'
 
 let handler = async (m, { conn }) => {
@@ -17,4 +17,4 @@ handler.help = ['info']
 handler.tags = ['main']
 handler.command = ['metodo']
 handler.register = true
-export default handler
+export default handler*/
