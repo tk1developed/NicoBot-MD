@@ -5,7 +5,7 @@ const handler = async function(m, {args}) {
   const sn = createHash('md5').update(m.sender).digest('hex');
   if (args[0] !== sn) throw '*⚠️ Verifique Que Su Número De Série Sea Correcto*';
   user.registered = false;
-  m.reply(`*📖 Usted Ya No Está Registrado*`);
+  m.reply(`✅ *Registro eliminado*`);
 };
 handler.help = ['', 'ister'].map((v) => 'unreg' + v + ' <numero de serie>');
 handler.tags = ['xp'];
