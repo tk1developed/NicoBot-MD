@@ -21,7 +21,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   user.regTime = + new Date
   user.registered = true
   let sn = createHash('md5').update(m.sender).digest('hex')
-  let img = await (await fetch('https://telegra.ph/file/2c955a31fad023aa1c564.png')).buffer()  
+  let img = await (await fetch('https://telegra.ph/file/3dc79a1fb257d8c93b254.jpg')).buffer()  
   let str = `╭⊶⊷⊷⊷⊶⊷✰⊶⊷⊶⊷⊷⊷╮
 ┃ • Yᴏᴛsᴜʙᴀ Nᴀᴋᴀɴᴏ - MD 🪷
 ┣⊶⊷⊷⊷⊶⊷✰⊶⊷⊶⊷⊷⊷╯
