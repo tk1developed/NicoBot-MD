@@ -2,7 +2,7 @@
 
 ## Yotsuba - Nakano - MD 🌼
 <p align="center">
-<img src= "https://telegra.ph/file/1ae6c5631b64667813b72.png" alt="Nakano" width="900"/>
+<img src= "https://telegra.ph/file/d4b9f4c4fed1bd51afe5a.png" alt="Nakano" width="900"/>
 </p>
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
