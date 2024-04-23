@@ -11,7 +11,7 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
     conn.sendFile(m.chat, a2, 'sticker.webp', '', m, {asSticker: true});
   }
 
-  if (command == 'attp2')  
+  if (command == 'attp2') {
     conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/attp?apikey=${lolkeysapi}&text=${teks}`, 'sticker.webp', '', m, {asSticker: true});
   }
 
