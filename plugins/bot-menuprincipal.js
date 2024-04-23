@@ -180,8 +180,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
 
-   //let pp1 = 'https://telegra.ph/file/b1b96c100656750194061.mp4'
-    //let pp2 = 'https://telegra.ph/file/a6af01caafb0da0c32a70.mp4'
+   let pp1 = 'https://telegra.ph/file/b1b96c100656750194061.mp4'
+   let pp2 = 'https://telegra.ph/file/a6af01caafb0da0c32a70.mp4'
 
     let img = await (await fetch('https://tinyurl.com/2y223gks')).buffer()  
 
