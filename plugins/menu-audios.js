@@ -21,17 +21,17 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
 
- await conn.sendMessage(m.chat, { react: { text: '❤️‍🩹', key: m.key } })
+ await conn.sendMessage(m.chat, { react: { text: '📢', key: m.key } })
 
 
 const document = doc[Math.floor(Math.random() * doc.length)];
  const str = `╭∴━━━ *AUDIOS-BOT* ━━━∴╮
-┃🕊️ 𝖧𝗈𝗅𝖺👋🏻, Soy SakuraBot
+┃🕊️ 𝖧𝗈𝗅𝖺👋🏻, Soy Yotsuba
 ┃🕊️ 𝐄𝐥 𝐌𝐞𝐧𝐮 𝐃𝐞 𝐀𝐮𝐝𝐢𝐨𝐬.
 ┃🕊️ 𝐍𝐨 𝐀𝐠𝐚𝐬 𝐒𝐩𝐚𝐦 𝐂𝐨𝐧 𝐋𝐨𝐬 𝐀𝐮𝐝𝐢𝐨𝐬.
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
-╭✨️⸽⃕𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🍁⃨፝⃕✰
+╭✨️⸽⃕ Yᴏᴛsᴜʙᴀ Nᴀᴋᴀɴᴏ 🍁⃨፝⃕✰
 ┃✣➸ 🦋 𝑺𝒊𝒏 𝑵𝒊𝒏𝒈𝒖𝒏 𝑷𝒓𝒆𝒇𝒊𝒋𝒐.
 ┃✣➸ 🦋 _Quien es tu sempai botsito 7w7_
 ┃✣➸ 🦋 _Te diagnostico con gay_
