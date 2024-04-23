@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 import {sticker, addExif} from '../lib/sticker.js';
 import {Sticker} from 'wa-sticker-formatter';
 const handler = async (m, {conn, text, args, usedPrefix, command}) => {
-  if (!text) throw `*[⚠️] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝚃𝙴𝚇𝚃𝙾*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*◉ ${usedPrefix + command} Sakura-Bot*`;
+  if (!text) throw `*⚠️ 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝚃𝙴𝚇𝚃𝙾*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*◉ ${usedPrefix + command} Yotsuba*`;
   const teks = encodeURI(text);
 
   if (command == 'attp') {
@@ -11,7 +11,7 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
     conn.sendFile(m.chat, a2, 'sticker.webp', '', m, {asSticker: true});
   }
 
-  if (command == 'attp2') {
+  if (command == 'attp2')  
     conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/attp?apikey=${lolkeysapi}&text=${teks}`, 'sticker.webp', '', m, {asSticker: true});
   }
 
