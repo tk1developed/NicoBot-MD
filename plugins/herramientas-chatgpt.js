@@ -19,7 +19,7 @@ const configuration = new Configuration({organization: global.openai_org_id, api
 const openaiii = new OpenAIApi(configuration);
 const handler = async (m, {conn, text, usedPrefix, command}) => {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
-  if (!text) throw `*📍 Escriba Una Peticion* ${usedPrefix + command} Codigos En Js Para Un Juego De Suerte`;
+  if (!text) throw `*🛑 Escriba Una Peticion* ${usedPrefix + command} Codigos En Js Para Un Juego De Suerte`;
   try {
         conn.sendPresenceUpdate('composing', m.chat);
         //let sistema1 = await fetch(`https://raw.githubusercontent.com/Skidy89/chat-gpt-jailbreak/main/Text.txt`).then(v => v.text());
@@ -48,7 +48,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
     } catch {
       try {
         conn.sendPresenceUpdate('composing', m.chat);
-        const syms1 = `Actuaras como un Bot de WhatsApp el cual fue creado por Diego, tu seras SakuraBot-MD.`;
+        const syms1 = `Actuaras como un Bot de WhatsApp el cual fue creado por Diego, tu seras Yotsuba-Nakano-MD.`;
         const fgapi1 = await fetch(`https://api-fgmods.ddns.net/api/info/openai?text=${text}&symsg=${syms1}&apikey=XlwAnX8d`);
         const fgjson1 = await fgapi1.json();
         if (fgjson1.result == 'error' || fgjson1.result == '' || !fgjson1.result) return XD; // causar error undefined para lanzar msg de error
@@ -110,12 +110,12 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
         const akuariapiresult1 = await translate(`${akuariapijson1.respon}`, {to: 'es', autoCorrect: true});
         m.reply(`${akuariapiresult1.text}`.trim());
     } catch {
-        throw `*📍 Ocurrió Un Error*`;
+        throw `*🛑 Ocurrió Un Error*`;
      }}
     }}
    }}
   }}
  }}
 };
-handler.command = /^(chatgpt|ia|robot|openai2|chatgpt2|ia2|robot2|Lite|SakuraBot)$/i;
+handler.command = /^(chatgpt|ia|robot|openai2|chatgpt2|ia2|robot2|Lite|nakano)$/i;
 export default handler;
