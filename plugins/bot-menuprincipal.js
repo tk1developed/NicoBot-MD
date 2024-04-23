@@ -195,7 +195,7 @@ await conn.sendFile(m.chat, wm, text.trim(), img, img, channel, m)
 
     //conn.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/b1b96c100656750194061.mp4', gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: m })
 
-   //let img = await (await fetch('https://tinyurl.com/242jfywv')).buffer() 
+   let img = await (await fetch('https://tinyurl.com/242jfywv')).buffer() 
 
 conn.sendFile(m.chat, img, 'out.png', text.trim(), m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': true, externalAdReply:{ showAdAttribution: false, title: gcname, body: `h`, mediaType: 2, sourceUrl: channel, thumbnail: miniurl}, mentions: [m.sender]}}, { quoted: m })
 
