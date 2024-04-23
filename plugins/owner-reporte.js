@@ -1,4 +1,3 @@
-
 const handler = async (m, {conn, text, usedPrefix, command}) => {
   if (!text) throw `🍧 *Ingresa Algun Reporte*\n\n*Ejemplo:*\n*${usedPrefix + command}* El Siguiente Comando ${usedPrefix}menu Tiene Un Error`;
   if (text.length < 10) throw `🛑 *Reporte Minimo De 10 Caracteres*`;
