@@ -180,20 +180,20 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
 
-   let pp1 = 'https://telegra.ph/file/b1b96c100656750194061.mp4'
-    let pp2 = 'https://telegra.ph/file/a6af01caafb0da0c32a70.mp4'
+   //let pp1 = 'https://telegra.ph/file/b1b96c100656750194061.mp4'
+    //let pp2 = 'https://telegra.ph/file/a6af01caafb0da0c32a70.mp4'
 
-    //let img = await (await fetch('https://tinyurl.com/2y223gks')).buffer()  
+    let img = await (await fetch('https://tinyurl.com/2y223gks')).buffer()  
 
 await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '✰ 𝐘𝐨𝐭𝐬𝐮𝐛𝐚 𝐍𝐚𝐤𝐚𝐧𝐨 - 𝐌𝐃 ✰', body: '𝐒𝐭𝐚𝐫𝐥𝐢𝐠𝐡𝐭𝐬 𝐓𝐞𝐚𝐦', sourceUrl: global.channel, thumbnail: imagen6 }}})
 
 
 await conn.sendMessage(m.chat, { react: { text: '💫', key: m.key } })
 
-//await conn.sendFile(m.chat, wm, text.trim(), img, img, channel, m)
+await conn.sendFile(m.chat, wm, text.trim(), img, img, channel, m)
 
 
-    conn.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/b1b96c100656750194061.mp4', gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: m })
+    //conn.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/b1b96c100656750194061.mp4', gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: m })
 
    //let img = await (await fetch('https://tinyurl.com/242jfywv')).buffer() 
 
