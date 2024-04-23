@@ -197,7 +197,7 @@ await conn.sendFile(m.chat, wm, text.trim(), img, img, channel, m)
 
    //let img = await (await fetch('https://tinyurl.com/242jfywv')).buffer() 
 
-//conn.sendFile(m.chat, img, 'out.png', text.trim(), m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': true, externalAdReply:{ showAdAttribution: false, title: gcname, body: `h`, mediaType: 2, sourceUrl: channel, thumbnail: miniurl}, mentions: [m.sender]}}, { quoted: m })
+conn.sendFile(m.chat, img, 'out.png', text.trim(), m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': true, externalAdReply:{ showAdAttribution: false, title: gcname, body: `h`, mediaType: 2, sourceUrl: channel, thumbnail: miniurl}, mentions: [m.sender]}}, { quoted: m })
 
   } catch (e) {
     conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error.', m)
