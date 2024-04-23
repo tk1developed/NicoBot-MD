@@ -1,4 +1,4 @@
-import { promises } from 'fs'
+qimport { promises } from 'fs'
 import { join } from 'path'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
@@ -180,10 +180,10 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
 
-   let pp1 = 'https://telegra.ph/file/37a95abc27aabd0a17bd7.mp4'
-    let pp2 = 'https://telegra.ph/file/fc2f8abffe802f496551a.mp4'
-    let pp3 = 'https://telegra.ph/file/52c004a4d1506b02165b1.mp4'
-    let pp4 = 'https://telegra.ph/file/1634b24b028638c4067ae.mp4'
+   let pp1 = 'https://telegra.ph/file/b1b96c100656750194061.mp4'
+    let pp2 = ''
+    let pp3 = ''
+    let pp4 = ''
 
     //let img = await (await fetch('https://tinyurl.com/2y223gks')).buffer()  
 
