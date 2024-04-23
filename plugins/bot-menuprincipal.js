@@ -181,9 +181,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 
 
    let pp1 = 'https://telegra.ph/file/b1b96c100656750194061.mp4'
-    let pp2 = ''
-    let pp3 = ''
-    let pp4 = ''
+    let pp2 = 'https://telegra.ph/file/a6af01caafb0da0c32a70.mp4'
 
     //let img = await (await fetch('https://tinyurl.com/2y223gks')).buffer()  
 
@@ -195,7 +193,7 @@ await conn.sendMessage(m.chat, { react: { text: '💫', key: m.key } })
 //await conn.sendFile(m.chat, wm, text.trim(), img, img, channel, m)
 
 
-    conn.sendMessage(m.chat, { video: { url: [pp1, pp2, pp3, pp4].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: m })
+    conn.sendMessage(m.chat, { video: { url: [pp1, pp2].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: m })
 
    //let img = await (await fetch('https://tinyurl.com/242jfywv')).buffer() 
 
