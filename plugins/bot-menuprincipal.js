@@ -180,24 +180,26 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
 
-   let pp1 = 'https://telegra.ph/file/b1b96c100656750194061.mp4'
-   let pp2 = 'https://telegra.ph/file/a6af01caafb0da0c32a70.mp4'
+   let pp1 = 'https://telegra.ph/file/37a95abc27aabd0a17bd7.mp4'
+    let pp2 = 'https://telegra.ph/file/fc2f8abffe802f496551a.mp4'
+    let pp3 = 'https://telegra.ph/file/52c004a4d1506b02165b1.mp4'
+    let pp4 = 'https://telegra.ph/file/1634b24b028638c4067ae.mp4'
 
-    let img = await (await fetch('https://tinyurl.com/2y223gks')).buffer()  
+    //let img = await (await fetch('https://tinyurl.com/2y223gks')).buffer()  
 
 await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '✰ 𝐘𝐨𝐭𝐬𝐮𝐛𝐚 𝐍𝐚𝐤𝐚𝐧𝐨 - 𝐌𝐃 ✰', body: '𝐒𝐭𝐚𝐫𝐥𝐢𝐠𝐡𝐭𝐬 𝐓𝐞𝐚𝐦', sourceUrl: global.channel, thumbnail: imagen6 }}})
 
 
 await conn.sendMessage(m.chat, { react: { text: '💫', key: m.key } })
 
-await conn.sendFile(m.chat, wm, text.trim(), img, img, channel, m)
+//await conn.sendFile(m.chat, wm, text.trim(), img, img, channel, m)
 
 
-    //conn.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/b1b96c100656750194061.mp4', gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: m })
+    conn.sendMessage(m.chat, { video: { url: [pp1, pp2, pp3, pp4].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: m })
 
-   let img = await (await fetch('https://tinyurl.com/242jfywv')).buffer() 
+   //let img = await (await fetch('https://tinyurl.com/242jfywv')).buffer() 
 
-conn.sendFile(m.chat, img, 'out.png', text.trim(), m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': true, externalAdReply:{ showAdAttribution: false, title: packname, body: team, mediaType: 2, sourceUrl: channel, thumbnail: miniurl}, mentions: [m.sender]}}, { quoted: m })
+//conn.sendFile(m.chat, img, 'out.png', text.trim(), m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': true, externalAdReply:{ showAdAttribution: false, title: gcname, body: `h`, mediaType: 2, sourceUrl: channel, thumbnail: miniurl}, mentions: [m.sender]}}, { quoted: m })
 
   } catch (e) {
     conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error.', m)
