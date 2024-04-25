@@ -15,7 +15,7 @@ const handler = async (m, {conn, text}) => {
 ↳ 👁 *_Vistas :_* ${v.views}`;
     }
   }).filter((v) => v).join('\n\n◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦\n\n');
-  conn.sendFile(m.chat, tes[0].thumbnail, 'yts.jpeg', teks, m);
+  conn.sendFile(m.chat, tes[0], 'yts.jpeg', teks, m);
 };
 handler.help = ['ytsearch *<texto>*'];
 handler.tags = ['search'];
