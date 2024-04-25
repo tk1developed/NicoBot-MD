@@ -51,7 +51,7 @@ title: `🤖 𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐘𝐖𝐀-𝐇𝐎𝐒𝐓 🤖`,
 body: `✅ Hosting de Calidad`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/EQTd.jpg', 
-sourceUrl: 'https://github.com/Diego-YL-177/Yotsuba-Nakano-MD'}}},
+sourceUrl: 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'}}},
 { quoted: fkontak2})
 }
 handler.tags =['info'] 
