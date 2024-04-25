@@ -50,7 +50,7 @@ isForwarded: false,
 title: `🤖 𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐘𝐖𝐀-𝐇𝐎𝐒𝐓 🤖`,
 body: `✅ Hosting de Calidad`,
 "previewType": "PHOTO",
-thumbnailUrl: 'https://telegra.ph/file/7ee248f7b63cc2f2c4f5f.jpg', 
+thumbnailUrl: 'https://telegra.ph/file/763bb930bb8281bba9c53.jpg', 
 sourceUrl: 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'}}},
 { quoted: fkontak2})
 }
