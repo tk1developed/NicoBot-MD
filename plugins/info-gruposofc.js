@@ -20,10 +20,6 @@ let str = `*🔮 GRUPOS OFICIALES*
 
     *_╭━━━⊜ Canal Ofc De Yotsuba_*
   *_┃🌦❏ ${channel}_*
-*_╰━━━━━━━━━━━━━━━━⊜_*
-
-   *_╭━━━⊜ Canal Starlights Team_*
-  *_┃🌦❏ ${channel2}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 
