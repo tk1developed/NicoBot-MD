@@ -24,7 +24,8 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   let img = await (await fetch('https://telegra.ph/file/acdf3e5fef16feef2431d.jpg')).buffer()  
   let str = `.    ╭─ׅ─ׅ┈ ─๋︩︪─☁️✨️☁️─ׅ─ׅ┈ ─๋︩︪─╮
 ╭╼🌩⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪ Rᴇɢɪsᴛʀᴀᴅᴏ ໑⃪࣭۪ٜ݊݊݊݊𑁍ꥈ࣪⬪🌩
-┃֪࣪  ─ׅ─ׅ─ׅ┈ ─๋︩︪─☁️✨️☁️─ׅ─ׅ┈ ─๋︩︪─ׅ─
+┃֪࣪  ╰─ׅ─ׅ┈ ─๋︩︪─☁️✨️☁️─ׅ─ׅ┈ ─๋︩︪─╯
+╭─ׅ─ׅ┈ ─๋︩︪─☁️✨️☁️─ׅ─ׅ┈ ─๋︩︪─╮
 ┃֪࣪ 🏷Nombre: ${name}
 ┃֪࣪ 🌥Edad : ${age} años
 ╰─ׅ─ׅ┈ ─๋︩︪─☁️✨️☁️─ׅ─ׅ┈ ─๋︩︪─╯
