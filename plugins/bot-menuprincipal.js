@@ -197,7 +197,7 @@ await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 
 await conn.sendMessage(m.chat, { react: { text: '💫', key: m.key } })
 
 
-    conn.sendMessage(m.chat, { video: { url: [pp1, pp2, pp3, pp4].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: m })
+    conn.sendMessage(m.chat, { video: { url: [pp1, pp2, pp3, pp4].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: estilo })
 
    
 
@@ -223,6 +223,8 @@ function clockString(ms) {
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
 }
+
+var estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'Super Bot WhatsApp', orderTitle: 'Bang', thumbnail: imagen6, sellerJid: '0@s.whatsapp.net' }}}
 
   var ase = new Date();
   var hour = ase.getHours();
