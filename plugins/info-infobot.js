@@ -60,7 +60,7 @@ const handler = async (m, { conn, usedPrefix }) => {
         mediaUrl: "https://github.com/Diego-YL-177/Yotsuba-Nakano-MD",
         mediaType: 2,
         previewType: "pdf",
-        title: "𝐒𝐭𝐚𝐫𝐥𝐢𝐠𝐡𝐭𝐬 𝐓𝐞𝐚𝐦",
+        title: "𝐁𝐲: Dɪᴇɢᴏ.Oғᴄ",
         body: wm,
         thumbnail: imagen6,
         sourceUrl: "https://github.com/Diego-YL-177/Yotsuba-Nakano-MD",
