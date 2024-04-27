@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 const {getBinaryNodeChild, getBinaryNodeChildren} = (await import('@whiskeysockets/baileys')).default;
 const handler = async (m, {conn, text, participants, args}) => {
   if (!global.db.data.settings[conn.user.jid].restrict) throw '*¡Este Comando Esta Desabilitado Por El Propietario Del Bot!*';
-  if (!args[0]) throw '*🦋 𝐈𝐧𝐠𝐫𝐞𝐬𝐞 𝐄𝐥 𝐍𝐮𝐦𝐞𝐫𝐨 𝐃𝐞 𝐀𝐥𝐠𝐮𝐧𝐚 𝐏𝐞𝐫𝐬𝐨𝐧𝐚 𝐐𝐮𝐞 𝐐𝐮𝐢𝐞𝐫𝐚𝐬 𝐀𝐧̃𝐚𝐝𝐢𝐫 𝐀𝐥 𝐆𝐫𝐮𝐩𝐨.*';
+  if (!args[0]) throw '🛑 *Ingrese el numero de alguna persona que quieras añadir*';
   try {
     const _participants = participants.map((user) => user.id);
     const users = (await Promise.all(
@@ -29,7 +29,7 @@ const handler = async (m, {conn, text, participants, args}) => {
       await conn.relayMessage(jid, groupInvite.message, {messageId: groupInvite.key.id});
     }
   } catch {
-    throw '🦋𝑬𝒓𝒓𝒐𝒓 𝑵𝒐 𝑺𝒆 𝑷𝒖𝒅𝒐 𝑨𝒏̃𝒂𝒅𝒊𝒓 𝑨𝒍 𝑰𝒏𝒕𝒆𝒈𝒓𝒂𝒏𝒕𝒆';
+    throw '🛑 *Ocurrió un error*';
   }
 };
 handler.help = ['add', '+'].map((v) => v + ' número');
