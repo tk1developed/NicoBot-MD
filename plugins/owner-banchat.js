@@ -5,7 +5,7 @@ conn.reply(m.chat, `*BOT DESACTIVADO*`, m, )
 
 }
 handler.help = ['banchat']
-handler.tags = ['own']
+handler.tags = ['owner']
 handler.command = /^banchat$/i
 
 handler.botAdmin = true
