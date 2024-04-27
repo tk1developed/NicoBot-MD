@@ -209,7 +209,7 @@ await conn.sendMessage(m.chat, { react: { text: '💫', key: m.key } })
 
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = ['menu', 'help', 'menú'] 
+handler.command = ['menu', 'help', 'allmenu', 'menú'] 
 handler.register = true 
 export default handler
 
