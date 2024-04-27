@@ -8,7 +8,7 @@ const handler = async (m, {conn, args, text}) => {
       conn.groupUpdateSubject(m.chat, text);
     }
   } catch (e) {
-    throw '☄️ *El nombre no puede pasar mas de 20 caracter*';
+    throw '☄️ *El nombre no puede pasar mas de 25 caracteres*';
   }
 };
 handler.help = ['setname <text>'];
