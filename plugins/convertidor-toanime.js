@@ -3,7 +3,7 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
   const q = m.quoted ? m.quoted : m;
   const mime = (q.msg || q).mimetype || q.mediaType || '';
   if (!/image/g.test(mime)) throw '🛑 *Responda a una imagen*';
-  m.reply('☄️ *Convirtiendo la imagen en anime, espere un momento...*');
+  m.reply('☄️ *Conviertiendo la imagen en anime, espere un momento...*');
   const data = await q.download?.();
   const image = await uploadImage(data);
   try {
