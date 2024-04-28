@@ -45,7 +45,7 @@ await conn.reply(m.chat, `╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃💰 𝙋𝙖𝙜𝙤:* »  -${gata * text} ${rpgshopp.emoticon('limit')}
 *┃👝 𝙏𝙚𝙣𝙞́𝙖:* » ${user.limit + gata} ${rpgshopp.emoticon('limit')}
 *┃🛄 𝙇𝙚 𝙦𝙪𝙚𝙙𝙖𝙣:* » ${user.limit} ${rpgshopp.emoticon('limit')}
-*┃🕐 𝙏𝙞𝙚𝙢𝙥𝙤:* » ${tiempoPremium} min*
+*┃🕐 𝙏𝙞𝙚𝙢𝙥𝙤:* » ${tiempoPremium} min
 *╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n💖 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${wm}`, fkontak, { mentions: [aa,] })}
 /*conn.sendButton(m.chat,`${eg}*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃🎟️ 𝙐𝙎𝙏𝙀𝘿 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝙋𝙍𝙀𝙈𝙄𝙐𝙈!!!*
