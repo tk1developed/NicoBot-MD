@@ -50,7 +50,8 @@ const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v))
 const dl_url = await yt.audio[q].download()
 const ttl = await yt.title
 const size = await yt.audio[q].fileSizeH
-await conn.sendMessage(m.chat, { audio: { url: dl_url }, mimetype: 'audio/mpeg', contextInfo: { externalAdReply: { title: ttl, body: team, thumbnailUrl: yt_play[0].thumbnail, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: m })   
+
+await conn.sendMessage(m.chat, {audio: { url: dl_url }, mimetype: 'audio/mpeg', fileName: ttl + `.mp3`}, {quoted: m})
 } catch {
 
 try {
