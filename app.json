@@ -20,9 +20,9 @@
     "whatsappbot",
     "oficial",
     "whatsapp-md",
-    "themysticbot",
-    "themystic-bot",
-    "themystic-bot-md"],
+    "yotsuba-nakano-md",
+    "yotsuba-nakano-md",
+    "yotsuba-nakano-md"],
   "image": "heroku/nodejs",
   "buildpacks": [
     {
