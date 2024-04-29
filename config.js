@@ -91,8 +91,8 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 //* ****************************
 global.wm2 = `${dia} ${fecha}\nNakano`;
 global.gt = 'Yotsuba';
-global.mysticbot = 'Yotsuba';
-global.mysticbot = 'https://github.com/Diego-YL-177/Yotsuba-Nakano-MD';
+global.yotsuba = 'Yotsuba';
+global.yotsuba = 'https://github.com/Diego-YL-177/Yotsuba-Nakano-MD';
 global.nomorown = '573012482694';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
