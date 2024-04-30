@@ -1,21 +1,4 @@
-import uploadFile from '../lib/uploadFile.js';
-import uploadImage from '../lib/uploadImage.js';
-const handler = async (m) => {
-  const q = m.quoted ? m.quoted : m;
-  const mime = (q.msg || q).mimetype || '';
-  if (!mime) throw '*⚠️ Responda A Una Imagen.*';
-  const media = await q.download();
-  const isTele = /image\/(png|jpe?g|gif)|video\/mp4/.test(mime);
-  const link = await (isTele ? uploadImage : uploadFile)(media);
-  m.reply(`*☄️ Enlace:* ${link}`);
-};
-handler.help = ['tourl <reply image>'];
-handler.tags = ['sticker'];
-handler.command = /^(upload|tourl)$/i;
-export default handler;
-
-
-/*Créditos a https://github.com/AzamiJs
+/*Créditos a https://github.com/AzamiJs*/
 
 import uploadFile from '../lib/uploadFile.js'
 import uploadImage from '../lib/uploadImage.js'
@@ -28,17 +11,17 @@ let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './src/avatar_con
 let name = await conn.getName(who)
 let q = m.quoted ? m.quoted : m
 let mime = (q.msg || q).mimetype || ''
-if (!mime) throw '*⚠️ RESPONDA A UNA IMAGEN*'
-m.react(done)
+if (!mime) throw '🚩 Responda a una imagen o un video'
+//m.react(done)
 let media = await q.download()
 let isTele = /image\/(png|jpe?g|gif)|video\/mp4/.test(mime)
 let link = await (isTele ? uploadImage : uploadFile)(media)
-let info = ` *🗂️ ENLACE:*\n${link}\n
-*⚖️ TAMAÑO:*\n${media.length} bytes\n
-*🚀 EXPIRACION:*\n ${isTele ? '✅ NO EXPIRA' : '⚠️ DESCONOCIDO'}\n
-*🔰 ACORTADO:*\n${await shortUrl(link)}`
+let info = ` *📎 Enlace:*\n${link}\n
+*⚖️ Tamaño:*\n${media.length} bytes\n
+*🚀 Expiración:*\n ${isTele ? '☁️ No Expira' : '🛑 Desconocido'}\n
+*🍁 Acortado:*\n${await shortUrl(link)}`
 
-conn.reply(m.chat, info, m, { contextInfo: { externalAdReply :{ mediaUrl: ig, mediaType: 2, title: wm, body: azami, thumbnail: await(await fetch(link)).buffer(), sourceUrl: link}}})
+conn.reply(m.chat, info, m, { contextInfo: { externalAdReply :{ mediaUrl: yt, mediaType: 2, title: wm, body: team, thumbnail: await(await fetch(link)).buffer(), sourceUrl: link}}})
 
 }
 handler.help = ['tourl']
@@ -52,4 +35,4 @@ export default handler
 async function shortUrl(url) {
 let res = await fetch(`https://tinyurl.com/api-create.php?url=${url}`)
 return await res.text()
-}*/
+}
