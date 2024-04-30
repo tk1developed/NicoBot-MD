@@ -120,7 +120,7 @@ return conn.reply(m.chat, '🍧 *Inténtelo de nuevo*', m, )}
 
 }
 handler.help = ['play', 'play2']
-handler.tags = ['descargas']
+handler.tags = ['downloader']
 handler.command = /^play2?$/i
 
 handler.register = true
