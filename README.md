@@ -92,7 +92,7 @@ Para que no pierda su progreso en Yotsuba, estos comandos realizarán un respald
 - **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A)
 - **Support:** [`Bot exclusivo`](https://wa.me/message/FETBF7YBO37CG1)
 
-- [x] **Configuración** <details><summary>**Ajustes del Servidor - Igna • Bot**</summary><img src="https://telegra.ph/file/2c66f67e1b606955b09d5.png"></details>
+- [x] **Configuración** <details><summary>**Ajustes del Servidor - Yotsuba • Nakano**</summary><img src="https://telegra.ph/file/2c66f67e1b606955b09d5.png"></details>
 
 ***
 
