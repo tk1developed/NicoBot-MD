@@ -1,42 +1,85 @@
-import fetch from 'node-fetch';
+import fetch from 'node-fetch'
+import { facebook } from '@xct007/frieren-scraper'
 
-const handler = async (m, { conn, args }) => {
-    if (!args[0]) throw `⚠️ _Ingrese Un Enlace De Facebook_\n\n*Ejemplo:*\n*!fb* https://fb.watch/fOTpgn6UFQ/`;
+var handler = async (m, { conn, args, command, usedPrefix, text }) => {
 
-    try {
-        const apiUrl = `https://api.lolhuman.xyz/api/facebook?apikey=Gatadios&url=${encodeURIComponent(args[0])}`;
-        const response = await fetch(apiUrl);
+let vid
+const isCommand7 = /^(facebook|fb|facebookdl|fbdl)$/i.test(command)
 
-        if (response.ok) {
-            m.reply('*⏳️ Descargando El Video, Por Favor Espere...*');
+async function reportError(e) {
+await conn.reply(m.chat, `🛑 *Ocurrió un fallo*`, m, )
+console.log(`🛑 Error En: ${usedPrefix + command} ⚠️\n`)
+console.log(e)
+}
 
-            const data = await response.json();
-            const videoUrl = data.result[0];
+switch (true) {   
+case isCommand7:
+if (!text) return conn.reply(m.chat, `🌳 *Ingrese un enlace de facebook*\n\nEjemplo, !fb https://fb.watch/kAOXy3wf2L/?mibextid=Nif5oz`, m, )
+if (!args[0].match(/www.facebook.com|fb.watch|web.facebook.com|business.facebook.com|video.fb.com/g)) return conn.reply(m.chat, '🌳 *No es un enlace válido*', m, )
+await conn.reply(m.chat, '⏰ Espere un momento', m, )
+m.react(done)
+let messageType = checkMessageType(args[0])
+let message = ''
+switch (messageType) {
+case 'groups':
+message = 'Aqui Está Su Video ☄️'
+break
+case 'reel':
+message = 'Aqui Está Su Video ☄️'
+break
+case 'stories':
+message = 'Aqui Está Su Video ☄️'
+break
+case 'posts':
+message = 'Aqui Está Su Video ☄️'
+break
+default:
+message = 'Aqui Está Su Video ☄️'
+break
+}
+try {
+let res = await fetch(`https://api.lolhuman.xyz/api/facebook?apikey=BrunoSobrino&url=${args[0]}`)
+let _json = await res.json()
+vid = _json.result[0]
+if (vid == '' || !vid || vid == null) vid = _json.result[1]
+await conn.sendFile(m.chat, vid, 'error.mp4', `*${message}*`, m)
+} catch (error1) {
+try {
+const d2ata = await facebook.v1(args[0])
+let r2es = ''
+if (d2ata.urls && d2ata.urls.length > 0) {
+r2es = `${d2ata.urls[0]?.hd || d2ata.urls[1]?.sd || ''}`
+}
+await conn.sendFile(m.chat, r2es, 'error.mp4', `*${message}*`, m)
+} catch (error2) {
+try {
+var get = await fetch(`https://api.botcahx.live/api/dowloader/fbdown?url=${args[0]}&apikey=QaepQXxR`)
+var js = await get.json()
+await conn.sendFile(m.chat, js.result.HD, 'error.mp4', `*${message}*`, m)
+} catch (e) {
+reportError(e)}
+}}}
 
-            const fileName = "fb.mp4";
+}
+handler.help = ['fb']
+handler.tags = ['descargas']
+handler.command = /^(facebook|fb|facebookdl|fbdl)$/i
 
-            const videoResponse = await fetch(videoUrl);
-            const fileBuffer = await videoResponse.buffer();
+handler.register = true
+handler.diamond = true
 
-            conn.sendFile(m.chat, fileBuffer, fileName, "", m);
+export default handler
 
-            m.reply('*🔮 Video De Facebook Descargado Correctamente.*');
-        } else {
-            throw `error
-
-No se pudo obtener el contenido de Facebook.`;
-        }
-    } catch (error) {
-        console.error(error);
-        throw `error
-
-Ocurrió un error al descargar el video de Facebook: ${error.message}`;
-    }
-};
-
-handler.help = ['fb'];
-handler.tags = ['downloader'];
-handler.command = ['fb', 'face'];
-
-handler.register = true;
-export default handler;
+function checkMessageType(url) {
+if (url.includes('www.facebook.com')) {
+if (url.includes('/groups/')) {
+return 'groups'
+} else if (url.includes('/reel/')) {
+return 'reel'
+} else if (url.includes('/stories/')) {
+return 'stories'
+} else if (url.includes('/posts/')) {
+return 'posts'
+}}
+return 'default'
+}
