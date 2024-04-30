@@ -77,6 +77,25 @@ Para que no pierda su progreso en Yotsuba, estos comandos realizarán un respald
 
 ***
 
+### 🟢 INFINITY HOST 
+</a>
+<img src= "https://telegra.ph/file/a6b20ccc56d1a9bb0cc23.jpg">
+    </p>
+</a>
+
+### Información del Host
+
+- **Página:** [`Click aqui`](https://dashboard.infinitywa.xyz)
+- **Dashboard:** [`Aquí`](https://dashboard.infinitywa.xyz)
+- **Panel:** [`Aquí`](https://live.panel-infinitywa.store)
+- **Grupo de WhatsApp:** [`Aquí`](https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV)
+- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A)
+- **Support:** [`Bot exclusivo`](https://wa.me/message/FETBF7YBO37CG1)
+
+- [x] **Configuración** <details><summary>**Ajustes del Servidor - Igna • Bot**</summary><img src="https://telegra.ph/file/2c66f67e1b606955b09d5.png"></details>
+
+***
+
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial 📍
 
 * <a href="https://wa.me/573218138672?text=!menu"><img alt="Bot Oficial 📍" src="https://img.shields.io/badge/Bot - Oficial📍-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
