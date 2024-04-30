@@ -1,32 +1,34 @@
 {
-"name": "Yotsuba-Nakano-MD",
-"version": "1.0.7", 
-"description": "WhatsApp Bot - Node.Js",
-"main": "index.js",
-"type": "module",
-
-"directories": {
-"lib": "lib",
-"storage": "storage",
-"plugins": "plugins" },
-
-"scripts": {
-"start": "node index.js",
-"qr": "npm start",
-"code": "node index.js code",
-"test": "node test.js",
-"test2": "nodemon index.js" },
-
+ "name": "Yotsuba-Nakano-MD",
+ "version": "1.0.7",
+ "description": "El Mejor Bot",
+ "main": "index.js",
+ "type": "module",
+ "directories": {
+ "lib": "lib",
+ "src": "src",
+ "plugins": "plugins"
+  },
+ "scripts": {
+ "start": "node index.js",
+ "qr": "node index.js qr",
+ "code": "node index.js code",
+ "test": "node test.js",
+ "test2": "nodemon index.js", 
+ "eslint": "eslint .",
+ "eslintfix": "eslint --fix ."
+  },
 "homepage": "https://github.com/Diego-YL-177/Yotsuba-Nakano-MD",
 "author": {
-"name": "Dɪᴇɢᴏ.Oғᴄ" }, 
-
+"name": "Dɪᴇɢᴏ Oғᴄ"
+  },
 "repository": {
 "type": "git",
- "url": "git+https://github.com/Diego-YL-177/Yotsuba-Nakano-MD.git" },
-
+"url": "git+https://github.com/Diego-YL-177/Yotsuba-Nakano-MD.git"
+  },
 "bugs": {
-"url": "https://github.com/Diego-YL-177/Yotsuba-Nakano-MD/issues" },
+"url": "https://github.com/Diego-YL-177/Yotsuba-Nakano-MD/issues"
+  },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@whiskeysockets/baileys": "npm:@whiskeysockets/baileys",
@@ -91,4 +93,4 @@
 "yt-search": "^2.10.3",
 "ytdl-core": "^4.11.4",
 "didyoumean": "^1.2.2"
-}}
+}}}
