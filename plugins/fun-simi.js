@@ -1,7 +1,8 @@
 import translate from '@vitalets/google-translate-api';
 import fetch from 'node-fetch';
 const handler = async (m, {text, command, args, usedPrefix}) => {
-  if (!text) throw `*🍨 Ingrese Un Texto Para Hablar Con Simi O Yotsuba*\n\n*Ejemplo : ${usedPrefix + command} Hola Yotsuba*`;
+  if (!text) throw `*🛑 Ingrese Un Texto Para Hablar Con Simi O Yotsuba*\n\n*Ejemplo : ${usedPrefix + command} Hola Yotsuba*`;
+await conn.sendMessage(m.chat, { react: { text: '🗣️', key: m.key } })
   try {
     const api = await fetch('https://api.simsimi.net/v2/?text=' + text + '&lc=es');
     const resSimi = await api.json();
