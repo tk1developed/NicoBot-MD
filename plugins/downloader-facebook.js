@@ -1,5 +1,5 @@
-import fetch from 'node-fetch'
-import { fb } from 'fb-downloader-scrapper'
+import {facebook} from '@xct007/frieren-scraper';
+import axios from 'axios';
 
 var handler = async (m, { conn, args, command, usedPrefix, text }) => {
 
