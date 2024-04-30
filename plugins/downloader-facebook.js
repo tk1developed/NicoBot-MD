@@ -1,4 +1,4 @@
-import {facebook} from '@xct007/frieren-scraper';
+/*import {facebook} from '@xct007/frieren-scraper';
 import axios from 'axios';
 
 var handler = async (m, { conn, args, command, usedPrefix, text }) => {
@@ -82,4 +82,4 @@ return 'stories'
 return 'posts'
 }}
 return 'default'
-}
+}*/
