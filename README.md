@@ -82,8 +82,6 @@ Para que no pierda su progreso en Yotsuba, estos comandos realizarán un respald
 <a href="https://dashboard.infinitywa.xyz"><img src="https://qu.ax/TPhh.jpg" height="125px"></a>
 ### Información del Host
 
-### Información del Host
-
 - **Página:** [`Click aqui`](https://dashboard.infinitywa.xyz)
 - **Dashboard:** [`Aquí`](https://dashboard.infinitywa.xyz)
 - **Panel:** [`Aquí`](https://live.panel-infinitywa.store)
