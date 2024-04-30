@@ -1,5 +1,5 @@
 import fetch from 'node-fetch'
-import { facebook } from 'fb-downloader-scrapper'
+import { fb } from 'fb-downloader-scrapper'
 
 var handler = async (m, { conn, args, command, usedPrefix, text }) => {
 
