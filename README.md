@@ -77,11 +77,10 @@ Para que no pierda su progreso en Yotsuba, estos comandos realizarán un respald
 
 ***
 
-### 🟢 INFINITY HOST 
-</a>
-<img src= "https://telegra.ph/file/a6b20ccc56d1a9bb0cc23.jpg">
-    </p>
-</a>
+
+## 🟢 INFINITY - HOST
+<a href="https://dashboard.infinitywa.xyz"><img src="https://qu.ax/TPhh.jpg" height="125px"></a>
+### Información del Host
 
 ### Información del Host
 
