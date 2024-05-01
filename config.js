@@ -33,12 +33,12 @@ global.prems = ['573218138672'];
 global.lenguajeYL = es //idioma de yotsuba
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
-global.packname = '𝗬𝗼𝘁𝘀𝘂𝗯𝗮 𝗡𝗮𝗸𝗮𝗻𝗼 - 𝗠𝗗 🪷';
+global.packname = '尺乇爪-匚卄丹爪 🪷';
 global.author = 'Dɪᴇɢᴏ 🌩';
-global.wm = 'Yotsuba : Nakano 🌼';
-global.titulowm = '𝗬𝗈𝗍𝗌𝗎𝖻𝖺 : 𝗡𝖺𝗄𝖺𝗇𝗈';
-global.titulowm2 = `𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜`
-global.igfg = 'Diego Oficial';
+global.wm = '尺乇爪-匚卄丹爪🌼';
+global.titulowm = '尺乇爪-匚卄丹爪';
+global.titulowm2 = `Josué`
+global.igfg = 'Josue Oficial';
 global.sk = 'Yᴏᴛsᴜʙᴀ Nᴀᴋᴀɴᴏ - MD';
 global.team = 'Pᴏᴡᴇʀᴇᴅ Bʏ: Dɪᴇɢᴏ.Oғᴄ';
 global.vs = '1.0.7';

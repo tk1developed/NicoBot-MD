@@ -1,6 +1,6 @@
 > 🚩🧿Versión Del Bot: 1.0.7
 
-## Yotsuba - Nakano - MD 🌼
+## 尺乇爪-匚卄丹爪 🌼
 <p align="center">
 <img src= "https://telegra.ph/file/d4b9f4c4fed1bd51afe5a.png" alt="Nakano" width="900"/>
 </p>
