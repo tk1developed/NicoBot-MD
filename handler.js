@@ -1566,7 +1566,7 @@ global.dfail = (type, m, conn) => {
     restrict: '*!Esta Función Fué Deshabilitado Por Mi Desarrollador*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: saludo + nombre, body: '𝐁𝐲: Dɪᴇɢᴏ.Oғᴄ', thumbnail: ImgAll.getRandom(), sourceUrl: channel}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: saludo + name, body: '𝐁𝐲: Dɪᴇɢᴏ.Oғᴄ', thumbnail: ImgAll.getRandom(), sourceUrl: channel}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
