@@ -362,8 +362,17 @@ break;
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
       throw false;
   }
-     conn.sendMessage(m.chat, {text: `ꨄ︎ *🍧 Tipo*: ${type}\nꨄ︎ *🐢 Estado*: ${isEnable ? 'Activo ✅️' : 'Desactivo ❎️'}\nꨄ︎ *🌩 Para*: ${isAll ? '𝗬𝗼𝘁𝘀𝘂𝗯𝗮 𝗡𝗮𝗸𝗮𝗻𝗼 - 𝗠𝗗 ' : isUser ? '' : 'Este Chat'}`}, {quoted: m});
-};
+await conn.reply(m.chat, `╭╼〔 ${wm} 〕
+┃֪࣪☁️ 𝙾𝙿𝙲𝙸𝙾𝙽: ${type} 
+┃֪࣪–––––––☆–––––––
+┃֪࣪🌳 𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
+┃֪࣪–––––––☆–––––––
+┃֪࣪⚡️ 𝙿𝙰𝚁𝙰: ${isAll ? '𝚈𝙾𝚃𝚂𝚄𝙱𝙰-𝙽𝙰𝙺𝙰𝙽𝙾-𝙼𝙳' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
+╰━━━⊰ ${vs} ⊱━━━━╯`, m, {
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
+title: `${wm}`,
+body: team, previewType: 0, thumbnail: imagen6, sourceUrl: [gp2, gp1, md, channel].getRandom()}}})} 
+
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
 handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i;
