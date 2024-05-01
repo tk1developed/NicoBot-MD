@@ -29,7 +29,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╭╼☁️ *Lista De Menus* ☁️
 ┃֪࣪📔 .allmenu
 ┃֪࣪🔥 .hornymenu
-┃֪࣪🌳 .tyc
+┃֪࣪🌳 .menuaudios
 ┃֪࣪💖 .colaboradores
 ┃֪࣪📝 .reglas 
 ╚╼𝅄━ִ𝅄━ִ𝆺𝅥 𝆭🌳 ۫ 𝆺𝅥⋆ ִ ۫ 𝆺𝅥 ִ🌳 ۫ ⊹━ִ𝅄━ִ?
