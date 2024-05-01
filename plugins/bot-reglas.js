@@ -10,7 +10,7 @@ let reglas = `🌳 *Respeta las reglas de Yotsuba - Nakano*\n
 
 🏷 𝗡𝗼𝘁𝗮: *Si no cumples con las reglas del bot, seras bloqueado.*
 
-☁️ 𝗔𝘃𝗶𝘀𝗼: *Puedes apoyarnos dejando una estrellita 🌟 al repositorio oficial de CuriosityBot.*
+☁️ 𝗔𝘃𝗶𝘀𝗼: *Puedes apoyarnos dejando una estrellita 🌟 al repositorio oficial de Yotsuba.*
 
 https://github.com/Diego-YL-177/Yotsuba-Nakano-MD`.trim()
 await conn.reply(m.chat, reglas, m, fkontak, )
