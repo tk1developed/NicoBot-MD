@@ -1566,8 +1566,11 @@ global.dfail = (type, m, conn) => {
     restrict: '*!Esta Función Fué Deshabilitado Por Mi Desarrollador*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: saludo + name, body: '𝐁𝐲: Dɪᴇɢᴏ.Oғᴄ', thumbnail: ImgAll.getRandom(), sourceUrl: channel}}}}, aa);
-  if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
+  //const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: saludo + name, body: '𝐁𝐲: Dɪᴇɢᴏ.Oғᴄ', thumbnail: ImgAll.getRandom(), sourceUrl: channel}}}}, aa);
+  //if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
+//};
+
+if (msg) return conn.reply(m.chat, msg, m, { contextInfo:{ externalAdReply: {title: '📖'  + saludo + ' ' + nombre, body: saludo, sourceUrl: global.channel, thumbnailUrl: ImgAll.getRandom() }}})
 };
 
 const file = global.__filename(import.meta.url, true);
