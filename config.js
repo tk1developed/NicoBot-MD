@@ -66,6 +66,8 @@ global.gp2 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //CuriosityBot Y
 
 global.gp3 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //NovaBot Y Yotsuba
 
+global.gp4 = 'https://chat.whatsapp.com/KjR8NTfdWwU1a66uDOOGLZ' //MultiBots
+
 global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
 
 global.yt = 'https://www.youtube.com/@Yotsuba.nakano01' //Canal De Youtube
