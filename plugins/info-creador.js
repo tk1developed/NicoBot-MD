@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let pp = await conn.profilePictureUrl(who).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
 let biografia = await conn.fetchStatus('573012482597' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
-let biografiaBot = await conn.fetchStatus('conn.user.jid' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
+let biografiaBot = await conn.fetchStatus('5219512151615' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
 let bio = biografia.status?.toString() || 'Sin Biografía'
 let biobot = biografiaBot.status?.toString() || 'Sin Biografía'
 let name = await conn.getName(who)
@@ -41,7 +41,7 @@ item2.EMAIL;type=INTERNET:${isi2}
 item2.X-ABLabel:📧 Email
 item3.ADR:;;${isi3};;;;
 item3.X-ABADR:ac
-item3.X-ABLabel:📍 Region
+item3.X-ABLabel:🏷 Region
 item4.URL:${isi4}
 item4.X-ABLabel:Website
 item5.X-ABLabel:${isi5}
