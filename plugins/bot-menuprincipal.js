@@ -21,6 +21,7 @@ import { xpRange } from '../lib/levelling.js'
   'premium': 'Pʀᴇᴍɪᴜᴍ',
   'frases': 'Fʀᴀsᴇs',
   'downloader': 'Dᴇsᴄᴀʀɢᴀs',
+  'descargas': 'Dᴇsᴄᴀʀɢᴀs',
   'tools': 'Hᴇʀʀᴀᴍɪᴇɴᴛᴀs',
   'fun': 'Dɪᴠᴇʀsɪᴏɴᴇs',
   'nsfw': 'Nsғᴡ', 
