@@ -40,7 +40,7 @@ global.titulowm = '𝗬𝗈𝗍𝗌𝗎𝖻𝖺 : 𝗡𝖺𝗄𝖺𝗇𝗈';
 global.titulowm2 = `𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜`
 global.igfg = 'Diego Oficial';
 global.sk = 'Yᴏᴛsᴜʙᴀ Nᴀᴋᴀɴᴏ - MD';
-global.team = 'Pᴏᴡᴇʀᴇᴅ Bʏ: Dɪᴇɢᴏ.Oғᴄ';
+global.team = 'Bʏ: Dɪᴇɢᴏ.Oғᴄ';
 global.vs = '1.0.7';
 
 //• ↳ ◜𝑴𝑺𝑮 𝑫𝑬 𝑬𝑺𝑷𝑬𝑹𝑨◞ • 🈸
