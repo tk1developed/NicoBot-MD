@@ -1,7 +1,5 @@
 import PhoneNumber from 'awesome-phonenumber'
 
-let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-
 let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let pp = await conn.profilePictureUrl(who).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
@@ -13,8 +11,8 @@ let name = await conn.getName(who)
 
   await sendContactArray(conn, m.chat, [
      [`${nomorown}`, `${await conn.getName('573012482597'+'@s.whatsapp.net')}`, `💖 Creador`, team, 'argumedod44@gmail.com', `🇨🇴 Colombia`, `https://www.youtube.com/@Yotsuba.nakano01`, bio],
-[`${conn.user.jid.split('@')[0]}`, wm, `🌩 Yotsuba Nakano`, `📵 No Hacer Spam`, 'theyotsubanakano@gmail.com', `🇨🇴 Colombia`, `https://github.com/Diego-YL-177/Yotsuba-Nakano-MD`, biobot]
-], fkontak)
+[`${conn.user.jid.split('@')[0]}`, `𝗘𝘀𝘁𝗮 𝗖𝘂𝗲𝗻𝘁𝗮 𝗘𝘀 𝗕𝗼𝘁 💫`, `🌩 Yotsuba Nakano`, `📵 No Hacer Spam`, 'theyotsubanakano@gmail.com', `🇨🇴 Colombia`, `https://github.com/Diego-YL-177/Yotsuba-Nakano-MD`, biobot]
+], m)
   //m.reply(`Hola @${m.sender.split(`@`)[0]} este es el contacto de mi creadora, no hagas spam!!`)
   } 
 
