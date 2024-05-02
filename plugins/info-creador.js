@@ -13,7 +13,7 @@ let name = await conn.getName(who)
 
   await sendContactArray(conn, m.chat, [
      [`${nomorown}`, `${await conn.getName('573012482597'+'@s.whatsapp.net')}`, `💖 Creador`, team, 'argumedod44@gmail.com', `🇨🇴 Colombia`, `https://www.youtube.com/@Yotsuba.nakano01`, bio],
-[`Esto es el bot`, `${await conn.getName(conn.user.jid)}`, `🌩 Yotsuba Nakano`, `📵 No Hacer Spam`, 'theyotsubanakano@gmail.com', `🇨🇴 Colombia`, `https://github.com/Diego-YL-177/Yotsuba-Nakano-MD`, biobot]
+[`${conn.user.jid.split('@')[0]}`, wm, `🌩 Yotsuba Nakano`, `📵 No Hacer Spam`, 'theyotsubanakano@gmail.com', `🇨🇴 Colombia`, `https://github.com/Diego-YL-177/Yotsuba-Nakano-MD`, biobot]
 ], fkontak)
   //m.reply(`Hola @${m.sender.split(`@`)[0]} este es el contacto de mi creadora, no hagas spam!!`)
   } 
