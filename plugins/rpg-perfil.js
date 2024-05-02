@@ -1,6 +1,6 @@
-import {createHash} from 'crypto';
-import PhoneNumber from 'awesome-phonenumber';
-import fetch from 'node-fetch';
+import PhoneNumber from 'awesome-phonenumber'
+import fetch from 'node-fetch'
+
 const handler = async (m, {conn, usedPrefix, participants, isPrems}) => {
   let pp = 'https://en.idei.club/uploads/posts/2023-06/1686810490_en-idei-club-p-sakura-ena-dizain-instagram-2.jpg';
   const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender;
