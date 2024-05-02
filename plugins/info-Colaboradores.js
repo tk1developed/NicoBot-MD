@@ -38,7 +38,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃ https://github.com/AzamiJs
 ┃
 ┃➸ Ender Tally:
-┃@50558124470
+┃https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite
 ┃
 ┃✣➸ 𝖣𝖺𝗇𝗂𝖾𝗅:
 ┃https://github.com/MoonContentCreator
