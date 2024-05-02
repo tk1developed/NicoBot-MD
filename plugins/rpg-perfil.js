@@ -1,31 +1,43 @@
 import PhoneNumber from 'awesome-phonenumber'
 import fetch from 'node-fetch'
 
-const handler = async (m, {conn, usedPrefix, participants, isPrems}) => {
-  let pp = 'https://en.idei.club/uploads/posts/2023-06/1686810490_en-idei-club-p-sakura-ena-dizain-instagram-2.jpg';
-  const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender;
-  if (!(who in global.db.data.users)) throw `El usuario que está mencionando no está registrado en mi base de datos`;
-  try {
-    pp = await conn.profilePictureUrl(who);
-  } catch (e) {
-  } finally {
-    const {name, limit, lastclaim, registered, regTime, age, premiumTime} = global.db.data.users[who];
-    const username = conn.getName(who);
-    const prem = global.prems.includes(who.split `@` [0]);
-    const sn = createHash('md5').update(who).digest('hex');
-    const str = `. . . *🌸 P E R F I L 🌹* . . .
-🌹 • *Nombre:* ${username}
+var handler = async (m, { conn }) => {
 
+let user = db.data.users[m.sender]
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './src/avatar_contact.png')
+let { premium, level, diamond, exp, lastclaim, registered, regTime, age } = global.db.data.users[m.sender]
+let username = conn.getName(who)
+let name = conn.getName(who)
+let fkon = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
+
+let str = ` 𝗣𝗘𝗥𝗙𝗜𝗟 𝗨𝗦𝗨𝗔𝗥𝗜𝗢 🪷
+🌳 • *Nombre:* ${username}
+☄️ • *Tag:* @${who.replace(/@.+/, '')}
 📞 • *Numero:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
-🔗 • *Link:* Wa.me/${who.split`@`[0]}${registered ? '\n🧃 • *Edad:* ' + age + ' años' : ''}
-💎 • *Limite: ${limit} Usos*
-📇 • *Registrado:* ${registered ? '✅': '❎'}
-🔮 • *Premium:* ${premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❎') || ''}`;
-    conn.sendMessage(m.chat, {image: {url: pp}, caption: str}, {quoted: m});
-  }
-};
-handler.help = ['profile [@user]'];
-handler.tags = ['xp'];
-handler.command = /^perfil|profile?$/i;
-handler.register = true
-export default handler;
+🔗 • *Link:* https://wa.me/${who.split`@`[0]}
+🍂 • *Edad:* ${registered ? age : ''}
+💎 • *Limite: ${diamond} Usos* 
+🌀 • *Registrado:* ${registered ? '✅': '❌'}
+🏷 • *Premium:* ${premium ? '✅': '❌'}
+`.trim()
+
+conn.sendFile(m.chat, pp, 'perfil.jpg', str, fkon, false, { mentions: [who] })
+
+}
+handler.help = ['profile']
+handler.tags = ['rg']
+handler.command = /^perfil|pp$/i
+
+export default handler
+
+const more = String.fromCharCode(8206)
+const readMore = more.repeat(4001)
+
+function clockString(ms) {
+let d = isNaN(ms) ? '--' : Math.floor(ms / 86400000)
+let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
+let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
+let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+return [d, ' *Dias ☀️*\n ', h, ' *Horas 🕐*\n ', m, ' *Minutos ⏰*\n ', s, ' *Segundos ⏱️* '].map(v => v.toString().padStart(2, 0)).join('')
+}
