@@ -18,6 +18,10 @@ let str = `*🔮 GRUPOS OFICIALES*
   *_┃🍂❏ ${gp3}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
+    *_╭━━━⊜ MultiBots_*
+  *_┃🍂❏ ${gp4}_*
+*_╰━━━━━━━━━━━━━━━━⊜_*
+
  *☁️ CANAL OFICIAL*
 
     *_╭━━━⊜ Canal Ofc De Yotsuba_*
