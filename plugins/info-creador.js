@@ -8,11 +8,10 @@ let biografiaBot = await conn.fetchStatus('5219512151615' +'@s.whatsapp.net').ca
 let bio = biografia.status?.toString() || 'Sin Biografía'
 let biobot = biografiaBot.status?.toString() || 'Sin Biografía'
 let name = await conn.getName(who)
-const nomorown = "573012482597"
 
   await sendContactArray(conn, m.chat, [
-     [`${nomorown}`, `${await conn.getName('5214434703586'+'@s.whatsapp.net')}`, `🍭 Creador`, saludo, 'argumedod44@gmail.com', `🇲🇽 México`, `https://www.youtube.com/@Azami_YT`, bio],
-[`${conn.user.jid.split('@')[0]}`, `${await conn.getName(conn.user.jid)}`, `🍧 CuriosityBot-MD`, `📵 No Hacer Spam`, 'theyotsubanakano@gmail.com', `🇲🇽 México`, `https://github.com/AzamiJs/CuriosityBot-MD`, biobot]
+     [`${nomorown}`, `${await conn.getName('573012482597'+'@s.whatsapp.net')}`, `🍭 Creador`, saludo, 'argumedod44@gmail.com', `🇨🇴 Colombia`, `https://www.youtube.com/@Yotsuba.nakano01`, bio],
+[`${conn.user.jid.split('@')[0]}`, `${await conn.getName(conn.user.jid)}`, `🌩 Yotsuba Nakano`, `📵 No Hacer Spam`, 'theyotsubanakano@gmail.com', `🇨🇴 Colombia`, `https://github.com/Diego-YL-177/Yotsuba-Nakano-MD`, biobot]
 ], m)
   //m.reply(`Hola @${m.sender.split(`@`)[0]} este es el contacto de mi creadora, no hagas spam!!`)
   } 
