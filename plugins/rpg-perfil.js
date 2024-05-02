@@ -16,8 +16,6 @@ const handler = async (m, {conn, usedPrefix, participants, isPrems}) => {
     const str = `. . . *🌸 P E R F I L 🌹* . . .
 🌹 • *Nombre:* ${username}
 
-🌼 • *Tag:* @${who.replace(/@.+/, '')}
-
 📞 • *Numero:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
 🔗 • *Link:* Wa.me/${who.split`@`[0]}${registered ? '\n🧃 • *Edad:* ' + age + ' años' : ''}
 💎 • *Limite: ${limit} Usos*
