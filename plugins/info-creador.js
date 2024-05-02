@@ -3,12 +3,14 @@ import PhoneNumber from 'awesome-phonenumber'
 let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let pp = await conn.profilePictureUrl(who).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
+let bio = biografia.status?.toString() || 'Sin Biografía'
+let biobot = biografiaBot.status?.toString() || 'Sin Biografía'
 let name = await conn.getName(who)
 const nomorown = "573012482597"
 
   await sendContactArray(conn, m.chat, [
-    [`${nomorown}`, `${await conn.getName(nomorown+'@s.whatsapp.net')}`, `© Devolper Owner`, `Creador oficial`, `argumedod44@gmail.com`, `🇨🇴 Colombia`, `📍 https://github.com/Diego-YL-177`, `👤  Owner Bot`],
-    [`${conn.user.jid.split('@')[0]}`, `${await conn.getName(conn.user.jid)}`, `🌩 Yotsuba-Nakano-MD`, `📵 No hagas Spam`, `Nothing`, `🇨🇴 Colombia`, `📍 https://github.com/Diego-YL-177/Yotsuba-Nakano-MD`, `Esta Cuenta Es Bot 🌳`]
+    [`${nomorown}`, `${await conn.getName(nomorown+'@s.whatsapp.net')}`, `© Devolper Owner`, `Creador oficial`, `argumedod44@gmail.com`, `🇨🇴 Colombia`, `📍 https://github.com/Diego-YL-177`, bio],
+    [`${conn.user.jid.split('@')[0]}`, `${await conn.getName(conn.user.jid)}`, `🌩 Yotsuba-Nakano-MD`, `📵 No hagas Spam`, `Nothing`, `🇨🇴 Colombia`, `📍 https://github.com/Diego-YL-177/Yotsuba-Nakano-MD`, biobot]
   ], m)
   //m.reply(`Hola @${m.sender.split(`@`)[0]} este es el contacto de mi creadora, no hagas spam!!`)
   } 
