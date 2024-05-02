@@ -7,8 +7,8 @@ let name = await conn.getName(who)
 const nomorown = "573012482597"
 
   await sendContactArray(conn, m.chat, [
-    [`${nomorown}`, `${await conn.getName(nomorown+'@s.whatsapp.net')}`, `© Devolper Owner`, `Creadora oficial`, `argumedod44@gmail.com`, `🇨🇴 Colombia`, `📍 https://github.com/Diego-YL-177`, `👤  Owner Bot`],
-    [`${conn.user.jid.split('@')[0]}`, `${await conn.getName(conn.user.jid)}`, `🤖 Yotsuba-Nakano-MD`, `📵 No hagas Spam 😢`, `Nothing`, `🇨🇴 Colombia`, `📍 https://github.com/Diego-YL-177/Yotsuba-Nakano-MD`, `Esta Cuenta Es Bot 🌳`]
+    [`${nomorown}`, `${await conn.getName(nomorown+'@s.whatsapp.net')}`, `© Devolper Owner`, `Creador oficial`, `argumedod44@gmail.com`, `🇨🇴 Colombia`, `📍 https://github.com/Diego-YL-177`, `👤  Owner Bot`],
+    [`${conn.user.jid.split('@')[0]}`, `${await conn.getName(conn.user.jid)}`, `🌩 Yotsuba-Nakano-MD`, `📵 No hagas Spam`, `Nothing`, `🇨🇴 Colombia`, `📍 https://github.com/Diego-YL-177/Yotsuba-Nakano-MD`, `Esta Cuenta Es Bot 🌳`]
   ], m)
   //m.reply(`Hola @${m.sender.split(`@`)[0]} este es el contacto de mi creadora, no hagas spam!!`)
   } 
