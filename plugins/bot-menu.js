@@ -20,6 +20,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const url = global.md
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
+
+await conn.sendMessage(m.chat, { react: { text: '🏷', key: m.key } })
+
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `╭─ׅ─ׅ┈ ─๋︩︪─💚✨️💚─ׅ─ׅ┈ ─๋︩︪─╮
 ┃֪࣪ ${packname}
