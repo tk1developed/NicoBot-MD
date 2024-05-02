@@ -185,7 +185,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
 
 
-await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '✰ 𝐘𝐨𝐭𝐬𝐮𝐛𝐚 𝐍𝐚𝐤𝐚𝐧𝐨 - 𝐌𝐃 ✰', body: team, sourceUrl: global.channel, thumbnail: await (await fetch(pp)).buffer() }}})
+await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', fkontak, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '✰ 𝐘𝐨𝐭𝐬𝐮𝐛𝐚 𝐍𝐚𝐤𝐚𝐧𝐨 - 𝐌𝐃 ✰', body: team, sourceUrl: global.channel, thumbnail: await (await fetch(pp)).buffer() }}})
 
 
 await conn.sendMessage(m.chat, { react: { text: '💚', key: m.key } })
