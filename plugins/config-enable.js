@@ -370,7 +370,7 @@ await conn.reply(m.chat, `╭╼〔 ${wm} 〕
 ┃֪࣪🌳 𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
 ┃֪࣪–––––––☆–––––––
 ┃֪࣪🌻 𝙿𝙰𝚁𝙰: ${isAll ? '𝚈𝙾𝚃𝚂𝚄𝙱𝙰-𝙽𝙰𝙺𝙰𝙽𝙾-𝙼𝙳' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
-╰━━━⊰ ${vs} ⊱━━━━╯`, fkontak, {
+╰━━━⊰ ${team} ⊱━━━━╯`, fkontak, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: `${wm}`,
 body: team, previewType: 0, thumbnail: imagen6, sourceUrl: [gp2, gp1, md, channel].getRandom()}}})} 
