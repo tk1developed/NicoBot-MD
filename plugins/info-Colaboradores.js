@@ -21,7 +21,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
 
- await conn.sendMessage(m.chat, { react: { text: '🧩', key: m.key } })
+ await conn.sendMessage(m.chat, { react: { text: '🇨🇴', key: m.key } })
 
 
 const document = doc[Math.floor(Math.random() * doc.length)];
@@ -37,9 +37,6 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃✣➸ 𝖠𝗓𝖺𝗆𝗂:
 ┃ https://github.com/AzamiJs
 ┃
-┃➸ Ender Tally:
-┃https://github.com/EnderJs-CreatorGL
-┃
 ┃✣➸ 𝖣𝖺𝗇𝗂𝖾𝗅:
 ┃https://github.com/MoonContentCreator
 ┃
@@ -54,9 +51,6 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┋
 ┋➸ 𝖠𝗓𝖺𝗆𝗂: 
 ┋@5217294888993
-┋
-┋➸ Ender Tally:
-┋@50558124470
 ┋
 ┋➸ 𝖣𝖺𝗇𝗂𝖾𝗅:
 ┋@33760536110
