@@ -319,7 +319,7 @@ if (opcion == '1' || methodCodeQR) {
  }}
    if (connection == 'open') {
 console.log(chalk.greenBright('\n╭┈ ┈ ┈ ┈ ┈ • 𝗬𝗼𝘁𝘀𝘂𝗯𝗮 𝗡𝗮𝗸𝗮𝗻𝗼 • ┈ ┈ ┈ ┈ ┈ ┈╮\n┊ ☄️ CONEXIÓN EXITOSA CON WHATSAPP ☄️\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'))
-//conn.fakeReply('573012482694@s.whatsapp.net', '🍁', '0@s.whatsapp.net', '🇨🇴 Soy Nakano\nRecientemente Me E Conectado', '0@s.whatsapp.net')
+//conn.fakeReply('573012482597@s.whatsapp.net', '🍁', '0@s.whatsapp.net', '🇨🇴 Soy Nakano\nRecientemente Me E Conectado', '0@s.whatsapp.net')
    }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) {
