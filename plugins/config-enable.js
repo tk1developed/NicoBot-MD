@@ -372,8 +372,8 @@ await conn.reply(m.chat, `╭╼〔 ${wm} 〕
 ┃֪࣪🌻 𝙿𝙰𝚁𝙰: ${isAll ? '𝚈𝙾𝚃𝚂𝚄𝙱𝙰-𝙽𝙰𝙺𝙰𝙽𝙾-𝙼𝙳' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
 ╰━━━⊰ ${team} ⊱━━━━╯`, fkontak, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: `👋 Hola ` + nombre,
-body: team, previewType: 0, thumbnail: imagen6, sourceUrl: global.md}}})} 
+title: wm,
+body: `👋 Hola ` + nombre, previewType: 0, thumbnail: imagen6, sourceUrl: global.md}}})} 
 
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
