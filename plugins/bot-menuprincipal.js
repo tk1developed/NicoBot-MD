@@ -183,8 +183,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     let pp3 = 'https://telegra.ph/file/52c004a4d1506b02165b1.mp4'
     let pp4 = 'https://telegra.ph/file/1634b24b028638c4067ae.mp4'*/
 
-let imagen = 'https://telegra.ph/file/4c5e630407258a7b08601.jpg'
-
   const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
 
 const fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
@@ -197,7 +195,7 @@ await conn.sendMessage(m.chat, { react: { text: '💫', key: m.key } })
 
     //conn.sendMessage(m.chat, { video: { url: [pp1, pp2, pp3, pp4].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: fkontak })
 
-conn.sendMessage(m.chat, {text: text.trim(), mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": packname, body: team, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen, "mediaUrl": global.channel, "sourceUrl": global.channel}}}, {quoted: fkontak});
+conn.sendMessage(m.chat, {text: text.trim(), mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": packname, body: team, "containsAutoReply": true, "mediaType": 1, "thumbnail": 'https://telegra.ph/file/4c5e630407258a7b08601.jpg', "mediaUrl": global.channel, "sourceUrl": global.channel}}}, {quoted: fkontak});
 
    
 
