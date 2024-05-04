@@ -114,9 +114,9 @@ let n3 = lolh.result.size
 let n4 = lolh.result.thumbnail
 await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimetype: 'video/mp4', thumbnail: await fetch(n4) }, { quoted: m })
 } catch {
-await conn.reply(m.chat, '🛑 *Ocurrió un error*', m, ) }}}    
+await conn.reply(m.chat, '🛑 *Ocurrió un error*', m, fake, ) }}}    
 }} catch {
-return conn.reply(m.chat, '🍧 *Inténtelo de nuevo*', m, )}
+return conn.reply(m.chat, '🍧 *Inténtelo de nuevo*', m, fake, )}
 
 }
 handler.help = ['play', 'play2']
