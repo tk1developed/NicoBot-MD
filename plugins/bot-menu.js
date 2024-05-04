@@ -8,7 +8,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const {exp, limit, level, role} = global.db.data.users[m.sender];
   const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
     let fkon = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-   await conn.reply(m.chat, '𝗘𝗻𝘃𝗶𝗮𝗻𝗱𝗼 𝗨𝗻 𝗠𝗲𝗻𝘂 𝗦𝗶𝗺𝗽𝗹𝗲. 🗒️', fkon, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: wm, body: team, sourceUrl: global.yt, thumbnail: imagen1 }}})
+   await conn.reply(m.chat, '𝗘𝗻𝘃𝗶𝗮𝗻𝗱𝗼 𝗨𝗻 𝗠𝗲𝗻𝘂 𝗦𝗶𝗺𝗽𝗹𝗲. 🗒️', fkon, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: wm, body: team, sourceUrl: global.yt, thumbnail: await (await fetch(pp)).buffer() }}})
 //m.react('🐺');
     await conn.sendMessage(m.chat, { react: { text: '🏷', key: m.key } })
   let txt =`╭─ׅ─ׅ┈ ─๋︩︪─☁️⚡️☁️─ׅ─ׅ┈ ─๋︩︪─╮
