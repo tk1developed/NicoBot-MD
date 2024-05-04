@@ -50,7 +50,7 @@ global.taguser = '@' + m.sender.split("@s.whatsapp.net")
 
 //global.fake = { contextInfo:{ forwardingScore: 0, externalAdReply: {title: '👋 Hola ' + nombre, body: team, sourceUrl: yt, thumbnailUrl: imagen6 }}} //Fake simple
 
-global.fake = { link: canal1, id: "120363160031023229@newsletter", name: "YOTSUBA-WA 💫" }
+global.fake = { link: channel, id: "120363160031023229@newsletter", name: "YOTSUBA-WA 💫" }
 
 
 //global.fake = { contextInfo: { mentionedJid: null, forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363167110224268@newsletter', serverMessageId: '', newsletterName: '👋 Hola ' + nombre }, externalAdReply: { title: wm, body: vs, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: imagen6, thumbnail: imagen6, sourceUrl: yt }}}, { quoted: m }
