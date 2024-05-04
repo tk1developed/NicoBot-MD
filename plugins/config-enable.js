@@ -373,7 +373,7 @@ await conn.reply(m.chat, `╭╼〔 ${wm} 〕
 ╰━━━⊰ ${team} ⊱━━━━╯`, fkontak, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: `👋 Hola ` + nombre,
-body: team, previewType: 0, thumbnail: imagen6, sourceUrl: global.md}})} 
+body: team, previewType: 0, thumbnail: imagen6, sourceUrl: global.md}}})} 
 
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
