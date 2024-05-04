@@ -200,7 +200,7 @@ conn.sendMessage(m.chat, {text: text.trim(), mentions: [...text.matchAll(/@([0-9
    
 
   } catch (e) {
-    conn.reply(m.chat, '🛑 *Ocurrió un error*', m)
+    conn.reply(m.chat, '🛑 *Ocurrió un error*', m, fake,)
     throw e
   }
 }
