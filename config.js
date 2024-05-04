@@ -30,8 +30,6 @@ global.contactos = [
 global.suittag = ['573012482597'];
 global.prems = ['573218138672'];
 
-global.nombre = 'conn.getName(m.sender)';
-
 global.lenguajeYL = es //idioma de yotsuba
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
