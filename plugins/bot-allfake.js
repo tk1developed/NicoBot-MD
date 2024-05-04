@@ -1,0 +1,1 @@
+global.nombre = conn.getName(m.sender)
