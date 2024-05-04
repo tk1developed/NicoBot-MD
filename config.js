@@ -30,7 +30,7 @@ global.contactos = [
 global.suittag = ['573012482597'];
 global.prems = ['573218138672'];
 
-global.nombre = 'conn.getName(m.sender)'
+global.nombre = 'conn.getName(m.sender)';
 
 global.lenguajeYL = es //idioma de yotsuba
 
