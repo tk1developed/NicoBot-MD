@@ -20,17 +20,17 @@ font: 'block',
 align: 'center',
 colors: ['green', 'blue']
 })
-say(`by: yotsuba nakano, bot en desarrollo`, {
+/*say(`by: yotsuba nakano, bot en desarrollo`, {
 font: 'console',
 gradient: ['green', 'green']
-})
+})*/
 
 var isRunning = false
 /**
  * Start a js file
  * @param {String} file `path/to/file`
  */
-function start(file) {
+/*function start(file) {
 if (isRunning) return
 isRunning = true
 let args = [join(__dirname, file), ...process.argv.slice(2)]
@@ -38,7 +38,7 @@ say([process.argv[0], ...args].join(' '), {
 font: 'console',
 align: 'center',
 gradient: ['blue', 'magenta']
-})
+})*/
 setupMaster({
 exec: args[0],
 args: args.slice(1),
