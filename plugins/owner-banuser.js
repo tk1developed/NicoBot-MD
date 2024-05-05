@@ -45,7 +45,7 @@ console.log(e)
 }
 
 }
-handler.tags = ['own']
+handler.tags = ['owner']
 handler.commnad = ['banuser']
 handler.command = /^banuser$/i
 
