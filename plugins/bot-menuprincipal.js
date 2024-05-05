@@ -28,9 +28,9 @@ let a = {'key': {'participants': '0@s.whatsapp.net', 'fromMe': false, 'id': '3B6
 const ftrol = { key : { remoteJid: 'status@broadcast', participant : '0@s.whatsapp.net' }, message: { orderMessage: { itemCount : 2023, status: 1, surface : 1, message: `${nombre}!`, orderTitle: `▮Menu ▸`, sellerJid: '0@s.whatsapp.net' }}}
 const fload = { key : { message: `Yotsuba Nakano ⌨️` + `\nDiego.Ofc`, thumbnail: await (await fetch(pp)).buffer(), sellerJid: '0@s.whatsapp.net' }}
 
-//m.react('🏷️')
+wait.m.react('🏷️')
 
-let menu = `*☄️ !Hola¡, ${user}*
+let menu = `☄️ !Hola¡ ${user}
 
 !herramientas
 *(Para ver el menú completo)*
