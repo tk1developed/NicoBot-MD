@@ -18,11 +18,11 @@ const rl = createInterface(process.stdin, process.stdout)
 say('Yotsuba\nNakano\nMD', {
 font: 'block',
 align: 'center',
-colors: ['magenta', 'cyan']
+colors: ['green', 'blue']
 })
-say(`By: Yotsuba Nakano, Bot En Desarrollo`, {
+say(`by: yotsuba nakano, bot en desarrollo`, {
 font: 'console',
-gradient: ['blue', 'magenta']
+gradient: ['green', 'green']
 })
 
 var isRunning = false
