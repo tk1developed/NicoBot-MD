@@ -9,7 +9,7 @@
 
 > Si Deseas Probar El Bot Antes De Instalarlo, Click Abajo.🟢
 
-<a href="https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9"><img alt="☄️ Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-Yotsuba-6E00FF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+<a href="https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9"><img alt="☄️ Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-Yotsuba-FF00FF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
 - ### ⚙️Configuracion
@@ -28,7 +28,7 @@
 
 - #### 🪐 Instalacion Por Termux Manual👨‍💻
 
-[![blog](https://img.shields.io/badge/Instalacion-Yotsuba-FF00FF?style=for-the-badge&logo=youtube&logoColor=white)
+[![blog](https://img.shields.io/badge/Instalacion-Yotsuba-6E00FF?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/9-v4XwMTJYE?si=STdO2GwZR1GAmXfA)
 
 [`🪐 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
