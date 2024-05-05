@@ -7,7 +7,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
         if (!vid) throw `✳️ Vídeo/Audio no encontrado`
         let { title, description, thumbnail, videoId, timestamp, views, ago, url } = vid
         //const url = 'https://www.youtube.com/watch?v=' + videoId
-        m.react('🎧')
+        //m.react('🎧')
         let play = `
         ≡ *FG MUSIC*
 ┌──────────────
