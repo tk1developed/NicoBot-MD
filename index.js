@@ -20,7 +20,7 @@ font: 'block',
 align: 'center',
 colors: ['magenta', 'cyan']
 })
-say(`Bot: ${name}\nVersion: 1.0.7\nCreador: Diego.Ofc\nNumero: +57 301 2482597\nEmail: yotsuba399@gmail.com`, {
+say(`By: Yotsuba Nakano, Bot En Desarrollo`, {
 font: 'console',
 gradient: ['blue', 'magenta']
 })
