@@ -1,4 +1,4 @@
-/*import fs from 'fs';
+import fs from 'fs';
 const handler = (m) => m;
 handler.all = async function(m) {
   const vn = './media/bot.mp3';
@@ -16,4 +16,4 @@ conn.reply(m.chat, '😎 *Aquí Estoy, En Que Puedo Ayudar?*', m, fake, )}
   }
   return !0;
 };
-export default handler;*/
+export default handler;
