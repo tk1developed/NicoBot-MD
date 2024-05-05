@@ -37,7 +37,7 @@ let menu = `*☄️ !Hola¡, ${user}*
 .herramientas
 _(Para ver el menú completo)_`
 
-await conn.reply(m.chat, menu, ftrol, { contextInfo: { externalAdReply: {title: '👋🏻 ¡Hola! ' + user, body: saludo, sourceUrl: md, thumbnail: await (await fetch(pp)).buffer() }}})
+await conn.reply(m.chat, menu, fkontak, { contextInfo: { externalAdReply: {title: '👋🏻 ¡Hola! ' + user, body: saludo, sourceUrl: md, thumbnail: await (await fetch(pp)).buffer() }}})
 
 } catch {
 conn.reply(m.chat, `*🛑 Ocurrió un fallo*`, m, fake, )
