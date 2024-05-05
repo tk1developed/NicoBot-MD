@@ -3,7 +3,6 @@ const handler = (m) => m;
 handler.all = async function(m) {
   const vn = './media/bot.mp3';
   const chat = global.db.data.chats[m.chat];
-
   
 if (/^bot$/i.test(m.text) && !chat.isBanned) {
 
