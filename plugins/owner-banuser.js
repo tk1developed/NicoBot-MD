@@ -13,8 +13,8 @@ number = text
 }
 user = conn.user.jid.split`@`[0] + '@s.whatsapp.net'
 bot = conn.user.jid.split`@`[0] 
-bant = `🐈 *Etiquete A Una Persona*\n\nEjemplo: !${command} @573218138672`
-if (!text && !m.quoted) return conn.reply(m.chat, bant, m, { mentions: [user] })               
+bant = `🏷 *Etiquete A Una Persona*\n\nEjemplo: !${command} @573218138672`
+if (!text && !m.quoted) return conn.reply(m.chat, bant, m, fake, { mentions: [user] })               
 try {
 if(text) {
 user = number + '@s.whatsapp.net'
@@ -40,7 +40,7 @@ usr = m.sender.split('@')[0]
 await conn.reply(m.chat, '✅️ *Usuario Baneado Con Éxito*', m, { mentions: [user] })   
 
 }} catch (e) {
-await conn.reply(m.chat, '*Ocurrió un fallo*' )
+await conn.reply(m.chat, '*Ocurrió un fallo*' m, fake, )
 console.log(e) 
 }
 
