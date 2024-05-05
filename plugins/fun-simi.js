@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 
 var handler = async (m, { text, command, args, usedPrefix }) => {
 
-if (!text) return conn.reply(m.chat, `☄️ *Ingrese un texto para hablar con el bot*\n\nEjemplo: #${command} Hola Yotsuba`, m, fake, )
+if (!text) return conn.reply(m.chat, `☄️ *Ingrese un texto para hablar con simi o yotsuba*\n\nEjemplo: !${command} Hola Yotsuba`, m, fake, )
 await conn.sendMessage(m.chat, { react: { text: '🗣️', key: m.key } })
 
 try {
