@@ -1,4 +1,4 @@
-console.log('🚀 Iniciando...')
+console.log('☄️ Iniciando Yotsuba...')
 import { join, dirname } from 'path'
 import { createRequire } from 'module'
 import { fileURLToPath } from 'url'
@@ -18,11 +18,11 @@ const rl = createInterface(process.stdin, process.stdout)
 say('Yotsuba\nNakano\nMD', {
 font: 'block',
 align: 'center',
-colors: ['magenta', 'green']
+colors: ['magenta', 'cyan']
 })
-say(`Bot En Desarrollo, By: Diego Oficial`, {
+say(`Bot: ${name}\nVersion: 1.0.7\nCreador: Diego.Ofc\nNumero: +57 301 2482597\nEmail: yotsuba399@gmail.com`, {
 font: 'console',
-gradient: ['green', 'cyan']
+gradient: ['blue', 'magenta']
 })
 
 var isRunning = false
@@ -37,7 +37,7 @@ let args = [join(__dirname, file), ...process.argv.slice(2)]
 say([process.argv[0], ...args].join(' '), {
 font: 'console',
 align: 'center',
-gradient: ['magenta', 'green']
+gradient: ['blue', 'magenta']
 })
 setupMaster({
 exec: args[0],
