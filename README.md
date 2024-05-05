@@ -12,21 +12,21 @@
 <a href="https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9"><img alt="☄️ Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-Yotsuba-FF00FF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
-- ### ⚙️Configuracion
+- ### ⚙️ Configuracion
  Clonar Repo : Yotsuba [Aqui.](https://github.com/Diego-YL-177/Yotsuba-Nakano-MD/fork)
 
 
 
-- ###  ☄️ Instalar Por Render
+- ###  ⌨️ Instalar Por Render
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2Diego-YL-177%Yotsuba-Nakano-MD) 
 
-- ### ☄️ Instalar Por Code Space
+- ### 📱 Instalar Por Code Space
 
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=738341999&ref=master&geo=UsEast)
 ***
 
-- #### ☄️ Instalacion Por Termux Manual
+- #### 💻 Instalacion Por Termux Manual
 
 [![blog](https://img.shields.io/badge/Instalacion-Yotsuba-00FFFF?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/9-v4XwMTJYE?si=STdO2GwZR1GAmXfA)
@@ -51,7 +51,7 @@ yarn install && npm install
 npm start
 ```
 
-- #### ☄️ Activar En Caso De Detenerse En Termux
+- #### 🌀 Activar En Caso De Detenerse En Termux
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
@@ -59,14 +59,14 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-- ### ☄️ Obtener Otro Codigo Qr 
+- ### 🌻 Obtener Otro Codigo Qr 
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd Yotsuba-Nakano-MD
 > rm -rf NakanoSession
 > npm start
 ```
-- ### ☄️ Actualizar Yotsuba 
+- ### ✅️ Actualizar Yotsuba 
 > Note Comandos para actualizar Yotsuba - MD de forma automática
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/Diego-YL-177/Yotsuba-Nakano-MD/master/update.sh | bash
@@ -93,9 +93,9 @@ Para que no pierda su progreso en Yotsuba, estos comandos realizarán un respald
 
 ***
 
-## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial ☁️
+## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial ☄️
 
-* <a href="https://wa.me/573218138672?text=!menu"><img alt="Bot Oficial ☁️" src="https://img.shields.io/badge/Bot - Oficial☁️-FFFF00?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+* <a href="https://wa.me/573218138672?text=!menu"><img alt="Bot Oficial ☄️" src="https://img.shields.io/badge/Bot - Oficial-FFFF00?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 > No Spam Al Bot!
 ---------
