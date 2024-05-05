@@ -318,7 +318,7 @@ if (opcion == '1' || methodCodeQR) {
     console.log(chalk.yellow('☄️ Escanea Este Qr Para Conectarte A Yotsuba.'));
  }}
    if (connection == 'open') {
-console.log(chalk.bold.cyan('\n╭┈ ┈ ┈ ┈ ┈ • 𝗬𝗼𝘁𝘀𝘂𝗯𝗮 𝗡𝗮𝗸𝗮𝗻𝗼 • ┈ ┈ ┈ ┈ ┈ ┈╮\n┊ CONEXIÓN EXITOSA CON WHATSAPP ☄️\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'))
+console.log(chalk.cyanBright('\n╭┈ ┈ ┈ ┈ ┈ • 𝗬𝗼𝘁𝘀𝘂𝗯𝗮 𝗡𝗮𝗸𝗮𝗻𝗼 • ┈ ┈ ┈ ┈ ┈ ┈╮\n┊ CONEXIÓN EXITOSA CON WHATSAPP ☄️\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'))
 //conn.fakeReply('573012482597@s.whatsapp.net', '🍁', '0@s.whatsapp.net', '🇨🇴 Soy Nakano\nRecientemente Me E Conectado', '0@s.whatsapp.net')
    }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
