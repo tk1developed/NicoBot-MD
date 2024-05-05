@@ -32,7 +32,7 @@ await conn.sendMessage(m.chat, { react: { text: '🏷', key: m.key } })
 
 let menu = `☄️ !Hola¡ ${user}
 
-!herramientas
+!allmenu
 *(Para ver el menú completo)*
 
 !owner
