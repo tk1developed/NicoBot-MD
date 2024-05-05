@@ -41,7 +41,7 @@ let menu = `☄️ !Hola¡ ${user}
 await conn.reply(m.chat, menu, fkontak, { contextInfo: { externalAdReply: {title: '👋🏻 ¡Hola! ' + user, body: wm, sourceUrl: md, thumbnail: await (await fetch(pp)).buffer() }}})
 
 } catch {
-conn.reply(m.chat, `*🛑 Ocurrió un fallo*`, m, fake, )
+conn.reply(m.chat, `🛑 *Ocurrió un fallo*`, m, fake, )
 console.log(e)
 }}
 handler.help = ['menu']
