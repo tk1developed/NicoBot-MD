@@ -5,8 +5,7 @@ handler.all = async function(m) {
   const chat = global.db.data.chats[m.chat];
   
 if (/^bot$/i.test(m.text) && !chat.isBanned) {
-
-conn.sendPresenceUpdate('composing', m.chat)    
+  
 conn.reply(m.chat, '☄️ *Hola Aqui Estoy, En Que Te Puedo Ayudar?*', m, fake, )}
   
     conn.sendPresenceUpdate(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true};
