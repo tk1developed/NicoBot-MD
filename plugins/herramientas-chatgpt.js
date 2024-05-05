@@ -117,5 +117,5 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   }}
  }}
 };
-handler.command = /^(chatgpt|ia|robot|openai2|chatgpt2|ia2|robot2|Lite|nakano)$/i;
+handler.command = /^(chatgpt|ia|robot|openai2|chatgpt2|ia2|robot2|Lite|naka)$/i;
 export default handler;
