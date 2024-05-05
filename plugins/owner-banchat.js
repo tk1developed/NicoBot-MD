@@ -1,9 +1,15 @@
-const handler = async (m) => {
-  global.db.data.chats[m.chat].isBanned = true;
-  m.reply('*BOT DESACTIVADO*');
-};
-handler.help = ['banchat'];
-handler.tags = ['owner'];
-handler.command = /^banchat$/i;
-handler.rowner = true;
-export default handler;
+let handler = async (m) => {
+
+global.db.data.chats[m.chat].isBanned = true
+conn.reply(m.chat, `*BOT DESACTIVADO*`, m, fake, )
+
+}
+handler.help = ['banchat']
+handler.tags = ['own']
+handler.command = /^banchat$/i
+
+handler.botAdmin = true
+handler.admin = true 
+handler.group = true
+
+export default handler
