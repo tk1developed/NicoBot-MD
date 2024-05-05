@@ -39,7 +39,7 @@ conn.reply(m.chat, lolll.text, m, fake, )
 }
 handler.help = ['simi']
 handler.tags = ['juegos']
-handler.command = /^((sim)?simi|bot|alexa|cortana|curio(sity)?)$/i
+handler.command = /^((sim)?simi|bot|alexa|siri|yotsuba(nakano)?)$/i
 
 handler.register = true
 
