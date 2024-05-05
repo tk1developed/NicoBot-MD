@@ -15,10 +15,11 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
+
 say('Yotsuba\nNakano\nMD', {
 font: 'block',
 align: 'center',
-colors: ['candy', 'redBright']
+colors: ['green', 'redBright']
 })
 say(`by: yotsuba nakano, bot en desarrollo`, {
 font: 'console',
