@@ -8,9 +8,8 @@ if (/^bot$/i.test(m.text) && !chat.isBanned) {
   
       if (/^bot$/i.test(m.text) && !chat.isBanned) {
     conn.sendPresenceUpdate('recording', m.chat);
-    //await m.reply(`*Hola Aqui Estoy, En Que Te Puedo Ayudar? 🍧*`);
 
-conn.reply(m.chat, '☄️ *Hola Aqui Estoy, En Que Te Puedo Ayudar?*', m, fake, )}
+conn.reply(m.chat, '😎 *Aquí Estoy, En Que Puedo Ayudar?*', m, fake, )}
   
     m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
 
