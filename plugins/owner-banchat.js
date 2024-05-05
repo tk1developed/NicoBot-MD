@@ -1,4 +1,4 @@
-let handler = async (m) => {
+/*let handler = async (m) => {
 
 global.db.data.chats[m.chat].isBanned = true
 conn.reply(m.chat, `✅️ *Bot Desactivado En Este Grupo*`, m, fake, )
@@ -12,4 +12,4 @@ handler.botAdmin = true
 handler.admin = true 
 handler.group = true
 
-export default handler
+export default handler*/
