@@ -5,6 +5,10 @@
 <img src= "https://telegra.ph/file/cf02ded2ea39b8ef3ba88.png" alt="Nakano" width="900"/>
 </p>
 
+<a href="https://github.com/Diego-YL-177/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=Yotsuba+Nakano+Ofc+☄️" height="35px"></a> 
+</p> 
+
+
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
 
 > Si Deseas Probar El Bot Antes De Instalarlo, Click Abajo.🟢
