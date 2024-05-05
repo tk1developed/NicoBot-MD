@@ -1,4 +1,4 @@
-var handler = async (m, { conn, text, usedPrefix, command}) => {
+/*var handler = async (m, { conn, text, usedPrefix, command}) => {
 
 let user, number, bot, bant, ownerNumber, aa, users, usr, q, mime, img
 
@@ -51,4 +51,4 @@ handler.command = /^banuser$/i
 
 handler.rowner = true
 
-export default handler
+export default handler*/
