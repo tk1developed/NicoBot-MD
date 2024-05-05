@@ -1,6 +1,6 @@
 /*Créditos a https://github.com/AzamiJs*/
 
-/*import uploadFile from '../lib/uploadFile.js'
+import uploadFile from '../lib/uploadFile.js'
 import uploadImage from '../lib/uploadImage.js'
 import fetch from 'node-fetch'
 
@@ -35,4 +35,4 @@ export default handler
 async function shortUrl(url) {
 let res = await fetch(`https://tinyurl.com/api-create.php?url=${url}`)
 return await res.text()
-}*/
+}
