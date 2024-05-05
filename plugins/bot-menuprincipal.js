@@ -33,10 +33,10 @@ const fload = { key : { message: `Yotsuba Nakano ⌨️` + `\nDiego.Ofc`, thumbn
 let menu = `*☄️ !Hola¡, ${user}*
 
 !herramientas
-_(Para ver el menú completo)_
+*(Para ver el menú completo)*
 
 !owner
-_(Para ver el propietario del bot)_`
+*(Para ver el propietario del bot)*`
 
 await conn.reply(m.chat, menu, fkontak, { contextInfo: { externalAdReply: {title: '👋🏻 ¡Hola! ' + user, body: saludo, sourceUrl: md, thumbnail: await (await fetch(pp)).buffer() }}})
 
@@ -45,7 +45,7 @@ conn.reply(m.chat, `*🛑 Ocurrió un fallo*`, m, fake, )
 console.log(e)
 }}
 handler.help = ['menu']
-handler.tags = ['bot']
+handler.tags = ['main']
 handler.command = /^(menu)$/i
 handler.register = true
 
