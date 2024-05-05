@@ -118,8 +118,8 @@ let phoneNumber = global.botnumber
 const methodCodeQR = process.argv.includes("qr")
 const methodCode = !!phoneNumber || process.argv.includes("code")
 const MethodMobile = process.argv.includes("mobile")
-const colores = chalk.bold.green
-const opcionQR = chalk.bgBlue.white
+const colores = chalk.bold.yellow
+const opcionQR = chalk.bgGreen.white
 const opcionTexto = chalk.bgMagenta.white
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout })
 const question = (texto) => new Promise((resolver) => rl.question(texto, resolver))
