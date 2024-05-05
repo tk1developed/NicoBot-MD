@@ -28,7 +28,7 @@
 
 - #### 🪐 Instalacion Por Termux Manual👨‍💻
 
-[![blog](https://img.shields.io/badge/Instalacion-Yotsuba-00FF00?style=for-the-badge&logo=youtube&logoColor=white)
+[![blog](https://img.shields.io/badge/Instalacion-Yotsuba-FF00FF?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/9-v4XwMTJYE?si=STdO2GwZR1GAmXfA)
 
 [`🪐 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
