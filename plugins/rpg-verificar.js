@@ -51,7 +51,7 @@ registrando = false
 conn.reply(m.chat, `*SU TIEMPO DE REGISTRO HA FINALIZADO!!*\n\n_SI NO CONTINUA EN ESTE MOMENTO SU REGISTRO NO SE GUARDARA PERDIENDO TODO SU PROGRESO_\n\n*PARA CONTINUAR ESCRIBA:* ${usedPrefix}finalizar`, fkontak, m)}
 }
 
-if (user.registered === true) return conn.reply(m.chat, `${lenguajeMY['smsAvisoIIG']()}*YA ESTÁ REGISTRADO!!*\n*SI QUIERE ANULAR SU REGISTRO, USE ESTE COMANDO*\n*${usedPrefix}unreg numero de serie*\n\n*SI NO RECUERDA SU NÚMERO DE SERIE, USE ESTE COMANDO*\n*${usedPrefix}myns*`, fkontak, m)        
+if (user.registered === true) return conn.reply(m.chat, `*YA ESTÁ REGISTRADO!!*\n*SI QUIERE ANULAR SU REGISTRO, USE ESTE COMANDO*\n*${usedPrefix}unreg numero de serie*\n\n*SI NO RECUERDA SU NÚMERO DE SERIE, USE ESTE COMANDO*\n*${usedPrefix}myns*`, fkontak, m)        
 
 if (command == 'verificar' || command == 'verify' || command == 'register' || command == 'reg' || command == 'registrar') {
 await conn.reply(m.chat, `*👻 ¿CÓMO DESEA REGISTRARSE?*\n\n *𖥳 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖱𝖠𝖯𝖨𝖣𝖮*\n\n*_BENEFICIOS:_*\n彡 _INSIGNEA DE VERIFICACION_\n彡 _DESBLOQUEA COMANDOS QUE SE REQUIERA REGISTRO_\n\n*_ESCRIBA PARA EL REGISTRO RAPIDO:_*\n${usedPrefix}reg1 nombre edad\n\n-----------------\n\n*𖥳 REGISTRO COMPLETO*\n彡 _INSIGNIA DE VERIFICACION_\n彡 _DESBLOQUEA COMANDOS QUE REQUIERAN ESTE REGISTRO_\n彡 _PREMIUM TEMPORAL GRATUITO_\n彡 _MAS OPCIONES PARA ESTE REGISTRO_\n\n*_ESCRIBA PARA EL REGISTRO COMPLETO:_*\n${usedPrefix}nombre\n\n\`\`\`✨ 𝘊𝘖𝘕𝘚𝘐𝘋𝘌𝘙𝘌 𝘘𝘜𝘌 𝘛𝘌𝘕𝘋𝘙𝘈 𝘜𝘕 𝘛𝘐𝘌𝘔𝘗𝘖 𝘗𝘈𝘙𝘈 𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘈𝘙𝘚𝘌.\`\`\``, fkontak, m)
