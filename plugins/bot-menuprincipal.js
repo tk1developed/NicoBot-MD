@@ -205,7 +205,7 @@ conn.sendMessage(m.chat, {text: text.trim(), mentions: [...text.matchAll(/@([0-9
   }
 }
 
-handler.help = ['menu']
+handler.help = ['allmenu']
 handler.tags = ['main']
 handler.command = ['herramientas', 'herramienta', 'allmenú', 'allmenu'] 
 handler.register = true 
