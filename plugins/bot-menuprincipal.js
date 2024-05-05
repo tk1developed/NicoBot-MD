@@ -30,7 +30,7 @@ const fload = { key : { message: `Yotsuba Nakano ⌨️` + `\nDiego.Ofc`, thumbn
 
 //m.react('🏷️')
 
-let menu = `*☄️ !Hola¡, ${taguser}*
+let menu = `*☄️ !Hola¡, ${user}*
 
 !herramientas
 _(Para ver el menú completo)_
