@@ -1,21 +1,19 @@
-let handler = async (m, { conn}) => {
+import fs from 'fs';
+const handler = (m) => m;
+handler.all = async function(m) {
+  const vn = './media/bot.mp3';
+  const chat = global.db.data.chats[m.chat];
+  
+if (/^bot$/i.test(m.text) && !chat.isBanned) {
+  
+      if (/^bot$/i.test(m.text) && !chat.isBanned) {
+    conn.sendPresenceUpdate('recording', m.chat);
 
-let name = conn.getName(m.sender)
-let av = `./src/mp3/${pickRandom(["criss", "andrea"])}.mp3`
+conn.reply(m.chat, '😎 *Aquí Estoy, En Que Puedo Ayudar?*', m, fake, )}
+  
+    m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: fkontak});
 
-conn.sendButton(m.chat, `Hola *${name}* \n \nNecesitas ayuda? \n`, imagen6, null, [
-      ['⦙☰ Menu', '/help'],
-      ['⦙☰ Menu 2', '/menu2'],
-      ['⌬ Grupos', '/gpdylux']
-    ], m)
-conn.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
-} 
-
-handler.customPrefix = /^(bot|dylux)$/i
-handler.command = new RegExp
-
-export default handler
-
-function pickRandom(list) {
-  return list[Math.floor(list.length * Math.random())]
-}
+  }
+  return !0;
+};
+export default handler;
