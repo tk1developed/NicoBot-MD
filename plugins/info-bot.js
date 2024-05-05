@@ -11,7 +11,7 @@ if (/^bot$/i.test(m.text) && !chat.isBanned) {
 
 conn.reply(m.chat, '😎 *Aquí Estoy, En Que Puedo Ayudar?*', m, fake, )}
   
-    m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+    m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: fkontak});
 
   }
   return !0;
