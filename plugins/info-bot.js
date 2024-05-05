@@ -6,9 +6,13 @@ handler.all = async function(m) {
   
 if (/^bot$/i.test(m.text) && !chat.isBanned) {
   
-conn.reply(m.chat, '☄️ *Hola Aqui Estoy, En Que Te Puedo Ayudar?*', m, fake, )}
+      if (/^bot$/i.test(m.text) && !chat.isBanned) {
+    conn.sendPresenceUpdate('recording', m.chat);
+    //await m.reply(`*Hola Aqui Estoy, En Que Te Puedo Ayudar? 🍧*`);
+
+await m.reply(m.chat, '☄️ *Hola Aqui Estoy, En Que Te Puedo Ayudar?*', m, fake, )}
   
-    conn.sendPresenceUpdate(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true};
+    m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
 
   }
   return !0;
