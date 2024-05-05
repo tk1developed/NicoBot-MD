@@ -1,11 +1,11 @@
-var handler = async (m, { conn,usedPrefix, command, text }) => {
+let handler = async (m, { conn,usedPrefix, command, text }) => {
 
 if (isNaN(text) && !text.match(/@/g)){
 
 } else if (isNaN(text)) {
-var number = text.split`@`[1]
+let number = text.split`@`[1]
 } else if (!isNaN(text)) {
-var number = text
+let number = text
 }
 
 if (!text && !m.quoted) return conn.reply(m.chat, `🏷 *Etiqueta al admin. que desea degradar*\n\nEjemplo, !demote @tag\n!demote *responde a un mensaje*`, m, fake, )
