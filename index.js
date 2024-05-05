@@ -22,7 +22,7 @@ colors: ['magenta', 'green']
 })
 say(`Bot En Desarrollo, By: Diego Oficial`, {
 font: 'console',
-gradient: ['magenta', 'green']
+gradient: ['green', 'cyan']
 })
 
 var isRunning = false
