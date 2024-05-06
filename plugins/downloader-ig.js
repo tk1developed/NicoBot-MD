@@ -4,7 +4,7 @@ import instagramGetUrl from 'instagram-url-direct';
 import {instagram} from '@xct007/frieren-scraper';
 import {instagramdl} from '@bochilteam/scraper';
 const handler = async (m, {conn, args, command, usedPrefix}) => {
-if (!args[0]) throw `Ejemplo:\n*${usedPrefix + command} https://www.instagram.com/p/CCoI4DQBGVQ/?igshid=YmMyMTA2M2Y=*`
+if (!args[0]) throw `*Envie un enlace de instagram*`
 const { key } = await conn.sendMessage(m.chat, {text: wait}, {quoted: fkontak});
 // await delay(1000 * 2);
 await conn.sendMessage(m.chat, {text: waitt, edit: key});
