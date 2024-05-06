@@ -53,7 +53,7 @@ const txt1 = `📱 *Url:* ${shortUrRRl}\n\n👋 ¡Hola! ${nombre}`.trim();
 await conn.sendFile(m.chat, videoig, 'error.mp4', txt1, m);
 await conn.sendMessage(m.chat, {text: waittttt, edit: key})
 } catch (e) {
-conn.sendMessage(m.chat, {text: `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, edit: key});
+conn.sendMessage(m.chat, {text: `${saludo + nombre}`, edit: key});
 console.log(`Ocurrió un error 📱`)
 console.log(e)
 handler.limit = 0
