@@ -27,7 +27,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
 ┣⊶⊷⊷⊷⊶⊷✰⊶⊷⊶⊷⊷⊷╯
 ┃ ┌• ────── ✾ ────── •
 ┃ ┇Nombre: ${name}
-┃ ┇Edad : ${age} año 
+┃ ┇Edad : ${age} años
 ┃ └• ────── ✾ ────── •
 ╰⊶⊷⊷⊷⊶⊷✰⊶⊷⊶⊷⊷⊷╯
 
