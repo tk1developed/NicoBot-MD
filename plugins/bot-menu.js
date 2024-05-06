@@ -2,8 +2,8 @@
 let foto = imagen4
 let handler = async (m, { conn, command }) => {
 let user = db.data.users[m.sender]
-let botswhatsapp = `ESTE ES UN MENSAJE DE PRUEBA.`
-await conn.sendButton(m.chat, botswhatsapp, `Yotsuba Nakano MD\n` + wm, foto, [
+let botswhatsapp = `❤️ New Botones. 🌼`
+await conn.sendButton(m.chat, botswhatsapp, `👋🏻 ¡Hola! ` + nombre, foto, [
 ['⌨️ Menu Oficial ⌨️', '!allmenu'],
 ['🍧 Waoz', '!sc'],
 ['❤️ Propietario', '#owner'],
