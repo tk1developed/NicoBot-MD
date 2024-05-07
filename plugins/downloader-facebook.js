@@ -70,6 +70,7 @@ handler.tags = ['descargas']
 handler.command = /^(facebook|fb|facebookdl|fbdl)$/i
 
 handler.register = true
+handler.limit = true
 
 export default handler
 
