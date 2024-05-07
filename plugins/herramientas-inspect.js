@@ -5,22 +5,12 @@ const handler = async (m, {conn, text}) => {
   if (!code) throw '*🍧 Ingrese el link de un grupo de WhatsApp.*';
   const res = await conn.query({tag: 'iq', attrs: {type: 'get', xmlns: 'w:g2', to: '@g.us'}, content: [{tag: 'invite', attrs: {code}}]});
   const data = extractGroupMetadata(res);
-  const txt = `*╭───────────────╮*
-*│🎋❐ ID:* ◜${data.id}◞
-*│🎋❐ Nombre:* ◜${data.subject}◞
-*│🎋❐ Creado:* ◜${data.creation}◞
-*│🎋❐ Owner:* ◜${data.owner}◞
-*╰───────────────╯*`;
+  const txt = `*⫹⫺ ID:* ${data.id}\n*⫹⫺ Nombre:* ${data.subject}\n*⫹⫺ Fecha de creación:* ${data.creation}\n*⫹⫺ Creador:* ${data.owner}\n*⫹⫺ Descripción:*\n${data.desc}`;
   
   const pp = await conn.profilePictureUrl(data.id, 'image').catch(console.error);
-  if (pp) return conn.sendMessage(m.chat, {image: {url: pp}, caption: txt}, {quoted: fkontak});
-  const groupinfo = `*╭───────────────╮*
-*│🎋❐ ID:* ◜${data.id}◞
-*│🎋❐ Nombre:* ◜${data.subject}◞
-*│🎋❐ Creado:* ◜${data.creation}◞
-*│🎋❐ Owner:* ◜${data.owner}◞
-*╰───────────────╯*`;
-  await conn.reply(m.chat, groupinfo, m, fake, );
+  if (pp) return conn.sendMessage(m.chat, {image: {url: pp}, caption: txt}, {quoted: m});
+  const groupinfo = `*⫹⫺ ID:* ${data.id}\n*⫹⫺ Nombre:* ${data.subject}\n*⫹⫺ Fecha de creación:* ${data.creation}\n*⫹⫺ Creador:* ${data.owner}\n*⫹⫺ Descripción:*\n${data.desc}`;
+  await conn.reply(m.chat, groupinfo, m);
 };
 handler.command = /^(inspect)$/i;
 export default handler;
