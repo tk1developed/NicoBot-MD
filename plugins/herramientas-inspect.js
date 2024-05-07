@@ -18,11 +18,11 @@ let handler = async (m, { conn, text }) => {
 *Descripción:* 
 ${data.desc}
 `
-        await conn.reply(m.chat, groupinfo, estilo)
+        await conn.reply(m.chat, groupinfo, m, fake, )
         const botones = [
 {index: 1, urlButton: {displayText: `•Copiar Desc`, url: `https://www.whatsapp.com/otp/copy/${data.desc}`}},
 ]
-await conn.sendMessage(m.chat, { text: `*╭──────────────╮*\n│🐳 • ¿Desea copiar la descripción?\n*╰──────────────╯*`, templateButtons: botones, footer: botname })
+await conn.sendMessage(m.chat, { text: `*╭──────────────╮*\n│🐳 • ¿Desea copiar la descripción?\n*╰──────────────╯*`, templateButtons: botones, footer: wm })
 }
 handler.tags = ['owner']
 handler.command = ['inspect']
