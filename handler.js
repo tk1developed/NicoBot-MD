@@ -1279,7 +1279,7 @@ _Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Pr
           continue; 
         }
         if (plugin.level > _user.level) {
-          mconn.conn.reply(m.chat, `*🧸 Se Requiere Tener El Nivel ${plugin.level} Para Poder Utilizar El Comando. Tu Nivel Actual Es ${_user.level}, Usa El Comando: ${usedPrefix} lvl Para Subir De Nivel Con Exp.*`, m);
+          mconn.conn.reply(m.chat, `*☄️ Se Requiere Tener El Nivel ${plugin.level} Para Poder Utilizar El Comando. Tu Nivel Actual Es ${_user.level}, Usa El Comando: ${usedPrefix} lvl Para Subir De Nivel Con Exp.*`, m);
           continue; 
         }
         const extra = {
@@ -1348,7 +1348,7 @@ _Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Pr
             }
           }
           if (m.limit) {
-            m.reply('*🧸 Se Usaron ' + +m.limit + ' Diamante(s) (Limite).*');
+            m.reply('*💎 Se Usaron ' + +m.limit + ' Diamante(s)*');
           }
         }
         break;
@@ -1524,8 +1524,8 @@ export async function callUpdate(callUpdate) {
         const callmsg = await mconn.conn.reply(nk.from, `𝙷𝚘𝚕𝚊 *@${nk.from.split('@')[0]}*, 𝚕𝚊𝚜 ${nk.isVideo ? '𝚟𝚒𝚍𝚎𝚘𝚕𝚕𝚊𝚖𝚊𝚍𝚊s' : '𝚕𝚕𝚊𝚖𝚊𝚍𝚊s'} 𝚗𝚘 𝚎𝚜𝚝𝚊́𝚗 𝚙𝚎𝚛𝚖𝚒𝚝𝚒𝚍𝚊𝚜, 𝚜𝚎𝚛𝚊́𝚜 𝚋𝚕𝚘𝚚𝚞𝚎𝚊𝚍𝚘.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, {mentions: [nk.from]});
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Creador 🧸;;;\nFN:Creador 🧸\nORG:Creador 🧸\nTITLE:\nitem1.TEL;waid=573012482597:+57 301 2482597\nitem1.X-ABLabel:Creador 🧸Creador 🧸\nX-WA-BIZ-DESCRIPTION:ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:Creador 🧸\nEND:VCARD`;
-        await mconn.conn.sendMessage(nk.from, {contacts: {displayName: 'Kana-Arima ✨', contacts: [{vcard}]}}, {quoted: callmsg});
+        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Creador 👑;;;\nFN:Creador 👑\nORG:Creador 👑\nTITLE:\nitem1.TEL;waid=573012482597:+57 301 2482597\nitem1.X-ABLabel:Creador 👑Creador 👑\nX-WA-BIZ-DESCRIPTION:ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:Creador 👑\nEND:VCARD`;
+        await mconn.conn.sendMessage(nk.from, {contacts: {displayName: 'Yotsuba-Nakano ✨', contacts: [{vcard}]}}, {quoted: callmsg});
         await mconn.conn.updateBlockStatus(nk.from, 'block');
       }
     }
