@@ -391,11 +391,11 @@ global.reloadHandler = async function(restatConn) {
 conn.welcome = lenguajeYL['smsWelcome']() 
 conn.bye = lenguajeYL['smsBye']() 
 conn.spromote = lenguajeYL['smsPromote']() 
-conn.sdemote = '❏ 🍃 *_@user ha dejado de ser administrador._*';
-conn.sDesc = '❏ 🍃 *_Se ha modificado la descripción del grupo._*\n\n*Nueva Descripción:* @desc';
-conn.sSubject = '❏ 🍃 *_Se ha modificado el nombre del grupo._*\n*Nuevo Nombre:* @subject';
-conn.sIcon = '❏ 🍃 *_Se ha cambiado la foto del grupo._*'
-conn.sRevoke = '❏ 🍃 *_Se ha actualizado el link del grupo._*\n*Link Nuevo:* @revoke';
+conn.sdemote = lenguajeYL['smsDemote']() 
+conn.sDesc = lenguajeYL['smsDesc']() 
+conn.sSubject = lenguajeYL['smsSubject']() 
+conn.sIcon = lenguajeYL['smsIcon']() 
+conn.sRevoke = lenguajeYL['smsRevoke']() 
 
   conn.handler = handler.handler.bind(global.conn);
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
