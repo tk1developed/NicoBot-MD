@@ -21,8 +21,8 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   user.regTime = + new Date
   user.registered = true
   let sn = createHash('md5').update(m.sender).digest('hex')
-let who = ${m.sender.split('@')[0]}:${m.sender.split('@')[0]}
-let pp = await conn.profilePictureUrl(who, 'image').catch((_) => imagen6)
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let pp = await conn.profilePictureUrl(who, 'imagen').catch((_) => imagen6)
   let str = `╭⊶⊷⊷⊷⊶⊷✰⊶⊷⊶⊷⊷⊷╮
 ┃ • Yᴏᴛsᴜʙᴀ Nᴀᴋᴀɴᴏ - MD 🪷
 ┣⊶⊷⊷⊷⊶⊷✰⊶⊷⊶⊷⊷⊷╯
@@ -41,8 +41,8 @@ forwardingScore: 9999,
 isForwarded: true, 
 externalAdReply: {
 title: sk,
-body: team,
-thumbnail: img,
+body: nombre,
+thumbnail: pp,
 sourceUrl: global.channel,
 mediaType: 1,
 renderLargerThumbnail: true
