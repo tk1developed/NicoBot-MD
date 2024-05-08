@@ -31,9 +31,6 @@ let pp = ''
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? this.user.jid : m.sender
 //let pp = await this.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/1861aab98389b13db8588.jpg')
 
-  //let bio = await conn.fetchStatus(who).catch((_) => "undefined");
-  //global.biot = bio.status?.toString() || "Sin Bio";
-
 /* 
 Mensajes Fakes
 */
