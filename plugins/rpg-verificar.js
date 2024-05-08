@@ -22,7 +22,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   user.registered = true
   let sn = createHash('md5').update(m.sender).digest('hex')
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let img = await conn.profilePictureUrl(who, 'image').catch((_) => imagen1)
+let img = await conn.profilePictureUrl('m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender', 'image').catch((_) => imagen1)
   let str = `╭⊶⊷⊷⊷⊶⊷✰⊶⊷⊶⊷⊷⊷╮
 ┃ • Yᴏᴛsᴜʙᴀ Nᴀᴋᴀɴᴏ - MD 🪷
 ┣⊶⊷⊷⊷⊶⊷✰⊶⊷⊶⊷⊷⊷╯
