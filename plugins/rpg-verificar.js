@@ -42,7 +42,6 @@ isForwarded: true,
 externalAdReply: {
 title: sk,
 body: team,
-thumbnailUrl: pp,
 thumbnail: pp,
 sourceUrl: global.channel,
 mediaType: 1,
