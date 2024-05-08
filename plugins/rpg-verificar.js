@@ -22,7 +22,6 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   user.registered = true
   let sn = createHash('md5').update(m.sender).digest('hex')
   let img = await (await fetch('https://telegra.ph/file/acdf3e5fef16feef2431d.jpg')).buffer()  
-bio = biografia.status?.toString() || sinDefinir 
   let str = `╭⊶⊷⊷⊷⊶⊷✰⊶⊷⊶⊷⊷⊷╮
 ┃ • Yᴏᴛsᴜʙᴀ Nᴀᴋᴀɴᴏ - MD 🪷
 ┣⊶⊷⊷⊷⊶⊷✰⊶⊷⊶⊷⊷⊷╯
@@ -30,22 +29,25 @@ bio = biografia.status?.toString() || sinDefinir
 ┃ ┇Nombre: ${name}
 ┃ ┇Edad : ${age} años
 ┃ └• ────── ✾ ────── •
-╰⊶⊷⊷⊷⊶⊷✰⊶⊷⊶⊷⊷⊷╯`
+╰⊶⊷⊷⊷⊶⊷✰⊶⊷⊶⊷⊷⊷╯
 
+*Numero de serie:*
+${sn}`
 conn.sendMessage(m.chat, {
 text: str,
-contextInfo: {
+contextInfo: { 
+forwardingScore: 9999, 
+isForwarded: true, 
 externalAdReply: {
-title: wm,
-body: user.name,
-thumbnailUrl: img, 
-sourceUrl: 'https://www.atom.bio/gatabot/',
+title: sk,
+body: team,
+thumbnailUrl: img,
+thumbnail: img,
+sourceUrl: global.channel,
 mediaType: 1,
-showAdAttribution: true,
 renderLargerThumbnail: true
-}}}, { quoted: fkontak })
-await m.reply(`${sn}`)        
-}}
+}}}, { quoted: fkontak})
+}
 handler.help = ['reg'].map(v => v + ' *<nombre.edad>*')
 handler.tags = ['rg']
 
