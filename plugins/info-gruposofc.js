@@ -5,27 +5,31 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 let str = `*🔮 GRUPOS OFICIALES*
 
     *_╭━━━⊜ Yotsuba-Nakano-MD_*
-  *_┃🍂❏ ${gp1}_*
+  *_┃🌻❏ ${gp1}_*
+*_╰━━━━━━━━━━━━━━━━⊜_*
+
+   *_╭━━━⊜ Yotsuba-Nakano-MD2_*
+  *_┃🌻❏ ${gp2}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
  *☁️ GRUPOS EN COLABORACIÓN*
 
     *_╭━━━⊜ Curiosity y Yotsuba_*
-  *_┃🍂❏ ${gp2}_*
+  *_┃🍃❏ ${gp3}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
     *_╭━━━⊜ NovaBot & Yotsuba_*
-  *_┃🍂❏ ${gp3}_*
+  *_┃🍃❏ ${gp4}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
     *_╭━━━⊜ MultiBots_*
-  *_┃🍂❏ ${gp4}_*
+  *_┃🍃❏ ${gp5}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
  *☁️ CANAL OFICIAL*
 
     *_╭━━━⊜ Canal Ofc De Yotsuba_*
-  *_┃🍂❏ ${channel}_*
+  *_┃🌺❏ ${channel}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 
