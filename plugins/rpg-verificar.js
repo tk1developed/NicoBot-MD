@@ -22,7 +22,14 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   user.registered = true
   let sn = createHash('md5').update(m.sender).digest('hex')
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let pp = await conn.profilePictureUrl(who, 'imagen').catch((_) => imagen6)
+let pp = await conn.profilePictureUrl(who, 'image').catch((_) => imagen6)
+function pickRandom(list) {
+return list[Math.floor(Math.random() * list.length)]}
+let nombreWA = await usedPrefix + conn.getName(m.sender) //'@' + m.sender.split("@s.whatsapp.net")[0]
+let user = global.db.data.users[m.sender]
+let verificar = new RegExp(usedPrefix)
+let biografia = await conn.fetchStatus(m.sender).catch(_ => '𝘕𝘖 𝘋𝘌𝘍𝘐𝘕𝘐𝘋𝘖')
+bio = biografia.status?.toString() || sinDefinir
   let str = `╭⊶⊷⊷⊷⊶⊷✰⊶⊷⊶⊷⊷⊷╮
 ┃ • Yᴏᴛsᴜʙᴀ Nᴀᴋᴀɴᴏ - MD 🪷
 ┣⊶⊷⊷⊷⊶⊷✰⊶⊷⊶⊷⊷⊷╯
