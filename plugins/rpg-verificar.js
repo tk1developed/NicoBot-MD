@@ -37,7 +37,7 @@ bio = biografia.status?.toString() || sinDefinir
 ┃ ┇Nombre: ${name}
 ┃ ┇Edad : ${age} años
 ┃ └• ────── ✾ ────── •
-╰⊶⊷⊷⊷⊶⊷✰⊶⊷⊶⊷⊷⊷╯
+╰⊶⊷⊷⊷⊶⊷✰⊶⊷⊶⊷⊷⊷╯`
 
 conn.sendMessage(m.chat, {
 text: str,
