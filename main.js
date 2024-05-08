@@ -388,15 +388,14 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('connection.update', conn.connectionUpdate);
     conn.ev.off('creds.update', conn.credsUpdate);
   }
-
- conn.welcome = '.    ╭─ׅ─ׅ┈ ─๋︩︪─☁️✨️☁️─ׅ─ׅ┈ ─๋︩︪─╮\n╭╼🌩⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪ Bɪᴇɴᴠᴇɴɪᴅᴏ ໑⃪࣭۪ٜ݊݊݊݊𑁍ꥈ࣪⬪🌩\n┃֪࣪  ╰─ׅ─ׅ┈ ─๋︩︪─☁️✨️☁️─ׅ─ׅ┈ ─๋︩︪─╯\n╔╼𝅄━ִⷪ𝅄ͭ━ִ𝆺𝅥☁️   ۫ 𝆺𝅥⋆ ִ ۫ 𝆺𝅥 ִ☁️ ۫ ⊹━ִꙵ𝅄━ִⷪ𝅄╾࣪╗\n┃֪࣪֝፝֟͜ Hola 👋\n┃֪࣪֝፝֟͜ @user\n┃֪࣪֝፝֟͜ Bienvenido A\n┃֪࣪֝፝֟͜ @subject\n╚╼𝅄━ִ𝅄━ִ━ִ𝆺𝅥 𝆭☁️ ۫ 𝆺𝅥⋆ ִ ۫ 𝆺𝅥 ִ☁️ ۫ ⊹━ִ━ִ𝅄━ִ?';
-    conn.bye = '.    ╭─ׅ─ׅ┈ ─๋︩︪─☁️✨️☁️─ׅ─ׅ┈ ─๋︩︪─╮\n╭╼🌩⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪ Cʜᴀᴏᴏᴏ! ໑⃪࣭۪ٜ݊݊݊݊𑁍ꥈ࣪⬪🌩\n┃֪࣪  ╰─ׅ─ׅ┈ ─๋︩︪─☁️✨️☁️─ׅ─ׅ┈ ─๋︩︪─╯\n╔╼𝅄━ִⷪ𝅄ͭ━ִ𝆺𝅥☁️   ۫ 𝆺𝅥⋆ ִ ۫ 𝆺𝅥 ִ☁️ ۫ ⊹━ִꙵ𝅄━ִⷪ𝅄╾࣪╗\n┃֪࣪֝፝֟͜ Adios 👋\n┃֪࣪֝፝֟͜ @user\n┃֪࣪֝፝֟͜ Jamás te quisimos aquí\n╚╼𝅄━ִ𝅄━ִ━ִ𝆺𝅥 𝆭☁️ ۫ 𝆺𝅥⋆ ִ ۫ 𝆺𝅥 ִ☁️ ۫ ⊹━ִ━ִ𝅄━ִ?';
-  conn.spromote = '@user\n𝗔𝗛𝗢𝗥𝗔 𝗘𝗦 𝗔𝗗𝗠𝗜𝗡 𝗗𝗘 𝗘𝗦𝗧𝗘 𝗚𝗥𝗨𝗣𝗢.';
-  conn.sdemote = '@user\n𝗗𝗘𝗝𝗔 𝗗𝗘 𝗦𝗘𝗥 𝗔𝗗𝗠𝗜𝗡 𝗘𝗡 𝗘𝗦𝗧𝗘 𝗚𝗥𝗨𝗣𝗢.';
-  conn.sDesc = '𝗟𝗔 𝗡𝗨𝗘𝗩𝗔 𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡 𝗗𝗘𝗟 𝗚𝗥𝗨𝗣𝗢 𝗘𝗦 :\n\n@desc';
-  conn.sSubject = '𝗘𝗟 𝗡𝗢𝗠𝗕𝗥𝗘 𝗗𝗘𝗟 𝗚𝗥𝗨𝗣𝗢 𝗖𝗔𝗠𝗕𝗜𝗢 𝗔 :\n@subject';
-  conn.sIcon = '𝗦𝗘 𝗛𝗔 𝗖𝗔𝗠𝗕𝗜𝗔𝗗𝗢 𝗘𝗟 𝗜𝗖𝗢𝗡𝗢 𝗗𝗘𝗟 𝗚𝗥𝗨𝗣𝗢.';
-  conn.sRevoke = '𝗘𝗟 𝗡𝗨𝗘𝗩𝗢 𝗟𝗜𝗡𝗞 𝗗𝗘𝗟 𝗚𝗥𝗨𝗣𝗢 𝗘𝗦 :\n@revoke';
+conn.welcome = '*• Holaa :D Bienvenido/a al grupo!!*\n*━━━━━━━━━━━━━━━━*\n\n🌺 *• Nombre:* @user\n🌿 *• Bio:* @bio\n🕒 *• Hora:* @time\n🗓️ *• Fecha:* @date\n\n- *recuerda leer las reglas del grupo* -';
+conn.bye = '*👋 Hasta pronto, no te extrañaremos XD!!*\n*━━━━━━━━━━━━━━━━*\n\n🐢 *• Nombre:* @user\n🎋 *• Bio:* @bio\n🕒 *• Hora:* @time\n🗓️ *• Fecha:* @date\n\n- *Salúdame a Maradona bro* -';
+conn.spromote = '*⎡ •⚠️ Nuevo Admin detectado ⚠️• ⎦*\n*━━━━━━━━━━━━━━━━*\n🐢 *• Nombre:* @user\n🕒 *• Hora:* @time\n🗓️ *• Fecha:* @date\n*━━━━━━━━━━━━━━━━*';
+conn.sdemote = '❏ 🍃 *_@user ha dejado de ser administrador._*';
+conn.sDesc = '❏ 🍃 *_Se ha modificado la descripción del grupo._*\n\n*Nueva Descripción:* @desc';
+conn.sSubject = '❏ 🍃 *_Se ha modificado el nombre del grupo._*\n*Nuevo Nombre:* @subject';
+conn.sIcon = '❏ 🍃 *_Se ha cambiado la foto del grupo._*'
+conn.sRevoke = '❏ 🍃 *_Se ha actualizado el link del grupo._*\n*Link Nuevo:* @revoke';
 
   conn.handler = handler.handler.bind(global.conn);
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
