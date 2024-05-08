@@ -21,14 +21,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   user.regTime = + new Date
   user.registered = true
   let sn = createHash('md5').update(m.sender).digest('hex')
-  let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let pp = await conn.profilePictureUrl(who, 'image').catch((_) => imagen6)
-function pickRandom(list) {
-return list[Math.floor(Math.random() * list.length)]}
-let nombreWA = await usedPrefix + conn.getName(m.sender) //'@' + m.sender.split("@s.whatsapp.net")[0]
-let user = global.db.data.users[m.sender]
-let verificar = new RegExp(usedPrefix)
-let biografia = await conn.fetchStatus(m.sender).catch(_ => '𝘕𝘖 𝘋𝘌𝘍𝘐𝘕𝘐𝘋𝘖')
+  let img = await (await fetch('https://telegra.ph/file/acdf3e5fef16feef2431d.jpg')).buffer()  
 bio = biografia.status?.toString() || sinDefinir 
   let str = `╭⊶⊷⊷⊷⊶⊷✰⊶⊷⊶⊷⊷⊷╮
 ┃ • Yᴏᴛsᴜʙᴀ Nᴀᴋᴀɴᴏ - MD 🪷
@@ -45,7 +38,7 @@ contextInfo: {
 externalAdReply: {
 title: wm,
 body: user.name,
-thumbnailUrl: pp, 
+thumbnailUrl: img, 
 sourceUrl: 'https://www.atom.bio/gatabot/',
 mediaType: 1,
 showAdAttribution: true,
