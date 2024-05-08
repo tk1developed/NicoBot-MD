@@ -390,7 +390,7 @@ global.reloadHandler = async function(restatConn) {
   }
 conn.welcome = lenguajeYL['smsWelcome']() 
 conn.bye = lenguajeYL['smsBye']() 
-conn.spromote = '*⎡ •⚠️ Nuevo Admin detectado ⚠️• ⎦*\n*━━━━━━━━━━━━━━━━*\n🐢 *• Nombre:* @user\n🕒 *• Hora:* @time\n🗓️ *• Fecha:* @date\n*━━━━━━━━━━━━━━━━*';
+conn.spromote = lenguajeYL['smsPromote']() 
 conn.sdemote = '❏ 🍃 *_@user ha dejado de ser administrador._*';
 conn.sDesc = '❏ 🍃 *_Se ha modificado la descripción del grupo._*\n\n*Nueva Descripción:* @desc';
 conn.sSubject = '❏ 🍃 *_Se ha modificado el nombre del grupo._*\n*Nuevo Nombre:* @subject';
