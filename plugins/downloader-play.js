@@ -101,7 +101,7 @@ await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}.mp4`,
 try {
 
 let mediaa = await ytMp4(yt_play[0].url)
-await conn.sendMessage(m.chat, { video: { url: mediaa.result }, fileName: `error.mp4`, caption: wm, thumbnail: mediaa.thumb, mimetype: 'video/mp4' }, { quoted: m })     
+await conn.sendMessage(m.chat, { video: { url: mediaa.result }, fileName: `error.mp4`, caption: 'Ⓨ︎ 𝑪𝒓𝒆𝒂𝒕𝒆𝒅 𝑩𝒚: 𝒀𝒐𝒕𝒔𝒖𝒃𝒂 𝑵𝒂𝒌𝒂𝒏𝒐', thumbnail: mediaa.thumb, mimetype: 'video/mp4' }, { quoted: m })     
 } catch {
 
 try {
