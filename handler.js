@@ -1469,7 +1469,7 @@ export async function participantsUpdate({id, participants, action}) {
               await m.conn.sendMessage(id, {text: `*[❗] @${user.split('@')[0]} 𝙚𝙣 𝙚𝙨𝙩𝙚 𝙜𝙧𝙪𝙥𝙤 𝙣𝙤 𝙥𝙚𝙧𝙢𝙞𝙩𝙞𝙢𝙤𝙨 𝙣𝙪𝙢𝙚𝙧𝙤𝙨 𝙖𝙧𝙖𝙗𝙚𝙨 𝙤 𝙧𝙖𝙧𝙤𝙨, 𝙥𝙤𝙧 𝙡𝙤 𝙦𝙪𝙚 𝙨𝙚 𝙡𝙚 𝙚𝙭𝙥𝙪𝙡𝙨𝙖𝙧𝙖 𝙙𝙚𝙡 𝙜𝙧𝙪𝙥𝙤*`, mentions: [user]}, {quoted: fkontak2});
               return;
             }
-            this.sendMessage(id, { text: text, contextInfo:{ mentionedJid:[user], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": 'W E L C O M E', "body": `${wm}`, "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": apii.data, "sourceUrl": md}}})
+            this.sendMessage(id, { text: text, contextInfo:{ mentionedJid:[user], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": 'W E L C O M E', "body": `${team}`, "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": apii.data, "sourceUrl": yt}}})
           }
         }
       }
