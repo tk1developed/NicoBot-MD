@@ -4,7 +4,7 @@ if (!text) throw `🍃 *Ingres Una Petición*\n- Ejemplo: !bard conoces a yotsub
 
 try {
 
-await m.reply('🌺 *C A R G A N D O*\n- 🍃 Cargando Información')
+await m.reply('🌺 *C A R G A N D O*\n- 🍃 Cargando Información', m, fake, )
 conn.sendPresenceUpdate('composing', m.chat)
 var apii = await fetch(`https://aemt.me/gemini?text=${text}`)
 var res = await apii.json()
