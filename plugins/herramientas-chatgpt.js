@@ -13,6 +13,8 @@ if (!text) return conn.reply(m.chat, `🍃 *Ingrese una petición*\n\nEjemplo, !
 
 try {
 
+await m.reply(`🌺 *C A R G A N D O*\n- 🍃 Cargando Información`, m, fake, )
+
 conn.sendPresenceUpdate('composing', m.chat)
 let sistema1 = `Actuaras como un Bot de WhatsApp el cual fue creado por Diego, tu seras Yotsuba-Nakano-MD`
 async function getOpenAIChatCompletion(texto) {
