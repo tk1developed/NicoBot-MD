@@ -1478,7 +1478,7 @@ let bye = await conn.getFile(`https://api.lolhuman.xyz/api/welcomeimage?apikey=$
               return;
             }
 
-conn.sendFile(id, action === 'add' ? wel.data : bye.data,  'out.png', text, false, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: `h`, mediaType: 2, sourceUrl: md, thumbnail: miniurl}, mentionedJid: [user]}}, { quoted: false })
+conn.sendFile(id, action === 'add' ? wel.data : bye.data,  'out.png', text, false, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: `h`, mediaType: 2, sourceUrl: md, thumbnail: md}, mentionedJid: [user]}}, { quoted: false })
           }
         }
       }
