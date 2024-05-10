@@ -8,6 +8,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
 if (usedPrefix == 'a' || usedPrefix == 'A') return;
 if (!text) throw `🍃 *Ingrese una petición*\n\nEjemplo, !${command} Codigo en JS para un juego de cartas`, m, fake, )   
 try {
+await m.reply(`🌺 *C A R G A N D O*\n- 🍃 Cargando Información`, m, fake, )
 conn.sendPresenceUpdate('composing', m.chat);
 let gpt = await fetch(`https://delirius-api-oficial.vercel.app/api/ia2?text=${text}`)
 let res = await gpt.json()
