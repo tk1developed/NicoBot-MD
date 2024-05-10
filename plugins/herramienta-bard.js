@@ -1,6 +1,6 @@
 var handler = async (m, { text,  usedPrefix, command }) => {
 
-if (!text) throw `*Y El Texto?*\n- Ejemplo: #bard Hola`
+if (!text) throw `🍃 *Ingres Una Petición*\n- Ejemplo: !bard conoces a yotsuba?`
 
 try {
 
