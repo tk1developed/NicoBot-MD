@@ -9,7 +9,7 @@ var res = await apii.json()
 await m.reply(res.result)
 } catch (e) {
 await conn.reply(m.chat, `*🍃 Ocurrió Un Error Inesperado*`, fkontak, m)
-console.log(`❗`)
+console.log(`🍁 *Ocurrió Un Error*`)
 console.log(e)
 }}
 handler.command = ['bard', 'gemini']
