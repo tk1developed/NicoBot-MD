@@ -9,7 +9,7 @@ const openaiii = new OpenAIApi(configuration)
 var handler = async (m, {conn, text, usedPrefix, command}) => {
 
 if (usedPrefix == 'a' || usedPrefix == 'A') return
-if (!text) return conn.reply(m.chat, `🍃 *Ingrese una petición*\n\nEjemplo, !${command} Codigo en JS para un juego de ahorcado`, m, fake, ) 
+if (!text) return conn.reply(m.chat, `🍃 *Ingrese una petición*\n\nEjemplo, !${command} Codigo en Js para un juego de ahorcado`, m, fake, ) 
 
 try {
 
