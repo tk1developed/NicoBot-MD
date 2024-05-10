@@ -8,7 +8,7 @@ if (process.send) { process.send('uptime')
 _muptime = await new Promise(resolve => { process.once('message', resolve) 
 setTimeout(resolve, 2000) }) * 1000}
 let uptime = clockString(_uptime)
-let bio = `𝗬𝗼𝘁𝘀𝘂𝗯𝗮-𝗡𝗮𝗸𝗮𝗻𝗼┃✰𝗜𝗻𝗳𝗼: 𝗖𝗿𝗲𝗮𝗱𝗼𝗿✰┃𝗧𝗶𝗺𝗲 ${uptime}` 
+let bio = `𝗬𝗼𝘁𝘀𝘂𝗯𝗮-𝗡𝗮𝗸𝗮𝗻𝗼┃✰𝗨𝘀𝗼: ${gconly ? "Privado" : "Publico"}✰┃𝗧𝗶𝗺𝗲 ${uptime}` 
 await this.updateProfileStatus(bio).catch(_ => _)
 setting.status = new Date() * 1
 } 
