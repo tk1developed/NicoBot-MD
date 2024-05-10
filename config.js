@@ -86,7 +86,7 @@ global.saludo = "" + hour;
 //let bio = 'await conn.fetchStatus(who).catch((_) => "undefined")';
 //global.biot = bio.status?.toString() || "Sin Biografia";
 
-global.about = '(await this.fetchStatus(user).catch(console.error) || {}).status || '×''
+global.biot = '(await this.fetchStatus(user).catch(console.error) || {}).status || '×''
 
 global.mods = [];
 
