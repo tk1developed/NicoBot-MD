@@ -1,4 +1,4 @@
-/*import fs from 'fs'
+import fs from 'fs'
 let handler = async (m, { text, usedPrefix, command }) => {
     if (!text) return conn.reply(m.chat, `☄️ *Ingresé el nombre del plugin*`)
    if (!m.quoted.!text) return conn.reply(m.chat, `🍃 *Ingresa el contenido del plugin*`)
@@ -11,4 +11,4 @@ handler.tags = ['owner']
 handler.command = ["salvar", "saveplugin"]
 
 handler.rowner = true
-export default handler*/
+export default handler
