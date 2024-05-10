@@ -6,7 +6,7 @@ try {
 
 await m.reply('🌺 *C A R G A N D O*\n- 🍃 Cargando Información')
 conn.sendPresenceUpdate('composing', m.chat)
-var apii = await fetch(`https://aemt.me/gemini?text=${text}`)
+var apii = await fetch(`https://vihangayt.me/tools/bard?q=${encodeURIComponent(text)`)
 var res = await apii.json()
 await m.reply(res.result)
 
