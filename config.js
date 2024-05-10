@@ -83,8 +83,10 @@ var ase = new Date(); var hour = ase.getHours(); switch(hour){ case 0: hour = 'L
 global.saludo = "" + hour;
 
 //• ↳ ◜𝑩𝑰𝑶𝑮𝑹𝑨𝑭𝑰𝑨◞ • ⚔
-let bio = 'await conn.fetchStatus(who).catch((_) => "undefined")';
-global.biot = bio.status?.toString() || "Sin Biografia";
+//let bio = 'await conn.fetchStatus(who).catch((_) => "undefined")';
+//global.biot = bio.status?.toString() || "Sin Biografia";
+
+global.about = '(await this.fetchStatus(user).catch(console.error) || {}).status || '×''
 
 global.mods = [];
 
