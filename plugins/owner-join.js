@@ -14,6 +14,7 @@ console.log(`🍃 Error`)
 console.log(e)
 }
 
+switch (true) {     
 case isCommand1:
 user = m.sender.split('@')[0] 
 let link = (m.quoted ? m.quoted.text ? m.quoted.text : text : text) || text
