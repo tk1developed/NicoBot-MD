@@ -1088,7 +1088,7 @@ export async function handler(chatUpdate) {
         } catch (e) {
           // if (typeof e === 'string') continue
                     console.error(e)
-                    for (let [jid] of global.contactos(([number, _, isDeveloper]) => isDeveloper && number)) {
+                    for (let [jid] of global.contactos.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
                         let data = (await conn.onWhatsApp(jid))[0] || {}
                         if (data.exists)
                             m.reply(`*_⌜⚠️ Se ha detectado un comando con fallas.⌟_*\n\n*❑ Plugin:* ${m.plugin}\n*❑ Usuario:* ${m.sender}\n*❑ Comando:* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n⚠️• *_Utilice el comando #report para informarle al creador._*`.trim(), data.jid)
@@ -1311,7 +1311,7 @@ _Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Pr
                         for (let key of Object.values(global.APIKeys))
                             text = text.replace(new RegExp(key, 'g'), '#HIDDEN#')
                         if (e.name)
-                            for (let [jid] of global.contactos(([number, _, isDeveloper]) => isDeveloper && number)) {
+                            for (let [jid] of global.contactos.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
                                 let data = (await conn.onWhatsApp(jid))[0] || {}
                                 if (data.exists)
                                     m.reply(`*_⌜⚠️ Se ha detectado un comando con fallas.⌟_*\n\n*❑ Plugin:* ${m.plugin}\n*❑ Usuario:* ${m.sender}\n*❑ Comando:* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n⚠️• *_Utilice el comando #report para informarle al creador._*`.trim(), data.jid)
