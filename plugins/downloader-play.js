@@ -42,7 +42,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 ₊♡₊˚ 🌩 ・₊✧★🎸🎧°⋆♡₊˚ 🔮
 
 > *_Enviando ${additionalText}, Aguarde Un Momento..._*`.trim();
-await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: { title: yt_play[0].title, body: team, thumbnailUrl: yt_play[0].thumbnail, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: m })
+await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: { title: yt_play[0].title, body: team, thumbnailUrl: yt_play[0].thumbnail, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: fkontak })
   if (command == 'play') {
     try {    
     const q = '128kbps';
@@ -62,10 +62,10 @@ await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: {
     return;    
     }     
     if (size >= limit_a1 && size <= limit_a2) {  
-    await conn.sendMessage(m.chat, {document: sex, mimetype: 'audio/mpeg', fileName: ttl + `.mp3`}, {quoted: m});   
+    await conn.sendMessage(m.chat, {document: sex, mimetype: 'audio/mpeg', fileName: ttl + `.mp3`}, {quoted: fkontak});   
     return;
     } else {
-    await conn.sendMessage(m.chat, {audio: sex, mimetype: 'audio/mpeg', fileName: ttl + `.mp3`}, {quoted: m});   
+    await conn.sendMessage(m.chat, {audio: sex, mimetype: 'audio/mpeg', fileName: ttl + `.mp3`}, {quoted: fkontak});   
     return    
     }} catch {
     try {      
@@ -76,10 +76,10 @@ await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: {
         buff.on('data', chunk => { bufs.push(chunk) })
         buff.on('end', async () => {
     let buff = Buffer.concat(bufs)
-    conn.sendMessage(m.chat, {audio: buff, fileName: yt_play[0].title + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
+    conn.sendMessage(m.chat, {audio: buff, fileName: yt_play[0].title + '.mp3', mimetype: 'audio/mpeg'}, {quoted: fkontak});
     })} catch {
     await YTDL.mp3(yt_play[0].url).then(async (s) => {
-    await conn.sendMessage(m.chat, {audio: fs.readFileSync(s.path), mimetype: "audio/mpeg", fileName: `${s.meta.title || "-"}.mp3`,}, {quoted: m});
+    await conn.sendMessage(m.chat, {audio: fs.readFileSync(s.path), mimetype: "audio/mpeg", fileName: `${s.meta.title || "-"}.mp3`,}, {quoted: fkontak});
     await fs.unlinkSync(s.path)});
     }
   }
@@ -100,14 +100,14 @@ await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: {
     const fileSizeInMB = fileSizeInKB / 1024;
     const size = fileSizeInMB.toFixed(2);    
     if (size >= limit2) {  
-    await conn.sendMessage(m.chat, {text: `✔ Descargue su video en ${dl_url}`}, {quoted: m});
+    await conn.sendMessage(m.chat, {text: `✔ Descargue su video en ${dl_url}`}, {quoted: fkontak});
     return;    
     }     
     if (size >= limit1 && size <= limit2) {  
-    await conn.sendMessage(m.chat, {document: sex, mimetype: 'video/mp4', fileName: ttl + `.mp4`}, {quoted: m});   
+    await conn.sendMessage(m.chat, {document: sex, mimetype: 'video/mp4', fileName: ttl + `.mp4`}, {quoted: fkontak});   
     return;
     } else {
-    await conn.sendMessage(m.chat, {video: sex, mimetype: 'video/mp4', fileName: ttl + `.mp4`}, {quoted: m});   
+    await conn.sendMessage(m.chat, {video: sex, mimetype: 'video/mp4', fileName: ttl + `.mp4`}, {quoted: fkontak});   
     return;    
     }} catch {
     const formats = await bestFormat(yt_play[0].url, 'video');
@@ -117,7 +117,7 @@ await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: {
     const fileSizeInKB = fileSizeInBytes / 1024;
     const fileSizeInMB = fileSizeInKB / 1024;
     const roundedFileSizeInMB = fileSizeInMB.toFixed(2);
-    await conn.sendMessage(m.chat, {video: buff, fileName: ttl_1 + '.mp4', mimetype: 'video/mp4'}, {quoted: m});
+    await conn.sendMessage(m.chat, {video: buff, fileName: ttl_1 + '.mp4', mimetype: 'video/mp4'}, {quoted: fkontak});
     }      
   }
 } catch (error) {
