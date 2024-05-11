@@ -14,7 +14,7 @@ console.log(`🍃 Error`)
 console.log(e)
 }
 
-//case isCommand1:
+case isCommand1:
 user = m.sender.split('@')[0] 
 let link = (m.quoted ? m.quoted.text ? m.quoted.text : text : text) || text
 let [_1, code1] = link.match(linkRegex) || []
@@ -27,7 +27,7 @@ await conn.sendMessage(res1, { text: lenguajeYL.smsJoin(user), mentions: (await 
 }} catch (e) {
 reportError(e)
 }        
-//break
+break
 
 }}
 handler.command = /^(join|nuevogrupo|newgrupo|unete)$/i
