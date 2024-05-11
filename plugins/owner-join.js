@@ -16,7 +16,7 @@ console.log(e)
 
 switch (true) {     
 case isCommand1:
-user = m.sender.split('@')[0] 
+let user = m.sender.split('@')[0] 
 let link = (m.quoted ? m.quoted.text ? m.quoted.text : text : text) || text
 let [_1, code1] = link.match(linkRegex) || []
 if (!code1) return m.reply(lenguajeYL.smsJoin1(usedPrefix, command))
