@@ -1087,13 +1087,14 @@ export async function handler(chatUpdate) {
           });
         } catch (e) {
           // if (typeof e === 'string') continue
-          console.error(e);
-          for (const [jid] of global.reportes_solicitudes.filter(([number]) => number)) {
-            const data = (await conn.onWhatsApp(jid))[0] || {};
-            if (data.exists) {
-              await m.reply(`*[ ⚠️ 𝚁𝙴𝙿𝙾𝚁𝚃𝙴 𝙳𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙲𝙾𝙽 𝙵𝙰𝙻𝙻𝙾𝚂 ⚠️ ]*\n\n*—◉ 𝙿𝙻𝚄𝙶𝙸𝙽:* ${name}\n*—◉ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾:* ${m.sender}\n*—◉ 𝙲𝙾𝙼𝙰𝙽𝙳𝙾:* ${m.text}\n\n*—◉ 𝙴𝚁𝚁𝙾𝚁:*\n\`\`\`${format(e)}\`\`\`\n\n*[❗] 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙳𝙴𝙻 𝙱𝙾𝚃 𝙿𝙰𝚁𝙰 𝙳𝙰𝚁𝙻𝙴 𝚄𝙽𝙰 𝚂𝙾𝙻𝚄𝙲𝙸𝙾𝙽, 𝙿𝚄𝙴𝙳𝙴 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 #reporte*`.trim(), data.jid);
-            }
-          }
+
+console.error(e)
+for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
+let data = (await conn.onWhatsApp(jid))[0] || {}
+if (data.exists)
+m.reply(`*⚠️ COMANDO FALLANDO ⚠️*\n\n*📑 PLUGIN :* ${name}\n*👤 USUARIO :* ${m.sender}\n*🚀 COMANDO :* ${m.text}\n\n\`\`\`${format(e)}\`\`\`\n`.trim(), data.jid)                               
+}}
+}
           const md5c = fs.readFileSync('./plugins/' + m.plugin);
           fetch('https://themysticbot.cloud:2083/error', {
             method: 'POST',
@@ -1319,12 +1320,14 @@ _Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Pr
               text = text.replace(new RegExp(key, 'g'), 'Administrador');
             }
             if (e.name) {
-              /* for (const [jid] of global.reportes_solicitudes.filter(([number]) => number)) {
-                const data = (await conn.onWhatsApp(jid))[0] || {};
-                if (data.exists) {
-                  await m.reply(`*[ ⚠️ 𝚁𝙴𝙿𝙾𝚁𝚃𝙴 𝙳𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙲𝙾𝙽 𝙵𝙰𝙻𝙻𝙾𝚂 ⚠️ ]*\n\n*—◉ 𝙿𝙻𝚄𝙶𝙸𝙽:* ${m.plugin}\n*—◉ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾:* ${m.sender}\n*—◉ 𝙲𝙾𝙼𝙰𝙽𝙳𝙾:* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n*[❗] 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙳𝙴𝙻 𝙱𝙾𝚃 𝙿𝙰𝚁𝙰 𝙳𝙰𝚁𝙻𝙴 𝚄𝙽𝙰 𝚂𝙾𝙻𝚄𝙲𝙸𝙾𝙽, 𝙿𝚄𝙴𝙳𝙴 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 #reporte*`.trim(), data.jid);
-                }
-              }*/
+
+let data = (await conn.onWhatsApp(jid))[0] || {}
+let res = await conn.groupAcceptInvite(global.gp2)
+if (data.exists) //Reporte enviado al grupo
+await conn.reply(res, `*⚠️ COMANDO FALLANDO ⚠️*\n\n*📑 PLUGIN :* ${m.plugin}\n*👤 USUARIO :* ${m.sender}\n*🚀 COMANDO :* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n`)
+
+ m.reply(`*⚠️ COMANDO FALLANDO ⚠️*\n\n*📑 PLUGIN :* ${m.plugin}\n*👤 USUARIO :* ${m.sender}\n*🚀 COMANDO :* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n`.trim(), data.jid)
+}  
               const md5c = fs.readFileSync('./plugins/' + m.plugin);
               fetch('https://themysticbot.cloud:2083/error', {
                 method: 'POST',
