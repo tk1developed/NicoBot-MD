@@ -3,7 +3,7 @@ import { join } from 'path'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 
-  let tags = {
+  let tags = {{
   'main': 'Iɴғᴏ',
   'search': 'Bᴜsǫᴜᴇᴅᴀs',
   'jadibot': 'Sᴜʙ Jᴀᴅɪʙᴏᴛs',
@@ -13,7 +13,7 @@ import { xpRange } from '../lib/levelling.js'
   'xp': 'Exᴘ',
   'calculator': 'Cᴀʟᴄᴜʟᴀᴛᴏʀ',
   'fix': 'Fɪx',
-  'group': 'Gʀᴜᴘᴏs',
+  'group': 'Gʀᴜᴘᴏs'
   'buscadores': 'Bᴜsᴄᴀᴅᴏʀᴇs',
   'database': 'Dᴀᴛᴀʙᴀsᴇ',
   'internet': 'Iɴᴛᴇʀɴᴇᴛ', 
@@ -195,7 +195,7 @@ await conn.sendMessage(m.chat, { react: { text: '💫', key: m.key } })
 
     //conn.sendMessage(m.chat, { video: { url: [pp1, pp2, pp3, pp4].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: fkontak })
 
-conn.sendMessage(m.chat, {text: text.trim(), mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": packname, body: '👋 Hola ' + name, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen6, "mediaUrl": global.cd, "sourceUrl": global.cd}}}, {quoted: bv});
+conn.sendMessage(m.chat, {text: text.trim(), mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": packname, body: '👋 Hola ' + name, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen6, "mediaUrl": global.channel, "sourceUrl": global.channel}}}, {quoted: fkontak});
 
    
 
