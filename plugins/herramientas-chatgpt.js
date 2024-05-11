@@ -21,5 +21,8 @@ await m.reply(res.data)
 await conn.sendMessage(m.chat, { react: { text: '✅️', key: m.key } })
 } catch {
 }}}
-handler.command = /^(openai|chatgpt|ia|ai|openai2|chatgpt2|ia2)$/i;
+handler.help = ['openia', 'chatgpt', 'ia']
+handler.tags = ['ai']
+handler.command = /^(openai|chatgpt|ia)$/i
+
 export default handler;
