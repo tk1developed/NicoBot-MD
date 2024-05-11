@@ -13,7 +13,7 @@ if (!text) return conn.reply(m.chat, `🍃 *Ingrese una petición*\n\n- Ejemplo,
 
 try {
 
-await m.reply('🌺 *C A R G A N D O*\n- 🍃 Cargando Información')
+//await m.reply('🌺 *C A R G A N D O*\n- 🍃 Cargando Información')
 
 conn.sendPresenceUpdate('composing', m.chat)
 let sistema1 = `Actuaras como un Bot de WhatsApp el cual fue creado por Diego, tu seras Yotsuba-Nakano-MD`
