@@ -14,7 +14,7 @@ console.log(`🍃 Error`)
 console.log(e)
 }
 
-case isCommand1:
+//case isCommand1:
 user = m.sender.split('@')[0] 
 let link = (m.quoted ? m.quoted.text ? m.quoted.text : text : text) || text
 let [_1, code1] = link.match(linkRegex) || []
