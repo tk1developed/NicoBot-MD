@@ -4,7 +4,7 @@ const handler = async (m, {conn}) => {
   //const s = seconds: '1934.4'
   const vn = './media/a.mp3';
   conn.sendPresenceUpdate('recording', m.chat);
-  conn.sendMessage(m.chat, {audio: {url: vn}, ptt: true, mimetype: 'audio/mpeg', fileName: `a.mp3`}, {quoted: m});
+  conn.sendMessage(m.chat, {audio: {url: vn}, ptt: true, mimetype: 'audio/mpeg', fileName: `a.mp3`}, {quoted: fkontak});
 };
 handler.customPrefix = /ª|a|A/
 handler.command = /^(a|ª|A?$)/
