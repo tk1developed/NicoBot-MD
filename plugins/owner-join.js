@@ -8,29 +8,36 @@ let handler = async (m, { conn, command, usedPrefix, text, isAdmin, isOwner, isR
 let fkontak, who, user, number, bot, bant, ownerNumber, aa, users, usr, q, mime, img
 fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${conn.user.jid.split('@')[0]}:${conn.user.jid.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
+const isCommand1 = /^(join|nuevogrupo|newgrupo|unete)$/i.test(command)
+
 async function reportError(e) {
-await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
-console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
+await m.reply(`🍃 Error`)
+console.log(`🍃 Error`)
 console.log(e)
 }
 
-const isCommand4 = /^((set|cambiar|nueva|new)(bio|botbio|biobot))$/i.test(command)
-
-switch (true) {     
-case isCommand4:
-await conn.reply(m.sender, lenguajeGB.smsResP1(), fkontak)
-try {
-let d = new Date
-let date = d.toLocaleDateString('fr', { day: 'numeric', month: 'long', year: 'numeric' })
-let database = await fs.readFileSync(`./database.json`)
-let creds = await fs.readFileSync(`./GataBotSession/creds.json`)
-await conn.reply(m.sender, lenguajeGB.smsResP2(date), fkontak)
-await conn.sendMessage(m.sender, {document: database, mimetype: 'application/json', fileName: `database.json`}, { quoted: m })
-await conn.sendMessage(m.sender, {document: creds, mimetype: 'application/json', fileName: `creds.json`}, { quoted: m })
-} catch (e) {
+case isCommand1:
+user = m.sender.split('@')[0] 
+let link = (m.quoted ? m.quoted.text ? m.quoted.text : text : text) || text
+let [_1, code1] = link.match(linkRegex) || []
+if (!code1) return m.reply(lenguajeYL.smsJoin1(usedPrefix, command))
+try {      
+if ( isOwner || m.fromMe) {
+await m.reply(lenguajeYL.smsJoin2())
+let res1 = await conn.groupAcceptInvite(code1)
+await conn.sendMessage(res1, { text: lenguajeYL.smsJoin(user), mentions: (await conn.groupMetadata(`${res1}`)).participants.map(v => v.id) }, [user], { quoted: fkontak })
+}} catch (e) {
 reportError(e)
-}   
+}        
 break
 
-const isCommand11 = /^(join|nuevogrupo|newgrupo|unete)$/i.test(command)
+}}
+handler.command = /^(join|nuevogrupo|newgrupo|unete)$/i
+handler.owner = true
 
+export default handler
+
+const more = String.fromCharCode(8206)
+const readMore = more.repeat(4001)
+
+const delay = time => new Promise(res => setTimeout(res, time))
