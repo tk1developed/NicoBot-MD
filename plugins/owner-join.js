@@ -27,7 +27,7 @@ await conn.sendMessage(res1, { text: lenguajeYL.smsJoin(user), mentions: (await 
 }} catch (e) {
 reportError(e)
 }        
-break
+//break
 
 }}
 handler.command = /^(join|nuevogrupo|newgrupo|unete)$/i
