@@ -30,7 +30,7 @@ const fload = { key : { message: `Yotsuba Nakano ⌨️` + `\nDiego.Ofc`, thumbn
 
 await conn.sendMessage(m.chat, { react: { text: '🏷', key: m.key } })
 
-let menu = `☄️ !Hola¡ ${usuario}
+let menu = `☄️ !Hola¡ ${user}
 
 !allmenu
 *(Para ver el menú completo)*
