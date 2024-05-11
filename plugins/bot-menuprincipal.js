@@ -3,7 +3,7 @@ import { join } from 'path'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 
-  let tags = {{
+  let tags = {
   'main': 'Iɴғᴏ',
   'search': 'Bᴜsǫᴜᴇᴅᴀs',
   'jadibot': 'Sᴜʙ Jᴀᴅɪʙᴏᴛs',
@@ -13,7 +13,7 @@ import { xpRange } from '../lib/levelling.js'
   'xp': 'Exᴘ',
   'calculator': 'Cᴀʟᴄᴜʟᴀᴛᴏʀ',
   'fix': 'Fɪx',
-  'group': 'Gʀᴜᴘᴏs'
+  'group': 'Gʀᴜᴘᴏs',
   'buscadores': 'Bᴜsᴄᴀᴅᴏʀᴇs',
   'database': 'Dᴀᴛᴀʙᴀsᴇ',
   'internet': 'Iɴᴛᴇʀɴᴇᴛ', 
