@@ -1465,7 +1465,7 @@ mentionedJid:[user],
 "title": [wm, ' ' + wm + '😊', '🌟'].getRandom(),
 "containsAutoReply": true,
 "mediaType": 1, 
-sourceUrl: [md, channel, yt, fb].getRandom()}}}, { quoted: fkontak2 }) 
+sourceUrl: [md, channel, yt, fb].getRandom()}}}, { quoted: fkontak }) 
 if (media === 'audio')
 this.sendMessage(id, { audio: { url: vn }, contextInfo:{ mentionedJid:[user], "externalAdReply": { "thumbnail": apii.data, "title": `乂 ＷＥＬＣＯＭＥ 乂`, "body": [wm, ' ' + wm + '😊', '🌟'].getRandom(), "previewType": "PHOTO", "thumbnailUrl": null, "showAdAttribution": true,  sourceUrl: [md, channel, yt, fb].getRandom()}},  ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: fkontak })
           }
