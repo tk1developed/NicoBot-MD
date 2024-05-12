@@ -1,3 +1,5 @@
+//Codigo GataBotLite-MD, By: GataNina-Li, Adaptado Por: Diego-YL-177
+
 import fs from 'fs' 
 import { execSync } from 'child_process'
 import { spawn } from 'child_process'
