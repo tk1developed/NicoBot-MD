@@ -1445,32 +1445,20 @@ let about = (await this.fetchStatus(user).catch(console.error) || {}).status || 
             if (userPrefix && chat.antiArab && botTt.restrict && isBotAdminNn && action === 'add') {
               const responseb = await m.conn.groupParticipantsUpdate(id, [user], 'remove');
               if (responseb[0].status === '404') return;
+welc = await getBuffer(ppuser)
+leave = await getBuffer(ppuser)
               const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${user.split('@')[0]}:${user.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
               await m.conn.sendMessage(id, {text: `*[❗] @${user.split('@')[0]} 𝙚𝙣 𝙚𝙨𝙩𝙚 𝙜𝙧𝙪𝙥𝙤 𝙣𝙤 𝙥𝙚𝙧𝙢𝙞𝙩𝙞𝙢𝙤𝙨 𝙣𝙪𝙢𝙚𝙧𝙤𝙨 𝙖𝙧𝙖𝙗𝙚𝙨 𝙤 𝙧𝙖𝙧𝙤𝙨, 𝙥𝙤𝙧 𝙡𝙤 𝙦𝙪𝙚 𝙨𝙚 𝙡𝙚 𝙚𝙭𝙥𝙪𝙡𝙨𝙖𝙧𝙖 𝙙𝙚𝙡 𝙜𝙧𝙪𝙥𝙤*`, mentions: [user]}, {quoted: fkontak2});
               return;
             }
             let vn = 'https://qu.ax/cUYg.mp3'
 let wel = [`Hola Como estas?`, `Hola que Tal?`, `Hola - Hello`]
-let or = ['texto', 'audio'];
+let or = ['texto', 'texto2', 'audio'];
 let media = or[Math.floor(Math.random() * 3)]
 let welcome = wel[Math.floor(Math.random() * wel.length)]
-if (media === 'texto2')
-sock.sendMessage(anu.id, { text: welcome, mentions: [num]}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
-if (media === 'audio')
-sock.sendMessage(anu.id, { audio: { url: vn }, 
-contextInfo: { forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363160031023229@newsletter', 
-serverMessageId: '', 
-newsletterName: 'INFINITY-WA 💫' }, forwardingScore: 9999999, isForwarded: true, mentionedJid:[num], "externalAdReply": { 
-"title": `乂 ＷＥＬＣＯＭＥ 乂`, 
-"body": `${team}`, 
-"previewType": "PHOTO", 
-"thumbnailUrl": null,
-"thumbnail": welc, 
-"sourceUrl": `${pickRandom([md, yt])}`, 
-"showAdAttribution": true}}, 
-seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 if (media === 'texto')
+sock.sendMessage(anu.id, { text: welcome, mentions: [num]}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+if (media === 'texto2')
 sock.sendMessage(anu.id, { text: text, contextInfo:{
 forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363160031023229@newsletter', 
@@ -1487,6 +1475,22 @@ body: `${team}`,
 "thumbnailUrl": ``,
 "thumbnail": welc,
 "sourceUrl": `${pickRandom([gp2, md, yt])}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+
+if (media === 'audio')
+sock.sendMessage(anu.id, { audio: { url: vn }, 
+contextInfo: { forwardedNewsletterMessageInfo: { 
+newsletterJid: '120363160031023229@newsletter', 
+serverMessageId: '', 
+newsletterName: 'INFINITY-WA 💫' }, forwardingScore: 9999999, isForwarded: true, mentionedJid:[num], "externalAdReply": { 
+"title": `乂 ＷＥＬＣＯＭＥ 乂`, 
+"body": `${team}`, 
+"previewType": "PHOTO", 
+"thumbnailUrl": null,
+"thumbnail": welc, 
+"sourceUrl": `${pickRandom([md, yt])}`, 
+"showAdAttribution": true}}, 
+seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+
 
 let ore = ['texto', 'texto2'];
 let once = ore[Math.floor(Math.random() * 3)]
