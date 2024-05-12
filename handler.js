@@ -1535,16 +1535,16 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
 
 global.dfail = (type, m, conn) => {
   const msg = {
-    rowner: '*¡Este Comando Es Exclusivo Para Mi Desarrollador!*',
-    owner: '*¡El Uso Del Comando Solo Lo Puede Usar Mi Desarrollador!*',
-    mods: '*¡Esta Función Solo Lo Puede Utilizar Mi Propietario!*',
-    premium: '*¡Esta Función Solo Se Puede Usar Por Los Usuarios Premium*',
-    group: '*¡Esta Función Solo Se Puede Usar En Grupos!*',
-    private: '*¡Esta Función Solo Se Puede Utilizar Al Chat Privado Del Bot!*',
-    admin: '*¡Esta Función Solo Se Puede Utilizar Por Un Admin Del Grupo!*',
-    botAdmin: '*!Para Poder Utilizar Este Comando Es Necesario Que El Bot Sea Admin!*',
+    rowner: '🍃 *Hola @${m.sender.split`@`[0]}, Este Comando Es Exclusivo Para Mi Desarrollador*',
+    owner: '🍃 *Hola @${m.sender.split`@`[0]}, El Uso Del Comando Solo Lo Puede Usar Mi Desarrollador*',
+    mods: '🍃 *Hola @${m.sender.split`@`[0]}, Esta Función Solo Lo Puede Utilizar Mi Propietario*',
+    premium: '🍃 *Hola @${m.sender.split`@`[0]}, Esta Función Solo Se Puede Usar Por Los Usuarios Premium*',
+    group: '🍃 *Hola @${m.sender.split`@`[0]}, Esta Función Solo Se Puede Usar En Grupos*',
+    private: '🍃 *Hola @${m.sender.split`@`[0]}, Esta Función Solo Se Puede Utilizar Al Chat Privado De La Bot*',
+    admin: '🍃 *Hola @${m.sender.split`@`[0]}, Esta Función Solo Se Puede Utilizar Por Un Admin Del Grupo*',
+    botAdmin: '🍃 *Hola @${m.sender.split`@`[0]}, Para Poder Utilizar Este Comando Es Necesario Que La Bot Sea Admin*',
     unreg: '*¡Para Continuar Con Esta Función Es Necesario Registrarse!*\n\n!reg nombre.edad\n\n*Uso Correcto* : !reg Diego.18',
-    restrict: '*!Esta Función Fué Deshabilitado Por Mi Desarrollador*',
+    restrict: '🍃 *Hola @${m.sender.split`@`[0]}, !Esta Función Fué Deshabilitado Por Mi Desarrollador*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
   const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '𝗬𝗼𝘁𝘀𝘂𝗯𝗮 𝗡𝗮𝗸𝗮𝗻𝗼 ☁️', body: '👋 Hola ' + nombre, thumbnail: imagen6, sourceUrl: 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A'}}}}, aa);
