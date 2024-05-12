@@ -1468,7 +1468,7 @@ body: `${team}`,
 "thumbnailUrl": ``,
 "thumbnail": apii.data,
 "sourceUrl": yt}}}) 
-} else if (anu.action == 'remove') {
+} else if (action == 'remove') {
 this.sendMessage(id, { text: `Se fue una niña nadie los van extraña 😹`,
 contextInfo:{
 forwardingScore: 9999999,
