@@ -12,7 +12,7 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
   // let buttons = [{ buttonText: { displayText: '♫ 𝙰𝚄𝙳𝙸𝙾 ♫' }, buttonId: `${usedPrefix}tomp3` }]
   try {
     const aa = {quoted: m, userJid: conn.user.jid};
-    const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: texto, contextInfo: {externalAdReply: {title: 'ʏᴏᴛsᴜʙᴀ ɴᴀᴋᴀɴᴏ - ᴍᴅ', body: team, thumbnail: imagen6, sourceUrl: 'https://github.com/Diego-YL-177/Yotsuba-Nakano-MD'}, mentionedJid: [m.sender]}}}, aa);
+    const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: texto, contextInfo: {externalAdReply: {title: packname, body: team, thumbnail: imagen6, sourceUrl: yt}, mentionedJid: [m.sender]}}}, aa);
     await conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id, mentions: [m.sender]});
     const dataFn = await conn.getFile(`${CFROSAPI}/api/tiktokv2?url=${args[0]}`);
     const desc1n = `_🍁  ᩭ✎Tiktok sin marca de agua descargado con éxito_`;
@@ -20,7 +20,7 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
   } catch (ee1) {
   try {
     //const aa = {quoted: m, userJid: conn.user.jid};
-    //const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: texto, contextInfo: {externalAdReply: {title: 'ʏᴏᴛsᴜʙᴀ ɴᴀᴋᴀɴᴏ - ᴍᴅ', body: team, thumbnail: imagen6, sourceUrl: 'https://github.com/Diego-YL-177/Yotsuba-Nakano-MD'}, mentionedJid: [m.sender]}}}, aa);
+    //const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: texto, contextInfo: {externalAdReply: {title: packname, body: team, thumbnail: imagen6, sourceUrl: yt}, mentionedJid: [m.sender]}}}, aa);
     //await conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id, mentions: [m.sender]});
     const dataF = await tiktok.v1(args[0]);
     // let desc1 =  `*𝙽𝙸𝙲𝙺𝙽𝙰𝙼𝙴:* ${dataF.nickname || 'Indefinido'}`
