@@ -8,14 +8,14 @@ const CFROSAPI = global.APIs.CFROSAPI;
 const handler = async (m, {conn, text, args, usedPrefix, command}) => {
   if (!text) throw `_*< DESCARGAS - TIKTOK />*_\n\n*🍁 Iɴɢʀᴇsᴇ Uɴ Eɴʟᴀᴄᴇ Dᴇ Vɪᴅᴇᴏ Dᴇ TɪᴋTᴏᴋ.*\n\n*🌳 Eᴊᴇᴍᴘʟᴏ:* _${usedPrefix + command} https://vm.tiktok.com/ZM6UHJYtE/_`;
   if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `*< DESCARGAS - TIKTOK />*\n\n*🍁 Iɴɢʀᴇsᴇ Uɴ Eɴʟᴀᴄᴇ Dᴇ Vɪᴅᴇᴏ Dᴇ Tɪᴋᴛᴏᴋ.*\n\n*🌳 𝐸𝑗𝑒𝑚𝑝𝑙𝑜:* _${usedPrefix + command} https://vm.tiktok.com/ZM6UHJYtE /_`;
-  const texto = `*< DESCARGAS - TIKTOK />*\n\n*🚀 Se Está Enviando Su Video, Espere Un Momento...*`;
+  const texto = `_🍁 @${m.sender.split`@`[0]}  ᩭ✎Enviando Video, espere un momento...._``;
   // let buttons = [{ buttonText: { displayText: '♫ 𝙰𝚄𝙳𝙸𝙾 ♫' }, buttonId: `${usedPrefix}tomp3` }]
   try {
     const aa = {quoted: m, userJid: conn.user.jid};
     const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: texto, contextInfo: {externalAdReply: {title: 'ʏᴏᴛsᴜʙᴀ ɴᴀᴋᴀɴᴏ - ᴍᴅ', body: team, thumbnail: imagen6, sourceUrl: 'https://github.com/Diego-YL-177/Yotsuba-Nakano-MD'}, mentionedJid: [m.sender]}}}, aa);
     await conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id, mentions: [m.sender]});
     const dataFn = await conn.getFile(`${CFROSAPI}/api/tiktokv2?url=${args[0]}`);
-    const desc1n = `*< DESCARGAS - TIKTOK />*\n\n*🌳 Responda A Este Video Con El Comando ${usedPrefix}tomp3 Para Convertirlo En Audio.*`;
+    const desc1n = `_🍁  ᩭ✎Tiktok sin marca de agua descargado con éxito_`;
     await conn.sendMessage(m.chat, {video: dataFn.data, caption: desc1n}, {quoted: m});
   } catch (ee1) {
   try {
@@ -24,26 +24,26 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
     //await conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id, mentions: [m.sender]});
     const dataF = await tiktok.v1(args[0]);
     // let desc1 =  `*𝙽𝙸𝙲𝙺𝙽𝙰𝙼𝙴:* ${dataF.nickname || 'Indefinido'}`
-    const desc1 = `*< DESCARGAS - TIKTOK />*\n\n*🌳 Respondo A Este Video Con El Comamdo ${usedPrefix}tomp3 para convertirlo en audio.*`;
+    const desc1 = `_🍁  ᩭ✎Tiktok sin marca de agua descargado con éxito_`;
     await conn.sendMessage(m.chat, {video: {url: dataF.play}, caption: desc1}, {quoted: m});
   } catch (e1) {
     try {
       const tTiktok = await tiktokdlF(args[0]);
       // let desc2 = `🔗 *Url:* ${tTiktok.video}`
-      const desc2 = `*< DESCARGAS - TIKTOK />*\n\n*🌳 Responda A Este Video Con El Comando ${usedPrefix}tomp3 Para Convertirlo En Audio.*`;
+      const desc2 = `_🍁  ᩭ✎Tiktok sin marca de agua descargado con éxito_`;
       await conn.sendMessage(m.chat, {video: {url: tTiktok.video}, caption: desc2}, {quoted: m});
     } catch (e2) {
       try {
         const p = await fg.tiktok(args[0]);
         // let te = `*𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴:* ${p.author || 'Indefinido'}`
-        const te = `*< DESCARGAS - TIKTOK />*\n\n*🌳 Responda A Este Video Con El Comando ${usedPrefix}tomp3 Para Convertirlo En Audio.*`;
+        const te = `_🍁  ᩭ✎Tiktok sin marca de agua descargado con éxito_`;
         await conn.sendMessage(m.chat, {video: {url: p.nowm}, caption: te}, {quoted: m});
       } catch (e3) {
         try {
           const {author: {nickname}, video, description} = await tiktokdl(args[0]);
           const url = video.no_watermark2 || video.no_watermark || 'https://tikcdn.net' + video.no_watermark_raw || video.no_watermark_hd;
           // let cap = `*𝙽𝙸𝙲𝙺𝙽𝙰𝙼𝙴:* ${nickname || 'Indefinido'}`
-          const cap = `*< DESCARGAS - TIKTOK />*\n\n*🌳 Responda A Este Video Con El Comando ${usedPrefix}tomp3 Para Convertirlo En Audio.*`;
+          const cap = `_🍁  ᩭ✎Tiktok sin marca de agua descargado con éxito_`;
           await conn.sendMessage(m.chat, {video: {url: url}, caption: cap}, {quoted: m});
         } catch {
           throw `_*< DESCARGAS - TIKTOK />*_\n\n*🛑 Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*`;
