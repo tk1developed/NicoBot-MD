@@ -1487,8 +1487,8 @@ body: `${team}`,
 "sourceUrl": `${pickRandom([gp2, md, yt])}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 
 let ore = ['texto', 'texto2'];
-let media = ore[Math.floor(Math.random() * 3)]
-if (media === 'texto')
+let once = ore[Math.floor(Math.random() * 3)]
+if (once === 'texto')
 sock.sendMessage(anu.id, { text: `\`\`\`[!] C fue alv : @${name.split("@")[0]} 😹\`\`\``,
 contextInfo:{
 forwardedNewsletterMessageInfo: { 
@@ -1507,7 +1507,7 @@ body: `No Regreses Mas ._.`,
 "thumbnail": leave,
 "sourceUrl": `${pickRandom([gp2, md, yt])}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 
-if (media === 'texto2')
+if (once === 'texto2')
 sock.sendMessage(anu.id, { text: `\`\`\`[!] C fue alv : @${name.split("@")[0]} 😎\`\`\``,
 contextInfo:{
 forwardedNewsletterMessageInfo: { 
