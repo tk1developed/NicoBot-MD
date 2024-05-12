@@ -1451,11 +1451,9 @@ let about = (await this.fetchStatus(user).catch(console.error) || {}).status || 
             }
             let vn = 'https://qu.ax/cUYg.mp3'
 let wel = [`Bienvenido`]
-let or = ['texto', 'audio', 'texto2'];
+let or = ['texto', 'audio'];
 let media = or[Math.floor(Math.random() * 3)]
 let welcome = wel[Math.floor(Math.random() * wel.length)]
-if (media === 'texto')
-sock.sendMessage(anu.id, { text: welcome, mentions: [num]}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 if (media === 'audio')
 sock.sendMessage(anu.id, { audio: { url: vn }, 
 contextInfo: { forwardedNewsletterMessageInfo: { 
@@ -1470,7 +1468,7 @@ newsletterName: 'INFINITY-WA 💫' }, forwardingScore: 9999999, isForwarded: tru
 "sourceUrl": `${pickRandom([md, yt])}`, 
 "showAdAttribution": true}}, 
 seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
-if (media === 'texto2')
+if (media === 'texto')
 sock.sendMessage(anu.id, { text: text, contextInfo:{
 forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363160031023229@newsletter', 
@@ -1489,12 +1487,10 @@ body: `${team}`,
 "sourceUrl": `${pickRandom([gp2, md, yt])}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 
 let byegc = 'https://qu.ax/WUEu.webp'
-let or = ['texto', 'texto2', 'stickers'];
+let or = ['texto'];
 let media = or[Math.floor(Math.random() * 3)]
 let bye = by[Math.floor(Math.random() * by.length)]
 if (media === 'texto')
-sock.sendMessage(anu.id, { text: bye, mentions: [num]}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
-if (media === 'texto2')
 sock.sendMessage(anu.id, { text: `\`\`\`[!] C fue alv : @${name.split("@")[0]} 😹\`\`\``,
 contextInfo:{
 forwardedNewsletterMessageInfo: { 
@@ -1512,8 +1508,6 @@ body: `No Regreses Mas ._.`,
 "thumbnailUrl": ``,
 "thumbnail": leave,
 "sourceUrl": `${pickRandom([gp2, md, yt])}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
-if (media === 'stickers')
-sock.sendFile(anu.id, byegc, 'sticker.webp', '', null, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: '乂 ＡＤＩＯ́Ｓ 乂', body: `${team}`, mediaType: 2, sourceUrl: `${pickRandom([md, yt])}`, thumbnail: leave}}})
           }
         }
       }
