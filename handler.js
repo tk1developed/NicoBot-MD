@@ -1445,22 +1445,18 @@ let about = (await this.fetchStatus(user).catch(console.error) || {}).status || 
             if (userPrefix && chat.antiArab && botTt.restrict && isBotAdminNn && action === 'add') {
               const responseb = await m.conn.groupParticipantsUpdate(id, [user], 'remove');
               if (responseb[0].status === '404') return;
-welc = await getBuffer(ppuser)
-leave = await getBuffer(ppuser)
               const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${user.split('@')[0]}:${user.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
               await m.conn.sendMessage(id, {text: `*[❗] @${user.split('@')[0]} 𝙚𝙣 𝙚𝙨𝙩𝙚 𝙜𝙧𝙪𝙥𝙤 𝙣𝙤 𝙥𝙚𝙧𝙢𝙞𝙩𝙞𝙢𝙤𝙨 𝙣𝙪𝙢𝙚𝙧𝙤𝙨 𝙖𝙧𝙖𝙗𝙚𝙨 𝙤 𝙧𝙖𝙧𝙤𝙨, 𝙥𝙤𝙧 𝙡𝙤 𝙦𝙪𝙚 𝙨𝙚 𝙡𝙚 𝙚𝙭𝙥𝙪𝙡𝙨𝙖𝙧𝙖 𝙙𝙚𝙡 𝙜𝙧𝙪𝙥𝙤*`, mentions: [user]}, {quoted: fkontak2});
               return;
             }
-sock.sendMessage(anu.id, { text: `⪨────[ ＷＥＬＣＯＭＥ ]────⪩
+this.sendMessage(id, { text: `⪨────[ ＷＥＬＣＯＭＥ ]────⪩
 
 💫 *Hola* Amigo ¿COMO ESTAS? 😃
 💫 *Bienvenido a :* este grupo
 💫 *Participarte : no c
 💫 *Fecha :* hoy
 
-📢 *Lee la descripción* 📢
-
-${metadata.desc}`, contextInfo:{
+📢 *Lee la descripción* 📢`, contextInfo:{
 forwardingScore: 9999999,
 isForwarded: true, 
 mentionedJid:[num],
@@ -1470,11 +1466,10 @@ mentionedJid:[num],
 body: `${team}`,
 "previewType": "PHOTO",
 "thumbnailUrl": ``,
-"thumbnail": welc,
-"sourceUrl": md}}}) 
+"thumbnail": apii.data,
+"sourceUrl": yt}}}) 
 
-
-sock.sendMessage(anu.id, { text: `Se fue una niña nadie los van extraña 😹`,
+this.sendMessage(id, { text: `Se fue una niña nadie los van extraña 😹`,
 contextInfo:{
 forwardingScore: 9999999,
 isForwarded: true, 
@@ -1485,8 +1480,8 @@ mentionedJid:[num],
 body: `Esperemos que no vuelva -_-`,
 "previewType": "PHOTO",
 "thumbnailUrl": ``,
-"thumbnail": leave,
-"sourceUrl": md}}}) 
+"thumbnail": apii.data,
+"sourceUrl": yt}}}) 
           }
         }
       }
