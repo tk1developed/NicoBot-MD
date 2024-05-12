@@ -1450,10 +1450,12 @@ let about = (await this.fetchStatus(user).catch(console.error) || {}).status || 
               return;
             }
             let vn = 'https://qu.ax/cUYg.mp3'
-let wel = [`Bienvenido`]
+let wel = [`Hola Como estas?`, `Hola que Tal?`, `Hola - Hello`]
 let or = ['texto', 'audio'];
 let media = or[Math.floor(Math.random() * 3)]
 let welcome = wel[Math.floor(Math.random() * wel.length)]
+if (media === 'texto2')
+sock.sendMessage(anu.id, { text: welcome, mentions: [num]}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 if (media === 'audio')
 sock.sendMessage(anu.id, { audio: { url: vn }, 
 contextInfo: { forwardedNewsletterMessageInfo: { 
@@ -1489,7 +1491,7 @@ body: `${team}`,
 let ore = ['texto', 'texto2'];
 let once = ore[Math.floor(Math.random() * 3)]
 if (once === 'texto')
-sock.sendMessage(anu.id, { text: `\`\`\`[!] C fue alv : @${name.split("@")[0]} 😹\`\`\``,
+sock.sendMessage(anu.id, { text: `\`\`\`[!] C fue alv : @${name.split("@")[0]} 🍂\`\`\``,
 contextInfo:{
 forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363160031023229@newsletter', 
