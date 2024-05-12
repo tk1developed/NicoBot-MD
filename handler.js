@@ -1451,20 +1451,16 @@ leave = await getBuffer(ppuser)
               await m.conn.sendMessage(id, {text: `*[❗] @${user.split('@')[0]} 𝙚𝙣 𝙚𝙨𝙩𝙚 𝙜𝙧𝙪𝙥𝙤 𝙣𝙤 𝙥𝙚𝙧𝙢𝙞𝙩𝙞𝙢𝙤𝙨 𝙣𝙪𝙢𝙚𝙧𝙤𝙨 𝙖𝙧𝙖𝙗𝙚𝙨 𝙤 𝙧𝙖𝙧𝙤𝙨, 𝙥𝙤𝙧 𝙡𝙤 𝙦𝙪𝙚 𝙨𝙚 𝙡𝙚 𝙚𝙭𝙥𝙪𝙡𝙨𝙖𝙧𝙖 𝙙𝙚𝙡 𝙜𝙧𝙪𝙥𝙤*`, mentions: [user]}, {quoted: fkontak2});
               return;
             }
-let vn = 'https://qu.ax/cUYg.mp3'
-let wel = [`Hola Como estas?`, `Hola que Tal?`, `Hola - Hello`]
-let or = ['texto', 'texto2', 'audio'];
-let media = or[Math.floor(Math.random() * 3)]
-let welcome = wel[Math.floor(Math.random() * wel.length)]
-if (media === 'texto')
-this.sendMessage(id, { text: welcome, mentions: [num]}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+sock.sendMessage(anu.id, { text: `⪨────[ ＷＥＬＣＯＭＥ ]────⪩
 
-if (media === 'texto2')
-this.sendMessage(id, { text: welcome, contextInfo:{
-forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363160031023229@newsletter', 
-serverMessageId: '', 
-newsletterName: 'INFINITY-WA 💫' }, 
+💫 *Hola* Amigo ¿COMO ESTAS? 😃
+💫 *Bienvenido a :* este grupo
+💫 *Participarte : no c
+💫 *Fecha :* hoy
+
+📢 *Lee la descripción* 📢
+
+${metadata.desc}`, contextInfo:{
 forwardingScore: 9999999,
 isForwarded: true, 
 mentionedJid:[num],
@@ -1475,63 +1471,22 @@ body: `${team}`,
 "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": welc,
-"sourceUrl": `${pickRandom([gp2, md, yt])}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
-
-if (media === 'audio')
-this.sendMessage(id, { audio: { url: vn }, 
-contextInfo: { forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363160031023229@newsletter', 
-serverMessageId: '', 
-newsletterName: 'INFINITY-WA 💫' }, forwardingScore: 9999999, isForwarded: true, mentionedJid:[num], "externalAdReply": { 
-"title": `乂 ＷＥＬＣＯＭＥ 乂`, 
-"body": `${team}`, 
-"previewType": "PHOTO", 
-"thumbnailUrl": null,
-"thumbnail": welc, 
-"sourceUrl": `${pickRandom([md, yt])}`, 
-"showAdAttribution": true}}, 
-seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+"sourceUrl": md}}}) 
 
 
-let ore = ['texto', 'texto2'];
-let once = ore[Math.floor(Math.random() * 3)]
-if (once === 'texto')
-this.sendMessage(id, { text: `\`\`\`[!] C fue alv : @${name.split("@")[0]} 🍂\`\`\``,
+sock.sendMessage(anu.id, { text: `Se fue una niña nadie los van extraña 😹`,
 contextInfo:{
-forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363160031023229@newsletter', 
-serverMessageId: '', 
-newsletterName: 'INFINITY-WA 💫' }, 
 forwardingScore: 9999999,
-isForwarded: true,  
+isForwarded: true, 
 mentionedJid:[num],
 "externalAdReply": {"showAdAttribution": true,
 "containsAutoReply": true,
 "title": '乂 ＡＤＩＯ́Ｓ 乂', 
-body: `No Regreses Mas ._.`,
+body: `Esperemos que no vuelva -_-`,
 "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": leave,
-"sourceUrl": `${pickRandom([gp2, md, yt])}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
-
-if (once === 'texto2')
-this.sendMessage(id, { text: `\`\`\`[!] C fue alv : @${name.split("@")[0]} 😎\`\`\``,
-contextInfo:{
-forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363160031023229@newsletter', 
-serverMessageId: '', 
-newsletterName: 'INFINITY-WA 💫' }, 
-forwardingScore: 9999999,
-isForwarded: true,  
-mentionedJid:[num],
-"externalAdReply": {"showAdAttribution": true,
-"containsAutoReply": true,
-"title": '乂 ＡＤＩＯ́Ｓ 乂', 
-body: `No Regreses Mas ._.`,
-"previewType": "PHOTO",
-"thumbnailUrl": ``,
-"thumbnail": leave,
-"sourceUrl": `${pickRandom([gp2, md, yt])}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+"sourceUrl": md}}}) 
           }
         }
       }
