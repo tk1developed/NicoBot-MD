@@ -1486,12 +1486,29 @@ body: `${team}`,
 "thumbnail": welc,
 "sourceUrl": `${pickRandom([gp2, md, yt])}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 
-let byegc = 'https://qu.ax/WUEu.webp'
-let or = ['texto'];
-let media = or[Math.floor(Math.random() * 3)]
-let bye = by[Math.floor(Math.random() * by.length)]
+let ore = ['texto', 'texto2'];
+let media = ore[Math.floor(Math.random() * 3)]
 if (media === 'texto')
 sock.sendMessage(anu.id, { text: `\`\`\`[!] C fue alv : @${name.split("@")[0]} 😹\`\`\``,
+contextInfo:{
+forwardedNewsletterMessageInfo: { 
+newsletterJid: '120363160031023229@newsletter', 
+serverMessageId: '', 
+newsletterName: 'INFINITY-WA 💫' }, 
+forwardingScore: 9999999,
+isForwarded: true,  
+mentionedJid:[num],
+"externalAdReply": {"showAdAttribution": true,
+"containsAutoReply": true,
+"title": '乂 ＡＤＩＯ́Ｓ 乂', 
+body: `No Regreses Mas ._.`,
+"previewType": "PHOTO",
+"thumbnailUrl": ``,
+"thumbnail": leave,
+"sourceUrl": `${pickRandom([gp2, md, yt])}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+
+if (media === 'texto2')
+sock.sendMessage(anu.id, { text: `\`\`\`[!] C fue alv : @${name.split("@")[0]} 😎\`\`\``,
 contextInfo:{
 forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363160031023229@newsletter', 
