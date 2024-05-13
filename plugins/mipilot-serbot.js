@@ -116,8 +116,8 @@ parentw.sendMessage(m.chat, {text : rtx2 + drmer.toString('utf-8')}, { quoted: f
 await sleep(5000)
 let secret = await conn.requestPairingCode((m.sender.split`@`[0]))
 await m.reply(secret)}
-const code = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode
-console.log(code)
+//const code = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode;
+//console.log(code)
 const endSesion = async (loaded) => {
 if (!loaded) {
 try {
@@ -131,16 +131,15 @@ delete global.conns[i]
 global.conns.splice(i, 1)
 }}
 
-const reason = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode
+const code = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode;
 if (connection === 'close') {
-console.log(reason)
+console.log(code)
 if (reason == 405) {
 await fs.unlinkSync('./jadibts/' + id + '/creds.json')
 
 return await conn.reply(m.chat, '⛔ 𝙲𝚎𝚛𝚛𝚊𝚗𝚍𝚘 :𝚌', fkontak)
 }
-if (code !=== DisconnectReason.restartRequired) {
-jddt()
+if (code && code !== DisconnectReason.loggedOut && conn?.ws.socket == null) {
 return console.log('🌺 Conexión reemplazada, se ha abierto otra nueva sesion, por favor, cierra la sesión actual primero')
 } else if (code !=== DisconnectReason.loggedOut) {
 sleep(4000)
