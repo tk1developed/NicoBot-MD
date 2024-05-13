@@ -37,7 +37,7 @@ global.db.data.users[m.sender].joincount += 5
 • 245 Exp 💸
 • 5 Monedas 🪙
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝑼𝒔𝒖𝒂𝒓𝒊𝒐𝒔 𝑬𝒏 𝑴𝒊 𝑩𝒂𝒔𝒆: ${rtotalreg}`, fkontak, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: `Aɢʀᴇɢᴀᴅᴏ Eɴ Mɪ Bᴀsᴇ ᴅᴇ Dᴀᴛᴏs`, body: nombreu, previewType: 0, thumbnail: imagen6, sourceUrl: [channel, gp2, md, yt, fb].getRandom()}}})
+𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙰𝙲𝚃𝙸𝚅𝙾𝚂 𝙴𝙽 𝙼𝙸 𝙱𝙰𝚂𝙴: ${rtotalreg}`, fkontak, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: `Aɢʀᴇɢᴀᴅᴏ Eɴ Mɪ Bᴀsᴇ Dᴇ Dᴀᴛᴏs`, body: nombreu, previewType: 0, thumbnail: imagen6, sourceUrl: [channel, gp2, md, yt, fb].getRandom()}}})
 await m.reply(`${sn}`)}
 handler.help = ['daftar', 'register'].map(v => v + ' <nama>.<umur>')
 handler.tags = ['xp']
