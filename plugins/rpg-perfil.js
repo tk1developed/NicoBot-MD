@@ -1,25 +1,43 @@
-import moment from 'moment-timezone'
-import PhoneNum from 'awesome-phonenumber'
+import PhoneNumber from 'awesome-phonenumber'
+import fetch from 'node-fetch'
 
-let regionNames = new Intl.DisplayNames(['en'], { type: 'region' })
+var handler = async (m, { conn }) => {
 
-let handler = async (m, { conn, text, usedPrefix, command: cmd }) => {
-        let num = m.quoted?.sender || m.mentionedJid?.[0] || text
-        if (!num) throw `*Ejemplo*: ${usedPrefix + cmd} @573218138672`
-        num = num.replace(/\D/g, '') + '@s.whatsapp.net'
-        if (!(await conn.onWhatsApp(num))[0]?.exists) throw 'Este usuario no existe, asegurese de escribir bien el numero.'
-        let img = await conn.profilePictureUrl(num, 'image').catch(_ => './src/avatar_contact.png')
-        let bio = await conn.fetchStatus(num).catch(_ => { })
-        let name = await conn.getName(num)
-        let business = await conn.getBusinessProfile(num)
-        let format = PhoneNum(`+${num.split('@')[0]}`)
-        let country = regionNames.of(format.getRegionCode('international'))
-        let wea = `> 乂 P E R F I L - U S E R 乂\n\n*Pais:* ${country.toUpperCase()}\n*Cliente:* ${name ? name : '-'}\n*Formato:* ${format.getNumber('international')}\n*Url:* wa.me/${num.split('@')[0]}\n*Tag :* @${num.split('@')[0]}\n*Bio:* ${bio?.status || '-'}\n*Bio Uptade:* ${bio?.setAt ? moment(bio.setAt.toDateString()).locale('id').format('LL') : '-'}\n\n${business ? `*Business Info 🍃*\n*BusinessId:* ${business.wid}\n*Website:* ${business.website ? business.website : '-'}\n*Email:* ${business.email ? business.email : '-'}\n*Categoria:* ${business.category}\n*Direccion:* ${business.address ? business.address : '-'}\n\*Zona Horaria:* ${business.business_hours.timezone ? business.business_hours.timezone : '-'}\n*Descripcion*: ${business.description ? business.description : '-'}` : '> •*Cuenta De WhatsApp*'}`
-        img ? await conn.sendMessage(m.chat, { image: { url: img }, caption: wea, mentions: [num] }, { quoted: fkontak }) : m.reply(wea)
+let user = db.data.users[m.sender]
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './src/avatar_contact.png')
+let { premium, level, diamond, exp, lastclaim, registered, regTime, age } = global.db.data.users[m.sender]
+let username = conn.getName(who)
+let name = conn.getName(who)
+let fkon = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
+
+let str = `🏷 𝗣 𝗘 𝗥 𝗙 𝗜 𝗟 » 𝗨 𝗦 𝗘 𝗥  🏷\n
+🌳 • *Nombre:* ${username}
+☄️ • *Tag:* @${who.replace(/@.+/, '')}
+📞 • *Numero:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
+🔗 • *Link:* https://wa.me/${who.split`@`[0]}
+🍂 • *Edad:* ${registered ? age : ''}
+💎 • *Limite: ${diamond} Usos* 
+🌀 • *Registrado:* ${registered ? '✅': '❌'}
+🏷 • *Premium:* ${premium ? '✅': '❌'}
+`.trim()
+
+conn.sendFile(m.chat, pp, 'perfil.jpg', str, fkon, false, { mentions: [who] })
+
 }
-
 handler.help = ['profile']
 handler.tags = ['rg']
 handler.command = /^perfil|pp$/i
 
 export default handler
+
+const more = String.fromCharCode(8206)
+const readMore = more.repeat(4001)
+
+function clockString(ms) {
+let d = isNaN(ms) ? '--' : Math.floor(ms / 86400000)
+let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
+let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
+let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+return [d, ' *Dias ☀️*\n ', h, ' *Horas 🕐*\n ', m, ' *Minutos ⏰*\n ', s, ' *Segundos ⏱️* '].map(v => v.toString().padStart(2, 0)).join('')
+}
