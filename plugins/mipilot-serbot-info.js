@@ -32,7 +32,7 @@ async function handler(m, { conn: _envio, usedPrefix }) {
   const replyMessage = message.length === 0 ? '*🍃 No Hay Subbots Disponible Por El Momento.*\n- 🌺Verifique Mas Tarde.' : message;
   const totalUsers = users.length;
   const responseMessage = `${replyMessage.trim()}`.trim();
-await m.reply(`*🏷 Aqui Tiene La Lista De Los Subbots Activós En Estos Momentos.*\n\nJadibots Conectados: ${totalUsers || '0'}`)
+await m.reply(`*🏷 Aqui Tiene La Lista De Los Subbots Activós En Estos Momentos.*\n\nJadibots Conectados: ${totalUsers || '0'}` fkontak)
 await _envio.sendMessage(m.chat, {text: responseMessage, mentions: _envio.parseMention(responseMessage)}, {quoted: fkontak});
 }
 handler.command = handler.help = ['listjadibot', 'bots', 'subsbots'];
