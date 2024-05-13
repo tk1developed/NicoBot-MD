@@ -33,7 +33,7 @@ let handler = async (m, { conn: _conn, args, usedPrefix, command, isOwner }) => 
   async function bbts() {
 
   let authFolderB = crypto.randomBytes(10).toString('hex').slice(0, 8)
-  let authFolderB = m.sender.split('@')[0]
+  //let authFolderB = m.sender.split('@')[0]
 
 
     if (!fs.existsSync("./jadibts/"+ authFolderB)){
@@ -95,27 +95,27 @@ if (methodCode && !conn.authState.creds.registered) {
     setTimeout(async () => {
         let codeBot = await conn.requestPairingCode(cleanedNumber);
         codeBot = codeBot?.match(/.{1,4}/g)?.join("-") || codeBot;
-        parent.sendMessage(m.chat, { text: `🚩 Code: *${codeBot}*\n\n${mssg.botqr}` }, { quoted: m })
-        parent.sendFile(m.chat, 'https://i.ibb.co/SKKdvRb/code.jpg', 'qrcode.png', `*${codeBot}*`, m)
+        //parent.sendMessage(m.chat, { text: `🚩 Code: *${codeBot}*\n\n${mssg.botqr}` }, { quoted: m })
+        parent.sendFile(m.chat, 'https://telegra.ph/file/0849c6ca9a0a2b0efbf30.jpg', 'qrcode.png', `*${codeBot}*`, m)
         rl.close();
     }, 3000);
 }
 
 conn.isInit = false
 
---code
+//---new
 let isInit = true
 
 async function connectionUpdate(update) {
     const { connection, lastDisconnect, isNewLogin, qr } = update
     if (isNewLogin) conn.isInit = true
-     scan qr
-    if (qr) {
+    // scan qr
+   /* if (qr) {
       let scan = await parent.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), 'qrcode.png', `${mssg.botqr}`, m)
   setTimeout(() => {
     parent.sendMessage(m.chat, { delete: scan.key })
   }, 50000) //50 segundos
-}
+}*/
 
     const code = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode;
         if (code && code !== DisconnectReason.loggedOut && conn?.ws.socket == null) {
