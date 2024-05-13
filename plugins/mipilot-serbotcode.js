@@ -127,7 +127,7 @@ async function connectionUpdate(update) {
      if (code !== DisconnectReason.connectionClosed){ 
         parent.sendMessage(conn.user.jid, {text : `🚩 Conexión pérdida re conectando`}, { quoted: fkontak }) //reconectar
     } else {
-        parent.sendMessage(m.chat, {text : `🚩 Conexión cerrada`}, { quoted: fkontak }) // session cerrada
+        parent.sendMessage(m.chat, {text : `⛔ 𝙲𝚎𝚛𝚛𝚊𝚗𝚍𝚘 :𝚌`}, { quoted: fkontak }) // session cerrada
     }
     }
     //----
@@ -136,10 +136,10 @@ async function connectionUpdate(update) {
     if (connection == 'open') {
     conn.isInit = true
     global.conns.push(conn)
-    await parent.sendMessage(m.chat, {text : args[0] ? `🟢 conectado` : `🟢 Conectando Con Exito`}, { quoted: fkontak })
+    await parent.sendMessage(m.chat, {text : args[0] ? `🍃 𝚅𝚊𝚕𝚎 𝚏𝚞𝚎 𝚝𝚘𝚍𝚘 𝚞𝚗 𝚎𝚡𝚒𝚝𝚘 𝚊𝚑𝚘𝚛𝚊 𝚎𝚛𝚎𝚜 𝚞𝚗 𝚂𝚞𝚋-𝙱𝚘𝚝 :𝟹` : `🌺 𝚅𝚊𝚕𝚎 𝚏𝚞𝚎 𝚝𝚘𝚍𝚘 𝚞𝚗 𝚎𝚡𝚒𝚝𝚘 𝚊𝚑𝚘𝚛𝚊 𝚎𝚛𝚎𝚜 𝚞𝚗 𝚂𝚞𝚋-𝙱𝚘𝚝 :𝟹`}, { quoted: fkontak })
     await sleep(5000)
     if (args[0]) return
-                await parent.sendMessage(conn.user.jid, {text : `Los mensajes se esta cargado esperé un momento... `}, { quoted: fkontak })
+                await parent.sendMessage(conn.user.jid, {text : `💙 𝚁𝚎𝚌𝚞𝚎𝚛𝚍𝚎𝚗 𝚚𝚞𝚎 𝚎𝚜𝚝𝚘 𝚎𝚜 𝚝𝚎𝚖𝚙𝚘𝚛𝚊𝚕. 𝚂𝚒 𝚎𝚕 𝚋𝚘𝚝 𝚙𝚛𝚒𝚗𝚌𝚒𝚙𝚊𝚕 𝚜𝚎 𝚛𝚎𝚒𝚗𝚒𝚌𝚒𝚊 𝚘 𝚜𝚎 𝚊𝚙𝚊𝚐𝚊, 𝚝𝚘𝚍𝚘𝚜 𝚜𝚎𝚐𝚞𝚒𝚛á𝚗 𝚜𝚞 𝚎𝚓𝚎𝚖𝚙𝚕𝚘. 𝚂𝚒 𝚎𝚜𝚝𝚘 𝚜𝚞𝚌𝚎𝚍𝚎, 𝚙𝚊𝚛𝚊 𝚟𝚘𝚕𝚟𝚎𝚛 𝚊 𝚒𝚗𝚒𝚌𝚒𝚊𝚛 𝚜𝚎𝚜𝚒ó𝚗 𝚜𝚒𝚗 𝚗𝚎𝚌𝚎𝚜𝚒𝚍𝚊𝚍 𝚍𝚎 𝚞𝚝𝚒𝚕𝚒𝚣𝚊𝚛 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎 𝚎𝚕 𝚌ó𝚍𝚒𝚐𝚘, 𝚜𝚒𝚖𝚙𝚕𝚎𝚖𝚎𝚗𝚝𝚎 𝚎𝚗𝚟í𝚊 𝚎𝚕 𝚖𝚎𝚗𝚜𝚊𝚓𝚎 𝚚𝚞𝚎 𝚕𝚎 𝚟𝚊𝚖𝚘𝚜 𝚖𝚊𝚗𝚍𝚊𝚛 𝚊 𝚌𝚘𝚗𝚝𝚒𝚗𝚞𝚊𝚌𝚒𝚘𝚗 𝚜𝚒 𝚍𝚎𝚜𝚎𝚊𝚜 𝚌𝚘𝚗𝚟𝚎𝚛𝚝𝚒𝚛𝚝𝚎 𝚎𝚗 𝚎𝚕 𝚋𝚘𝚝 𝚙𝚛𝚒𝚗𝚌𝚒𝚙𝚊𝚕, 𝚢 𝚝𝚞 𝚝𝚎𝚗𝚎𝚛 𝚌𝚘𝚗𝚝𝚛𝚘𝚕 𝚝𝚎 𝚍𝚎𝚓𝚊𝚖𝚘𝚜 𝚎𝚕 𝚛𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚒𝚘 https://github.com/Diego-YL-177/Yotsuba-Nakano-MD`}, { quoted: fkontak })
                 parent.sendMessage(conn.user.jid, {text : usedPrefix + command + " " + Buffer.from(fs.readFileSync("./jadibts/" + authFolderB + "/creds.json"), "utf-8").toString("base64")}, { quoted: m })
           }
 
