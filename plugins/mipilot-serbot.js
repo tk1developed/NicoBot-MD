@@ -142,7 +142,7 @@ return await conn.reply(m.chat, '⛔ 𝙲𝚎𝚛𝚛𝚊𝚗𝚍𝚘 :𝚌', fk
 if (reason === DisconnectReason.restartRequired) {
 jddt()
 return console.log('🌺 Conexión reemplazada, se ha abierto otra nueva sesion, por favor, cierra la sesión actual primero')
-} else if (reason !== DisconnectReason.connectionClosed){ 
+} else if (reason === DisconnectReason.loggedOut) {
 sleep(4000)
 return conn.reply(m.chat, '🍂 *La conexión se ha cerrado, tendras que volver a conectarse usando:*\n!deletesesion (Para borrar los datos y poder volver a solitar el QR o el código de emparejamiento', fkontak)
 } else if (reason == 428) {
