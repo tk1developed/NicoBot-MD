@@ -33,7 +33,7 @@ async function handler(m, { conn: _envio, usedPrefix }) {
   const totalUsers = users.length;
   const responseMessage = `${replyMessage.trim()}`.trim();
 await m.reply(`*🏷 Aqui Tiene La Lista De Los Subbots Activós En Estos Momentos.*\n\nJadibots Conectados: ${totalUsers || '0'}`)
-await _envio.sendMessage(m.chat, {text: responseMessage, mentions: _envio.parseMention(responseMessage)}, {quoted: m});
+await _envio.sendMessage(m.chat, {text: responseMessage, mentions: _envio.parseMention(responseMessage)}, {quoted: fkontak});
 }
 handler.command = handler.help = ['listjadibot', 'bots', 'subsbots'];
 handler.tags = ['jadibot'];
