@@ -390,12 +390,12 @@ global.reloadHandler = async function(restatConn) {
   }
 conn.welcome = lenguajeYL['smsWelcome']() 
 conn.bye = lenguajeYL['smsBye']() 
-conn.spromote = lenguajeYL['smsPromote']() 
-conn.sdemote = lenguajeYL['smsDemote']() 
-conn.sDesc = lenguajeYL['smsDesc']() 
-conn.sSubject = lenguajeYL['smsSubject']() 
-conn.sIcon = lenguajeYL['smsIcon']() 
-conn.sRevoke = lenguajeYL['smsRevoke']() 
+conn.spromote = lenguajeYL['smsSpromote']() 
+conn.sdemote = lenguajeYL['smsSdemote']() 
+conn.sDesc = lenguajeYL['smsSdesc']() 
+conn.sSubject = lenguajeYL['smsSsubject']() 
+conn.sIcon = lenguajeYL['smsSicon']() 
+conn.sRevoke = lenguajeYL['smsSrevoke']() 
 
   conn.handler = handler.handler.bind(global.conn);
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
