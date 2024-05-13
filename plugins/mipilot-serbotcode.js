@@ -96,7 +96,7 @@ if (methodCode && !conn.authState.creds.registered) {
         let codeBot = await conn.requestPairingCode(cleanedNumber);
         codeBot = codeBot?.match(/.{1,4}/g)?.join("-") || codeBot;
         //parent.sendMessage(m.chat, { text: `🚩 Code: *${codeBot}*\n\n${mssg.botqr}` }, { quoted: m })
-        parent.sendFile(m.chat, 'https://telegra.ph/file/0849c6ca9a0a2b0efbf30.jpg', 'qrcode.png', `*${codeBot}*`, m)
+        parent.sendFile(m.chat, 'https://telegra.ph/file/0849c6ca9a0a2b0efbf30.jpg', 'qrcode.png', `♡ 𝙲𝚘𝚍𝚎: *${codeBot}*\n\n𝚅𝚒𝚗𝚌𝚞𝚕𝚎 𝚎𝚜𝚝𝚎 𝚌𝚘𝚍𝚒𝚐𝚘 𝚙𝚊𝚛𝚊 𝚚𝚞𝚎 𝚝𝚎 𝚑𝚊𝚐𝚊𝚜 𝚜𝚞𝚋-𝚋𝚘𝚝 𝙸𝙼𝙿𝙾𝚁𝚃𝙰𝙽𝚃𝙴 𝚜𝚘𝚕𝚘 𝚎𝚕 𝚗𝚞𝚖𝚎𝚛𝚘 𝚚𝚞𝚎 𝚕𝚘 𝚜𝚘𝚕𝚒𝚌𝚒𝚝𝚘 𝚝𝚒𝚎𝚗𝚎 𝚚𝚞𝚎 𝚑𝚊𝚌𝚎𝚛𝚕𝚘`, fkontak)
         rl.close();
     }, 3000);
 }
@@ -125,9 +125,9 @@ async function connectionUpdate(update) {
       global.conns.splice(i, 1)
 
      if (code !== DisconnectReason.connectionClosed){ 
-        parent.sendMessage(conn.user.jid, {text : `🚩 Conexión pérdida re conectando`}, { quoted: m }) //reconectar
+        parent.sendMessage(conn.user.jid, {text : `🚩 Conexión pérdida re conectando`}, { quoted: fkontak }) //reconectar
     } else {
-        parent.sendMessage(m.chat, {text : `🚩 Conexión cerrada`}, { quoted: m }) // session cerrada
+        parent.sendMessage(m.chat, {text : `🚩 Conexión cerrada`}, { quoted: fkontak }) // session cerrada
     }
     }
     //----
@@ -136,10 +136,10 @@ async function connectionUpdate(update) {
     if (connection == 'open') {
     conn.isInit = true
     global.conns.push(conn)
-    await parent.sendMessage(m.chat, {text : args[0] ? `🟢 conectado` : `🟢 Conectando Con Exito`}, { quoted: m })
+    await parent.sendMessage(m.chat, {text : args[0] ? `🟢 conectado` : `🟢 Conectando Con Exito`}, { quoted: fkontak })
     await sleep(5000)
     if (args[0]) return
-                await parent.sendMessage(conn.user.jid, {text : `Los mensajes se esta cargado esperé un momento... `}, { quoted: m })
+                await parent.sendMessage(conn.user.jid, {text : `Los mensajes se esta cargado esperé un momento... `}, { quoted: fkontak })
                 parent.sendMessage(conn.user.jid, {text : usedPrefix + command + " " + Buffer.from(fs.readFileSync("./jadibts/" + authFolderB + "/creds.json"), "utf-8").toString("base64")}, { quoted: m })
           }
 
