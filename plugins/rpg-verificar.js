@@ -1,7 +1,10 @@
 import { createHash } from 'crypto'
 let Reg = /\|?(.*)([.|] *?)([0-9]*)$/i
 let handler = async function (m, { conn, text, usedPrefix, command }) {
-  let user = db.data.users[m.sender]
+let pp = './src/avatar_contact.png';
+pp = await m.conn.profilePictureUrl(user, 'image');
+const img = await m.conn.getFile(pp);
+let user = db.data.users[m.sender]
 let totalreg = Object.keys(global.db.data.users).length
 let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
   let name2 = conn.getName(m.sender)
@@ -35,7 +38,7 @@ global.db.data.users[m.sender].joincount += 5
 • 245 Exp 💸
 • 5 Monedas 🪙
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙰𝙲𝚃𝙸𝚅𝙾𝚂 𝙴𝙽 𝙼𝙸 𝙱𝙰𝚂𝙴: ${rtotalreg}`, fkontak, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: packname, body: `👋🏻 Hola ` + nombre, previewType: 0, thumbnail: imagen6, sourceUrl: [channel, gp2, md, yt, fb].getRandom()}}})
+𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙰𝙲𝚃𝙸𝚅𝙾𝚂 𝙴𝙽 𝙼𝙸 𝙱𝙰𝚂𝙴: ${rtotalreg}`, fkontak, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: packname, body: `👋🏻 Hola ` + nombre, previewType: 0, thumbnail: img, sourceUrl: [channel, gp2, md, yt, fb].getRandom()}}})
 await m.reply(`${sn}`)}
 handler.help = ['daftar', 'register'].map(v => v + ' <nama>.<umur>')
 handler.tags = ['xp']
