@@ -5,7 +5,7 @@ let regionNames = new Intl.DisplayNames(['en'], { type: 'region' })
 
 let handler = async (m, { conn, text, usedPrefix, command: cmd }) => {
         let num = m.quoted?.sender || m.mentionedJid?.[0] || text
-        if (!num) throw `*Ejemplo*: ${usedPrefix + cmd} @tag 50492280729`
+        if (!num) throw `*Ejemplo*: ${usedPrefix + cmd} @573218138672`
         num = num.replace(/\D/g, '') + '@s.whatsapp.net'
         if (!(await conn.onWhatsApp(num))[0]?.exists) throw 'Este usuario no existe, asegurese de escribir bien el numero.'
         let img = await conn.profilePictureUrl(num, 'image').catch(_ => './src/avatar_contact.png')
