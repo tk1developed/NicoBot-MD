@@ -136,22 +136,23 @@ console.log(reason)
 if (reason == 405) {
 await fs.unlinkSync('./jadibts/' + id + '/creds.json')
 
-return await conn.reply(m.chat, '⛔ 𝙲𝚎𝚛𝚛𝚊𝚗𝚍𝚘 :𝚌', fkontak)
+
+return await conn.reply(m.chat, lenguajeYL['smsJBConexionClose2'](), fkontak)
 }
 if (reason === DisconnectReason.restartRequired) {
 jddt()
 return console.log('🌺 Conexión reemplazada, se ha abierto otra nueva sesion, por favor, cierra la sesión actual primero')
 } else if (reason === DisconnectReason.loggedOut) {
 sleep(4000)
-return conn.reply(m.chat, '🍂 *La conexión se ha cerrado, tendras que volver a conectarse usando:*\n!deletesesion (Para borrar los datos y poder volver a solitar el QR o el código de emparejamiento', fkontak)
+return conn.reply(m.chat, lenguajeYL['smsJBConexionClose'](), fkontak)
 } else if (reason == 428) {
 await endSesion(false)
-return conn.reply(m.chat, '🎌 *𝙻𝚊 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚜𝚎 𝚌𝚎𝚛𝚛𝚘 𝚜𝚎 𝚒𝚗𝚝𝚎𝚗𝚝𝚊𝚛𝚊 𝚛𝚎𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚛 :𝙳*', fkontak)
+return conn.reply(m.chat, lenguajeYL['smsJBConexion'](), fkontak)
 } else if (reason === DisconnectReason.connectionLost) {
 await jddt()
 return console.log('🌸 𝙲𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚙𝚎𝚛𝚍𝚒𝚍𝚜 𝚌𝚘𝚗 𝚎𝚕 𝚜𝚎𝚛𝚟𝚒𝚍𝚘𝚛, 𝚛𝚎𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚗𝚍𝚘 𝚕𝚊 𝚜𝚞𝚋𝚋𝚘𝚝 :𝚅')
 } else if (reason === DisconnectReason.badSession) {
-return await conn.reply(m.chat, '🔮 𝙻𝚜 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚜𝚎 𝚑𝚊 𝚌𝚎𝚛𝚛𝚊𝚍𝚘, 𝚍𝚎𝚋𝚎𝚛𝚊 𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚛𝚜𝚎 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎', fkontak)
+return await conn.reply(m.chat, lenguajeYL['smsConexionReco'](), fkontak)
 } else if (reason === DisconnectReason.timedOut) {
 await endSesion(false)
 return console.log('🎋 𝚃𝚒𝚎𝚖𝚙𝚘 𝚍𝚎 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚊𝚐𝚘𝚝𝚊𝚍𝚘, 𝚛𝚎𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚗𝚍𝚘 𝚕𝚊 𝚜𝚞𝚋𝚋𝚘𝚝....')
@@ -162,8 +163,8 @@ if (global.db.data == null) loadDatabase()
 if (connection == `open`) {
 conn.isInit = true
 global.conns.push(conn)
-await parentw.sendMessage(m.chat, {text : args[0] ? `🌺 𝚅𝚊𝚕𝚎 𝚏𝚞𝚎 𝚝𝚘𝚍𝚘 𝚞𝚗 𝚎𝚡𝚒𝚝𝚘 𝚊𝚑𝚘𝚛𝚊 𝚎𝚛𝚎𝚜 𝚞𝚗𝚊 𝚂𝚞𝚋-𝙱𝚘𝚝 :𝟹` : `🍃 𝚅𝚊𝚕𝚎 𝚏𝚞𝚎 𝚝𝚘𝚍𝚘 𝚞𝚗 𝚎𝚡𝚒𝚝𝚘 𝚊𝚑𝚘𝚛𝚊 𝚎𝚛𝚎𝚜 𝚞𝚗𝚊 𝚂𝚞𝚋-𝙱𝚘𝚝 :𝟹`}, { quoted: fkontak })
-await parentw.sendMessage(m.chat, {text : `❤️ 𝚅𝚊𝚕𝚎, 𝚎𝚜𝚘 𝚏𝚞𝚎 𝚝𝚘𝚍𝚘 𝚞𝚗 𝚎𝚡𝚒𝚝𝚘 𝚊𝚑𝚘𝚛𝚊 𝚎𝚛𝚎𝚜 𝚞𝚗𝚊 𝚂𝚞𝚋-𝙱𝚘𝚝 :𝟹`}, { quoted: fkontak })
+await parentw.sendMessage(m.chat, {text : args[0] ? lenguajeYL['smsJBConexionTrue']() : `🍃 𝚅𝚊𝚕𝚎 𝚏𝚞𝚎 𝚝𝚘𝚍𝚘 𝚞𝚗 𝚎𝚡𝚒𝚝𝚘 𝚊𝚑𝚘𝚛𝚊 𝚎𝚛𝚎𝚜 𝚞𝚗𝚊 𝚂𝚞𝚋-𝙱𝚘𝚝 :𝟹`}, { quoted: fkontak })
+await parentw.sendMessage(m.chat, {text : lenguajeYL['smsJBConexionTrue2']() { quoted: fkontak })
 await sleep(5000)
 if (!args[0]) parentw.sendMessage(m.chat, {text : usedPrefix + command + ' ' + Buffer.from(fs.readFileSync('./jadibts/' + id + '/creds.json'), 'utf-8').toString('base64')}, { quoted: fkontak })    
 
@@ -230,7 +231,7 @@ Object.keys(conn.chats).forEach(jid => {
 conn.chats[jid].isBanned = false
 })
 } else {
-console.log(conn.chats, `🌺 𝙴𝚜𝚙𝚎𝚛𝚎 𝚕𝚊 𝚋𝚘𝚝 𝚎𝚜𝚝𝚊 𝚕𝚎𝚢𝚎𝚗𝚍𝚘 𝚕𝚘𝚜 𝚖𝚎𝚗𝚜𝚊𝚓𝚎𝚜...`, conn.ev)
+console.log(conn.chats, lenguajeYL['smsJBCargando'](), conn.ev)
 Object.keys(conn.chats).forEach(jid => {
 conn.chats[jid].isBanned = true
 })
