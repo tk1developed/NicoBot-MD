@@ -1449,7 +1449,11 @@ let about = (await this.fetchStatus(user).catch(console.error) || {}).status || 
               await m.conn.sendMessage(id, {text: `*[❗] @${user.split('@')[0]} 𝙚𝙣 𝙚𝙨𝙩𝙚 𝙜𝙧𝙪𝙥𝙤 𝙣𝙤 𝙥𝙚𝙧𝙢𝙞𝙩𝙞𝙢𝙤𝙨 𝙣𝙪𝙢𝙚𝙧𝙤𝙨 𝙖𝙧𝙖𝙗𝙚𝙨 𝙤 𝙧𝙖𝙧𝙤𝙨, 𝙥𝙤𝙧 𝙡𝙤 𝙦𝙪𝙚 𝙨𝙚 𝙡𝙚 𝙚𝙭𝙥𝙪𝙡𝙨𝙖𝙧𝙖 𝙙𝙚𝙡 𝙜𝙧𝙪𝙥𝙤*`, mentions: [user]}, {quoted: fkontak2});
               return;
             }
-            this.sendMessage(id, { text: text, 
+            let vn = 'https://qu.ax/cUYg.mp3'
+let or = ['texto', 'audio'];
+let media = or[Math.floor(Math.random() * 2)]
+if (media === 'texto')
+this.sendMessage(id, { text: text, 
 contextInfo:{
 forwardingScore: 9999999,
 isForwarded: true, 
@@ -1458,10 +1462,12 @@ mentionedJid:[user],
 "showAdAttribution": true,
 "renderLargerThumbnail": true,
 "thumbnail": apii.data, 
-"title": [wm, packname, team].getRandom(),
+"title": packname,
 "containsAutoReply": true,
 "mediaType": 1, 
-sourceUrl: channel, { quoted: fkontak}) 
+sourceUrl: channel, { quoted: fkontak }) 
+if (media === 'audio')
+this.sendMessage(id, { audio: { url: vn }, contextInfo:{ mentionedJid:[user], "externalAdReply": { "thumbnail": apii.data, "title": `乂 ＷＥＬＣＯＭＥ 乂`, "body": packname, "previewType": "PHOTO", "thumbnailUrl": null, "showAdAttribution": true,  sourceUrl: yt,  ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: fkontak })
           }
         }
       }
