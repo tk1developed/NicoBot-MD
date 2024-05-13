@@ -25,18 +25,20 @@ global.db.data.users[m.sender].joincount += 5
   let sn = createHash('md5').update(m.sender).digest('hex')
   await conn.reply(m.chat,  `⧼⧼⧼ *¡𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖠𝖣𝖮 𝖯𝖮𝖱 𝖸𝖮𝖳𝖲𝖴𝖡𝖠!* ⧽⧽⧽
 
-• 𝖢𝗅𝗂𝖾𝗇𝗍𝖾: ${name}
+• 𝖢𝗅𝗂𝖾𝗇𝗍𝖾: 
+- ${name}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-• 𝖤𝖽𝖺𝖽: ${age} 𝖠𝗇̃𝗈𝗌
+• 𝖤𝖽𝖺𝖽: 
+- ${age} 𝖠𝗇̃𝗈𝗌
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 🍁 *𝚁𝙴𝙲𝙾𝙼𝙿𝙴𝙽𝚂𝙰 𝙳𝙴 𝙻𝙰 𝙱𝙾𝚃:*
-• 10 𝑫𝒊𝒂𝒎𝒂𝒏𝒕𝒆𝒔 💎
-• 600 𝒀𝒐𝒕𝒔𝒖𝑪𝒐𝒊𝒏𝒔 💰
-• 245 𝑬𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒊𝒂 💸
-• 5 𝑴𝒐𝒏𝒆𝒅𝒂𝒔 🪙
+• 10 Diamantes 💎
+• 600 YotsuCoins 💰
+• 245 Exp 💸
+• 5 Monedas 🪙
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝑼𝒔𝒖𝒂𝒓𝒊𝒐𝒔 𝑬𝒏 𝑴𝒊 𝑩𝒂𝒔𝒆: ${rtotalreg}`, fkontak, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: `𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎 𝐂𝐎𝐌𝐏𝐋𝐄𝐓𝐀𝐃𝐎`, body: team, previewType: 0, thumbnail: imagen6, sourceUrl: [channel, gp2, md, yt, fb].getRandom()}}})
-await m.reply(`🎌 𝑨𝒒𝒖𝒊 𝑺𝒖 𝑵𝒖𝒎𝒆𝒓𝒐 𝑫𝒆 𝑺𝒆𝒓𝒊𝒆\n- ${sn}`)}
+𝑼𝒔𝒖𝒂𝒓𝒊𝒐𝒔 𝑬𝒏 𝑴𝒊 𝑩𝒂𝒔𝒆: ${rtotalreg}`, fkontak, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: `Aɢʀᴇɢᴀᴅᴏ Eɴ Mɪ Bᴀsᴇ ᴅᴇ Dᴀᴛᴏs`, body: nombreu, previewType: 0, thumbnail: imagen6, sourceUrl: [channel, gp2, md, yt, fb].getRandom()}}})
+await m.reply(`${sn}`)}
 handler.help = ['daftar', 'register'].map(v => v + ' <nama>.<umur>')
 handler.tags = ['xp']
 handler.command = /^(verify|verificar|registrar|reg(ister)?)$/i
