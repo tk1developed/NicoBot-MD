@@ -2,7 +2,7 @@ import { createHash } from 'crypto'
 let Reg = /\|?(.*)([.|] *?)([0-9]*)$/i
 let handler = async function (m, { conn, text, usedPrefix, command }) {
 let pp = './src/avatar_contact.png';
-pp = await m.conn.profilePictureUrl('image');
+pp = await m.conn.profilePictureUrl(user);
 const img = await m.conn.getFile(pp);
 let user = db.data.users[m.sender]
 let totalreg = Object.keys(global.db.data.users).length
@@ -26,7 +26,7 @@ global.db.data.users[m.sender].limit += 10
 global.db.data.users[m.sender].exp += 245
 global.db.data.users[m.sender].joincount += 5
   let sn = createHash('md5').update(m.sender).digest('hex')
-  await conn.reply(m.chat,  `𝑹𝑬𝑮𝑰𝑺𝑻𝑹𝑨𝑫𝑶 𝑬𝑵 𝑴𝑰 𝑩𝑨𝑺𝑬 𝑫𝑬 𝑫𝑨𝑻𝑶𝑺 🗒️
+  await conn.reply(m.chat,  `🍂 𝑹𝑬𝑮𝑰𝑺𝑻𝑹𝑨𝑫𝑶 𝑬𝑵 𝑴𝑰 𝑩𝑨𝑺𝑬 𝑫𝑬 𝑫𝑨𝑻𝑶𝑺
 
 • 🌺 𝖢𝗅𝗂𝖾𝗇𝗍𝖾: ${name}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
