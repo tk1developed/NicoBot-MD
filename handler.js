@@ -1461,7 +1461,7 @@ mentionedJid:[user],
 "title": [wm, packname, team].getRandom(),
 "containsAutoReply": true,
 "mediaType": 1, 
-sourceUrl: channel, { quoted: fkontak2 }) 
+sourceUrl: channel, { quoted: fkontak}) 
           }
         }
       }
