@@ -9,7 +9,7 @@ const handler = async (m, {conn, usedPrefix, command}) => {
   m.reply("🍃 *Espere Un Momento*\n- *🌺 𝙈𝙀𝙅𝙊𝙍𝘼𝙉𝘿𝙊 𝙇𝘼 𝘾𝘼𝙇𝙄𝘿𝘼𝘿...*");
   let img = await q.download?.();
   let pr = await remini(img, "enhance");
-  conn.sendMessage(m.chat, {image: pr}, {quoted: m});
+  conn.sendMessage(m.chat, {image: pr}, {quoted: fkontak});
  } catch {
   throw "🛑 Ocurrió Un Error Inesperado";
  }
