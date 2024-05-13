@@ -116,8 +116,8 @@ parentw.sendMessage(m.chat, {text : rtx2 + drmer.toString('utf-8')}, { quoted: f
 await sleep(5000)
 let secret = await conn.requestPairingCode((m.sender.split`@`[0]))
 await m.reply(secret)}
-//const code = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode;
-//console.log(code)
+const code = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode
+console.log(code)
 const endSesion = async (loaded) => {
 if (!loaded) {
 try {
@@ -131,28 +131,29 @@ delete global.conns[i]
 global.conns.splice(i, 1)
 }}
 
-const code = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode;
+const reason = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode
 if (connection === 'close') {
-console.log(code)
+console.log(reason)
 if (reason == 405) {
 await fs.unlinkSync('./jadibts/' + id + '/creds.json')
 
 return await conn.reply(m.chat, '⛔ 𝙲𝚎𝚛𝚛𝚊𝚗𝚍𝚘 :𝚌', fkontak)
 }
-if (code && code !== DisconnectReason.loggedOut && conn?.ws.socket == null) {
+if (reason === DisconnectReason.restartRequired) {
+jddt()
 return console.log('🌺 Conexión reemplazada, se ha abierto otra nueva sesion, por favor, cierra la sesión actual primero')
-} else if (code !=== DisconnectReason.loggedOut) {
+} else if (reason !== DisconnectReason.connectionClosed){ 
 sleep(4000)
 return conn.reply(m.chat, '🍂 *La conexión se ha cerrado, tendras que volver a conectarse usando:*\n!deletesesion (Para borrar los datos y poder volver a solitar el QR o el código de emparejamiento', fkontak)
-} else if (code !== 428) {
+} else if (reason == 428) {
 await endSesion(false)
 return conn.reply(m.chat, '🎌 *𝙻𝚊 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚜𝚎 𝚌𝚎𝚛𝚛𝚘 𝚜𝚎 𝚒𝚗𝚝𝚎𝚗𝚝𝚊𝚛𝚊 𝚛𝚎𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚛 :𝙳*', fkontak)
-} else if (code !=== DisconnectReason.connectionLost) {
+} else if (reason === DisconnectReason.connectionLost) {
 await jddt()
 return console.log('🌸 𝙲𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚙𝚎𝚛𝚍𝚒𝚍𝚊 𝚌𝚘𝚗 𝚎𝚕 𝚜𝚎𝚛𝚟𝚒𝚍𝚘𝚛, 𝚛𝚎𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚗𝚍𝚘 𝚕𝚊 𝚜𝚞𝚋𝚋𝚘𝚝 :𝚅')
-} else if (code !=== DisconnectReason.badSession) {
+} else if (reason === DisconnectReason.badSession) {
 return await conn.reply(m.chat, '🔮 𝙻𝚊 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚜𝚎 𝚑𝚊 𝚌𝚎𝚛𝚛𝚊𝚍𝚘, 𝚍𝚎𝚋𝚎𝚛𝚊 𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚛𝚜𝚎 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎', fkontak)
-} else if (code !=== DisconnectReason.timedOut) {
+} else if (reason === DisconnectReason.timedOut) {
 await endSesion(false)
 return console.log('🎋 𝚃𝚒𝚎𝚖𝚙𝚘 𝚍𝚎 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚊𝚐𝚘𝚝𝚊𝚍𝚘, 𝚛𝚎𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚗𝚍𝚘 𝚕𝚊 𝚜𝚞𝚋𝚋𝚘𝚝....')
 } else {
