@@ -2,7 +2,7 @@ import { createHash } from 'crypto'
 let Reg = /\|?(.*)([.|] *?)([0-9]*)$/i
 let handler = async function (m, { conn, text, usedPrefix, command }) {
 let pp = './src/avatar_contact.png';
-pp = await m.conn.profilePictureUrl(user, 'image');
+pp = await m.conn.profilePictureUrl(name, 'image');
 const img = await m.conn.getFile(pp);
 let user = db.data.users[m.sender]
 let totalreg = Object.keys(global.db.data.users).length
