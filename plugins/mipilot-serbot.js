@@ -1,5 +1,5 @@
-
-/*El codigo de este archivo esta totalmente hecho por:
+/*
+El codigo de este archivo esta totalmente hecho por:
 - Aiden_NotLogic >> https://github.com/ferhacks
 
 El codigo de este archivo fue parchado por:
