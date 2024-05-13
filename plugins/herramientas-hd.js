@@ -4,14 +4,14 @@ const handler = async (m, {conn, usedPrefix, command}) => {
  try {    
   let q = m.quoted ? m.quoted : m;
   let mime = (q.msg || q).mimetype || q.mediaType || "";
-  if (!mime) throw `*Y LA IMAGEN?*`;
-  if (!/image\/(jpe?g|png)/.test(mime)) throw `El formato del archivo (${mime}) no es compatible, envía o responda a una imagen`;
-  m.reply("*🧿 𝖬𝖾𝗃𝗈𝗋𝖺𝗇𝖽𝗈 𝗅𝖺 𝖼𝖺𝗅𝗂𝖽𝖺𝖽 𝖽𝖾 𝗅𝖺 𝗂𝗆𝖺𝗀𝖾𝗇*");
+  if (!mime) throw `🍃 Envie una imagen o responda a la imagen utilizando el comando: ${usedPrefix + command}`;
+  if (!/image\/(jpe?g|png)/.test(mime)) throw `🍂 El formato del archivo (${mime}) no es compatible, envía o responda a una imagen`;
+  m.reply("🍃 *Espere Un Momento*\n*- 🌺 𝙈𝙀𝙅𝙊𝙍𝘼𝙉𝘿𝙊 𝙇𝘼 𝘾𝘼𝙇𝙄𝘿𝘼𝘿...*");
   let img = await q.download?.();
   let pr = await remini(img, "enhance");
   conn.sendMessage(m.chat, {image: pr}, {quoted: m});
  } catch {
-  throw "*ᖴᗩᒪᒪO, ᑭOᖇ ᖴᗩᐯOᖇ ᐯᑌᗴᒪᐯᗩ ᗩ IᑎTᗴᑎTᗩᖇ*";
+  throw "🛑 Ocurrió Un Error Inesperado";
  }
 };
 handler.help = ["remini", "hd", "enhance"];
