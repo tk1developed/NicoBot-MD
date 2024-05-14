@@ -42,6 +42,8 @@ import { xpRange } from '../lib/levelling.js'
 const defaultMenu = {
   before: `> %greeting %taguser
 
+${conn.user.jid == global.conn.user.jid ? '' : `\n*˚₊·˚₊· ͟͟͞͞➳❥* 𝚂𝚘𝚢 𝚄𝚗𝚊 𝚂𝚞𝚋-𝙱𝚘𝚝 𝙳𝚎 ⇢ *@${global.conn.user.jid.split`@`[0]}*`}
+
 ╭╼☁️⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪ Iɴғᴏ Bᴏᴛ ໑⃪࣭۪ٜ݊݊݊݊𑁍ꥈ࣪⬪☁️
 ┃֪࣪֝፝֟͜🌸 🅲︎ʀᴇᴀᴅᴏʀ: %author
 ┃֪࣪֝፝֟͜🏷 🅃ᴀɢ: %taguser
