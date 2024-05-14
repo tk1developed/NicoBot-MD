@@ -7,7 +7,7 @@ const handler = async (m, {conn}) => {
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     await conn.sendMessage(m.chat, { react: { text: '🤠', key: m.key } })
     const str = `┏✧ » ◇ « ✧ » ✦ « ✧ » ◇ « ✧
-┃⍣ *Yotsuba Nakano - MD* 🚀
+┃⍣ *Yoshiko Bot - MD* 🚀
 ┃
 ┃⍣ *👋🏻 Hola:* ${taguser}
 ┃
@@ -16,10 +16,10 @@ const handler = async (m, {conn}) => {
 ┃⍣ 🍨 *Owner: Diego*
 ╰✧ » ◇ « ✧ » ✦ « ✧ » ◇ « ✧`.trim();
     if (m.isGroup) {
-      conn.sendMessage(m.chat, {text: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm, "containsAutoReply": true, "mediaType": 1, "thumbnail": pp, "mediaUrl": `https://github.com/Diego-YL-177/Yotsuba-Nakano-MD`, "sourceUrl": `https://github.com/Diego-YL-177/Yotsuba-Nakano-MD`}}}, {quoted: m});
+      conn.sendMessage(m.chat, {text: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm, "containsAutoReply": true, "mediaType": 1, "thumbnail": pp, "mediaUrl": `https://github.com/Diego-YL-177/YoshikoBot-MD`, "sourceUrl": `https://github.com/Diego-YL-177/YoshikoBot-MD`}}}, {quoted: fkontak});
     } else {
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
-      conn.sendMessage(m.chat, {text: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm, "containsAutoReply": true, "mediaType": 1, "thumbnail": pp, "mediaUrl": `https://github.com/Diego-YL-177/Yotsuba-Nakano-MD`, "sourceUrl": `https://github.com/Diego-YL-177/Yotsuba-Nakano-MD`}}}, {quoted: fkontak2});
+      conn.sendMessage(m.chat, {text: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm, "containsAutoReply": true, "mediaType": 1, "thumbnail": pp, "mediaUrl": `https://github.com/Diego-YL-177/YoshikoBot-MD`, "sourceUrl": `https://github.com/Diego-YL-177/YoshikoBot-MD`}}}, {quoted: fkontak2});
     }
   } catch {
   }
