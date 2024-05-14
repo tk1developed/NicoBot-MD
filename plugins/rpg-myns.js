@@ -1,4 +1,4 @@
-//🌺 Yotsuba-Nakano-MD
+//🌺 YoshikoBot-MD
 
 import { createHash } from 'crypto'
 let handler = async function (m, { conn, text, usedPrefix }) {
