@@ -31,16 +31,16 @@ global.contactos = [
 global.suittag = ['573012482597'];
 global.prems = ['573218138672'];
 
-global.lenguajeYL = es //idioma de yotsuba
+global.lenguajeYL = es //idioma de yoshiko
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
-global.packname = '𝗬𝗼𝘁𝘀𝘂𝗯𝗮-𝗡𝗮𝗸𝗮𝗻𝗼-𝗠𝗗 🌩';
-global.author = 'Dɪᴇɢᴏ ✨️';
-global.wm = 'Yotsuba : Nakano 🌼';
-global.titulowm = '𝗬𝗈𝗍𝗌𝗎𝖻𝖺 : 𝗡𝖺𝗄𝖺𝗇𝗈';
+global.packname = '𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁-𝗠𝗗 🍃';
+global.author = 'Dɪᴇɢᴏ 🍂';
+global.wm = '𝚈𝙾𝚂𝙷𝙸𝙺𝙾 𝙱𝙾𝚃 - 𝙼𝙳 🌺';
+global.titulowm = '𝗬𝗈𝗌𝗁𝗂𝗄𝗈 : 𝗕𝗈𝗍';
 global.titulowm2 = `𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜`
 global.igfg = 'Diego Oficial';
-global.sk = 'Yᴏᴛsᴜʙᴀ Nᴀᴋᴀɴᴏ - MD';
+global.sk = 'Yᴏsʜɪᴋᴀ Bᴏᴛ - MD';
 global.team = 'Bʏ: Dɪᴇɢᴏ.Oғᴄ';
 global.vs = '1.0.7';
 
@@ -61,13 +61,13 @@ global.imagen7 = fs.readFileSync('./AhoraQue.png');
 global.imagen8 = fs.readFileSync('./Que.jpg');
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9' //Grupo Oficial De Yotsuba1
+global.gp1 = 'https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9' //Grupo Oficial De Yoshiko1
 
-global.gp2 = 'https://chat.whatsapp.com/BvHfQUBNAAFF1k1F9bTL0G' //Grupo Oficial Yotsuba2
+global.gp2 = 'https://chat.whatsapp.com/BvHfQUBNAAFF1k1F9bTL0G' //Grupo Oficial Yoshiko2
 
-global.gp3 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //Curiosity Y Yotsuba
+global.gp3 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //Curiosity Y Yoshiko
 
-global.gp4 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //Nova Y Yotsuba
+global.gp4 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //Nova Y Yoshiko
 
 global.gp5 = 'https://chat.whatsapp.com/KjR8NTfdWwU1a66uDOOGLZ' //Multibots
 
@@ -75,7 +75,7 @@ global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal
 
 global.yt = 'https://www.youtube.com/@Yotsuba.nakano01' //Canal De Youtube
 
-global.md = 'https://github.com/Diego-YL-177/Yotsuba-Nakano-MD' //Github Oficial
+global.md = 'https://github.com/Diego-YL-177/YoshikoBot-MD' //Github Oficial
 
 global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Facebook Del Propietario
 
@@ -95,10 +95,10 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nNakano`;
-global.gt = 'Yotsuba';
-global.yotsuba = 'Yotsuba';
-global.yotsuba = 'https://github.com/Diego-YL-177/Yotsuba-Nakano-MD';
+global.wm2 = `${dia} ${fecha}\nYoshiko`;
+global.gt = 'Yoshiko';
+global.yoshiko = 'Yoshiko';
+global.yoshiko = 'https://github.com/Diego-YL-177/YoshikoBot-MD';
 global.nomorown = '573012482597';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
