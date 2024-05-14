@@ -20,6 +20,6 @@ global.terminos = `𝑺𝑴𝑺 𝑫𝑬𝑳 𝑪𝑹𝑬𝑨𝑫𝑶𝑹✨
 ✫ Wa.me/573012482597
 ᯽ Diego-YL-177
 ✫ Correo electronico: 
-theyotsubanakano@gmail.com
+theyoshikobot@gmail.com
 
-✰ 𝗬𝗼𝘁𝘀𝘂𝗯𝗮 𝗡𝗮𝗸𝗮𝗻𝗼 🪐`;
+✰ 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁 - 𝗠𝗗 🪐`;
