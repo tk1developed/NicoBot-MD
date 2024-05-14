@@ -1,7 +1,7 @@
 {
-"name": "Yotsuba-Nakano-MD",
+"name": "YoshikoBot-MD",
 "version": "1.0.7", 
-"description": "Super Bot WhatsApp",
+"description": "La Mejor Bot De WhatsApp",
 "main": "index.js",
 "type": "module",
 
@@ -17,16 +17,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
 
-"homepage": "https://github.com/Diego-YL-177/Yotsuba-Nakano-MD",
+"homepage": "https://github.com/Diego-YL-177/YoshikoBot-MD",
 "author": {
 "name": "Dɪᴇɢᴏ.Oғᴄ" },
 
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Diego-YL-177/Yotsuba-Nakano-MD.git" },
+"url": "git+https://github.com/Diego-YL-177/YoshikoBot-MD.git" },
 
 "bugs": {
-"url": "https://github.com/Diego-YL-177/Yotsuba-Nakano-MD-/issues" },
+"url": "https://github.com/Diego-YL-177/YoshikoBot-MD-/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@whiskeysockets/baileys": "^6.7.1",
