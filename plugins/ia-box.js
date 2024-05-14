@@ -1,6 +1,6 @@
 //By: Alba070503
 
-import fetch from 'node-fetch';
+/*import fetch from 'node-fetch';
 
 var handler = async (m, { text, usedPrefix, command }) => {
   if (!text) throw "Hola Amig@ como estas?\n- Soy una herramienta (Asistente) Ia Box, en que puedo ayudarte?";
@@ -27,4 +27,4 @@ var handler = async (m, { text, usedPrefix, command }) => {
 handler.command = ['bb', 'blackbox', 'iabox'];
 handler.help = ['blackbox'];
 handler.tags = ['herramientas'];
-export default handler;
+export default handler;*/
