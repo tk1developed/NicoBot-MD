@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 var handler = async (m, { text,  usedPrefix, command }) => {
-if (!text) throw `🍃 *Ingres Una Petición*\n- Ejemplo: !bard conoces a yotsuba?`
+if (!text) throw `🍃 *Ingres Una Petición*\n- Ejemplo: !bard conoces a yoshiko?`
 try {
 await m.reply('🌺 *C A R G A N D O*\n- 🍃 Cargando Información')
 conn.sendPresenceUpdate('composing', m.chat);
