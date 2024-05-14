@@ -1506,7 +1506,7 @@ export async function callUpdate(callUpdate) {
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
         const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Creador 👑;;;\nFN:Creador 👑\nORG:Creador 👑\nTITLE:\nitem1.TEL;waid=573012482597:+57 301 2482597\nitem1.X-ABLabel:Creador 👑Creador 👑\nX-WA-BIZ-DESCRIPTION:ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:Creador 👑\nEND:VCARD`;
-        await mconn.conn.sendMessage(nk.from, {contacts: {displayName: 'Yotsuba-Nakano ✨', contacts: [{vcard}]}}, {quoted: callmsg});
+        await mconn.conn.sendMessage(nk.from, {contacts: {displayName:YoshikoBot-MD ✨', contacts: [{vcard}]}}, {quoted: callmsg});
         await mconn.conn.updateBlockStatus(nk.from, 'block');
       }
     }
