@@ -108,7 +108,7 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `NakanoSession`;
+global.authFile = `sessions`;
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile);
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const msgRetryCounterCache = new NodeCache()
@@ -147,7 +147,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['Yotsuba Nakano', 'Safari', '2.0.0'] : methodCodeQR ? ['Yotsuba Nakano', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '20.0.04'],
+browser: opcion == '1' ? ['YoshikoBot-MD', 'Safari', '2.0.0'] : methodCodeQR ? ['YoshikoBot-MD', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '20.0.04'],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -185,7 +185,7 @@ console.log(chalk.bgBlack(chalk.bold.redBright("🟢 Comience con el código de 
 process.exit(0)
 }} else {
 while (true) {
-numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright('🟢 Ingresa el número que sera bot\nPor ejemplo: +573104653311\n')))
+numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright('🟢 Ingresa el número que sera la bot\nPor ejemplo: +573104653311\n')))
 numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
 
 if (numeroTelefono.match(/^\d+$/) && Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
@@ -252,13 +252,13 @@ function clearTmp() {
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./NakanoSession")
+let directorio = readdirSync("./sessions")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-') /*|| file.startsWith('session-') || file.startsWith('sender-') || file.startsWith('app-') */
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./NakanoSession/${files}`)
+unlinkSync(`./sessions/${files}`)
 })
 } 
 
@@ -283,7 +283,7 @@ console.log(chalk.bold.red(`🏷 Algo salio mal durante la eliminación, archivo
 }}
 
 function purgeOldFiles() {
-const directories = ['./NakanoSession/', './jadibts/']
+const directories = ['./sessions/', './jadibts/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000)
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
@@ -315,16 +315,16 @@ async function connectionUpdate(update) {
   if (global.db.data == null) loadDatabase();
 if (update.qr != 0 && update.qr != undefined || methodCodeQR) {
 if (opcion == '1' || methodCodeQR) {
-    console.log(chalk.yellow('☄️ Escanea Este Qr Para Conectarte A Yotsuba.'));
+    console.log(chalk.yellow('☄️ Escanea Este Qr Para Conectarte A Yoshiko.'));
  }}
 if (connection == 'open') {
 await conn.groupAcceptInvite('Eaa9JFA53ps7WHMv2VHbO9')
-console.log(chalk.bold.cyan('\n╭┈ ┈ ┈ ┈ ┈ • 𝗬𝗼𝘁𝘀𝘂𝗯𝗮 𝗡𝗮𝗸𝗮𝗻𝗼 • ┈ ┈ ┈ ┈ ┈ ┈╮\n┊ CONEXIÓN EXITOSA CON WHATSAPP ☄️\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'))
-//conn.fakeReply('573012482597@s.whatsapp.net', '🍁', '0@s.whatsapp.net', '🇨🇴 Soy Nakano\nRecientemente Me E Conectado', '0@s.whatsapp.net')
+console.log(chalk.bold.cyan('\n╭┈ ┈ ┈ ┈ ┈ • 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁-𝗠𝗗• ┈ ┈ ┈ ┈ ┈ ┈╮\n┊ LA BOT YA ESTÁ CONECTADA ☄️\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'))
+//conn.fakeReply('573012482597@s.whatsapp.net', '🍁', '0@s.whatsapp.net', '🇨🇴 Soy la bot\nRecientemente Me E Conectado', '0@s.whatsapp.net')
    }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) {
-await fs.unlinkSync("./NakanoSession/" + "creds.json")
+await fs.unlinkSync("./sessions/" + "creds.json")
 console.log(chalk.bold.redBright(`[ ⚠ ] Conexión replazada, Por favor espere un momento me voy a reiniciar...\nSi aparecen error vuelve a iniciar con : npm start`)) 
 process.send('reset')}
 if (connection === 'close') {
