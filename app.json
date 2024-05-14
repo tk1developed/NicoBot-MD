@@ -1,10 +1,10 @@
 {
-  "name": "Yotsuba-Nakano-MD",
+  "name": "YoshikoBot-MD",
   "website": "https://github.com/Diego-YL-177",
-  "description": "Mejor Bot",
-  "repository": "https://github.com/Diego-YL-177/Yotsuba-Nakano-MD",
-  "logo": "https://raw.githubusercontent.com/Diego-YL-177/Yotsuba-Nakano-MD/master/src/pictures/heroku-icon.jpg",
-  "success_url": "https://github.com/Diego-YL-177/Yotsuba-Nakano-MD",
+  "description": "La Mejor Bot",
+  "repository": "https://github.com/Diego-YL-177/YoshikoBot-MD",
+  "logo": "https://raw.githubusercontent.com/Diego-YL-177/YoshikoBot-MD/master/src/pictures/heroku-icon.jpg",
+  "success_url": "https://github.com/Diego-YL-177/YoshikoBot-MD",
   "keywords": [
     "nodejs",
     "heroku",
@@ -20,9 +20,9 @@
     "whatsappbot",
     "oficial",
     "whatsapp-md",
-    "yotsuba-nakano-md",
-    "yotsuba-nakano-md",
-    "yotsuba-nakano-md"],
+    "yoshikobot-md",
+    "yoshikobot-md",
+    "yoshikobot-md"],
   "image": "heroku/nodejs",
   "buildpacks": [
     {
