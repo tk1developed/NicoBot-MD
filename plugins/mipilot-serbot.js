@@ -100,7 +100,7 @@ if (store) {
 const msg = store.loadMessage(key.remoteJid, key.id)
 return msg.message && undefined
 } return {
-conversation: 'Yotsuba-Nakano-MD',
+conversation: 'YoshikoBot-MD',
 }}}
 
 let conn = makeWASocket(connectionOptions)
