@@ -1,8 +1,8 @@
 > 💻☄️ Versión Del Bot: 1.0.7
 
-## Yotsuba - Nakano - MD ☄️
+## Yoshiko - Bot - MD ☄️
 <p align="center">
-<img src= "https://telegra.ph/file/cf02ded2ea39b8ef3ba88.png" alt="Nakano" width="900"/>
+<img src= "https://telegra.ph/file/cf02ded2ea39b8ef3ba88.png" alt="Yoshiko" width="900"/>
 </p>
 
 
@@ -14,20 +14,20 @@
 
 
 - ### ⚙️ Configuracion
- Clonar Repo : Yotsuba [Aqui.](https://github.com/Diego-YL-177/Yotsuba-Nakano-MD/fork)
+ Clonar Repo : Yoshiko [Aqui.](https://github.com/Diego-YL-177/YoshikoBot-MD/fork)
 
 
 
 - ###  ⌨️ Instalar Por Render
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2Diego-YL-177%Yotsuba-Nakano-MD) 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2Diego-YL-177%YoshikoBot-MD) 
 
 - ### 📱 Instalar Por Code Space
 
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=738341999&ref=master&geo=UsEast)
 ***
 
-- #### 💻 Instalacion Por Termux Manual
+- #### 💻 Instalacion Por Termux
 
 [![blog](https://img.shields.io/badge/Instalacion-Yotsuba-00FFFF?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/9-v4XwMTJYE?si=STdO2GwZR1GAmXfA)
@@ -43,7 +43,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/Diego-YL-177/Yotsuba-Nakano-MD && cd Yotsuba-Nakano-MD
+git clone https://github.com/Diego-YL-177/YoshikoBot-MD && cd YoshikoBot-MD
 ```
 ```bash
 yarn install && npm install
@@ -56,23 +56,23 @@ npm start
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd Yotsuba-Nakano-MD
+> cd YoshikoBot-MD
 > npm start
 ```
 
 - ### 🌻 Obtener Otro Codigo Qr 
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd Yotsuba-Nakano-MD
-> rm -rf NakanoSession
+> cd YoshikoBot-MD
+> rm -rf sessions
 > npm start
 ```
-- ### ✅️ Actualizar Yotsuba 
-> Note Comandos para actualizar Yotsuba - MD de forma automática
+- ### ✅️ Actualizar Yoshiko 
+> Note Comandos para actualizar Yoshiko - MD de forma automática
 ```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/Diego-YL-177/Yotsuba-Nakano-MD/master/update.sh | bash
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/Diego-YL-177/YoshikoBot-MD/master/update.sh | bash
 ```
-Para que no pierda su progreso en Yotsuba, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
+Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 
 > Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
 
@@ -90,7 +90,7 @@ Para que no pierda su progreso en Yotsuba, estos comandos realizarán un respald
 - **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A)
 - **Support:** [`Bot exclusivo`](https://wa.me/message/FETBF7YBO37CG1)
 
-- [x] **Configuración** <details><summary>**Ajustes del Servidor - Yotsuba • Nakano**</summary><img src="https://telegra.ph/file/2c66f67e1b606955b09d5.png"></details>
+- [x] **Configuración** <details><summary>**Ajustes del Servidor - Yoshiko • Bot**</summary><img src="https://telegra.ph/file/2c66f67e1b606955b09d5.png"></details>
 
 ***
 
@@ -105,5 +105,5 @@ Para que no pierda su progreso en Yotsuba, estos comandos realizarán un respald
 <a
 href="https://github.com/Diego-YL-177"><img src="https://github.com/Diego-YL-177.png" width="200" height="200" alt="Diego"/></a>
 
-## Colaboradores Del Bot ✨️     
+## Colaboradores De La Bot ✨️     
 [![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) [![MoonContentCreator](https://github.com/MoonContentCreator.png?size=100)](https://github.com/MoonContentCreator)
