@@ -1,4 +1,4 @@
-console.log('❤ Iniciando Yotsuba...')
+console.log('❤ Iniciando La Bot...')
 import { join, dirname } from 'path'
 import { createRequire } from 'module'
 import { fileURLToPath } from 'url'
@@ -15,12 +15,12 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('Yotsuba\nNakano\nMD', {
+say('Yoshiko\nBot\nMD', {
 font: 'block',
 align: 'center',
 colors: ['system', 'redBright']
 })
-say(`by: yotsuba nakano, bot en desarrollo`, {
+say(`la mejor bot de whatsapp, by: yoshiko`, {
 font: 'console',
 gradient: ['blue', 'magenta']
 })
