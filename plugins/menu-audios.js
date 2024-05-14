@@ -26,7 +26,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 const document = doc[Math.floor(Math.random() * doc.length)];
  const str = `╭∴━━━ *AUDIOS-BOT* ━━━∴╮
-┃🕊️ 𝖧𝗈𝗅𝖺👋🏻, Soy Yotsuba
+┃🕊️ 𝖧𝗈𝗅𝖺👋🏻, Soy Yoshiko
 ┃🕊️ 𝐄𝐥 𝐌𝐞𝐧𝐮 𝐃𝐞 𝐀𝐮𝐝𝐢𝐨𝐬.
 ┃🕊️ 𝐍𝐨 𝐀𝐠𝐚𝐬 𝐒𝐩𝐚𝐦 𝐂𝐨𝐧 𝐋𝐨𝐬 𝐀𝐮𝐝𝐢𝐨𝐬.
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
