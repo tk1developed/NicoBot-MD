@@ -36,12 +36,12 @@ const handler = async (m, {conn, isPrems}) => { // lastmiming
     texto += `+${recompensas[reward]} ${global.rpgshop.emoticon(reward)}\n`;
   }
   const text = `*${premium ? '🎟️ Recompensa Premium' : '🆓 Recompensa Gratis'}*\n*${minar}*\n*${money} ${global.rpgshop.emoticon('money')}*\n\n🍁 𝗕 𝗢 𝗡 𝗢\n${texto}\n\n🎟️ 𝗣 𝗥 𝗘 𝗠 𝗜 𝗨 𝗠 ⇢ ${premium ? '✅' : '❌'}\n${wm}`;
-  await conn.sendFile(m.chat, pp, 'yotsuba.jpg', text, m);
+  await conn.sendFile(m.chat, pp, 'yoshiko.jpg', text, m);
   user.lastcoins = new Date * 1;
 };
 handler.help = ['minar2'];
 handler.tags = ['gata'];
-handler.command = ['minar2', 'miming2', 'mine2', 'minarsakucoins', 'minarcoins', 'minarshin'];
+handler.command = ['minar2', 'miming2', 'mine2', 'minaryoshi', 'minarcoins', 'minarshin'];
 handler.fail = null;
 handler.exp = 0;
 export default handler;
