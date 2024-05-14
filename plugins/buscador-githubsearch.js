@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 const handler = async (m, {conn, text, usedPrefix, command}) => {
-  if (!text) throw `*📍 Ingrese un texto para buscar, Ejemplo: ${usedPrefix + command} Yotsuba-Nakano-MD*`;
+  if (!text) throw `*📍 Ingrese un texto para buscar, Ejemplo: ${usedPrefix + command} YoshikoBot-MD*`;
   const res = await fetch(global.API('https://api.github.com', '/search/repositories', {
     q: text,
   }));
@@ -18,7 +18,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
 ${repo.description ? `⏳️ *Descripción:*\n${repo.description}` : ''}
 `.trim()}).join('\n\n◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦\n\n');
   conn.sendMessage(m.chat, {text: str.trim()}, {quoted: m})
-//conn.sendMessage(m.chat, {text: str.trim(), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [m.sender], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen, "mediaUrl": `https://github.com/Diego-YL-177/Yotsuba-Nakano-MD`, "sourceUrl": `https://github.com/Diego-YL-177/Yotsuba-Nakano-MD`}}}, {quoted: m});  
+//conn.sendMessage(m.chat, {text: str.trim(), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [m.sender], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen, "mediaUrl": `https://github.com/Diego-YL-177/YoshikoBot-MD`, "sourceUrl": `https://github.com/Diego-YL-177/YoshikoBot-MD`}}}, {quoted: fkontak});  
 };
 handler.help = ['githubs'];
 handler.tags = ['buscadores'];
