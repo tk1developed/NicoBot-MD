@@ -37,7 +37,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 │
 │•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•
 │
-│➸ 𝐘𝐨𝐭𝐬𝐮𝐛𝐚 𝐍𝐚𝐤𝐚𝐧𝐨 - 𝐌𝐃 🪐
+│➸ 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁 - 𝗠𝗗 🪐
 ╰━━━━━━･❪ ❁ ❫ ･━━━━━━❖`.trim();
   const doc = [
     "pdf",
@@ -48,22 +48,22 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://github.com/Diego-YL-177/Yotsuba-Nakano-MD` },
+    document: { url: `https://github.com/Diego-YL-177/YoshikoBot-MD` },
     mimetype: `application/${document}`,
-    fileName: `𝐘𝐨𝐭𝐬𝐮𝐧𝐚 𝐍𝐚𝐤𝐚𝐧𝐨 🪐`,
+    fileName: `𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 - 𝐌𝐃 🌺`,
     fileLength: 99999999999999,
     pageCount: 200,
     contextInfo: {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://github.com/Diego-YL-177/Yotsuba-Nakano-MD",
+        mediaUrl: "https://github.com/Diego-YL-177/YoshikoNot-MD",
         mediaType: 2,
         previewType: "pdf",
         title: "𝐁𝐲: Dɪᴇɢᴏ.Oғᴄ",
         body: wm,
         thumbnail: imagen6,
-        sourceUrl: "https://github.com/Diego-YL-177/Yotsuba-Nakano-MD",
+        sourceUrl: "https://github.com/Diego-YL-177/YoshikoBot-MD",
       },
     },
     caption: info,
