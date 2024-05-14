@@ -141,21 +141,21 @@ return await conn.reply(m.chat, '⛔ 𝙲𝚎𝚛𝚛𝚊𝚗𝚍𝚘 :𝚌', fk
 }
 if (reason === DisconnectReason.restartRequired) {
 jddt()
-return console.log('🌺 𝙻𝚊 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚍𝚎 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝 𝚜𝚎 𝚑𝚊 𝚛𝚎𝚖𝚙𝚕𝚊𝚣𝚊𝚍𝚘, 𝚜𝚎 𝚑𝚊 𝚊𝚋𝚒𝚎𝚛𝚝𝚘 𝚗𝚞𝚎𝚟𝚊 𝚜𝚎𝚜𝚜𝚒𝚘𝚗, 𝚙𝚘𝚛 𝚏𝚊𝚟𝚘𝚛, 𝚌𝚒𝚎𝚛𝚛𝚎 𝚕𝚊 𝚜𝚎𝚜𝚜𝚒𝚘𝚗 𝚙𝚛𝚒𝚖𝚎𝚛𝚊 𝚍𝚎 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝')
+return console.log('🌺 Conexión reemplazada, se ha abierto otra nueva sesion, por favor, cierra la sesión actual primero')
 } else if (reason === DisconnectReason.loggedOut) {
 sleep(4000)
-return conn.reply(m.chat, '🍂 *𝙻𝚊 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚜𝚎 𝚑𝚊 𝚌𝚎𝚛𝚛𝚊𝚍𝚘, 𝚝𝚎𝚗𝚍𝚛𝚊𝚜 𝚚𝚞𝚎 𝚟𝚘𝚕𝚟𝚎𝚛 𝚊 𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚛𝚜𝚎 𝚞𝚜𝚊𝚗𝚍𝚘:*\n!deletesesion (𝙿𝚊𝚛𝚊 𝚎𝚕𝚒𝚖𝚒𝚗𝚊𝚛 𝚕𝚘𝚜 𝚍𝚊𝚝𝚘𝚜 𝚍𝚎 𝚜𝚎𝚜𝚜𝚒𝚘𝚗 𝚢 𝚙𝚘𝚍𝚎𝚛 𝚊 𝚟𝚘𝚕𝚟𝚎𝚛 𝚜𝚘𝚕𝚒𝚌𝚒𝚝𝚊𝚛 𝚗𝚞𝚎𝚟𝚘 𝚌𝚘𝚍𝚒𝚐𝚘 𝚚𝚛 𝚘 𝚌𝚘𝚍𝚒𝚐𝚘 𝚍𝚎 𝚎𝚖𝚙𝚊𝚛𝚎𝚓𝚊𝚖𝚒𝚎𝚗𝚝𝚘 𝚙𝚊𝚛𝚊 𝚊𝚌𝚝𝚒𝚟𝚊𝚛 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝', fkontak)
+return conn.reply(m.chat, '🍂 *La conexión se ha cerrado, tendras que volver a conectarse usando:*\n!deletesesion (Para borrar los datos y poder volver a solitar el QR o el código de emparejamiento', fkontak)
 } else if (reason == 428) {
 await endSesion(false)
 return conn.reply(m.chat, '🎌 *𝙻𝚊 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚜𝚎 𝚌𝚎𝚛𝚛𝚘 𝚜𝚎 𝚒𝚗𝚝𝚎𝚗𝚝𝚊𝚛𝚊 𝚛𝚎𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚛 :𝙳*', fkontak)
 } else if (reason === DisconnectReason.connectionLost) {
 await jddt()
-return console.log('🌸 𝙲𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚙𝚎𝚛𝚍𝚒𝚍𝚊 𝚌𝚘𝚗 𝚎𝚕 𝚜𝚎𝚛𝚟𝚒𝚍𝚘𝚛, 𝚛𝚎𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚗𝚍𝚘 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝 :𝚅')
+return console.log('🌸 𝙲𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚙𝚎𝚛𝚍𝚒𝚍𝚜 𝚌𝚘𝚗 𝚎𝚕 𝚜𝚎𝚛𝚟𝚒𝚍𝚘𝚛, 𝚛𝚎𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚗𝚍𝚘 𝚕𝚊 𝚜𝚞𝚋𝚋𝚘𝚝 :𝚅')
 } else if (reason === DisconnectReason.badSession) {
-return await conn.reply(m.chat, '🔮 𝙻𝚊 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚜𝚎 𝚑𝚊 𝚌𝚎𝚛𝚛𝚊𝚍𝚘, 𝚍𝚎𝚋𝚎𝚛𝚊 𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚛𝚜𝚎 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎', fkontak)
+return await conn.reply(m.chat, '🔮 𝙻𝚜 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚜𝚎 𝚑𝚊 𝚌𝚎𝚛𝚛𝚊𝚍𝚘, 𝚍𝚎𝚋𝚎𝚛𝚊 𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚛𝚜𝚎 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎', fkontak)
 } else if (reason === DisconnectReason.timedOut) {
 await endSesion(false)
-return console.log('🎋 𝚃𝚒𝚎𝚖𝚙𝚘 𝚍𝚎 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚊𝚐𝚘𝚝𝚊𝚍𝚘, 𝚛𝚎𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚗𝚍𝚘 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝....')
+return console.log('🎋 𝚃𝚒𝚎𝚖𝚙𝚘 𝚍𝚎 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚊𝚐𝚘𝚝𝚊𝚍𝚘, 𝚛𝚎𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚗𝚍𝚘 𝚕𝚊 𝚜𝚞𝚋𝚋𝚘𝚝....')
 } else {
 console.log('🌈 𝚁𝚊𝚣𝚘𝚗 𝚍𝚎 𝚍𝚎𝚜𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚍𝚎𝚜𝚌𝚘𝚗𝚘𝚌𝚒𝚍𝚊: ${reason || ""} >> ${connection || ""}')
 }}
@@ -163,8 +163,8 @@ if (global.db.data == null) loadDatabase()
 if (connection == `open`) {
 conn.isInit = true
 global.conns.push(conn)
-await parentw.sendMessage(m.chat, {text : args[0] ? `🌺 𝚅𝚊𝚕𝚎, 𝚏𝚞𝚎 𝚝𝚘𝚍𝚘 𝚞𝚗 𝚎𝚡𝚒𝚝𝚘 𝚊𝚑𝚘𝚛𝚊 𝚎𝚛𝚎𝚜 𝚞𝚗𝚊 𝚂𝚞𝚋-𝙱𝚘𝚝 :𝟹` : `🍄 𝙻𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝 𝚎𝚜𝚝𝚊 𝚊𝚌𝚝𝚒𝚟𝚊, 𝚞𝚜𝚎 𝚜𝚞 (𝙸𝙳) 𝚙𝚊𝚛𝚊 𝚊𝚌𝚝𝚒𝚟𝚊𝚛 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝`}, { quoted: fkontak })
-await parentw.sendMessage(m.chat, {text : `🍂 𝙻𝚊 𝚋𝚘𝚝 𝚢𝚊 𝚎𝚜𝚝𝚊 𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚍𝚊, 𝚎𝚜𝚙𝚎𝚛𝚎 𝚞𝚗 𝚖𝚘𝚖𝚎𝚗𝚝𝚘...`}, { quoted: fkontak })
+await parentw.sendMessage(m.chat, {text : args[0] ? `🌺 𝚅𝚊𝚕𝚎 𝚏𝚞𝚎 𝚝𝚘𝚍𝚘 𝚞𝚗 𝚎𝚡𝚒𝚝𝚘 𝚊𝚑𝚘𝚛𝚊 𝚎𝚛𝚎𝚜 𝚞𝚗𝚊 𝚂𝚞𝚋-𝙱𝚘𝚝 :𝟹` : `🍃 𝚅𝚊𝚕𝚎 𝚏𝚞𝚎 𝚝𝚘𝚍𝚘 𝚞𝚗 𝚎𝚡𝚒𝚝𝚘 𝚊𝚑𝚘𝚛𝚊 𝚎𝚛𝚎𝚜 𝚞𝚗𝚊 𝚂𝚞𝚋-𝙱𝚘𝚝 :𝟹`}, { quoted: fkontak })
+await parentw.sendMessage(m.chat, {text : `❤️ 𝚅𝚊𝚕𝚎, 𝚎𝚜𝚘 𝚏𝚞𝚎 𝚝𝚘𝚍𝚘 𝚞𝚗 𝚎𝚡𝚒𝚝𝚘 𝚊𝚑𝚘𝚛𝚊 𝚎𝚛𝚎𝚜 𝚞𝚗𝚊 𝚂𝚞𝚋-𝙱𝚘𝚝 :𝟹`}, { quoted: fkontak })
 await sleep(5000)
 if (!args[0]) parentw.sendMessage(m.chat, {text : usedPrefix + command + ' ' + Buffer.from(fs.readFileSync('./jadibts/' + id + '/creds.json'), 'utf-8').toString('base64')}, { quoted: fkontak })    
 
@@ -231,7 +231,7 @@ Object.keys(conn.chats).forEach(jid => {
 conn.chats[jid].isBanned = false
 })
 } else {
-console.log(conn.chats, `🌻 𝙴𝚜𝚙𝚎𝚛𝚎 𝚕𝚊 𝚋𝚘𝚝 𝚎𝚜𝚝𝚊 𝚕𝚎𝚢𝚎𝚗𝚍𝚘 𝚕𝚘𝚜 𝚖𝚎𝚗𝚜𝚊𝚓𝚎𝚜...`, conn.ev)
+console.log(conn.chats, `🌺 𝙴𝚜𝚙𝚎𝚛𝚎 𝚕𝚊 𝚋𝚘𝚝 𝚎𝚜𝚝𝚊 𝚕𝚎𝚢𝚎𝚗𝚍𝚘 𝚕𝚘𝚜 𝚖𝚎𝚗𝚜𝚊𝚓𝚎𝚜...`, conn.ev)
 Object.keys(conn.chats).forEach(jid => {
 conn.chats[jid].isBanned = true
 })
