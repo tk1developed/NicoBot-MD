@@ -33,7 +33,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 
 ➪ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
 
-➪ git clone https://github.com/Diego-YL-177/Yotsuba-Nakano-MD.git && cd Yotsuba-Nakano-MD
+➪ git clone https://github.com/Diego-YL-177/YoshikoBot-MD.git && cd YoshikoBot-MD
 
 ➪ yarn install
 
@@ -47,15 +47,15 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 
 ➪ cd
 
-➪ cd Yotsuba-Nakano-MD
+➪ cd YoshikoBot-MD
 
 ➪ npm start
 
 💚 *Obtener Otro Codigo Qr* 📍
 
-➪ cd Yotsuba-Nakano-MD
+➪ cd YoshikoBot-MD
 
-➪ rm -rf NakanoSession
+➪ rm -rf sessions
 
 ➪ npm start
 
@@ -69,10 +69,10 @@ const document = doc[Math.floor(Math.random() * doc.length)];
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
     }
   } catch {
-    conn.reply(m.chat, '📍 *Ocurrió Un Error*', m);
+    conn.reply(m.chat, '🍃 Ocurrió Un Error', m);
   }
 };
-handler.command = /^(instalarbot|descargarbot|activarbot)$/i;
+handler.command = /^(instalarbot|descargarbot|activarbot|instalaryoshiko)$/i;
 handler.register = true
 handler.exp = 50;
 handler.fail = null;
