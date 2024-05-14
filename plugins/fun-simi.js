@@ -1,7 +1,7 @@
 import translate from '@vitalets/google-translate-api';
 import fetch from 'node-fetch';
 const handler = async (m, {text, command, args, usedPrefix}) => {
-  if (!text) return conn.reply(m.chat, `Hola quiere hablar un rato conmigo?\nescriba un texto para hablar conmigo\n\n🍃 *Ejemplo: !bot Hola Yotsuba*`, m, fake, )
+  if (!text) return conn.reply(m.chat, `Hola quiere hablar un rato conmigo?\nescriba un texto para hablar conmigo\n\n🍃 *Ejemplo: !bot Hola Yoshiko*`, m, fake, )
 await conn.sendMessage(m.chat, { react: { text: '🗣️', key: m.key } })
   try {
     const api = await fetch('https://api.simsimi.net/v2/?text=' + text + '&lc=es');
@@ -27,7 +27,7 @@ await conn.sendMessage(m.chat, { react: { text: '🗣️', key: m.key } })
 };
 handler.help = ['simi']
 handler.tags = ['juegos']
-handler.command = /^((sim)?simi|bot|alexa|siri|yotsuba(nakano)?)$/i
+handler.command = /^((sim)?simi|bot|alexa|siri|yoshiko(shiko)?)$/i
 
 handler.register = true
 
