@@ -2,7 +2,7 @@
 
 ## Yoshiko - Bot - MD ☄️
 <p align="center">
-<img src= "https://telegra.ph/file/cf02ded2ea39b8ef3ba88.png" alt="Yoshiko" width="900"/>
+<img src= "https://telegra.ph/file/5491300d0a64ddef22977.jpg" alt="Yoshiko" width="900"/>
 </p>
 
 
