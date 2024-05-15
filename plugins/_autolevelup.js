@@ -1,7 +1,7 @@
 //import db from '../lib/database.js'
 import { canLevelUp } from '../lib/levelling.js'
 
-export async function before(m, { conn }) {
+export async function before(fkontak, { conn }) {
     let user = global.db.data.users[m.sender]
     if (!user.autolevelup)
         return !0
@@ -12,11 +12,11 @@ export async function before(m, { conn }) {
     if (before !== user.level) {
         m.reply(`╭─╮─᤻─᳒─᤻᳒「░⃟⃜🍃₎۬۟〬𝙰𝚄𝚃𝙾𝙻𝙴𝚅𝙴𝙻𝚄𝙿 ░⃟⃜🌺」        
 ╏• 
-╏➺  *🍂 𝐅𝐞𝐥𝐢𝐜𝐢𝐝𝐚𝐝𝐞𝐬 𝐒𝐮𝐛𝐢𝐫𝐭𝐞 𝐃𝐞 𝐍𝐢𝐯𝐞𝐥 🍁*
-╏➺  *Nɪᴠᴇʟ Aɴᴛɪɢᴜᴏ : ${before}* 
-╏➺  *Nᴜᴇᴠᴏ Nɪᴠᴇʟ : ${user.level}*
-╏➺  *Rᴀɴɢᴏ : ${user.role}*
-╏➺  *Fᴇᴄʜᴀ : ${new Date().toLocaleString('id-ID')}*
+┃֪࣪➺  *🍂 𝐅𝐞𝐥𝐢𝐜𝐢𝐝𝐚𝐝𝐞𝐬 𝐒𝐮𝐛𝐢𝐫𝐭𝐞 𝐃𝐞 𝐍𝐢𝐯𝐞𝐥 🍁*
+┃֪࣪➺  *Nɪᴠᴇʟ Aɴᴛɪɢᴜᴏ : ${before}* 
+┃֪࣪➺  *Nᴜᴇᴠᴏ Nɪᴠᴇʟ : ${user.level}*
+┃֪࣪➺  *Rᴀɴɢᴏ : ${user.role}*
+┃֪࣪➺  *Fᴇᴄʜᴀ : ${new Date().toLocaleString('id-ID')}*
 *╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫*`.trim())
     }
 } 
