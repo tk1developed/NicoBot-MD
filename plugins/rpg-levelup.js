@@ -1,6 +1,5 @@
-import { canLevelUp, xpRange } from '../lib/levelling.js'
-import { levelup } from '../lib/canvas.js'
-import can from 'knights-canvas'
+import {canLevelUp, xpRange} from '../lib/levelling.js';
+import {levelup} from '../lib/canvas.js';
 
 let handler = async (m, { conn }) => {
 
@@ -36,7 +35,7 @@ if (before !== user.level) {
 
 let str = `🍃 F E L I C I T A C I O N E S 🌺 
 
-*${before}* ➔ *${user.level}* [ *${user.role}* ]
+*${before}* ➔ *${user.level}* [ *.${user.role}* ]
 
 • 🏷 Nivel Antiguo : ${before}
 • 🍃 Nuevos Niveles : ${user.level}
