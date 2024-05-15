@@ -964,8 +964,8 @@ export async function handler(chatUpdate) {
         global.db.data.chats[m.chat] = {
           isBanned: false,
           welcome: true,
-          detect: true,
-          detect2: false,
+          detect: false,
+          detect2: true,
           sWelcome: '',
           sBye: '',
           sPromote: '',
