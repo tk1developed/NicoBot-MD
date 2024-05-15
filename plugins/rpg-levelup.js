@@ -1,56 +1,123 @@
-import {canLevelUp, xpRange} from '../lib/levelling.js';
-import {levelup} from '../lib/canvas.js';
+import { canLevelUp, xpRange } from '../lib/levelling.js'
+import { levelup } from '../lib/canvas.js' 
 
-let handler = async (m, { conn }) => {
+//import { xpRange } from '../lib/levelling.js'
+import PhoneNumber from 'awesome-phonenumber'
+import { promises } from 'fs'
+import { join } from 'path'
+let handler = async (m, { conn, usedPrefix, command, args, usedPrefix: _p, __dirname, isOwner, text, isAdmin, isROwner }) => {
 
-function test(num, size) {
-var s = num+''
-while (s.length < size) s = '0' + s
-return s
+const { levelling } = '../lib/levelling.js'
+//let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) => {
+
+let { exp, limit, level, role } = global.db.data.users[m.sender]
+let { min, xp, max } = xpRange(level, global.multiplier)
+
+let d = new Date(new Date + 3600000)
+let locale = 'es'
+let weton = ['Pahing', 'Pon', 'Wage', 'Kliwon', 'Legi'][Math.floor(d / 84600000) % 5]
+let week = d.toLocaleDateString(locale, { weekday: 'long' })
+let date = d.toLocaleDateString(locale, {
+day: 'numeric',
+month: 'long',
+year: 'numeric' 
+})
+let dateIslamic = Intl.DateTimeFormat(locale + '-TN-u-ca-islamic', {
+day: 'numeric',
+month: 'long',
+year: 'numeric'
+}).format(d)
+let time = d.toLocaleTimeString(locale, {
+hour: 'numeric',
+minute: 'numeric',
+second: 'numeric'
+})
+let _uptime = process.uptime() * 1000
+let _muptime
+if (process.send) {
+process.send('uptime')
+_muptime = await new Promise(resolve => {
+process.once('message', resolve)
+setTimeout(resolve, 1000)
+}) * 1000
 }
+let { money } = global.db.data.users[m.sender]
+let muptime = clockString(_muptime)
+let uptime = clockString(_uptime)
+let totalreg = Object.keys(global.db.data.users).length
+let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
+let replace = {
+'%': '%',
+p: _p, uptime, muptime,
+me: conn.getName(conn.user.jid),
 
-let user = global.db.data.users[m.sender]
+exp: exp - min,
+maxexp: xp,
+totalexp: exp,
+xp4levelup: max - exp,
+
+level, limit, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
+readmore: readMore
+}
+text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
+//let name = await conn.getName(m.sender)
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let mentionedJid = [who]
+let username = conn.getName(who)
+//let user = global.db.data.users[m.sender]
+//user.registered = false
+//let handler = async (m, { conn }) => {
+//let { role } = global.db.data.users[m.sender]
 let name = conn.getName(m.sender)
-let whoPP = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let ppBot = await conn.profilePictureUrl(whoPP, 'image').catch((_) => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
-
-let image = await new can.Rank().setAvatar(ppBot).setUsername(name ? name.replaceAll('\n','') : '-').setBg('https://telegra.ph/file/3cb040ecc09693d1c21de.jpg').setNeedxp(wm).setCurrxp(`${user.exp}`).setLevel(`${user.level}`).setRank('https://i.ibb.co/Wn9cvnv/FABLED.png').toAttachment()
-let data = image.toBuffer()
-
-let { role } = global.db.data.users[m.sender]
+let user = global.db.data.users[m.sender]
 if (!canLevelUp(user.level, user.exp, global.multiplier)) {
 let { min, xp, max } = xpRange(user.level, global.multiplier)
+throw `╭━━━[ 🍂 𝙽𝙸𝚅𝙴𝙻 🌺 ]━━━━⬣
+┃ 𝗖𝗹𝗶𝗲𝗻𝘁𝗲:
+┃ ${name}
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃ 𝗡𝗶𝘃𝗲𝗹: *${user.level}*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃ 𝗥𝗮𝗻𝗴𝗼: ${user.role}
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃ *𝗘𝘅𝗽:* *${user.exp - min}/${xp}*
+╰━━━〔 🌺 𝙱𝙾𝚃 - 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 〕━━━━━⬣
 
-let le = `*Nombre* ${name}
+*Te falta ${max - user.exp} de XP para subir de nivel*
+`.trim()}
 
-Nivel *${user.level}* 🍃
-XP *${user.exp - min} / ${xp}*
-
-No es suficiente XP *${max - user.exp}* ¡De nuevo! 🌺`
-await conn.sendMessage(m.chat, { image: data, caption: le }, { quoted: fkontak })
-}
 let before = user.level * 1
 while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
 if (before !== user.level) {
+let teks = `Bien hecho! ${conn.getName(m.sender)} Nivel: ${user.level}`
+let str = `╭━━━[ 🍂 𝙽𝙸𝚅𝙴𝙻 🌺 ]━━━━⬣
+┃ 𝗡𝗶𝘃𝗲𝗹 𝗔𝗻𝘁𝗶𝗴𝘂𝗼: *${before}*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃ 𝗡𝘂𝗲𝘃𝗼 𝗡𝗶𝘃𝗲𝗹: *${user.level}*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃ 𝗥𝗮𝗻𝗴𝗼: ${user.role}
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃ 𝗙𝗲𝗰𝗵𝗮: *${new Date().toLocaleString('id-ID')}*
+╰━━━〔 🌺 𝙱𝙾𝚃 - 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 〕━━━━━⬣
 
-let str = `🍃 F E L I C I T A C I O N E S 🌺 
-
-*${before}* ➔ *${user.level}* [ *${user.role}* ]
-
-• 🏷 Nivel Antiguo : ${before}
-• 🍃 Nuevos Niveles : ${user.level}
-• 📅 Fecha : ${new Date().toLocaleString('id-ID')}
-
-*Nota:* _Cuanto más a menudo interactúes con la bot, mayor será tu nivel_`
+👑 𝙲𝚄𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙸𝙽𝚃𝙴𝚁𝙰𝙲𝚃𝚄𝙴𝚂 𝙲𝙾𝙽 𝙻𝙰 𝙱𝙾𝚃, 𝙼𝙰𝚈𝙾𝚁 𝚂𝙴𝚁𝙰 𝚃𝚄 𝙽𝙸𝚅𝙴𝙻!!
+*_Actualiza tú rango con el comando ${usedPrefix}rol!!_*`.trim()
 try {
-await conn.sendMessage(m.chat, { image: data, caption: str }, { quoted: fkontak })
+const img = await levelup(teks, user.level)
+conn.sendMessage(m.chat, {image: {url: imagen6}, caption: str, mentions: conn.parseMention(str)}, {quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+//conn.sendFile(m.chat, img, 'levelup.jpg', str, m)
 } catch (e) {
 m.reply(str)
-}}
-
-}
+}}}
 handler.help = ['levelup']
-handler.tags = ['rg']
-handler.command = ['nivel', 'lvl', 'levelup', 'level']
-
+handler.tags = ['xp']
+handler.command = ['nivel', 'lvl', 'levelup', 'level'] 
 export default handler
+
+const more = String.fromCharCode(8206)
+const readMore = more.repeat(4001)
+function clockString(ms) {
+let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
+let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
+let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}    
