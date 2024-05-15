@@ -1,22 +1,57 @@
-//import db from '../lib/database.js'
-import { canLevelUp } from '../lib/levelling.js'
+import { canLevelUp, xpRange } from '../lib/levelling.js'
+import { levelup } from '../lib/canvas.js'
+import can from 'knights-canvas'
 
-export async function before(m, { conn }) {
-    let user = global.db.data.users[m.sender]
-    if (!user.autolevelup)
-        return !0
-    let before = user.level * 1
-    while (canLevelUp(user.level, user.exp, global.multiplier))
-        user.level++
-    //user.role = global.rpg.role(user.level).name
-    if (before !== user.level) {
-        m.reply(`╭─╮─᤻─᳒─᤻᳒「░⃟⃜🍭ꪳ۫₎۬۟〬𝙰𝚄𝚃𝙾𝙻𝙴𝚅𝙴𝙻𝚄𝙿 ░⃟⃜🐾⁩」        
-├• 
-├❥  *🍧 𝙵𝙴𝙻𝙸𝙲𝙸𝙳𝙰𝙳𝙴𝚂 𝚂𝚄𝙱𝙸𝚁𝚃𝙴 𝙳𝙴𝙻 𝙽𝙸𝚅𝙴𝙻 🥳*
-├❥ᰰຼ  *𝙽𝙸𝚅𝙴𝙻 𝙰𝙽𝚃𝙴𝚁𝙸𝙾𝚁 : ${before}* 
-├❥ᰰຼ  *𝙽𝚄𝙴𝚅𝙾 𝙽𝙸𝚅𝙴𝙻 : ${user.level}*
-├❥ᰰຼ  *𝚁𝙰𝙽𝙶𝙾 : ${user.role}*
-├❥ᰰຼ  *𝙵𝙴𝙲𝙷𝙰 : ${new Date().toLocaleString('id-ID')}*
-*╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫*`.trim())
-    }
-} 
+let handler = async (m, { conn }) => {
+
+function test(num, size) {
+var s = num+''
+while (s.length < size) s = '0' + s
+return s
+}
+
+let user = global.db.data.users[m.sender]
+let name = conn.getName(m.sender)
+let whoPP = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let ppBot = await conn.profilePictureUrl(whoPP, 'image').catch((_) => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
+
+let image = await new can.Rank().setAvatar(ppBot).setUsername(name ? name.replaceAll('\n','') : '-').setBg('https://telegra.ph/file/3cb040ecc09693d1c21de.jpg').setNeedxp(wm).setCurrxp(`${user.exp}`).setLevel(`${user.level}`).setRank('https://i.ibb.co/Wn9cvnv/FABLED.png').toAttachment()
+let data = image.toBuffer()
+
+let { role } = global.db.data.users[m.sender]
+if (!canLevelUp(user.level, user.exp, global.multiplier)) {
+let { min, xp, max } = xpRange(user.level, global.multiplier)
+
+let le = `*Nombre* ${name}
+
+Nivel *${user.level}* 🍃
+XP *${user.exp - min} / ${xp}*
+
+No es suficiente XP *${max - user.exp}* ¡De nuevo! 🌺`
+await conn.sendMessage(m.chat, { image: data, caption: le }, { quoted: fkontak })
+}
+let before = user.level * 1
+while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
+if (before !== user.level) {
+
+let str = `🍃 F E L I C I T A C I O N E S 🌺 
+
+*${before}* ➔ *${user.level}* [ *${user.role}* ]
+
+• 🏷 Nivel Antiguo : ${before}
+• 🍃 Nuevos Niveles : ${user.level}
+• 📅 Fecha : ${new Date().toLocaleString('id-ID')}
+
+*Nota:* _Cuanto más a menudo interactúes con la bot, mayor será tu nivel_`
+try {
+await conn.sendMessage(m.chat, { image: data, caption: str }, { quoted: fkontak })
+} catch (e) {
+m.reply(str)
+}}
+
+}
+handler.help = ['levelup']
+handler.tags = ['rg']
+handler.command = ['nivel', 'lvl', 'levelup', 'level']
+
+export default handler
