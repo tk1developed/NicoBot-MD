@@ -47,7 +47,7 @@ else global.conns = []
 
 const jadibot = async (conn, m, command) => {
 const { sendImage, sendMessage, decodeJid, getName } = conn
-if (!global.db.data.settings[conn.user.jid].jadibot) return m.reply(`*⚠️ Este comando fue desabilitado por el creador*`)
+if (!global.db.data.config[conn.user.jid].jadibot) return m.reply(`*⚠️ Este comando fue desabilitado por el creador*`)
 if (conn.user.jid !== global.numBot) return m.reply(m.chat, `「🌺 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 - 𝐌𝐃 🌺」\n\n• 🍃 𝙽𝙾 𝚂𝙴 𝙿𝚄𝙴𝙳𝚁 𝙷𝙰𝙲𝙴𝚁 𝚄𝙽𝙰 𝚂𝚄𝙱-𝙱𝙾𝚃 𝙳𝙴𝙽𝚃𝚁𝙾 𝙳𝙴 𝚄𝙽𝙰 𝚂𝚄𝙱-𝙱𝙾𝚃!\n\n• 🚩 𝙻𝙰 𝙱𝙾𝚃 𝙾𝙵𝙲: Wa.me/${global.conn.user.jid.split`@`[0]}&text=${usedPrefix + command}\n\n「🌺 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 - 𝐌𝐃 🌺」`, fkontak) 
 const mcode = args[0] && args[0].includes('--code') ? true : args[1] && args[1].includes('--code') ? true : false
 
