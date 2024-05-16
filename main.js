@@ -319,7 +319,7 @@ if (opcion == '1' || methodCodeQR) {
  }}
 if (connection == 'open') {
 //await conn.groupAcceptInvite('Eaa9JFA53ps7WHMv2VHbO9')
-console.log(chalk.bold.cyan('\n┏━━━◉━━━━⬤━━━⪩『 🍒 1.0.7 🍒   』⪨━━━⬤━━━━◉━━━┉┉\n LA BOT YA ESTÁ CONECTADA AL WHATSAPP ☄️\n┗━━━◉━━━━⬤━━━⪩『 🍒 1.0.7 🍒   』⪨━━━⬤━━━━◉━━━┉┉\n'))
+console.log(chalk.bold.cyan('\n┏━━━◉━━━━⬤━━━⪩『 🍒  1.0.7 🍒   』⪨━━━⬤━━━━◉━━━┉┉\n LA BOT YA ESTÁ CONECTADA AL WHATSAPP ☄️\n┗━━━◉━━━━⬤━━━⪩『 🍒  1.0.7 🍒   』⪨━━━⬤━━━━◉━━━┉┉\n'))
 //conn.fakeReply('573012482597@s.whatsapp.net', '🍁', '0@s.whatsapp.net', '🇨🇴 Soy la bot\nRecientemente Me E Conectado', '0@s.whatsapp.net')
    }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
