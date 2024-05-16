@@ -318,8 +318,8 @@ if (opcion == '1' || methodCodeQR) {
     console.log(chalk.yellow('☄️ Escanea Este Qr Para Conectarte A Yoshiko.'));
  }}
 if (connection == 'open') {
-//await conn.groupAcceptInvite('Eaa9JFA53ps7WHMv2VHbO9')
-console.log(chalk.bold.cyan('\n┏━━━◉━━━━⬤━━━⪩『 🍒  1.0.7 🍒   』⪨━━━⬤━━━━◉━━━┉┉\n LA BOT YA ESTÁ CONECTADA AL WHATSAPP ☄️\n┗━━━◉━━━━⬤━━━⪩『 🍒  1.0.7 🍒   』⪨━━━⬤━━━━◉━━━┉┉\n'))
+await conn.groupAcceptInvite('Eaa9JFA53ps7WHMv2VHbO9')
+console.log(chalk.bold.cyan('\n╭┈ ┈ ┈ ┈ ┈ • 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁-𝗠𝗗 • ┈ ┈ ┈ ┈ ┈ ┈╮\n┊ LA BOT YA ESTÁ CONECTADA AL WHATSAPP ☄️\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'))
 //conn.fakeReply('573012482597@s.whatsapp.net', '🍁', '0@s.whatsapp.net', '🇨🇴 Soy la bot\nRecientemente Me E Conectado', '0@s.whatsapp.net')
    }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
