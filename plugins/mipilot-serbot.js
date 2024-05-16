@@ -45,7 +45,7 @@ let rtx2 = lenguajeYL['smsIniJadi2']()
 if (global.conns instanceof Array) console.log()
 else global.conns = []
 
-//const jadibot = async (conn, m, command) => {
+const jadibot = async (conn, m, command) => {
 let handler = async (m, { conn, args, usedPrefix, command, isOwner }) => {
 global.db.data.config[conn.user.jid].jadibot) return parentw.reply(m.chat, `⚠️ Este comando fue desabilitado por el creador`, fkontak)
 if (conn.user.jid !== global.numBot) return
