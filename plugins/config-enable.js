@@ -282,13 +282,13 @@ throw false;
 }
 bot.antiPrivate = isEnable;
 break;
-case 'modojadibot':
+case 'modejadibot':
 isAll = true;
 if (!isROwner) {
 global.dfail('rowner', m, conn);
 throw false;
 }
-bot.modejodibot = isEnable;
+bot.modejadibot = isEnable;
 break;
 case 'antispam':
 isAll = true;
