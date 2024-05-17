@@ -80,9 +80,6 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 
 
 ### 🚩 INFINITY - HOST
-[![blog](https://img.shields.io/badge/InfinityHost-Yoshiko-00FFFF?style=for-the-badge&logo=youtube&logoColor=white)
-](https://youtu.be/WR9KCCdisJo?si=Oh6mCQYN1Q3UlUKJ)
-
 <a href="https://dashboard.infinitywa.xyz"><img src="https://qu.ax/TPhh.jpg" height="125px"></a>
 ### Información del Host
 
