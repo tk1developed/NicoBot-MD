@@ -1439,6 +1439,7 @@ export async function participantsUpdate({id, participants, action}) {
             const userPrefix = antiArab.some((prefix) => user.startsWith(prefix));
             const botTt2 = groupMetadata.participants.find((u) => m.conn.decodeJid(u.id) == m.conn.user.jid) || {};
 let about = (await this.fetchStatus(user).catch(console.error) || {}).status || '×'
+let nombregrupo = await m.conn.getName(id)).replace
             text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@bio', about).replace('@subject', await m.conn.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*𝚂𝙸𝙽 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽*') :
                               (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@bio', about).replace('@user', '@' + user.split('@')[0]);
 
@@ -1458,7 +1459,7 @@ mentionedJid:[user],
 "renderLargerThumbnail": true,
 "thumbnail": apii.data, 
 "title": `${action === 'add' ? '乂 𝖶 𝖤 𝖫 𝖢 𝖮 𝖬 𝖤 乂' : '乂 𝖠 𝖣 𝖨 𝖮 𝖲 乂'}`,
-"body": `${action === 'add' ? `${metadata.subject}` : 'Esperamos que Nunca vuelvas :v'}`,
+"body": `${action === 'add' ? `${nombregrupo}` : 'Esperamos que Nunca vuelvas :v'}`,
 "containsAutoReply": true,
 "mediaType": 1, 
 sourceUrl: channel }}}, { quoted: fkontak })
