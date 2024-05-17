@@ -1458,7 +1458,7 @@ mentionedJid:[user],
 "renderLargerThumbnail": true,
 "thumbnail": apii.data, 
 "title": `${action === 'add' ? '乂 𝖶 𝖤 𝖫 𝖢 𝖮 𝖬 𝖤 乂' : '乂 𝖠 𝖣 𝖨 𝖮 𝖲 乂'}`,
-"body": `${action === 'add' ? 'Bienvenido Al Grupo :D' : 'Esperamos que Nunca vuelvas :v'}`,
+"body": `${action === 'add' ? `${metadata.subject}` : 'Esperamos que Nunca vuelvas :v'}`,
 "containsAutoReply": true,
 "mediaType": 1, 
 sourceUrl: channel }}}, { quoted: fkontak })
