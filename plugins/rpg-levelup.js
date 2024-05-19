@@ -100,8 +100,7 @@ let str = `╭━━━[ 🍂 𝙽𝙸𝚅𝙴𝙻 🌺 ]━━━━⬣
 ┃ 𝗙𝗲𝗰𝗵𝗮: *${new Date().toLocaleString('id-ID')}*
 ╰━━━〔 🌺 𝙱𝙾𝚃 - 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 〕━━━━━⬣
 
-👑 𝙲𝚄𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙸𝙽𝚃𝙴𝚁𝙰𝙲𝚃𝚄𝙴𝚂 𝙲𝙾𝙽 𝙻𝙰 𝙱𝙾𝚃, 𝙼𝙰𝚈𝙾𝚁 𝚂𝙴𝚁𝙰 𝚃𝚄 𝙽𝙸𝚅𝙴𝙻!!
-*_Actualiza tú rango con el comando ${usedPrefix}rol!!_*`.trim()
+👑 𝙲𝚄𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙸𝙽𝚃𝙴𝚁𝙰𝙲𝚃𝚄𝙴𝚂 𝙲𝙾𝙽 𝙻𝙰 𝙱𝙾𝚃, 𝙼𝙰𝚈𝙾𝚁 𝚂𝙴𝚁𝙰 𝚃𝚄 𝙽𝙸𝚅𝙴𝙻!!`.trim()
 try {
 const img = await levelup(teks, user.level)
 conn.sendMessage(m.chat, {image: {url: imagen6}, caption: str, mentions: conn.parseMention(str)}, {quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
