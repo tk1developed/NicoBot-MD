@@ -52,18 +52,13 @@ let info = `           \`『ＩＮＦＯ ＤＥＬ ＢＯＴ 』\`
 
 > 🍁 *Creador:* Diego
 > 🌩 *Versión Actual:* ${vs}
-> 🍂 *Prefijo:* *${usedPrefix}*
 > 🔐 *Chats Privados:* *${chats.length - groups.length}*
 > 📮 *Chats De Grupos:* *${groups.length}* 
 > 📩 *Chats En Total:* *${chats.length}* 
-> 🕒 *Activa:* *${uptime}*
-> 📇 *Usuarios Activo En Mi Base:* *${totalreg}*
-> 🚀 *Velocidad:* *${speed}*   
-> 🏷 *Modo:* ${global.db.data.settings[conn.user.jid].self ? '*Privado*' : '*Público*'}
+> 🕒 *Activa:* *${uptime}*   
 > 💬 *Antiprivado:* ${global.db.data.settings[conn.user.jid].antiprivado ? '*Activado ✔*' : '*Desactivado ✘*'}
 > 📵 *Antillamada:* ${global.db.data.settings[conn.user.jid].antiCall ? '*Activado ✔*' : '*Desactivado*'}
 > 🌻 *Autoread:*  ${autoread ? '*Activado ✔*' : '*Desactivado ✘*'}   
-> 🤖 *Sub Jadibts Activas:* *${totaljadibot.length}*
 > ⛔ *Restrict:* ${restrict ? '*Activado ✔*' : '*Desactivado ✘*'}`
 conn.sendMessage(m.chat, { image: { url: "https://telegra.ph/file/623f6e25bee4a80a6cd52.jpg", }, caption: info,
 contextInfo: {
