@@ -9,7 +9,7 @@ const handler = async (m, {conn, participants, groupMetadata, args}) => {
 ┃ ${oi}
 ┃
 ┃ *Admins:*
-┃ ${listAdmin}
+ ${listAdmin}
 ┃
 ┃ 𝗬𝗼𝘀𝗵𝗶𝗸𝗼 𝗕𝗼𝘁 - 𝗠𝗗 🍄
 ╰━━━━━━━━━━━━⬣`.trim();
