@@ -14,15 +14,17 @@ const handler = async (m, {isPrems, conn}) => {
   global.db.data.users[m.sender].exp += expp;
 
   const texto = `
-╔══🎉═🎉═🎉══⬣
-║🧸 *Obtienes Un Cofre*
-║ ${saludo}
-║┈┈┈┈┈┈┈┈┈┈┈┈┈
-║ *${dia} Diamantes* 💎
-║ *${tok} Tokens* 🪙
-║ *${mystic} SakuCoins* 💸
-║ *${expp} Exp* ⚡
-╚═════════════════⬣`;
+╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
+┃🌹 *Obtienes Un Cofre*
+┃ ${saludo}
+╰━━━━━━━━━━━━⬣
+
+╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
+┃ *${dia} Diamantes* 💎
+┃ *${tok} Tokens* 🪙
+┃ *${mystic} YoshiCoins* 💸
+┃ *${expp} Exp* ⚡
+╰━━━━━━━━━━━━⬣`;
 
   const fkontak = {
     'key': {
