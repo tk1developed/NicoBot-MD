@@ -25,12 +25,12 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 
 const document = doc[Math.floor(Math.random() * doc.length)];
- const str = `╭✨️⸽⃕ 𝗬𝗼𝘁𝘀𝘂𝗯𝗮 𝗡𝗮𝗸𝗮𝗻𝗼 🍁⃨፝⃕✰*
-┃➸ 𝗬𝗼𝘁𝘀𝘂𝗯𝗮 𝗡𝗮𝗸𝗮𝗻𝗼 💫
+ const str = `╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 ⛅  〕⬣
+┃➸ ${packname}
 ┃➸ 📍𝖢𝗈𝗅𝖺𝖻𝗈𝗋𝖺𝖽𝗈𝗋𝖾𝗌
-╰◆━━━━━━◆❃◆━━━━━━◆
+╰━━━━━━━━━━━━⬣
 
-*╭🧸⸽⃕𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼𝘀 𝗚𝗶𝘁𝗵𝘂𝗯📍✰*
+╭━〔  𝐂𝐎𝐋𝐀𝐁𝐎𝐑𝐀𝐃𝐎𝐑𝐄𝐒 🍄  〕⬣
 ┃✣➸ 𝖣𝗂𝖾𝗀𝗈:
 ┃ https://github.com/Diego-YL-177
 ┃
@@ -43,9 +43,9 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃✣➸ 𝖬𝖺𝗋𝗂𝗈:
 ┃ https://github.com/elrebelde21
 ┃
-╰◆━━━━━━◆❃◆━━━━━━◆
+╰━━━━━━━━━━━━⬣
 
-╭🧸⸽⃕𝗡𝘂𝗺𝗲𝗿𝗼𝘀 - 𝗖𝗿𝗲𝗮𝗱𝗼𝗿𝗲𝘀📍✰ 
+╭━〔  𝐍𝐔𝐌𝐄𝐑𝐎 🍂  〕⬣
 ┋➸ 𝖣𝗂𝖾𝗀𝗈: 
 ┋@573012482597
 ┋
@@ -58,7 +58,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┋➸ 𝖬𝖺𝗋𝗂𝗈: 
 ┋@5492266613038
 ┋
-╰◈ ━━━━━━━ ⸙ ━━━━━━━`.trim();     if (m.isGroup) { 
+╰━━━━━━━━━━━━⬣`.trim();     if (m.isGroup) { 
  // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
