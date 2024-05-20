@@ -3,13 +3,13 @@ import fetch from 'node-fetch';
 const handler = async (m, {conn, command}) => {
   if (command === 'consejo') {
     const consejo = consejos[Math.floor(Math.random() * consejos.length)];
-    const mensaje = `╭━━━━━━━━ ✤ ━━━━━━━━╮\n⠀⠀😻 𝖢𝗈𝗇𝗌𝖾𝗃𝗈 𝖣𝖾𝗅 𝖣𝗂𝖺 💖\n\n➺ ${consejo}\n\n╰━━━━━━━━ ✤ ━━━━━━━━╯`;
+    const mensaje = `╭━〔  𝐂𝐎𝐍𝐒𝐄𝐉𝐎 🍄  〕⬣\n⠀⠀😻 𝖢𝗈𝗇𝗌𝖾𝗃𝗈 𝖣𝖾𝗅 𝖣𝗂𝖺 💖\n┃ ${consejo}\n╰━━━━━━━━━━━━⬣`;
     await m.reply(mensaje);
   }
 
   if (command === 'fraseromantica') {
     const frase_romantica = frasesromanticas[Math.floor(Math.random() * frasesromanticas.length)];
-    const mensaje = `╭━━━━━━━━ ✤ ━━━━━━━━╮\n⠀⠀😻 𝖥𝗋𝖺𝗌𝖾 𝖱𝗈𝗆𝖺𝗇𝗍𝗂𝖼𝖺 💖\n\n➺ ${frase_romantica}\n\n╰━━━━━━━━ ✤ ━━━━━━━━╯`;
+    const mensaje = `╭━〔  𝐅𝐑𝐀𝐒𝐄 𝐑𝐎𝐌𝐀𝐍𝐓𝐈𝐂𝐀 🍄  〕⬣\n⠀⠀😻 𝖥𝗋𝖺𝗌𝖾 𝖱𝗈𝗆𝖺𝗇𝗍𝗂𝖼𝖺 💖\n┃ ${frase_romantica}\n╰━━━━━━━━━━━━⬣`;
     await m.reply(mensaje);
   }
 
