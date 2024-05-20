@@ -20,20 +20,22 @@ let chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats
 let groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats && !chat.metadata?.read_only && !chat.metadata?.announce).map(v => v[0])
 
 
-let texto = `*🚀 Velocidad*
-• ${latensi.toFixed(4)}
+let texto = `╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
+┃ *🚀 Velocidad*
+┃ • ${latensi.toFixed(4)}
+┃
+┃ *⏰ Actividad*
+┃ • ${muptime}
+┃
+┃ *💌 Chats*
+┃ • ${chats.length} *Chats privados*
+┃ • ${groups.length} *Grupos*
+┃
+┃ *💻 Servidor*
+┃ • *Ram:* ${format(totalmem() - freemem())} / ${format(totalmem())}
+╰━━━━━━━━━━━━⬣`.trim()
 
-*⏰ Actividad*
-• ${muptime}
-
-*💌 Chats*
-• ${chats.length} *Chats privados*
-• ${groups.length} *Grupos*
-
-*💻 Servidor*
-• *Ram:* ${format(totalmem() - freemem())} / ${format(totalmem())}`.trim()
-
-conn.sendMessage(m.chat, { text: texto, contextInfo: { externalAdReply: { title: '', body: 'YOSHIKO - BOT - MD', thumbnailUrl: imagen6, sourceUrl: '', mediaType: 1, renderLargerThumbnail: true }}})
+conn.sendMessage(m.chat, { text: texto, contextInfo: { externalAdReply: { title: packname, body: team, thumbnailUrl: imagen2, sourceUrl: '', mediaType: 1, renderLargerThumbnail: true }}})
 
 }
 handler.help = ['ping']
