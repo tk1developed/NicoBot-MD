@@ -21,13 +21,13 @@ let groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g
 
 
 let texto = `╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
-┃ *🚀 Velocidad*
+┃ *🔮 Velocidad*
 ┃ • ${latensi.toFixed(4)}
 ┃
 ┃ *⏰ Actividad*
 ┃ • ${muptime}
 ┃
-┃ *💌 Chats*
+┃ *📮 Chats*
 ┃ • ${chats.length} *Chats privados*
 ┃ • ${groups.length} *Grupos*
 ┃
