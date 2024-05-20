@@ -1,4 +1,4 @@
-import db from '../lib/database.js'
+/*import db from '../lib/database.js'
 import { createHash } from 'crypto'
 import fs from 'fs'
 import fetch from 'node-fetch'
@@ -58,4 +58,4 @@ handler.tags = ['rg']
 
 handler.command = ['verify', 'reg', 'verificar', 'registrar'] 
 
-export default handler
+export default handler*/
