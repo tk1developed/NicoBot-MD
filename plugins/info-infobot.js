@@ -1,53 +1,87 @@
-/*import { totalmem, freemem } from 'os'
 import os from 'os'
 import util from 'util'
-import osu from 'node-os-utils'
+import sizeFormatter from 'human-readable'
+let MessageType =  (await import(global.baileys)).default
+import fs from 'fs'
 import { performance } from 'perf_hooks'
-import { sizeFormatter } from 'human-readable'
-import speed from 'performance-now'
-import { spawn, exec, execSync } from 'child_process'
-const format = sizeFormatter({ std: 'JEDEC', decimalPlaces: 2, keepTrailingZeroes: false, render: (literal, symbol) => `${literal} ${symbol}B` })
+let handler = async (m, { conn, usedPrefix }) => {
+let _uptime = process.uptime() * 1000
+let uptime = clockString(_uptime) 
+let totalreg = Object.keys(global.db.data.users).length
+const chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats)
+const groupsIn = chats.filter(([id]) => id.endsWith('@g.us'))
+const groups = chats.filter(([id]) => id.endsWith('@g.us'))
+const used = process.memoryUsage()
+const cpus = os.cpus().map(cpu => {
+    cpu.total = Object.keys(cpu.times).reduce((last, type) => last + cpu.times[type], 0)
+    return cpu
+  })
+const cpu = cpus.reduce((last, cpu, _, { length }) => {
+    last.total += cpu.total
+    last.speed += cpu.speed / length
+    last.times.user += cpu.times.user
+    last.times.nice += cpu.times.nice
+    last.times.sys += cpu.times.sys
+    last.times.idle += cpu.times.idle
+    last.times.irq += cpu.times.irq
+    return last
+  }, {
+    speed: 0,
+    total: 0,
+    times: {
+      user: 0,
+      nice: 0,
+      sys: 0,
+      idle: 0,
+      irq: 0
+    }
+  })
+const { restrict } = global.db.data.settings[conn.user.jid] || {}
+const { autoread } = global.opts
+let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
+let pp = './Menu2.jpg'
+//let vn = './media/infobot.mp3'
+let name = await conn.getName(m.sender)
+let old = performance.now()
+  //await m.reply('_Realizando test_')
+  let neww = performance.now()
+  let totaljadibot = [...new Set([...global.conns.filter(conn => conn.user && conn.state !== 'close').map(conn => conn.user)])]
+  let speed = neww - old
 
-var handler = async (m, { conn }) => {
+let info = `           \`『ＩＮＦＯ ＤＥＬ ＢＯＴ 』\`
 
-let timestamp = speed()
-let latensi = speed() - timestamp
-
-let _muptime = process.uptime() * 1000
-let muptime = clockString(_muptime)
-
-let chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats)
-let groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats && !chat.metadata?.read_only && !chat.metadata?.announce).map(v => v[0])
-
-
-let texto = `╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
-┃ *🔮 Velocidad*
-┃ • ${latensi.toFixed(4)}
-┃
-┃ *⏰ Actividad*
-┃ • ${muptime}
-┃
-┃ *📮 Chats*
-┃ • ${chats.length} *Chats privados*
-┃ • ${groups.length} *Grupos*
-┃
-┃ *💻 Servidor*
-┃ • *Ram:* ${format(totalmem() - freemem())} / ${format(totalmem())}
-╰━━━━━━━━━━━━⬣`.trim()
-
-conn.sendMessage(m.chat, { text: texto, contextInfo: { externalAdReply: { title: packname, body: team, thumbnailUrl: imagen2, sourceUrl: '', mediaType: 1, renderLargerThumbnail: true }}})
-
-}
-handler.help = ['ping']
+> 🍁 *Creador:* Diego
+> 🌩 *Versión Actual:* ${vs}
+> 🍂 *Prefijo:* *${usedPrefix}*
+> 🔐 *Chats Privados:* *${chats.length - groups.length}*
+> 📮 *Chats De Grupos:* *${groups.length}* 
+> 📩 *Chats En Total:* *${chats.length}* 
+> 🕒 *Activa:* *${uptime}*
+> 📇 *Usuarios Activo En Mi Base:* *${totalreg}*
+> 🚀 *Velocidad:* *${speed}*   
+> 🏷 *Modo:* ${global.db.data.settings[conn.user.jid].self ? '*Privado*' : '*Público*'}
+> 💬 *Antiprivado:* ${global.db.data.settings[conn.user.jid].antiprivado ? '*Activado ✔*' : '*Desactivado ✘*'}
+> 📵 *Antillamada:* ${global.db.data.settings[conn.user.jid].antiCall ? '*Activado ✔*' : '*Desactivado*'}
+> 🌻 *Autoread:*  ${autoread ? '*Activado ✔*' : '*Desactivado ✘*'}   
+> 🤖 *Sub Jadibts Activas:* *${totaljadibot.length}*
+> ⛔ *Restrict:* ${restrict ? '*Activado ✔*' : '*Desactivado ✘*'}`
+conn.sendMessage(m.chat, { image: { url: "https://telegra.ph/file/623f6e25bee4a80a6cd52.jpg", }, caption: info,
+contextInfo: {
+mentionedJid: [m.sender],
+externalAdReply: {
+title: packname,
+sourceUrl: yt,
+mediaType: 1,
+showAdAttribution: true,
+thumbnailUrl: "https://telegra.ph/file/623f6e25bee4a80a6cd52.jpg",
+handler.help = ['infobot']
 handler.tags = ['info', 'tools']
-handler.command = ['ping', 'speed']
-
-handler.register = true
-
+handler.command = /^(infobot|informacionbot|infoshi|informaciónyoshi|informacionyoshi)$/i
 export default handler
 
 function clockString(ms) {
-let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
-let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
-let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}*/
+let h = Math.floor(ms / 3600000)
+let m = Math.floor(ms / 60000) % 60
+let s = Math.floor(ms / 1000) % 60
+console.log({ms,h,m,s})
+return [h, m, s].map(v => v.toString().padStart(2, 0) ).join(':')}
