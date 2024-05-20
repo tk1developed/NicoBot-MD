@@ -10,7 +10,7 @@ conn.reply(m.chat, `💻 *Guardado en* ${path}`, m, fake, )
 
 }
 handler.help = ['saveplugin']
-handler.tags = ['own']
+handler.tags = ['owner']
 handler.command = ['salvar', 'saveplugin']
 
 handler.rowner = true
