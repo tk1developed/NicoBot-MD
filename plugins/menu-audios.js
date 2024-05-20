@@ -25,51 +25,51 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 
 const document = doc[Math.floor(Math.random() * doc.length)];
- const str = `╭∴━━━ *AUDIOS-BOT* ━━━∴╮
-┃🕊️ 𝖧𝗈𝗅𝖺👋🏻, Soy Yoshiko
-┃🕊️ 𝐄𝐥 𝐌𝐞𝐧𝐮 𝐃𝐞 𝐀𝐮𝐝𝐢𝐨𝐬.
-┃🕊️ 𝐍𝐨 𝐀𝐠𝐚𝐬 𝐒𝐩𝐚𝐦 𝐂𝐨𝐧 𝐋𝐨𝐬 𝐀𝐮𝐝𝐢𝐨𝐬.
-╰◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
+ const str = `╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
+┃ ${packname}
+┃🍁 𝐄𝐥 𝐌𝐞𝐧𝐮 𝐃𝐞 𝐀𝐮𝐝𝐢𝐨𝐬.
+┃🍁 𝐍𝐨 𝐀𝐠𝐚𝐬 𝐒𝐩𝐚𝐦 𝐂𝐨𝐧 𝐋𝐨𝐬 𝐀𝐮𝐝𝐢𝐨𝐬.
+╰━━━━━━━━━━━━⬣
 
-╭✨️⸽⃕ Yᴏᴛsᴜʙᴀ Nᴀᴋᴀɴᴏ 🍁⃨፝⃕✰
-┃✣➸ 🦋 𝑺𝒊𝒏 𝑵𝒊𝒏𝒈𝒖𝒏 𝑷𝒓𝒆𝒇𝒊𝒋𝒐.
-┃✣➸ 🦋 _Quien es tu sempai botsito 7w7_
-┃✣➸ 🦋 _Te diagnostico con gay_
-┃✣➸ 🦋 _No digas eso papu_
-┃✣➸ 🦋 _Fiesta del admin_
-┃✣➸ 🦋 _Fiesta del administrador_ 
-┃✣➸ 🦋 _Vivan los novios_
-┃✣➸ 🦋 _Noche de paz_
-┃✣➸ 🦋 _Buenos dias_
-┃✣➸ 🦋 _Buenas tardes_
-┃✣➸ 🦋 _Buenas noches_
-┃✣➸ 🦋 _Audio hentai_
-┃✣➸ 🦋 _Chica lgante_
-┃✣➸ 🦋 _Feliz navidad_
-┃✣➸ 🦋 _Onichan_
-┃✣➸ 🦋 _Vete a la vrg_
-┃✣➸ 🦋 _Pasa pack Bot_
-┃✣➸ 🦋 _Atencion grupo_
-┃✣➸ 🦋 _Marica quien_
-┃✣➸ 🦋 _Uwu_
-┃✣➸ 🦋 _Murio el grupo_
-┃✣➸ 🦋 _Oh me vengo_
-┃✣➸ 🦋 _tio que rico_
-┃✣➸ 🦋 _Viernes_
-┃✣➸ 🦋 _Baneado_
-┃✣➸ 🦋 _Sexo_
-┃✣➸ 🦋 _Nyanpasu_
-┃✣➸ 🦋 _Te amo_
-┃✣➸ 🦋 _Yamete_
-┃✣➸ 🦋 _La biblia_
-┃✣➸ 🦋 _Mierda de Bot_
-┃✣➸ 🦋 _Siuuu_
-┃✣➸ 🦋 _Epico_
-┃✣➸ 🦋 _Shitpost_
-┃✣➸ 🦋 _Rawr_
-┃✣➸ 🦋 _:c_
-┃✣➸ 🦋 _a_
-╰◈ ━━━━━━━ ⸙ ━━━━━━━`.trim();     if (m.isGroup) { 
+╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐀𝐔𝐃𝐈𝐎𝐒 ✏️  〕⬣
+┃💻 𝑺𝒊𝒏 𝑵𝒊𝒏𝒈𝒖𝒏 𝑷𝒓𝒆𝒇𝒊𝒋𝒐.
+┃ _Quien es tu sempai botsito 7w7_
+┃ _Te diagnostico con gay_
+┃ _No digas eso papu_
+┃ _Fiesta del admin_
+┃ _Fiesta del administrador_ 
+┃ _Vivan los novios_
+┃ _Noche de paz_
+┃ _Buenos dias_
+┃ _Buenas tardes_
+┃ _Buenas noches_
+┃ _Audio hentai_
+┃ _Chica lgante_
+┃ _Feliz navidad_
+┃ _Onichan_
+┃ _Vete a la vrg_
+┃ _Pasa pack Bot_
+┃ _Atencion grupo_
+┃ _Marica quien_
+┃ _Uwu_
+┃ _Murio el grupo_
+┃ _Oh me vengo_
+┃ _tio que rico_
+┃ _Viernes_
+┃ _Baneado_
+┃ _Sexo_
+┃ _Nyanpasu_
+┃ _Te amo_
+┃ _Yamete_
+┃ _La biblia_
+┃ _Mierda de Bot_
+┃ _Siuuu_
+┃ _Epico_
+┃ _Shitpost_
+┃ _Rawr_
+┃ _:c_
+┃ _a_
+╰━━━━━━━━━━━━⬣`.trim();     if (m.isGroup) { 
  // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
