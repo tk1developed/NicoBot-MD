@@ -26,7 +26,7 @@ await conn.sendMessage(m.chat, { react: { text: '🗣️', key: m.key } })
   }
 };
 handler.help = ['simi']
-handler.tags = ['juegos']
+handler.tags = ['fun']
 handler.command = /^((sim)?simi|bot|alexa|siri|yoshiko(shiko)?)$/i
 
 handler.register = true
