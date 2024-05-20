@@ -39,7 +39,7 @@ conn.sendMessage(m.chat, { text: texto, contextInfo: { externalAdReply: { title:
 
 }
 handler.help = ['ping']
-handler.tags = ["info", "tools"]
+handler.tags = ['info', 'tools']
 handler.command = ['ping', 'speed']
 
 handler.register = true
