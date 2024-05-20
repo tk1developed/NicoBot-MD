@@ -2,59 +2,58 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-  const optionsFull = `╭✨️⸽⃕ 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁 - 𝗠𝗗 🍁⃨፝⃕✰
-┣☆ ඬ⃟⚓️ !enable welcome
-┣☆ ඬ⃟⚓️ !disable welcome
-┣☆ ඬ⃟🌐 !enable public
-┣☆ ඬ⃟🌐 !disable public
-┣☆ ඬ⃟🌐 !enable privado
-┣☆ ඬ⃟🌐 !disable privado
-┣☆ ඬ⃟🔥 !enable juegos
-┣☆ ඬ⃟🔥 !disable juegos
-┣☆ ඬ⃟🧸 !enable modohorny
-┣☆ ඬ⃟🧸 !disable modohorny
-┣☆ ඬ⃟🖇️ !enable antilink
-┣☆ ඬ⃟🖇️ !disable antilink
-┣☆ ඬ⃟🖇️ !enable antilink2
-┣☆ ඬ⃟🖇️ !disable antilink2
-┣☆ ඬ⃟🖊️ !enable detect
-┣☆ ඬ⃟🖊️ !disable detect
-┣☆ ඬ⃟🖊️ !enable detect2
-┣☆ ඬ⃟🖊️ !disable detect2
-┣☆ ඬ⃟🎭 !enable restrict
-┣☆ ඬ⃟🎭 !disable restrict
-┣☆ ඬ⃟🔮 !enable autoread
-┣☆ ඬ⃟🔮 !disable autoread
-┣☆ ඬ⃟🛡️ !enable audios
-┣☆ ඬ⃟🛡️ !disable audios
-┣☆ ඬ⃟🛡️ !enable autosticker
-┣☆ ඬ⃟🛡️ !disable autosticker
-┣☆ ඬ⃟🛡️ !enable antiviewonce
-┣☆ ඬ⃟🛡️ !disable antiviewonce
-┣☆ ඬ⃟🛡️ !enable antitoxic
-┣☆ ඬ⃟🛡️ !disable antitoxic
-┣☆ ඬ⃟🛡️ !enable reaction
-┣☆ ඬ⃟🛡️ !disable reaction
-┣☆ ඬ⃟🛡️ !enable antitraba
-┣☆ ඬ⃟🛡️ !disable antitraba
-┣☆ ඬ⃟📡 !enable pconly
-┣☆ ඬ⃟📡 !disable pconly
-┣☆ ඬ⃟📡 !enable gconly
-┣☆ ඬ⃟📡 !disable gconly
-┣☆ ඬ⃟👤 !enable anticall
-┣☆ ඬ⃟👤 !disable anticall
-┣☆ ඬ⃟👤 !enable antirabes
-┣☆ ඬ⃟👤 !disable antirabes
-┣☆ ඬ⃟👤 !enable antirabes2
-┣☆ ඬ⃟👤 !disable antirabes
-┣☆ ඬ⃟🌹 !enable modoadmin
-┣☆ ඬ⃟🌹 !disable modoadmin
-┣☆ ඬ⃟🌹 !enable simsimi
-┣☆ ඬ⃟🌹 !disable simsimi
-┣☆ ඬ⃟🌹 !enable antispam
-┣☆ ඬ⃟🌹 !disable antispam
-╰━━━━━━━✦✗✦━━━━━━━━
-Bʏ: Dɪᴇɢᴏ Oғᴄ 💫`.trim();
+  const optionsFull = `╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
+┣☆ !enable welcome
+┣☆ !disable welcome
+┣☆ !enable public
+┣☆ !disable public
+┣☆ !enable privado
+┣☆ !disable privado
+┣☆ !enable juegos
+┣☆ !disable juegos
+┣☆ !enable modohorny
+┣☆ !disable modohorny
+┣☆ !enable antilink
+┣☆ !disable antilink
+┣☆ !enable antilink2
+┣☆ !disable antilink2
+┣☆ !enable detect
+┣☆ !disable detect
+┣☆ !enable detect2
+┣☆ !disable detect2
+┣☆ !enable restrict
+┣☆ !disable restrict
+┣☆ !enable autoread
+┣☆ !disable autoread
+┣☆ !enable audios
+┣☆ !disable audios
+┣☆ !enable autosticker
+┣☆ !disable autosticker
+┣☆ !enable antiviewonce
+┣☆ !disable antiviewonce
+┣☆ !enable antitoxic
+┣☆ !disable antitoxic
+┣☆ !enable reaction
+┣☆ !disable reaction
+┣☆ !enable antitraba
+┣☆ !disable antitraba
+┣☆ !enable pconly
+┣☆ !disable pconly
+┣☆ !enable gconly
+┣☆ !disable gconly
+┣☆ !enable anticall
+┣☆ !disable anticall
+┣☆ !enable antirabes
+┣☆ !disable antirabes
+┣☆ !enable antirabes2
+┣☆ !disable antirabes
+┣☆ !enable modoadmin
+┣☆ !disable modoadmin
+┣☆ !enable simsimi
+┣☆ !disable simsimi
+┣☆ !enable antispam
+┣☆ !disable antispam
+╰━━━━━━━━━━━━⬣`.trim();
 
 const isEnable = /true|enable|(turn)?on|1/i.test(command);
 const chat = global.db.data.chats[m.chat];
@@ -362,13 +361,13 @@ default:
 if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: fkontak});
 throw false;
 }
-await conn.reply(m.chat, `╭╼〔 ${wm} 〕
+await conn.reply(m.chat, `╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
 ┃֪࣪🍁 𝙾𝙿𝙲𝙸𝙾𝙽: ${type} 
 ┃֪࣪–––––––☆–––––––
 ┃֪࣪🌳 𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
 ┃֪࣪–––––––☆–––––––
-┃֪࣪🌻 𝙿𝙰𝚁𝙰: ${isAll ? '𝚈𝙾𝚃𝚂𝚄𝙱𝙰-𝙽𝙰𝙺𝙰𝙽𝙾-𝙼𝙳' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
-╰━━━⊰ ${team} ⊱━━━━╯`, fkontak, {
+┃֪࣪🌻 𝙿𝙰𝚁𝙰: ${isAll ? '𝚈𝙾𝚂𝙷𝙸𝙺𝙾𝙱𝙾𝚃-𝙼𝙳' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
+╰━━━━━━━━━━━━⬣`, fkontak, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: wm,
 body: `👋 Hola ` + nombre, previewType: 0, thumbnail: imagen6, sourceUrl: global.md}}})} 
