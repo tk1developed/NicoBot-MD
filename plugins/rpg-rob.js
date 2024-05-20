@@ -16,7 +16,7 @@ const handler = async (m, {conn, usedPrefix, command}) => {
   global.db.data.users[m.sender].lastrob = new Date * 1;
 };
 handler.help = ['rob'];
-handler.tags = ['economia'];
+handler.tags = ['econ'];
 handler.command = ['robar', 'rob'];
 export default handler;
 function msToTime(duration) {
