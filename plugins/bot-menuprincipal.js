@@ -1,4 +1,4 @@
-ñimport { promises } from 'fs'
+import { promises } from 'fs'
 import { join } from 'path'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
