@@ -24,8 +24,8 @@ let neww = performance.now()
 let speed = neww - old
 
 let info = `╭━〔  𝐈𝐍𝐅𝐎 𝐁𝐎𝐓 🍄  〕⬣
-┃ *Creador*
-Diego
+┃ *Creador* 
+┃ Diego
 ┃
 ┃ *Versión actual*
 ┃ ${vs}
