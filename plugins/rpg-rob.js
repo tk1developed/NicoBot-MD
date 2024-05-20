@@ -5,7 +5,7 @@ const handler = async (m, {conn, usedPrefix, command}) => {
   let who;
   if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false;
   else who = m.chat;
-  if (!who) throw `*🧸 Etiqueta A Algun Usuario.*`;
+  if (!who) throw `*🍃 Etiqueta A Algun Usuario.*`;
   if (!(who in global.db.data.users)) throw `*💖 Quien Es Ese Usuario?, No Lo Tengo Registrado En Mi Base De Datos!.*`;
   const users = global.db.data.users[who];
   const rob = Math.floor(Math.random() * ro);
@@ -16,7 +16,7 @@ const handler = async (m, {conn, usedPrefix, command}) => {
   global.db.data.users[m.sender].lastrob = new Date * 1;
 };
 handler.help = ['rob'];
-handler.tags = ['econ'];
+handler.tags = ['economia'];
 handler.command = ['robar', 'rob'];
 export default handler;
 function msToTime(duration) {
