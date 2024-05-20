@@ -1,77 +1,69 @@
+import { generateWAMessageFromContent } from '@whiskeysockets/baileys'
 import os from 'os'
 import util from 'util'
 import sizeFormatter from 'human-readable'
-let MessageType =  (await import(global.baileys)).default
+import MessageType from '@whiskeysockets/baileys'
 import fs from 'fs'
 import { performance } from 'perf_hooks'
-let handler = async (m, { conn, usedPrefix }) => {
+
+var handler = async (m, { conn, usedPrefix }) => {
+
 let _uptime = process.uptime() * 1000
 let uptime = clockString(_uptime) 
 let totalreg = Object.keys(global.db.data.users).length
+
 const chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats)
 const groupsIn = chats.filter(([id]) => id.endsWith('@g.us'))
 const groups = chats.filter(([id]) => id.endsWith('@g.us'))
 const used = process.memoryUsage()
-const cpus = os.cpus().map(cpu => {
-    cpu.total = Object.keys(cpu.times).reduce((last, type) => last + cpu.times[type], 0)
-    return cpu
-  })
-const cpu = cpus.reduce((last, cpu, _, { length }) => {
-    last.total += cpu.total
-    last.speed += cpu.speed / length
-    last.times.user += cpu.times.user
-    last.times.nice += cpu.times.nice
-    last.times.sys += cpu.times.sys
-    last.times.idle += cpu.times.idle
-    last.times.irq += cpu.times.irq
-    return last
-  }, {
-    speed: 0,
-    total: 0,
-    times: {
-      user: 0,
-      nice: 0,
-      sys: 0,
-      idle: 0,
-      irq: 0
-    }
-  })
-const { restrict } = global.db.data.settings[conn.user.jid] || {}
-const { autoread } = global.opts
-let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-let pp = './Menu2.jpg'
-//let vn = './media/infobot.mp3'
-let name = await conn.getName(m.sender)
+const { restrict, antiCall, antiprivado, modejadibot } = global.db.data.settings[conn.user.jid] || {}
+const { autoread, gconly, pconly, self } = global.opts || {}
+
 let old = performance.now()
-  //await m.reply('_Realizando test_')
-  let neww = performance.now()
-  let totaljadibot = [...new Set([...global.conns.filter(conn => conn.user && conn.state !== 'close').map(conn => conn.user)])]
-  let speed = neww - old
+let neww = performance.now()
+let speed = neww - old
 
-let info = `           \`『ＩＮＦＯ ＤＥＬ ＢＯＴ 』\`
+let info = `╭━〔  𝐈𝐍𝐅𝐎 𝐁𝐎𝐓 🍄  〕⬣
+┃ *Creador*
+Diego
+┃
+┃ *Versión actual*
+┃ ${vs}
+┃
+┃ *Chats privados*
+┃ ${chats.length - groups.length}
+┃
+┃ *Chats grupales*
+┃ ${groups.length}
+┃
+┃ *Todos los chats*
+┃ ${chats.length}
+┃
+┃ *Actividad*
+┃ ${uptime}
+┃
+┃ *Usuarios*
+┃ ${totalreg}
+┃
+┃ *Velocidad*
+┃ ${speed}
+┃
+┃ *Autoread*
+┃ ${autoread ? 'Habilitado' : 'Deshabilitado'}
+┃
+┃ *Restrict*
+┃ ${restrict ? 'Habilitado' : 'Deshabilitado'}
+╰━━━━━━━━━━━━⬣`
 
-> 🍁 *Creador:* Diego
-> 🌩 *Versión Actual:* ${vs}
-> 🔐 *Chats Privados:* *${chats.length - groups.length}*
-> 📮 *Chats De Grupos:* *${groups.length}* 
-> 📩 *Chats En Total:* *${chats.length}* 
-> 🕒 *Activa:* *${uptime}*   
-> 💬 *Antiprivado:* ${global.db.data.settings[conn.user.jid].antiprivado ? '*Activado ✔*' : '*Desactivado ✘*'}
-> 📵 *Antillamada:* ${global.db.data.settings[conn.user.jid].antiCall ? '*Activado ✔*' : '*Desactivado*'}
-> 🌻 *Autoread:*  ${autoread ? '*Activado ✔*' : '*Desactivado ✘*'}   
-> ⛔ *Restrict:* ${restrict ? '*Activado ✔*' : '*Desactivado ✘*'}`
-conn.sendMessage(m.chat, { image: { url: "https://telegra.ph/file/623f6e25bee4a80a6cd52.jpg", }, caption: info,
-contextInfo: {
-mentionedJid: [m.sender],
-externalAdReply: {
-title: packname,
-sourceUrl: yt,
-mediaType: 1,
-showAdAttribution: true,
-thumbnailUrl: "https://telegra.ph/file/623f6e25bee4a80a6cd52.jpg",
+ conn.sendMessage(m.chat, { text: info, contextInfo: { externalAdReply: { title: packname, body: '🌻 Yoshiko Info', thumbnail: imagen6, sourceUrl: '', mediaType: 1, renderLargerThumbnail: true }}})
+
+}
 handler.help = ['infobot']
-handler.tags = ['info', 'tools']
-handler.command = /^(infobot|informacionbot|infoshi|informaciónyoshi|informacionyoshi)$/i
+handler.tags = ['info']
+handler.command = /^(infobot|Infobot)$/i
+
+handler.register = true
+
 export default handler
 
 function clockString(ms) {
