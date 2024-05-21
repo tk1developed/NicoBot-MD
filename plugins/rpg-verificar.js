@@ -44,8 +44,10 @@ forwardingScore: 9999,
 isForwarded: true, 
 externalAdReply: {
 title: '乂 R E G I S T R O - U S E R 乂',
+body: '𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾 𝙱𝚈: 𝚈𝙾𝚂𝙷𝙸𝙺𝙾 𝙱𝙾𝚃 ✏️',
 thumbnailUrl: img,
 thumbnail: img,
+sourceUrl: '',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: false})
