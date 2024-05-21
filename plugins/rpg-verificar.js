@@ -37,7 +37,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
 ┃ • 245 Exp 💸
 ┃ • 5 Monedas 🪙
 ╰━━━━━━━━━━━━⬣`
-conn.sendMessage(m.chat, {
+/*conn.sendMessage(m.chat, {
 text: str,
 contextInfo: { 
 forwardingScore: 9999, 
@@ -50,7 +50,7 @@ thumbnail: img,
 sourceUrl: channel,
 mediaType: 1,
 renderLargerThumbnail: true
-}}}, { quoted: fkontak })
+}}}, { quoted: fkontak })*/
 
 await m.reply(`${sn}`)}
 handler.help = ['reg'].map(v => v + ' *<nombre.edad>*')
