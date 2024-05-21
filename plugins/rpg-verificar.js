@@ -35,12 +35,12 @@ let regbot = `╭━〔  𝐑 𝐄 𝐆 𝐈 𝐒 𝐓 𝐑 𝐎 📇  〕⬣
 ┃ • 245 Exp 💸
 ┃ • 5 Monedas 🪙
 ╰━━━━━━━━━━━━⬣`
-await m.reply(regbot)
+//await m.reply(regbot)
 await m.reply(`${sn}`)
 
 //await conn.sendMessage(m.chat, { react: { text: '📩', key: m.key } } 
 
-// await conn.sendUrl(m.chat, regbot, m, { externalAdReply: { mediaType: 1, renderLargerThumbnail: true, thumbnail: pp, thumbnailUrl: pp, title: 'Registrado 📩', }})
+ await conn.sendUrl(m.chat, regbot, m, { externalAdReply: { mediaType: 1, renderLargerThumbnail: true, thumbnail: pp, thumbnailUrl: pp, title: 'Registrado 📩', }})
 
 }
 handler.help = ['reg']
