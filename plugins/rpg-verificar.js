@@ -40,9 +40,11 @@ let regbot = `╭━〔  𝐑 𝐄 𝐆 𝐈 𝐒 𝐓 𝐑 𝐎 📇  〕⬣
 ╭━〔  𝐍𝐔𝐌𝐄𝐑𝐎 𝐃𝐄 𝐒𝐄𝐑𝐈𝐄 ✏️  〕⬣
 ┃ ${sn}
 ╰━━━━━━━━━━━━⬣`
+await m.reply(regbot)
+await conn.sendMessage(m.chat, { react: { text: '📩', key: m.key } } 
 // await conn.sendUrl(m.chat, regbot, m, { externalAdReply: { mediaType: 1, renderLargerThumbnail: true, thumbnail: pp, thumbnailUrl: pp, title: 'Registrado 📩', }})
 
-await m.reply(regbot) }
+}
 handler.help = ['reg']
 handler.tags = ['rg']
 handler.command = ['verify', 'reg', 'verificar', 'registrar'] 
