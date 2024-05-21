@@ -40,7 +40,7 @@ await m.reply(`${sn}`)
 
 //await conn.sendMessage(m.chat, { react: { text: '📩', key: m.key } } 
 
- await conn.sendUrl(m.chat, regbot, m, { externalAdReply: { mediaType: 1, renderLargerThumbnail: true, thumbnail: pp, thumbnailUrl: pp, title: 'Registrado 📩', }})
+ await conn.reply(m.chat, regbot, m, { externalAdReply: { mediaType: 1, renderLargerThumbnail: true, thumbnail: pp, thumbnailUrl: pp, title: 'Registrado 📩', }})
 
 }
 handler.help = ['reg']
