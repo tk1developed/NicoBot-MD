@@ -6,6 +6,7 @@ import {generateWAMessageFromContent} from '@whiskeysockets/baileys';
 import {tiktokdl} from '@bochilteam/scraper';
 const CFROSAPI = global.APIs.CFROSAPI;
 const handler = async (m, {conn, text, args, usedPrefix, command}) => {
+m.react('🕒') 
   if (!text) throw `_*< DESCARGAS - TIKTOK />*_\n\n*🍁 Iɴɢʀᴇsᴇ Uɴ Eɴʟᴀᴄᴇ Dᴇ Vɪᴅᴇᴏ Dᴇ TɪᴋTᴏᴋ.*\n\n*🌳 Eᴊᴇᴍᴘʟᴏ:* _${usedPrefix + command} https://vm.tiktok.com/ZM6UHJYtE/_`;
   if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `*< DESCARGAS - TIKTOK />*\n\n*🍁 Iɴɢʀᴇsᴇ Uɴ Eɴʟᴀᴄᴇ Dᴇ Vɪᴅᴇᴏ Dᴇ Tɪᴋᴛᴏᴋ.*\n\n*🌳 𝐸𝑗𝑒𝑚𝑝𝑙𝑜:* _${usedPrefix + command} https://vm.tiktok.com/ZM6UHJYtE /_`;
   const texto = `_🍁 @${m.sender.split`@`[0]}  ᩭ✎Enviando Video, espere un momento...._`;
