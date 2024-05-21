@@ -346,7 +346,20 @@ global.dfail('admin', m, conn);
 throw false;
 }
 }
-chat.antiArab = isEnable;
+chat.welcome = isEnable
+break
+case 'autolevelup':
+case 'levelup':
+if (!m.isGroup) {
+if (!isOwner) {
+global.dfail('group', m, conn)
+throw false
+}
+} else if (!isAdmin) {
+global.dfail('admin', m, conn)
+throw false
+}
+chat.autolevelup = isEnable
 break;
 case 'antiarabes2':
 if (m.isGroup) {
