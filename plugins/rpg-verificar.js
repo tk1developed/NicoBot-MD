@@ -50,7 +50,7 @@ thumbnail: img,
 sourceUrl: '',
 mediaType: 1,
 renderLargerThumbnail: true
-}}}, { quoted: false})
+}}}, { quoted: m })
 
 await m.reply(`${sn}`)}
 handler.help = ['reg'].map(v => v + ' *<nombre.edad>*')
