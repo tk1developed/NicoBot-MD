@@ -44,10 +44,10 @@ forwardingScore: 9999,
 isForwarded: true, 
 externalAdReply: {
 title: '乂  R E G I S T R O  乂',
-body: `👋 Hola ` + nombre,
+body: packname,
 thumbnailUrl: img,
 thumbnail: img,
-sourceUrl: global.channel,
+sourceUrl: '',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: fkontak})
