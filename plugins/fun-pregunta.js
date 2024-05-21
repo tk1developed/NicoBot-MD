@@ -1,11 +1,11 @@
 var handler = async (m, { conn, text, usedPrefix, command }) => {
 
 if (!text) return conn.reply(m.chat, `*Y EL TEXTO?*`)
-//m.react('❔')
+m.react('❔')
 await delay(1000 * 1)
-//m.react('❓')
+m.react('❓')
 await delay(1000 * 1)
-//m.react('❔')
+m.react('❔')
 await delay(1000 * 1)
 
 conn.reply(m.chat, `🌩 𝐏𝐑𝐄𝐆𝐔𝐍𝐓𝐀𝐒 🌩
