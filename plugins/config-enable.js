@@ -265,6 +265,14 @@ throw false;
 }
 global.opts['swonly'] = isEnable;
 break;
+case 'autolevelup':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.autolevelup = isEnable          
+break;
 case 'anticall':
 isAll = true;
 if (!(isROwner || isOwner)) {
@@ -330,14 +338,6 @@ throw false;
 }
 }
 chat.antiTraba = isEnable;
-break;
-case 'autolevelup': case 'autonivel': case 'nivelautomatico':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.autolevelup = isEnable          
 break;
 case 'antiarabes':
 if (m.isGroup) {
