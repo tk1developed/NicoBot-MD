@@ -9,7 +9,7 @@ if (usedPrefix == 'a' || usedPrefix == 'A') return;
 if (!text) return conn.reply(m.chat, `🍃 *Ingrese una petición*\n\n- Ejemplo, !${command} Codigo en Js para un juego de ahorcado`, m, fake, )   
 try {
 await m.reply('🌺 *C A R G A N D O*\n- 🍃 Cargando Información')
-await conn.sendMessage(m.chat, { react: { text: '⏳️', key: m.key } })
+m.react('⌛️') 
 conn.sendPresenceUpdate('composing', m.chat);
 let gpt = await fetch(`https://delirius-api-oficial.vercel.app/api/ia2?text=${text}`)
 let res = await gpt.json()
@@ -19,7 +19,7 @@ try {
 let gpt = await fetch(`https://delirius-api-oficial.vercel.app/api/chatgpt?q=${text}`)
 let res = await gpt.json()
 await m.reply(res.data)
-await conn.sendMessage(m.chat, { react: { text: '✅️', key: m.key } })
+m.react('✅️') 
 } catch {
 }}}
 handler.help = ['openia', 'chatgpt', 'ia']
