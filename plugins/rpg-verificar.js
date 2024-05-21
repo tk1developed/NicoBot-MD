@@ -23,7 +23,7 @@ global.db.data.users[m.sender].money += 600
 global.db.data.users[m.sender].limit += 10
 global.db.data.users[m.sender].exp += 245
 global.db.data.users[m.sender].joincount += 5
-let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)       
+let sn = createHash('md5').update(m.sender).digest('hex')
 let regbot = `╭━〔  𝐑 𝐄 𝐆 𝐈 𝐒 𝐓 𝐑 𝐎 📇  〕⬣
 ┃ • 🌺 Nombre: ${name}
 ┃ • 🔮 Edad : ${age} años
@@ -41,7 +41,7 @@ let regbot = `╭━〔  𝐑 𝐄 𝐆 𝐈 𝐒 𝐓 𝐑 𝐎 📇  〕⬣
 ╰━━━━━━━━━━━━⬣`
 await m.reply(regbot)
 
-await conn.sendMessage(m.chat, { react: { text: '📩', key: m.key } } 
+//await conn.sendMessage(m.chat, { react: { text: '📩', key: m.key } } 
 
 // await conn.sendUrl(m.chat, regbot, m, { externalAdReply: { mediaType: 1, renderLargerThumbnail: true, thumbnail: pp, thumbnailUrl: pp, title: 'Registrado 📩', }})
 
