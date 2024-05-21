@@ -26,8 +26,9 @@ ${yt}
 🍁 *Facebook:*
 ${fb}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈`
-await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 m.react('📮') 
+await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
+//m.react('📮') 
 handler.command = /^cuentas|cuentasoficiales$/i
 handler.exp = 35
 handler.register = true
