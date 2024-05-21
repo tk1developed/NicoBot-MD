@@ -26,7 +26,7 @@ global.db.data.users[m.sender].joincount += 5
 let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)        
 await conn.sendMessage(m.chat, { react: { text: '📩', key: m.key } } 
 let regbot = `╭━〔  𝐑 𝐄 𝐆 𝐈 𝐒 𝐓 𝐑 𝐎 📇  〕⬣
-┃ • 🌺 Nombre: ${name}
+┃ • 🌺 Nombre: ${user}
 ┃ • 🔮 Edad : ${age} años
 ╰━━━━━━━━━━━━⬣
 
@@ -46,6 +46,6 @@ await m.reply(regbot)
 }
 handler.help = ['reg']
 handler.tags = ['rg']
-handler.command = ['verify', 'reg'] 
+handler.command = ['verify', 'reg', 'verificar', 'registrar'] 
 
 export default handler
