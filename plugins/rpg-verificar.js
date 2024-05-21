@@ -44,10 +44,8 @@ forwardingScore: 9999,
 isForwarded: true, 
 externalAdReply: {
 title: '乂 R E G I S T R O - U S E R 乂',
-body: ``,
 thumbnailUrl: img,
 thumbnail: img,
-sourceUrl: '',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: false})
