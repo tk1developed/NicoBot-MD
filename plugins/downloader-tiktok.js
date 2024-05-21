@@ -6,12 +6,13 @@ import {generateWAMessageFromContent} from '@whiskeysockets/baileys';
 import {tiktokdl} from '@bochilteam/scraper';
 const CFROSAPI = global.APIs.CFROSAPI;
 const handler = async (m, {conn, text, args, usedPrefix, command}) => {
-m.react('🕒') 
+//m.react('🕒') 
   if (!text) throw `_*< DESCARGAS - TIKTOK />*_\n\n*🍁 Iɴɢʀᴇsᴇ Uɴ Eɴʟᴀᴄᴇ Dᴇ Vɪᴅᴇᴏ Dᴇ TɪᴋTᴏᴋ.*\n\n*🌳 Eᴊᴇᴍᴘʟᴏ:* _${usedPrefix + command} https://vm.tiktok.com/ZM6UHJYtE/_`;
   if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `*< DESCARGAS - TIKTOK />*\n\n*🍁 Iɴɢʀᴇsᴇ Uɴ Eɴʟᴀᴄᴇ Dᴇ Vɪᴅᴇᴏ Dᴇ Tɪᴋᴛᴏᴋ.*\n\n*🌳 𝐸𝑗𝑒𝑚𝑝𝑙𝑜:* _${usedPrefix + command} https://vm.tiktok.com/ZM6UHJYtE /_`;
   const texto = `_🍁 @${m.sender.split`@`[0]}  ᩭ✎Enviando Video, espere un momento...._`;
   // let buttons = [{ buttonText: { displayText: '♫ 𝙰𝚄𝙳𝙸𝙾 ♫' }, buttonId: `${usedPrefix}tomp3` }]
   try {
+m.react('🕒') 
     const aa = {quoted: m, userJid: conn.user.jid};
     const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: texto, contextInfo: {externalAdReply: {title: packname, body: team, thumbnail: imagen6, sourceUrl: yt}, mentionedJid: [m.sender]}}}, aa);
     await conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id, mentions: [m.sender]});
