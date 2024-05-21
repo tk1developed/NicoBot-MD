@@ -1,6 +1,5 @@
 let media = './Menu7.png'
 let handler = async (m, { conn, command }) => {
-    await conn.sendMessage(m.chat, { react: { text: '📇', key: m.key } })
 let str = `*🔮 GRUPOS OFICIALES*
 
     *_╭━━━⊜ YoshikoBot-MD_*
@@ -30,6 +29,7 @@ let str = `*🔮 GRUPOS OFICIALES*
     *_╭━━━⊜ Canal Ofc De Yoshiko_*
   *_┃🌺❏ ${channel}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*`
+m.react('🧰') 
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 
 handler.command = /^grupos|linksk|gruposofc|gruposoficiales$/i
