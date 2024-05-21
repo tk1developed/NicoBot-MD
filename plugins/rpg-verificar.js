@@ -24,7 +24,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   global.db.data.users[m.sender].limit += 10
   global.db.data.users[m.sender].exp += 245
   global.db.data.users[m.sender].joincount += 5
-  let sn =n createHash('md5').update(m.sender).digest('hex')
+  let sn = createHash('md5').update(m.sender).digest('hex')
   let img = await (await fetch('https://telegra.ph/file/25d7d0cd3db567d7722da.jpg')).buffer()  
   let str = `╭━〔  𝐑 𝐄 𝐆 𝐈 𝐒 𝐓 𝐑 𝐎 📇  〕⬣
 ┃ • 🌺 Nombre: ${name}
