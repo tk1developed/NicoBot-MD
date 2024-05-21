@@ -1,82 +1,67 @@
-import fetch from 'node-fetch';
-const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
-  if (usedPrefix == 'a' || usedPrefix == 'A') return;
-  try {
-    const pp = imagen2;
-    // let vn = './media/menu.mp3'
-    const img = './Menu2.jpg';
-    const d = new Date(new Date + 3600000);
-    const locale = 'es-ES';
-    const week = d.toLocaleDateString(locale, {weekday: 'long'});
-    const date = d.toLocaleDateString(locale, {day: '2-digit', month: '2-digit', year: 'numeric'});
-    const _uptime = process.uptime() * 1000;
-    const uptime = clockString(_uptime);
-    const user = global.db.data.users[m.sender];
-    const {money, joincount} = global.db.data.users[m.sender];
-    const {exp, limit, level, role} = global.db.data.users[m.sender];
-    const rtotalreg = Object.values(global.db.data.users).filter((user) => user.registered == true).length;
-    const rtotal = Object.entries(global.db.data.users).length || '0'
-    const more = String.fromCharCode(8206);
-    const readMore = more.repeat(850);
-    const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
-    const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
-m.react('🧰') 
-const document = doc[Math.floor(Math.random() * doc.length)];
- const str = `💚 *Instalación Manual* (Termux) 🐢
+var handler  = async (m, { conn }) => {
 
-➪ cd && termux-setup-storage
+let texto = `📮 *Instalación de YoshikoBot*
 
-➪ apt-get update -y && apt-get upgrade -y
+*Requisitos para la instalación ✏️*
+⬡ Dudas: Wa.me/573012482597
+⬡ Tutoríal: https://youtu.be/9-v4XwMTJYE?si=veqJSgJ4bKi5kSjB
+⬡ 1 GB de almacenamiento
+⬡ Termux: https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file
+⬡ GitHub: https://github.com/Diego-YL-177/YoshikoBot-MD
+⬡ Un whatsapp inmune (secundario)
+⬡ Un número 
+⬡ Dispositivo o una PC para escanear
 
-➪ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
+*Comandos de instalación via Termux ✏️*
 
-➪ git clone https://github.com/Diego-YL-177/YoshikoBot-MD.git && cd YoshikoBot-MD
+termux-setup-storage
 
-➪ yarn install
+apt-get update -y && apt-get upgrade -y
 
-➪ npm install
+pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 
-➪ npm update
+git clone https://github.com/Diego-YL-177/YoshikoBot-MD && cd YoshikoBot-MD && yarn install && npm install 
 
-➪ npm start
+ls
 
-🟢 *Activar El Bot* 🟢
+npm start
 
-➪ cd
+_Utilice "comandos" para enviarle los comandos uno por uno 📮_
 
-➪ cd YoshikoBot-MD
+_Utilice "infinity" para instalar el bot mediante el hosting vortexus 📮_`
 
-➪ npm start
+conn.reply(m.chat, texto, m, fake, )
 
-💚 *Obtener Otro Codigo Qr* 📍
+handler.before = async m => {
 
-➪ cd YoshikoBot-MD
-
-➪ rm -rf sessions
-
-➪ npm start
-
-🟢 (Comandos 1 Por 1) 📍`.trim();     if (m.isGroup) { 
- // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
-      const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
-      conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
-    } else {
-      // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
-      const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
-      conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
-    }
-  } catch {
-    conn.reply(m.chat, '🍃 Ocurrió Un Error', m);
-  }
-};
-handler.command = /^(instalarbot|descargarbot|activarbot|instalaryoshiko)$/i;
-handler.register = true
-handler.exp = 50;
-handler.fail = null;
-export default handler;
-function clockString(ms) {
-  const h = isNaN(ms) ? '--' : Math.floor(ms / 3600000);
-  const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
-  const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
-  return [h, m, s].map((v) => v.toString().padStart(2, 0)).join(':');
+if (/^comandos$/i.test(m.text) ) {
+m.reply('termux-setup-storage')
+await delay(1000 * 1)
+m.reply('apt-get update -y && apt-get upgrade -y')
+await delay(1000 * 1)
+m.reply('pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn')
+await delay(1000 * 1)
+m.reply('git clone https://github.com/Diego-YL-177/YoshikoBot-MD && cd YoshikoBot-MD && yarn install && npm install ')
+await delay(1000 * 1)
+m.reply('ls')
+await delay(1000 * 1)
+m.reply('npm start')
 }
+
+if (/^infinity$/i.test(m.text) ) {
+conn.reply(m.chat, '✏️ *Instalación por infinityhost*\n(nosotros no tenemos tutorial pero eso les puede ayudar)\n\n• Dashboard:\nhttps://dashboard.infinitywa.xyz\n\n• Panel:\nhttps://live.panel-infinitywa.store/', m, fake )
+await delay(2000 * 1)
+conn.sendMessage(m.chat, {image: {url: 'https://telegra.ph/file/41b8b3e0f536bb8ec1d6c.jpg'}, caption: ''}, {quoted: m})
+await delay(1000 * 1)
+conn.sendMessage(m.chat, {image: {url: 'https://telegra.ph/file/d9ead76219f879bb1e66a.jpg'}, caption: ''}, {quoted: m})
+}
+}
+
+}
+handler.help = ['instalarbot']
+handler.tags = ['info']
+handler.command = /^(instalarbot)/i
+
+export default handler
+
+const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
