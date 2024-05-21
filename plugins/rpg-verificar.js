@@ -2,7 +2,6 @@ import { createHash } from 'crypto'
 
 let Reg = /\|?(.*)([.|] *?)([0-9]*)$/i
 let handler = async function (m, { conn, text, usedPrefix, command }) {
-await conn.sendMessage(m.chat, { react: { text: '📩', key: m.key } } 
 let user = global.db.data.users[m.sender]
 let name2 = conn.getName(m.sender)
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? this.user.jid : m.sender
@@ -41,6 +40,7 @@ let regbot = `╭━〔  𝐑 𝐄 𝐆 𝐈 𝐒 𝐓 𝐑 𝐎 📇  〕⬣
 ┃ ${sn}
 ╰━━━━━━━━━━━━⬣`
 await m.reply(regbot)
+await conn.sendMessage(m.chat, { react: { text: '📩', key: m.key } } 
 // await conn.sendUrl(m.chat, regbot, m, { externalAdReply: { mediaType: 1, renderLargerThumbnail: true, thumbnail: pp, thumbnailUrl: pp, title: 'Registrado 📩', }})
 
 }
