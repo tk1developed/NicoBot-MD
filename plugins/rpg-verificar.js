@@ -34,12 +34,9 @@ let regbot = `╭━〔  𝐑 𝐄 𝐆 𝐈 𝐒 𝐓 𝐑 𝐎 📇  〕⬣
 ┃ • 600 YoshiCoins 💰
 ┃ • 245 Exp 💸
 ┃ • 5 Monedas 🪙
-╰━━━━━━━━━━━━⬣
-
-╭━〔  𝐍𝐔𝐌𝐄𝐑𝐎 𝐃𝐄 𝐒𝐄𝐑𝐈𝐄 ✏️  〕⬣
-┃ ${sn}
 ╰━━━━━━━━━━━━⬣`
 await m.reply(regbot)
+await m.reply(`${sn}`)
 
 //await conn.sendMessage(m.chat, { react: { text: '📩', key: m.key } } 
 
