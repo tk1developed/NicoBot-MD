@@ -20,7 +20,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     } else if (command === 'play2') {
       additionalText = 'video';
     }
-    await conn.sendMessage(m.chat, { react: { text: '⏰️', key: m.key } })
+    m.react('🕒') 
     const texto1 = `₊✧♡₊˚ 🌩・₊✧★🎸🎧°⋆♡₊˚ 🔮
 > 🌩 𝙏𝙄𝙏𝙐𝙇𝙊:
 > • ${yt_play[0].title}
