@@ -6,7 +6,7 @@ let user = global.db.data.users[m.sender]
 let name2 = conn.getName(m.sender)
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? this.user.jid : m.sender
 let pp = await this.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/1861aab98389b13db8588.jpg')
-if (user.registered === true) throw `*⚠️ Ya estás registrado*\n\n¿Quiere volver a registrarse?\n\n💬 Use este comando para *eliminar su registro*\n*${usedPrefix}unreg* <Número de serie>`
+if (user.registered === true) throw `🏷 𝐄𝐑𝐑𝐎𝐑 🏷 *Ya ᥱs𝗍ᥲ́s registrado*\n\n¿𝗊ᥙіᥱrᥱ ᥎᥆ᥣ᥎ᥱr ᥲ rᥱgіs𝗍rᥲrsᥱ?\n\n✏️ ᥙsᥱ ᥱs𝗍ᥱ ᥴ᥆mᥲᥒძ᥆ para *eliminar su registro*\n*.unreg* <ᥒᥙ́mᥱr᥆ ძᥱ serie>`
 if (!Reg.test(text)) throw `*✏️ Formato incorrecto*\n\n📩 Uso del comamdo: *${usedPrefix + command} nombre.edad*\n💡 Ejemplo : *${usedPrefix + command}* ${name2}.18`
 let [_, name, splitter, age] = text.match(Reg)
 if (!name) throw '*📝 El nombre no puede estar vacío*'
