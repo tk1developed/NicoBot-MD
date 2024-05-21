@@ -9,11 +9,11 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     const yt_play = await search(args.join(' '));
     let additionalText = '';
     if (command === 'play3' || command == 'playdoc') {
-      additionalText = 'audio 🔊';
+      additionalText = 'audio';
     } else if (command === 'play4' || command == 'playdoc2') {
-      additionalText = 'video 🎥';
+      additionalText = 'video';
     }
-    await conn.sendMessage(m.chat, { react: { text: '⏳️', key: m.key } })
+    m.react('🕒') 
     const texto1 = `*◉——⌈🔊 PLAY DOC 🔊⌋——◉*\n
 ∘😻 *Titulo:*
  ${yt_play[0].title}
