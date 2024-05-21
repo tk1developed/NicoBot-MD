@@ -51,7 +51,7 @@ sourceUrl: global.channel,
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: fkontak})
-}
+
 await m.reply(`${sn}`)}
 handler.help = ['reg'].map(v => v + ' *<nombre.edad>*')
 handler.tags = ['rg']
