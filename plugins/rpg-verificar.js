@@ -44,13 +44,13 @@ forwardingScore: 9999,
 isForwarded: true, 
 externalAdReply: {
 title: '乂 R E G I S T R O 乂',
-body: '𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾 𝙿𝙾𝚁: 𝚈𝙾𝚂𝙷𝙸𝙺𝙾 𝙱𝙾𝚃 ✏️',
+body: team,
 thumbnailUrl: img,
 thumbnail: img,
-sourceUrl: '',
+sourceUrl: channel,
 mediaType: 1,
 renderLargerThumbnail: true
-}}}, { quoted: m })
+}}}, { quoted: fkontak })
 
 await m.reply(`${sn}`)}
 handler.help = ['reg'].map(v => v + ' *<nombre.edad>*')
