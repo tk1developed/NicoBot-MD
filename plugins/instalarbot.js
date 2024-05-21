@@ -2,15 +2,8 @@ var handler  = async (m, { conn }) => {
 
 let texto = `📮 *Instalación de YoshikoBot*
 
-*Requisitos para la instalación ✏️*
 ⬡ Dudas: Wa.me/573012482597
 ⬡ Tutoríal: https://youtu.be/9-v4XwMTJYE?si=veqJSgJ4bKi5kSjB
-⬡ 1 GB de almacenamiento
-⬡ Termux: https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file
-⬡ GitHub: https://github.com/Diego-YL-177/YoshikoBot-MD
-⬡ Un whatsapp inmune (secundario)
-⬡ Un número 
-⬡ Dispositivo o una PC para escanear
 
 *Comandos de instalación via Termux ✏️*
 
@@ -30,7 +23,7 @@ _Utilice "comandos" para enviarle los comandos uno por uno 📮_
 
 _Utilice "infinity" para instalar el bot mediante el hosting vortexus 📮_`
 
-conn.reply(m.chat, texto, m, fake, )
+conn.reply(m.chat, texto, m, )
 
 handler.before = async m => {
 
@@ -49,11 +42,11 @@ m.reply('npm start')
 }
 
 if (/^infinity$/i.test(m.text) ) {
-conn.reply(m.chat, '✏️ *Instalación por infinityhost*\n(nosotros no tenemos tutorial pero eso les puede ayudar)\n\n• Dashboard:\nhttps://dashboard.infinitywa.xyz\n\n• Panel:\nhttps://live.panel-infinitywa.store/', m, fake )
+conn.reply(m.chat, '✏️ *Instalación por infinityhost*\n(nosotros no tenemos tutorial pero eso les puede ayudar)\n\n• Dashboard:\nhttps://dashboard.infinitywa.xyz\n\n• Panel:\nhttps://live.panel-infinitywa.store/', m, )
 await delay(2000 * 1)
-conn.sendMessage(m.chat, {image: {url: 'https://telegra.ph/file/41b8b3e0f536bb8ec1d6c.jpg'}, caption: ''}, {quoted: m})
+conn.sendMessage(m.chat, {image: {url: 'https://telegra.ph/file/a1d4b49fec4d1c10084db.jpg'}, caption: ''}, {quoted: fkontak})
 await delay(1000 * 1)
-conn.sendMessage(m.chat, {image: {url: 'https://telegra.ph/file/d9ead76219f879bb1e66a.jpg'}, caption: ''}, {quoted: m})
+conn.sendMessage(m.chat, {image: {url: 'https://telegra.ph/file/d586a96bec8385b9dd66a.jpg'}, caption: ''}, {quoted: fkontak})
 }
 }
 
