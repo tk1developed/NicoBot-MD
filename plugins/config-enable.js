@@ -301,31 +301,34 @@ throw false
 global.opts['swonly'] = isEnable
 break
 default:
-if (!/[01]/.test(command)) return await conn.reply(m.chat, `*🧃 OPCIONES PARA GRUPO*
+if (!/[01]/.test(command)) return await conn.reply(m.chat, `╭━〔  𝐏𝐀𝐑𝐀 𝐆𝐑𝐔𝐏𝐎𝐒 🍄  〕⬣
+┣☆ ${usedPrefix + command} *welcome*
+┣☆ ${usedPrefix + command} *antilink*
+┣☆ ${usedPrefix + command} *antilink2*
+┣☆ ${usedPrefix + command} *antifake*
+┣☆ ${usedPrefix + command} *antitraba*
+┣☆ ${usedPrefix + command} *antitoxic*
+┣☆ ${usedPrefix + command} *autolevelup*
+┣☆ ${usedPrefix + command} *nsfw*
+┣☆ ${usedPrefix + command} *simi*
+┣☆ ${usedPrefix + command} *detect*
+┣☆ ${usedPrefix + command} *detect2*
+┣☆ ${usedPrefix + command} *modoadmin*
+┣☆ ${usedPrefix + command} *antiviewonce*
+┣☆ ${usedPrefix + command} *autosticker*
+┣☆ ${usedPrefix + command} *audios*
+┣☆ ${usedPrefix + command} *antibule*
+┣☆ ${usedPrefix + command} *juegos*
+╰━━━━━━━━━━━━⬣
 
-_${usedPrefix + command} *welcome*_
-_${usedPrefix + command} *antilink*_
-_${usedPrefix + command} *antilink2*_
-_${usedPrefix + command} *antifake*_
-_${usedPrefix + command} *antitraba*_
-_${usedPrefix + command} *antitoxic*_
-_${usedPrefix + command} *autolevelup*_
-_${usedPrefix + command} *nsfw*_
-_${usedPrefix + command} *simi*_
-_${usedPrefix + command} *detect*_
-_${usedPrefix + command} *modoadmin*_
-_${usedPrefix + command} *antisticker*_
-_${usedPrefix + command} *autosticker*_
-_${usedPrefix + command} *antibule*_
-
-*🍧 OPCIONES DE PROPIETARIO*
-
-_${usedPrefix + command} *restrict*_
-_${usedPrefix + command} *public*_
-_${usedPrefix + command} *pconly*_
-_${usedPrefix + command} *gconly*_
-_${usedPrefix + command} *autoread*_
-_${usedPrefix + command} *modejadibot*_`, m, fake, )
+╭━〔  𝐏𝐀𝐑𝐀 𝐎𝐖𝐍𝐄𝐑 🍄  〕⬣
+┣☆ ${usedPrefix + command} *restrict*
+┣☆ ${usedPrefix + command} *public*
+┣☆ ${usedPrefix + command} *pconly*
+┣☆ ${usedPrefix + command} *gconly*
+┣☆ ${usedPrefix + command} *autoread*
+┣☆ ${usedPrefix + command} *modejadibot*
+╰━━━━━━━━━━━━⬣`, m, fake, )
 throw false
 }
 await conn.reply(m.chat, `╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
