@@ -41,9 +41,7 @@ let drm1 = ''
 let drm2 = ''
 let rtx = lenguajeYL['smsIniJadi']() 
 let rtx2 = lenguajeYL['smsIniJadi2']() 
-
-if (global.listJadibot instanceof Array) console.log()   
-else global.listJadibot = []   
+ 
 
 const jadibot = async (conn, m, command) => {
 const { sendImage, sendMessage, decodeJid, getName } = conn
