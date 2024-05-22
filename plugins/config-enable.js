@@ -346,7 +346,7 @@ if (!/[01]/.test(command)) return await conn.reply(m.chat, `╭━〔  𝐘𝐎�
 ╰━━━━━━━━━━━━⬣`, m, fake, )
 throw false
 }
-conn.reply(m.chat, `*${isEnable ? '❕' : '❗'} La función ${type} se a ${isEnable ? 'activado' : 'desactivado'} en ${isAll ? 'bot' : isUser ? '' : 'este chat.'}*`, m, fake, )
+conn.reply(m.chat, `*${isEnable ? '✏️' : '✏️'} 𝙻𝙰 𝙵𝚄𝙽𝙲𝙸𝙾𝙽 ${type} 𝚂𝙴 𝙰 ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'} en ${isAll ? '𝙱𝙾𝚃' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'}*`, m, fake, )
 
 }
 handler.help = ['en', 'dis'].map(v => v + 'able')
