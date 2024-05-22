@@ -1,66 +1,11 @@
-const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, isROwner}) => {
+var handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isROwner }) => {
 
-let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-
-  const optionsFull = `╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
-┣☆ !enable welcome
-┣☆ !disable welcome
-┣☆ !enable public
-┣☆ !disable public
-┣☆ !enable privado
-┣☆ !disable privado
-┣☆ !enable juegos
-┣☆ !disable juegos
-┣☆ !enable modohorny
-┣☆ !disable modohorny
-┣☆ !enable antilink
-┣☆ !disable antilink
-┣☆ !enable antilink2
-┣☆ !disable antilink2
-┣☆ !enable detect
-┣☆ !disable detect
-┣☆ !enable detect2
-┣☆ !disable detect2
-┣☆ !enable restrict
-┣☆ !disable restrict
-┣☆ !enable autoread
-┣☆ !disable autoread
-┣☆ !enable audios
-┣☆ !disable audios
-┣☆ !enable autosticker
-┣☆ !disable autosticker
-┣☆ !enable antiviewonce
-┣☆ !disable antiviewonce
-┣☆ !enable antitoxic
-┣☆ !disable antitoxic
-┣☆ !enable reaction
-┣☆ !disable reaction
-┣☆ !enable antitraba
-┣☆ !disable antitraba
-┣☆ !enable pconly
-┣☆ !disable pconly
-┣☆ !enable gconly
-┣☆ !disable gconly
-┣☆ !enable anticall
-┣☆ !disable anticall
-┣☆ !enable antirabes
-┣☆ !disable antirabes
-┣☆ !enable antirabes2
-┣☆ !disable antirabes
-┣☆ !enable modoadmin
-┣☆ !disable modoadmin
-┣☆ !enable simsimi
-┣☆ !disable simsimi
-┣☆ !enable antispam
-┣☆ !disable antispam
-╰━━━━━━━━━━━━⬣`.trim();
-
-const isEnable = /true|enable|(turn)?on|1/i.test(command);
-const chat = global.db.data.chats[m.chat];
-const user = global.db.data.users[m.sender];
-const bot = global.db.data.settings[conn.user.jid] || {};
-const type = (args[0] || '').toLowerCase();
-let isAll = false; const isUser = false;
+let isEnable = /true|enable|(turn)?on|1/i.test(command)
+let chat = global.db.data.chats[m.chat]
+let user = global.db.data.users[m.sender]
+let bot = global.db.data.settings[conn.user.jid] || {}
+let type = (args[0] || '').toLowerCase()
+let isAll = false, isUser = false
 switch (type) {
 case 'welcome':
 if (!m.isGroup) {
@@ -347,21 +292,65 @@ throw false;
 chat.antiArab2 = isEnable;
 break;
 default:
-if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: fkontak});
-throw false;
+if (!/[01]/.test(command)) return await conn.reply(m.chat, `╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
+┣☆ !enable welcome
+┣☆ !disable welcome
+┣☆ !enable public
+┣☆ !disable public
+┣☆ !enable privado
+┣☆ !disable privado
+┣☆ !enable juegos
+┣☆ !disable juegos
+┣☆ !enable modohorny
+┣☆ !disable modohorny
+┣☆ !enable antilink
+┣☆ !disable antilink
+┣☆ !enable antilink2
+┣☆ !disable antilink2
+┣☆ !enable detect
+┣☆ !disable detect
+┣☆ !enable detect2
+┣☆ !disable detect2
+┣☆ !enable restrict
+┣☆ !disable restrict
+┣☆ !enable autoread
+┣☆ !disable autoread
+┣☆ !enable audios
+┣☆ !disable audios
+┣☆ !enable autosticker
+┣☆ !disable autosticker
+┣☆ !enable antiviewonce
+┣☆ !disable antiviewonce
+┣☆ !enable antitoxic
+┣☆ !disable antitoxic
+┣☆ !enable reaction
+┣☆ !disable reaction
+┣☆ !enable antitraba
+┣☆ !disable antitraba
+┣☆ !enable pconly
+┣☆ !disable pconly
+┣☆ !enable gconly
+┣☆ !disable gconly
+┣☆ !enable anticall
+┣☆ !disable anticall
+┣☆ !enable antirabes
+┣☆ !disable antirabes
+┣☆ !enable antirabes2
+┣☆ !disable antirabes
+┣☆ !enable modoadmin
+┣☆ !disable modoadmin
+┣☆ !enable simsimi
+┣☆ !disable simsimi
+┣☆ !enable antispam
+┣☆ !disable antispam
+╰━━━━━━━━━━━━⬣`, m, fake, )
+throw false
 }
-await conn.reply(m.chat, `╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
-┃֪࣪🍁 𝙾𝙿𝙲𝙸𝙾𝙽: ${type} 
-┃֪࣪━━━━━━━━━━━━━━━
-┃֪࣪🌳 𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
-┃֪࣪━━━━━━━━━━━━━━━
-┃֪࣪🌻 𝙿𝙰𝚁𝙰: ${isAll ? '𝚈𝙾𝚂𝙷𝙸𝙺𝙾𝙱𝙾𝚃-𝙼𝙳' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
-╰━━━━━━━━━━━━━━━⬣`, fkontak, {
-contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: wm,
-body: `👋 Hola ` + nombre, previewType: 0, thumbnail: imagen6, sourceUrl: global.md}}})} 
+conn.reply(m.chat, `*${isEnable ? '❕' : '❗'} La función ${type} se a ${isEnable ? 'activado' : 'desactivado'} en ${isAll ? 'bot' : isUser ? '' : 'este chat.'}*`, m, fake, )
 
-handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
-handler.tags = ['group', 'owner'];
-handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i;
-export default handler;
+}
+handler.help = ['en', 'dis'].map(v => v + 'able')
+handler.tags = ['enable', 'owner']
+handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
+
+export default handler
