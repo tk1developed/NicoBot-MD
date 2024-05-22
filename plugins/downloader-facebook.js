@@ -7,8 +7,8 @@ let vid
 const isCommand7 = /^(facebook|fb|facebookdl|fbdl)$/i.test(command)
 
 async function reportError(e) {
-await conn.reply(m.chat, `🚩 *Ocurrió un fallo*`, m, fake, )
-console.log(`🚩 ERROR EN: ${usedPrefix + command} ⚠️\n`)
+await conn.reply(m.chat, `✏️ 𝙾𝙲𝚄𝚁𝚁𝙸𝙾 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁`, m, fake, )
+console.log(`✏️ 𝙴𝚁𝚁𝙾𝚁 𝙴𝙽: ${usedPrefix + command} ⚠️\n`)
 console.log(e)
 }
 
@@ -17,7 +17,7 @@ case isCommand7:
 if (!text) return conn.reply(m.chat, `✏️ *Ingrese un enlace de facebook*\n\nEjemplo, !fb https://fb.watch/kAOXy3wf2L/?mibextid=Nif5oz`, m, fake, )
 if (!args[0].match(/www.facebook.com|fb.watch|web.facebook.com|business.facebook.com|video.fb.com/g)) return conn.reply(m.chat, '✏️ *ᥒ᥆ ᥱs ᥙᥒ ᥱᥒᥣᥲᥴᥱ ᥎ᥲ́ᥣіძ᥆*', m, fake, )
 await conn.reply(m.chat, '✏️ 𝐄𝐬𝐩𝐞𝐫𝐞 𝐔𝐧 𝐌𝐨𝐦𝐞𝐧𝐭𝐨...', m, fake, )
-m.react(done)
+m.react('🕒')
 let messageType = checkMessageType(args[0])
 let message = ''
 switch (messageType) {
