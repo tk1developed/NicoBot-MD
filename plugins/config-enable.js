@@ -309,7 +309,7 @@ if (!/[01]/.test(command)) return await conn.reply(m.chat, `╭━〔  𝐏𝐀�
 ┣☆ ${usedPrefix + command} *antitraba*
 ┣☆ ${usedPrefix + command} *antitoxic*
 ┣☆ ${usedPrefix + command} *autolevelup*
-┣☆ ${usedPrefix + command} *nsfw*
+┣☆ ${usedPrefix + command} *modohorny*
 ┣☆ ${usedPrefix + command} *simi*
 ┣☆ ${usedPrefix + command} *detect*
 ┣☆ ${usedPrefix + command} *detect2*
