@@ -92,7 +92,7 @@ export async function handler(chatUpdate) {
           if (!isNumber(user.stroberi)) user.stroberi = 0;
         }
         if (!isNumber(user.afk)) user.afk = -1;
-                if (!('autolevelup' in user)) user.autolevelup = true;
+                //if (!('autolevelup' in user)) user.autolevelup = true;
                 if (!('role' in user)) user.role = 'Novato';
         if (!('muto' in user)) user.muto = false
         if (!isNumber(user.agility)) user.agility = 0;
@@ -531,7 +531,7 @@ export async function handler(chatUpdate) {
           armormonster: 0,
           as: 0,
           atm: 0,
-          autolevelup: true,
+          //autolevelup: true,
           axe: 0,
           axedurability: 0,
           ayam: 0,
@@ -957,6 +957,7 @@ export async function handler(chatUpdate) {
         if (!('antiArab2' in chat)) chat.antiArab2 = false;
         if (!('antiporno' in chat)) chat.antiporno = false;
         if (!('game' in chat)) chat.game = false;
+        if (!('autolevelup' in chat))  chat.autolevelup = true;
         if (!('modoadmin' in chat)) chat.modoadmin = false;
         if (!('simi' in chat)) chat.simi = false;
         if (!isNumber(chat.expired)) chat.expired = 0;
@@ -986,6 +987,7 @@ export async function handler(chatUpdate) {
           modoadmin: false,
           simi: false,
           game: false,
+          autolevelup: true,
           expired: 0,
         };
       }
