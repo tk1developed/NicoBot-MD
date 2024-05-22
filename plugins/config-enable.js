@@ -230,7 +230,7 @@ case 'sololatinos':
 case 'sololatino':
 case 'onlylatinos':
 case 'onlylat':
-case 'antiarabe':
+case 'antiarabes':
 case 'antifake':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
@@ -306,7 +306,8 @@ if (!/[01]/.test(command)) return await conn.reply(m.chat, `╭━〔  𝐏𝐀�
 ┣☆ ${usedPrefix + command} *antilink*
 ┣☆ ${usedPrefix + command} *antilink2*
 ┣☆ ${usedPrefix + command} *antifake*
-┣☆ ${usedPrefix + command} *antitraba*
+┣☆ ${usedPrefix + command} *antirabes*
+┣☆ ${usedPrefix + command} *modoadmin*
 ┣☆ ${usedPrefix + command} *antitoxic*
 ┣☆ ${usedPrefix + command} *autolevelup*
 ┣☆ ${usedPrefix + command} *modohorny*
@@ -326,6 +327,7 @@ if (!/[01]/.test(command)) return await conn.reply(m.chat, `╭━〔  𝐏𝐀�
 ┣☆ ${usedPrefix + command} *public*
 ┣☆ ${usedPrefix + command} *pconly*
 ┣☆ ${usedPrefix + command} *gconly*
+┣☆ ${usedPrefix + command} *antiprivado*
 ┣☆ ${usedPrefix + command} *autoread*
 ┣☆ ${usedPrefix + command} *modejadibot*
 ╰━━━━━━━━━━━━⬣`, m, fake, )
