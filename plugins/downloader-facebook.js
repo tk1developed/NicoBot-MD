@@ -26,19 +26,19 @@ let messageType = checkMessageType(args[0])
 let message = ''
 switch (messageType) {
 case 'groups':
-message = 'Aqui Está Su Video ☄️'
+message = 'Vídeo de grupo de facebook 📮'
 break
 case 'reel':
-message = 'Aqui Está Su Video ☄️'
+message = 'Vídeo de reels de facebook 📮'
 break
 case 'stories':
-message = 'Aqui Está Su Video ☄️'
+message = 'Vídeo de historias de facebook 📮'
 break
 case 'posts':
-message = 'Aqui Está Su Video ☄️'
+message = 'Vídeo de publicaciones de facebook 📮'
 break
 default:
-message = 'Aqui Está Su Video ☄️'
+message = 'Vídeo de facebook 📮'
 break
 }
 try {
