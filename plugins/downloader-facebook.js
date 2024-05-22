@@ -1,9 +1,5 @@
-import fg from 'api-dylux';
-import fetch from 'node-fetch';
-import {savefrom, facebookdl, facebookdlv2} from '@bochilteam/scraper';
-import fbDownloader from 'fb-downloader-scrapper';
-import {facebook} from '@xct007/frieren-scraper';
-import axios from 'axios';
+import fetch from 'node-fetch'
+import { facebook } from '@xct007/frieren-scraper'
 
 var handler = async (m, { conn, args, command, usedPrefix, text }) => {
 
@@ -11,34 +7,34 @@ let vid
 const isCommand7 = /^(facebook|fb|facebookdl|fbdl)$/i.test(command)
 
 async function reportError(e) {
-await conn.reply(m.chat, `🛑 *Ocurrió un fallo*`, m, fake, )
-console.log(`🛑 Error En: ${usedPrefix + command} ⚠️\n`)
+await conn.reply(m.chat, `🚩 *Ocurrió un fallo*`, m, fake, )
+console.log(`🚩 ERROR EN: ${usedPrefix + command} ⚠️\n`)
 console.log(e)
 }
 
 switch (true) {   
 case isCommand7:
-if (!text) return conn.reply(m.chat, `🌳 *Ingrese un enlace de facebook*\n\nEjemplo, !fb https://fb.watch/kAOXy3wf2L/?mibextid=Nif5oz`, m, fake, )
-if (!args[0].match(/www.facebook.com|fb.watch|web.facebook.com|business.facebook.com|video.fb.com/g)) return conn.reply(m.chat, '🌳 *No es un enlace válido*', m, fake, )
-await conn.reply(m.chat, '⏰ Espere un momento', m, fake, )
-m.react('🕒') 
+if (!text) return conn.reply(m.chat, `✏️ *Ingrese un enlace de facebook*\n\nEjemplo, !fb https://fb.watch/kAOXy3wf2L/?mibextid=Nif5oz`, m, fake, )
+if (!args[0].match(/www.facebook.com|fb.watch|web.facebook.com|business.facebook.com|video.fb.com/g)) return conn.reply(m.chat, '✏️ *ᥒ᥆ ᥱs ᥙᥒ ᥱᥒᥣᥲᥴᥱ ᥎ᥲ́ᥣіძ᥆*', m, fake, )
+await conn.reply(m.chat, '✏️ 𝐄𝐬𝐩𝐞𝐫𝐞 𝐔𝐧 𝐌𝐨𝐦𝐞𝐧𝐭𝐨...', m, fake, )
+m.react(done)
 let messageType = checkMessageType(args[0])
 let message = ''
 switch (messageType) {
 case 'groups':
-message = 'Vídeo de grupo de facebook 📮'
+message = '𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 ✏️'
 break
 case 'reel':
-message = 'Vídeo de reels de facebook 📮'
+message = '𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝚁𝙴𝙴𝙻𝚂 𝙳𝙴 𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 ✏️'
 break
 case 'stories':
-message = 'Vídeo de historias de facebook 📮'
+message = '𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝙷𝙸𝚂𝚃𝙾𝚁𝙸𝙰𝚂 𝙳𝙴 𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 ✏️'
 break
 case 'posts':
-message = 'Vídeo de publicaciones de facebook 📮'
+message = '𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝙿𝚄𝙱𝙻𝙸𝙲𝙰𝙲𝙸𝙾𝙽𝙴𝚂 𝙳𝙴 𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 ✏️'
 break
 default:
-message = 'Vídeo de facebook 📮'
+message = '𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 ✏️'
 break
 }
 try {
@@ -70,6 +66,7 @@ handler.tags = ['descargas']
 handler.command = /^(facebook|fb|facebookdl|fbdl)$/i
 
 handler.register = true
+//handler.diamond = true
 
 export default handler
 
