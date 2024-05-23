@@ -19,7 +19,7 @@ m.react('🗣️')
       const res = await api.json();
       const reis2 = await fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=es&dt=t&q=' + res.cnt);
       const resu2 = await reis2.json();
-      await conn.reply(m.chat, resu2[0][0][0], m, fake, adReply)
+      await conn.reply(m.chat, resu2[0][0][0], m, fake, )
     } catch {
     }
   }
