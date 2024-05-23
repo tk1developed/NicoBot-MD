@@ -46,7 +46,7 @@ console.log(e)
 }}
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = /^(menu)$/i
+//handler.command = /^(menu)$/i
 handler.register = true
 
 export default handler
