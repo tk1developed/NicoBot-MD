@@ -29,10 +29,10 @@ async function handler(m, { conn: _envio, usedPrefix }) {
 }
 
   const message = users.map((v, index) => `*${index + 1} ➺* @${v.user.jid.replace(/[^0-9]/g, '')}\n💻 Wa.me/${v.user.jid.replace(/[^0-9]/g, '')}?text=${usedPrefix}allmenu\n*Nombre:* ${v.user.name || '-'}\n*Activa:* ${ v.uptime ? convertirMsADiasHorasMinutosSegundos(Date.now() - v.uptime) : "Desconocido"}`).join('\n\n');
-  const replyMessage = message.length === 0 ? '*🍃 No Hay Subbots Disponible Por El Momento.*\n- 🌺Verifique Mas Tarde.' : message;
+  const replyMessage = message.length === 0 ? '*🍃 No Hay Subbots Disponible Por El Momento.*\n- 📮 Verifique Mas Tarde.' : message;
   const totalUsers = users.length;
   const responseMessage = `${replyMessage.trim()}`.trim();
-await m.reply(`*🏷 Aqui Tiene La Lista De Los Subbots Activós En Estos Momentos.*\n\nJadibots Conectados: ${totalUsers || '0'}`)
+await m.reply(`*✏️ Aqui Tiene La Lista De Los Subbots Activós En Estos Momentos.*\n\nJadibots Conectados: ${totalUsers || '0'}`)
 await _envio.sendMessage(m.chat, {text: responseMessage, mentions: _envio.parseMention(responseMessage)}, {quoted: m});
 }
 handler.command = handler.help = ['listjadibot', 'bots', 'subsbots'];
