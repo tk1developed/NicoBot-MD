@@ -1,12 +1,12 @@
 import translate from '@vitalets/google-translate-api';
 import fetch from 'node-fetch';
 const handler = async (m, {text, command, args, usedPrefix}) => {
-  if (!text) return conn.reply(m.chat, `Hola quiere hablar un rato conmigo?\nescriba un texto para hablar conmigo\n\n🍃 *Ejemplo: !bot Hola Yoshiko*`, m, fake, )
-m.react('🗣️') 
+  if (!text) return conn.reply(m.chat, `📮 Ingresa un texto para empezar a hablar con la Bot.`, m, fake, )
+m.react('🗣️')
   try {
     const api = await fetch('https://api.simsimi.net/v2/?text=' + text + '&lc=es');
     const resSimi = await api.json();
-    conn.reply(m.chat, resSimi.success, m, fake, )
+    m.reply(resSimi.success);
   } catch {
     try {
       if (text.includes('Hola')) text = text.replace('Hola', 'Hello');
@@ -19,16 +19,12 @@ m.react('🗣️')
       const res = await api.json();
       const reis2 = await fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=es&dt=t&q=' + res.cnt);
       const resu2 = await reis2.json();
-      conn.reply(m.chat, resu2[0][0][0], m, fake, )
+      await conn.reply(m.chat, resu2[0][0][0], m, fake, adReply)
     } catch {
-      throw `**`;
     }
   }
 };
-handler.help = ['simi']
-handler.tags = ['fun']
-handler.command = /^((sim)?simi|bot|alexa|siri|yoshiko(shiko)?)$/i
-
-handler.register = true
-
-export default handler
+handler.help = ['simi', 'bot']
+handler.tags = ['fun'];
+handler.command = /^((sim)?simi|bot|alexa|yoshiko)$/i;
+export default handler;
