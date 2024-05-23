@@ -1,6 +1,6 @@
 /* Codigo copiado de GataBot-MD */
 
-import { sticker } from '../lib/sticker.js';
+/*import { sticker } from '../lib/sticker.js';
 import axios from 'axios';
 const handler = async (m, {conn, args, usedPrefix, command}) => {
 let text
@@ -25,4 +25,4 @@ let text
 handler.help = ['qc'];
 handler.tags = ['sticker'];
 handler.command = /^(qc)$/i;
-export default handler;
+export default handler;*/
