@@ -19,12 +19,12 @@ m.react('🗣️')
       const res = await api.json();
       const reis2 = await fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=es&dt=t&q=' + res.cnt);
       const resu2 = await reis2.json();
-      await conn.reply(m.chat, resu2[0][0][0], m, fake, )
+      await conn.reply(m.chat, resu2[0][0][0], m, adReply)
     } catch {
     }
   }
 };
-handler.help = ['simi', 'bot']
+handler.help = ['simi']
 handler.tags = ['fun'];
-handler.command = /^((sim)?simi|bot|alexa|yoshiko)$/i;
+handler.command = /^((sim)?simi|bot|alexa|cortana)$/i;
 export default handler;
