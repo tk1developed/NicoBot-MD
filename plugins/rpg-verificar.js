@@ -25,21 +25,21 @@ global.db.data.users[m.sender].exp += 245
 global.db.data.users[m.sender].joincount += 5
 let sn = createHash('md5').update(m.sender).digest('hex')
 m.react('📩') 
-let regbot = `╭━〔  𝐑 𝐄 𝐆 𝐈 𝐒 𝐓 𝐑 𝐎 📇  〕⬣
-┃ • 🌺 Nombre: ${name}
-┃ • 🔮 Edad : ${age} años
-╰━━━━━━━━━━━━⬣
+let regbot = `╭─⬣「 *User Registro* 」⬣
+│  ≡◦ *🪴 Nombre ∙* ${name}
+│  ≡◦ *🐢 Edad ∙* ${age} años
+╰─⬣
 
-╭━〔  𝐑𝐄𝐂𝐎𝐌𝐏𝐄𝐍𝐒𝐀𝐒 ✏️  〕⬣
-┃ • 10 Diamantes 💎
-┃ • 600 YoshiCoins 💰
-┃ • 245 Exp 💸
-┃ • 5 Monedas 🪙
+╭─⬣「 *Recompensas* 」⬣
+│  ≡◦ 10 Diamantes 💎
+│  ≡◦ 600 YoshiCoins 💰
+│  ≡◦ 245 Exp 💸
+│  ≡◦ 5 Monedas 🪙
 ╰━━━━━━━━━━━━⬣`
-await m.reply(regbot)
-await m.reply(`${sn}`)
+//await m.reply(regbot)
+//await m.reply(`${sn}`)
 
-//await conn.reply(m.chat, regbot, m, { externalAdReply: { mediaType: 1, renderLargerThumbnail: true, thumbnail: pp, thumbnailUrl: pp, title: 'Registrado 📩', }})
+await conn.reply(m.chat, regbot, m, { externalAdReply: { mediaType: 1, renderLargerThumbnail: true, thumbnail: pp, thumbnailUrl: pp, title: 'Registrado 📩', }})
 
 }
 handler.help = ['reg']
