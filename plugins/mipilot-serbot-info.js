@@ -11,7 +11,7 @@ async function handler(m, { conn, usedPrefix }) {
         if (!addedNumbers.has(userJid)) {
           addedNumbers.add(userJid);
           const userName = user.user.name || "𝚂𝚄𝙱-𝙱𝙾𝚃";
-          let users = [...uniqueUsers.values()]
+          const users = [...uniqueUsers.values()]
           connectedUsers.add(`╭─⬣「 *${userName}* 」⬣\n│ wa.me/${userJid}?text=!allmenu\n╰─⬣`);
         }
       });
