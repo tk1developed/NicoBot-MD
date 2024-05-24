@@ -62,9 +62,9 @@ const defaultMenu = {
 %readmore
          *乂 ⺀ ʟɪꜱᴛᴀ - ᴄᴏᴍᴀɴᴅᴏꜱ ⺀ 乂*
 `.trimStart(),
-  header: '╭━━━━━━━━━━━━━━━━━━━⬣\n┃ ╭━〔  %category  〕⬣',
+  header: '╭━〔  %category  〕⬣',
   body: '┃֪࣪ ✰્᭄͜͡ %cmd\n',
-  footer: '┃ ╰━━━━━━━━━━━━⬣\n╰━━━━━━━━━━━━━━━━━━━⬣',
+  footer: '╰━━━━━━━━━━━━⬣\n',
   after: '',
 }
 
