@@ -10,18 +10,18 @@ async function handler(m, { conn, usedPrefix }) {
         const userJid = user.user.jid.replace(/[^0-9]/g, "");
         if (!addedNumbers.has(userJid)) {
           addedNumbers.add(userJid);
-          const userName = user.user.name || "ʀᴇᴍ-ᴄʜᴀᴍ-ʙᴏᴛ";
-          connectedUsers.add(`Wa.me/${userJid}?text=${usedPrefix}menu (${userName})`);
+          const userName = user.user.name || "𝚈𝙾𝚂𝙷𝙸𝙺𝙾 𝚂𝚄𝙱-𝙱𝙾𝚃 🍂";
+          connectedUsers.add(`Wa.me/${userJid}?text=${usedPrefix}allmenu (${userName})`);
         }
       });
 
     const connectedUserCount = connectedUsers.size;
     if (connectedUserCount > 0) {
       const imageBuffer = await axios.get("https://telegra.ph/file/520c4e777fdf878004005.jpg", { responseType: "arraybuffer" });
-      await conn.sendFile(m.chat, imageBuffer.data, 'image.jpg', '🕒 𝙲𝙰𝚁𝙶𝙰𝙽𝙳𝙾 𝙻𝙰 𝙻𝙸𝚂𝚃𝙰 𝙳𝙴 𝙻𝙰𝚂 𝚂𝚄𝙱𝙱𝙾𝚃𝚂 𝙰𝙲𝚃𝙸𝚅𝙰𝚂 ⚙️');
+      //await conn.sendFile(m.chat, imageBuffer.data, 'image.jpg', '🕒 𝙲𝙰𝚁𝙶𝙰𝙽𝙳𝙾 𝙻𝙰 𝙻𝙸𝚂𝚃𝙰 𝙳𝙴 𝙻𝙰𝚂 𝚂𝚄𝙱𝙱𝙾𝚃𝚂 𝙰𝙲𝚃𝙸𝚅𝙰𝚂 ⚙️');
 
       const userList = [...connectedUsers].join(`\n`);
-      await m.reply(`╭─⬣「 *lista De Jadibts* 」⬣\n┃ 🕒 𝚂𝚄𝙱𝙱𝙾𝚃𝚂 𝙰𝙲𝚃𝙸𝚅𝙰𝚂:\n╰─⬣\n${userList}`);
+      await m.reply(`╭─⬣「 *LISTA DE JADIBTS* 」⬣\n┃ 🕒 𝚂𝚄𝙱𝙱𝙾𝚃𝚂 𝙰𝙲𝚃𝙸𝚅𝙰𝚂:\n╰─⬣\n╭─⬣「 🌩 YoshikoBot-MD 」⬣\n┃ ${userList}\n╰─⬣`);
     } else {
       await m.reply("🍄 𝙽𝙾 𝙷𝙰𝚈 𝙽𝙸𝙽𝙶𝚄𝙽𝙰 𝚂𝚄𝙱𝙱𝙾𝚃 𝙰𝙲𝚃𝙸𝚅𝙰, 𝚁𝙴𝙶𝙻𝙴𝚂𝙰 𝙼𝙰𝚂 𝚃𝙰𝚁𝙳𝙴 ✏️");
     }
