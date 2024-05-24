@@ -11,6 +11,7 @@ async function handler(m, { conn, usedPrefix }) {
         if (!addedNumbers.has(userJid)) {
           addedNumbers.add(userJid);
           const userName = user.user.name || "𝚂𝚄𝙱-𝙱𝙾𝚃";
+          let users = [...uniqueUsers.values()]
           connectedUsers.add(`╭─⬣「 *${userName}* 」⬣\n│ wa.me/${userJid}?text=!allmenu\n╰─⬣`);
         }
       });
@@ -21,7 +22,7 @@ async function handler(m, { conn, usedPrefix }) {
       //await conn.sendFile(m.chat, imageBuffer.data, 'image.jpg', '🕒 𝙲𝙰𝚁𝙶𝙰𝙽𝙳𝙾 𝙻𝙰 𝙻𝙸𝚂𝚃𝙰 𝙳𝙴 𝙻𝙰𝚂 𝚂𝚄𝙱𝙱𝙾𝚃𝚂 𝙰𝙲𝚃𝙸𝚅𝙰𝚂 ⚙️');
 
       const userList = [...connectedUsers].join(`\n`);
-      await m.reply(`╭─⬣「 *LISTA DE JADIBTS* 」⬣\n┃ 🕒 𝚂𝚄𝙱𝙱𝙾𝚃𝚂 𝙰𝙲𝚃𝙸𝚅𝙰𝚂\n╰─⬣\n${userList}`);
+      await m.reply(`╭─⬣「 *LISTA DE JADIBTS* 」⬣\n┃ 🕒 𝚂𝚄𝙱𝙱𝙾𝚃𝚂 𝙰𝙲𝚃𝙸𝚅𝙰𝚂: ${totalUsers || '0'}\n╰─⬣\n${userList}`);
     } else {
       await m.reply("🍄 𝙽𝙾 𝙷𝙰𝚈 𝙽𝙸𝙽𝙶𝚄𝙽𝙰 𝚂𝚄𝙱𝙱𝙾𝚃 𝙰𝙲𝚃𝙸𝚅𝙰, 𝚁𝙴𝙶𝙻𝙴𝚂𝙰 𝙼𝙰𝚂 𝚃𝙰𝚁𝙳𝙴 ✏️");
     }
