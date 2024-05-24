@@ -1,42 +1,38 @@
-import ws from 'ws';
-async function handler(m, { conn: _envio, usedPrefix }) {
-  const users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])];
-  function convertirMsADiasHorasMinutosSegundos(ms) {
-  var segundos = Math.floor(ms / 1000);
-  var minutos = Math.floor(segundos / 60);
-  var horas = Math.floor(minutos / 60);
-  var días = Math.floor(horas / 24);
+import axios from 'axios';
 
-  segundos %= 60;
-  minutos %= 60;
-  horas %= 24;
+async function handler(m, { conn, usedPrefix }) {
+  try {
+    const connectedUsers = new Set();
+    const addedNumbers = new Set();
+    global.conns
+      .filter(conn => conn.user && conn.state !== "close")
+      .forEach(user => {
+        const userJid = user.user.jid.replace(/[^0-9]/g, "");
+        if (!addedNumbers.has(userJid)) {
+          addedNumbers.add(userJid);
+          const userName = user.user.name || "ʀᴇᴍ-ᴄʜᴀᴍ-ʙᴏᴛ";
+          connectedUsers.add(`Wa.me/${userJid}?text=${usedPrefix}menu (${userName})`);
+        }
+      });
 
-  var resultado = "";
-  if (días !== 0) {
-    resultado += días + " días, ";
-  }
-  if (horas !== 0) {
-    resultado += horas + " horas, ";
-  }
-  if (minutos !== 0) {
-    resultado += minutos + " minutos, ";
-  }
-  if (segundos !== 0) {
-    resultado += segundos + " segundos";
-  }
+    const connectedUserCount = connectedUsers.size;
+    if (connectedUserCount > 0) {
+      const imageBuffer = await axios.get("https://telegra.ph/file/520c4e777fdf878004005.jpg", { responseType: "arraybuffer" });
+      await conn.sendFile(m.chat, imageBuffer.data, 'image.jpg', '🕒 𝙲𝙰𝚁𝙶𝙰𝙽𝙳𝙾 𝙻𝙰 𝙻𝙸𝚂𝚃𝙰 𝙳𝙴 𝙻𝙰𝚂 𝚂𝚄𝙱𝙱𝙾𝚃𝚂 𝙰𝙲𝚃𝙸𝚅𝙰𝚂 ⚙️');
 
-  return resultado;
+      const userList = [...connectedUsers].join(`\n`);
+      await m.reply(`🕒 𝚂𝚄𝙱𝙱𝙾𝚃𝚂 𝙰𝙲𝚃𝙸𝚅𝙰𝚂:\n${userList}`);
+    } else {
+      await m.reply("🍄 𝙽𝙾 𝙷𝙰𝚈 𝙽𝙸𝙽𝙶𝚄𝙽𝙰 𝚂𝚄𝙱𝙱𝙾𝚃 𝙰𝙲𝚃𝙸𝚅𝙰, 𝚁𝙴𝙶𝙻𝙴𝚂𝙰 𝙼𝙰𝚂 𝚃𝙰𝚁𝙳𝙴 ✏️");
+    }
+  } catch (error) {
+    console.error("Error:", error);
+    await m.reply("Ocurrió un error al procesar la solicitud.");
+  }
 }
 
-  const message = users.map((v, index) => `*${index + 1} ➺* @${v.user.jid.replace(/[^0-9]/g, '')}\n💻 Wa.me/${v.user.jid.replace(/[^0-9]/g, '')}?text=${usedPrefix}allmenu\n*Nombre:* ${v.user.name || '-'}\n*Activa:* ${ v.uptime ? convertirMsADiasHorasMinutosSegundos(Date.now() - v.uptime) : "Desconocido"}`).join('\n\n');
-  const replyMessage = message.length === 0 ? '*🍃 No Hay Subbots Disponible Por El Momento.*\n- 📮 Verifique Mas Tarde.' : message;
-  const totalUsers = users.length;
-  const responseMessage = `${replyMessage.trim()}`.trim();
-await m.reply(`*✏️ Aqui Tiene La Lista De Los Subbots Activós En Estos Momentos.*\n\nJadibots Conectados: ${totalUsers || '0'}`)
-await _envio.sendMessage(m.chat, {text: responseMessage, mentions: _envio.parseMention(responseMessage)}, {quoted: m});
-}
-handler.command = handler.help = ['listjadibot', 'bots', 'subsbots'];
-handler.tags = ['jadibot'];
+handler.command = ["listjadibot", "bots"];
+handler.help = ["bots"];
+handler.tags = ["serbot", "jadibot"];
+
 export default handler;
-//handler.register = true
-//handler.private = true
