@@ -44,28 +44,21 @@ import { xpRange } from '../lib/levelling.js'
 const defaultMenu = {
   before: `> %greeting %taguser
 
-╭━〔  𝐈𝐍𝐅𝐎 𝐁𝐎𝐓 🍄  〕⬣
-┃֪࣪֝፝֟͜🌸 🅲︎ʀᴇᴀᴅᴏʀ: %author
-┃֪࣪֝፝֟͜🏷 🅃ᴀɢ: %taguser
-┃֪࣪֝፝֟͜⏰️ 🆁︎ᴜɴᴛɪᴍᴇ: %muptime
-┃֪࣪֝፝֟͜💜 🅄sᴜᴀʀɪᴏs: %totalreg
-┃֪࣪֝፝֟͜💋 🆅︎ᴇʀᴄɪᴏɴ: 1.0.7
-╰━━━━━━━━━━━━⬣
+ 〔  𝐈𝐍𝐅𝐎 𝐁𝐎𝐓 🍄  〕⬣
 
-╭━〔  𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑 🍂  〕⬣
-┃֪࣪֝፝֟͜💋 🆄︎sᴇʀ: %name
-┃֪࣪֝፝֟͜💰 🄴xᴘ: %totalexp
-┃֪࣪֝፝֟͜🪙 🅳︎ɪᴀᴍᴀɴᴛᴇs: %limit
-┃֪࣪֝፝֟͜🏮 🄽ɪᴠᴇʟ: %level
-╰━━━━━━━━━━━━⬣
+✰્᭄͜͡ 🅲︎ʀᴇᴀᴅᴏʀ: %author
+✰્᭄͜͡ 🅃ᴀɢ: %taguser
+✰્᭄͜͡ 🆁︎ᴜɴᴛɪᴍᴇ: %muptime
+✰્᭄͜͡ 🅄sᴜᴀʀɪᴏs: %totalreg
+✰્᭄͜͡ 🆅︎ᴇʀᴄɪᴏɴ: 1.0.7
 
-╭━〔  𝐌𝐄𝐍𝐔 𝐈𝐍𝐅𝐎 🍁  〕⬣
-┃֪࣪🌩 #grupos
-┃֪࣪🌩 #info
-┃֪࣪🌩 #ping
-┃֪࣪🌩 #contactos
-┃֪࣪🌩 #blocklist
-╰━━━━━━━━━━━━⬣
+
+ 〔  𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑 🍂  〕⬣
+
+✰્᭄͜͡ 🆄︎sᴇʀ: %name
+✰્᭄͜͡ 🄴xᴘ: %totalexp
+✰્᭄͜͡ 🅳︎ɪᴀᴍᴀɴᴛᴇs: %limit
+✰્᭄͜͡ 🄽ɪᴠᴇʟ: %level
 %readmore
          *乂 ⺀ ʟɪꜱᴛᴀ - ᴄᴏᴍᴀɴᴅᴏꜱ ⺀ 乂*
 `.trimStart(),
