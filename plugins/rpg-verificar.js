@@ -39,7 +39,20 @@ let regbot = `╭─⬣「 *User Registro* 」⬣
 //await m.reply(regbot)
 //await m.reply(`${sn}`)
 
-await conn.reply(m.chat, regbot, m, { externalAdReply: { mediaType: 1, renderLargerThumbnail: true, thumbnail: pp, thumbnailUrl: pp, title: 'Registrado 📩', }})
+conn.sendMessage(m.chat, {
+text: str,
+contextInfo: { 
+forwardingScore: 9999, 
+isForwarded: true, 
+externalAdReply: {
+title: packname,
+body: team,
+thumbnailUrl: img,
+thumbnail: img,
+sourceUrl: global.channel,
+mediaType: 1,
+renderLargerThumbnail: true
+}}}, { quoted: m})
 
 }
 handler.help = ['reg']
