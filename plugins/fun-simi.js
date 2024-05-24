@@ -1,6 +1,6 @@
 import translate from '@vitalets/google-translate-api';
 import fetch from 'node-fetch';
-const handler = async (m, {text, command, args, usedPrefix}) => {
+const handler = async (fkontak, {text, command, args, usedPrefix}) => {
 if (!text) throw `✏️ Ingresa un texto para empezar a hablar con la Bot.`
 m.react('🗣️')
 try {
