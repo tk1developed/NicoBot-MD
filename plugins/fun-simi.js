@@ -1,12 +1,12 @@
 import translate from '@vitalets/google-translate-api';
 import fetch from 'node-fetch';
 const handler = async (m, {text, command, args, usedPrefix}) => {
-  if (!text) throw `✏️ Ingresa un texto para empezar a hablar con la Bot.`;
+  if (!text) return conn.reply(m.chat, `✏️ Ingresa un texto para empezar a hablar con la Bot.`, m, fake, )
 m.react('🗣️')
   try {
     const api = await fetch('https://api.simsimi.net/v2/?text=' + text + '&lc=es');
     const resSimi = await api.json();
-    m.reply(resSimi.success);
+    conn.reply(m.chat, resSimi.success, m, fake, )
   } catch {
     try {
       if (text.includes('Hola')) text = text.replace('Hola', 'Hello');
@@ -19,13 +19,16 @@ m.react('🗣️')
       const res = await api.json();
       const reis2 = await fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=es&dt=t&q=' + res.cnt);
       const resu2 = await reis2.json();
-      m.reply(resu2[0][0][0]);
+      conn.reply(m.chat, resu2[0][0][0], m, fake, )
     } catch {
-      throw `⚙️ Ocurrió un error`;
+      throw `⚙️ Ocurrió Un Error.`;
     }
   }
 };
-handler.help = ['simi'];
-handler.tags = ['fun'];
-handler.command = /^((sim)?simi|bot|alexa|cortana)$/i;
-export default handler;
+handler.help = ['simi']
+handler.tags = ['fun']
+handler.command = /^((sim)?simi|bot|alexa|cortana)$/i
+
+handler.register = true
+
+export default handler
