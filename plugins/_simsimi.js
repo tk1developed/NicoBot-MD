@@ -11,7 +11,7 @@ handler.before = async (m) => {
     m.react('🗣️')
     try {
       const ressimi = await simitalk(textodem);
-      await m.conn.sendMessage(m.chat, { text: ressimi.resultado.simsimi }, { quoted: m });
+      await m.conn.sendMessage(m.chat, { text: ressimi.resultado.simsimi }, { quoted: fkontak });
     } catch {
       throw '⚙️ La API de Simsimi presenta errores.';
     }
