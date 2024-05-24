@@ -52,6 +52,7 @@ const defaultMenu = {
 ✰્᭄͜͡ 🅄sᴜᴀʀɪᴏs: %totalreg
 ✰્᭄͜͡ 🆅︎ᴇʀᴄɪᴏɴ: 1.0.7
 %sbot
+
       ⬣〔  𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑 🍂  〕⬣
 
 ✰્᭄͜͡ 🆄︎sᴇʀ: %name
