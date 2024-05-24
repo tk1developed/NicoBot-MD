@@ -52,7 +52,6 @@ const defaultMenu = {
 ✰્᭄͜͡ 🅄sᴜᴀʀɪᴏs: %totalreg
 ✰્᭄͜͡ 🆅︎ᴇʀᴄɪᴏɴ: 1.0.7
 %sbot
-
       ⬣〔  𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑 🍂  〕⬣
 
 ✰્᭄͜͡ 🆄︎sᴇʀ: %name
@@ -156,7 +155,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       me: conn.getName(conn.user.jid),
       npmname: _package.name,
       version: _package.version,
-      sbot: (conn.user.jid == global.conn.user.jid ? '' : `✰્᭄͜͡ 🅂ᴏʏ sᴜʙʙᴏᴛ ᴅᴇ:\n✰્᭄͜͡ Wa.me/${global.conn.user.jid.split`@`[0]}`), 
+      sbot: (conn.user.jid == global.conn.user.jid ? '' : `✰્᭄͜͡ 🅂ᴏʏ sᴜʙʙᴏᴛ ᴅᴇ:\n✰્᭄͜͡ Wa.me/${global.conn.user.jid.split`@`[0]}`)\n, 
       npmdesc: _package.description,
       npmmain: _package.main,
       author: _package.author.name,
