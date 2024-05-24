@@ -8,10 +8,10 @@ handler.before = async (m) => {
   if (chat.simi) {
     if (/^.*false|disnable|(turn)?off|0/i.test(m.text)) return;
     let textodem = m.text;
-    m.react('🗣️')
+    //m.react('🗣️')
     try {
       const ressimi = await simitalk(textodem);
-      await m.conn.sendMessage(m.chat, { text: ressimi.resultado.simsimi }, { quoted: fkontak });
+      await m.conn.sendMessage(m.chat, { text: ressimi.resultado.simsimi }, { quoted: m });
     } catch {
       throw '⚙️ La API de Simsimi presenta errores.';
     }
