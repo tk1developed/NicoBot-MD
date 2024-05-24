@@ -1,39 +1,26 @@
-import axios from 'axios';
+import ws from 'ws'
 
-async function handler(m, { conn, usedPrefix }) {
-  try {
-    const connectedUsers = new Set();
-    const addedNumbers = new Set();
-    global.conns
-      .filter(conn => conn.user && conn.state !== "close")
-      .forEach(user => {
-        const userJid = user.user.jid.replace(/[^0-9]/g, "");
-        if (!addedNumbers.has(userJid)) {
-          addedNumbers.add(userJid);
-          const userName = user.user.name || "𝚂𝚄𝙱-𝙱𝙾𝚃";
-          const users = [...uniqueUsers.values()]
-          connectedUsers.add(`╭─⬣「 *${userName}* 」⬣\n│ wa.me/${userJid}?text=!allmenu\n╰─⬣`);
-        }
-      });
+async function handler(m, { conn: stars, usedPrefix }) {
+  let uniqueUsers = new Map()
 
-    const connectedUserCount = connectedUsers.size;
-    if (connectedUserCount > 0) {
-      const imageBuffer = await axios.get("https://telegra.ph/file/520c4e777fdf878004005.jpg", { responseType: "arraybuffer" });
-      //await conn.sendFile(m.chat, imageBuffer.data, 'image.jpg', '🕒 𝙲𝙰𝚁𝙶𝙰𝙽𝙳𝙾 𝙻𝙰 𝙻𝙸𝚂𝚃𝙰 𝙳𝙴 𝙻𝙰𝚂 𝚂𝚄𝙱𝙱𝙾𝚃𝚂 𝙰𝙲𝚃𝙸𝚅𝙰𝚂 ⚙️');
-
-      const userList = [...connectedUsers].join(`\n`);
-      await m.reply(`╭─⬣「 *LISTA DE JADIBTS* 」⬣\n┃ 🕒 𝚂𝚄𝙱𝙱𝙾𝚃𝚂 𝙰𝙲𝚃𝙸𝚅𝙰𝚂: ${totalUsers || '0'}\n╰─⬣\n${userList}`);
-    } else {
-      await m.reply("🍄 𝙽𝙾 𝙷𝙰𝚈 𝙽𝙸𝙽𝙶𝚄𝙽𝙰 𝚂𝚄𝙱𝙱𝙾𝚃 𝙰𝙲𝚃𝙸𝚅𝙰, 𝚁𝙴𝙶𝙻𝙴𝚂𝙰 𝙼𝙰𝚂 𝚃𝙰𝚁𝙳𝙴 ✏️");
+  global.conns.forEach((conn) => {
+    if (conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED) {
+      uniqueUsers.set(conn.user.jid, conn)
     }
-  } catch (error) {
-    console.error("Error:", error);
-    await m.reply("Ocurrió un error al procesar la solicitud.");
-  }
+  })
+
+  let users = [...uniqueUsers.values()]
+
+  let message = users.map((v, index) => `✧ *${index + 1}.-* @${v.user.jid.replace(/[^0-9]/g, '')}\n✧ *Link:* https://wa.me/${v.user.jid.replace(/[^0-9]/g, '')}\n✧ *Nombre:* ${v.user.name || '𝚂𝚄𝙱-𝙱𝙾𝚃'}`).join('\n\n')
+
+  let replyMessage = message.length === 0 ? '' : message
+  let totalUsers = users.length
+  let responseMessage = `╔═══════ ✧ ════════╗\n║			 *𝚃𝙾𝚃𝙰𝙻 𝙳𝙴 𝚂𝚄𝙱𝙱𝙾𝚃𝚂* : ${totalUsers || '0'}\n╚═══════ ✧ ════════╝\n\n${replyMessage.trim()}`.trim()
+
+  await stars.sendMessage(m.chat, { text: responseMessage, mentions: stars.parseMention(responseMessage) }, { quoted: fkontak })
 }
 
-handler.command = ["listjadibot", "bots"];
-handler.help = ["bots"];
-handler.tags = ["serbot", "jadibot"];
-
-export default handler;
+handler.command = ['listjadibot', 'bots']
+handler.help = ['bots']
+handler.tags = ['jadibot']
+export default handler
