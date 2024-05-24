@@ -32,7 +32,7 @@ m.react('📒')
 
 let menu = `☄️ !Hola¡ ${user}
 
-𝚂𝚄𝙱𝙱𝙾𝚃 𝙳𝙴: ${(conn.user.jid == global.conn.user.jid ? '' : `https://Wa.me/${global.conn.user.jid.split`@`[0]}`) || '𝙴𝚂𝚃𝙴 𝙴𝚂 𝙴𝚂 𝙴𝙻 𝙱𝙾𝚃 𝙾𝙵𝙲'}
+Subbot De: ${(conn.user.jid == global.conn.user.jid ? '' : `https://Wa.me/${global.conn.user.jid.split`@`[0]}`) || 'Soy Un Bot Ofc'}
 
 !allmenu
 *(Para ver el menú completo)*
