@@ -54,9 +54,9 @@ const defaultMenu = {
       ⬣〔  𝐈𝐍𝐅𝐎 𝐁𝐎𝐓 🍄  〕⬣
 
 ✰્᭄͜͡ 🅲︎ʀᴇᴀᴅᴏʀ: %author
-✰્᭄͜͡ 🆁︎ᴜɴᴛɪᴍᴇ: %muptime
-✰્᭄͜͡ 🅄sᴜᴀʀɪᴏs: %totalreg
-✰્᭄͜͡ 🆅︎ᴇʀᴄɪᴏɴ: 1.0.7
+✰્᭄͜͡ 🅁ᴜɴᴛɪᴍᴇ: %muptime
+✰્᭄͜͡ 🆄︎sᴜᴀʀɪᴏs: %totalreg
+✰્᭄͜͡ 🅅ᴇʀᴄɪᴏɴ: 1.0.7
 %sbot
 %readmore
          *乂 ⺀ ʟɪꜱᴛᴀ - ᴄᴏᴍᴀɴᴅᴏꜱ ⺀ 乂*
@@ -155,7 +155,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       me: conn.getName(conn.user.jid),
       npmname: _package.name,
       version: _package.version,
-      sbot: (conn.user.jid == global.conn.user.jid ? '' : `✰્᭄͜͡ 🅂ᴏʏ sᴜʙʙᴏᴛ ᴅᴇ:\n✰્᭄͜͡ Wa.me/${global.conn.user.jid.split`@`[0]}`), 
+      sbot: (conn.user.jid == global.conn.user.jid ? '' : `✰્᭄͜͡ 🆂︎ᴏʏ sᴜʙʙᴏᴛ ᴅᴇ:\n✰્᭄͜͡ Wa.me/${global.conn.user.jid.split`@`[0]}`), 
       npmdesc: _package.description,
       npmmain: _package.main,
       author: _package.author.name,
