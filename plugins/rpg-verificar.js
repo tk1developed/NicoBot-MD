@@ -1,49 +1,91 @@
-import { createHash } from 'crypto'
-
-let Reg = /\|?(.*)([.|] *?)([0-9]*)$/i
+import { createHash } from 'crypto'  
+import fetch from 'node-fetch'
+let Reg = /\|?(.*)([.|] *?)([0-9]*)$/i 
 let handler = async function (m, { conn, text, usedPrefix, command }) {
+let codigosIdiomas = ['es']
+let nombresIdiomas = {
+'es': 'Español',
+}
+
+let yoshiImg = ['inagen6', 'imagen2']
+
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let pp = await conn.profilePictureUrl(who, 'image').catch(_ => yoshiImg.getRandom())
+
+function pickRandom(list) {
+return list[Math.floor(Math.random() * list.length)]
+} 
+let tag = `${m.sender.split("@")[0]}`
+let aa = tag + '@s.whatsapp.net'
 let user = global.db.data.users[m.sender]
-let name2 = conn.getName(m.sender)
-let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? this.user.jid : m.sender
-let pp = await this.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/1861aab98389b13db8588.jpg')
-if (user.registered === true) throw `🏷 𝐄𝐑𝐑𝐎𝐑 🏷 *Ya ᥱs𝗍ᥲ́s registrado*\n\n¿𝗊ᥙіᥱrᥱ ᥎᥆ᥣ᥎ᥱr ᥲ rᥱgіs𝗍rᥲrsᥱ?\n\n✏️ ᥙsᥱ ᥱs𝗍ᥱ ᥴ᥆mᥲᥒძ᥆ para *eliminar su registro*\n*.unreg* <ᥒᥙ́mᥱr᥆ ძᥱ serie>`
-if (!Reg.test(text)) throw `*✏️ Formato incorrecto*\n\n📩 Uso del comamdo: *${usedPrefix + command} nombre.edad*\n💡 Ejemplo : *${usedPrefix + command}* ${name2}.18`
-let [_, name, splitter, age] = text.match(Reg)
-if (!name) throw '*📝 El nombre no puede estar vacío*'
-if (!age) throw '*📝 La edad no puede estar vacía*'
-if (name.length >= 30) throw '*⚠️ El nombre es demasiado largo*' 
+
+if (/^(verify|verificar|reg(ister)?)$/i.test(command)) {
+if (user.registered === true) return m.reply(lenguajeGB.smsVerify0(usedPrefix) + '*')
+if (!Reg.test(text)) return m.reply(lenguajeGB.smsVerify1(usedPrefix, command))
+let [_, name, splitter, age] = text.match(Reg)  
+if (!name) return m.reply(lenguajeGB.smsVerify2())
+if (!age) return m.reply(lenguajeGB.smsVerify3())
 age = parseInt(age)
-if (age > 100) throw '*👴🏻 Wow el abuelo quiere jugar al bot*'
-if (age < 5) throw '*👀 hay un bebé jsjsj*'
-user.name = name.trim()
+if (age > 50) return m.reply(lenguajeGB.smsVerify4()) 
+if (age < 10) return m.reply(lenguajeGB.smsVerify5())
+if (name.length >= 30) return m.reply(lenguajeGB.smsVerify6())
+user.name = name + 'ͧͧͧͦꙶͣͤ✓ᚲᴳᴮ'.trim()
 user.age = age
+let listaIdiomasTexto = ''
+listaIdiomasTexto += '*╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄୭̥⋆*｡*\n' 
+listaIdiomasTexto += '*┆ 🌐 IDIOMA DINÁMICO 🌐*\n' 
+listaIdiomasTexto += '*┆┄┄┄┄┄┄┄┄┄┄┄┄┄┄୭̥⋆*｡*\n' 
+codigosIdiomas.forEach((codigo, index) => {
+listaIdiomasTexto += `*┆* \`\`\`[ ${index + 1} ] » ${nombresIdiomas[codigo]}\`\`\`\n`
+})
+listaIdiomasTexto += '*╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄୭̥⋆*｡*\n'    
+let genText = `🌟 *NUEVA FUNCIÓN - MULTI LENGUAJE DINÁMICO (BETA)*\n
+👉 *ESCRIBA EL NÚMERO PARA ELEGIR EL IDIOMA, EJEMPLO:*
+✓ \`\`\`${usedPrefix}idiomayl 1️⃣\`\`\`\n✓ \`\`\`${usedPrefix}idiomayl 1\`\`\`\n
+${listaIdiomasTexto}
+⚠️ *TENGA EN CONSIDERACIÓN QUE EL IDIOMA QUE SELECCIONE ${packname} SE ENCARGARÁ DE INTERACTUAR EN DICHO IDIOMA, SI SU IDIOMA NO APARECE SOLICITE QUE SE AGREGUE*\n${ig}\n
+❇️ *SU REGISTRO ESTÁ EN PAUSA, COMPLETE EL IDIOMA PARA CONTINUAR*`
+await conn.sendMessage(m.chat, { text: genText }, { quoted: m })        
+} 
+
+if (command == 'idiomayl') {        
+if (!user.name || !user.age) return conn.sendMessage(m.chat, { text: `*REGISTRE SU NOMBRE Y EDAD PARA PODER USAR ESTE COMANDO*` }, { quoted: m })   
+var emojiANumero = { "0️⃣": "0", "1️⃣": "1" }
+text = text.replace(/[\u{0030}-\u{0039}]\u{FE0F}\u{20E3}/gu, function(match) {
+return emojiANumero[match] || match
+})
+let idioma = ''
+async function asignarIdioma(text) { 
+if (!text) return conn.sendMessage(m.chat, { text: `*ESCRIBA UN NÚMERO PARA ELEGIR EL IDIOMA, EJEMPLO:*\n\n✓ \`\`\`${usedPrefix}idiomayl 1️⃣\`\`\`\n✓ \`\`\`${usedPrefix}idiomayl 1\`\`\`` }, { quoted: m })          
+if (text < 1 || (text > codigosIdiomas.length && text)) {
+conn.reply(m.chat, `"${text}" NO ES VÁLIDO PARA ELEGIR, RECUERDE USAR EL EMOJI NUMÉRICO O TEXTO NUMÉRICO PARA SELECCIONAR EL IDIOMA, EJEMPLO:*\n\n✓ \`\`\`${usedPrefix}idiomayl 1️⃣\`\`\`\n✓ \`\`\`${usedPrefix}idiomayl 1\`\`\``, m) 
+}
+switch (text) {
+case "1️⃣":
+case "1":
+idioma = 'es'
+break
+default:
+if (text == 0 || text > codigosIdiomas.length) return
+return conn.reply(m.chat, `*RECUERDE USAR EL EMOJI NUMÉRICO O TEXTO NUMÉRICO PARA SELECCIONAR EL IDIOMA, EJEMPLO*\n\n✓ \`\`\`${usedPrefix}idiomayl 1️⃣\`\`\`\n✓ \`\`\`${usedPrefix}idiomayl 1\`\`\``, m)
+}}
+await asignarIdioma(text)
+user.GBLanguage = idioma
+if (!user.GBLanguage) return m.reply(`*NO SE LOGRÓ CONFIGURAR EL IDIOMA, INTENTE DE NUEVO POR FAVOR*`)
+if (codigosIdiomas.includes(user.YLLanguage)) {
+nombresIdiomas = nombresIdiomas[user.YLLanguage]
+} else {
+nombresIdiomas = `IDIOMA NO DETECTADO`
+}  
+await m.reply(`*EN CASO QUE QUIERA CAMBIAR O ELIMINAR EL IDIOMA DEBE DE ELIMINAR SU REGISTRO PRIMERO*`)
 user.regTime = + new Date
 user.registered = true
-global.db.data.users[m.sender].money += 600
-global.db.data.users[m.sender].limit += 10
-global.db.data.users[m.sender].exp += 245
-global.db.data.users[m.sender].joincount += 5
-let sn = createHash('md5').update(m.sender).digest('hex')
-m.react('📩') 
-let regbot = `╭─⬣「 *User Registro* 」⬣
-│  ≡◦ *🪴 Nombre ∙* ${name}
-│  ≡◦ *🐢 Edad ∙* ${age} años
-╰─⬣
-
-╭─⬣「 *Recompensas* 」⬣
-│  ≡◦ 10 Diamantes 💎
-│  ≡◦ 600 YoshiCoins 💰
-│  ≡◦ 245 Exp 💸
-│  ≡◦ 5 Monedas 🪙
-╰━━━━━━━━━━━━⬣`
-await m.reply(regbot)
-await m.reply(`${sn}`)
-
-//await conn.reply(m.chat, regbot, m, { externalAdReply: { mediaType: 1, renderLargerThumbnail: true, thumbnail: pp, thumbnailUrl: pp, title: 'Registrado 📩', }})
-
+let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)        
+let caption = `Exito`.trim()
+await conn.sendFile(m.chat, pp, 'yoshi.jpg', caption, m, false, { mentions: [aa] }) 
+await m.reply('**') 
+await m.reply(`${sn}`) 
 }
-handler.help = ['reg']
-handler.tags = ['rg']
-handler.command = ['verify', 'reg', 'verificar', 'registrar'] 
-
+}
+handler.command = /^(verify|verificar|reg(ister)?|idiomagb)$/i
 export default handler
