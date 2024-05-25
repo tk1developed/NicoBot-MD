@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 const handler = async (m, {conn, text}) => {
-  if (!text) return conn.reply(m.chat, '*[❗] 𝙸𝙽𝚂𝙴𝚁𝚃𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙳𝙴 𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙳𝙴 𝚃𝙸𝙺𝚃𝙾𝙺*', m);
+  if (!text) return conn.reply(m.chat, '🏷 Inserte el comando mas el nombre de usuario de tiktok', m);
   try {
     const res = await fetch(`https://api.lolhuman.xyz/api/stalktiktok/${text}?apikey=${lolkeysapi}`);
     const res2 = `https://api.lolhuman.xyz/api/pptiktok/${text}?apikey=${lolkeysapi}`;
@@ -19,7 +19,7 @@ const handler = async (m, {conn, text}) => {
 `.trim();
     conn.sendFile(m.chat, res2, 'error.jpg', msg, m, false);
   } catch (e) {
-    throw '*[❗] 𝙴𝚁𝚁𝙾𝚁, 𝙽𝙾 𝚂𝙴 𝙴𝙲𝙾𝙽𝚃𝚁𝙾 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙸𝙽𝙶𝚁𝙴𝚂𝙰𝙳𝙾*';
+    throw '🚫 Error, No se encontró ningun usuario con ese nombre';
   }
 };
 handler.help = ['tiktokstalk'].map((v) => v + ' <username>');
