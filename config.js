@@ -28,8 +28,8 @@ global.contactos = [
 ["51935499065", '𝗢𝗳𝗰 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 💻', 1],
 ["51944167935", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 🌺', 1]]
 
-global.suittag = ['573012482597'];
-global.prems = ['573218138672'];
+global.suittag = ['573012482694']
+global.prems = []
 
 global.lenguajeYL = es //idioma de yoshiko
 
