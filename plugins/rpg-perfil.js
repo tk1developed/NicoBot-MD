@@ -22,18 +22,7 @@ let str = `╭━〔  𝐏 𝐄 𝐑 𝐅 𝐈 𝐋 🍄  〕⬣
 ┃ 🏷 • *Premium:* ${premium ? '✅': '❌'}
 ╰━━━━━━━━━━━━⬣`.trim()
 
-contextInfo: {
-externalAdReply: {
-title: wm,
-body: user.name,
-thumbnailUrl: pp, 
-sourceUrl: 'https://www.atom.bio/gatabot/',
-mediaType: 1,
-showAdAttribution: true,
-renderLargerThumbnail: true
-}}}, { quoted: fkontak })
-
-//conn.sendFile(m.chat, pp, 'perfil.jpg', str, fkon, false, { mentions: [who] })
+conn.sendFile(m.chat, pp, 'perfil.jpg', str, fkon, title: wm, body: wm, false, { mentions: [who] })
 
 }
 handler.help = ['profile']
