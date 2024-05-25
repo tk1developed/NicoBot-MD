@@ -4,7 +4,7 @@ let Reg = /\|?(.*)([.|] *?)([0-9]*)$/i
 let handler = async function (m, { conn, text, usedPrefix, command }) {
 let codigosIdiomas = ['es']
 let nombresIdiomas = {
-'es': 'Español',
+'es': 'Español'
 }
 
 let yoshiImg = ['imagen6', 'imagen2']
