@@ -3,7 +3,7 @@
 ⚠ PROHIBIDO EDITAR ⚠ -- ⚠ PROHIBIDO EDITAR ⚠ -- ⚠ PROHIBIDO EDITAR ⚠
 
 El codigo de este archivo fue realizado por:
-- ReyEndymion (https://github.com/ReyEndymion)
+- ReyEndymion
 
 ⚠ PROHIBIDO EDITAR ⚠ -- ⚠ PROHIBIDO EDITAR ⚠ -- ⚠ PROHIBIDO EDITAR ⚠
 
