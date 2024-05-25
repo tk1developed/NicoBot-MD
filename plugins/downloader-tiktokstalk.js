@@ -8,7 +8,7 @@ const handler = async (m, {conn, text}) => {
     if (res.status !== 200) throw await res.text();
     if (!json.status) throw json;
     const thumb = await (await fetch(json.result.user_picture)).buffer();
-    const Yoshiko = `
+    const msg = `
 *𝚄𝚂𝚄𝙰𝚁𝙸𝙾:* ${json.result.username}
 *𝙽𝙾𝙼𝙱𝚁𝙴:* ${json.result.nickname}
 *𝚂𝙴𝙶𝚄𝙸𝙳𝙾𝚁𝙴𝚂:* ${json.result.followers}
@@ -17,7 +17,7 @@ const handler = async (m, {conn, text}) => {
 *𝚅𝙸𝙳𝙴𝙾𝚂:* ${json.result.video}
 *𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* ${json.result.bio}
 `.trim();
-    conn.sendFile(m.chat, res2, 'error.jpg', Yoshiko, m, false);
+    conn.sendFile(m.chat, res2, 'error.jpg', msg, m, false);
   } catch (e) {
     throw '*[❗] 𝙴𝚁𝚁𝙾𝚁, 𝙽𝙾 𝚂𝙴 𝙴𝙲𝙾𝙽𝚃𝚁𝙾 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙸𝙽𝙶𝚁𝙴𝚂𝙰𝙳𝙾*';
   }
