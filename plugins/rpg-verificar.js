@@ -71,7 +71,7 @@ return conn.reply(m.chat, `*RECUERDE USAR EL EMOJI NUMÉRICO O TEXTO NUMÉRICO P
 }}
 await asignarIdioma(text)
 user.GBLanguage = idioma
-if (!user.GBLanguage) return m.reply(`*NO SE LOGRÓ CONFIGURAR EL IDIOMA, INTENTE DE NUEVO POR FAVOR*`)
+if (!user.YLLanguage) return m.reply(`*NO SE LOGRÓ CONFIGURAR EL IDIOMA, INTENTE DE NUEVO POR FAVOR*`)
 if (codigosIdiomas.includes(user.YLLanguage)) {
 nombresIdiomas = nombresIdiomas[user.YLLanguage]
 } else {
