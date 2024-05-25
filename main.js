@@ -143,7 +143,6 @@ console.log('☄️ Por favor, seleccione solo 1 o 2.\n')
 
 console.info = () => {}
 //console.warn = () => {}
-console.debug = () => {} 
 const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
