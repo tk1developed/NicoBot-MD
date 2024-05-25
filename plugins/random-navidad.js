@@ -15,7 +15,7 @@ const handler = async (m, {
   }, {
     quoted: m,
   });
-  // conn.sendButton(m.chat, `_Navidad 🧑‍🎄_`, author, mystic, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `${usedPrefix + command}`]], m)
+  // conn.sendButton(m.chat, `_Navidad 🧑‍🎄_`, author, yoshiko, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `${usedPrefix + command}`]], m)
 };
 handler.help = ['navidad'];
 handler.tags = ['internet'];
