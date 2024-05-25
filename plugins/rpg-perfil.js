@@ -9,8 +9,17 @@ let handler = async (m, { conn, usedPrefix, command}) => {
   let { min, xp, max } = xpRange(user.level, global.multiplier)
   let username = conn.getName(who)
   let prem = global.prems.includes(who.split`@`[0])
-  let txt = `╭─⬣「 *User Perfil* 」⬣`
-await conn.sendUrl(m.chat, txt, m, { externalAdReply: { mediaType: 1, renderLargerThumbnail: true, thumbnail: pp, thumbnailUrl: pp, title: 'Registrado 📩', }})
+  let txt = `╭─⬣「 *User Perfil* 」⬣`.trim(),
+contextInfo: {
+externalAdReply: {
+title: wm,
+body: nombre,
+thumbnailUrl: pp, 
+sourceUrl: 'https://www.atom.bio/bot/',
+mediaType: 1,
+showAdAttribution: true,
+renderLargerThumbnail: true
+}}}, { quoted: fkontak })    
 }
 handler.help = ['perfil', 'perfil @user']
 handler.tags = ['rg']
