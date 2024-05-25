@@ -5,7 +5,7 @@ const handler = async (m, {conn, usedPrefix, command}) => {
   conn.sendFile(m.chat, ronaldo, 'error.jpg', `*Siiiuuuuuu*`, m);
 };
 //conn.sendButton(m.chat, "*Siiiuuuuuu*", author, ronaldo, [['⚽ SIGUIENTE ⚽', `${usedPrefix + command}`]], m)}
-handler.help = ['cristianoronaldo', 'cr7', 'siu'];
+handler.help = ['cristianoronaldo', 'cr7'];
 handler.tags = ['internet'];
-handler.command = /^(cristianoronaldo|cr7)$/i;
+handler.command = /^(cristianoronaldo|cr7|ziu)$/i;
 export default handler;
