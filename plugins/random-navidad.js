@@ -5,11 +5,11 @@ const handler = async (m, {
   usedPrefix,
   command,
 }) => {
-  const res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/navidad.json`)).data;
-  const mystic = await res[Math.floor(res.length * Math.random())];
+  const res = (await axios.get(`https://raw.githubusercontent.com/Diego-YL-177/YoshikoBot-MD/master/src/JSON/navidad.json`)).data;
+  const yoshiko = await res[Math.floor(res.length * Math.random())];
   conn.sendMessage(m.chat, {
     image: {
-      url: mystic,
+      url: yoshiko,
     },
     caption: `_Navidad 🧑‍🎄_`,
   }, {
