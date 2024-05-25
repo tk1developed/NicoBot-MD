@@ -1,18 +1,16 @@
 /*⚠ PROHIBIDO EDITAR ⚠
 
 El codigo de este archivo esta totalmente hecho por:
-- Aiden_NotLogic 
+- Aiden_NotLogic >> https://github.com/ferhacks
 
 El codigo de este archivo fue parchado por:
-- ReyEndymion 
-- BrunoSobrino 
+- ReyEndymion >> https://github.com/ReyEndymion
+- BrunoSobrino >> https://github.com/BrunoSobrino
 
 Contenido adaptado por:
-- GataNina-Li 
-- elrebelde21
-- AzamiJs
-- Diego-YL-177
-
+- GataNina-Li >> https://github.com/GataNina-Li
+- elrebelde21 >> https://github.com/elrebelde21
+- AzamiJs >> https://github.com/AzamiJs
 */
 
 const { useMultiFileAuthState, DisconnectReason, makeCacheableSignalKeyStore, fetchLatestBaileysVersion} = (await import('@whiskeysockets/baileys'))
@@ -39,17 +37,17 @@ let crm1 = 'Y2QgcGx1Z2lucy'
 let crm2 = 'A7IG1kNXN1b'
 let crm3 = 'SBpbmZvLWRvbmFyLmpz'
 let crm4 = 'IF9hdXRvcmVzcG9uZGVyLmpzIGluZm8tYm90Lmpz'
-let drm1 = ''
-let drm2 = ''
-let rtx = lenguajeYL['smsIniJadi']() 
-let rtx2 = lenguajeYL['smsIniJadi2']() 
+let drm1 = '4pOI77iOICpTYWt1'
+let drm2 = 'cmFCb3RMaXRlLU1EKiDwn6e/'
+let rtx = `🚀 *JadiBot - Curiosity*\n\nEscanea este QR para convertirte en un bot temporal\n\n1. Haga clic en los tres puntos en la esquina superior derecha.\n2. Toca Dispositivos vinculados.\n3. Vincular un dispositivo.\n4. Escanea este QR.\n\nQR Caduca en 20 segundos.`
+let rtx2 = `🚀 *JadiBot - Curiosity*\n\nInicia sesión con este código para convertirte en un bot temporal\n\n1. Haga click en los tres puntos en la esquina superior derecha.\n2. Toca Dispositivos vinculados.\n3. Vincular un dispositivo.\n4. Vincular con número de teléfono.\n5. Pegar el código a continuación.`
 
 if (global.conns instanceof Array) console.log()
 else global.conns = []
 
 let handler = async (m, { conn, args, usedPrefix, command, isOwner }) => {
 let parentw = conn
-//if (conn.user.jid !== global.conn.user.jid) return parentw.reply(m.chat, `「🌺 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 - 𝐌𝐃 🌺」\n\n• 🍃 𝙽𝙾 𝚂𝙴 𝙿𝚄𝙴𝙳𝚁 𝙷𝙰𝙲𝙴𝚁 𝚄𝙽𝙰 𝚂𝚄𝙱-𝙱𝙾𝚃 𝙳𝙴𝙽𝚃𝚁𝙾 𝙳𝙴 𝚄𝙽𝙰 𝚂𝚄𝙱-𝙱𝙾𝚃!\n\n• 🚩 𝙻𝙰 𝙱𝙾𝚃 𝙾𝙵𝙲: Wa.me/${global.conn.user.jid.split`@`[0]}&text=${usedPrefix + command}\n\n「🌺 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 - 𝐌𝐃 🌺」`, fkontak)
+//if (conn.user.jid !== global.conn.user.jid) return parentw.reply(m.chat, `🚩 *Diríjase al número principal del bot*\nwa.me/${global.conn.user.jid.split`@`[0]}&text=${usedPrefix + command}`, m) 
 const mcode = args[0] && args[0].includes('--code') ? true : args[1] && args[1].includes('--code') ? true : false
 
 
@@ -95,14 +93,14 @@ msgRetry,
 msgRetryCache,
 version,
 syncFullHistory: true,
-browser: mcode ? ['Ubuntu', 'Chrome', '110.0.5585.95'] : ['Sub-Bot', 'Opera', '5.0'],
+browser: mcode ? ['Ubuntu', 'Chrome', '110.0.5585.95'] : ['CuriosityBot', 'Opera', '5.0'],
 defaultQueryTimeoutMs: undefined,
 getMessage: async (key) => {
 if (store) {
 const msg = store.loadMessage(key.remoteJid, key.id)
 return msg.message && undefined
 } return {
-conversation: 'YoshikoBot-MD',
+conversation: 'CuriosityBot-MD',
 }}}
 
 let conn = makeWASocket(connectionOptions)
@@ -112,9 +110,9 @@ let isInit = true
 async function connectionUpdate(update) {
 const { connection, lastDisconnect, isNewLogin, qr } = update
 if (isNewLogin) conn.isInit = false
-if (qr && !mcode) return parentw.sendMessage(m.chat, { image: await qrcode.toBuffer(qr, { scale: 8 }), caption: rtx + drmer.toString('utf-8')}, { quoted: fkontak})
+if (qr && !mcode) return parentw.sendMessage(m.chat, { image: await qrcode.toBuffer(qr, { scale: 8 }), caption: rtx + drmer.toString('utf-8')}, { quoted: m})
 if (qr && mcode) {
-parentw.sendMessage(m.chat, {text : rtx2 + drmer.toString('utf-8')}, { quoted: fkontak })
+parentw.sendMessage(m.chat, {text : rtx2 + drmer.toString('utf-8')}, { quoted: m })
 await sleep(5000)
 let secret = await conn.requestPairingCode((m.sender.split`@`[0]))
 await m.reply(secret)}
@@ -139,36 +137,36 @@ console.log(reason)
 if (reason == 405) {
 await fs.unlinkSync('./jadibts/' + id + '/creds.json')
 
-return await conn.reply(m.chat, '⛔ 𝙲𝚎𝚛𝚛𝚊𝚗𝚍𝚘 :𝚌', fkontak)
+return await conn.reply(m.chat, '🚩 *Conexión cerrada*', m)
 }
 if (reason === DisconnectReason.restartRequired) {
 jddt()
-return console.log('🌺 𝙻𝚊 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚍𝚎 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝 𝚜𝚎 𝚑𝚊 𝚛𝚎𝚖𝚙𝚕𝚊𝚣𝚊𝚍𝚘, 𝚜𝚎 𝚑𝚊 𝚊𝚋𝚒𝚎𝚛𝚝𝚘 𝚗𝚞𝚎𝚟𝚊 𝚜𝚎𝚜𝚜𝚒𝚘𝚗, 𝚙𝚘𝚛 𝚏𝚊𝚟𝚘𝚛, 𝚌𝚒𝚎𝚛𝚛𝚎 𝚕𝚊 𝚜𝚎𝚜𝚜𝚒𝚘𝚗 𝚙𝚛𝚒𝚖𝚎𝚛𝚊 𝚍𝚎 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝')
+return console.log('🎌 Conexión reemplazada, se ha abierto otra nueva sesion, por favor, cierra la sesión actual primero')
 } else if (reason === DisconnectReason.loggedOut) {
 sleep(4000)
-return conn.reply(m.chat, '🍂 *𝙻𝚊 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚜𝚎 𝚑𝚊 𝚌𝚎𝚛𝚛𝚊𝚍𝚘, 𝚝𝚎𝚗𝚍𝚛𝚊𝚜 𝚚𝚞𝚎 𝚟𝚘𝚕𝚟𝚎𝚛 𝚊 𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚛𝚜𝚎 𝚞𝚜𝚊𝚗𝚍𝚘:*\n!deletesesion (𝙿𝚊𝚛𝚊 𝚎𝚕𝚒𝚖𝚒𝚗𝚊𝚛 𝚕𝚘𝚜 𝚍𝚊𝚝𝚘𝚜 𝚍𝚎 𝚜𝚎𝚜𝚜𝚒𝚘𝚗 𝚢 𝚙𝚘𝚍𝚎𝚛 𝚊 𝚟𝚘𝚕𝚟𝚎𝚛 𝚜𝚘𝚕𝚒𝚌𝚒𝚝𝚊𝚛 𝚗𝚞𝚎𝚟𝚘 𝚌𝚘𝚍𝚒𝚐𝚘 𝚚𝚛 𝚘 𝚌𝚘𝚍𝚒𝚐𝚘 𝚍𝚎 𝚎𝚖𝚙𝚊𝚛𝚎𝚓𝚊𝚖𝚒𝚎𝚗𝚝𝚘 𝚙𝚊𝚛𝚊 𝚊𝚌𝚝𝚒𝚟𝚊𝚛 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝', fkontak)
+return conn.reply(m.chat, '🎌 *La conexión se ha cerrado, tendras que volver a conectarse usando:*\n!deletesesion (Para borrar los datos y poder volver a solitar el QR o el código de emparejamiento', m)
 } else if (reason == 428) {
 await endSesion(false)
-return conn.reply(m.chat, '🎌 *𝙻𝚊 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚜𝚎 𝚌𝚎𝚛𝚛𝚘 𝚜𝚎 𝚒𝚗𝚝𝚎𝚗𝚝𝚊𝚛𝚊 𝚛𝚎𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚛 :𝙳*', fkontak)
+return conn.reply(m.chat, '🎌 *La conexión se ha cerrado de manera inesperada, intentaremos reconectar...*', m)
 } else if (reason === DisconnectReason.connectionLost) {
 await jddt()
-return console.log('🌸 𝙲𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚙𝚎𝚛𝚍𝚒𝚍𝚊 𝚌𝚘𝚗 𝚎𝚕 𝚜𝚎𝚛𝚟𝚒𝚍𝚘𝚛, 𝚛𝚎𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚗𝚍𝚘 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝 :𝚅')
+return console.log('🎌 Conexión perdida con el servidor, reconectando')
 } else if (reason === DisconnectReason.badSession) {
-return await conn.reply(m.chat, '🔮 𝙻𝚊 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚜𝚎 𝚑𝚊 𝚌𝚎𝚛𝚛𝚊𝚍𝚘, 𝚍𝚎𝚋𝚎𝚛𝚊 𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚛𝚜𝚎 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎', fkontak)
+return await conn.reply(m.chat, '🚩 *La conexión se ha cerrado, deberá de conectarse manualmente*', m)
 } else if (reason === DisconnectReason.timedOut) {
 await endSesion(false)
-return console.log('🎋 𝚃𝚒𝚎𝚖𝚙𝚘 𝚍𝚎 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚊𝚐𝚘𝚝𝚊𝚍𝚘, 𝚛𝚎𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚗𝚍𝚘 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝....')
+return console.log('🚩 Tiempo de conexión agotado, reconectando....')
 } else {
-console.log('🌈 𝚁𝚊𝚣𝚘𝚗 𝚍𝚎 𝚍𝚎𝚜𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚍𝚎𝚜𝚌𝚘𝚗𝚘𝚌𝚒𝚍𝚊: ${reason || ""} >> ${connection || ""}')
+console.log('🚩 Razon de desconexión desconocida: ${reason || ""} >> ${connection || ""}')
 }}
 if (global.db.data == null) loadDatabase()
 if (connection == `open`) {
 conn.isInit = true
 global.conns.push(conn)
-await parentw.sendMessage(m.chat, {text : args[0] ? `🌺 𝚅𝚊𝚕𝚎, 𝚏𝚞𝚎 𝚝𝚘𝚍𝚘 𝚞𝚗 𝚎𝚡𝚒𝚝𝚘 𝚊𝚑𝚘𝚛𝚊 𝚎𝚛𝚎𝚜 𝚞𝚗𝚊 𝚂𝚞𝚋-𝙱𝚘𝚝 :𝟹` : `🍄 𝙻𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝 𝚎𝚜𝚝𝚊 𝚊𝚌𝚝𝚒𝚟𝚊, 𝚞𝚜𝚎 𝚜𝚞 (𝙸𝙳) 𝚙𝚊𝚛𝚊 𝚊𝚌𝚝𝚒𝚟𝚊𝚛 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝`}, { quoted: fkontak })
-await parentw.sendMessage(m.chat, {text : `🍂 𝙻𝚊 𝚋𝚘𝚝 𝚢𝚊 𝚎𝚜𝚝𝚊 𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚍𝚊, 𝚎𝚜𝚙𝚎𝚛𝚎 𝚞𝚗 𝚖𝚘𝚖𝚎𝚗𝚝𝚘...`}, { quoted: fkontak })
+await parentw.sendMessage(m.chat, {text : args[0] ? `✅ *Conectado*` : `🎌 *Conectado*\n\nUtilice su ID para volver a conectarse`}, { quoted: m })
+await parentw.sendMessage(m.chat, {text : `🎌 *Esta conectado, espere un momento*`}, { quoted: m })
 await sleep(5000)
-if (!args[0]) parentw.sendMessage(m.chat, {text : usedPrefix + command + ' ' + Buffer.from(fs.readFileSync('./jadibts/' + id + '/creds.json'), 'utf-8').toString('base64')}, { quoted: fkontak })    
+if (!args[0]) parentw.sendMessage(m.chat, {text : usedPrefix + command + ' ' + Buffer.from(fs.readFileSync('./jadibts/' + id + '/creds.json'), 'utf-8').toString('base64')}, { quoted: m })    
 
 }}
 setInterval(async () => {
@@ -208,14 +206,14 @@ conn.ev.off('call', conn.onCall)
 conn.ev.off('connection.update', conn.connectionUpdate)
 conn.ev.off('creds.update', conn.credsUpdate)
 }
-conn.welcome = lenguajeYL['smsWelcome']() 
-conn.bye = lenguajeYL['smsBye']() 
-conn.spromote = lenguajeYL['smsSpromote']() 
-conn.sdemote = lenguajeYL['smsSdemote']() 
-conn.sDesc = lenguajeYL['smsSdesc']() 
-conn.sSubject = lenguajeYL['smsSsubject']() 
-conn.sIcon = lenguajeYL['smsSicon']() 
-conn.sRevoke = lenguajeYL['smsSrevoke']() 
+conn.welcome = '*• Hola, Gracias por unirte!!*\n*━━━━━━━━━━━━━━━━━━━*\n\n🍧 *• Nombre:* @user\n*⚠️  Recuerda leer la descripción*\n@desc'
+conn.bye = '*• Gracias por haber sido parte del grupo*\n*━━━━━━━━━━━━━━━━━━━━━*\n\n🍧 *• Nombre:* @user'
+conn.spromote = '*@user* ¡Se suma al grupo de admins¡'
+conn.sdemote = '*@user* ¡Abandona el grupo!'
+conn.sDesc = '¡Se ha modificado la descripción!\n\n*Nueva descripción:* @desc'
+conn.sSubject = '¡Se ha modificado el título del grupo!'
+conn.sIcon = '¡Se ha cambiado la foto del grupo!'
+conn.sRevoke = '¡Se ha actualizado el enlace del grupo!*\n*Nuevo enlace:* @revoke'
 
 conn.handler = handler.handler.bind(conn)
 conn.participantsUpdate = handler.participantsUpdate.bind(conn)
@@ -233,7 +231,7 @@ Object.keys(conn.chats).forEach(jid => {
 conn.chats[jid].isBanned = false
 })
 } else {
-console.log(conn.chats, `🌻 𝙴𝚜𝚙𝚎𝚛𝚎 𝚕𝚊 𝚋𝚘𝚝 𝚎𝚜𝚝𝚊 𝚕𝚎𝚢𝚎𝚗𝚍𝚘 𝚕𝚘𝚜 𝚖𝚎𝚗𝚜𝚊𝚓𝚎𝚜...`, conn.ev)
+console.log(conn.chats, `🚩 Omitiendo mensajes en espera.`, conn.ev)
 Object.keys(conn.chats).forEach(jid => {
 conn.chats[jid].isBanned = true
 })
@@ -258,7 +256,6 @@ jddt()
 handler.help = [`jadibot`, `serbot`, `getcode`, `rentbot`]
 handler.tags = [`jadibot`]
 handler.command = /^(jadibot|serbot|rentbot)/i
-handler.register = true
 
 export default handler
 
