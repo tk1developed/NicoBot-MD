@@ -19,10 +19,10 @@ user.name = name.trim()
 user.age = age
 user.regTime = + new Date
 user.registered = true
-global.db.data.users[m.sender].money += 777
-global.db.data.users[m.sender].limit += 898
-global.db.data.users[m.sender].exp += 999
-global.db.data.users[m.sender].joincount += 999
+global.db.data.users[m.sender].money += 600
+global.db.data.users[m.sender].limit += 10
+global.db.data.users[m.sender].exp += 245
+global.db.data.users[m.sender].joincount += 5
 let sn = createHash('md5').update(m.sender).digest('hex')
 m.react('📩') 
 let regbot = `╭─⬣「 *User Registro* 」⬣
