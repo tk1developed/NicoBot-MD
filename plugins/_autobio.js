@@ -1,4 +1,4 @@
-/*let handler = m => m
+let handler = m => m
 handler.all = async function (m) {
 let setting = global.db.data.settings[this.user.jid]
 
@@ -8,7 +8,7 @@ if (process.send) { process.send('uptime')
 _muptime = await new Promise(resolve => { process.once('message', resolve) 
 setTimeout(resolve, 2000) }) * 1000}
 let uptime = clockString(_uptime)
-let bio = `𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁-𝗠𝗗 🔮 ┃ Tiempo Activa: ${uptime} ┃ 𝗕𝘆: 𝗢𝗳𝗰𝗗𝗶𝗲𝗴𝗼 😊` 
+let bio = `𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁-𝗠𝗗 🔮 ┃ Super WhatsApp Bot Multi Device ┃ Tiempo Activa: ${uptime} ┃ By: OfcDiego 😊` 
 await this.updateProfileStatus(bio).catch(_ => _)
 setting.status = new Date() * 1
 } 
@@ -20,4 +20,4 @@ function clockString(ms) {
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
   return [d, ' : ', h, ' : ', m, ' : ', s].map(v => v.toString().padStart(2, 0)).join('') 
-}*/
+}
