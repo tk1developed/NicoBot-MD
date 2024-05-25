@@ -43,7 +43,7 @@ let genText = `🌟 *NUEVA FUNCIÓN - MULTI LENGUAJE DINÁMICO (BETA)*\n
 👉 *ESCRIBA EL NÚMERO PARA ELEGIR EL IDIOMA, EJEMPLO:*
 ✓ \`\`\`${usedPrefix}idiomayl 1️⃣\`\`\`\n✓ \`\`\`${usedPrefix}idiomayl 1\`\`\`\n
 ${listaIdiomasTexto}
-⚠️ *TENGA EN CONSIDERACIÓN QUE EL IDIOMA QUE SELECCIONE ${packname} SE ENCARGARÁ DE INTERACTUAR EN DICHO IDIOMA, SI SU IDIOMA NO APARECE SOLICITE QUE SE AGREGUE*\n${ig}\n
+⚠️ *TENGA EN CONSIDERACIÓN QUE EL IDIOMA QUE SELECCIONE ${packname} SE ENCARGARÁ DE INTERACTUAR EN DICHO IDIOMA, SI SU IDIOMA NO APARECE SOLICITE QUE SE AGREGUE*\n${yt}\n
 ❇️ *SU REGISTRO ESTÁ EN PAUSA, COMPLETE EL IDIOMA PARA CONTINUAR*`
 await conn.sendMessage(m.chat, { text: genText }, { quoted: m })        
 } 
@@ -70,7 +70,7 @@ if (text == 0 || text > codigosIdiomas.length) return
 return conn.reply(m.chat, `*RECUERDE USAR EL EMOJI NUMÉRICO O TEXTO NUMÉRICO PARA SELECCIONAR EL IDIOMA, EJEMPLO*\n\n✓ \`\`\`${usedPrefix}idiomayl 1️⃣\`\`\`\n✓ \`\`\`${usedPrefix}idiomayl 1\`\`\``, m)
 }}
 await asignarIdioma(text)
-user.GBLanguage = idioma
+user.YLLanguage = idioma
 if (!user.YLLanguage) return m.reply(`*NO SE LOGRÓ CONFIGURAR EL IDIOMA, INTENTE DE NUEVO POR FAVOR*`)
 if (codigosIdiomas.includes(user.YLLanguage)) {
 nombresIdiomas = nombresIdiomas[user.YLLanguage]
