@@ -22,7 +22,7 @@ let str = `╭━〔  𝐏 𝐄 𝐑 𝐅 𝐈 𝐋 🍄  〕⬣
 ┃ 🏷 • *Premium:* ${premium ? '✅': '❌'}
 ╰━━━━━━━━━━━━⬣`.trim()
 
-conn.sendFile(m.chat, pp, 'perfil.jpg', str, fkon, title: wm, body: wm, false, { mentions: [who] })
+conn.sendFile(m.chat, pp, 'perfil.jpg', str, fkon, false, title: wm, body: wm, { mentions: [who] })
 
 }
 handler.help = ['profile']
