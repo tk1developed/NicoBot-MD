@@ -5,11 +5,11 @@ const handler = async (m, {isPrems, conn}) => {
   const img = 'https://telegra.ph/file/62ba6688963b0ad407edd.png';
   const dia = Math.floor(Math.random() * 30);
   const tok = Math.floor(Math.random() * 10);
-  const mystic = Math.floor(Math.random() * 4000);
+  const yoshiko = Math.floor(Math.random() * 4000);
   const expp = Math.floor(Math.random() * 5000);
 
   global.db.data.users[m.sender].limit += dia;
-  global.db.data.users[m.sender].money += mystic;
+  global.db.data.users[m.sender].money += yoshiko;
   global.db.data.users[m.sender].joincount += tok;
   global.db.data.users[m.sender].exp += expp;
 
@@ -22,7 +22,7 @@ const handler = async (m, {isPrems, conn}) => {
 ╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
 ┃ *${dia} Diamantes* 💎
 ┃ *${tok} Tokens* 🪙
-┃ *${mystic} YoshiCoins* 💸
+┃ *${yoshiko} YoshiCoins* 💸
 ┃ *${expp} Exp* ⚡
 ╰━━━━━━━━━━━━⬣`;
 
