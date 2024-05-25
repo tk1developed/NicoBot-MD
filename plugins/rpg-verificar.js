@@ -7,7 +7,7 @@ let nombresIdiomas = {
 'es': 'Español',
 }
 
-let yoshiImg = ['inagen6', 'imagen2']
+let yoshiImg = ['imagen6', 'imagen2']
 
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let pp = await conn.profilePictureUrl(who, 'image').catch(_ => yoshiImg.getRandom())
@@ -20,15 +20,15 @@ let aa = tag + '@s.whatsapp.net'
 let user = global.db.data.users[m.sender]
 
 if (/^(verify|verificar|reg(ister)?)$/i.test(command)) {
-if (user.registered === true) return m.reply(lenguajeGB.smsVerify0(usedPrefix) + '*')
-if (!Reg.test(text)) return m.reply(lenguajeGB.smsVerify1(usedPrefix, command))
+if (user.registered === true) return m.reply('*')
+if (!Reg.test(text)) return m.reply('**')
 let [_, name, splitter, age] = text.match(Reg)  
-if (!name) return m.reply(lenguajeGB.smsVerify2())
-if (!age) return m.reply(lenguajeGB.smsVerify3())
+if (!name) return m.reply('***')
+if (!age) return m.reply('****')
 age = parseInt(age)
-if (age > 50) return m.reply(lenguajeGB.smsVerify4()) 
-if (age < 10) return m.reply(lenguajeGB.smsVerify5())
-if (name.length >= 30) return m.reply(lenguajeGB.smsVerify6())
+if (age > 50) return m.reply('*****') 
+if (age < 10) return m.reply('******')
+if (name.length >= 30) return m.reply('********')
 user.name = name + 'ͧͧͧͦꙶͣͤ✓ᚲᴳᴮ'.trim()
 user.age = age
 let listaIdiomasTexto = ''
