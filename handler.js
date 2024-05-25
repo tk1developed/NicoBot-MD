@@ -1182,14 +1182,14 @@ export async function handler(chatUpdate) {
             if (user.bannedMessageCount < 3) {
               const messageNumber = user.bannedMessageCount + 1;
 const messageText = `
-╭━━━━━━━✦✗✦━━━━━━━━╮
- 🚫 *Usuario Baneado* 🚫
+╭─⬣「 *Usuario Baneado* 」⬣
+ 📛 *Usuario Baneado* 📛
 *Aviso*  ${messageNumber}/Total: 3)
 ${user.bannedReason ? `\n*Motivo:* 
 ${user.bannedReason}` : '*Motivo:* Sin Especificar'}
 _Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Propietario Del Bot Y Apelar La Suspención._
 *Intenta Quitar El Baneo Aqui:* Wa.me/573012482694
-╰━━━━━━━✦✗✦━━━━━━━━╯
+╰─⬣
                `.trim();
               m.reply(messageText);
               user.bannedMessageCount++;
@@ -1220,8 +1220,8 @@ _Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Pr
         }
                 const hl = _prefix;
         const adminMode = global.db.data.chats[m.chat].modoadmin;
-        const mystica = `${plugin.botAdmin || plugin.admin || plugin.group || plugin || noPrefix || hl || m.text.slice(0, 1) == hl || plugin.command}`;
-        if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && mystica) return;
+        const yoshica = `${plugin.botAdmin || plugin.admin || plugin.group || plugin || noPrefix || hl || m.text.slice(0, 1) == hl || plugin.command}`;
+        if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && yoshica) return;
 
         if (plugin.rowner && plugin.owner && !(isROwner || isOwner)) { // Both Owner
           fail('owner', m, this);
@@ -1274,7 +1274,7 @@ _Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Pr
           continue; 
         }
         if (plugin.level > _user.level) {
-          mconn.conn.reply(m.chat, `*☄️ Se Requiere Tener El Nivel ${plugin.level} Para Poder Utilizar El Comando. Tu Nivel Actual Es ${_user.level}, Usa El Comando: ${usedPrefix} lvl Para Subir De Nivel Con Exp.*`, m);
+          mconn.conn.reply(m.chat, `*📩 Se Requiere Tener El Nivel ${plugin.level} Para Poder Utilizar El Comando. Tu Nivel Actual Es ${_user.level}, Usa El Comando: ${usedPrefix} lvl Para Subir De Nivel Con Exp.*`, m);
           continue; 
         }
         const extra = {
