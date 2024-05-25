@@ -10,20 +10,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
   let username = conn.getName(who)
   let prem = global.prems.includes(who.split`@`[0])
   let txt = `╭─⬣「 *User Perfil* 」⬣`
-conn.sendMessage(m.chat, {
-text: txt,
-contextInfo: { 
-forwardingScore: 9999, 
-isForwarded: true, 
-externalAdReply: {
-title: packname,
-body: team,
-thumbnailUrl: pp,
-thumbnail: pp,
-sourceUrl: global.channel,
-mediaType: 1,
-renderLargerThumbnail: true
-}}}, { quoted: m})
+await conn.sendUrl(m.chat, txt, m, { externalAdReply: { mediaType: 1, renderLargerThumbnail: true, thumbnail: pp, thumbnailUrl: pp, title: 'Registrado 📩', }})
 }
 handler.help = ['perfil', 'perfil @user']
 handler.tags = ['rg']
