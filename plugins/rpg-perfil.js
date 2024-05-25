@@ -15,7 +15,7 @@ externalAdReply: {
 title: wm,
 body: nombre,
 thumbnailUrl: pp, 
-sourceUrl: `https://www.atom.bio/bot/`,
+sourceUrl: channel,
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true
