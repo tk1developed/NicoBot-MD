@@ -172,8 +172,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 
 
    let pp1 = 'https://telegra.ph/file/5e950680db43d8862f068.mp4'
-    let pp2 = 'https://telegra.ph/file/a7ea164ca067545aeeec4.mp4'
-    let pp3 = 'https://telegra.ph/file/78fca2a07333385b8633b.mp4'
+    //let pp2 = 'https://telegra.ph/file/a7ea164ca067545aeeec4.mp4'
+    //let pp3 = 'https://telegra.ph/file/78fca2a07333385b8633b.mp4'
 
   //const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
 
@@ -187,7 +187,7 @@ await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 
 
 m.react('🚀') 
 
-    conn.sendMessage(m.chat, { video: { url: [pp1, pp2, pp3].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: fkontak })
+    conn.sendMessage(m.chat, { video: { url: [pp1].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: fkontak })
 
 //conn.sendMessage(m.chat, {text: text.trim(), mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": packname, body: '👋 Hola ' + name, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen6, "mediaUrl": global.channel, "sourceUrl": global.channel}}}, {quoted: fkontak});
 
