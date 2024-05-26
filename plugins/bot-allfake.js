@@ -37,14 +37,9 @@ Mensajes Fakes
 
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-global.img = 'https://qu.ax/vZii.jpg'
-global.img1 = 'https://qu.ax/hjcB.jpg'
-global.img2 = 'https://qu.ax/hjcB.jpg'
-global.img3 = 'https://qu.ax/zELg.jpg' //prem
-global.img4 = 'https://qu.ax/YueS.jpg' //prem
-global.yoshiImg = [img, img1, img2, img3, img4].getRandom()
+global.yoshiImg = [imagen6, imagen2, imagen3, imagen7, imagen1].getRandom()
 
-global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'Super Bot WhatsApp', orderTitle: 'Bang', thumbnail: imagen6, sellerJid: '0@s.whatsapp.net' }}}
+global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'Super Bot WhatsApp', orderTitle: 'Bang', thumbnail: yoshiImg, sellerJid: '0@s.whatsapp.net' }}}
 
 const moji = (await axios.get(`https://raw.githubusercontent.com/AzamiJs/CuriosityBot-MD/main/storage/juegos/emojis.json`)).data
 const emoji = await moji[Math.floor(moji.length * Math.random())]
