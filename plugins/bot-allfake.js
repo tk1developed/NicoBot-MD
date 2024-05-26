@@ -37,13 +37,7 @@ Mensajes Fakes
 
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-const img = 'https://telegra.ph/file/990a21926fc608ec26dd3.jpg';
-const img1 = 'https://telegra.ph/file/335eba6ffc2f8e2197cc3.jpg';
-const img2 = 'https://telegra.ph/file/c435c48a55edbfe4f390b.jpg';
-const img3 = 'https://telegra.ph/file/2ce374abef0541010a65d.jpg';
-const img4 = 'https://telegra.ph/file/986b010ced2811f300abb.jpg';
-
-global.yoshiImg = [img, img1, img2, img3, img4].getRandom()
+global.yoshiImg = ['https://telegra.ph/file/990a21926fc608ec26dd3.jpg', 'https://telegra.ph/file/335eba6ffc2f8e2197cc3.jpg', 'https://telegra.ph/file/c435c48a55edbfe4f390b.jpg', 'https://telegra.ph/file/2ce374abef0541010a65d.jpg', 'https://telegra.ph/file/986b010ced2811f300abb.jpg'].getRandom()
 
 const moji = (await axios.get(`https://raw.githubusercontent.com/AzamiJs/CuriosityBot-MD/main/storage/juegos/emojis.json`)).data
 const emoji = await moji[Math.floor(moji.length * Math.random())]
