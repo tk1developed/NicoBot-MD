@@ -37,7 +37,7 @@ global.lenguajeYL = es //idioma de yoshiko
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
 global.packname = '𝗬𝗼𝘀𝗵𝗶𝗸𝗼 𝗕𝗼𝘁 - 𝗠𝗗 🌸';
 global.author = 'Dɪᴇɢᴏ 🍂';
-global.wm = '𝚈𝙾𝚂𝙷𝙸𝙺𝙾 𝙱𝙾𝚃 - 𝙼𝙳 🌺';
+global.wm = '𝚈𝙾𝚂𝙷𝙸𝙺𝙾 𝙱𝙾𝚃 - 𝙼𝙳 🔮';
 global.titulowm = '𝗬𝗈𝗌𝗁𝗂𝗄𝗈 : 𝗕𝗈𝗍';
 global.titulowm2 = `𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜`
 global.igfg = 'Diego Oficial';
