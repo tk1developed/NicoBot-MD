@@ -46,7 +46,7 @@ var img2 = 'https://telegra.ph/file/c435c48a55edbfe4f390b.jpg';
 var img3 = 'https://telegra.ph/file/2ce374abef0541010a65d.jpg';
 var img4 = 'https://telegra.ph/file/986b010ced2811f300abb.jpg';
 
-global.ImgAll = [img, img1, img2, img3, img4]
+global.yoshiImg = [img, img1, img2, img3, img4]
 
 var credit = 'X8KpIFJlcXVlc3RlZCBieSBDdXJpb3NpdHlCb3Rf'
 global.cred = Buffer.from(credit, 'base64')
