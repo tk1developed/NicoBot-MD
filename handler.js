@@ -1227,8 +1227,8 @@ _Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Pr
         }
                 const hl = _prefix;
         const adminMode = global.db.data.chats[m.chat].modoadmin;
-        const mystica = `${plugin.botAdmin || plugin.admin || plugin.group || plugin || noPrefix || hl || m.text.slice(0, 1) == hl || plugin.command}`;
-        if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && mystica) return;
+        const yoshica = `${plugin.botAdmin || plugin.admin || plugin.group || plugin || noPrefix || hl || m.text.slice(0, 1) == hl || plugin.command}`;
+        if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && yoshica) return;
 
         if (plugin.rowner && plugin.owner && !(isROwner || isOwner)) { // Both Owner
           fail('owner', m, this);
