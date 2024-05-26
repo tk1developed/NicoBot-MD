@@ -31,13 +31,22 @@ let pp = ''
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? this.user.jid : m.sender
 //let pp = await this.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/1861aab98389b13db8588.jpg')
 
+//media/menus
+
+
 /* 
 Mensajes Fakes
 */
 
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-global.yoshiImg = [imagen6, imagen2, imagen3, imagen7, imagen1].getRandom()
+var img = fs.readFileSync('./media/menus/Alsombra.jpg');
+var img2 = fs.readFileSync('./media/menus/Yoshi.jpg');
+var img3 = fs.readFileSync('./media/menus/ImagenYoshi.jpg');
+var img4 = fs.readFileSync('./media/menus/YoshiBot.jpg');
+var img5 = fs.readFileSync('./media/menus/Sombra.jpg');
+
+global.yoshiImg = [img, img2, img3, img4, img5].getRandom()
 
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'Super Bot WhatsApp', orderTitle: 'Bang', thumbnail: yoshiImg, sellerJid: '0@s.whatsapp.net' }}}
 
