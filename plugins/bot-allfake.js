@@ -45,7 +45,7 @@ var img4 = 'https://telegra.ph/file/986b010ced2811f300abb.jpg';
 
 global.yoshiImg = [img, img1, img2, img3, img4].getRandom()
 
-const estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'Super Bot WhatsApp', orderTitle: 'Bang', thumbnail: yoshiImg, sellerJid: '0@s.whatsapp.net' }}}
+global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'Super Bot WhatsApp', orderTitle: 'Bang', thumbnail: yoshiImg, sellerJid: '0@s.whatsapp.net' }}}
 
 const moji = (await axios.get(`https://raw.githubusercontent.com/AzamiJs/CuriosityBot-MD/main/storage/juegos/emojis.json`)).data
 const emoji = await moji[Math.floor(moji.length * Math.random())]
