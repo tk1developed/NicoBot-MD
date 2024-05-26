@@ -1547,6 +1547,12 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
     }
 }
 
+var img = 'https://telegra.ph/file/990a21926fc608ec26dd3.jpg';
+var img1 = 'https://telegra.ph/file/335eba6ffc2f8e2197cc3.jpg';
+var img2 = 'https://telegra.ph/file/c435c48a55edbfe4f390b.jpg';
+var img3 = 'https://telegra.ph/file/2ce374abef0541010a65d.jpg';
+var img4 = 'https://telegra.ph/file/986b010ced2811f300abb.jpg';
+
 global.dfail = (type, m, conn) => {
   const msg = {
         rowner: '*¡Este Comando Es Exclusivo Para Mi Desarrollador!*',
@@ -1560,7 +1566,7 @@ global.dfail = (type, m, conn) => {
     unreg: '*¡Para Continuar Con Esta Función Es Necesario Registrarse!*\n\n!reg nombre.edad\n\n*Uso Correcto* : !reg Diego.18',
     restrict: '*!Esta Función Fué Deshabilitado Por Mi Desarrollador*',
     }[type]
-if (msg) return conn.reply(m.chat, msg, m, { contextInfo:{ externalAdReply: {title: '📖'  + saludo + ' ' + nombre, body: team, sourceUrl: global.channel, thumbnailUrl: yoshiImg.getRandom() }}})
+if (msg) return conn.reply(m.chat, msg, m, { contextInfo:{ externalAdReply: {title: packname, body: `👋 Hola ` + nombre, sourceUrl: global.channel, thumbnailUrl: [img, img1, img2, img3, img4].getRandom() }}})
 
 }
 const file = global.__filename(import.meta.url, true);
