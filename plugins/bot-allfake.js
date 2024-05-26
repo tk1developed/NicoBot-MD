@@ -38,8 +38,8 @@ Mensajes Fakes
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
 global.img = 'https://qu.ax/vZii.jpg'
+global.img1 = 'https://qu.ax/hjcB.jpg'
 global.img2 = 'https://qu.ax/hjcB.jpg'
-
 global.img3 = 'https://qu.ax/zELg.jpg' //prem
 global.img4 = 'https://qu.ax/YueS.jpg' //prem
 global.yoshiImg = [img, img1, img2, img3, img4].getRandom()
