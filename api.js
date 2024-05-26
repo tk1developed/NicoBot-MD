@@ -15,14 +15,6 @@ global.openai_key = 'sk-0';
 global.openai_org_id = 'org-3';
 /* Consigue tu ID de organizacion en este enlace: https://platform.openai.com/account/org-settings */
 
-var img = 'https://telegra.ph/file/990a21926fc608ec26dd3.jpg';
-var img1 = 'https://telegra.ph/file/335eba6ffc2f8e2197cc3.jpg';
-var img2 = 'https://telegra.ph/file/c435c48a55edbfe4f390b.jpg';
-var img3 = 'https://telegra.ph/file/2ce374abef0541010a65d.jpg';
-var img4 = 'https://telegra.ph/file/986b010ced2811f300abb.jpg';
-
-global.yoshiImg = [img, img1, img2, img3, img4]
-
 
 global.keysZens = ['LuOlangNgentot', 'c2459db922', '37CC845916', '6fb0eff124', 'hdiiofficial', 'fiktod', 'BF39D349845E', '675e34de8a', '0b917b905e6f'];
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())];
