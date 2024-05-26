@@ -38,7 +38,7 @@ else return m.reply(`URL invalido`)
 console.error(e)
 if (!stiker) stiker = e
 } finally {
-if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: team, mediaType: 2, sourceUrl: [yt, channel, md, fb].getRandom(), thumbnail: imagen6}}}, { quoted: m })
+if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: saludo, mediaType: 2, sourceUrl: [yt, channel, md, fb].getRandom(), thumbnail: yoshiImg}}}, { quoted: m })
 
 else throw `🧿 『𝐄𝐑𝐑𝐎𝐑』 🧿\n\n𝗘𝗡𝗩𝗜𝗘 𝗨𝗡𝗔 𝗜𝗠𝗔𝗚𝗘𝗡 𝗢 𝗨𝗡 𝗩𝗜𝗗𝗘𝗢 𝗬 𝗟𝗨𝗘𝗚𝗢 𝗥𝗘𝗦𝗣𝗢𝗡𝗗𝗘 𝗖𝗢𝗡 𝗘𝗟 𝗖𝗢𝗠𝗔𝗡𝗗𝗢 !𝗌`
 
