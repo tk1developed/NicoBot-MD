@@ -1559,10 +1559,12 @@ global.dfail = (type, m, conn) => {
     botAdmin: '*!Para Poder Utilizar Este Comando Es Necesario Que El Bot Sea Admin!*',
     unreg: '*¡Para Continuar Con Esta Función Es Necesario Registrarse!*\n\n!reg nombre.edad\n\n*Uso Correcto* : !reg Diego.18',
     restrict: '*!Esta Función Fué Deshabilitado Por Mi Desarrollador*',
-    }[type]
-if (msg) return conn.reply(m.chat, msg, m, { contextInfo:{ externalAdReply: {title: packname, body: `👋 Hola ` + nombre, sourceUrl: global.channel, thumbnailUrl: ['https://telegra.ph/file/990a21926fc608ec26dd3.jpg', 'https://telegra.ph/file/335eba6ffc2f8e2197cc3.jpg', 'https://telegra.ph/file/c435c48a55edbfe4f390b.jpg', 'https://telegra.ph/file/2ce374abef0541010a65d.jpg', 'https://telegra.ph/file/986b010ced2811f300abb.jpg'].getRandom() }}})
+    }[type];
+  const aa = {quoted: m, userJid: conn.user.jid};
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '𝗬𝗼𝘀𝗵𝗶𝗸𝗼 𝗕𝗼𝘁 - 𝗠𝗗 🍃', body: '👋 Hola ' + nombre, thumbnail: imagen6, sourceUrl: 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A'}}}}, aa);
+  if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
+};
 
-}
 const file = global.__filename(import.meta.url, true);
 watchFile(file, async () => {
   unwatchFile(file);
