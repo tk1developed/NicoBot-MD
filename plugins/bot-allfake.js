@@ -40,14 +40,6 @@ global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@
 const moji = (await axios.get(`https://raw.githubusercontent.com/AzamiJs/CuriosityBot-MD/main/storage/juegos/emojis.json`)).data
 const emoji = await moji[Math.floor(moji.length * Math.random())]
 
-var img = 'https://telegra.ph/file/990a21926fc608ec26dd3.jpg';
-var img1 = 'https://telegra.ph/file/335eba6ffc2f8e2197cc3.jpg';
-var img2 = 'https://telegra.ph/file/c435c48a55edbfe4f390b.jpg';
-var img3 = 'https://telegra.ph/file/2ce374abef0541010a65d.jpg';
-var img4 = 'https://telegra.ph/file/986b010ced2811f300abb.jpg';
-
-global.yoshiImg = [img, img1, img2, img3, img4]
-
 var credit = 'X8KpIFJlcXVlc3RlZCBieSBDdXJpb3NpdHlCb3Rf'
 global.cred = Buffer.from(credit, 'base64')
 
