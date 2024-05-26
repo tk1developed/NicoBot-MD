@@ -171,7 +171,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
     //let pp1 = 'https://telegra.ph/file/a7ea164ca067545aeeec4.mp4'
-    let pp1 = 'https://telegra.ph/file/78fca2a07333385b8633b.mp4'
+    let pp1 = 'https://telegra.ph/file/34569ede8bb5e0c1fef0e.mp4'
 
   //const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
 
