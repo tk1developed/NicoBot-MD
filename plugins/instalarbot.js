@@ -44,9 +44,9 @@ m.reply('npm start')
 if (/^infinity$/i.test(m.text) ) {
 conn.reply(m.chat, '✏️ *Instalación por infinityhost*\n(nosotros no tenemos tutorial pero eso les puede ayudar)\n\n• Dashboard:\nhttps://dashboard.infinitywa.xyz\n\n• Panel:\nhttps://live.panel-infinitywa.store/', m, )
 await delay(2000 * 1)
-conn.sendMessage(m.chat, {image: {url: 'https://telegra.ph/file/a1d4b49fec4d1c10084db.jpg'}, caption: ''}, {quoted: fkontak})
+conn.sendMessage(m.chat, {image: {url: 'https://telegra.ph/file/663a591855de5bd01b7ae.jpg'}, caption: ''}, {quoted: fkontak})
 await delay(1000 * 1)
-conn.sendMessage(m.chat, {image: {url: 'https://telegra.ph/file/d586a96bec8385b9dd66a.jpg'}, caption: ''}, {quoted: fkontak})
+conn.sendMessage(m.chat, {image: {url: 'https://telegra.ph/file/663a591855de5bd01b7ae.jpg'}, caption: ''}, {quoted: fkontak})
 }
 }
 
