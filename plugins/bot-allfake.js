@@ -56,9 +56,9 @@ global.cred = Buffer.from(credit, 'base64')
 global.nombre = conn.getName(m.sender)
 global.taguser = '@' + m.sender.split("@s.whatsapp.net")
 
-//global.fake = { contextInfo:{ forwardingScore: 0, externalAdReply: {title: '👋 Hola ' + nombre, body: team, sourceUrl: yt, thumbnailUrl: imagen6 }}} //Fake simple
+//global.fake = { contextInfo:{ forwardingScore: 0, externalAdReply: {title: '👋 Hola ' + nombre, body: team, sourceUrl: yt, thumbnailUrl: yoshiImg }}} //Fake simple
 
-global.fake = { contextInfo: { mentionedJid: conn.parseMention(wm), forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363263466636910@newsletter', serverMessageId: '', newsletterName: '👋 Hola ' + nombre }, externalAdReply: { title: wm + ` 💫`, body: team, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: imagen6, thumbnail: imagen6, sourceUrl: yt }}}, { quoted: m } //fake con reenviado de canal
+global.fake = { contextInfo: { mentionedJid: conn.parseMention(wm), forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363263466636910@newsletter', serverMessageId: '', newsletterName: '👋 Hola ' + nombre }, externalAdReply: { title: wm + ` 💫`, body: team, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: yoshiImg, thumbnail: imagen6, sourceUrl: yt }}}, { quoted: m } //fake con reenviado de canal
 }
 
 export default handler
