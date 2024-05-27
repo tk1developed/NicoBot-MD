@@ -1,5 +1,7 @@
 > 🚀🌸 Versión Actual: 1.0.7
 
+## Yoshiko Bot - MD 🌸☄️
+
 <p align="center">
 <img src= "https://telegra.ph/file/e79754f988e16232ecb0c.jpg" alt="Yoshiko" width="900"/>
 </p>
