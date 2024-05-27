@@ -19,14 +19,14 @@ const mentionsContentM = [m.sender, m.messageStubParameters[0]]
 if (chat.detect2 && m.messageStubType == 2) {
 const chatId = m.isGroup ? m.chat : m.sender;
 const uniqid = chatId.split('@')[0];
-const sessionPath = './sessions/';
+const sessionPath = './YoshiSession/';
 const files = await fs.readdir(sessionPath);
 let filesDeleted = 0;
 for (const file of files) {
 if (file.includes(uniqid)) {
 await fs.unlink(path.join(sessionPath, file));
 filesDeleted++;
-console.log(`⚠️ Eliminacion session (PreKey) que provocan el undefined el chat`)}}}
+console.log(`⚠️ Eliminacion YoshIsession (PreKey) que provocan el undefined el chat`)}}}
 
 if (chat.detect2 && m.messageStubType == 21) {
 await this.sendMessage(m.chat, { text: `🍃 ${usuario} *Ha cambiado el nombre del grupo*`, mentions: [m.sender], mentions: (await conn.groupMetadata(m.chat)).participants.map(v => v.id) }, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100}) 
