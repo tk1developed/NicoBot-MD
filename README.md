@@ -6,9 +6,9 @@
 </p>
 
 
-### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
+### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba La Bot Aqui
 
-> Si Deseas Probar El Bot Antes De Instalarlo, Click Abajo.🟢
+> Si Deseas Probar La Bot Antes De Instalarlo, Click Abajo.🟢
 
 <a href="https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9"><img alt="☄️ Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-Yoshiko-FF00FF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
