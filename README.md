@@ -68,10 +68,10 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-- #### 🚀 Usar YoshikoBot 24/7 En Termux 
+- ### 🚀 Usar YoshikoBot 24/7 En Termux 
 > Ejecutar este comando dentro de la carpeta YoshikoBot-MD
 ```bash
-termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
+> termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ``` 
 - ### ✅️ Actualizar Yoshiko 
 > Note Comandos para actualizar Yoshiko - MD de forma automática
