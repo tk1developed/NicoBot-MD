@@ -4,6 +4,16 @@
 <p align="center">
 <img src= "https://telegra.ph/file/b7f22f3c6c67bb73b74a3.jpg" alt="Yoshiko" width="900"/>
 </p>
+<a href="https://www.facebook.com/profile.php?id=100075238779642&mibextid=ZbWKwL">
+<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook">
+</a>
+<a href="https://www.youtube.com/@Yoshiko_team">
+<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
+</a>
+<a href="https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A" target="_blank"> <img src="https://img.shields.io/badge/-Canal- Ofc -%23E4405F?style=for-the-badge&logo=tiktok&logoColor=black" target="_blank"></a> <img src="https://github.com/siegrin/siegrin/blob/main/Assets/Handshake.gif" height="30px">
+</a>
+<a href="https://paypal.me/OfcGB" target="_blank"> <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" target="_blank"></a> <img src="https://github.com/siegrin/siegrin/blob/main/Assets/Handshake.gif" height="30px">
+</a>
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba La Bot Aqui
 
