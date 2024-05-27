@@ -4,25 +4,6 @@
 <img src= "https://telegra.ph/file/e79754f988e16232ecb0c.jpg" alt="Yoshiko" width="900"/>
 </p>
 
-<p align="center">
-<a href="#"><img title="YoshikoBot-MD" src="https://img.shields.io/badge/Si Te Gusta El Bot Apoyame Con Una 🌟 ¡Gracias! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
-<img src="https://i.pinimg.com/originals/d4/3c/90/d43c902873d4db8c85974dfd0798030b.gif" height="28px">
-</p>  
-
-<p align="center">   
-<a href="https://github.com/Diego-YL-17/YoshikoBot-MD/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/Diego-YL-177/YoshikoBot-MD?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/Diego-YL-177/YoshikoBot-MD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Diego-YL-177/YoshikoBot-MD?label=Stars&color=yellow&style=flat-square"></a>
-</p>
-
-<div align="center">
-  
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:theyoshikobot@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/STAFF-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/573012482694)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100075238779642&mibextid=ZbWKwL)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Yoshiko_team)
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/OficialGD)
-</div>
-
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba La Bot Aqui
 
 > Si Deseas Probar La Bot Antes De Instalarlo, Click Abajo.🟢
