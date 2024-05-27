@@ -69,7 +69,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```
 
 - ### 🚀 Usar YoshikoBot 24/7 En Termux 
-> Ejecutar este comando dentro de la carpeta YoshikoBot-MD
 ```bash
 > termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ``` 
