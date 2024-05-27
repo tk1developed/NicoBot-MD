@@ -104,7 +104,7 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 > No Spam A Las Bots!
 ---------
 
-### Editor Y Propietario Del Bot 🌹⚡️
+### Editor Y Propietario De La Bot 🌹⚡️
 <a
 href="https://github.com/Diego-YL-177"><img src="https://github.com/Diego-YL-177.png" width="200" height="200" alt="Diego"/></a>
 
