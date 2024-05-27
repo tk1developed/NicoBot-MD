@@ -64,7 +64,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd YoshikoBot-MD
-> rm -rf sessions
+> rm -rf YoshiSession
 > npm start
 ```
 - ### ✅️ Actualizar Yoshiko 
