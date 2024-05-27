@@ -27,7 +27,7 @@
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=738341999&ref=master&geo=UsEast)
 ***
 
-- ### 💻 Instalar Por Termux
+- ### 💻 Instalacion Por Termux
 
 [![blog](https://img.shields.io/badge/Instalacion-Yoshiko-FFFF00?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/9-v4XwMTJYE?si=STdO2GwZR1GAmXfA)
