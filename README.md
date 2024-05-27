@@ -98,7 +98,7 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 
 <a href="https://wa.me/50232432639?text=!menu"><img alt="Bot Oficial ☄️" src="https://img.shields.io/badge/Bot - Oficial-FFFF00?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
-<a href="https://wa.me/50250969900?text=!menu"><img alt="Bot Oficial 2 ☄️" src="https://img.shields.io/badge/Bot - Oficial-FFFF00?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+<a href="https://wa.me/50250969900?text=!menu"><img alt="Bot Oficial 2 ☄️" src="https://img.shields.io/badge/Bot - Oficial 2-FFFF00?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
 > No Spam A Las Bots!
