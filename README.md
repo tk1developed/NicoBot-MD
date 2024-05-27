@@ -1,6 +1,4 @@
-<p align="center"> 
-<a href="https://github.com/GataNina-Li"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=FFFF00&center=falso&vCenter=falso&lines=YoshikoBot-MD++%F0%9F%90%88;Gracias+Por+Visitar+Este+Repositorio.+%F0%9F%92%96" height="90px"></a> 
-</p>
+> 🚀🌸 Versión Actual: 1.0.7
 
 <p align="center">
 <img src= "https://telegra.ph/file/e79754f988e16232ecb0c.jpg" alt="Yoshiko" width="900"/>
