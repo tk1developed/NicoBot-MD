@@ -1,5 +1,5 @@
 <p align="center"> 
-<a href="https://github.com/Diego-YL-177"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=FFFF00&center=falso&vCenter=falso&lines=YoshikoBot-MD++%FF%FF%00%88;Gracias+Por+Visitar+Este+Repositorio.+%F0%9F%92%96" height="90px"></a> 
+<a href="https://github.com/GataNina-Li"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=FFFF00&center=falso&vCenter=falso&lines=YoshikoBot-MD++%F0%9F%90%88;Gracias+Por+Visitar+Este+Repositorio.+%F0%9F%92%96" height="90px"></a> 
 </p>
 
 <p align="center">
