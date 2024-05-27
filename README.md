@@ -67,6 +67,31 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > rm -rf YoshiSession
 > npm start
 ```
+
+- #### 🚀 Usar YoshikoBot 24/7 En Termux 
+> Ejecutar estos comandos dentro de la carpeta YoshikoBot-MD
+```bash
+termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
+``` 
+#### ⬇️ Opciones Disponibles
+> **Warning** Esto eliminará todo el historial que hayas establecido con PM2:
+```bash 
+pm2 delete index
+``` 
+> Si tienes cerrado Termux y quiere ver de nuevo la ejecución use:
+```bash 
+pm2 logs 
+``` 
+> Si desea detener la ejecución de Termux use:
+```bash 
+pm2 stop index
+``` 
+> Si desea iniciar de nuevo la ejecución de Termux use:
+```bash 
+pm2 start index
+``` 
+---- 
+
 - ### ✅️ Actualizar Yoshiko 
 > Note Comandos para actualizar Yoshiko - MD de forma automática
 ```bash
