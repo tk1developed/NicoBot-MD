@@ -1,4 +1,4 @@
-import moment from 'moment-timezone'
+/*import moment from 'moment-timezone'
 
 export async function before(m) {
 
@@ -21,4 +21,4 @@ await conn.reply(m.chat, `👋 Hola ${nombre}!!
 
 
 user.pc = new Date * 1
-}
+}*/
