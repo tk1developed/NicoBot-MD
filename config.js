@@ -32,7 +32,8 @@ global.suittag = ['573012482694']
 global.prems = []
 global.mods = []
 
-global.lenguajeYL = es //idioma de yoshiko
+//gb prueba - uwu
+global.lenguajeGB = es //idioma de yoshiko
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
 global.packname = '𝗬𝗼𝘀𝗵𝗶𝗸𝗼 𝗕𝗼𝘁 - 𝗠𝗗 🌸';
