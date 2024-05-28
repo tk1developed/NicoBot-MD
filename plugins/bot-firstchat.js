@@ -17,7 +17,7 @@ await conn.reply(m.chat, `👋🏻 Hola ${nombre} Soy YoshikoBot, En Que Te Pued
 🌸 *Aviso:* no envíe spam al bot
 🔵 Escriba *.allmenu* para mostrar el menú 
   
-📩 *Te invito a que nos regales una 🌟 en el repositorio oficial de la Bot*
+📩 *Te invito a que nos regales una Estrellita `🌟` en el repositorio oficial de la Bot*
 https://github.com/Diego-YL-177/YoshikoBot-MD`, m, fake, )
 
 
