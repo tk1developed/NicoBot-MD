@@ -17,7 +17,7 @@ await conn.reply(m.chat, `👋 Hola ${nombre}!!
 🔵 Escriba *.allmenu* para mostrar el menú 
   
 🌟 ¿Quieres apoyar este proyecto para que siga actualizándose? únete a nuestro grupo: 
-*https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9*`, m, fake, )
+*https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9*`, m, fkontak, )
 
 
 user.pc = new Date * 1
