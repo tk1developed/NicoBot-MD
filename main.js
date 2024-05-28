@@ -389,16 +389,14 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-//prueba 24 minutos
-
-conn.welcome = `56`;
-conn.bye = `09`;
-conn.spromote = `12`; 
-conn.sdemote = `89`;
-conn.sDesc = `45`, 
-conn.sSubject = `76`;
-conn.sIcon = `099`;
-conn.sRevoke = `23`;
+conn.welcome = lenguajeYL['smsWelcome']() 
+conn.bye = lenguajeYL['smsBye']() 
+conn.spromote = lenguajeYL['smsSpromote']() 
+conn.sdemote = lenguajeYL['smsSdemote']() 
+conn.sDesc = lenguajeYL['smsSdesc']() 
+conn.sSubject = lenguajeYL['smsSsubject']() 
+conn.sIcon = lenguajeYL['smsSicon']() 
+conn.sRevoke = lenguajeYL['smsSrevoke']() 
 
   conn.handler = handler.handler.bind(global.conn);
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
