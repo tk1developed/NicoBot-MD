@@ -1,6 +1,22 @@
+import uploadFile from '../lib/uploadFile.js';
+import uploadImage from '../lib/uploadImage.js';
+const handler = async (m) => {
+  const q = m.quoted ? m.quoted : m;
+  const mime = (q.msg || q).mimetype || '';
+  if (!mime) throw '*⚠️ Responda A Una Imagen.*';
+  const media = await q.download();
+  const isTele = /image\/(png|jpe?g|gif)|video\/mp4/.test(mime);
+  const link = await (isTele ? uploadImage : uploadFile)(media);
+  m.reply(`*☄️ Enlace:* ${link}`);
+};
+handler.help = ['tourl <reply image>'];
+handler.tags = ['sticker'];
+handler.command = /^(upload|tourl)$/i;
+export default handler;
+
 /*Créditos a https://github.com/AzamiJs*/
 
-import uploadFile from '../lib/uploadFile.js'
+/*import uploadFile from '../lib/uploadFile.js'
 import uploadImage from '../lib/uploadImage.js'
 import fetch from 'node-fetch'
 
@@ -35,4 +51,4 @@ export default handler
 async function shortUrl(url) {
 let res = await fetch(`https://tinyurl.com/api-create.php?url=${url}`)
 return await res.text()
-}
+}*/
