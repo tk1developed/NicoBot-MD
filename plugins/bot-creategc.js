@@ -1,4 +1,4 @@
-import { bold } from "chalk"
+//import { bold } from "chalk"
 let handler = async (m, { conn, text }) => {
 
 if (!text) return m.reply('🍒 _Escribe el nombre del grupo!_')
