@@ -1,4 +1,9 @@
-//import { bold } from "chalk"
+/*
+⚠ PROHIBIDO EDITAR ⚠
+El codigo de este archivo fue actualizado por:
+- Diego-YL-177 >> https://github.com/Diego-YL-177
+*/
+
 let handler = async (m, { conn, text }) => {
 
 if (!text) return m.reply('🍒 _Escribe el nombre del grupo!_')
