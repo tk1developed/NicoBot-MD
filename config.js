@@ -66,13 +66,13 @@ global.gp1 = 'https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9' //Grupo Oficial 
 
 global.gp2 = 'https://chat.whatsapp.com/BvHfQUBNAAFF1k1F9bTL0G' //Grupo Oficial Yoshiko2
 
-global.gp3 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //Curiosity Y Yoshiko
+global.gp3 = 'https://chat.whatsapp.com/BWulHIz6yxJ9hxxpw7qn2T' //GataBot Y YoshikoBot
 
-global.gp4 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //Nova Y Yoshiko
+global.gp4 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //Curiosity Y Yoshiko
 
-global.gp5 = 'https://chat.whatsapp.com/KjR8NTfdWwU1a66uDOOGLZ' //Multibots
+global.gp5 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //Nova Y Yoshiko
 
-global.gp6 = 'https://chat.whatsapp.com/BWulHIz6yxJ9hxxpw7qn2T' //GataBot Y YoshikoBot
+global.gp6 = 'https://chat.whatsapp.com/KjR8NTfdWwU1a66uDOOGLZ' //Multibots
 
 global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
 
