@@ -112,7 +112,7 @@ global.authFile = `YoshiSession`;
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile);
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const msgRetryCounterCache = new NodeCache()
-const {version} = await fetchLatestBaileysVersion();
+//const {version} = await fetchLatestBaileysVersion();
 let phoneNumber = global.botnumber
 
 const methodCodeQR = process.argv.includes("qr")
@@ -131,22 +131,22 @@ opcion = '1'
 }
 if (!methodCodeQR && !methodCode && !fs.existsSync(`./${authFile}/creds.json`)) {
 do {
-let lineM = '━━━━━━━━━━━━━━━━━━━━'
+let lineM = '⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》'
 opcion = await question(colores('Seleccione una opción:\n') + opcionQR('1. Con código QR\n') + opcionTexto('2. Con código de texto de 8 dígitos\n--> '))
 //if (fs.existsSync(`./${authFile}/creds.json`)) {
 //console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
 //process.exit()
 if (!/^[1-2]$/.test(opcion)) {
-console.log('☄️ Por favor, seleccione solo 1 o 2.\n')
+console.log('🔵 Por favor, seleccione solo 1 o 2.\n')
 }} while (opcion !== '1' && opcion !== '2' || fs.existsSync(`./${authFile}/creds.json`))
 }
 
-//console.info = () => {}
+console.info = () => {} //dejará de aparecer la molesta "pre-key"
 const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['YoshikoBot-MD', 'Safari', '2.0.0'] : methodCodeQR ? ['YoshikoBot-MD', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '110.0.5585.95'],
+browser: opcion == '1' ? ['YoshikoBot-MD', 'Safari', '2.0.0'] : methodCodeQR ? ['YoshikoBot-MD', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '20.0.04'],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -161,7 +161,7 @@ return msg?.message || ""
 msgRetryCounterCache,
 msgRetryCounterMap,
 defaultQueryTimeoutMs: undefined,   
-version
+version: [2, 2413, 1]
 }
 
 global.conn = makeWASocket(connectionOptions);
@@ -180,7 +180,7 @@ let numeroTelefono
 if (!!phoneNumber) {
 numeroTelefono = phoneNumber.replace(/[^0-9]/g, '')
 if (!Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
-console.log(chalk.bgBlack(chalk.bold.redBright("🟢 Comience con el código de país de su número de WhatsApp, ejemplo: +573218138672\n")))
+console.log(chalk.bgBlack(chalk.bold.redBright("🟢 Comience con el código de país de su número de WhatsApp, ejemplo: +573218138672")))
 process.exit(0)
 }} else {
 while (true) {
@@ -190,7 +190,7 @@ numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
 if (numeroTelefono.match(/^\d+$/) && Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
 break 
 } else {
-console.log(chalk.bgBlack(chalk.bold.redBright("🟢 Por favor, escriba su número de WhatsApp.\nEjemplo: +573218138672.\n")))
+console.log(chalk.bgBlack(chalk.bold.redBright("🟢 Por favor, escriba su número de WhatsApp.\nEjemplo: +573218138672\n")))
 }}
 rl.close()  
 } 
@@ -278,7 +278,7 @@ unlinkSync(`./jadibts/${directorio}/${fileInDir}`)
 })
 if (SBprekey.length === 0) return; //console.log(chalk.cyanBright(`=> No hay archivos por eliminar.`))
 } catch (err) {
-console.log(chalk.bold.red(`☄️ Algo salio mal durante la eliminación, archivos no eliminados`))
+console.log(chalk.bold.red(`🔵 Algo salio mal durante la eliminación, archivos no eliminados`))
 }}
 
 function purgeOldFiles() {
@@ -302,6 +302,8 @@ console.log(chalk.bold.red(`Archivo ${file} no borrado` + err))
 }
 
 async function connectionUpdate(update) {
+
+
   const {connection, lastDisconnect, isNewLogin} = update;
   global.stopped = connection;
   if (isNewLogin) conn.isInit = true;
@@ -314,10 +316,10 @@ async function connectionUpdate(update) {
   if (global.db.data == null) loadDatabase();
 if (update.qr != 0 && update.qr != undefined || methodCodeQR) {
 if (opcion == '1' || methodCodeQR) {
-        console.log(chalk.yellow('☄️ Escanea Este Qr Para Conectarte A Yoshiko.'));
+    console.log(chalk.yellow('🔵 Escanea El Código QR Para Conectarte A YoshikoBot.'));
  }}
-   if (connection == 'open') {
-await conn.groupAcceptInvite('Eaa9JFA53ps7WHMv2VHbO9')
+  if (connection == 'open') {
+    await conn.groupAcceptInvite('Eaa9JFA53ps7WHMv2VHbO9')
 console.log(chalk.bold.cyan('\n╭┈ ┈ ┈ ┈ ┈ • 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁-𝗠𝗗 🍂 • ┈ ┈ ┈ ┈ ┈ ┈╮\n┊ LA BOT YA ESTÁ CONECTADA AL WHATSAPP 🟢\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'))
 //conn.fakeReply('573012482694@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy Yoshiko\nRecientemente Me E Conectado', '0@s.whatsapp.net')
    }
@@ -328,28 +330,28 @@ console.log(chalk.bold.redBright(`[ ⚠ ] Conexión replazada, Por favor espere 
 process.send('reset')}
 if (connection === 'close') {
     if (reason === DisconnectReason.badSession) {
-        conn.logger.error(`[ ⚠ ] Sesión incorrecta, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`);
+        conn.logger.error(`⚠ Sesión incorrecta, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`);
         //process.exit();
     } else if (reason === DisconnectReason.connectionClosed) {
-        conn.logger.warn(`[ ⚠ ] Conexión cerrada, reconectando...`);
+        conn.logger.warn(`⚠ Conexión cerrada, reconectando...`);
         await global.reloadHandler(true).catch(console.error);
     } else if (reason === DisconnectReason.connectionLost) {
-        conn.logger.warn(`[ ⚠ ] Conexión perdida con el servidor, reconectando...`);
+        conn.logger.warn(`⚠ Conexión perdida con el servidor, reconectando...`);
         await global.reloadHandler(true).catch(console.error);
     } else if (reason === DisconnectReason.connectionReplaced) {
-        conn.logger.error(`[ ⚠ ] Conexión reemplazada, se ha abierto otra nueva sesión. Por favor, cierra la sesión actual primero.`);
+        conn.logger.error(`⚠ Conexión reemplazada, se ha abierto otra nueva sesión. Por favor, cierra la sesión actual primero.`);
         //process.exit();
     } else if (reason === DisconnectReason.loggedOut) {
-        conn.logger.error(`[ ⚠ ] Conexion cerrada, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`);
+        conn.logger.error(`⚠ Conexion cerrada, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`);
         //process.exit();
     } else if (reason === DisconnectReason.restartRequired) {
-        conn.logger.info(`[ ⚠ ] Reinicio necesario, reinicie el servidor si presenta algún problema.`);
+        conn.logger.info(`⚠ Reinicio necesario, reinicie el servidor si presenta algún problema.`);
         await global.reloadHandler(true).catch(console.error);
     } else if (reason === DisconnectReason.timedOut) {
-        conn.logger.warn(`[ ⚠ ] Tiempo de conexión agotado, reconectando...`);
+        conn.logger.warn(`⚠ Tiempo de conexión agotado, reconectando...`);
         await global.reloadHandler(true).catch(console.error);
     } else {
-        conn.logger.warn(`[ ⚠ ] Razón de desconexión desconocida. ${reason || ''}: ${connection || ''}`);
+        conn.logger.warn(`⚠ Razón de desconexión desconocida. ${reason || ''}: ${connection || ''}`);
         await global.reloadHandler(true).catch(console.error);
     }
 }
@@ -361,9 +363,12 @@ if (connection === 'close') {
 process.on('uncaughtException', console.error);
 
 let isInit = true;
+
 let handler = await import('./handler.js');
 global.reloadHandler = async function(restatConn) {
+
   try {
+
     const Handler = await import(`./handler.js?update=${Date.now()}`).catch(console.error);
     if (Object.keys(Handler || {}).length) handler = Handler;
   } catch (e) {
@@ -388,7 +393,7 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-conn.welcome = lenguajeYL['smsWelcome']() 
+  conn.welcome = lenguajeYL['smsWelcome']() 
 conn.bye = lenguajeYL['smsBye']() 
 conn.spromote = lenguajeYL['smsSpromote']() 
 conn.sdemote = lenguajeYL['smsSdemote']() 
@@ -524,27 +529,27 @@ async function _quickTest() {
   const [ffmpeg, ffprobe, ffmpegWebp, convert, magick, gm, find] = test;
   const s = global.support = {ffmpeg, ffprobe, ffmpegWebp, convert, magick, gm, find};
   Object.freeze(global.support);
-  }
+}
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const a = await clearTmp();
-console.log(chalk.greenBright(`\n╭─━━━━━━⊱ ARCHIVO ⊰━━━━━━─╮\n│✅ Archivo no necesario eliminado.\n╰─━━━━━━⊱ ARCHIVO ⊰━━━━━━─╯\n`));
+  //console.log(chalk.cyanBright(`\n▣───────────[ 𝙰𝚄𝚃𝙾𝙲𝙻𝙴𝙰𝚁TMP ]──────────────···\n│\n▣─❧ 𝙰𝚁𝙲𝙷𝙸𝚅𝙾𝚂 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝙳𝙾𝚂 ✅\n│\n▣───────────────────────────────────────···\n`));
 }, 180000);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   await purgeSession();
-console.log(chalk.greenBright(`\n╭─━━━━━━⊱ ARCHIVO ⊰━━━━━━─╮\n│✅ Archivo no necesario eliminado.\n╰─━━━━━━⊱ ARCHIVO ⊰━━━━━━─╯\n`));
+  //console.log(chalk.cyanBright(`\n▣────────[ AUTOPURGESESSIONS ]───────────···\n│\n▣─❧ ARCHIVOS ELIMINADOS ✅\n│\n▣────────────────────────────────────···\n`));
 }, 1000 * 60 * 60);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   await purgeSessionSB();
-console.log(chalk.greenBright(`\n╭─━━━━━━⊱ ARCHIVO ⊰━━━━━━─╮\n│✅ Archivo no necesario eliminado.\n╰─━━━━━━⊱ ARCHIVO ⊰━━━━━━─╯\n`));
+  //console.log(chalk.cyanBright(`\n▣────────[ AUTO_PURGE_SESSIONS_SUB-BOTS ]───────────···\n│\n▣─❧ ARCHIVOS ELIMINADOS ✅\n│\n▣────────────────────────────────────···\n`));
 }, 1000 * 60 * 60);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   await purgeOldFiles();
-console.log(chalk.greenBright(`\n╭─━━━━━━⊱ ARCHIVO ⊰━━━━━━─╮\n│✅ Archivo no necesario eliminado.\n╰─━━━━━━⊱ ARCHIVO ⊰━━━━━━─╯\n`));
-}, 180000)
+  //console.log(chalk.cyanBright(`\n▣────────[ AUTO_PURGE_OLDFILES ]───────────···\n│\n▣─❧ ARCHIVOS ELIMINADOS ✅\n│\n▣────────────────────────────────────···\n`));
+}, 1000 * 60 * 60)
 _quickTest()
 .then()
 .catch(console.error)
