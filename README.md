@@ -108,9 +108,14 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 > No Spam A Las Bots!
 ---------
 
-### Editor Y Propietario De La Bot 🌹⚡️
-<a
-href="https://github.com/Diego-YL-177"><img src="https://github.com/Diego-YL-177.png" width="200" height="200" alt="Diego"/></a>
+### 🌟 DESARROLLADORES
+<a href="https://github.com/Diego-YL-177/YoshikoBot-MD/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=Diego-YL-177/YoshikoBot-MD" /> 
+</a>
 
-## Colaboradores De La Bot ✨️     
-[![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) [![GataNina-Li](https://github.com/GataNina-Li.png?size=100)](https://github.com/GataNina-Li) [![MoonContentCreator](https://github.com/MoonContentCreator.png?size=100)](https://github.com/MoonContentCreator) [![Alba070503](https://github.com/Alba070503.png?size=100)](https://github.com/Alba070503)
+### 🌟 AGRADECIMIENTOS
+[![TheShadowBrokers1](https://github.com/BrunoSobrino.png?size=60)](https://github.com/BrunoSobrino) 
+
+### 🌟 CREADOR
+[![Diego-YL-177](https://github.com/Diego-YL-177.png?size=100)](https://github.com/Diego-YL-177) 
+> Copyright (c) 2024 **[Diego-YL-177](https://github.com/Diego-YL-177/YoshikoBot-MD/blob/master/LICENSE)**.
