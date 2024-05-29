@@ -34,7 +34,7 @@ let str = `*🧃 GRUPOS OFICIALES*
   *_┃👑❏ ${channel}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*`
 m.react('🧰') 
-await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
+    conn.sendMessage(m.chat, { video: { url: media, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: estilo })
 
 handler.command = /^grupos|linksk|gruposofc|gruposoficiales$/i
 handler.register = true
