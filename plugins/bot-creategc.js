@@ -17,7 +17,7 @@ m.reply('https://chat.whatsapp.com/' + url)
 m.reply(`🔵 *Error.*`)
 }
 }
-handler.help = ['creategroup *<nombre>*']
+handler.help = ['creargc *<nombre>*']
 handler.tags = ['owner']
 handler.command = /^(creargrupo|creargroup|creargc|gccreate)$/
 handler.owner = true
