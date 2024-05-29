@@ -72,6 +72,8 @@ global.gp4 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //Nova Y Yoshiko
 
 global.gp5 = 'https://chat.whatsapp.com/KjR8NTfdWwU1a66uDOOGLZ' //Multibots
 
+global.gp6 = 'https://chat.whatsapp.com/BWulHIz6yxJ9hxxpw7qn2T' //GataBot Y YoshikoBot
+
 global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
 
 global.yt = 'https://www.youtube.com/@Yoshiko_team' //Canal De Youtube
