@@ -1,4 +1,4 @@
-let media = './Menu7.png'
+let media = 'https://telegra.ph/file/b0d88ab0060bf91b51041.mp4'
 let handler = async (m, { conn, command }) => {
 let str = `*🧃 GRUPOS OFICIALES*
 
