@@ -25,11 +25,11 @@ const rl = createInterface(process.stdin, process.stdout)
 say('Yoshiko\nBot\nMD', {
 font: 'chrome',
 align: 'center',
-gradient: ['system', 'redBright']})
-say(`Por Diego-YL-177`, {
+gradient: ['blue', 'green']})
+say(`Por Ofc.Diego`, {
 font: 'console',
 align: 'center',
-gradient: ['blue', 'magenta']})
+gradient: ['red', 'magenta']})
 
 var isRunning = false
 
