@@ -1550,7 +1550,7 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
 global.dfail = (type, m, conn) => {
   const msg = {
         rowner: '*🍒 ¡El Uso Del Comando Solo Lo Puede Usar Mi Desarrollador! ⚽*',
-    owner: *🍒 ¡El Uso Del Comando Solo Lo Puede Usar Mi Creador! 🍬*',
+    owner: '*🍒 ¡El Uso Del Comando Solo Lo Puede Usar Mi Creador! 🍬*',
     mods: '*🍒 ¡El Uso Del Comando Solo Lo Puede Usar Mi Propietario! 👑*',
     premium: '*🌺 ¡Esta Función Solo Se Puede Usar Por Los Usuarios Premium! 🍫*',
     group: '*🍓 ¡Esta Función Solo Se Puede Usar En Grupos! 🌸*',
