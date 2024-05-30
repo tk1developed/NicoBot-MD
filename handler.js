@@ -1561,7 +1561,7 @@ global.dfail = (type, m, conn) => {
     restrict: '> *🍍 ¡Esta Función Fué Deshabilitado Por Mi Desarrollador! 🍬*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: packname, body: '🍫 Hola ' + nombre, thumbnail: yoshiImg, sourceUrl: 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: packname, body: 'ꪶໍٜ߭۫ި᮫ׅ࣪۬߭ׄ𖾏🍨𝚮͜ᴏ፝ʟ⃨ᴀ⃨⃕🍫 ' + nombre, thumbnail: yoshiImg, sourceUrl: 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
