@@ -10,7 +10,7 @@ if (!m.messageStubType || !m.isGroup) return
 let usuario = `@${m.sender.split`@`[0]}`
 const groupName = (await conn.groupMetadata(m.chat)).subject
 const groupAdmins = participants.filter((p) => p.admin)
-let pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
+let pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/3a8dfff34b09754dc30ca.jpg')
 const img = await (await fetch(pp)).buffer()
 const chat = global.db.data.chats[m.chat]
 const mentionsString = [m.sender, m.messageStubParameters[0], ...groupAdmins.map((v) => v.id)]
@@ -55,7 +55,7 @@ let txt2 = `🍬 *Un admin menos*\n\n`
 txt2 += `Nombre: @${m.messageStubParameters[0].split`@`[0]}\n`
 txt2 += `Le quitó admin: @${m.sender.split`@`[0]}`
 
-await conn.sendMessage(m.chat, {text: txt2, mentions: [...txt2.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...txt2.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.wm, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen6, "mediaUrl": channel, "sourceUrl": channel}}})
+await conn.sendMessage(m.chat, {text: txt2, mentions: [...txt2.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...txt2.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.packname, "containsAutoReply": true, "mediaType": 1, "thumbnail": pp, "mediaUrl": channel, "sourceUrl": channel}}})
 
 } else if (chat.detect2 && m.messageStubType == 72) {
 await this.sendMessage(m.chat, { text: `🫐 ${usuario} *Cambió la duración de mensajes temporales a @${m.messageStubParameters[0]}*`, mentions: [m.sender] }, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
