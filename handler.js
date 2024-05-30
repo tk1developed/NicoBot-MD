@@ -1549,16 +1549,16 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
 
 global.dfail = (type, m, conn) => {
   const msg = {
-        rowner: '> *🍒 ¡El Uso Del Comando Solo Lo Puede Usar Mi Desarrollador! ⚽*',
-    owner: '> *🍒 ¡El Uso Del Comando Solo Lo Puede Usar Mi Creador! 🍬*',
-    mods: '> *🍒 ¡El Uso Del Comando Solo Lo Puede Usar Mi Propietario! 👑*',
-    premium: '> *🌺 ¡Esta Función Solo Se Puede Usar Por Los Usuarios Premium! 🍫*',
-    group: '> *🍓 ¡Esta Función Solo Se Puede Usar En Grupos! 🌸*',
+        rowner: '*🍒 ¡El Uso Del Comando Solo Lo Puede Usar Mi Desarrollador! ⚽*',
+    owner: *🍒 ¡El Uso Del Comando Solo Lo Puede Usar Mi Creador! 🍬*',
+    mods: '*🍒 ¡El Uso Del Comando Solo Lo Puede Usar Mi Propietario! 👑*',
+    premium: '*🌺 ¡Esta Función Solo Se Puede Usar Por Los Usuarios Premium! 🍫*',
+    group: '*🍓 ¡Esta Función Solo Se Puede Usar En Grupos! 🌸*',
     private: '> *🍉 ¡Esta Función Solo Se Puede Utilizar Al Chat Privado Del Bot! 🍿*',
     admin: '*🫐 ¡Esta Función Solo Se Puede Utilizar Por Un Admin Del Grupo! 🍁*',
     botAdmin: '*🌻 !Para Poder Utilizar Este Comando Es Necesario Que El Bot Sea Admin! 🫐*',
     unreg: '*🍓 ¡Para Continuar Con Esta Función Es Necesario Registrarse! 🍨*\n\n🍭 !reg nombre.edad\n\n🍫 *Uso Correcto* : !reg Diego.18',
-    restrict: '> *🍍 ¡Esta Función Fué Deshabilitado Por Mi Desarrollador! 🍬*',
+    restrict: '*🍍 ¡Esta Función Fué Deshabilitado Por Mi Desarrollador! 🍬*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
   const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: packname, body: 'ꪶໍٜ߭۫ި᮫ׅ࣪۬߭ׄ𖾏🍨𝚮͜ᴏ፝ʟ⃨ᴀ⃨⃕🍫 ' + nombre, thumbnail: yoshiImg, sourceUrl: 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A'}}}}, aa);
