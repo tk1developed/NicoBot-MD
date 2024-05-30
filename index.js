@@ -23,13 +23,14 @@ const rl = createInterface(process.stdin, process.stdout)
 //const port = process.env.PORT || 8080;
 
 say('Yoshiko\nBot\nMD', {
-font: 'chrome',
+font: 'block',
 align: 'center',
-gradient: ['blue', 'green']})
-say(`Por Ofc.Diego`, {
+colors: ['system', 'redBright']
+})
+say(`la mejor bot de whatsapp, by: yoshiko`, {
 font: 'console',
-align: 'center',
-gradient: ['red', 'magenta']})
+gradient: ['blue', 'magenta']
+})
 
 var isRunning = false
 
