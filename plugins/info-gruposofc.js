@@ -1,4 +1,4 @@
-let media = './Menu.png'
+let media = './Menu7.png'
 let handler = async (m, { conn, command }) => {
 let str = `*🧃 GRUPOS OFICIALES*
 
@@ -34,7 +34,7 @@ let str = `*🧃 GRUPOS OFICIALES*
   *_┃👑❏ ${channel}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*`
 m.react('🧰') 
-    conn.sendMessage(m.chat, { video: { url: media, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: estilo })
+    await conn.sendFile(m.chat, media, 'yoshiko.mp4', str, fkontak)}
 
 handler.command = /^grupos|linksk|gruposofc|gruposoficiales$/i
 handler.register = true
