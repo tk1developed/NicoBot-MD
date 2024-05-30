@@ -1440,8 +1440,8 @@ export async function participantsUpdate({id, participants, action}) {
             const antiArab = JSON.parse(fs.readFileSync('./src/antiArab.json'));
             const userPrefix = antiArab.some((prefix) => user.startsWith(prefix));
             const botTt2 = groupMetadata.participants.find((u) => m.conn.decodeJid(u.id) == m.conn.user.jid) || {};
-let about = (await this.fetchStatus(user).catch(console.error) || {}).status || '🍒 Hi! I am using WhatsApp!!'
-            text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@bio', about).replace('@subject', await m.conn.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*𝚂𝙸𝙽 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽*') :
+let about = (await this.fetchStatus(user).catch(console.error) || {}).status || '🍒 Hi! WhatsApp!!' 
+            text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@bio', about)..replace('@readMore', global.readMore).replace('@subject', await m.conn.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*⚠️ ESTE GRUPO NO TIENE DESCRIPCIÓN ⚠️*') :
                               (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@bio', about).replace('@user', '@' + user.split('@')[0]);
 
             if (userPrefix && chat.antiArab && botTt.restrict && isBotAdminNn && action === 'add') {
