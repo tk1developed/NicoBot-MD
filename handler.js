@@ -1311,7 +1311,7 @@ _Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Pr
                     if (e) {
                         let text = format(e)
                         for (let key of Object.values(global.APIKeys))
-                            text = text.replace(new RegExp(key, 'g'), 'Admin')
+                            text = text.replace(new RegExp(key, 'g'), '#HIDDEN#')
                         if (e.name)
                             for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
                                 let data = (await conn.onWhatsApp(jid))[0] || {}
@@ -1440,19 +1440,32 @@ export async function participantsUpdate({id, participants, action}) {
             const antiArab = JSON.parse(fs.readFileSync('./src/antiArab.json'));
             const userPrefix = antiArab.some((prefix) => user.startsWith(prefix));
             const botTt2 = groupMetadata.participants.find((u) => m.conn.decodeJid(u.id) == m.conn.user.jid) || {};
-let about = (await this.fetchStatus(user).catch(console.error) || {}).status || '🍒 Hi! WhatsApp!!' 
-            text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@bio', about).replace('@readMore', global.readMore).replace('@subject', await m.conn.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*⚠️ ESTE GRUPO NO TIENE DESCRIPCIÓN ⚠️*') :
+let about = (await this.fetchStatus(user).catch(console.error) || {}).status || '×'
+            text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@bio', about).replace('@subject', await m.conn.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*𝚂𝙸𝙽 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽*') :
                               (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@bio', about).replace('@user', '@' + user.split('@')[0]);
 
             if (userPrefix && chat.antiArab && botTt.restrict && isBotAdminNn && action === 'add') {
               const responseb = await m.conn.groupParticipantsUpdate(id, [user], 'remove');
               if (responseb[0].status === '404') return;
               const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${user.split('@')[0]}:${user.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
-                      await m.conn.sendMessage(id, {text: `*[❗] @${user.split('@')[0]} 𝙚𝙣 𝙚𝙨𝙩𝙚 𝙜𝙧𝙪𝙥𝙤 𝙣𝙤 𝙥𝙚𝙧𝙢𝙞𝙩𝙞𝙢𝙤𝙨 𝙣𝙪𝙢𝙚𝙧𝙤𝙨 𝙖𝙧𝙖𝙗𝙚𝙨 𝙤 𝙧𝙖𝙧𝙤𝙨, 𝙥𝙤𝙧 𝙡𝙤 𝙦𝙪𝙚 𝙨𝙚 𝙡𝙚 𝙚𝙭𝙥𝙪𝙡𝙨𝙖𝙧𝙖 𝙙𝙚𝙡 𝙜𝙧𝙪𝙥𝙤*`, mentions: [user]}, {quoted: fkontak2});
-              return;
-            }
-this.sendMessage(id, { text: text, contextInfo:{ mentionedJid:[user], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": `${action === 'add' ? '乂 𝖶 𝖤 𝖫 𝖢 𝖮 𝖬 𝖤 乂' : '乂 𝖠 𝖣 𝖨 𝖮 𝖲 乂'}`, "body": `${packname}`, "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": apii.data, "sourceUrl": yt}}})
-
+        await m.conn.sendMessage(id, {text: `*[❗] @${user.split('@')[0]} 𝙚𝙣 𝙚𝙨𝙩𝙚 𝙜𝙧𝙪𝙥𝙤 𝙣𝙤 𝙥𝙚𝙧𝙢𝙞𝙩𝙞𝙢𝙤𝙨 𝙣𝙪𝙢𝙚𝙧𝙤𝙨 𝙖𝙧𝙖𝙗𝙚𝙨 𝙤 𝙧𝙖𝙧𝙤𝙨, 𝙥𝙤𝙧 𝙡𝙤 𝙦𝙪𝙚 𝙨𝙚 𝙡𝙚 𝙚𝙭𝙥𝙪𝙡𝙨𝙖𝙧𝙖 𝙙𝙚𝙡 𝙜𝙧𝙪𝙥𝙤*`, mentions: [user]}, {quoted: fkontak2});
+                }
+this.sendMessage(id, { text: text, 
+contextInfo:{
+forwardingScore: 9999999,
+isForwarded: true, 
+mentionedJid:[user],
+"externalAdReply": {
+"showAdAttribution": true,
+"renderLargerThumbnail": true,
+"thumbnail": apii.data, 
+"title": `${action === 'add' ? '乂 𝖶 𝖤 𝖫 𝖢 𝖮 𝖬 𝖤 乂' : '乂 𝖠 𝖣 𝖨 𝖮 𝖲 乂'}`,
+"body": packname,
+"containsAutoReply": true,
+"mediaType": 1, 
+sourceUrl: channel }}}, { quoted: fkontak })
+apii.data = ''
+//this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }, { quoted: fkontak })
 }}}
       break;
     case 'promote':
