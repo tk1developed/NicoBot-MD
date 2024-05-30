@@ -43,7 +43,7 @@ var img3 = fs.readFileSync('./media/menus/ImagenYoshi.jpg');
 var img4 = fs.readFileSync('./media/menus/YoshiBot.jpg');
 var img5 = fs.readFileSync('./media/menus/Sombra.jpg');
 
-global.yoshiImg = [img4].getRandom()
+global.yoshiImg = [img5].getRandom()
 
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: packname, orderTitle: 'Bang', thumbnail: yoshiImg, sellerJid: '0@s.whatsapp.net' }}}
 
