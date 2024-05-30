@@ -70,8 +70,8 @@ unwatchFile(args[0])
 start(file)
 })})
 
-const ramInYL = os.totalmem() / (1024 * 1024 * 1024)
-const freeRamInYL = os.freemem() / (1024 * 1024 * 1024)
+//const ramInYL = os.totalmem() / (1024 * 1024 * 1024)
+//const freeRamInYL = os.freemem() / (1024 * 1024 * 1024)
 const packageJsonPath = path.join(path.dirname(currentFilePath), './package.json')
 try {
 const packageJsonData = await fsPromises.readFile(packageJsonPath, 'utf-8')
@@ -79,11 +79,6 @@ const packageJsonObj = JSON.parse(packageJsonData)
 const currentTime = new Date().toLocaleString()
 let lineM = '⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》'
 console.log(chalk.yellow(`╭${lineM}
-┊${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
-┊${chalk.blueBright('┊')}${chalk.yellow(`🖥️ ${os.type()}, ${os.release()} - ${os.arch()}`)}
-┊${chalk.blueBright('┊')}${chalk.yellow(`💾 Total RAM: ${ramInYL.toFixed(2)} YL`)}
-┊${chalk.blueBright('┊')}${chalk.yellow(`💽 Free RAM: ${freeRamInYL.toFixed(2)} YL`)}
-┊${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
 ┊${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
 ┊${chalk.blueBright('┊')} ${chalk.blue.bold(`🔵 INFORMACIÓN :`)}
 ┊${chalk.blueBright('┊')} ${chalk.blueBright('┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
@@ -95,11 +90,7 @@ console.log(chalk.yellow(`╭${lineM}
 ┊${chalk.blueBright('┊')}${chalk.yellow(`🍒 Colaboradores:`)}
 ┊${chalk.blueBright('┊')}${chalk.yellow(`• elrebelde21 (Mario ofc)`)}
 ┊${chalk.blueBright('┊')}${chalk.yellow(`• GataNina-Li (gata_dios)`)}
-┊${chalk.blueBright('┊')}${chalk.yellow(`• AzamiJs (¿Azami ~ Zam?)`)}
-┊${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
-┊${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
-┊${chalk.blueBright('┊')}${chalk.cyan(`⏰ Hora Actual :`)}
-┊${chalk.blueBright('┊')}${chalk.cyan(`${currentTime}`)}
+┊${chalk.blueBright('┊')}${chalk.yellow(`• AzamiJs (Azami)`)}
 ┊${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
 ╰${lineM}`));
 setInterval(() => {}, 1000)
