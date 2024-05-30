@@ -22,50 +22,50 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
  m.react('🧃')
 const document = doc[Math.floor(Math.random() * doc.length)];
- const str = `╭∴┈ ─๋︩︪─ *🧃ᝰ໋᳝݊αմժíօ  ʙⷪᴏ͓ᷫᴛⷭ𓆪͟͞ ⋆͙̈෪🍨* ┈ ─๋︩︪─∴╮
-┃🍫 ꪶໍٜ߭۫ި᮫ׅ࣪۬߭ׄ𖾏🍨𝚮͜ᴏ፝ʟ⃨ᴀ⃨⃕ ѕογ YᴏsʜɪᴋᴏBᴏᴛ-MD ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🍬ꫂꥈ
-┃ 🧃ᝰ໋᳝݊єℓ мєиυ ∂є αυ∂ιοѕ𓆪͟͞ ⋆͙̈෪🍨.
-┃🍨 ꪶໍٜ߭۫ި᮫ׅ࣪۬߭ׄ🧃ᝰ໋᳝݊иο нαgαѕ ѕραωи ϲοи єℓ αυ∂ιοꪶໍٜ߭۫ިׅ࣪۬߭ׄ🍫̸̷᮫ᨘ۬ׄ߭ᤢꫂꥈ
+ const str = `╭∴─ *🧃ᝰ໋᳝݊αմժíօ  ʙⷪᴏ͓ᷫᴛⷭ𓆪͟͞ ⋆͙̈෪🍨* ─∴╮
+┃🍫 ꪶໍٜ߭۫ި᮫ׅ࣪۬߭ׄ𖾏🍨𝚮͜ᴏ፝ʟ⃨ᴀ⃨⃕ ѕ ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🍬ꫂꥈ
+┃ 🧃ᝰ໋᳝݊єℓ αυ∂ιοѕ𓆪͟͞ ⋆͙̈෪🍨.
+┃🍨 ꪶໍٜ߭۫ި᮫ׅ࣪۬߭ׄ🧃ᝰ໋᳝݊иο нαgαѕ ѕραωи ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🍫̸̷᮫ᨘ۬ׄ߭ᤢꫂꥈ
 ╰◈ 𓆩֟፝𓆪 ▭̷໋̟▭̷໋̟▭̷໋̟▭̷໋▭̷໋̟▭̷໋̟▭̷໋̟▭̷໋̟ 𓆩֟፝𓆪 ◈
 
 ╭🍒⸽⃕ おㅤ⨭ᴄ꯭᷍ʜ𝆭ɪᴄ፝҉𑆾ִ お 🍨⃨፝⃕✰
-「ᝰ໋᳝݊➜ 🦋🍨 𝑺𝒊𝒏 𝑵𝒊𝒏𝒈𝒖𝒏 𝑷𝒓𝒆𝒇𝒊𝒋𝒐.
-「ᝰ໋᳝݊➜ 🦋🍓 _Quien es tu sempai botsito 7w7_
-「ᝰ໋᳝݊➜ 🦋🧃 _Te diagnostico con gay_
-「ᝰ໋᳝݊➜ 🦋🍇 _No digas eso papu_
-「ᝰ໋᳝݊➜ 🦋🍒 _Fiesta del admin_
-「ᝰ໋᳝݊➜ 🦋🍭 _Fiesta del administrador_ 
-「ᝰ໋᳝݊➜ 🦋🍌 _Vivan los novios_
-「ᝰ໋᳝݊➜ 🦋🍧 _Noche de paz_
-「ᝰ໋᳝݊➜ 🦋🍨 _Buenos dias_
-「ᝰ໋᳝݊➜ 🦋🍫 _Buenas tardes_
-「ᝰ໋᳝݊➜ 🦋🍓 _Buenas noches_
-「ᝰ໋᳝݊➜ 🦋🧃 _Audio hentai_
-「ᝰ໋᳝݊➜ 🦋🍒 _Chica lgante_
-「ᝰ໋᳝݊➜ 🦋🍿 _Feliz navidad_
-「ᝰ໋᳝݊➜ 🦋🍇 _Onichan_
-「ᝰ໋᳝݊➜ 🦋🍭 _Vete a la vrg_
-「ᝰ໋᳝݊➜ 🦋🍧 _Pasa pack Bot_
-「ᝰ໋᳝݊➜ 🦋🍒 _Atencion grupo_
-「ᝰ໋᳝݊➜ 🦋🧃 _Marica quien_
-「ᝰ໋᳝݊➜ 🦋🍫 _Uwu_
-「ᝰ໋᳝݊➜ 🦋🍓 _Murio el grupo_
-「ᝰ໋᳝݊➜ 🦋🧁 _Oh me vengo_
-「ᝰ໋᳝݊➜ 🦋🍿 _tio que rico_
-「ᝰ໋᳝݊➜ 🦋🍇 _Viernes_
-「ᝰ໋᳝݊➜ 🦋🍨 _Baneado_
-「ᝰ໋᳝݊➜ 🦋🍫 _Sexo_
-「ᝰ໋᳝݊➜ 🦋🍭 _Nyanpasu_
-「ᝰ໋᳝݊➜ 🦋🍓 _Te amo_
-「ᝰ໋᳝݊➜ 🦋🌠 _Yamete_
-「ᝰ໋᳝݊➜ 🦋🍇 _La biblia_
-「ᝰ໋᳝݊➜ 🦋🍧 _Mierda de Bot_
-「ᝰ໋᳝݊➜ 🦋🧁 _Siuuu_
-「ᝰ໋᳝݊➜ 🦋🍨 _Epico_
-「ᝰ໋᳝݊➜ 🦋🍫 _Shitpost_
-「ᝰ໋᳝݊➜ 🦋🍇 _Rawr_
-「ᝰ໋᳝݊➜ 🦋🍿 _:c_
-「ᝰ໋᳝݊➜ 🦋🍧 _a_
+「ᝰ໋᳝݊➜ 🍨 𝑺𝒊𝒏 𝑵𝒊𝒏𝒈𝒖𝒏 𝑷𝒓𝒆𝒇𝒊𝒋𝒐.
+「ᝰ໋᳝݊➜ 🍓 _Quien es tu sempai botsito 7w7_
+「ᝰ໋᳝݊➜ 🧃 _Te diagnostico con gay_
+「ᝰ໋᳝݊➜ 🍇 _No digas eso papu_
+「ᝰ໋᳝݊➜ 🍒 _Fiesta del admin_
+「ᝰ໋᳝݊➜ 🍭 _Fiesta del administrador_ 
+「ᝰ໋᳝݊➜ 🍌 _Vivan los novios_
+「ᝰ໋᳝݊➜ 🍧 _Noche de paz_
+「ᝰ໋᳝݊➜ 🍨 _Buenos dias_
+「ᝰ໋᳝݊➜ 🍫 _Buenas tardes_
+「ᝰ໋᳝݊➜ 🍓 _Buenas noches_
+「ᝰ໋᳝݊➜ 🧃 _Audio hentai_
+「ᝰ໋᳝݊➜ 🍒 _Chica lgante_
+「ᝰ໋᳝݊➜ 🍿 _Feliz navidad_
+「ᝰ໋᳝݊➜ 🍇 _Onichan_
+「ᝰ໋᳝݊➜ 🍭 _Vete a la vrg_
+「ᝰ໋᳝݊➜ 🍧 _Pasa pack Bot_
+「ᝰ໋᳝݊➜ 🍒 _Atencion grupo_
+「ᝰ໋᳝݊➜ 🧃 _Marica quien_
+「ᝰ໋᳝݊➜ 🍫 _Uwu_
+「ᝰ໋᳝݊➜ 🍓 _Murio el grupo_
+「ᝰ໋᳝݊➜ 🧁 _Oh me vengo_
+「ᝰ໋᳝݊➜ 🍿 _tio que rico_
+「ᝰ໋᳝݊➜ 🍇 _Viernes_
+「ᝰ໋᳝݊➜ 🍨 _Baneado_
+「ᝰ໋᳝݊➜ 🍫 _Sexo_
+「ᝰ໋᳝݊➜ 🍭 _Nyanpasu_
+「ᝰ໋᳝݊➜ 🍓 _Te amo_
+「ᝰ໋᳝݊➜ 🌠 _Yamete_
+「ᝰ໋᳝݊➜ 🍇 _La biblia_
+「ᝰ໋᳝݊➜ 🍧 _Mierda de Bot_
+「ᝰ໋᳝݊➜ 🧁 _Siuuu_
+「ᝰ໋᳝݊➜ 🍨 _Epico_
+「ᝰ໋᳝݊➜ 🍫 _Shitpost_
+「ᝰ໋᳝݊➜ 🍇 _Rawr_
+「ᝰ໋᳝݊➜ 🍿 _:c_
+「ᝰ໋᳝݊➜ 🍧 _a_
 ╰◈・。..・゜✭.・.・✫・゜・。.`.trim();     if (m.isGroup) { 
  // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
