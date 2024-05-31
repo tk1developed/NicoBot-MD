@@ -45,14 +45,6 @@ var img5 = fs.readFileSync('./media/menus/Sombra.jpg');
 
 global.yoshiImg = [img, img2, img3, img4, img5].getRandom()
 
-var group = 'https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9' //Grupo Oficial De Yoshiko1
-
-var group2 = 'https://chat.whatsapp.com/BvHfQUBNAAFF1k1F9bTL0G' //Grupo Oficial Yoshiko2
-
-var canal = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
-
-global.LinkYoshi = [group, group2, canal].getRandom()
-
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: packname, orderTitle: 'Bang', thumbnail: yoshiImg, sellerJid: '0@s.whatsapp.net' }}}
 
 const moji = (await axios.get(`https://raw.githubusercontent.com/GataNina-Li/YartexBot-MD/main/storage/juegos/emojis.json`)).data
