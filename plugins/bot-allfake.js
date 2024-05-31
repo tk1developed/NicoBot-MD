@@ -55,6 +55,8 @@ global.cred = Buffer.from(credit, 'base64')
 
 global.nombre = conn.getName(m.sender)
 global.taguser = '@' + m.sender.split("@s.whatsapp.net")
+var more = String.fromCharCode(8206)
+global.readMore = more.repeat(850)
 
 //global.fake = { contextInfo:{ forwardingScore: 0, externalAdReply: {title: '🌟 Bienvenido ' + nombre, body: team, sourceUrl: yt, thumbnailUrl: yoshiImg }}} //Fake simple
 
