@@ -38,7 +38,7 @@ let menu = `☄️ !Hola¡ ${user}
 !owner
 *(Para ver el propietario del bot)*`
 
-await conn.reply(m.chat, menu, fkontak, { contextInfo: { externalAdReply: {title: packname, body: 'ꪶໍٜ߭۫ި᮫ׅ࣪۬߭ׄ𖾏🍨𝚮͜ᴏ፝ʟ⃨ᴀ⃨⃕🍫 ' + user, sourceUrl: md, thumbnail: await (await fetch(pp)).buffer() }}})
+await conn.reply(m.chat, menu, fkontak, { contextInfo: { externalAdReply: {title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🍫̸̷᮫ᨘ۬ׄ߭ᤢꫂꥈ Hola! ' + user, sourceUrl: md, thumbnail: await (await fetch(pp)).buffer() }}})
 
 } catch {
 conn.reply(m.chat, `🛑 *Ocurrió un fallo*`, m, fake, )
