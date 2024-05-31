@@ -87,6 +87,7 @@ await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: {
 }
     if (command == 'play2') {
     try {  
+    m.react('✅️')
     const qu = '360';
     const q = qu + 'p';
     const v = yt_play[0].url;
