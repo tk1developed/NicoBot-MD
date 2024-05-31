@@ -28,7 +28,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 > 🌦 ρυϐℓιϲα∂ο єи: 
 > • ${yt_play[0].ago}
 > ◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎─ׅ─ׅ┈ ─๋︩︪───ׅ──ׅ─ׅ─ׅ┈ ─๋︩︪─⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸
-> 🍭 єиℓαϲє🍧:
+> 🍭 єиℓαϲє:
 > • ${yt_play[0].url}
 > ◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ┈ ─๋︩︪───ׅ──ׅ─ׅ─ׅ┈ ─๋︩︪─⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸
 > 🍒 αմԵօɾ:
@@ -45,6 +45,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: { title: yt_play[0].title, body: team, thumbnailUrl: yt_play[0].thumbnail, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: fkontak })
   if (command == 'play') {
     try {    
+     m.react('✅️')
     const q = '128kbps';
     const v = yt_play[0].url;
     const yt = await youtubedl(v).catch(async (_) => await youtubedlv2(v));
