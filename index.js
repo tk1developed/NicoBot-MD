@@ -64,7 +64,7 @@ if (code === 0) return
 watchFile(args[0], () => {
 unwatchFile(args[0])
 start(file)
-})
+})})
 const packageJsonPath = path.join(path.dirname(currentFilePath), './package.json')
 try {
 const packageJsonData = await fsPromises.readFile(packageJsonPath, 'utf-8')
@@ -86,7 +86,6 @@ console.log(chalk.yellow(`╭${lineM}
 ┊${chalk.blueBright('┊')}${chalk.yellow(`• AzamiJs (Azami)`)}
 ┊${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
 ╰${lineM}`));
-})
 let opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
 if (!opts['test'])
 if (!rl.listenerCount()) rl.on('line', line => {
