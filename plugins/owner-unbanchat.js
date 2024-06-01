@@ -6,7 +6,9 @@ chat.isBanned = false
 await conn.reply(m.chat, lenguajeYL.smsUnbanCH3(), m)
 }
 handler.command = /^unbanchat|desbanearchat|desbanchat$/i
-handler.owner = true
+handler.botAdmin = true
+handler.admin = true 
+handler.group = true
 
 export default handler
 
