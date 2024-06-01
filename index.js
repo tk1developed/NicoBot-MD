@@ -61,18 +61,14 @@ break
 
 p.on('exit', (_, code) => {
 isRunning = false
-console.error('⚠️ Ocurrió un error inesperado:', code)
-process.exit();
+console.error('⚠️ ERROR ⚠️ >> ', code)
+start('main.js'); //
+
 if (code === 0) return
 watchFile(args[0], () => {
 unwatchFile(args[0])
 start(file)
-})
-})
-let opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
-if (!opts['test'])
-if (!rl.listenerCount()) rl.on('line', line => {
-p.emit('message', line.trim())
+})})
 
 //const ramInYL = os.totalmem() / (1024 * 1024 * 1024)
 //const freeRamInYL = os.freemem() / (1024 * 1024 * 1024)
