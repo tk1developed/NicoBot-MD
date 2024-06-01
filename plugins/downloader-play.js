@@ -45,7 +45,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: { title: yt_play[0].title, body: team, thumbnailUrl: yt_play[0].thumbnail, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: fkontak })
   if (command == 'play') {
     try {    
-     m.react('✅️')
+    // m.react('✅️')
     const q = '128kbps';
     const v = yt_play[0].url;
     const yt = await youtubedl(v).catch(async (_) => await youtubedlv2(v));
@@ -67,6 +67,7 @@ await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: {
     return;
     } else {
     await conn.sendMessage(m.chat, {audio: sex, mimetype: 'audio/mpeg', fileName: ttl + `.mp3`}, {quoted: fkontak});   
+  m.react('✅️')
     return    
     }} catch {
     try {      
@@ -87,7 +88,7 @@ await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: {
 }
     if (command == 'play2') {
     try {  
-    m.react('✅️')
+   // m.react('✅️')
     const qu = '360';
     const q = qu + 'p';
     const v = yt_play[0].url;
@@ -110,6 +111,7 @@ await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: {
     return;
     } else {
     await conn.sendMessage(m.chat, {video: sex, mimetype: 'video/mp4', fileName: ttl + `.mp4`}, {quoted: fkontak});   
+   m.react('✅️')
     return;    
     }} catch {
     const formats = await bestFormat(yt_play[0].url, 'video');
