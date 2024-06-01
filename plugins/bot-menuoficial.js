@@ -199,7 +199,7 @@ m.react('🌸')
 
 handler.help = ['allmenu']
 handler.tags = ['main']
-handler.command = ['menu', 'menú', 'allmenú', 'allmenu'] 
+handler.command = ['herramienta', 'herramientas', 'allmenú', 'allmenu'] 
 handler.register = true 
 export default handler
 
