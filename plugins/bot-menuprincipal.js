@@ -3,22 +3,22 @@ import { join } from 'path'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 
-  let tags = {
+    let tags = {
   'main': '𝐈𝐍𝐅𝐎 ⚙️',
   'search': '𝐁𝐔𝐒𝐐𝐔𝐄𝐃𝐀𝐒 🔍',
   'jadibot': '𝐒𝐄𝐑 𝐉𝐀𝐃𝐈𝐁𝐎𝐓𝐒 🤖',
   'rpg': '𝐄𝐂𝐎𝐍𝐎𝐌𝐈𝐀 🪙',
   'rg': '𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎 📇',
-  'sticker': '𝐒𝐓𝐈𝐂𝐊𝐄𝐑 🍬',
-  'xp': '𝐄𝐗𝐏 🍓',
+  'sticker': '𝐒𝐓𝐈𝐂𝐊𝐄𝐑 ✨️',
+  'xp': '𝐄𝐗𝐏 🏷',
   'calculator': '𝐂𝐀𝐋𝐂𝐔𝐋𝐀𝐓𝐎𝐑 💻',
-  'fix': '𝐅𝐈𝐗 🍍',
+  'fix': '𝐅𝐈𝐗 🔮',
   'group': '𝐆𝐑𝐔𝐏𝐎𝐒 🌩',
-  'grupo': '𝐆𝐑𝐔𝐏𝐎𝐒 🧃',
+  'grupo': '𝐆𝐑𝐔𝐏𝐎𝐒 🌩',
   'buscadores': '𝐁𝐔𝐒𝐂𝐀𝐃𝐎𝐑𝐄𝐒 🔍',
   'database': '𝐃𝐀𝐓𝐀𝐁𝐀𝐒𝐄 📚',
-  'internet': '𝐈𝐍𝐓𝐄𝐑𝐍𝐄𝐓 🍒', 
-  'stalk': '𝐒𝐓𝐀𝐋𝐊 🌸',
+  'internet': '𝐈𝐍𝐓𝐄𝐑𝐍𝐄𝐓 📮', 
+  'stalk': '𝐒𝐓𝐀𝐋𝐊 📒',
   'premium': '𝐏𝐑𝐄𝐌𝐈𝐔𝐌 👑',
   'frases': '𝐅𝐑𝐀𝐒𝐄𝐒 ✏️',
   'downloader': '𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒 📥',
@@ -28,13 +28,13 @@ import { xpRange } from '../lib/levelling.js'
   'fun': '𝐃𝐈𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐄𝐒 ☁️',
   'nsfw': '𝐍𝐒𝐅𝐖 🔞', 
   'image': '𝐈𝐌𝐀𝐆𝐄 🚩',
-  'random': '𝐑𝐀𝐍𝐃𝐎𝐌 🍬',
+  'random': '𝐑𝐀𝐍𝐃𝐎𝐌 ☄️',
   'anime': '𝐀𝐍𝐈𝐌𝐄𝐒 🌸',
   'advanced': '𝐀𝐕𝐀𝐍𝐙𝐀𝐃𝐎 🍃',
-  'owner': '𝐃𝐄𝐒𝐀𝐑𝐑𝐎𝐋𝐋𝐀𝐃𝐎𝐑 🍓', 
-  'audio': '𝐄𝐅𝐄𝐂𝐓𝐎 𝐀𝐔𝐃𝐈𝐎 🍍', 
+  'owner': '𝐃𝐄𝐒𝐀𝐑𝐑𝐎𝐋𝐋𝐀𝐃𝐎𝐑 🍄', 
+  'audio': '𝐄𝐅𝐄𝐂𝐓𝐎 𝐀𝐔𝐃𝐈𝐎 🍂', 
   'info': '𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 🍭',
-  'ai': '𝐀𝐈 🍒',
+  'ai': '𝐀𝐈 🌹',
   'adm': '𝐀𝐃𝐌𝐈𝐍 🎌',
   'General': '𝐆𝐄𝐍𝐄𝐑𝐀𝐋 🔮',
   'maker': '𝐌𝐀𝐊𝐄𝐑 🌳',
@@ -44,7 +44,7 @@ import { xpRange } from '../lib/levelling.js'
 const defaultMenu = {
   before: `> %greeting %taguser
 
-      ⬣〔  𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑 🍬  〕⬣
+      ⬣〔  𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑 🍓  〕⬣
 
 ✰્᭄͜͡ 🆄︎sᴇʀ: %name
 ✰્᭄͜͡ 🄴xᴘ: %totalexp
