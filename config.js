@@ -68,7 +68,7 @@ global.gp2 = 'https://chat.whatsapp.com/BvHfQUBNAAFF1k1F9bTL0G' //Grupo Oficial 
 
 global.gp3 = 'https://chat.whatsapp.com/BWulHIz6yxJ9hxxpw7qn2T' //GataBot Y YoshikoBot
 
-global.gp4 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //Curiosity Y Yoshiko
+global.gp4 = 'https://chat.whatsapp.com/E6LJVwoT9hQ5sn0t3HgeiE' //Curiosity Y Yoshiko
 
 global.gp5 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //Nova Y Yoshiko
 
