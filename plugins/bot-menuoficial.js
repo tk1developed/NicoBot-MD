@@ -45,7 +45,7 @@ const defaultMenu = {
   before: `> %greeting %taguser
 
 ┌–––––––––––––––––ɪ✥
-│『 *INFO USER 🍓* 』
+│『 *INFO USER 🍒* 』
 └┬❖
 ┌┤
 ┊│ 🌸 𝐂𝐥𝐢𝐞𝐧𝐭𝐞: %name
