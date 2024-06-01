@@ -1,12 +1,15 @@
 let foto = imagen6
 let handler = async (m, { conn, command }) => {
-let user = db.data.users[m.sender]
-let menu = `${wm} Versión ${vs} Comandos.`
-await conn.sendButton(m.chat, menu, `YoshikoBot-MD\n` + wm, foto, [
-['Menu Completo', '.allmenu'],
-['Propietario', '#owner'],
-['Velocidad', '/ping']], null, [
-['Canal', `${channel}`]], m)}
+let listSections = []    
+listSections.push({
+title: '',
+rows: [{ header: "Menu Completo", title: "", id: `.allmenu`, description: `Para ver todos los comandos\n` }, { header: "Estado", title: "", id: `.estado`, description: `Para ver el status del Bot\n` },
+{ header: "Velocidad", title: "", id: `.ping`, description: `Ver velocidad del bot\n` },
+{ header: "Play", title: "", id: `.play`, description: `Nose\n` },
+{ header: "Nose", title: "", id: `a`, description: `Nose` }
+]})
+await conn.sendList(m.chat, 'Hola', null, `Menu`, listSections, { mentions: [m.sender]}, {quoted: m})
+
 handler.command = /^menu|menú$/i
 handler.exp = 80
 export default handler
