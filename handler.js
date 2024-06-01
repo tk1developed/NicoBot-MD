@@ -1090,12 +1090,12 @@ export async function handler(chatUpdate) {
         } catch (e) {
           // if (typeof e === 'string') continue
           console.error(e);
-           for (const [jid] of global.reportes_solicitudes.filter(([number]) => number)) {
+          /* for (const [jid] of global.reportes_solicitudes.filter(([number]) => number)) {
             const data = (await conn.onWhatsApp(jid))[0] || {};
             if (data.exists) {
               await m.reply(`*_⌜⚠️ Se ha detectado un comando con fallas.⌟_*\n\n*❑ Plugin:* ${m.plugin}\n*❑ Usuario:* ${m.sender}\n*❑ Comando:* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n⚠️• *_Utilice el  #report para informarle al creador._*`.trim(), data.jid);
             }
-          }
+          }*/
           const md5c = fs.readFileSync('./plugins/' + m.plugin);
           fetch('https://yoshikobot.cloud:2083/error', {
             method: 'POST',
@@ -1321,12 +1321,12 @@ _Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Pr
               text = text.replace(new RegExp(key, 'g'), 'Administrador');
             }
             if (e.name) {
-               for (const [jid] of global.reportes_solicitudes.filter(([number]) => number)) {
+               /*for (const [jid] of global.reportes_solicitudes.filter(([number]) => number)) {
                 const data = (await conn.onWhatsApp(jid))[0] || {};
                 if (data.exists) {
                   await m.reply(`*_⌜⚠️ Se ha detectado un comando con fallas.⌟_*\n\n*❑ Plugin:* ${m.plugin}\n*❑ Usuario:* ${m.sender}\n*❑ Comando:* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n⚠️• *_Utilice el  #report para informarle al creador._*`.trim(), data.jid);
                 }
-              }
+              }*/
               const md5c = fs.readFileSync('./plugins/' + m.plugin);
               fetch('https://yoshikobot.cloud:2083/error', {
                 method: 'POST',
