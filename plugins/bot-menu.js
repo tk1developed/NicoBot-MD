@@ -32,6 +32,8 @@ m.react('🍒')
 
 let menu = `🍬 !Bienvenido¡ ${user}
 
+```${formatDate}```
+
 !allmenu
 *(Para ver el menú completo)*
 
