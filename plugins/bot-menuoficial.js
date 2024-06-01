@@ -61,8 +61,8 @@ const defaultMenu = {
 %readmore
          *乂 ⺀ ʟɪꜱᴛᴀ - ᴄᴏᴍᴀɴᴅᴏꜱ ⺀ 乂*
 `.trimStart(),
-  header: '┌–––––––––––––––––ɪ✥\n│『 %category 』\n└┬❖',
-  body: '┌┤\n┊│ %cmd',
+  header: '┌–––––––––––––––––ɪ✥\n│『 %category 』\n└┬❖\n┌┤',
+  body: '┊│ %cmd\n',
   footer: '│└────────────┈ɪ ⳹\n┗–––––––––––––––––ɪ✥',
   after: '',
 }
