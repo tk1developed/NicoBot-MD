@@ -45,9 +45,6 @@ align: 'center',
 gradient: ['red', 'magenta']
 })
 setupMaster({exec: args[0], args: args.slice(1),
-setupMaster({
-exec: args[0],
-args: args.slice(1),
 })
 let p = fork()
 p.on('message', data => {
@@ -60,8 +57,8 @@ break
 case 'uptime':
 p.send(process.uptime())
 break
-}
-})
+}})
+
 p.on('exit', (_, code) => {
 isRunning = false
 console.error('⚠️ ERROR ⚠️ >> ', code)
