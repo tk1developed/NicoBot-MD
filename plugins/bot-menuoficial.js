@@ -1,5 +1,3 @@
-let foto = imagen6
-let handler = async (m, { conn, command }) => {
 let listSections = []    
 listSections.push({
 title: '',
@@ -9,7 +7,6 @@ rows: [{ header: "Menu Completo", title: "", id: `.allmenu`, description: `Para 
 { header: "Nose", title: "", id: `a`, description: `Nose` }
 ]})
 await conn.sendList(m.chat, 'Hola', null, `Menu`, listSections, { mentions: [m.sender]}, {quoted: m})
-
 handler.command = /^menu|menú$/i
 handler.exp = 80
 export default handler
