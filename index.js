@@ -73,10 +73,6 @@ let opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
 if (!opts['test'])
 if (!rl.listenerCount()) rl.on('line', line => {
 p.emit('message', line.trim())
-})
-}
-
-start('main.js')
 
 //const ramInYL = os.totalmem() / (1024 * 1024 * 1024)
 //const freeRamInYL = os.freemem() / (1024 * 1024 * 1024)
