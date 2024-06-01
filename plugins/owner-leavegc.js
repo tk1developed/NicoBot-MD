@@ -2,7 +2,7 @@ let handler = async (m, { conn, text, command }) => {
 let id = text ? text : m.chat  
 let chat = global.db.data.chats[m.chat]
 chat.welcome = false
-await conn.reply(id, `🌸 ${wm} Adios, Gracias Por Quererme 👋`) 
+await conn.reply(id, `🌸 ${wm} *ABANDONA EL GRUPO, FUE GENIAL ESTAR AQUÍ 👋*`}`) 
 await conn.groupLeave(id)
 try {  
 chat.welcome = true
