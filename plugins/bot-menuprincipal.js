@@ -8,7 +8,7 @@ import { xpRange } from '../lib/levelling.js'
   'search': '𝐁𝐔𝐒𝐐𝐔𝐄𝐃𝐀𝐒 🔍',
   'jadibot': '𝐒𝐄𝐑 𝐉𝐀𝐃𝐈𝐁𝐎𝐓𝐒 🤖',
   'rpg': '𝐄𝐂𝐎𝐍𝐎𝐌𝐈𝐀 🪙',
-  'rg': '𝐑𝐑𝐆𝐈𝐒𝐓𝐑𝐎 📇',
+  'rg': '𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎 📇',
   'sticker': '𝐒𝐓𝐈𝐂𝐊𝐄𝐑 ✨️',
   'xp': '𝐄𝐗𝐏 🏷',
   'calculator': '𝐂𝐀𝐋𝐂𝐔𝐋𝐀𝐓𝐎𝐑 💻',
