@@ -1093,9 +1093,9 @@ export async function handler(chatUpdate) {
                     /*for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
                         let data = (await conn.onWhatsApp(jid))[0] || {}
                         if (data.exists)
-                            m.reply(`*_⌜⚠️ Se ha detectado un comando con fallas.⌟_*\n\n*❑ Plugin:* ${m.plugin}\n*❑ Usuario:* ${m.sender}\n*❑ Comando:* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n⚠️• *_Utilice el comando #report para informarle al creador._*`.trim(), data.jid)*/
+                            m.reply(`*_⌜⚠️ Se ha detectado un comando con fallas.⌟_*\n\n*❑ Plugin:* ${m.plugin}\n*❑ Usuario:* ${m.sender}\n*❑ Comando:* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n⚠️• *_Utilice el comando #report para informarle al creador._*`.trim(), data.jid)
                     }
-                }
+                }*/
             }
       if (!opts['restrict']) {
         if (plugin.tags && plugin.tags.includes('admin')) {
@@ -1316,10 +1316,10 @@ _Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Pr
                             /*for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
                                 let data = (await conn.onWhatsApp(jid))[0] || {}
                                 if (data.exists)
-                                    m.reply(`*_⌜⚠️ Se ha detectado un comando con fallas.⌟_*\n\n*❑ Plugin:* ${m.plugin}\n*❑ Usuario:* ${m.sender}\n*❑ Comando:* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n⚠️• *_Utilice el comando #report para informarle al creador._*`.trim(), data.jid)*/
+                                    m.reply(`*_⌜⚠️ Se ha detectado un comando con fallas.⌟_*\n\n*❑ Plugin:* ${m.plugin}\n*❑ Usuario:* ${m.sender}\n*❑ Comando:* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n⚠️• *_Utilice el comando #report para informarle al creador._*`.trim(), data.jid)
                             }
                         m.reply(text)
-                    }
+                    }*/
                 } finally {
                     // m.reply(util.format(_user))
                     if (typeof plugin.after === 'function') {
