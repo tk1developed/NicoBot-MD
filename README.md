@@ -114,7 +114,7 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 </a>
 
 ### ☄️ AGRADECIMIENTOS
-[![BrunoSobrino](https://github.com/BrunoSobrino.png?size=100)](https://github.com/BrunoSobrino) 
+[![BrunoSobrino](https://github.com/BrunoSobrino.png?size=120)](https://github.com/BrunoSobrino) 
 
 ### 👑 CREADOR 
 <a
