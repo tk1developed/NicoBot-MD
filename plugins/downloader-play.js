@@ -20,7 +20,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     } else if (command === 'play2') {
       additionalText = 'video';
     }
-    m.react('🕒') 
+    m.react('⏰️') 
     const texto1 = `・₊✧★。..・✫・🎸🎧°⋆♡₊˚ 🔮
 > 🌩 τιτυℓο:
 > • ${yt_play[0].title}
