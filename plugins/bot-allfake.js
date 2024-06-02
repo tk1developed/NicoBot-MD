@@ -53,13 +53,6 @@ global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.
 const moji = (await axios.get(`https://raw.githubusercontent.com/GataNina-Li/YartexBot-MD/main/storage/juegos/emojis.json`)).data
 const emoji = await moji[Math.floor(moji.length * Math.random())]
 
-var canalesInfo = [
-{ link: canal1, id: "120363160031023229@newsletter", name: "INFINITY-WA 🌸" },
-{ link: canal2, id: "120363263466636910@newsletter", name: "✰્᭄͜͡ 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 - 𝐌𝐃 💖" }
-]
-var indiceAleatorio = Math.floor(Math.random() * canalesInfo.length)
-var channelRD = canalesInfo[indiceAleatorio]
-
 var credit = 'X8KpIFJlcXVlc3RlZCBieSBDdXJpb3NpdHlCb3Rf'
 global.cred = Buffer.from(credit, 'base64')
 
@@ -69,8 +62,6 @@ var more = String.fromCharCode(8206)
 global.readMore = more.repeat(850)
 
 //global.fake = { contextInfo:{ forwardingScore: 0, externalAdReply: {title: '🌟 Bienvenido ' + nombre, body: team, sourceUrl: yt, thumbnailUrl: yoshiImg }}} //Fake simple
-
-global.fakeChannel2 = { mentionedJid: [m.sender], isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1 }, forwardingScore: 200, externalAdReply: { title: packname, body: packname, thumbnailUrl: yoshiImg, sourceUrl: yt, mediaType: 1, renderLargerThumbnail: false }}
 
 global.fake = { contextInfo: { mentionedJid: conn.parseMention(wm), forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363263466636910@newsletter', serverMessageId: '', newsletterName: '✰્᭄͜͡ 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 - 𝐌𝐃 💖' }, externalAdReply: { title: packname, body: `ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🍫̸̷᮫ᨘ۬ׄ߭ᤢꫂꥈ Hola! ` + nombre, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: yoshiImg, thumbnail: yoshiImg, sourceUrl: yt }}}, { quoted: m } //fake con reenviado de canal
 }
