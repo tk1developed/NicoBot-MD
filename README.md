@@ -100,12 +100,9 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial ☄️
 
-<a href="https://wa.me/50232432639?text=!menu"><img alt="Bot Oficial 1 ☄️" src="https://img.shields.io/badge/Bot - Oficial 1-00FFFF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+<a href="https://wa.me/573012482877?text=!menu"><img alt="Bot Oficial ☄️" src="https://img.shields.io/badge/Bot - Oficial 1-00FFFF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
-<a href="https://wa.me/50250969900?text=!menu"><img alt="Bot Oficial 2 ☄️" src="https://img.shields.io/badge/Bot - Oficial 2-00FFFF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
-
-
-> No Spam A Las Bots!
+> No Spam Al Bot!
 ---------
 
 ## 🌟 DESARROLLADORES
