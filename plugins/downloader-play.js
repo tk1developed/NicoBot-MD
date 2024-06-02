@@ -79,9 +79,11 @@ await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: {
         buff.on('end', async () => {
     let buff = Buffer.concat(bufs)
     conn.sendMessage(m.chat, {audio: buff, fileName: yt_play[0].title + '.mp3', mimetype: 'audio/mpeg'}, {quoted: fkontak});
+    m.react('✅️')
     })} catch {
     await YTDL.mp3(yt_play[0].url).then(async (s) => {
     await conn.sendMessage(m.chat, {audio: fs.readFileSync(s.path), mimetype: "audio/mpeg", fileName: `${s.meta.title || "-"}.mp3`,}, {quoted: fkontak});
+    m.react('✅️')
     await fs.unlinkSync(s.path)});
     }
   }
@@ -107,7 +109,8 @@ await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: {
     return;    
     }     
     if (size >= limit1 && size <= limit2) {  
-    await conn.sendMessage(m.chat, {document: sex, mimetype: 'video/mp4', fileName: ttl + `.mp4`}, {quoted: fkontak});   
+    await conn.sendMessage(m.chat, {document: sex, mimetype: 'video/mp4', fileName: ttl + `.mp4`}, {quoted: fkontak});
+    m.react('✅️')   
     return;
     } else {
     await conn.sendMessage(m.chat, {video: sex, mimetype: 'video/mp4', fileName: ttl + `.mp4`}, {quoted: fkontak});   
@@ -122,6 +125,7 @@ await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: {
     const fileSizeInMB = fileSizeInKB / 1024;
     const roundedFileSizeInMB = fileSizeInMB.toFixed(2);
     await conn.sendMessage(m.chat, {video: buff, fileName: ttl_1 + '.mp4', mimetype: 'video/mp4'}, {quoted: fkontak});
+   m.react('✅️')
     }      
   }
 } catch (error) {
