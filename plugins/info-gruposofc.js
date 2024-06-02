@@ -1,4 +1,4 @@
-let media = './Menu7.png'
+let media = './Menu.png'
 let handler = async (m, { conn, command }) => {
 let str = `*◜🍬 GRUPOS OFICIALES 🍬◞*
 
