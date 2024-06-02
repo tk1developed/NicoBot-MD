@@ -63,7 +63,8 @@ await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: {
     return;    
     }     
     if (size >= limit_a1 && size <= limit_a2) {  
-    await conn.sendMessage(m.chat, {document: sex, mimetype: 'audio/mpeg', fileName: ttl + `.mp3`}, {quoted: fkontak});   
+    await conn.sendMessage(m.chat, {document: sex, mimetype: 'audio/mpeg', fileName: ttl + `.mp3`}, {quoted: fkontak});
+   m.react('✅️')   
     return;
     } else {
     await conn.sendMessage(m.chat, {audio: sex, mimetype: 'audio/mpeg', fileName: ttl + `.mp3`}, {quoted: fkontak});   
