@@ -44,7 +44,9 @@ var img4 = fs.readFileSync('./media/menus/YoshiBot.jpg');
 var img5 = fs.readFileSync('./media/menus/Sombra.jpg');
 var img6 = fs.readFileSync('./media/menus/MiniYoshi.jpg');
 var img7 = fs.readFileSync('./media/menus/MiniBot.jpg');
-global.img8 = fs.readFileSync('./media/menus/Mini.jpg');
+var img8 = fs.readFileSync('./media/menus/Mini.jpg');
+
+global.imagen = fs.readFileSync('./media/menus/Mini.jpg');
 
 global.yoshiImg = [img, img2, img3, img4, img5, img6, img7, img8].getRandom()
 
