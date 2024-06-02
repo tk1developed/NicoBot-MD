@@ -22,10 +22,13 @@ ${gp5}
 🍒 𝐌𝐮𝐥𝐭𝐢 𝐁𝐨𝐭𝐬
 ${gp6}
 
- *◜🌸 CANAL OFICIAL 🌸◞*
+ *◜🌸 CANALES OFICIALES 🌸◞*
 
 🍬 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 - 𝐌𝐃
-${channel}`
+${channel}
+
+🍬 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 - 𝐌𝐃
+${channel2}`
 m.react('🔵') 
     await conn.sendFile(m.chat, media, 'yoshiko.mp4', str, fkontak)}
 
