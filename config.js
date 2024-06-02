@@ -76,6 +76,8 @@ global.gp6 = 'https://chat.whatsapp.com/KjR8NTfdWwU1a66uDOOGLZ' //Multibots
 
 global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
 
+global.channel2 = 'https://whatsapp.com/channel/0029VaXaCa66xCSHugaf773M' //canal segundario
+
 global.yt = 'https://www.youtube.com/@Yoshiko_team' //Canal De Youtube
 
 global.md = 'https://github.com/Diego-YL-177/YoshikoBot-MD' //Github Oficial
