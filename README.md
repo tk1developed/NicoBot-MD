@@ -108,12 +108,12 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 > No Spam A Las Bots!
 ---------
 
-## DESARROLLADORES 🍒
+## DESARROLLADORES 🌟
 <a href="https://github.com/Diego-YL-177/YoshikoBot-MD/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=Diego-YL-177/YoshikoBot-MD" /> 
 </a>
 
-### AGRADECIMIENTOS 🍓
+### AGRADECIMIENTOS 🌟
 [![TheShadowBrokers1](https://github.com/BrunoSobrino.png?size=60)](https://github.com/BrunoSobrino) 
 
 ## CREADOR 🍬
