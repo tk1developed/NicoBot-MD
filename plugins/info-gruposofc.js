@@ -1,39 +1,25 @@
 let media = './Menu7.png'
 let handler = async (m, { conn, command }) => {
-let str = `*🧃 GRUPOS OFICIALES*
+let str = `*◜🍬 GRUPOS OFICIALES 🍬◞*
 
-    *_╭━━━⊜ YoshikoBot-MD_*
-  *_┃🌻❏ ${gp1}_*
-*_╰━━━━━━━━━━━━━━━━⊜_*
+❏ ${gp1}_*
 
-   *_╭━━━⊜ YoshikoBot-MD2_*
-  *_┃🌻❏ ${gp2}_*
-*_╰━━━━━━━━━━━━━━━━⊜_*
+❏ ${gp2}_*
 
- *☁️ GRUPOS EN COLABORACIÓN*
+ *◜🌸 COLABORACIÓN 🌸◞*
 
-    *_╭━━━⊜ GataBot Y Yoshiko_*
-  *_┃🌸❏ ${gp3}_*
-*_╰━━━━━━━━━━━━━━━━⊜_*
+❏ ${gp3}_*
 
-    *_╭━━━⊜ Curiosity y Yoshiko_*
-  *_┃🌸❏ ${gp4}_*
-*_╰━━━━━━━━━━━━━━━━⊜_*
+❏ ${gp4}_*
 
-    *_╭━━━⊜ NovaBot & Yoshiko_*
-  *_┃🌸❏ ${gp5}_*
-*_╰━━━━━━━━━━━━━━━━⊜_*
+❏ ${gp5}_*
 
-    *_╭━━━⊜ MultiBots_*
-  *_┃🌸❏ ${gp6}_*
-*_╰━━━━━━━━━━━━━━━━⊜_*
+❏ ${gp6}_*
 
- *☁️ CANAL OFICIAL*
+ *◜🌺 CANAL OFICIAL 🌺◞*
 
-    *_╭━━━⊜ Canal Ofc De Yoshiko_*
-  *_┃👑❏ ${channel}_*
-*_╰━━━━━━━━━━━━━━━━⊜_*`
-m.react('🧰') 
+❏ ${channel}_*`
+m.react('🔵') 
     await conn.sendFile(m.chat, media, 'yoshiko.mp4', str, fkontak)}
 
 handler.command = /^grupos|linksk|gruposofc|gruposoficiales$/i
