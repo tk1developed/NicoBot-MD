@@ -41,12 +41,12 @@ let menu = `☄️ !Hola¡ ${user}
 let listSections = []    
 listSections.push({
 title: '',
-rows: [{ header: "Menu Completo", title: "", id: `.allmenu`, description: `Para ver todos los comandos\n` }, { header: "SubBot", title: "", id: `.serbot --code`, description: `Para volverte en una subbot 🌸\n` },
-{ header: "Velocidad", title: "", id: `.ping`, description: `Ver velocidad de la bot\n` },
-{ header: "Play", title: "", id: `.play`, description: `Para descargar musica 🎧\n` },
-{ header: "creador", title: "", id: `.owner`, description: `comunicate con mi creador ⚙️` }
+rows: [{ header: "Menu Completo", title: "", id: '#allmenu', description: 'Para ver todos los comandos\n' }, { header: "SubBot", title: "", id: '#serbot --code', description: 'Para volverte en una subbot 🌸\n' },
+{ header: "Velocidad", title: "", id: '#ping', description: 'Ver velocidad de la bot\n' },
+{ header: "Play", title: "", id: '#play', description: 'Para descargar musica 🎧\n' },
+{ header: "creador", title: "", id: '#owner', description: 'comunicate con mi creador ⚙️' }
 ]})
-await conn.sendList(m.chat, '> ${saludo} ${nombre}\n\n🍬 *Cliente:* ${user}\n\n👑 `Información:`\n\n*Autor:* Ofc.Diego!\n*Versión Actual:* ${vs}\n🌟 `Aviso:`\n_Este bot puede tener errores ya que aún sigue en desarrollo._', null, `Clik`, listSections, { mentions: [m.sender]}, {quoted: m})
+await conn.sendList(m.chat, `> ${saludo} ${nombre}\n\n🍬 *Cliente:* ${user}\n\n👑 Información:\n\n*Autor:* Ofc.Diego!\n*Versión Actual:* ${vs}\n🌟 Aviso:\n_Este bot puede tener errores ya que aún sigue en desarrollo._`, null, `Clik`, listSections, { mentions: [m.sender]}, {quoted: m})
 } catch {
 conn.reply(m.chat, `🛑 *Ocurrió un fallo*`, m, fake, )
 console.log(e)
