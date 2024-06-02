@@ -60,6 +60,7 @@ await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: {
     const size = fileSizeInMB.toFixed(2);    
     if (size >= limit_a2) {  
     await conn.sendMessage(m.chat, {text: `✔ Descargue su audio en ${dl_url}`}, {quoted: m});
+    m.react('✅️')
     return;    
     }     
     if (size >= limit_a1 && size <= limit_a2) {  
@@ -107,6 +108,7 @@ await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: {
     const size = fileSizeInMB.toFixed(2);    
     if (size >= limit2) {  
     await conn.sendMessage(m.chat, {text: `✔ Descargue su video en ${dl_url}`}, {quoted: fkontak});
+    m.react('✅️')
     return;    
     }     
     if (size >= limit1 && size <= limit2) {  
