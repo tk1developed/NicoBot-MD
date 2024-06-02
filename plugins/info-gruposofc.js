@@ -2,30 +2,30 @@ let media = './Menu.png'
 let handler = async (m, { conn, command }) => {
 let str = `*◜🍬 GRUPOS OFICIALES 🍬◞*
 
-❏ *YoshikoBot-MD 1*
-_${gp1}_
+🍬 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 - 𝐌𝐃 1
+${gp1}
 
-❏ *YoshikoBot-MD 2*
-_${gp2}_
+🍬 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 - 𝐌𝐃 2
+${gp2}
 
  *◜🌸 COLABORACIÓN 🌸◞*
 
-❏ *GataBot & YoshikoBot*
-_${gp3}_
+🍒 𝐆𝐚𝐭𝐚𝐁𝐨𝐭 & 𝐘𝐨𝐬𝐡𝐢𝐤𝐨𝐁𝐨𝐭
+${gp3}
 
-❏ *CuriosityBot & YoshikoBot*
-_${gp4}_
+🍒 𝐂𝐮𝐫𝐢𝐨𝐬𝐢𝐭𝐲𝐁𝐨𝐭 & 𝐘𝐨𝐬𝐡𝐢𝐤𝐨𝐁𝐨𝐭
+${gp4}
 
-❏ *NovaBot & Yoshiko*
-_${gp5}_
+🍒 𝐍𝐨𝐯𝐚𝐁𝐨𝐭 & 𝐘𝐨𝐬𝐡𝐢𝐤𝐨𝐁𝐨𝐭
+${gp5}
 
-❏ *Multi Bots*
-_${gp6}_
+🍒 𝐌𝐮𝐥𝐭𝐢 𝐁𝐨𝐭𝐬
+${gp6}
 
  *◜🌺 CANAL OFICIAL 🌺◞*
 
-❏ *YoshikoBot-MD*
-_${channel}_`
+🍬 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 - 𝐌𝐃
+${channel}`
 m.react('🔵') 
     await conn.sendFile(m.chat, media, 'yoshiko.mp4', str, fkontak)}
 
