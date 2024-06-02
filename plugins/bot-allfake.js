@@ -46,7 +46,7 @@ var img6 = fs.readFileSync('./media/menus/MiniYoshi.jpg');
 var img7 = fs.readFileSync('./media/menus/MiniBot.jpg');
 var img8 = fs.readFileSync('./media/menus/Mini.jpg');
 
-global.yoshiImg = [img6].getRandom()
+global.yoshiImg = [img7].getRandom()
 
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: packname, orderTitle: 'Bang', thumbnail: yoshiImg, sellerJid: '0@s.whatsapp.net' }}}
 
