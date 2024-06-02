@@ -114,9 +114,9 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 </a>
 
 ### ☄️ AGRADECIMIENTOS
-[![BrunoSobrino](https://github.com/BrunoSobrino.png?size=80)](https://github.com/BrunoSobrino) 
+[![BrunoSobrino](https://github.com/BrunoSobrino.png?size=60)](https://github.com/BrunoSobrino) 
 
 ### 👑 CREADOR 
 <a
-href="https://github.com/Diego-YL-177"><img src="https://github.com/Diego-YL-177.png" width="120" height="120" alt="Diego"/></a>
-> Copyright (c) 2024 **[Diego-YL-177](https://github.com/Diego-YL-177/YoshikoBot-MD/blob/master/LICENSE)**.
+href="https://github.com/Diego-YL-177"><img src="https://github.com/Diego-YL-177.png" width="100" height="100" alt="Diego"/></a>
+> Copyright (c) 2024 **[Diego-YL-177](https://github.com/Diego-YL-177/YoshikoBot-MD)**.
