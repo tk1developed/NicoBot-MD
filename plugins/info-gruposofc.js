@@ -2,23 +2,23 @@ let media = './Menu7.png'
 let handler = async (m, { conn, command }) => {
 let str = `*◜🍬 GRUPOS OFICIALES 🍬◞*
 
-❏ ${gp1}_*
+_⭔ ${gp1}_
 
-❏ ${gp2}_*
+_⭔ ${gp2}_
 
  *◜🌸 COLABORACIÓN 🌸◞*
 
-❏ ${gp3}_*
+_⭔ ${gp3}_
 
-❏ ${gp4}_*
+_⭔ ${gp4}_
 
-❏ ${gp5}_*
+_⭔ ${gp5}_
 
-❏ ${gp6}_*
+_⭔ ${gp6}_
 
  *◜🌺 CANAL OFICIAL 🌺◞*
 
-❏ ${channel}_*`
+_⭔ ${channel}_`
 m.react('🔵') 
     await conn.sendFile(m.chat, media, 'yoshiko.mp4', str, fkontak)}
 
