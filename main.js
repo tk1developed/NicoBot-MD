@@ -538,7 +538,7 @@ setInterval(async () => {
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   await purgeSession();
-  console.log(chalk.greenBright(`\n╭▸ 🌻 Autopurgesessions 🌻\n┆• SESIONES NO ESENCIALES ELIMINADAS\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`));
+  console.log(chalk.greenBright(`\n╭▸ 🌻 YoshiSession 🌻\n┆• SESIONES NO ESENCIALES ELIMINADAS\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`));
 }, 1000 * 60 * 60);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
