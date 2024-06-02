@@ -27,7 +27,7 @@ ${gp6}
 🍬 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 - 𝐌𝐃
 ${channel}
 
-🍬 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 - 𝐌𝐃
+🍬 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 ¡𝐔𝐩𝐝𝐚𝐭𝐞!
 ${channel2}`
 m.react('🔵') 
     await conn.sendFile(m.chat, media, 'yoshiko.mp4', str, fkontak)}
