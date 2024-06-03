@@ -135,12 +135,8 @@ font: 'block',
 align: 'center',
 colors: ['magenta', 'cyan']
 })
-say(activeCollaborators, {
-font: 'console',
-align: 'center',
-gradient: ['blue', 'magenta']
-})
-say(`Desarrollado por: ${author.name}\nCódigo basado por: ${collaborators.col1}\n${activeCollaborators}\nVersion: ${version}`, {
+
+say(`Bot`, {
 font: 'console',
 gradient: ['blue', 'magenta']
 })
