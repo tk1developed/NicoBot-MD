@@ -319,7 +319,7 @@ if (opcion == '1' || methodCodeQR) {
     console.log(chalk.green('🔵  Escanea El Código QR Para Conectarte A YoshikoBot.'));
  }}
   if (connection == 'open') {
-    await conn.groupAcceptInvite('BvHfQUBNAAFF1k1F9bTL0G')
+   // await conn.groupAcceptInvite('BvHfQUBNAAFF1k1F9bTL0G')
 console.log(chalk.bold.cyan('\n╭┈ ┈ ┈ ┈ ┈ • 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁-𝗠𝗗 🍂 • ┈ ┈ ┈ ┈ ┈ ┈╮\n┊ LA BOT YA ESTÁ CONECTADA AL WHATSAPP 🟢\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'))
 //conn.fakeReply('573012482694@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy Yoshiko\nRecientemente Me E Conectado', '0@s.whatsapp.net')
    }
@@ -335,9 +335,9 @@ if (connection === 'close') {
     } else if (reason === DisconnectReason.connectionClosed) {
         conn.logger.warn(`⚠ Conexión cerrada, reconectando...`);
         await global.reloadHandler(true).catch(console.error);
-    } else if (reason === DisconnectReason.connectionLost) {
-        conn.logger.warn(`⚠ Conexión perdida con el servidor, reconectando...`);
-        await global.reloadHandler(true).catch(console.error);
+    //} else if (reason === DisconnectReason.connectionLost) {
+       // conn.logger.warn(`⚠ Conexión perdida con el servidor, reconectando...`);
+       // await global.reloadHandler(true).catch(console.error);
     } else if (reason === DisconnectReason.connectionReplaced) {
         conn.logger.error(`⚠ Conexión reemplazada, se ha abierto otra nueva sesión. Por favor, cierra la sesión actual primero.`);
         //process.exit();
