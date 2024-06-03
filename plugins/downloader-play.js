@@ -38,7 +38,7 @@ let texto1 = `・₊✧★。..・✫・🎸🎧°⋆♡₊˚ 🔮
 > • ${secondString(yt_play[0].duration.seconds)}
 ・₊✧。..・★🎸🎧°⋆♡₊˚ 🔮
 
-> _*🍬 εɳѵเαɳ∂σ  ${additionalText}, รµ αµ∂เσ αɠµαɾ∂ε µɳ ɱσɱεɳƭσ 🍓...*_`.trim()
+> _*🍬 εɳѵเαɳ∂σ รµ ${additionalText}, αɠµαɾ∂ε µɳ ɱσɱεɳƭσ 🍓...*_`.trim()
 await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: { title: yt_play[0].title, body: team, thumbnailUrl: yt_play[0].thumbnail, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: fkontak })
 
 if (command == 'play') {        
