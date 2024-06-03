@@ -323,7 +323,7 @@ if (opcion == '1' || methodCodeQR) {
 console.log(chalk.bold.cyan('\n╭┈ ┈ ┈ ┈ ┈ • 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁-𝗠𝗗 🍂 • ┈ ┈ ┈ ┈ ┈ ┈╮\n┊ LA BOT YA ESTÁ CONECTADA AL WHATSAPP 🟢\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'))
 //conn.fakeReply('573012482694@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy Yoshiko\nRecientemente Me E Conectado', '0@s.whatsapp.net')
    }
-let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
+/*let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) {
 await fs.unlinkSync("./YoshiSession/" + "creds.json")
 console.log(chalk.bold.redBright(`[ ⚠ ] Conexión replazada, Por favor espere un momento me voy a reiniciar...\nSi aparecen error vuelve a iniciar con : npm start`)) 
@@ -347,12 +347,12 @@ if (connection === 'close') {
     } else if (reason === DisconnectReason.restartRequired) {
         conn.logger.info(`⚠ Reinicio necesario, reinicie el servidor si presenta algún problema.`);
         await global.reloadHandler(true).catch(console.error);
-    //} else if (reason === DisconnectReason.timedOut) {
-        //conn.logger.warn(`⚠ Tiempo de conexión agotado, reconectando...`);
-       // await global.reloadHandler(true).catch(console.error);
+    } else if (reason === DisconnectReason.timedOut) {
+        conn.logger.warn(`⚠ Tiempo de conexión agotado, reconectando...`);
+        await global.reloadHandler(true).catch(console.error);
     } else {
         conn.logger.warn(`⚠ Razón de desconexión desconocida. ${reason || ''}: ${connection || ''}`);
-        await global.reloadHandler(true).catch(console.error);
+        await global.reloadHandler(true).catch(console.error);*/
     }
 }
   /*if (connection == 'close') {
