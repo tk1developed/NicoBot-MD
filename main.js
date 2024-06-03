@@ -316,18 +316,18 @@ async function connectionUpdate(update) {
   if (global.db.data == null) loadDatabase();
 if (update.qr != 0 && update.qr != undefined || methodCodeQR) {
 if (opcion == '1' || methodCodeQR) {
-    console.log(chalk.yellow('🔵 Escanea El Código QR Para Conectarte A YoshikoBot.'));
+    console.log(chalk.green('🔵 Escanea El Código QR Para Conectarte A YoshikoBot.'));
  }}
   if (connection == 'open') {
-    //await conn.groupAcceptInvite(gp2)
+    await conn.groupAcceptInvite(gp2)
 console.log(chalk.bold.cyan('\n╭┈ ┈ ┈ ┈ ┈ • 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁-𝗠𝗗 🍂 • ┈ ┈ ┈ ┈ ┈ ┈╮\n┊ LA BOT YA ESTÁ CONECTADA AL WHATSAPP 🟢\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'))
 //conn.fakeReply('573012482694@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy Yoshiko\nRecientemente Me E Conectado', '0@s.whatsapp.net')
    }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) {
 await fs.unlinkSync("./YoshiSession/" + "creds.json")
-console.log(chalk.bold.redBright(`🔵 Reinicia La Consola.`)) 
-//process.send('reset')}
+console.log(chalk.bold.redBright(`[ ⚠ ] Conexión replazada, Por favor espere un momento me voy a reiniciar...\nSi aparecen error vuelve a iniciar con : npm start`)) 
+process.send('reset')}
 if (connection === 'close') {
     if (reason === DisconnectReason.badSession) {
         conn.logger.error(`⚠ Sesión incorrecta, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`);
