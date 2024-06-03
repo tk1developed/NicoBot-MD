@@ -133,7 +133,7 @@ delete global.conns[i]
 global.conns.splice(i, 1)
 }}
 
-let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
+const reason = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode
 if (connection === 'close') {
 console.log(reason)
 if (reason == 405) {
