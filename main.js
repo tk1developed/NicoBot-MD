@@ -332,7 +332,7 @@ conn.logger.warn(`⚠️ Tiempo de conexión agotado, reconectando...`)
 await global.reloadHandler(true).catch(console.error)
 } else {
 conn.logger.warn(`⚠️ Razón de desconexión desconocida. ${reason || ''}: ${connection || ''}`)
-}}}
+}}
 
   /*if (connection == 'close') {
     console.log(chalk.yellow(`🚩ㅤConexion cerrada, por favor borre la carpeta ${global.authFile} y reescanee el codigo QR`));
