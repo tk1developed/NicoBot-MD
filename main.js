@@ -525,12 +525,12 @@ setInterval(async () => {
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   await purgeSession();
-  console.log(chalk.cyanBright(`\n╭▸ 🌸 AUTOPURGESESSIONS 🌸\n┆• ARCHIVOS AUTOPURGESESSIONS ELIMINADAS\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎🗑️♻️\n`));
+  console.log(chalk.cyanBright(`\n╭▸ 🌸 AUTOPURGESESSIONS 🌸\n┆• SESIONES NO ESENCIALES ELIMINADAS\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎🗑️♻️\n`));
 }, 1000 * 60 * 10);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   await purgeSessionSB();
-  console.log(chalk.cyanBright(`\n╭▸ 🍓 CARPETA SUB - BOTS 🍓\n┆• CARPETA DE SUBBOTS ELIMINADAS\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎🗑️♻️\n`));
+  console.log(chalk.cyanBright(`\n╭▸ 🍓 CARPETA SUB - BOTS 🍓\n┆• ARCHIVOS NO ESENCIALES ELIMINADOS\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎🗑️♻️\n`));
 }, 1000 * 60 * 10);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
