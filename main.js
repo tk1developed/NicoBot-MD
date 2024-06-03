@@ -524,16 +524,16 @@ if (stopped === 'close' || !conn || !conn.user) return
 const a = await clearTmp()
 console.log(chalk.cyanBright(`\n╭▸ ☘️ MULTIMEDIA ☘️\n┆• ARCHIVOS DE LA CARPETA TMP ELIMINADAS\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n\n`))
 }, 1000 * 60 * 4)
-/*setInterval(async () => {
+setInterval(async () => {
 if (stopped === 'close' || !conn || !conn.user) return
 await purgeSession()
-console.log(chalk.cyanBright(`\nAUTOPURGESESSIONS │ BASURA ELIMINADA\n`))
+console.log(chalk.cyanBright(`\n╭▸ 🔵 AUTOPURGESES 🔵\n┆• BASURA ELIMINADA CON ÉXITO\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`))
 }, 1000 * 60 * 10)
 setInterval(async () => {
 if (stopped === 'close' || !conn || !conn.user) return;
 await purgeSessionSB()
-console.log(chalk.cyanBright(`\nAUTO_PURGE_SESSIONS_SUB-BOTS │ BASURA ELIMINADA\n`))
-}, 1000 * 60 * 10)*/
+console.log(chalk.cyanBright(`\n╭▸ 🌸 SUB - BOTS 🌸\n┆• BORRADO CON ÉXITO\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`))
+}, 1000 * 60 * 10)
 setInterval(async () => {
 if (stopped === 'close' || !conn || !conn.user) return
 await purgeOldFiles()
