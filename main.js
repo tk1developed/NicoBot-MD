@@ -335,9 +335,9 @@ if (connection === 'close') {
     } else if (reason === DisconnectReason.connectionClosed) {
         conn.logger.warn(`⚠ Conexión cerrada, reconectando...`);
         await global.reloadHandler(true).catch(console.error);
-    //} else if (reason === DisconnectReason.connectionLost) {
-       // conn.logger.warn(`⚠ Conexión perdida con el servidor, reconectando...`);
-       // await global.reloadHandler(true).catch(console.error);
+    } else if (reason === DisconnectReason.connectionLost) {
+        conn.logger.warn(`⚠ Conexión perdida con el servidor, reconectando...`);
+        await global.reloadHandler(true).catch(console.error);
     } else if (reason === DisconnectReason.connectionReplaced) {
         conn.logger.error(`⚠ Conexión reemplazada, se ha abierto otra nueva sesión. Por favor, cierra la sesión actual primero.`);
         //process.exit();
@@ -347,9 +347,9 @@ if (connection === 'close') {
     } else if (reason === DisconnectReason.restartRequired) {
         conn.logger.info(`⚠ Reinicio necesario, reinicie el servidor si presenta algún problema.`);
         await global.reloadHandler(true).catch(console.error);
-    } else if (reason === DisconnectReason.timedOut) {
-        conn.logger.warn(`⚠ Tiempo de conexión agotado, reconectando...`);
-        await global.reloadHandler(true).catch(console.error);
+    //} else if (reason === DisconnectReason.timedOut) {
+        //conn.logger.warn(`⚠ Tiempo de conexión agotado, reconectando...`);
+       // await global.reloadHandler(true).catch(console.error);
     } else {
         conn.logger.warn(`⚠ Razón de desconexión desconocida. ${reason || ''}: ${connection || ''}`);
         await global.reloadHandler(true).catch(console.error);
@@ -543,7 +543,7 @@ setInterval(async () => {
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   await purgeSessionSB();
-  console.log(chalk.cyanBright(`\n╭▸ 🍓 SUB -BOTS 🍓\n┆• BORRADO CON ÉXITO\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`));
+  console.log(chalk.cyanBright(`\n╭▸ 🍓 CARPETA SUB -BOTS 🍓\n┆• ARCHIVO BORRADO CON ÉXITO\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`));
 }, 1000 * 60 * 1);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
