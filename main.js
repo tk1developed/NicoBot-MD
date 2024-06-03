@@ -533,23 +533,23 @@ async function _quickTest() {
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const a = await clearTmp();
-  console.log(chalk.greenBright(`\n╭▸ ☘️ MULTIMEDIA ☘️\n┆• ARCHIVOS DE LA CARPETA TMP ELIMINADAS\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`));
-}, 180000);
-setInterval(async () => {
+  console.log(chalk.cyanBright(`\n╭▸ ☘️ MULTIMEDIA ☘️\n┆• ARCHIVOS DE LA CARPETA TMP ELIMINADAS\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`));
+}, 1000 * 60 * 4);
+/*setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   await purgeSession();
-  console.log(chalk.greenBright(`\n╭▸ 🌻 YoshiSession 🌻\n┆• SESIONES NO ESENCIALES ELIMINADAS\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`));
-}, 1000 * 60 * 60);
+  console.log(chalk.cyanBright(`\n╭▸ 🌻 YoshiSession 🌻\n┆• SESIONES NO ESENCIALES ELIMINADAS\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`));
+}, 1000 * 60 * 10);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   await purgeSessionSB();
-  console.log(chalk.greenBright(`\n╭▸ 🌼 YoshiJadiBot 🌼\n┆• ARCHIVOS NO ESENCIALES ELIMINADOS\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`));
-}, 1000 * 60 * 60);
+  console.log(chalk.cyanBright(`\n╭▸ 🌼 YoshiJadiBot 🌼\n┆• ARCHIVOS NO ESENCIALES ELIMINADOS\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`));
+}, 1000 * 60 * 10);*/
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   await purgeOldFiles();
-  console.log(chalk.greenBright(`\n╭▸ ♻️ ARCHIVO ♻️\n┆• BORRADO CON ÉXITO\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`));
-}, 1000 * 60 * 60)
+  console.log(chalk.cyanBright(`\n╭▸ ♻️ ARCHIVO ♻️\n┆• BORRADO CON ÉXITO\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`));
+}, 1000 * 60 * 10)
 _quickTest()
 .then()
 .catch(console.error)
