@@ -554,7 +554,7 @@ originalConsoleMethod.apply(console, arguments)
 
 setInterval(async () => {
 if (stopped === 'close' || !conn || !conn.user) return
-await clearTmp()
+const a = await crearTmp()
 console.log(chalk.bold.cyanBright(lenguajeYL.smsClearTmp()))}, 1000 * 60 * 4) // 4 min 
 
 //setInterval(async () => {
