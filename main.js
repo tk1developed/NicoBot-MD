@@ -313,41 +313,27 @@ if (opcion == '1' || methodCodeQR) {
  }}
   if (connection == 'open') {
     await conn.groupAcceptInvite('Eaa9JFA53ps7WHMv2VHbO9')
-console.log(chalk.bold.cyan('\n╭┈ ┈ ┈ ┈ ┈ • 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁-𝗠𝗗 🍂 • ┈ ┈ ┈ ┈ ┈ ┈╮\n┊ LA BOT YA ESTÁ CONECTADA AL WHATSAPP 🟢\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'))
-//conn.fakeReply('573012482694@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy Yoshiko\nRecientemente Me E Conectado', '0@s.whatsapp.net')
-   }
-let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
-if (reason == 405) {
-await fs.unlinkSync("./YoshiSession/" + "creds.json")
-console.log(chalk.bold.redBright(`[ ⚠ ] Conexión replazada, Por favor espere un momento me voy a reiniciar...\nSi aparecen error vuelve a iniciar con : npm start`)) 
-process.send('reset')}
+console.log(chalk.bold.cyan('\n╭┈ ┈ ┈ ┈ ┈ • 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁-𝗠𝗗 🍂 • ┈ ┈ ┈ ┈ ┈ ┈╮\n┊ LA BOT YA ESTÁ CONECTADA AL WHATSAPP 🟢\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'))}
+let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
 if (connection === 'close') {
-    if (reason === DisconnectReason.badSession) {
-        conn.logger.error(`⚠ Sesión incorrecta, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`);
-        //process.exit();
-    } else if (reason === DisconnectReason.connectionClosed) {
-        conn.logger.warn(`⚠ Conexión cerrada, reconectando...`);
-        await global.reloadHandler(true).catch(console.error);
-    } else if (reason === DisconnectReason.connectionLost) {
-        conn.logger.warn(`⚠ Conexión perdida con el servidor, reconectando...`);
-        await global.reloadHandler(true).catch(console.error);
-    } else if (reason === DisconnectReason.connectionReplaced) {
-        conn.logger.error(`⚠ Conexión reemplazada, se ha abierto otra nueva sesión. Por favor, cierra la sesión actual primero.`);
-        //process.exit();
-    } else if (reason === DisconnectReason.loggedOut) {
-        conn.logger.error(`⚠ Conexion cerrada, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`);
-        //process.exit();
-    } else if (reason === DisconnectReason.restartRequired) {
-        conn.logger.info(`⚠ Reinicio necesario, reinicie el servidor si presenta algún problema.`);
-        await global.reloadHandler(true).catch(console.error);
-    } else if (reason === DisconnectReason.timedOut) {
-        conn.logger.warn(`⚠ Tiempo de conexión agotado, reconectando...`);
-        await global.reloadHandler(true).catch(console.error);
-    } else {
-        conn.logger.warn(`⚠ Razón de desconexión desconocida. ${reason || ''}: ${connection || ''}`);
-        await global.reloadHandler(true).catch(console.error);
-    }
-}
+if (reason === DisconnectReason.badSession) {
+conn.logger.error(`⚠️ Sesión incorrecta, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`);
+} else if (reason === DisconnectReason.connectionClosed) {
+conn.logger.warn(`⚠️ Conexión cerrada, reconectando...`)
+} else if (reason === DisconnectReason.connectionLost) {
+} else if (reason === DisconnectReason.connectionReplaced) {
+conn.logger.error(`⚠️ Conexión reemplazada, se ha abierto otra nueva sesión. Por favor, cierra la sesión actual primero.`)
+} else if (reason === DisconnectReason.loggedOut) {
+conn.logger.error(`⚠️ Conexion cerrada, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`)
+} else if (reason === DisconnectReason.restartRequired) {
+conn.logger.info(`⚠️ Reinicio necesario, reinicie el servidor si presenta algún problema.`)
+} else if (reason === DisconnectReason.timedOut) {
+conn.logger.warn(`⚠️ Tiempo de conexión agotado, reconectando...`)
+await global.reloadHandler(true).catch(console.error)
+} else {
+conn.logger.warn(`⚠️ Razón de desconexión desconocida. ${reason || ''}: ${connection || ''}`)
+}}}
+
   /*if (connection == 'close') {
     console.log(chalk.yellow(`🚩ㅤConexion cerrada, por favor borre la carpeta ${global.authFile} y reescanee el codigo QR`));
   }*/
@@ -524,25 +510,23 @@ async function _quickTest() {
   Object.freeze(global.support);
 }
 setInterval(async () => {
-  if (stopped === 'close' || !conn || !conn.user) return;
-  const a = await clearTmp();
-  console.log(chalk.cyanBright(`\n╭▸ ☘️ MULTIMEDIA ☘️\n┆• ARCHIVOS DE LA CARPETA TMP ELIMINADAS\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`));
-}, 1000 * 60 * 4);
+if (stopped === 'close' || !conn || !conn.user) return
+const a = await clearTmp()
+console.log(chalk.cyanBright(`\n╭▸ ☘️ MULTIMEDIA ☘️\n┆• ARCHIVOS DE LA CARPETA TMP ELIMINADAS\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n\n`))
+}, 1000 * 60 * 4)
 /*setInterval(async () => {
-  if (stopped === 'close' || !conn || !conn.user) return;
-  await purgeSession();
-  console.log(chalk.cyanBright(`\n╭▸ 🌻 YoshiSession 🌻\n┆• SESIONES NO ESENCIALES ELIMINADAS\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`));
-}, 1000 * 60 * 10);
-setInterval(async () => {
-  if (stopped === 'close' || !conn || !conn.user) return;
-  await purgeSessionSB();
-  console.log(chalk.cyanBright(`\n╭▸ 🌼 YoshiJadiBot 🌼\n┆• ARCHIVOS NO ESENCIALES ELIMINADOS\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`));
-}, 1000 * 60 * 10);*/
-setInterval(async () => {
-  if (stopped === 'close' || !conn || !conn.user) return;
-  await purgeOldFiles();
-  console.log(chalk.cyanBright(`\n╭▸ ♻️ ARCHIVO ♻️\n┆• BORRADO CON ÉXITO\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`));
+if (stopped === 'close' || !conn || !conn.user) return
+await purgeSession()
+console.log(chalk.cyanBright(`\nAUTOPURGESESSIONS │ BASURA ELIMINADA\n`))
 }, 1000 * 60 * 10)
-_quickTest()
-.then()
-.catch(console.error)
+setInterval(async () => {
+if (stopped === 'close' || !conn || !conn.user) return;
+await purgeSessionSB()
+console.log(chalk.cyanBright(`\nAUTO_PURGE_SESSIONS_SUB-BOTS │ BASURA ELIMINADA\n`))
+}, 1000 * 60 * 10)*/
+setInterval(async () => {
+if (stopped === 'close' || !conn || !conn.user) return
+await purgeOldFiles()
+console.log(chalk.cyanBright(`\n╭▸ ♻️ ARCHIVO ♻️\n┆• BORRADO CON ÉXITO\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`))
+}, 1000 * 60 * 10)
+_quickTest().catch(console.error)
