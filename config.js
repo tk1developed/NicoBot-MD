@@ -78,6 +78,8 @@ global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal
 
 global.channel2 = 'https://whatsapp.com/channel/0029VaXaCa66xCSHugaf773M' //canal segundario
 
+global.channel3 = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'
+
 global.yt = 'https://www.youtube.com/@Yoshiko_team' //Canal De Youtube
 
 global.md = 'https://github.com/Diego-YL-177/YoshikoBot-MD' //Github Oficial
