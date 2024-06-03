@@ -100,7 +100,7 @@ const dl_url = await yt.video[q].download()
 const ttl = await yt.title
 const size = await yt.video[q].fileSizeH
 //m.react(done)
-await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `*Título*: ${ttl}\n*Peso:* ${size}`, thumbnail: await fetch(yt.thumbnail) }, { quoted: fkontak })
+await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', thumbnail: await fetch(yt.thumbnail) }, { quoted: fkontak })
 m.react(done)
 } catch {
 
@@ -108,7 +108,7 @@ try {
 
 let mediaa = await ytMp4(yt_play[0].url)
 //m.react(done)
-await conn.sendMessage(m.chat, { video: { url: mediaa.result }, fileName: `error.mp4`, caption: cred.toString('utf-8'), thumbnail: mediaa.thumb, mimetype: 'video/mp4' }, { quoted: fkontak }) 
+await conn.sendMessage(m.chat, { video: { url: mediaa.result }, fileName: `error.mp4`, thumbnail: mediaa.thumb, mimetype: 'video/mp4' }, { quoted: fkontak }) 
 m.react(done)    
 } catch {
 
@@ -120,7 +120,7 @@ let n = lolh.result.title || 'error'
 let n2 = lolh.result.link
 let n3 = lolh.result.size
 let n4 = lolh.result.thumbnail
-await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `*Titulo:* ${n}\n*Peso:* ${n3}`, thumbnail: await fetch(n4) }, { quoted: fkontak })
+await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimetype: 'video/mp4', thumbnail: await fetch(n4) }, { quoted: fkontak })
 m.react(done)
 } catch {
 m.react(error)
