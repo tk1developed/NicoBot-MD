@@ -319,7 +319,7 @@ if (opcion == '1' || methodCodeQR) {
     console.log(chalk.yellow('🔵 Escanea El Código QR Para Conectarte A YoshikoBot.'));
  }}
   if (connection == 'open') {
-    await conn.groupAcceptInvite(gp2)
+    //await conn.groupAcceptInvite(gp2)
 console.log(chalk.bold.cyan('\n╭┈ ┈ ┈ ┈ ┈ • 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁-𝗠𝗗 🍂 • ┈ ┈ ┈ ┈ ┈ ┈╮\n┊ LA BOT YA ESTÁ CONECTADA AL WHATSAPP 🟢\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'))
 //conn.fakeReply('573012482694@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy Yoshiko\nRecientemente Me E Conectado', '0@s.whatsapp.net')
    }
