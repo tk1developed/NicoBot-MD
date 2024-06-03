@@ -111,9 +111,9 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 </a>
 
 ### ☄️ AGRADECIMIENTOS
-[![GataNina-Li](https://github.com/GataNina-Li.png?size=70)](https://github.com/GataNina-Li) 
+[![GataNina-Li](https://github.com/GataNina-Li.png?size=100)](https://github.com/GataNina-Li) 
 
-### 👑 CREADOR 
+### 👑 EDITOR Y PROPIETARIO DEL BOT
 <a
-href="https://github.com/Diego-YL-177"><img src="https://github.com/Diego-YL-177.png" width="100" height="100" alt="Diego"/></a>
+href="https://github.com/Diego-YL-177"><img src="https://github.com/Diego-YL-177.png" width="120" height="120" alt="Diego"/></a>
 > Copyright (c) 2024 **[Diego-YL-177](https://github.com/Diego-YL-177/YoshikoBot-MD)**.
