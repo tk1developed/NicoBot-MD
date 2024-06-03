@@ -534,22 +534,22 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const a = await clearTmp();
   console.log(chalk.cyanBright(`\n╭▸ ☘️ MULTIMEDIA ☘️\n┆• ARCHIVOS DE LA CARPETA TMP ELIMINADAS\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n\n`));
-}, 1000 * 60 * 1);
+}, 1000 * 60 * 4);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   await purgeSession();
   console.log(chalk.cyanBright(`\n╭▸ 🌸 AUTOPURGESESSIONS 🌸\n┆• BORRADO CON ÉXITO\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`));
-}, 1000 * 60 * 60);
+}, 1000 * 60 * 10);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   await purgeSessionSB();
   console.log(chalk.cyanBright(`\n╭▸ 🍓 SUB -BOTS 🍓\n┆• BORRADO CON ÉXITO\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`));
-}, 1000 * 60 * 60);
+}, 1000 * 60 * 10);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   await purgeOldFiles();
   //console.log(chalk.cyanBright(`\n╭▸ 🔵 ARCHIVO 🔵\n┆• BORRADO CON ÉXITO\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈◎\n`));
-}, 1000 * 60 * 60)
+}, 1000 * 60 * 10)
 _quickTest()
 .then()
 .catch(console.error)
