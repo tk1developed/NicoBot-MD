@@ -60,15 +60,15 @@ args[0] = args[0].replace('--code', '').trim()
 if (args[1]) args[1] = args[1].replace('--code', '').trim()
 if (args[0] == '') args[0] = undefined
 console.log(args[0])}
-if (!fs.existsSync('./jadibts/'+ id)){
-fs.mkdirSync('./jadibts/'+ id, { recursive: true })}
-args[0] && args[0] != undefined ? fs.writeFileSync('./jadibts/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, '\t')) : ''
+if (!fs.existsSync('./YoshiJadiBot/'+ id)){
+fs.mkdirSync('./YoshiJadiBot/'+ id, { recursive: true })}
+args[0] && args[0] != undefined ? fs.writeFileSync('./YoshiJadiBot/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, '\t')) : ''
 
-if (fs.existsSync('./jadibts/' + id + '/creds.json')) {
+if (fs.existsSync('./YoshiJadiBot/' + id + '/creds.json')) {
 let creds = JSON.parse(fs.readFileSync("./jadibts/" + id + "/creds.json"))
 if (creds) {
 if (creds.registered = false) {
-fs.unlinkSync('./jadibts/' + id + '/creds.json')
+fs.unlinkSync('./YoshiJadiBot/' + id + '/creds.json')
 }}}
 
 const comb = Buffer.from(crm1 + crm2 + crm3 + crm4, 'base64')
@@ -77,15 +77,15 @@ const drmer = Buffer.from(drm1 + drm2, `base64`)
 async function jddt() {
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? parentw.user.jid : m.sender
 let id = `${who.split`@`[0]}`
-if (!fs.existsSync('./jadibts/'+ id)){
-fs.mkdirSync('./jadibts/'+ id, { recursive: true })
+if (!fs.existsSync('./YoshiJadiBot/'+ id)){
+fs.mkdirSync('./YoshiJadiBot/'+ id, { recursive: true })
 }
-args[0] ? fs.writeFileSync('./jadibts/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, `\t`)) : ''
+args[0] ? fs.writeFileSync('./YoshiJadiBot/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, `\t`)) : ''
 
 let { version, isLatest } = await fetchLatestBaileysVersion()
 const msgRetry = (MessageRetryMap) => { }
 const msgRetryCache = new NodeCache()
-const { state, saveState, saveCreds } = await useMultiFileAuthState("./jadibts/" + id)
+const { state, saveState, saveCreds } = await useMultiFileAuthState("./YoshiJadiBot/" + id)
 
 const connectionOptions = {
 printQRInTerminal: false,
@@ -137,7 +137,7 @@ const reason = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.erro
 if (connection === 'close') {
 console.log(reason)
 if (reason == 405) {
-await fs.unlinkSync('./jadibts/' + id + '/creds.json')
+await fs.unlinkSync('./YoshiJadiBot/' + id + '/creds.json')
 
 return await conn.reply(m.chat, '⛔ 𝙲𝚎𝚛𝚛𝚊𝚗𝚍𝚘 :𝚌', fkontak)
 }
@@ -168,7 +168,7 @@ global.conns.push(conn)
 await parentw.sendMessage(m.chat, {text : args[0] ? `🌺 𝚅𝚊𝚕𝚎, 𝚏𝚞𝚎 𝚝𝚘𝚍𝚘 𝚞𝚗 𝚎𝚡𝚒𝚝𝚘 𝚊𝚑𝚘𝚛𝚊 𝚎𝚛𝚎𝚜 𝚞𝚗𝚊 𝚂𝚞𝚋-𝙱𝚘𝚝 :𝟹` : `🍄 𝙻𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝 𝚎𝚜𝚝𝚊 𝚊𝚌𝚝𝚒𝚟𝚊, 𝚞𝚜𝚎 𝚜𝚞 (𝙸𝙳) 𝚙𝚊𝚛𝚊 𝚊𝚌𝚝𝚒𝚟𝚊𝚛 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝`}, { quoted: fkontak })
 await parentw.sendMessage(m.chat, {text : `🍂 𝙻𝚊 𝚋𝚘𝚝 𝚢𝚊 𝚎𝚜𝚝𝚊 𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚍𝚊, 𝚎𝚜𝚙𝚎𝚛𝚎 𝚞𝚗 𝚖𝚘𝚖𝚎𝚗𝚝𝚘...`}, { quoted: fkontak })
 await sleep(5000)
-if (!args[0]) parentw.sendMessage(m.chat, {text : usedPrefix + command + ' ' + Buffer.from(fs.readFileSync('./jadibts/' + id + '/creds.json'), 'utf-8').toString('base64')}, { quoted: fkontak })    
+if (!args[0]) parentw.sendMessage(m.chat, {text : usedPrefix + command + ' ' + Buffer.from(fs.readFileSync('./YoshiJadiBot/' + id + '/creds.json'), 'utf-8').toString('base64')}, { quoted: fkontak })    
 
 }}
 setInterval(async () => {
