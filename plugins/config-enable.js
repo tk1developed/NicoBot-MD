@@ -66,7 +66,9 @@ case 'antilink2': case 'antienlace2':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
-throw false;
+}
+chat.antienlace2 = isEnable;
+break;
 case 'welcome':
 if (!m.isGroup) {
 if (!isOwner) {
