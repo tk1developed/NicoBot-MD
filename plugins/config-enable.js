@@ -62,19 +62,16 @@ const bot = global.db.data.settings[conn.user.jid] || {};
 const type = (args[0] || '').toLowerCase();
 let isAll = false; const isUser = false;
 switch (type) {
+case 'antilink2': case 'antienlace2':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false;
 case 'welcome':
 if (!m.isGroup) {
 if (!isOwner) {
 global.dfail('group', m, conn);
 throw false;
-case 'antilink2': case 'antienlace2':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.antiLink2 = isEnable 
-break
 }
 } else if (!(isAdmin || isOwner || isROwner)) {
 global.dfail('admin', m, conn);
