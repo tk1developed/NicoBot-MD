@@ -314,14 +314,14 @@ throw false
 }}
 chat.game = isEnable          
 break;
-case 'antilink2': case 'antienlace2':
+case 'reaction': case 'reaccion': case 'emojis': case 'antiemojis': case 'reacciones': case 'reaciones':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
 throw false
 }}
-chat.antiLink2 = isEnable 
-break
+chat.reaction = isEnable          
+break;
 case 'antitraba':
 if (m.isGroup) {
 if (!(isAdmin || isROwner || isOwner)) {
