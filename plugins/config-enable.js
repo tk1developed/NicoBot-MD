@@ -157,18 +157,15 @@ if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn);
 throw false;
 }
-}
-chat.antiLink2 = isEnable;
-break;
-case 'antiviewonce':
+
+case 'antilink2': case 'antienlace2':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn);
-throw false;
-}
-}
-chat.antiviewonce = isEnable;
-break;
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.antiLink2 = isEnable 
+break
 case 'modohorny':
 if (m.isGroup) {
 if (!(isAdmin || isROwner || isOwner)) {
