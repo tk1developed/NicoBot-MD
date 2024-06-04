@@ -67,6 +67,14 @@ if (!m.isGroup) {
 if (!isOwner) {
 global.dfail('group', m, conn);
 throw false;
+case 'antilink2': case 'antienlace2':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.antiLink2 = isEnable 
+break
 }
 } else if (!(isAdmin || isOwner || isROwner)) {
 global.dfail('admin', m, conn);
@@ -157,15 +165,18 @@ if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn);
 throw false;
 }
-
-case 'antilink2': case 'antienlace2':
+}
+chat.antiLink2 = isEnable;
+break;
+case 'antiviewonce':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.antiLink2 = isEnable 
-break
+global.dfail('admin', m, conn);
+throw false;
+}
+}
+chat.antiviewonce = isEnable;
+break;
 case 'modohorny':
 if (m.isGroup) {
 if (!(isAdmin || isROwner || isOwner)) {
