@@ -1312,16 +1312,7 @@ _Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Pr
             let text = format(e);
             for (const key of Object.values(global.APIKeys)) {
               text = text.replace(new RegExp(key, 'g'), 'Administrador');
-            }
-                        m.limit = m.limit || plugin.limit || false;
-          }
-        } catch (e) {
-                    m.error = e
-                    console.error(e)
-                    if (e) {
-                        let text = format(e)
-                        for (let key of Object.values(global.APIKeys))
-                            text = text.replace(new RegExp(key, 'g'), '#HIDDEN#')
+            }       
                         if (e.name)
                             for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
                                 let data = (await conn.onWhatsApp(jid))[0] || {}
@@ -1348,7 +1339,7 @@ m.reply(`*⚠️ COMANDO FALLANDO ⚠️*\n\n*📑 PLUGIN :* ${name}\n*👤 USUA
       }
     }
   } catch (e) {
-    console.error(e);.
+    console.error(e);
   } finally {
     if (opts['queque'] && m.text) {
       const quequeIndex = this.msgqueque.indexOf(m.id || m.key.id);
