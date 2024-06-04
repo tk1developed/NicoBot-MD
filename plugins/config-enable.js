@@ -62,20 +62,13 @@ const bot = global.db.data.settings[conn.user.jid] || {};
 const type = (args[0] || '').toLowerCase();
 let isAll = false; const isUser = false;
 switch (type) {
-case 'antilink2': case 'antienlace2':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-}
-chat.antienlace2 = isEnable;
-break;
 case 'welcome':
 if (!m.isGroup) {
 if (!isOwner) {
 global.dfail('group', m, conn);
 throw false;
 }
-} else if (!isAdmin) {
+} else if (!(isAdmin || isOwner || isROwner)) {
 global.dfail('admin', m, conn);
 throw false;
 }
@@ -321,14 +314,14 @@ throw false
 }}
 chat.game = isEnable          
 break;
-case 'reaction': case 'reaccion': case 'emojis': case 'antiemojis': case 'reacciones': case 'reaciones':
+case 'antilink2': case 'antienlace2':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
 throw false
 }}
-chat.reaction = isEnable          
-break;
+chat.antiLink2 = isEnable 
+break
 case 'antitraba':
 if (m.isGroup) {
 if (!(isAdmin || isROwner || isOwner)) {
