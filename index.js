@@ -1,4 +1,4 @@
-console.log('🚀 Iniciando...')
+console.log('✨️ Iniciando...')
 import { join, dirname } from 'path'
 import { createRequire } from 'module'
 import { fileURLToPath } from 'url'
@@ -20,7 +20,7 @@ font: 'block',
 align: 'center',
 colors: ['system', 'redBright']
 })
-say(`Bot:${name}\nCreador: Diego-YL-177\nCorreo: theyoshikobot@gmail.com`, {
+say(`Bot:${name}\ncreador: diego-yl-177\ncorreo: theyoshikobot@gmail.com`, {
 font: 'console',
 gradient: ['blue', 'magenta']
 })
