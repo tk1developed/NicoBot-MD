@@ -75,6 +75,7 @@
   "lodash": "^4.17.21",
   "lowdb": "^3.0.0",
   "module-gatadios": "^1.0.6",
+  "md5": "^2.3.0",
   "moment-timezone": "^0.5.41",
   "mongoose": "^7.0.0",
   "node-fetch": "^3.2.0",
