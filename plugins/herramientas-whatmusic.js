@@ -9,8 +9,7 @@ access_secret: 'bvgaIAEtADBTbLwiPGYlxupWqkNGIjT7J9Ag2vIu'
 let handler = async (m) => {
 let q = m.quoted ? m.quoted : m
 let mime = (q.msg || q).mimetype || ''
-if (/audio|video/.test(mime)) { if ((q.msg || q).seconds > 20) return m.reply('🌺 El archivo que carga es demasiado grande, le sugerimos que corte el archivo grande a un archivo más pequeño, 10-20 segundos Los datos de audio son suficientes para identificar')
-await conn.reply(m.chat, wait, m)
+if (/audio|video/.test(mime)) {
 let media = await q.download()
 let ext = mime.split('/')[1]
 fs.writeFileSync(`./tmp/${m.sender}.${ext}`, media)
@@ -29,7 +28,7 @@ let txt = `
 `.trim()
 fs.unlinkSync(`./tmp/${m.sender}.${ext}`)
 m.reply(txt)
-} else throw '🍃 Uso Mal El Comando\n- Envie Un Video O Un Audio.'
+} else throw '🔵 Responda A Un Audio'
 }
 handler.command = /^quemusica|quemusicaes|whatmusic$/i
 export default handler
