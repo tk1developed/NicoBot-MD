@@ -34,7 +34,7 @@
 "@bochilteam/scraper": "^4.2.4",
 "@brandond/findthelyrics": "^2.0.5",
 "@sasmeee/igdl": "npm:@sasmeee/igdl",
- "body-parser": "^1.20.2",
+"body-parser": "^1.20.2",
 "file-type": "^17.1.1",
 "module-gatadios": "^1.0.5",
 "md5": "^2.3.0",
