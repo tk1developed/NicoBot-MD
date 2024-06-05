@@ -36,7 +36,7 @@ function start(file) {
   const p = fork();
   p.on('message', (data) => {
 
-    console.log('[RECIBIDO]', data);
+    console.log('⚪️  H E C H O ', data);
     switch (data) {
       case 'reset':
         p.process.kill();
