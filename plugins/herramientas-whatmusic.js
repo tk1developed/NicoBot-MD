@@ -1,3 +1,5 @@
+import fetch from 'node-fetch'
+import axios from 'axios'
 import fs from 'fs'
 import acrcloud from 'acrcloud'
 let acr = new acrcloud({
