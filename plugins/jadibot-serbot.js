@@ -1,20 +1,3 @@
-/*⚠ PROHIBIDO EDITAR ⚠
-
-El codigo de este archivo esta totalmente hecho por:
-- Aiden_NotLogic 
-
-El codigo de este archivo fue parchado por:
-- ReyEndymion 
-- BrunoSobrino 
-
-Contenido adaptado por:
-- GataNina-Li 
-- elrebelde21
-- AzamiJs
-- Diego-YL-177
-
-*/
-
 const { useMultiFileAuthState, DisconnectReason, makeCacheableSignalKeyStore, fetchLatestBaileysVersion} = (await import('@whiskeysockets/baileys'))
 import qrcode from 'qrcode'
 import NodeCache from 'node-cache'
@@ -41,15 +24,15 @@ let crm3 = 'SBpbmZvLWRvbmFyLmpz'
 let crm4 = 'IF9hdXRvcmVzcG9uZGVyLmpzIGluZm8tYm90Lmpz'
 let drm1 = ''
 let drm2 = ''
-let rtx = lenguajeYL['smsIniJadi']() 
-let rtx2 = lenguajeYL['smsIniJadi2']() 
+let rtx = `╭᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─•\n│⌑╔•  •───────────────────•  •╗\n│⌑║ \`SUBBOT QR - ExoticoBot-MD\`\n│⌑╚•  •───────────────────•  •╝\n│⌑┏┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n│⌑┃https://atom.bio/exotico-ofc\n│⌑┗┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n╰────────────────────────•\n\n_*╭❲1️⃣❳╯ Ingrese a WhatsApp y presioné los 3 puntos ubicados en la parte superior de WhatsApp.*_\n•───────────────•\n*_╭❲2️⃣❳╯ Seleccione la opcion de_* \`Dispositivos Vinculados\`\n•───────────────•\n*_╭❲3️⃣❳╯ Y seleccione en_* \`Vincular un Dispositivo\`\n•───────────────•\n*_╭❲4️⃣❳╯ Escanea el_* \`codigo QR\` *_para contectarte._*\n•───────────────•\n*_╭❲5️⃣❳╯ Ya estarias conectado exitosamente!!_*\n• *_De lo contrario, reporta el error ocurrente._*\n•───────────────•\n©By: ExoticoBot-MD` 
+let rtx2 = `╭᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─•\n│⌑╔•  •───────────────────•  •╗\n│⌑║ \`SUBBOTCODE - ExoticoBot-MD\`\n│⌑╚•  •───────────────────•  •╝\n│⌑┏┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n│⌑┃https://atom.bio/exotico-ofc\n│⌑┗┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n╰────────────────────────•\n\n_*╭❲1️⃣❳╯ Copie el código de 8 dígitos que se enviara a continuación.*_\n•───────────────•\n*_╭❲2️⃣❳╯ Presiona la notificación que sale arriba, y pega el codigo de 8 digitos._*\n•───────────────•\n*_╭❲3️⃣❳╯ Ya estarías conectado al bot con éxito._*\n•───────────────•\n*_╭❲4️⃣❳╯ De lo contrario, si no sale la notificación o no se pudo vincular, reportalo al creador del bot._*\n•───────────────•\n©By: ExoticoBot-MD` 
 
 if (global.conns instanceof Array) console.log()
 else global.conns = []
 
 let handler = async (m, { conn, args, usedPrefix, command, isOwner }) => {
 let parentw = conn
-if (conn.user.jid !== global.conn.user.jid) return parentw.reply(m.chat, `「🌸 𝗬𝗼𝘀𝗵𝗶𝗸𝗼 𝗕𝗼𝘁 - 𝗠𝗗 🌸」\n\n• 🍓 𝙽𝙾 𝚂𝙴 𝙿𝚄𝙴𝙳𝚁 𝙷𝙰𝙲𝙴𝚁 𝚄𝙽𝙰 𝚂𝚄𝙱-𝙱𝙾𝚃 𝙳𝙴𝙽𝚃𝚁𝙾 𝙳𝙴 𝚄𝙽𝙰 𝚂𝚄𝙱-𝙱𝙾𝚃!\n\n• 🍬 𝙻𝙰 𝙱𝙾𝚃 𝙾𝙵𝙲: Wa.me/${global.conn.user.jid.split`@`[0]}&text=${usedPrefix + command}\n\n「🌸 𝗬𝗼𝘀𝗵𝗶𝗸𝗼 𝗕𝗼𝘁 - 𝗠𝗗 🌸」`, fkontak)
+if (conn.user.jid !== global.conn.user.jid) return parentw.reply(m.chat, `┕❲📢❳┙ 𝙀𝙨𝙩𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤 𝙨𝙤𝙡𝙤 𝙡𝙤 𝙥𝙪𝙚𝙙𝙚𝙨 𝙪𝙨𝙖𝙧 𝙚𝙣 𝙚𝙡 𝙗𝙤𝙩 𝙤𝙛𝙞𝙘𝙞𝙖𝙡 𝙙𝙚 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩\n\n┕❲🌐❳┙ 𝙉𝙐𝙈𝙀𝙍𝙊: Wa.me/${global.conn.user.jid.split`@`[0]}&text=${usedPrefix + command}`, fkontak)
 const mcode = args[0] && args[0].includes('--code') ? true : args[1] && args[1].includes('--code') ? true : false
 
 
@@ -60,15 +43,15 @@ args[0] = args[0].replace('--code', '').trim()
 if (args[1]) args[1] = args[1].replace('--code', '').trim()
 if (args[0] == '') args[0] = undefined
 console.log(args[0])}
-if (!fs.existsSync('./YoshiJadiBot/'+ id)){
-fs.mkdirSync('./YoshiJadiBot/'+ id, { recursive: true })}
-args[0] && args[0] != undefined ? fs.writeFileSync('./YoshiJadiBot/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, '\t')) : ''
+if (!fs.existsSync('./MultiBotOFC/'+ id)){
+fs.mkdirSync('./MultiBotOFC/'+ id, { recursive: true })}
+args[0] && args[0] != undefined ? fs.writeFileSync('./MultiBotOFC/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, '\t')) : ''
 
-if (fs.existsSync('./YoshiJadiBot/' + id + '/creds.json')) {
-let creds = JSON.parse(fs.readFileSync("./jadibts/" + id + "/creds.json"))
+if (fs.existsSync('./MultiBotOFC/' + id + '/creds.json')) {
+let creds = JSON.parse(fs.readFileSync("./MultiBotOFC/" + id + "/creds.json"))
 if (creds) {
 if (creds.registered = false) {
-fs.unlinkSync('./YoshiJadiBot/' + id + '/creds.json')
+fs.unlinkSync('./MultiBotOFC/' + id + '/creds.json')
 }}}
 
 const comb = Buffer.from(crm1 + crm2 + crm3 + crm4, 'base64')
@@ -77,15 +60,15 @@ const drmer = Buffer.from(drm1 + drm2, `base64`)
 async function jddt() {
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? parentw.user.jid : m.sender
 let id = `${who.split`@`[0]}`
-if (!fs.existsSync('./YoshiJadiBot/'+ id)){
-fs.mkdirSync('./YoshiJadiBot/'+ id, { recursive: true })
+if (!fs.existsSync('./MultiBotOFC/'+ id)){
+fs.mkdirSync('./MultiBotOFC/'+ id, { recursive: true })
 }
-args[0] ? fs.writeFileSync('./YoshiJadiBot/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, `\t`)) : ''
+args[0] ? fs.writeFileSync('./MultiBotOFC/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, `\t`)) : ''
 
 let { version, isLatest } = await fetchLatestBaileysVersion()
 const msgRetry = (MessageRetryMap) => { }
 const msgRetryCache = new NodeCache()
-const { state, saveState, saveCreds } = await useMultiFileAuthState("./YoshiJadiBot/" + id)
+const { state, saveState, saveCreds } = await useMultiFileAuthState("./MultiBotOFC/" + id)
 
 const connectionOptions = {
 printQRInTerminal: false,
@@ -95,14 +78,14 @@ msgRetry,
 msgRetryCache,
 version,
 syncFullHistory: true,
-browser: mcode ? ['Ubuntu', 'Edge', '110.0.1587.56'] : ['Sub-Bot', 'Opera', '5.0'],
+browser: mcode ? ['Ubuntu', 'Chrome', '110.0.5585.95'] : ['Sub-Bot', 'Opera', '5.0'],
 defaultQueryTimeoutMs: undefined,
 getMessage: async (key) => {
 if (store) {
 const msg = store.loadMessage(key.remoteJid, key.id)
 return msg.message && undefined
 } return {
-conversation: 'YoshikoBot-MD',
+conversation: 'ExoticoBot-MD',
 }}}
 
 let conn = makeWASocket(connectionOptions)
@@ -137,38 +120,38 @@ const reason = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.erro
 if (connection === 'close') {
 console.log(reason)
 if (reason == 405) {
-await fs.unlinkSync('./YoshiJadiBot/' + id + '/creds.json')
+await fs.unlinkSync('./MultiBotOFC/' + id + '/creds.json')
 
-return await conn.reply(m.chat, '⛔ 𝙲𝚎𝚛𝚛𝚊𝚗𝚍𝚘 :𝚌', fkontak)
+return await conn.reply(m.chat, '┕❲♻️❳┙ 𝘾𝙚𝙧𝙧𝙖𝙣𝙙𝙤 𝙡𝙖 𝙨𝙚𝙨𝙞𝙤𝙣 𝙙𝙚𝙡 𝙗𝙤𝙩...', fkontak)
 }
 if (reason === DisconnectReason.restartRequired) {
 jddt()
-return console.log('🌺 𝙻𝚊 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚍𝚎 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝 𝚜𝚎 𝚑𝚊 𝚛𝚎𝚖𝚙𝚕𝚊𝚣𝚊𝚍𝚘, 𝚜𝚎 𝚑𝚊 𝚊𝚋𝚒𝚎𝚛𝚝𝚘 𝚗𝚞𝚎𝚟𝚊 𝚜𝚎𝚜𝚜𝚒𝚘𝚗, 𝚙𝚘𝚛 𝚏𝚊𝚟𝚘𝚛, 𝚌𝚒𝚎𝚛𝚛𝚎 𝚕𝚊 𝚜𝚎𝚜𝚜𝚒𝚘𝚗 𝚙𝚛𝚒𝚖𝚎𝚛𝚊 𝚍𝚎 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝')
+return console.log('┕❲☁️❳┙ 𝘼𝙗𝙧𝙞𝙨𝙩𝙚 𝙪𝙣𝙖 𝙣𝙪𝙚𝙫𝙖 𝙨𝙚𝙨𝙞𝙤𝙣, 𝙗𝙤𝙧𝙧𝙖 𝙡𝙖 𝙨𝙚𝙨𝙞𝙤𝙣 𝙖𝙘𝙩𝙪𝙖𝙡 𝙙𝙚 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩 𝙚𝙣 𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥 𝙥𝙖𝙧𝙖 𝙚𝙫𝙞𝙩𝙖𝙧 𝙚𝙧𝙧𝙤𝙧𝙚𝙨.')
 } else if (reason === DisconnectReason.loggedOut) {
 sleep(4000)
-return conn.reply(m.chat, '🍂 *𝙻𝚊 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚜𝚎 𝚑𝚊 𝚌𝚎𝚛𝚛𝚊𝚍𝚘, 𝚝𝚎𝚗𝚍𝚛𝚊𝚜 𝚚𝚞𝚎 𝚟𝚘𝚕𝚟𝚎𝚛 𝚊 𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚛𝚜𝚎 𝚞𝚜𝚊𝚗𝚍𝚘:*\n!deletesesion (𝙿𝚊𝚛𝚊 𝚎𝚕𝚒𝚖𝚒𝚗𝚊𝚛 𝚕𝚘𝚜 𝚍𝚊𝚝𝚘𝚜 𝚍𝚎 𝚜𝚎𝚜𝚜𝚒𝚘𝚗 𝚢 𝚙𝚘𝚍𝚎𝚛 𝚊 𝚟𝚘𝚕𝚟𝚎𝚛 𝚜𝚘𝚕𝚒𝚌𝚒𝚝𝚊𝚛 𝚗𝚞𝚎𝚟𝚘 𝚌𝚘𝚍𝚒𝚐𝚘 𝚚𝚛 𝚘 𝚌𝚘𝚍𝚒𝚐𝚘 𝚍𝚎 𝚎𝚖𝚙𝚊𝚛𝚎𝚓𝚊𝚖𝚒𝚎𝚗𝚝𝚘 𝚙𝚊𝚛𝚊 𝚊𝚌𝚝𝚒𝚟𝚊𝚛 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝', fkontak)
+return conn.reply(m.chat, '┕❲💻❳┙ 𝘾𝙤𝙣𝙚𝙭𝙞𝙤𝙣 𝙘𝙚𝙧𝙧𝙖𝙙𝙖, 𝙪𝙨𝙖 𝙚𝙨𝙩𝙤𝙨 𝙨𝙞𝙜𝙪𝙞𝙚𝙣𝙩𝙚𝙨 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨:\n\n_#deletesession_\n\n_#esubbot_\n_#esubbot --code_', fkontak)
 } else if (reason == 428) {
 await endSesion(false)
-return conn.reply(m.chat, '🎌 *𝙻𝚊 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚜𝚎 𝚌𝚎𝚛𝚛𝚘 𝚜𝚎 𝚒𝚗𝚝𝚎𝚗𝚝𝚊𝚛𝚊 𝚛𝚎𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚛 :𝙳*', fkontak)
+return conn.reply(m.chat, '┕❲📢❳┙ 𝘾𝙤𝙣𝙚𝙭𝙞𝙤𝙣 𝙘𝙚𝙧𝙧𝙖𝙙𝙖, 𝙧𝙚𝙘𝙤𝙣𝙚𝙘𝙩𝙖𝙣𝙙𝙤...', fkontak)
 } else if (reason === DisconnectReason.connectionLost) {
 await jddt()
-return console.log('🌸 𝙲𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚙𝚎𝚛𝚍𝚒𝚍𝚊 𝚌𝚘𝚗 𝚎𝚕 𝚜𝚎𝚛𝚟𝚒𝚍𝚘𝚛, 𝚛𝚎𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚗𝚍𝚘 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝 :𝚅')
+return console.log('┕❲⚠️❳┙ 𝘾𝙤𝙣𝙚𝙭𝙞𝙤𝙣 𝙥𝙚𝙧𝙙𝙞𝙙𝙖 𝙘𝙤𝙣 𝙚𝙡 𝙨𝙚𝙧𝙫𝙞𝙙𝙤𝙧, 𝙧𝙚𝙘𝙤𝙣𝙚𝙘𝙩𝙖𝙣𝙙𝙤...')
 } else if (reason === DisconnectReason.badSession) {
-return await conn.reply(m.chat, '🔮 𝙻𝚊 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚜𝚎 𝚑𝚊 𝚌𝚎𝚛𝚛𝚊𝚍𝚘, 𝚍𝚎𝚋𝚎𝚛𝚊 𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚛𝚜𝚎 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎', fkontak)
+return await conn.reply(m.chat, '┕❲📢❳┙ 𝘾𝙤𝙣𝙚𝙭𝙞𝙤𝙣 𝙘𝙚𝙧𝙧𝙖𝙙𝙖 𝙥𝙤𝙧 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤, 𝙩𝙚𝙣𝙙𝙧𝙖𝙨 𝙦𝙪𝙚 𝙫𝙤𝙡𝙫𝙚𝙧 𝙖 𝙘𝙤𝙣𝙚𝙘𝙩𝙖𝙧𝙩𝙚 𝙪𝙨𝙖𝙣𝙙𝙤 𝙡𝙤𝙨 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨...', fkontak)
 } else if (reason === DisconnectReason.timedOut) {
 await endSesion(false)
-return console.log('🎋 𝚃𝚒𝚎𝚖𝚙𝚘 𝚍𝚎 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚊𝚐𝚘𝚝𝚊𝚍𝚘, 𝚛𝚎𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚗𝚍𝚘 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝....')
+return console.log('┕❲☁️❳┙ 𝙏𝙞𝙚𝙢𝙥𝙤 𝙙𝙚 𝙚𝙨𝙥𝙚𝙧𝙖 𝙘𝙖𝙙𝙪𝙘𝙖𝙙𝙖, 𝙞𝙣𝙩𝙚𝙣𝙩𝙖𝙡𝙤 𝙙𝙚 𝙣𝙪𝙚𝙫𝙤...')
 } else {
-console.log('🌈 𝚁𝚊𝚣𝚘𝚗 𝚍𝚎 𝚍𝚎𝚜𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚍𝚎𝚜𝚌𝚘𝚗𝚘𝚌𝚒𝚍𝚊: ${reason || ""} >> ${connection || ""}')
+console.log('┕❲⚠️❳┙ 𝙍𝙖𝙯𝙤𝙣 𝙙𝙚 𝙚𝙧𝙧𝙤𝙧 𝙙𝙚𝙨𝙘𝙤𝙣𝙤𝙘𝙞𝙙𝙤: ${reason || ""} >> ${connection || ""}')
 }}
 if (global.db.data == null) loadDatabase()
 if (connection == `open`) {
 conn.isInit = true
 global.conns.push(conn)
-await parentw.sendMessage(m.chat, {text : args[0] ? `🌺 𝚅𝚊𝚕𝚎, 𝚏𝚞𝚎 𝚝𝚘𝚍𝚘 𝚞𝚗 𝚎𝚡𝚒𝚝𝚘 𝚊𝚑𝚘𝚛𝚊 𝚎𝚛𝚎𝚜 𝚞𝚗𝚊 𝚂𝚞𝚋-𝙱𝚘𝚝 :𝟹` : `🍄 𝙻𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝 𝚎𝚜𝚝𝚊 𝚊𝚌𝚝𝚒𝚟𝚊, 𝚞𝚜𝚎 𝚜𝚞 (𝙸𝙳) 𝚙𝚊𝚛𝚊 𝚊𝚌𝚝𝚒𝚟𝚊𝚛 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝`}, { quoted: fkontak })
-await parentw.sendMessage(m.chat, {text : `🍂 𝙻𝚊 𝚋𝚘𝚝 𝚢𝚊 𝚎𝚜𝚝𝚊 𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚍𝚊, 𝚎𝚜𝚙𝚎𝚛𝚎 𝚞𝚗 𝚖𝚘𝚖𝚎𝚗𝚝𝚘...`}, { quoted: fkontak })
+await parentw.sendMessage(m.chat, {text : args[0] ? `┕❲✅❳┙ 𝘾𝙤𝙣𝙚𝙘𝙩𝙖𝙙𝙤 𝙘𝙤𝙣 𝙚𝙭𝙞𝙩𝙤 𝙖 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿` : `┕❲✅❳┙ 𝙎𝙚𝙧𝘽𝙤𝙩 𝙖𝙘𝙩𝙞𝙫𝙖𝙙𝙤 𝙘𝙤𝙣 𝙚𝙭𝙞𝙩𝙤!!`}, { quoted: fkontak })
+await parentw.sendMessage(m.chat, {text : `┕❲♻️❳┙ 𝘽𝙤𝙩 𝙖𝙘𝙩𝙞𝙫𝙖𝙙𝙤, 𝙚𝙨𝙥𝙚𝙧𝙚 𝙪𝙣 𝙢𝙤𝙢𝙚𝙣𝙩𝙤...`}, { quoted: fkontak })
 await sleep(5000)
-if (!args[0]) parentw.sendMessage(m.chat, {text : usedPrefix + command + ' ' + Buffer.from(fs.readFileSync('./YoshiJadiBot/' + id + '/creds.json'), 'utf-8').toString('base64')}, { quoted: fkontak })    
+if (!args[0]) parentw.sendMessage(m.chat, {text : usedPrefix + command + ' ' + Buffer.from(fs.readFileSync('./MultiBotOFC/' + id + '/creds.json'), 'utf-8').toString('base64')}, { quoted: fkontak })    
 
 }}
 setInterval(async () => {
@@ -208,14 +191,14 @@ conn.ev.off('call', conn.onCall)
 conn.ev.off('connection.update', conn.connectionUpdate)
 conn.ev.off('creds.update', conn.credsUpdate)
 }
-conn.welcome = lenguajeYL['smsWelcome']() 
-conn.bye = lenguajeYL['smsBye']() 
-conn.spromote = lenguajeYL['smsSpromote']() 
-conn.sdemote = lenguajeYL['smsSdemote']() 
-conn.sDesc = lenguajeYL['smsSdesc']() 
-conn.sSubject = lenguajeYL['smsSsubject']() 
-conn.sIcon = lenguajeYL['smsSicon']() 
-conn.sRevoke = lenguajeYL['smsSrevoke']() 
+conn.welcome = `╭᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─•\n│⌑┏┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n│⌑┃ ⧏❪̣࣭̇࣪𝆭·ฺ۪۟𖡎𝆭｡𝆹𝅥𝘌ฺ𝙭𝆭𝙤𝘵ฺ𝘪𝘤𝆭𝙤𝘉𝆭𝙤ฺ𝙩-𝗠ฺ𝖣𝆹𝅥𖣠ᮬ𝆭·̣̇͜᭺⧐\n│⌑┗┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n╰────────────────────────•\n\n❮🎉❯ 𝘽𝙞𝙚𝙣𝙫𝙚𝙣𝙞𝙙𝙤(𝙖) @user\n𝙜𝙧𝙖𝙘𝙞𝙖𝙨 𝙥𝙤𝙧 𝙚𝙨𝙩𝙖𝙧 𝙖𝙦𝙪𝙞.\n\n⎔ GRUPO: @subject\n\n❮🍁❯ 𝙇𝙚𝙖 𝙡𝙖 𝙙𝙚𝙨𝙘𝙧𝙞𝙥𝙘𝙞𝙤𝙣 𝙙𝙚𝙡 𝙜𝙧𝙪𝙥𝙤:\n${String.fromCharCode(8206).repeat(850)}\n@desc`
+conn.bye = `╭᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─•\n│⌑┏┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n│⌑┃ ⧏❪̣࣭̇࣪𝆭·ฺ۪۟𖡎𝆭｡𝆹𝅥𝘌ฺ𝙭𝆭𝙤𝘵ฺ𝘪𝘤𝆭𝙤𝘉𝆭𝙤ฺ𝙩-𝗠ฺ𝖣𝆹𝅥𖣠ᮬ𝆭·̣̇͜᭺⧐\n│⌑┗┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n╰────────────────────────•\n\n❮👋🏻❯ 𝘼𝙙𝙞𝙤𝙨 𝙪𝙨𝙪𝙖𝙧𝙞𝙤(𝙖): @user\n\n• No te extrañaremos.`
+conn.spromote = `╭᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─•\n│⌑┏┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n│⌑┃ ⧏❪̣࣭̇࣪𝆭·ฺ۪۟𖡎𝆭｡𝆹𝅥𝘌ฺ𝙭𝆭𝙤𝘵ฺ𝘪𝘤𝆭𝙤𝘉𝆭𝙤ฺ𝙩-𝗠ฺ𝖣𝆹𝅥𖣠ᮬ𝆭·̣̇͜᭺⧐\n│⌑┗┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n╰────────────────────────•\n\n❮🐦‍🔥❯ 𝙉𝙪𝙚𝙫𝙤 𝙖𝙙𝙢𝙞𝙣 𝙖𝙨𝙞𝙜𝙣𝙖𝙙𝙤 𝙚𝙣 𝙚𝙨𝙩𝙚 𝙜𝙧𝙪𝙥𝙤!!!\n\n⎕ 𝗨𝗦𝗨𝗔𝗥𝗜𝗢: @user`
+conn.sdemote = `╭᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─•\n│⌑┏┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n│⌑┃ ⧏❪̣࣭̇࣪𝆭·ฺ۪۟𖡎𝆭｡𝆹𝅥𝘌ฺ𝙭𝆭𝙤𝘵ฺ𝘪𝘤𝆭𝙤𝘉𝆭𝙤ฺ𝙩-𝗠ฺ𝖣𝆹𝅥𖣠ᮬ𝆭·̣̇͜᭺⧐\n│⌑┗┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n╰────────────────────────•\n\n❮🐦‍🔥❯ 𝙉𝙪𝙚𝙫𝙤 𝙖𝙙𝙢𝙞𝙣 𝙙𝙚𝙨𝙘𝙖𝙧𝙩𝙖𝙙𝙤(𝙖) 𝙚𝙣 𝙚𝙨𝙩𝙚 𝙜𝙧𝙪𝙥𝙤!!!\n\n⎕ 𝗨𝗦𝗨𝗔𝗥𝗜𝗢: @user` 
+conn.sDesc = `❪👥ฺ࣭࣪͘ꕸ▸ 𝙎𝙚 𝙝𝙖 𝙘𝙖𝙢𝙗𝙞𝙖𝙙𝙤 𝙡𝙖 𝙙𝙚𝙨𝙘𝙧𝙞𝙥𝙘𝙞𝙤𝙣 𝙙𝙚𝙡 𝙜𝙧𝙪𝙥𝙤, 𝙡𝙖 𝙙𝙚𝙨𝙘𝙧𝙞𝙥𝙘𝙞𝙤𝙣 𝙖𝙝𝙤𝙧𝙖 𝙚𝙨: @desc`
+conn.sSubject = `❪🌎ฺ࣭࣪͘ꕸ▸ 𝙎𝙚 𝙝𝙖 𝙘𝙖𝙢𝙗𝙞𝙖𝙙𝙤 𝙚𝙡 𝙣𝙤𝙢𝙗𝙧𝙚 𝙙𝙚𝙡 𝙜𝙧𝙪𝙥𝙤, 𝙚𝙡 𝙣𝙤𝙢𝙗𝙧𝙚 𝙖𝙝𝙤𝙧𝙖 𝙚𝙨: @subject`
+conn.sIcon = `❪🌆ฺ࣭࣪͘ꕸ▸ 𝙎𝙀 𝙃𝘼 𝘾𝘼𝙈𝘽𝙄𝘼𝘿𝙊 𝙇𝘼 𝙁𝙊𝙏𝙊 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊 𝘾𝙊𝙉 𝙀𝙓𝙄𝙏𝙊` 
+conn.sRevoke = `❪🌐ฺ࣭࣪͘ꕸ▸ 𝙎𝙚 𝙝𝙖 𝙧𝙚𝙨𝙩𝙖𝙗𝙡𝙚𝙘𝙞𝙙𝙤 𝙚𝙡 𝙚𝙣𝙡𝙖𝙘𝙚 𝙜𝙧𝙪𝙥𝙖𝙡, 𝙚𝙡 𝙚𝙣𝙡𝙖𝙘𝙚 𝙖𝙝𝙤𝙧𝙖 𝙚𝙨: @revoke` 
 
 conn.handler = handler.handler.bind(conn)
 conn.participantsUpdate = handler.participantsUpdate.bind(conn)
@@ -228,12 +211,12 @@ conn.credsUpdate = saveCreds.bind(conn, true)
 const currentDateTime = new Date()
 const messageDateTime = new Date(conn.ev * 1000)
 if (currentDateTime.getTime() - messageDateTime.getTime() <= 300000) {
-console.log('Leyendo mensaje entrante:', conn.ev)
+console.log('┕❲☁️❳┙ 𝙀𝙭𝙖𝙢𝙞𝙣𝙖𝙣𝙙𝙤 𝙢𝙚𝙣𝙨𝙖𝙟𝙚𝙨 𝙚𝙣𝙩𝙧𝙨𝙣𝙩𝙧𝙚𝙨...', conn.ev)
 Object.keys(conn.chats).forEach(jid => {
 conn.chats[jid].isBanned = false
 })
 } else {
-console.log(conn.chats, `🌻 𝙴𝚜𝚙𝚎𝚛𝚎 𝚕𝚊 𝚋𝚘𝚝 𝚎𝚜𝚝𝚊 𝚕𝚎𝚢𝚎𝚗𝚍𝚘 𝚕𝚘𝚜 𝚖𝚎𝚗𝚜𝚊𝚓𝚎𝚜...`, conn.ev)
+console.log(conn.chats, `┕❲⌨️❳┙ 𝙇𝙚𝙮𝙚𝙣𝙙𝙤 𝙢𝙚𝙣𝙨𝙖𝙟𝙚𝙨 𝙧𝙚𝙨𝙩𝙖𝙣𝙩𝙚𝙨, 𝙚𝙨𝙥𝙚𝙧𝙚 𝙪𝙣 𝙢𝙤𝙢𝙚𝙣𝙩𝙤...`, conn.ev)
 Object.keys(conn.chats).forEach(jid => {
 conn.chats[jid].isBanned = true
 })
@@ -255,11 +238,10 @@ jddt()
 })
 
 } 
-handler.help = [`jadibot`, `serbot`, `getcode`, `rentbot`]
-handler.tags = [`jadibot`]
-handler.command = /^(jadibot|serbot|rentbot)/i
+handler.help = [`esubbot`, `exotic`, `sersubbot`]
+handler.tags = [`exoticosubbots`]
+handler.command = /^(esubbot|exotic|sersubbot)/i
 handler.register = true
-//handler.private = false
 
 export default handler
 
