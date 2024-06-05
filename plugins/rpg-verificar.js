@@ -1,49 +1,32 @@
-import { createHash } from 'crypto'
+let handler = async (m, { conn, text }) => {
 
-let Reg = /\|?(.*)([.|] *?)([0-9]*)$/i
-let handler = async function (m, { conn, text, usedPrefix, command }) {
-let user = global.db.data.users[m.sender]
-let name2 = conn.getName(m.sender)
-let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? this.user.jid : m.sender
-let pp = await this.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/1861aab98389b13db8588.jpg')
-if (user.registered === true) throw `🏷 𝐄𝐑𝐑𝐎𝐑 🏷 *Ya ᥱs𝗍ᥲ́s registrado*\n\n¿𝗊ᥙіᥱrᥱ ᥎᥆ᥣ᥎ᥱr ᥲ rᥱgіs𝗍rᥲrsᥱ?\n\n✏️ ᥙsᥱ ᥱs𝗍ᥱ ᥴ᥆mᥲᥒძ᥆ para *eliminar su registro*\n*.unreg* <ᥒᥙ́mᥱr᥆ ძᥱ serie>`
-if (!Reg.test(text)) throw `*✏️ Formato incorrecto*\n\n📩 Uso del comamdo: *${usedPrefix + command} nombre.edad*\n💡 Ejemplo : *${usedPrefix + command}* ${name2}.18`
-let [_, name, splitter, age] = text.match(Reg)
-if (!name) throw '*📝 El nombre no puede estar vacío*'
-if (!age) throw '*📝 La edad no puede estar vacía*'
-if (name.length >= 30) throw '*⚠️ El nombre es demasiado largo*' 
-age = parseInt(age)
-if (age > 100) throw '*👴🏻 Wow el abuelo quiere jugar al bot*'
-if (age < 5) throw '*👀 hay un bebé jsjsj*'
-user.name = name.trim()
-user.age = age
-user.regTime = + new Date
-user.registered = true
-global.db.data.users[m.sender].money += 600
-global.db.data.users[m.sender].limit += 10
-global.db.data.users[m.sender].exp += 245
-global.db.data.users[m.sender].joincount += 5
-let sn = createHash('md5').update(m.sender).digest('hex')
-m.react('📩') 
-let regbot = `╭─⬣「 *User Registro* 」⬣
-│  ≡◦ *🪴 Nombre ∙* ${name}
-│  ≡◦ *🐢 Edad ∙* ${age} años
-╰─⬣
-
-╭─⬣「 *Recompensas* 」⬣
-│  ≡◦ 10 Diamantes 💎
-│  ≡◦ 600 YoshiCoins 💰
-│  ≡◦ 245 Exp 💸
-│  ≡◦ 5 Monedas 🪙
-╰━━━━━━━━━━━━⬣`
-await m.reply(regbot)
-await m.reply(`${sn}`)
-
-//await conn.reply(m.chat, regbot, m, { externalAdReply: { mediaType: 1, renderLargerThumbnail: true, thumbnail: pp, thumbnailUrl: pp, title: 'Registrado 📩', }})
-
+let _idioma = '🚩 *Seleccione su idioma*\n\n> Idiomas disponibles:\nes _(Español)_\nen _(Inglés)_\nid _(Indonesio)_\nar _(Árabe)_\npt _(Portugués)_\n\n`Ejemplo:`\n.idioma es'
+if (!text) {
+let listSections = []    
+listSections.push({
+title: '',
+rows: [{ header: "", title: "Español 🇪🇦", id: `.idioma es`, description: `` },
+{ header: "", title: "English 🇺🇸", id: `.idioma en`, description: `` },
+{ header: "", title: "Bahasa Indonesia 🇮🇩", id: `.idioma id`, description: `` },
+{ header: "", title: "عرب 🇸🇦", id: `.idioma ar`, description: `` },
+{ header: "", title: "Português 🇵🇹", id: `.idioma pt`, description: `` }
+]})
+return conn.sendList(m.chat, _idioma, null, `🌐 Idiomas`, listSections, { mentions: [m.sender]}, {quoted: m})
+//return conn.sendButton(m.chat, _idioma, '🍟 Seleccione su idioma', null, [['Español 🇲🇽', `.idioma es`], ['Inglés 🇺🇸', `.idioma en`], ['Indonesio 🇮🇩', `.idioma id`]], null, null, m)
 }
-handler.help = ['reg']
-handler.tags = ['rg']
-handler.command = ['verify', 'reg', 'verificar', 'registrar'] 
-
+let choice = text.includes('es') ? 'es' : text.includes('en') ? 'en' : null
+if (!choice) {
+return m.reply('Por favor, seleccione uno de los idiomas disponibles: español, inglés, indonesio, árabe o portugués')
+}
+global.lenguajeYL = choice
+switch (choice) {
+case 'es':
+return m.reply('Idioma configurado a Español 🇲🇽')
+case 'en':
+return m.reply('Language set to English 🇺🇲')
+return m.reply('Idioma configurado para Português 🇵🇹')
+}
+}
+handler.command = /^lenguage|lenguaje|idioma$/i
+handler.rowner = true
 export default handler
