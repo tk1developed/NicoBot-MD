@@ -95,7 +95,7 @@ msgRetry,
 msgRetryCache,
 version,
 syncFullHistory: true,
-browser: mcode ? ['Ubuntu', 'Edge', '110.0.1587.56'] : ['YoshikoBot-MD', 'Edge', '110.0.1587.56'],
+browser: mcode ? ['Ubuntu', 'Edge', '110.0.1587.56'] : ['YoshikoBot-MD', 'Edge', '2.0.0'],
 defaultQueryTimeoutMs: undefined,
 getMessage: async (key) => {
 if (store) {
