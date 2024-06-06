@@ -200,7 +200,7 @@ conn.sendMessage(m.chat, { audio: { url: dl_url }, fileName: `${ttl}.mp3`, mimet
 
 let img = await getBuffer(res.imagen)
 
-    await conn.sendMessage(m.chat, {text: info, contextInfo: {forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen, "thumbnailUrl": imagen, "mediaUrl": shortURL, "sourceUrl": shortURL}}}, {quoted: m});
+    await conn.sendMessage(m.chat, {text: info, contextInfo: {forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen, "thumbnailUrl": imagen, "mediaUrl": '', "sourceUrl": ''}}}, {quoted: m});
 
 } catch (error) {
 
