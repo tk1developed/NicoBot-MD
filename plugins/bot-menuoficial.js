@@ -154,6 +154,7 @@ let replace = {
 '%': '%',
 p: _p, uptime, muptime,
 me: conn.getName(conn.user.jid),
+taguser: '@' + m.sender.split("@s.whatsapp.net")[0],
 npmname: _package.name,
 npmdesc: _package.description,
 version: _package.version,
@@ -162,7 +163,7 @@ maxexp: xp,
 totalexp: exp,
 xp4levelup: max - exp,
 github: _package.homepage ? _package.homepage.url || _package.homepage : '[unknown github url]',
-level, diamond, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
+greeting, level, diamond, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
 readmore: readMore
 }
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
