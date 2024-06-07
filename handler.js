@@ -78,13 +78,6 @@ if (!isNumber(user.IDregister)) user.IDregister = 0
 if (!user.registered) {
 if (!('name' in user)) user.name = m.name
 if (!('age' in user)) user.age = 0
-if (!('descripcion' in user)) user.descripcion = 0
-if (!('genero' in user)) user.genero = 0
-if (!('identidad' in user)) user.identidad = 0
-if (!('pasatiempo' in user)) user.pasatiempo = 0
-if (!('tiempo' in user)) user.tiempo = 0 
-if (!('miestado' in user)) user.miestado = 0
-if (!('midLanguage' in user)) user.midLanguage = 0
 if (!isNumber(user.premLimit)) user.premLimit = 0
 if (!isNumber(user.anggur)) user.anggur = 0
 if (!isNumber(user.apel)) user.apel = 0
@@ -531,13 +524,6 @@ afkReason: '',
 reporte: 0,
 name: m.name,
 age: 0,
-genero: 0,
-identidad: 0,
-pasatiempo: 0,
-tiempo: 0,
-miestado: 0,        
-descripcion: 0,
-premLimit: 0,
 agility: 16,
 juegos: 0,
 messageSpam: 0,
@@ -1271,33 +1257,33 @@ if (xp > 2000)
 m.reply('Exp limit') 
 else               
 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-this.sendMessage(m.chat, {text: `❮💰❯ 𝙉𝙤 𝙩𝙞𝙚𝙣𝙚𝙨 𝙨𝙪𝙛𝙞𝙘𝙞𝙚𝙣𝙩𝙚𝙨 𝘽𝙤𝙩𝘾𝙤𝙞𝙣𝙨 𝙥𝙖𝙧𝙖 𝙪𝙨𝙖𝙧 𝙚𝙨𝙩𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤.`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
+this.sendMessage(m.chat, {text: `❮💰❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝗕𝗼𝘁𝗖𝗼𝗶𝗻𝘀 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
 continue     
 }
 
 m.exp += xp
 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-this.sendMessage(m.chat, {text: `❮💎❯ 𝙉𝙤 𝙩𝙞𝙚𝙣𝙚𝙨 𝙨𝙪𝙛𝙞𝙘𝙞𝙚𝙣𝙩𝙚𝙨 𝘿𝙞𝙖𝙢𝙖𝙣𝙩𝙚𝙨 𝙥𝙖𝙧𝙖 𝙪𝙨𝙖𝙧 𝙚𝙨𝙩𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤. 𝙋𝙖𝙧𝙖 𝙘𝙤𝙢𝙥𝙧𝙖𝙧 𝙢𝙖𝙨 𝙙𝙞𝙖𝙢𝙖𝙣𝙩𝙚𝙨, 𝙪𝙨𝙚 𝙚𝙨𝙩𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤.\n\n• 𝙋𝙤𝙧 𝙚𝙟𝙚𝙢𝙥𝙡𝙤:\n\n*${usedPrefix}buyall*\n*${usedPrefix}buy*`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
+this.sendMessage(m.chat, {text: `❮💎❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝗗𝗶𝗮𝗺𝗮𝗻𝘁𝗲𝘀 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼. 𝗣𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗿𝗮𝗿 𝗺𝗮𝘀 𝗗𝗶𝗮𝗺𝗮𝗻𝘁𝗲𝘀, 𝘂𝘀𝗲 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.\n\n• 𝗣𝗼𝗿 𝗲𝗷𝗲𝗺𝗽𝗹𝗼:\n\n*${usedPrefix}buyall*\n*${usedPrefix}buy*`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
 continue
 }
 
 if (!isPrems && plugin.inycoins && global.db.data.users[m.sender].inycoins < plugin.inycoins * 1) {
-this.sendMessage(m.chat, {text: `❮☁️❯ 𝙉𝙤 𝙩𝙞𝙚𝙣𝙚𝙨 𝙨𝙪𝙛𝙞𝙘𝙞𝙚𝙣𝙩𝙚𝙨 𝙄𝙣𝙮𝘾𝙤𝙞𝙣𝙨 𝙥𝙖𝙧𝙖 𝙪𝙨𝙖𝙧 𝙚𝙨𝙩𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤. 𝙋𝙖𝙧𝙖 𝙘𝙤𝙢𝙥𝙧𝙖𝙧 𝙢𝙖𝙨 𝙨𝙚𝙧𝙫𝙚𝙧𝙘𝙤𝙞𝙣𝙨, 𝙪𝙨𝙚 𝙚𝙨𝙩𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤.\n\n• 𝙋𝙤𝙧 𝙚𝙟𝙚𝙢𝙥𝙡𝙤:\n\n*${usedPrefix}buyallcoins*\n*${usedPrefix}buycoins*\n\n• 𝙑𝙞𝙨𝙞𝙩𝙖 𝙡𝙖 𝙩𝙞𝙚𝙣𝙙𝙖 𝙚𝙣: #tiendainfinity`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
+this.sendMessage(m.chat, {text: `❮☁️❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝗜𝗻𝘆𝗖𝗼𝗶𝗻𝘀 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼. 𝗣𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗿𝗮𝗿 𝗺𝗮𝘀 𝗜𝗻𝘆𝗖𝗼𝗶𝗻𝗱, 𝘂𝘀𝗲 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.\n\n• 𝗣𝗼𝗿 𝗲𝗷𝗲𝗺𝗽𝗹𝗼:\n\n*${usedPrefix}buyallcoins*\n*${usedPrefix}buycoins*\n\n• 𝗩𝗶𝘀𝗶𝘁𝗮 𝗹𝗮 𝘁𝗶𝗲𝗻𝗱𝗮 𝗲𝗻: #tiendainfinity`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
 continue
 }
 
 if (!isPrems && plugin.infinityserver && global.db.data.users[m.sender].infinityserver < plugin.infinityserver * 1) {
-this.sendMessage(m.chat, {text: `❮💻❯ 𝙉𝙤 𝙩𝙞𝙚𝙣𝙚𝙨 𝙡𝙤 𝙨𝙪𝙛𝙞𝙘𝙞𝙚𝙣𝙩𝙚 𝙥𝙖𝙧𝙖 𝙘𝙤𝙢𝙥𝙧𝙖𝙧 𝙪𝙣 𝙎𝙚𝙧𝙫𝙞𝙙𝙤𝙧, 𝙥𝙖𝙧𝙖 𝙘𝙤𝙢𝙥𝙧𝙖𝙧 𝙪𝙣 𝙎𝙚𝙧𝙫𝙞𝙙𝙤𝙧, 𝙪𝙨𝙚 𝙚𝙨𝙩𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤.\n\n• 𝙋𝙤𝙧 𝙚𝙟𝙚𝙢𝙥𝙡𝙤:\n\n*${usedPrefix}buyserver*\n\n• 𝙑𝙞𝙨𝙞𝙩𝙖 𝙡𝙖 𝙩𝙞𝙚𝙣𝙙𝙖 𝙚𝙣: #tiendainfinity`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
+this.sendMessage(m.chat, {text: `❮💻❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝗹𝗼 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲 𝗽𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗿𝗮𝗿 𝘂𝗻 𝗦𝗲𝗿𝘃𝗶𝗱𝗼𝗿, 𝗣𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗿𝗮𝗿 𝘂𝗻 𝗦𝗲𝗿𝘃𝗶𝗱𝗼𝗿, 𝘂𝘀𝗲 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.\n\n• 𝙋𝙤𝙧 𝙚𝙟𝙚𝙢𝙥𝙡𝙤:\n\n*${usedPrefix}buyserver*\n\n• 𝗩𝗶𝘀𝗶𝘁𝗮 𝗹𝗮 𝘁𝗶𝗲𝗻𝗱𝗮 𝗲𝗻: #tiendainfinity`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
 continue
 }
 
 if (!isPrems && plugin.infinitypaquete && global.db.data.users[m.sender].infinitypaquete < plugin.infinitypaquete * 1) {
-this.sendMessage(m.chat, {text: `❮📢❯ 𝙉𝙤 𝙩𝙞𝙚𝙣𝙚𝙨 𝙣𝙞𝙣𝙜𝙪𝙣 𝙥𝙖𝙦𝙪𝙚𝙩𝙚 𝙥𝙖𝙧𝙖 𝙖𝙗𝙧𝙞𝙧𝙡𝙤, 𝙘𝙤𝙢𝙥𝙧𝙖 𝙪𝙣𝙤 𝙪𝙨𝙖𝙣𝙙𝙤 𝙚𝙨𝙩𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤.\n\n• 𝙋𝙤𝙧 𝙚𝙟𝙚𝙢𝙥𝙡𝙤:\n\n*${usedPrefix}buyallpaquetes*\n*${usedPrefix}buypaquete*\n\n• 𝙑𝙞𝙨𝙞𝙩𝙖 𝙡𝙖 𝙩𝙞𝙚𝙣𝙙𝙖 𝙚𝙣: #tiendainfinity`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
+this.sendMessage(m.chat, {text: `❮📢❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝗻𝗶𝗻𝗴𝘂𝗻 𝗽𝗮𝗾𝘂𝗲𝘁𝗲 𝗽𝗮𝗿𝗮 𝗮𝗯𝗿𝗶𝗿𝗹𝗼, 𝗰𝗼𝗺𝗽𝗿𝗮 𝘂𝗻𝗼 𝘂𝘀𝗮𝗻𝗱𝗼 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.\n\n• 𝗣𝗼𝗿 𝗲𝗷𝗲𝗺𝗽𝗹𝗼:\n\n*${usedPrefix}buyallpaquetes*\n*${usedPrefix}buypaquete*\n\n• 𝗩𝗶𝘀𝗶𝘁𝗮 𝗹𝗮 𝘁𝗶𝗲𝗻𝗱𝗮 𝗲𝗻: #tiendainfinity`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
 continue
 }
 
 if (plugin.level > _user.level) {
-this.sendMessage(m.chat, {text: `❮📣❯ 𝙍𝙚𝙦𝙪𝙞𝙚𝙧𝙚𝙨 𝙚𝙡 𝙣𝙞𝙫𝙚𝙡: *${plugin.level}*\n\n• 𝙏𝙪 𝙣𝙞𝙫𝙚𝙡 𝙖𝙘𝙩𝙪𝙖𝙡 𝙚𝙨: *${_user.level}*\n\n• 𝙐𝙨𝙖 𝙚𝙨𝙩𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤 𝙥𝙖𝙧𝙖 𝙨𝙪𝙗𝙞𝙧 𝙙𝙚 𝙣𝙞𝙫𝙚𝙡:\n*${usedPrefix}levelup*`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
+this.sendMessage(m.chat, {text: `❮📣❯ 𝗥𝗲𝗾𝘂𝗶𝗲𝗿𝗲 𝗲𝗹 𝗻𝗶𝘃𝗲𝗹: *${plugin.level}*\n\n• 𝗧𝘂 𝗻𝗶𝘃𝗲𝗹 𝗮𝗰𝘁𝘂𝗮𝗹 𝗲𝘀: *${_user.level}*\n\n• 𝗨𝘀𝗮 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝗽𝗮𝗿𝗮 𝘀𝘂𝗯𝗶𝗿 𝗱𝗲 𝗻𝗶𝘃𝗲𝗹:\n*${usedPrefix}levelup*`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
 continue
 }
 let extra = {
@@ -1335,7 +1321,7 @@ console.error(e)
 if (e) {
 let text = format(e)
 for (let key of Object.values(global.APIKeys))
-text = text.replace(new RegExp(key, 'g'), '#HIDDEN#')
+text = text.replace(new RegExp(key, 'g'), 'Admin')
 if (e.name)
 for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
 let data = (await conn.onWhatsApp(jid))[0] || {}
@@ -1352,19 +1338,19 @@ await plugin.after.call(this, m, extra)
 console.error(e)
 }}
 if (m.limit)
-m.reply('❮💎❯ 𝙂𝙖𝙨𝙩𝙖𝙨𝙩𝙚 ' + m.limit + ' 𝙙𝙚 𝘿𝙞𝙖𝙢𝙖𝙣𝙩𝙚(𝙨)')
+m.reply('❮💎❯ 𝗚𝗮𝘀𝘁𝗮𝘀𝘁𝗲 ' + m.limit + ' 𝙙𝙚 𝘿𝙞𝙖𝙢𝙖𝙣𝙩𝙚(𝙨)')
 
 if (m.inycoins)
-m.reply('❮☁️❯  𝙂𝙖𝙨𝙩𝙖𝙨𝙩𝙚 ' + m.inycoins + ' 𝙙𝙚 𝙄𝙣𝙮𝘾𝙤𝙞𝙣𝙨(𝙨)')
+m.reply('❮☁️❯  𝗚𝗮𝘀𝘁𝗮𝘀𝘁𝗲 ' + m.inycoins + ' 𝗱𝗲 𝗜𝗻𝘆𝗰𝗼𝗶𝗻𝘀(𝙨)')
 
 if (m.infinityserver)
-m.reply('❮🔑❯  𝘾𝙤𝙢𝙥𝙧𝙖𝙨𝙩𝙚 ' + m.infinityserver + ' 𝙙𝙚 𝙎𝙚𝙧𝙫𝙞𝙙𝙤𝙧(𝙚𝙨)')
+m.reply('❮🔑❯  𝗖𝗼𝗺𝗽𝗿𝗮𝘀𝘁𝗲𝘀 ' + m.infinityserver + ' 𝗱𝗲 𝗦𝗲𝗿𝘃𝗶𝗱𝗼𝗿(𝙚𝙨)')
 
 if (m.infinitypaquete)
-m.reply('❮🪐❯  𝘼𝙗𝙧𝙞𝙨𝙩𝙚 ' + m.infinitypaquete + ' 𝙋𝙖𝙦𝙪𝙚𝙩𝙚.')
+m.reply('❮🪐❯  𝗔𝗯𝗿𝗶𝘀𝘁𝗲 ' + m.infinitypaquete + ' 𝗣𝗮𝗾𝘂𝗲𝘁𝗲.')
 }
 if (m.money)
-m.reply('❮💰❯ 𝙂𝙖𝙨𝙩𝙖𝙨𝙩𝙚 ' + m.money + ' 𝙙𝙚 𝘽𝙤𝙩𝘾𝙤𝙞𝙣(𝙨)')  
+m.reply('❮💰❯ 𝗚𝗮𝘀𝘁𝗮𝘀𝘁𝗲𝘀 ' + m.money + ' 𝗱𝗲 𝗕𝗼𝘁𝗖𝗼𝗶𝗻(𝙨)')  
 break
 }}} catch (e) {
 console.error(e)
@@ -1544,7 +1530,7 @@ if (!isAnticall) return
 for (let nk of callUpdate) { 
 if (nk.isGroup == false) {
 if (nk.status == "offer") {
-let callmsg = await this.reply(nk.from, `❮📣❯ 𝙃𝙤𝙡𝙖 *@${nk.from.split('@')[0]}*, 𝙡𝙖𝙨 ${nk.isVideo ? '𝙡𝙡𝙖𝙢𝙖𝙙𝙖𝙨' : '𝙫𝙞𝙙𝙚𝙤 𝙡𝙡𝙖𝙢𝙖𝙙𝙖𝙨'} 𝙣𝙤 𝙚𝙨𝙩𝙖𝙣 𝙥𝙚𝙧𝙢𝙞𝙩𝙞𝙙𝙖𝙨 𝙚𝙣 𝙚𝙨𝙩𝙚 𝙗𝙤𝙩.\n\n• 𝙀𝙣 𝙘𝙖𝙨𝙤 𝙙𝙚 𝙪𝙣 𝙚𝙧𝙧𝙤𝙧, 𝙘𝙤𝙣𝙩𝙖𝙘𝙩𝙖 𝙘𝙤𝙣 𝙚𝙡 𝙘𝙧𝙚𝙖𝙙𝙤𝙧:\n• ${creador}`, false, { mentions: [nk.from] })
+let callmsg = await this.reply(nk.from, `❮📣❯ 𝗛𝗼𝗹𝗮 *@${nk.from.split('@')[0]}*, 𝗹𝗮𝘀 ${nk.isVideo ? '𝗟𝗹𝗮𝗺𝗮𝗱𝗮𝘀' : '𝗩𝗶𝗱𝗲𝗼 𝗹𝗹𝗮𝗺𝗮𝗱𝗮𝘀'} 𝗻𝗼 𝗲𝘀𝘁𝗮𝗻 𝗽𝗲𝗿𝗺𝗶𝘁𝗶𝗱𝗮𝘀 𝗲𝗻 𝗲𝘀𝘁𝗲 𝗯𝗼𝘁.\n\n• 𝗘𝗻 𝗰𝗮𝘀𝗼 𝗱𝗲 𝘂𝗻 𝗲𝗿𝗿𝗼𝗿, 𝗰𝗼𝗻𝘁𝗮𝗰𝘁𝗮 𝗰𝗼𝗻 𝗲𝗹 𝗼𝘄𝗻𝗲𝗿:\n• ${creador}`, false, { mentions: [nk.from] })
 //let data = global.owner.filter(([id, isCreator]) => id && isCreator)
 //await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
 await this.updateBlockStatus(nk.from, 'block')
