@@ -4,91 +4,88 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 
   const optionsFull = `
 • 𝗗𝗮𝗿 𝗯𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗮 𝗮𝗹 𝘂𝘀𝘂𝗮𝗿𝗶𝗼
-⦑🪛⦒ ⤷ *_${usedPrefix}on welcome_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} welcome_*
 
 • 𝘿𝙚𝙩𝙚𝙘𝙩𝙤𝙧 𝙙𝙚 𝙘𝙤𝙣𝙛𝙞𝙜𝙪𝙧𝙖𝙘𝙞𝙤𝙣
-⦑🪛⦒ ⤷ *_${usedPrefix}on detect_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} detect_*
+
+• 𝘿𝙚𝙩𝙚𝙘𝙩𝙤𝙧 𝙙𝙚 𝙘𝙤𝙣𝙛𝙞𝙜𝙪𝙧𝙖𝙘𝙞𝙤𝙣2
+⦑🪛⦒ ⤷ *_${usedPrefix + command} detect2_*
 
 • 𝗥𝗲𝗲𝗻𝘃𝗶𝗮𝗿 𝗺𝗲𝗻𝘀𝗮𝗷𝗲𝘀 𝗲𝗹𝗶𝗺𝗶𝗻𝗮𝗱𝗼𝘀
-⦑🪛⦒ ⤷ *_${usedPrefix}on antidelete_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} antidelete_*
 
 • 𝗕𝗼𝘁 𝗽𝘂𝗯𝗹𝗶𝗰𝗼
-⦑🪛⦒ ⤷ *_${usedPrefix}on public_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} public_*
 
 • 𝗘𝗹𝗶𝗺𝗶𝗻𝗮𝗿 𝗲𝗻𝗹𝗮𝗰𝗲𝘀 𝗴𝗿𝘂𝗽𝗮𝗹𝗲𝘀
-⦑🪛⦒ ⤷ *_${usedPrefix}on antilink_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} antilink_*
 
 • 𝗘𝗹𝗶𝗺𝗶𝗻𝗮𝗿 𝘁𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗲𝗻𝗹𝗮𝗰𝗲𝘀
-⦑🪛⦒ ⤷ *_${usedPrefix}on antilink2_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} antilink2_*
 
 • 𝗠𝗼𝗱𝗼 𝗵𝗼𝘁
-⦑🪛⦒ ⤷ *_${usedPrefix}on modohorny_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} modohorny_*
 
 • 𝗥𝗲𝗮𝗰𝗰𝗶𝗼𝗻 𝗰𝗼𝗻 𝘀𝘁𝗶𝗰𝗸𝗲𝗿𝘀
-⦑🪛⦒ ⤷ *_${usedPrefix}on stickers_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} stickers_*
 
 • 𝗣𝗲𝗿𝗺𝗶𝘁𝗶𝗿 𝗷𝘂𝗲𝗴𝗼𝘀
-⦑🪛⦒ ⤷ *_${usedPrefix}on game • game2_*
-
-• 𝗕𝗼𝘁 𝘁𝗲𝗺𝗽𝗼𝗿𝗮𝗹
-⦑🪛⦒ ⤷ *_${usedPrefix}on temporal_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} game*
 
 • 𝗦𝘂𝗯𝗶𝗿 𝗱𝗲 𝗻𝗶𝘃𝗲𝗹 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰𝗮𝗺𝗲𝗻𝘁𝗲
-⦑🪛⦒ ⤷ *_${usedPrefix}on autolevelup_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} autolevelup_*
 
 • 𝗖𝗿𝗲𝗮𝗿 𝘀𝘁𝗶𝗰𝗸𝗲𝗿𝘀 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰𝗼𝘀 (𝘮𝘢𝘯𝘥𝘢𝘳 𝘪𝘮𝘢𝘨𝘦𝘯)
-⦑🪛⦒ ⤷ *_${usedPrefix}on autosticker_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} autosticker_*
 
 • 𝙍𝙚𝙖𝙘𝙘𝙞𝙤𝙣 𝙚𝙣 𝙢𝙚𝙣𝙨𝙖𝙟𝙚𝙨
-⦑🪛⦒ ⤷ *_${usedPrefix}on reaction_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} reaction_*
 
 • 𝘼𝙣𝙩𝙞 𝙩𝙤𝙭𝙞𝙘𝙤𝙨
-⦑🪛⦒ ⤷ *_${usedPrefix}on antitoxic_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} antitoxic_*
 
 • 𝙋𝙚𝙧𝙢𝙞𝙩𝙞𝙧 𝙖𝙪𝙙𝙞𝙤𝙨 𝙙𝙚𝙡 𝙗𝙤𝙩
-⦑🪛⦒ ⤷ *_${usedPrefix}on audios_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} audios_*
 
 • 𝙍𝙚𝙚𝙣𝙫𝙞𝙖𝙧 𝙪𝙡𝙩𝙞𝙢𝙖 𝙫𝙚𝙯
-⦑🪛⦒ ⤷ *_${usedPrefix}on antiver_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} antiver_*
 
 • 𝘼𝙣𝙩𝙞 𝙣𝙪𝙢𝙚𝙧𝙤𝙨
-⦑🪛⦒ ⤷ *_${usedPrefix}on antifake_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} antifake_*
 
 • 𝙋𝙚𝙧𝙢𝙞𝙩𝙞𝙧 𝙨𝙪𝙗 𝙗𝙤𝙩𝙨 𝙚𝙣 𝙚𝙡 𝙗𝙤𝙩
-⦑🪛⦒ ⤷ *_${usedPrefix}on serbot_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} serbot_*
 
 • 𝘼𝙘𝙩𝙞𝙫𝙖𝙧 𝙧𝙚𝙨𝙩𝙧𝙞𝙘𝙘𝙞𝙤𝙣𝙚𝙨
-⦑🪛⦒ ⤷ *_${usedPrefix}on restrict_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} restrict_*
 
 • 𝙀𝙡𝙞𝙢𝙞𝙣𝙖𝙧 𝙘𝙤𝙣𝙩𝙚𝙣𝙞𝙙𝙤 𝙞𝙣𝙖𝙙𝙚𝙘𝙪𝙖𝙙𝙤
-⦑🪛⦒ ⤷ *_${usedPrefix}on antiporno_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} antiporno_*
 
 • 𝙇𝙚𝙚𝙧 𝙖𝙪𝙩𝙤𝙢𝙖𝙩𝙞𝙘𝙖𝙢𝙚𝙣𝙩𝙚 𝙡𝙤𝙨 𝙢𝙚𝙣𝙨𝙖𝙟𝙚𝙨
-⦑🪛⦒ ⤷ *_${usedPrefix}on autoread_*
-
-• 𝙇𝙚𝙚𝙧 𝙖𝙪𝙩𝙤𝙢𝙖𝙩𝙞𝙘𝙖𝙢𝙚𝙣𝙩𝙚 𝙡𝙤𝙨 𝙢𝙚𝙣𝙨𝙖𝙟𝙚𝙨
-⦑🪛⦒ ⤷ *_${usedPrefix}on autoread2_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} autoread_*
 
 • 𝙉𝙤 𝙡𝙡𝙖𝙢𝙖𝙧 𝙖𝙡 𝙗𝙤𝙩
-⦑🪛⦒ ⤷ *_${usedPrefix}on antillamar_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} antillamar_*
 
 • 𝙉𝙤 𝙝𝙖𝙘𝙚𝙧 𝙨𝙥𝙖𝙢 𝙚𝙣 𝙚𝙡 𝙘𝙝𝙖𝙩
-⦑🪛⦒ ⤷ *_${usedPrefix}on antispam_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} antispam_*
 
 • 𝙀𝙡 𝙗𝙤𝙩 𝙨𝙤𝙡𝙤 𝙘𝙤𝙣𝙩𝙚𝙨𝙩𝙖𝙧𝙖 𝙖 𝙡𝙤𝙨 𝙖𝙙𝙢𝙞𝙣𝙨
-⦑🪛⦒ ⤷ *_${usedPrefix}on modoadmin_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} modoadmin_*
 
 • 𝙀𝙡 𝙗𝙤𝙩 𝙨𝙤𝙡𝙤 𝙝𝙖𝙗𝙡𝙖𝙧𝙖 𝙚𝙣 𝙘𝙝𝙖𝙩𝙨 𝙥𝙧𝙞𝙫𝙖𝙙𝙤𝙨
-⦑🪛⦒ ⤷ *_${usedPrefix}on pconly_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} pconly_*
 
 • 𝙀𝙡 𝙗𝙤𝙩 𝙨𝙤𝙡𝙤 𝙝𝙖𝙗𝙡𝙖𝙧𝙖 𝙚𝙣 𝙘𝙝𝙖𝙩𝙨 𝙜𝙧𝙪𝙥𝙖𝙡𝙚𝙨
-⦑🪛⦒ ⤷ *_${usedPrefix}on gconly_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} gconly_*
 
 • 𝙉𝙤 𝙝𝙖𝙗𝙡𝙖𝙧 𝙖𝙡 𝙗𝙤𝙩 𝙚𝙣 𝙥𝙧𝙞𝙫𝙖𝙙𝙤
-⦑🪛⦒ ⤷ *_${usedPrefix}on antiprivado_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} antiprivado_*
 
 • 𝘾𝙝𝙖𝙩𝙜𝙥𝙩 𝙖𝙪𝙩𝙤𝙢𝙖𝙩𝙞𝙘𝙤
-⦑🪛⦒ ⤷ *_${usedPrefix}on modoia_*
+⦑🪛⦒ ⤷ *_${usedPrefix + command} modoia_*
   `.trim();
 
 const isEnable = /true|enable|(turn)?on|1/i.test(command);
