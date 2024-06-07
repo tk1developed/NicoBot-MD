@@ -61,7 +61,7 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 let user = global.db.data.users[m.sender]
 let toUser = `${m.sender.split("@")[0]}`
 let aa = toUser + '@s.whatsapp.net'
-let pp = imagenRB
+let pp = imagen6
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let mentionedJid = [who]
 let username = conn.getName(who)
