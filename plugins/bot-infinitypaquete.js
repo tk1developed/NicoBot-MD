@@ -77,7 +77,7 @@ await conn.sendFile(m.chat, pp, 'infinity.js', tex, fkontak, { mentions: [aa,] }
 
 handler.help = ['infomenu'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
-handler.command = /^(mispaquetes|mipaquete|mispaquete)$/i
+handler.command = /^(mispaquetes|mipaquete|mispaquete|infinitypaquete)$/i
 handler.exp = 10
 export default handler
 
