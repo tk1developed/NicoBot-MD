@@ -42,7 +42,23 @@ Mensajes Fakes
 
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-global.redesYoshi = [canal, canal2, canal3, grupo1, grupo2, youtube, github].getRandom()
+var canal = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' 
+
+var canal2 = 'https://whatsapp.com/channel/0029VaXaCa66xCSHugaf773M' 
+
+var canal3 = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'
+
+var grupo1 = 'https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS' 
+
+var grupo2 = 'https://chat.whatsapp.com/BvHfQUBNAAFF1k1F9bTL0G' 
+
+var youtube = 'https://www.youtube.com/@Yoshiko_team' 
+
+var github = 'https://github.com/Diego-YL-177/YoshikoBot-MD' 
+
+var facebok = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' 
+
+global.redesYoshi = [canal, canal2, canal3, grupo1, grupo2, youtube, github, facebook].getRandom()
 
 var img = fs.readFileSync('./media/menus/Alsombra.jpg');
 var img2 = fs.readFileSync('./media/menus/Yoshi.jpg');
