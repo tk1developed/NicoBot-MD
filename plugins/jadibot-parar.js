@@ -1,5 +1,5 @@
 let handler  = async (m, { conn }) => {
-if (global.conn.user.jid == conn.user.jid) conn.reply(m.chat, `👑 Por qué no vas directamente con el numero del Sub-Bot`, m, fake, )
+if (global.conn.user.jid == conn.user.jid) conn.reply(m.chat, `👑 El Bot Principal No Se Puede Apagar`, m, fake, )
 else {
 await conn.reply(m.chat, `🔴 Subbot Desactivado`, m, fake, )
 conn.ws.close()
