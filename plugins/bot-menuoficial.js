@@ -60,7 +60,7 @@ const defaultMenu = {
 └┬❖
 ┌┤
 ┊│ 👑 *Creador:* Ofc Diego
-┊│ ⏰️ *Tiempo Activa:* %muptime
+┊│ ⏰️ *Actividad:* %muptime
 ┊│ 📇 *Registrados:* %totalreg
 ┊│ 🌻 *Versión* 1.0.7
 ┊│ 📆 *Fecha* %date
