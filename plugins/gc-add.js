@@ -21,9 +21,9 @@ const handler = async (m, {conn, text, participants, args}) => {
       const content = getBinaryNodeChild(user, 'add_request');
       const invite_code = content.attrs.code;
       const invite_code_exp = content.attrs.expiration;
-      const teks = `*🍓 𝐍𝐨 𝐅𝐮𝐞 𝐏𝐨𝐬𝐢𝐛𝐥𝐞 𝐀𝐧̃𝐚𝐝𝐢𝐫 𝐀: @${jid.split('@')[0]}, 𝐏𝐨𝐫 𝐅𝐚𝐯𝐨𝐫 𝐄𝐧𝐯𝐢𝐚𝐥𝐞 𝐔𝐧𝐚 𝐈𝐧𝐯𝐢𝐭𝐚𝐜𝐢𝐨𝐧.*`;
+      const teks = `*❗ 𝗡𝗼 𝗳𝘂𝗲 𝗽𝗼𝘀𝗶𝗯𝗹𝗲 𝗮𝗻̃𝗮𝗱𝗶𝗿 𝗮: @${jid.split('@')[0]}, 𝘀𝗲 𝗹𝗲 𝗲𝗻𝘃𝗶𝗮𝗿𝗮 𝘂𝗻𝗮 𝗶𝗻𝘃𝗶𝘁𝗮𝗰𝗶𝗼𝗻 𝗮𝗹 𝗴𝗿𝘂𝗽𝗼 😊💫`;
       m.reply(teks, null, {mentions: conn.parseMention(teks)});
-      const captionn = `🦋 𝑯𝒆𝒚 𝑨𝒎𝒊𝒈𝒐/𝑨 𝑺𝒐𝒚 𝒀𝒐𝒕𝒔𝒖𝒃𝒂 𝑼𝒏 𝑩𝒐𝒕 𝑫𝒆 𝑾𝒉𝒂𝒕𝒔𝑨𝒑𝒑 𝑼𝒏𝒂 𝑷𝒆𝒓𝒔𝒐𝒏𝒂 𝑫𝒆 𝑼𝒏 𝑮𝒓𝒖𝒑𝒐 𝑼𝒔𝒐 𝑬𝒍 𝑪𝒐𝒎𝒂𝒏𝒅𝒐 𝑷𝒂𝒓𝒂 𝑨𝒏̃𝒂𝒅𝒊𝒓𝒕𝒆 𝑷𝒆𝒓𝒐 𝑵𝒐 𝑷𝒖𝒅𝒆 𝑨𝒏̃𝒂𝒅𝒊𝒓𝒕𝒆 𝑨𝒔𝒊 𝑸𝒖𝒆 𝑻𝒆 𝑴𝒂𝒏𝒅𝒐 𝑳𝒂 𝑰𝒏𝒗𝒊𝒕𝒂𝒄𝒊𝒐𝒏 𝑻𝒆 𝑬𝒔𝒑𝒆𝒓𝒂𝒎𝒐 ✨`;
+      const captionn = `😊 𝗛𝗲𝘆 𝗔𝗺𝗶𝗴𝗼(𝗮) 𝗦𝗼𝘆 𝗟𝗮 𝗕𝗼𝘁 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁-𝗠𝗗 𝗨𝗻 𝗕𝗼𝘁 𝗗𝗶𝘀𝗲𝗻̃𝗮𝗱𝗼 𝗣𝗮𝗿𝗮 𝗔𝘆𝘂𝗱𝗮𝗿𝘁𝗲, 𝗨𝗻 𝗔𝗱𝗺𝗶𝗻𝗶𝘀𝘁𝗿𝗮𝗱𝗼𝗿 𝗛𝗮 𝗨𝘀𝗮𝗱𝗼 𝗘𝗹 𝗖𝗼𝗺𝗮𝗻𝗱𝗼 𝗣𝗮𝗿𝗮 𝗔𝗴𝗿𝗲𝗴𝗮𝗿𝘁𝗲 𝗛𝗮 𝗨𝗻 𝗚𝗿𝘂𝗽𝗼 𝗣𝗲𝗿𝗼 𝗡𝗼 𝗣𝘂𝗲𝗱𝗼 𝗔𝗻̃𝗮𝗱𝗶𝗿𝘁𝗲 𝗔𝘀𝗶 𝗤𝘂𝗲 𝗧𝗲 𝗘𝗻𝘃𝗶𝗼 𝗘𝗻 𝗘𝗻𝗹𝗮𝗰𝗲 𝗣𝗮𝗿𝗮 𝗤𝘂𝗲 𝗧𝗲 𝗨𝗻𝗮𝘀, 𝗧𝗲 𝗘𝘀𝗽𝗲𝗿𝗮𝗺𝗼𝘀 💫🌟`;
       const messaa = await prepareWAMessageMedia({image: jpegThumbnail}, {upload: conn.waUploadToServer});
       const groupInvite = generateWAMessageFromContent(m.chat, proto.Message.fromObject({groupInviteMessage: {groupJid: m.chat, inviteCode: invite_code, inviteExpiration: invite_code_exp, groupName: await conn.getName(m.chat), caption: captionn, jpegThumbnail: jpegThumbnail}}), {userJid: jid});
       await conn.relayMessage(jid, groupInvite.message, {messageId: groupInvite.key.id});
