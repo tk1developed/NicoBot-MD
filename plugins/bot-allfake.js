@@ -31,6 +31,9 @@ let pp = ''
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? this.user.jid : m.sender
 //let pp = await this.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/1861aab98389b13db8588.jpg')
 
+//fuction
+global.creador = 'Wa.me/573012482597'
+
 //Reacciones De Comandos.!
 global.rwait = '⏰'
 global.done = '✅'
