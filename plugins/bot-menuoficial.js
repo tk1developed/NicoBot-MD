@@ -619,7 +619,7 @@ m.react('🌻');
 ┊│ 🌸 .rob
 │└────────────┈ɪ ⳹
 ┗–––––––––––––––––ɪ✥`;
-   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": packname, "body": `🌟 Hola` + nombre, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen7, "mediaUrl": [gp1,canal].getRandom(), "sourceUrl": [gp1,canal].getRandom()}}}, {quoted: estilo});
+   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": packname, "body": `🌟 Hola` + nombre, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen7, "mediaUrl": [gp1, channel, channel2, channel3].getRandom(), "sourceUrl": [gp1,channel, channel2, channel3].getRandom()}}}, {quoted: estilo});
  // m.react('🎮');
   } catch {
     conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝙿𝙾𝚁𝙵𝙰𝚅𝙾𝚁 𝚄𝚂𝙴 𝙴𝙻 .allmenu*', m);
