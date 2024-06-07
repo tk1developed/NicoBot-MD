@@ -42,6 +42,8 @@ Mensajes Fakes
 
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
+global.redesYoshi = [canal, canal2, canal3, grupo1, grupo2, youtube, github].getRandom()
+
 var img = fs.readFileSync('./media/menus/Alsombra.jpg');
 var img2 = fs.readFileSync('./media/menus/Yoshi.jpg');
 var img3 = fs.readFileSync('./media/menus/ImagenYoshi.jpg');
