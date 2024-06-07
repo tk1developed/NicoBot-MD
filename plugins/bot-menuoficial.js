@@ -4,87 +4,44 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 
 let tags = {
-  'main': 'INFO ⚙️',
-  'search': 'BUSQUEDAS 🔍',
-  'jadibot': 'SER JADIBOTS 🤖',
-  'rpg': 'ECONOMIA 🪙',
-  'rg': 'REGISTRO 📇',
-  'sticker': 'STICKER ✨️',
-  'xp': 'EXP 🏷',
-  'calculator': 'CALCULATOR 💻',
-  'fix': 'FIX 🔮',
-  'group': 'GRUPOS 🌩',
-  'grupo': 'GRUPOS 🌩',
-  'buscadores': 'BUSCADORES 🔍',
-  'database': 'DATABASE 📚',
-  'internet': 'INTERNET 📮', 
-  'stalk': 'STALK 📒',
-  'premium': 'PREMIUM 👑',
-  'frases': 'FRASES ✏️',
-  'downloader': 'DESCARGAS 📥',
-  'descargas': 'DESCARGAS 📥',
-  'tools': 'HERRAMIENTAS 🧰',
-  'herramientas': 'HERRAMIENTAS 🧰',
-  'fun': 'DIVERSIONES ☁️',
-  'nsfw': 'NSFW 🔞', 
-  'image': 'IMAGE 🚩',
-  'random': 'RANDOM ☄️',
-  'anime': 'ANIMES 🌸',
-  'owner': 'CREADOR 👑', 
-  'audio': 'EFECTO AUDIOS 🍂', 
-  'info': 'INFORAMACIÓN 🍭',
-  'ai': 'AI 🌹',
-  'adm': 'ADMINISTRADOR 🎌',
-  'General': 'GENERAL 🔮',
-  'maker': 'MAKER 🌳',
-  'transformador': 'CONVERTIDORES 🚩',
+  'main': 'I N F O R M A C I Ó N ',
+  'group': 'G R U P O S',
+  'game': 'J U E G O S',
+  'dl': ' D E S C A R G A S',
+  'jadibot': 'J A D I B O T', 
+  'nable': 'E N A B L E / D I S A B L E', 
+  'internet': 'B U S C A D O R E S',
+  'convertido': 'C O N V E R T I D O R E S', 
+  'sticker': 'S T I C K E R',
+  'rg': 'R P G',
+  'audio': 'A U D I O S   E F E C T O S', 
+  'tools': 'H E R R A M I E N T A S', 
+  'anime': 'A N I M E', 
+  'nsfw': 'N S F W +18', 
+  'owner': 'O W N E R', */
 }
-
 const defaultMenu = {
-  before: `> %greeting %taguser
-
-┌–––––––––––––––––ɪ✥
-│『 *INFO USER 🍒* 』
-└┬❖
-┌┤
-┊│ 🌸 𝐂𝐥𝐢𝐞𝐧𝐭𝐞: %name
-┊│ 🧃 𝐄𝐱𝐩: %totalexp
-┊│ 💎 𝐃𝐢𝐚𝐦𝐚𝐧𝐭𝐞𝐬: %limit
-┊│ 🍓 𝐍𝐢𝐯𝐞𝐥: %level
-│└────────────┈ɪ ⳹
-┗–––––––––––––––––ɪ✥
-
-┌–––––––––––––––––ɪ✥
-│『 *INFO BOT 🌸* 』
-└┬❖
-┌┤
-┊│ 🍬 𝐏𝐫𝐨𝐩𝐢𝐞𝐭𝐚𝐫𝐢𝐨: %author
-┊│ 🍒 𝐑𝐮𝐧𝐭𝐢𝐦𝐞: %muptime
-┊│ 🍍 𝐔𝐬𝐮𝐚𝐫𝐢𝐨𝐬: %totalreg
-┊│ 🫐 𝐕𝐞𝐫𝐬𝐢𝐨𝐧: 1.0.7
-│└────────────┈ɪ ⳹
-┗–––––––––––––––––ɪ✥
-%readmore
-         *乂 ⺀ ʟɪꜱᴛᴀ - ᴄᴏᴍᴀɴᴅᴏꜱ ⺀ 乂*
+  before: `┏━━━━━━━━━━━━━━━━━━┓
+┣⟣☯︎ *𝙾𝚆𝙽𝙴𝚁:* 𝙷𝙰𝙲𝙷𝙴𝙹𝙾𝚃𝙰
+┣⟣☯︎ *𝙽𝚄𝙼𝙴𝚁𝙾:* +51 992 004 117
+┣⟣☯︎ *𝙸𝙳𝙸𝙾𝙼𝙰:* 𝙴𝚂𝙿𝙰𝙽̃𝙾𝙻 
+┣⟣☯︎ *𝙼𝙾𝙳𝙾:* 𝙿𝚄𝙱𝙻𝙸𝙲𝙾
+┗━━━━━━━━━━━━━━━━━━┛
 `.trimStart(),
-  header: '┌–––––––––––––––––ɪ✥\n│『 *%category* 』\n└┬❖\n┌┤',
-  body: '┊│ 🌸 %cmd\n',
-  footer: '│└────────────┈ɪ ⳹\n┗–––––––––––––––––ɪ✥',
-  after: '',
+  header: '┏━━━━━━━━━━━━━━━━┓\n*┃❍ %category ❍*\n┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃',
+  body: '┣⟣❥ %cmd',
+  footer: '┗━━━━━━━━━━━━━━━━┛\n',
+  after: `
+`,
 }
-
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
     let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
-    let { exp, limit, level } = global.db.data.users[m.sender]
+    let { exp, diamond, level, role } = global.db.data.users[m.sender]
     let { min, xp, max } = xpRange(level, global.multiplier)
     let name = await conn.getName(m.sender)
     let d = new Date(new Date + 3600000)
     let locale = 'es'
-    // d.getTimeZoneOffset()
-    // Offset -420 is 18.00
-    // Offset    0 is  0.00
-    // Offset  420 is  7.00
     let weton = ['Pahing', 'Pon', 'Wage', 'Kliwon', 'Legi'][Math.floor(d / 84600000) % 5]
     let week = d.toLocaleDateString(locale, { weekday: 'long' })
     let date = d.toLocaleDateString(locale, {
@@ -120,7 +77,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
         help: Array.isArray(plugin.tags) ? plugin.help : [plugin.help],
         tags: Array.isArray(plugin.tags) ? plugin.tags : [plugin.tags],
         prefix: 'customPrefix' in plugin,
-        limit: plugin.limit,
+        diamond: plugin.diamond,
         premium: plugin.premium,
         enabled: !plugin.disabled,
       }
@@ -134,7 +91,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     let header = conn.menu.header || defaultMenu.header
     let body = conn.menu.body || defaultMenu.body
     let footer = conn.menu.footer || defaultMenu.footer
-    let after = conn.menu.after || (conn.user.jid == global.conn.user.jid ? '' : ``) + defaultMenu.after
+    let after = conn.menu.after || (conn.user.jid == conn.user.jid ? '' : `Powered by https://wa.me/${conn.user.jid.split`@`[0]}`) + defaultMenu.after
     let _text = [
       before,
       ...Object.keys(tags).map(tag => {
@@ -142,8 +99,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
           ...help.filter(menu => menu.tags && menu.tags.includes(tag) && menu.help).map(menu => {
             return menu.help.map(help => {
               return body.replace(/%cmd/g, menu.prefix ? help : '%p' + help)
-                .replace(/%islimit/g, menu.limit ? '' : '')
-                .replace(/%isPremium/g, menu.premium ? '' : '')
+                .replace(/%isdiamond/g, menu.diamond ? '(ⓓ)' : '')
+                .replace(/%isPremium/g, menu.premium ? '(Ⓟ)' : '')
                 .trim()
             }).join('\n')
           }),
@@ -156,96 +113,45 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     let replace = {
       '%': '%',
       p: _p, uptime, muptime,
-      taguser: '@' + m.sender.split("@s.whatsapp.net")[0],
-      wasp: '@0',
       me: conn.getName(conn.user.jid),
       npmname: _package.name,
-      version: _package.version,
-      sbot: (conn.user.jid == global.conn.user.jid ? '' : `✰્᭄͜͡ 🆂︎ᴏʏ sᴜʙʙᴏᴛ ᴅᴇ:\n✰્᭄͜͡ Wa.me/${global.conn.user.jid.split`@`[0]}`), 
       npmdesc: _package.description,
-      npmmain: _package.main,
-      author: _package.author.name,
-      license: _package.license,
+      version: _package.version,
       exp: exp - min,
       maxexp: xp,
       totalexp: exp,
       xp4levelup: max - exp,
       github: _package.homepage ? _package.homepage.url || _package.homepage : '[unknown github url]',
-      greeting, level, limit, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg,
+      level, diamond, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
-   // let pp1 = 'https://telegra.ph/file/a7ea164ca067545aeeec4.mp4'
-   // let pp2 = 'https://telegra.ph/file/34569ede8bb5e0c1fef0e.mp4'
-
-  //const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
-
-const fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-
-const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-
-const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
-
-await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', fkontak, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🍫̸̷᮫ᨘ۬ׄ߭ᤢꫂꥈ Hola! ' + name, sourceUrl: global.yt, thumbnail: await (await fetch(pp)).buffer() }}})
-
-m.react('🌸') 
-
-   // conn.sendMessage(m.chat, { video: { url: [pp1, pp2].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: estilo })
-
-conn.sendMessage(m.chat, {text: text.trim(), mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🍫̸̷᮫ᨘ۬ׄ߭ᤢꫂꥈ Hola! ' + name, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen7, "mediaUrl": global.channel, "sourceUrl": global.channel}}}, {quoted: estilo});
-
-
+    let pp = imagen1
+    // await conn.reply(m.chat, '*Enviando el menu . . .*', ftrol) 
+    conn.sendFile(m.chat, pp, 'menu2.jpg', text.trim(), m, null)
 
   } catch (e) {
-    conn.reply(m.chat, '🛑 *Ocurrió un error*', m)
+    conn.reply(m.chat, '⚠️ Lo sentimos, el menú tiene un error', m)
     throw e
   }
 }
-
-handler.help = ['allmenu']
+handler.help = ['help']
 handler.tags = ['main']
-handler.command = ['menu', 'menú', 'allmenú', 'allmenu'] 
-handler.register = true 
-export default handler
+handler.command = ['allmenu', 'menucompleto'] 
+handler.register = true
 
+handler.exp = 3
+
+export default handler
 
 const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
 
 function clockString(ms) {
-  let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
+  let d = isNaN(ms) ? '--' : Math.floor(ms / 86400000)
+  let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
+  return [d, 'd ', h, 'h ', m, 'm '].map(v => v.toString().padStart(2, 0)).join('')
 }
-
-  var ase = new Date();
-  var hour = ase.getHours();
-switch(hour){
-  case 0: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌙'; break;
-  case 1: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 💤'; break;
-  case 2: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🦉'; break;
-  case 3: hour = 'Bᴜᴇɴᴏs Dɪᴀs ✨'; break;
-  case 4: hour = 'Bᴜᴇɴᴏs Dɪᴀs 💫'; break;
-  case 5: hour = 'Bᴜᴇɴᴏs Dɪᴀs 🌅'; break;
-  case 6: hour = 'Bᴜᴇɴᴏs Dɪᴀs 🌄'; break;
-  case 7: hour = 'Bᴜᴇɴᴏs Dɪᴀs 🌅'; break;
-  case 8: hour = 'Bᴜᴇɴᴏs Dɪᴀs 💫'; break;
-  case 9: hour = 'Bᴜᴇɴᴏs Dɪᴀs ✨'; break;
-  case 10: hour = 'Bᴜᴇɴᴏs Dɪᴀs 🌞'; break;
-  case 11: hour = 'Bᴜᴇɴᴏs Dɪᴀs 🌨'; break;
-  case 12: hour = 'Bᴜᴇɴᴏs Dɪᴀs ❄'; break;
-  case 13: hour = 'Bᴜᴇɴᴏs Dɪᴀs 🌤'; break;
-  case 14: hour = 'Bᴜᴇɴᴀs Tᴀʀᴅᴇs 🌇'; break;
-  case 15: hour = 'Bᴜᴇɴᴀs Tᴀʀᴅᴇs 🥀'; break;
-  case 16: hour = 'Bᴜᴇɴᴀs Tᴀʀᴅᴇs 🌹'; break;
-  case 17: hour = 'Bᴜᴇɴᴀs Tᴀʀᴅᴇs 🌆'; break;
-  case 18: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌙'; break;
-  case 19: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌃'; break;
-  case 20: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌌'; break;
-  case 21: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌃'; break;
-  case 22: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌙'; break;
-  case 23: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌃'; break;
-}
-  var greeting = hour;
