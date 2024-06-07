@@ -185,12 +185,10 @@ conn.sendMessage(m.chat, {text: text.trim(), mentions: [...text.matchAll(/@([0-9
     throw e
   }
 }
-handler.help = ['help']
+handler.help = ['menu']
 handler.tags = ['main']
-handler.command = ['allmenu', 'menucompleto'] 
+handler.command = ['menu', 'menú', 'menuall', 'allmenú', 'allmenu', 'menucompleto'] 
 handler.register = true
-
-handler.exp = 3
 
 export default handler
 
