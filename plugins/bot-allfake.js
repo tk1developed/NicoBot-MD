@@ -49,7 +49,7 @@ var grupo1 = 'https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS'
 var grupo2 = 'https://chat.whatsapp.com/BvHfQUBNAAFF1k1F9bTL0G' 
 var youtube = 'https://www.youtube.com/@Yoshiko_team' 
 var github = 'https://github.com/Diego-YL-177/YoshikoBot-MD' 
-var facebok = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' 
+var facebook = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' 
 
 global.redesYoshi = [canal, canal2, canal3, grupo1, grupo2, youtube, github, facebook].getRandom()
 
