@@ -12,7 +12,7 @@ try {
 let dmt = parseInt(txt)
 let infinityserver = dmt
 let pjk = Math.ceil(dmt * pajak)
-exoticoserver += pjk
+infinityserver += pjk
 if (infinityserver < 100) throw `᥀·࣭࣪̇˖⚠️◗ 𝙀𝙡 𝙣𝙪𝙢𝙚𝙧𝙤 𝙙𝙚 𝙨𝙚𝙧𝙫𝙞𝙙𝙤𝙧𝙚𝙨 𝙩𝙞𝙚𝙣𝙚 𝙪𝙣 𝙡𝙞𝙢𝙞𝙩𝙚 𝙙𝙚 *100*, 𝙞𝙣𝙩𝙚𝙣𝙩𝙖𝙡𝙤 𝙙𝙚 𝙣𝙪𝙚𝙫𝙤.`
 let users = global.db.data.users
 users[who].infinityserver += dmt
