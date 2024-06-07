@@ -155,7 +155,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       wasp: '@0',
       me: conn.getName(conn.user.jid),
       npmname: _package.name,
-      greeting: global.saludo,
       version: _package.version,
       sbot: (conn.user.jid == global.conn.user.jid ? '' : `✰્᭄͜͡ 🆂︎ᴏʏ sᴜʙʙᴏᴛ ᴅᴇ:\n✰્᭄͜͡ Wa.me/${global.conn.user.jid.split`@`[0]}`), 
       npmdesc: _package.description,
