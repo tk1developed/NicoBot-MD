@@ -23,25 +23,25 @@ await fs.unlink(path.join(sessionPath, file));
 filesDeleted++;
 console.log(`⚠️ Eliminacion session (PreKey) que provocan el undefined el chat`)}}}*/
 if (chat.detect && m.messageStubType == 21) {
-await this.sendMessage(m.chat, { text: lenguajeGB['smsAvisoAG']() + mid.smsAutodetec1(usuario, m), mentions: [m.sender], mentions: [...groupAdmins.map(v => v.id)] }, { quoted: fkontak })   
+await this.sendMessage(m.chat, { text: `12` (usuario, m), mentions: [m.sender], mentions: [...groupAdmins.map(v => v.id)] }, { quoted: fkontak })   
 } else if (chat.detect && m.messageStubType == 22) {
-await this.sendMessage(m.chat, { text: lenguajeYL['smsAvisoIIG']() + mid.smsAutodetec2(usuario, groupMetadata), mentions: [m.sender] }, { quoted: fkontak })  
+await this.sendMessage(m.chat, { text: `78` (usuario, groupMetadata), mentions: [m.sender] }, { quoted: fkontak })  
 } else if (chat.detect && m.messageStubType == 23) {
-await this.sendMessage(m.chat, { text: lenguajeYL['smsAvisoIIG']() + mid.smsAutodetec5(groupMetadata, usuario), mentions: [m.sender] }, { quoted: fkontak }) 
+await this.sendMessage(m.chat, { text: `09` (groupMetadata, usuario), mentions: [m.sender] }, { quoted: fkontak }) 
 } else if (chat.detect && m.messageStubType == 24) {
-await this.sendMessage(m.chat, { text: lenguajeYL['smsAvisoIIG']() + mid.smsAutodetec3(usuario, m), mentions: [m.sender] }, { quoted: fkontak }) 
+await this.sendMessage(m.chat, { text: `65` (usuario, m), mentions: [m.sender] }, { quoted: fkontak }) 
 } else if (chat.detect && m.messageStubType == 25) {
-await this.sendMessage(m.chat, { text: lenguajeYL['smsAvisoIIG']() + mid.smsAutodetec4(usuario, m, groupMetadata), mentions: [m.sender] }, { quoted: fkontak })
+await this.sendMessage(m.chat, { text: `67` (usuario, m, groupMetadata), mentions: [m.sender] }, { quoted: fkontak })
 } else if (chat.detect && m.messageStubType == 26) {
-await this.sendMessage(m.chat, { text: lenguajeYL['smsAvisoIIG']() + mid.smsAutodetec6(m), mentions: [m.sender] }, { quoted: fkontak })
+await this.sendMessage(m.chat, { text: `0989` (m), mentions: [m.sender] }, { quoted: fkontak })
 } else if (chat.detect && m.messageStubType == 29) {
-await this.sendMessage(m.chat, { text: mid.smsAutodetec7(m, usuario), mentions: [m.sender, m.messageStubParameters[0], ...groupAdmins.map(v => v.id)] }, { quoted: fkontak }) 
+await this.sendMessage(m.chat, { text: `#@` (m, usuario), mentions: [m.sender, m.messageStubParameters[0], ...groupAdmins.map(v => v.id)] }, { quoted: fkontak }) 
 } else if (chat.detect && m.messageStubType == 30) {
-await this.sendMessage(m.chat, { text: mid.smsAutodetec8(m, usuario), mentions: [m.sender, m.messageStubParameters[0], ...groupAdmins.map(v => v.id)] }, { quoted: fkontak }) 
+await this.sendMessage(m.chat, { text: `..` (m, usuario), mentions: [m.sender, m.messageStubParameters[0], ...groupAdmins.map(v => v.id)] }, { quoted: fkontak }) 
 } else if (chat.detect && m.messageStubType == 72) {
-await this.sendMessage(m.chat, { text: lenguajeYL['smsAvisoIIG']() + mid.smsAutodetec9(usuario, m), mentions: [m.sender] }, { quoted: fkontak })
+await this.sendMessage(m.chat, { text: `***` (usuario, m), mentions: [m.sender] }, { quoted: fkontak })
 } else if (chat.detect && m.messageStubType == 123) {
-await this.sendMessage(m.chat, { text: lenguajeYL['smsAvisoIIG']() + mid.smsAutodetec10(usuario, m), mentions: [m.sender] }, { quoted: fkontak })
+await this.sendMessage(m.chat, { text: `**` (usuario, m), mentions: [m.sender] }, { quoted: fkontak })
 } else {
 //console.log({messageStubType: m.messageStubType,
 //messageStubParameters: m.messageStubParameters,
