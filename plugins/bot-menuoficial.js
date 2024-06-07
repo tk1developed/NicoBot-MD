@@ -18,7 +18,7 @@ let tags = {
   'tools': 'H E R R A M I E N T A S', 
   'anime': 'A N I M E', 
   'nsfw': 'N S F W +18', 
-  'owner': 'O W N E R', */
+  'owner': 'O W N E R', 
 }
 const defaultMenu = {
   before: `┏━━━━━━━━━━━━━━━━━━┓
