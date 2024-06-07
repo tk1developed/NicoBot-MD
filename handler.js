@@ -981,8 +981,7 @@ global.db.data.chats[m.chat] = {}
 if (chat) {
 if (!('isBanned' in chat)) chat.isBanned = false         
 if (!('welcome' in chat)) chat.welcome = true 
-if (!('detect' in chat)) chat.detect = false          
-if (!('detect2' in chat)) chat.detect2 = true               
+if (!('detect' in chat)) chat.detect = true                 
 if (!('sWelcome' in chat)) chat.sWelcome = ''          
 if (!('sBye' in chat)) chat.sBye = ''                    
 if (!('sPromote' in chat)) chat.sPromote = ''             
@@ -1011,7 +1010,7 @@ if (!('reaction' in chat)) chat.reaction = true
 if (!('viewonce' in chat)) chat.viewonce = false       
 if (!('modoadmin' in chat)) chat.modoadmin = false    
 if (!('antitoxic' in chat)) chat.antitoxic = false
-if (!('game' in chat)) chat.game = true
+if (!('game' in chat)) chat.game = false
 if (!('simi' in chat)) chat.simi = false
 if (!('antiTraba' in chat)) chat.antiTraba = false
 if (!('autolevelup' in chat))  chat.autolevelup = false
@@ -1020,8 +1019,7 @@ if (!isNumber(chat.expired)) chat.expired = 0
 global.db.data.chats[m.chat] = {
 isBanned: false,
 welcome: true,
-detect: false,
-detect2: true,
+detect: true,
 sWelcome: '',
 sBye: '',
 sPromote: '',
@@ -1050,7 +1048,7 @@ reaction: true,
 viewonce: false,
 modoadmin: false,
 antitoxic: false,
-game: true,  
+game: false,  
 simi: false,
 antiTraba: false,
 autolevelup: false,
