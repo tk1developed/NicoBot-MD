@@ -2,6 +2,7 @@ let WAMessageStubType = (await import(global.baileys)).default
 import { readdirSync, unlinkSync, existsSync, promises as fs, rmSync } from 'fs';
 import path from 'path';
 
+
 let handler = m => m
 handler.before = async function (m, { conn, participants, groupMetadata}) {
 
@@ -23,25 +24,25 @@ await fs.unlink(path.join(sessionPath, file));
 filesDeleted++;
 console.log(`⚠️ Eliminacion session (PreKey) que provocan el undefined el chat`)}}}*/
 if (chat.detect && m.messageStubType == 21) {
-await this.sendMessage(m.chat, { text: `12`, mentions: [m.sender], mentions: [...groupAdmins.map(v => v.id)] }, { quoted: fkontak })   
+await this.sendMessage(m.chat, { text: `` + wm(usuario, m), mentions: [m.sender], mentions: [...groupAdmins.map(v => v.id)] }, { quoted: fkontak })   
 } else if (chat.detect && m.messageStubType == 22) {
-await this.sendMessage(m.chat, { text: `78`, groupMetadata), mentions: [m.sender] }, { quoted: fkontak })  
+await this.sendMessage(m.chat, { text: `` + wm(usuario, groupMetadata), mentions: [m.sender] }, { quoted: fkontak })  
 } else if (chat.detect && m.messageStubType == 23) {
-await this.sendMessage(m.chat, { text: `09`, mentions: [m.sender] }, { quoted: fkontak }) 
+await this.sendMessage(m.chat, { text: `` + wm(groupMetadata, usuario), mentions: [m.sender] }, { quoted: fkontak }) 
 } else if (chat.detect && m.messageStubType == 24) {
-await this.sendMessage(m.chat, { text: `65`, mentions: [m.sender] }, { quoted: fkontak }) 
+await this.sendMessage(m.chat, { text: `` + wm(usuario, m), mentions: [m.sender] }, { quoted: fkontak }) 
 } else if (chat.detect && m.messageStubType == 25) {
-await this.sendMessage(m.chat, { text: `67`, groupMetadata), mentions: [m.sender] }, { quoted: fkontak })
+await this.sendMessage(m.chat, { text: `` + wm(usuario, m, groupMetadata), mentions: [m.sender] }, { quoted: fkontak })
 } else if (chat.detect && m.messageStubType == 26) {
-await this.sendMessage(m.chat, { text: `0989`, mentions: [m.sender] }, { quoted: fkontak })
+await this.sendMessage(m.chat, { text: `` + wm(m), mentions: [m.sender] }, { quoted: fkontak })
 } else if (chat.detect && m.messageStubType == 29) {
-await this.sendMessage(m.chat, { text: `#@`, mentions: [m.sender, m.messageStubParameters[0], ...groupAdmins.map(v => v.id)] }, { quoted: fkontak }) 
+await this.sendMessage(m.chat, { text: wm(m, usuario), mentions: [m.sender, m.messageStubParameters[0], ...groupAdmins.map(v => v.id)] }, { quoted: fkontak }) 
 } else if (chat.detect && m.messageStubType == 30) {
-await this.sendMessage(m.chat, { text: `..`, mentions: [m.sender, m.messageStubParameters[0], ...groupAdmins.map(v => v.id)] }, { quoted: fkontak }) 
+await this.sendMessage(m.chat, { text: wm(m, usuario), mentions: [m.sender, m.messageStubParameters[0], ...groupAdmins.map(v => v.id)] }, { quoted: fkontak }) 
 } else if (chat.detect && m.messageStubType == 72) {
-await this.sendMessage(m.chat, { text: `***`, mentions: [m.sender] }, { quoted: fkontak })
+await this.sendMessage(m.chat, { text: `` + wm(usuario, m), mentions: [m.sender] }, { quoted: fkontak })
 } else if (chat.detect && m.messageStubType == 123) {
-await this.sendMessage(m.chat, { text: `**`, mentions: [m.sender] }, { quoted: fkontak })
+await this.sendMessage(m.chat, { text: `` + wm(usuario, m), mentions: [m.sender] }, { quoted: fkontak })
 } else {
 //console.log({messageStubType: m.messageStubType,
 //messageStubParameters: m.messageStubParameters,
