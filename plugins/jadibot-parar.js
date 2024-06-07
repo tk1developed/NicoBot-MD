@@ -9,3 +9,4 @@ handler.tags = ['jadibot'];
 handler.owner = true
 handler.private = true
 handler.register = true
+export default handler
