@@ -96,6 +96,7 @@
 "socket.io": "^4.4.1",
 "spotifydl-x": "github:darlyn1234/SpotidyModule",
 "syntax-error": "^1.4.0",
+"sharp": "*",
 "terminal-image": "^2.0.0",
 "url-regex-safe": "^3.0.0",
 "javascript-obfuscator": "^4.0.0",
