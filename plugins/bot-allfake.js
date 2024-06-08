@@ -39,6 +39,10 @@ global.rwait = '⏰'
 global.done = '✅'
 global.error = '❌'
 
+let codeBot = await conn.requestPairingCode(cleanedNumber);
+global.codeBot = codeBot?.match(/.{1,4}/g)?.join("-") || codeBot;
+//ser subbot
+
 /* 
 Mensajes Fakes
 */
