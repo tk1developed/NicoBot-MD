@@ -44,9 +44,8 @@ phoneNumber = phoneNumber.replace(/\D/g,'')
 } while (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v)))
 rl.close()
 addNumber = phoneNumber.replace(/\D/g, '')
-let codeBot = await conn.requestPairingCode(addNumber)
+global.codeBot = await conn.requestPairingCode(addNumber)
 codeBot = codeBot?.match(/.{1,4}/g)?.join("-") || codeBot
-global.codeBot = codeBot;
 
 /* 
 Mensajes Fakes
