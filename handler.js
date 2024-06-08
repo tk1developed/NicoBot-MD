@@ -999,7 +999,7 @@ if (!('antitoxic' in chat)) chat.antitoxic = false
 if (!('game' in chat)) chat.game = false
 if (!('simi' in chat)) chat.simi = false
 if (!('antiTraba' in chat)) chat.antiTraba = false
-if (!('autolevelup' in chat))  chat.autolevelup = false
+if (!('autolevelup' in chat))  chat.autolevelup = true
 if (!isNumber(chat.expired)) chat.expired = 0
 } else
 global.db.data.chats[m.chat] = {
@@ -1037,7 +1037,7 @@ antitoxic: false,
 game: false,  
 simi: false,
 antiTraba: false,
-autolevelup: false,
+autolevelup: true,
 expired: 0,
 }
 let settings = global.db.data.settings[this.user.jid]
