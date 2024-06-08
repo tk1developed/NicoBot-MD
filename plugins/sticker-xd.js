@@ -17,6 +17,5 @@ export default handler
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 
 const s = [
-''
-'' 
+'https://telegra.ph/file/1a9f534d53669c6e1686f.jpg'
 ];  
