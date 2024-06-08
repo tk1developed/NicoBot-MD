@@ -17,7 +17,7 @@ let buffer = Buffer.from([])
 for await (const chunk of media) {
 buffer = Buffer.concat([buffer, chunk])}
 const fileSize = formatFileSize(msg[type].fileLength)
-const description = `👺 𝘘𝘶𝘦 𝘪𝘯𝘵𝘦𝘯𝘵𝘢𝘴 𝘰𝘤𝘶𝘭𝘵𝘢𝘳?????`.trim()
+const description = `😎 *MASTER YO VEO TODO AQUÍ*`.trim()
 if (/image|video/.test(type)) return await conn.sendFile(m.chat, buffer, type == 'imageMessage' ? 'error.jpg' : 'error.mp4', description, m, false, { mentions: [m.sender] })
 if (/audio/.test(type)) { 
 await conn.reply(m.chat, description, m, { mentions: [m.sender] }) 
