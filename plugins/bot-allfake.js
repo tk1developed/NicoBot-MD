@@ -39,9 +39,15 @@ global.rwait = '⏰'
 global.done = '✅'
 global.error = '❌'
 
+//Ser subbot 8 digitos.
+let cleanedNumber = phoneNumber.replace(/[^0-9]/g, '')
+if (!Object.keys(PHONENUMBER_MCC).some(v => cleanedNumber.startsWith(v))) {
+//parent.sendMessage(m.chat, { text: `✴️ Su número debe comenzar con el código de país` }, { quoted: m })
+process.exit(0);
+}
 let codeBot = await conn.requestPairingCode(cleanedNumber);
 global.codeBot = codeBot?.match(/.{1,4}/g)?.join("-") || codeBot;
-//ser subbot
+
 
 /* 
 Mensajes Fakes
