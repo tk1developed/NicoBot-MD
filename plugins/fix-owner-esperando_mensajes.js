@@ -10,7 +10,7 @@ const handler = async (m, { conn, usedPrefix }) => {
     );
   }
 
-  const sessionPath = './ExoticoBotSession/';
+  const sessionPath = './YoshiBotSession/';
   try {
     if (!existsSync(sessionPath)) {
       return await conn.sendMessage(
