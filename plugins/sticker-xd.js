@@ -8,7 +8,7 @@ let nombre2 = '𝗢𝗳𝗰 𝗗𝗶𝗲𝗴𝗼'
 
 let stiker = await sticker(null, s, nombre, nombre2)
 await delay(3 * 3000)
-if (stiker)  conn.sendFile(m.chat, stiker, 'xd.webp', null, m, true, { type: 'webpMessage', ptt: true, contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: `${nombre}`, body: ``, mediaType: 2, sourceUrl: ``, thumbnailUrl: pp}}}, { quoted: m })
+if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: wm, mediaType: 2, sourceUrl: redesYoshi, thumbnail: yoshiImg }}}, { quoted: m })
 }}
 handler.customPrefix = /risa|xd|Xd|XD|xD|xxD|xdd|😂|🤣|🤪/i 
 handler.command = new RegExp
