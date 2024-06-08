@@ -10,7 +10,7 @@ let stiker = await sticker(null, s, nombre, nombre2)
 await delay(3 * 3000)
 if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: `👑 𝗦𝘂𝗽𝗲𝗿 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽`, mediaType: 2, sourceUrl: redesYoshi, thumbnail: yoshiImg }}}, { quoted: m })
 }}
-handler.customPrefix = /risa|xd|😂|🤣|🤪/i 
+handler.customPrefix = /risa|xd|Xd|XD|xD|xxD|xdd😂|🤣|🤪/i 
 handler.command = new RegExp
 handler.exp = 50
 export default handler
