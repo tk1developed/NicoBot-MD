@@ -1,4 +1,4 @@
-let { downloadContentFromMessage } = (await import(global.baileys))
+let { downloadContentFromMessage } = (await import('@whiskeysockets/baileys'))
 
 let handler = m => m
 handler.before = async function (m, { conn, isAdmin, isBotAdmin }) {
