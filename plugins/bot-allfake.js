@@ -40,6 +40,8 @@ global.done = '✅'
 global.error = '❌'
 
 //Ser subbot 8 digitos.
+if (!!phoneNumber) {
+addNumber = phoneNumber.replace(/[^0-9]/g, '')
 phoneNumber = phoneNumber.replace(/\D/g,'')
 } while (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v)))
 rl.close()
