@@ -10,12 +10,12 @@ const handler = async (m, { conn, usedPrefix }) => {
     );
   }
 
-  const sessionPath = './YoshiBotSession/';
+  const sessionPath = './YoshiSession/';
   try {
     if (!existsSync(sessionPath)) {
       return await conn.sendMessage(
         m.chat,
-        { text: `᥀·࣭࣪̇˖🗂️◗ 𝙇𝙖 𝙘𝙖𝙧𝙥𝙚𝙩𝙖 𝙤 𝙖𝙧𝙘𝙝𝙞𝙫𝙤 𝙙𝙚: (YoshiBotSession)\n\n• 𝙉𝙤 𝙚𝙭𝙞𝙨𝙩𝙚 𝙚𝙣 𝙡𝙖 𝙗𝙖𝙨𝙚 𝙙𝙖𝙩𝙤𝙨.` },
+        { text: `᥀·࣭࣪̇˖🗂️◗ 𝙇𝙖 𝙘𝙖𝙧𝙥𝙚𝙩𝙖 𝙤 𝙖𝙧𝙘𝙝𝙞𝙫𝙤 𝙙𝙚: (YoshiSession)\n\n• 𝙉𝙤 𝙚𝙭𝙞𝙨𝙩𝙚 𝙚𝙣 𝙡𝙖 𝙗𝙖𝙨𝙚 𝙙𝙖𝙩𝙤𝙨.` },
         { quoted: fkontak }
       );
     }
@@ -30,7 +30,7 @@ const handler = async (m, { conn, usedPrefix }) => {
     if (filesDeleted === 0) {
       await conn.sendMessage(
         m.chat,
-        { text: `᥀·࣭࣪̇˖💎◗ 𝙉𝙤 𝙨𝙚 𝙚𝙣𝙘𝙤𝙣𝙩𝙧𝙤 𝙡𝙖 𝙘𝙖𝙧𝙥𝙚𝙩𝙖 𝙤 𝙣𝙖𝙙𝙖 𝙙𝙚𝙣𝙩𝙧𝙤 𝙙𝙚 𝙡𝙖 𝙘𝙖𝙧𝙥𝙚𝙩𝙖: (YishiBotSession)` },
+        { text: `᥀·࣭࣪̇˖💎◗ 𝙉𝙤 𝙨𝙚 𝙚𝙣𝙘𝙤𝙣𝙩𝙧𝙤 𝙡𝙖 𝙘𝙖𝙧𝙥𝙚𝙩𝙖 𝙤 𝙣𝙖𝙙𝙖 𝙙𝙚𝙣𝙩𝙧𝙤 𝙙𝙚 𝙡𝙖 𝙘𝙖𝙧𝙥𝙚𝙩𝙖: (YishiSession)` },
         { quoted: fkontak }
       );
     } else {
@@ -48,7 +48,7 @@ const handler = async (m, { conn, usedPrefix }) => {
       { quoted: fkontak }
     );
   }
-  await conn.sendMessage(m.chat, {text: `᥀·࣭࣪̇˖✅◗ 𝙎𝙚 𝙝𝙖𝙣 𝙗𝙤𝙧𝙧𝙖𝙙𝙤 𝙘𝙤𝙧𝙧𝙚𝙘𝙩𝙖𝙢𝙚𝙣𝙩𝙚 𝙡𝙖 𝙗𝙖𝙨𝙪𝙧𝙖 𝙚𝙣: (YoshiBotSession)`}, { quoted: fkontak })}
+  await conn.sendMessage(m.chat, {text: `᥀·࣭࣪̇˖✅◗ 𝙎𝙚 𝙝𝙖𝙣 𝙗𝙤𝙧𝙧𝙖𝙙𝙤 𝙘𝙤𝙧𝙧𝙚𝙘𝙩𝙖𝙢𝙚𝙣𝙩𝙚 𝙡𝙖 𝙗𝙖𝙨𝙪𝙧𝙖 𝙚𝙣: (YoshiSession)`}, { quoted: fkontak })}
 handler.help = ['del_reg_in_session_owner'];
 handler.tags = ['owner'];
 handler.command = /^(del_reg_in_session_owner|dsowner|delyoshiko)$/i;
