@@ -1,4 +1,4 @@
-import fetch from 'node-fetch'  
+/*  import fetch from 'node-fetch'  
 const isLinkTik = /tiktok.com/i 
 const isLinkYt = /youtube.com|youtu.be/i 
 const isLinkTel = /telegram.com/i 
@@ -92,4 +92,4 @@ return m.reply(`『✦』Las restricciones no estan activas.`)
 }}
 return !0
 }
-export default handler
+export default handler */
