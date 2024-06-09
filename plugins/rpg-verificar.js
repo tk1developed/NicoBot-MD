@@ -36,7 +36,7 @@ m.react('📩')
 • 245 Experiencia 💸
 • 12 Tokens 🪙
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-Usuarios Registrados: ${rtotalreg}`, m, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: '✅️  R E G I S T R O  ✅️',  body: '👑 Registro Completado', previewType: 0, thumbnail: fotoperfil, sourceUrl: canalesYoshi}}})
+Usuarios Registrados: ${rtotalreg}`, m, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: '✅️  R E G I S T R O  ✅️',  body: '👑 Registro Completado', previewType: 0, thumbnail: yoshiImg, sourceUrl: canalesYoshi}}})
 await m.reply(`${sn}`)}
 handler.help = ['reg']
 handler.tags = ['rg']
