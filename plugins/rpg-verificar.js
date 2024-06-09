@@ -8,7 +8,7 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
   if (user.registered === true) throw `🏷 𝐄𝐑𝐑𝐎𝐑 🏷 *Ya ᥱs𝗍ᥲ́s registrado*\n\n¿𝗊ᥙіᥱrᥱ ᥎᥆ᥣ᥎ᥱr ᥲ rᥱgіs𝗍rᥲrsᥱ?\n\n✏️ ᥙsᥱ ᥱs𝗍ᥱ ᥴ᥆mᥲᥒძ᥆ para *eliminar su registro*\n*.unreg* <ᥒᥙ́mᥱr᥆ ძᥱ serie>`
   if (!Reg.test(text)) throw `*✏️ Formato incorrecto*\n\n📩 Uso del comamdo: *${usedPrefix + command} nombre.edad*\n💡 Ejemplo : *${usedPrefix + command}* ${name2}.18`
   let [_, name, splitter, age] = text.match(Reg)
-  if (!name) throw '*📝 El nombre no puede estar vacío*''
+  if (!name) throw '*📝 El nombre no puede estar vacío*'
   if (!age) throw '*📝 La edad no puede estar vacía*'
   if (name.length >= 30) throw '*⚠️ El nombre es demasiado largo*' 
   age = parseInt(age)
@@ -36,7 +36,7 @@ m.react('📩')
 • 245 Experiencia 💸
 • 12 Tokens 🪙
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-Usuarios Registrados: ${rtotalreg}`, m, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: '✅️  R E G I S T R O  ✅️',  body: '👑 Registro Completado', previewType: 0, thumbnail: yoshiImg, sourceUrl: canalesYoshi}}})
+Usuarios Registrados: ${rtotalreg}`, m, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: '✅️  R E G I S T R O  ✅️',  body: '👑 Registro Completado', previewType: 0, thumbnail: fotoperfil, sourceUrl: canalesYoshi}}})
 await m.reply(`${sn}`)}
 handler.help = ['reg']
 handler.tags = ['rg']
