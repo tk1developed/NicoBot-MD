@@ -22,14 +22,11 @@ global.db.data.users[m.sender].exp += 245
 global.db.data.users[m.sender].joincount += 5
 let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)        
 m.react('📩') 
-let img = yoshiImg;
 let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
-「💭」𝗡𝗼𝗺𝗯𝗿𝗲:
-${name}
+「💭」𝗡𝗼𝗺𝗯𝗿𝗲: ${name}
 
-「✨️」𝗘𝗱𝗮𝗱:
-${age} años
+「✨️」𝗘𝗱𝗮𝗱: ${age} años
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 「🎁」𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:
 • 10 Diamantes 💎
@@ -44,7 +41,7 @@ contextInfo: {
 externalAdReply: {
 title: '⊱『✅𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥✅』⊰',
 body: wm, 
-thumbnaiUrl: img, 
+thumbnaiUrl: yoshiImg, 
 sourceUrl: canalesYoshi,
 mediaType: 1,
 showAdAttribution: true,
