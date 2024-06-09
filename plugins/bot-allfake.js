@@ -56,6 +56,8 @@ var facebook = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL'
 
 global.redesYoshi = [canal, canal2, canal3, grupofb, git, youtube, github, facebook].getRandom()
 
+global.canalesYoshi = [canal, canal2, canal3].getRandom()
+
 var img = fs.readFileSync('./media/menus/Alsombra.jpg');
 var img2 = fs.readFileSync('./media/menus/Yoshi.jpg');
 var img3 = fs.readFileSync('./media/menus/ImagenYoshi.jpg');
