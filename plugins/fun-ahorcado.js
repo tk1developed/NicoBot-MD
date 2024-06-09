@@ -72,7 +72,7 @@ let intentos = intentosMaximos
 let mensaje = ocultarPalabra(palabra, letrasAdivinadas)
 gam.set(m.sender, { palabra, letrasAdivinadas, intentos })
 let ejemplo = `¡Bienvenido al juego del ahorcado! Adivina la palabra:\n\n${mensaje}\n\nIntentos restantes: ${intentos}`
-let instrucciones = `Para adivinar letras, envía una letra a la vez. Por ejemplo, si crees que la letra "a" está en la palabra, envía "a". Si adivinas incorrectamente 6 veces, pierdes el juego.\n\n*NOTA:* *• Lamentamos informarles que este juego no da xp ni coins, solo se hizo con el fin de entretener y que sea usado*`
+let instrucciones = `Para adivinar letras, envía una letra a la vez. Por ejemplo, si crees que la letra "a" está en la palabra, envía "a". Si adivinas incorrectamente 6 veces, pierdes el juego.\n\n*NOTA:* *• Lamentamos informarles que este juego no da xp ni yoshicoins, solo se hizo con el fin de entretener y que sea usado*`
 conn.reply(m.chat, ejemplo + "\n\n" + instrucciones, m)
 }
 
