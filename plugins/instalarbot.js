@@ -2,7 +2,7 @@ var handler  = async (m, { conn }) => {
 
 let texto = `📮 *Instalación de YoshikoBot*
 
-⬡ Dudas: Wa.me/573012482597
+⬡ Dudas: Wa.me/573218138672
 ⬡ Tutoríal: https://youtu.be/9-v4XwMTJYE?si=veqJSgJ4bKi5kSjB
 
 *Comandos de instalación via Termux ✏️*
