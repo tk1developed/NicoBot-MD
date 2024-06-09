@@ -8,6 +8,7 @@ import fs from 'fs';
 import chalk from 'chalk';
 //import mddd5 from 'md5';
 import ws from 'ws';
+import './plugins/bot-allfake.js'
 
 /**
  * @type {import('@adiwajshing/baileys')}  
