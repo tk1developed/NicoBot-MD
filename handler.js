@@ -1252,7 +1252,7 @@ if (xp > 2000)
 m.reply('Exp limit') 
 else               
 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-this.sendMessage(m.chat, {text: `❮💰❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝗕𝗼𝘁𝗖𝗼𝗶𝗻𝗱 𝗽𝗮𝗿𝗮 𝘂𝗱𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
+this.sendMessage(m.chat, {text: `❮💰❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝗕𝗼𝘁𝗖𝗼𝗶𝗻𝘀 𝗽𝗮𝗿𝗮 𝘂𝗱𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
 continue     
 }
 
@@ -1264,7 +1264,7 @@ continue
 
 
 if (plugin.level > _user.level) {
-this.sendMessage(m.chat, {text: `❮📣❯ 𝙍𝙚𝙦𝙪𝙞𝙚𝙧𝙚𝙨 𝙚𝙡 𝙣𝙞𝙫𝙚𝙡: *${plugin.level}*\n\n• 𝙏𝙪 𝙣𝙞𝙫𝙚𝙡 𝙖𝙘𝙩𝙪𝙖𝙡 𝙚𝙨: *${_user.level}*\n\n• 𝙐𝙨𝙖 𝙚𝙨𝙩𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤 𝙥𝙖𝙧𝙖 𝙨𝙪𝙗𝙞𝙧 𝙙𝙚 𝙣𝙞𝙫𝙚𝙡:\n*${usedPrefix}levelup*`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
+this.sendMessage(m.chat, {text: `❮📣❯ 𝗥𝗲𝗾𝘂𝗶𝗲𝗿𝗲 𝗲𝗹 𝗻𝗶𝘃𝗲𝗹: *${plugin.level}*\n\n• 𝗧𝘂 𝗻𝗶𝘃𝗲𝗹 𝗮𝗰𝘁𝘂𝗮𝗹 𝗲𝘀: *${_user.level}*\n\n• 𝗨𝘀𝗮 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝗽𝗮𝗿𝗮 𝘀𝘂𝗯𝗶𝗿 𝗱𝗲 𝗻𝗶𝘃𝗲𝗹:\n*${usedPrefix}levelup*`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
 continue
 }
 let extra = {
@@ -1319,10 +1319,10 @@ await plugin.after.call(this, m, extra)
 console.error(e)
 }}
 if (m.limit)
-m.reply('❮💎❯ 𝙂𝙖𝙨𝙩𝙖𝙨𝙩𝙚 ' + m.limit + ' 𝙙𝙚 𝘿𝙞𝙖𝙢𝙖𝙣𝙩𝙚(𝙨)')
+m.reply('❮💎❯ 𝗚𝗮𝘀𝘁𝗮𝘀𝘁𝗲 ' + m.limit + ' 𝗱𝗲 𝗗𝗶𝗮𝗺𝗮𝗻𝘁𝗲(𝘀)')
 }
 if (m.money)
-m.reply('❮💰❯ 𝙂𝙖𝙨𝙩𝙖𝙨𝙩𝙚 ' + m.money + ' 𝙙𝙚 𝘽𝙤𝙩𝘾𝙤𝙞𝙣(𝙨)')  
+m.reply('❮💰❯ 𝗚𝗮𝘀𝘁𝗮𝘀𝘁𝗲 ' + m.money + ' 𝗱𝗲 𝗕𝗼𝘁𝗖𝗼𝗶𝗻(𝘀)')  
 break
 }}} catch (e) {
 console.error(e)
@@ -1381,7 +1381,7 @@ let settingsREAD = global.db.data.settings[this.user.jid] || {}
 if (opts['autoread']) await this.readMessages([m.key])
 if (settingsREAD.autoread2) await this.readMessages([m.key])  
 
-if (db.data.chats[m.chat].reaction && m.text.match(/(ción|dad|aje|oso|izar|yoshi|yoshiko|yoshii|na|ho|qu|a|ja|js|mente|pero|tion|age|ous|ate|and|but|ify)/gi)) {
+if (db.data.chats[m.chat].reaction && m.text.match(/(ción|dad|aje|oso|izar|yoshi|yoshiko|yosh|na|ho|qu|a|ja|js|mente|pero|tion|age|ous|ate|and|but|ify)/gi)) {
 let emot = pickRandom(["🎉", "🪐", "🌌", "🔄", "✅", "🍾", "🍁", "🛡️", "🤖", "⬇️", "🌆", "🎋", "👀", "🗂️", "🏙️", "🎬", "🥃", "📦", "🎶", "🍹", "☎️", "⏱️", "💻", "🧊", "⛔", "🍵", "🏆", "🗃️", "📤", "❕", "👑", "💎", "🔇", "🎵", "🔈", "🔉", "🧢", "🔊", "📢", "📣", "📯", "🔔", "🔕", "🎧", "📲", "🔋", "💽", "📸", "📷", "📚", "📘", "📗", "📖", "💵", "💶", "💷", "💸", "💰", "💴", "🏷️", "📑", "💳", "🧾", "✉️", "📩", "📫", "🫣", "📉", "💼", "💹", "📥", "🔒", "🔓", "🔏", "🔐", "🔑", "⚔️", "🦯", "⚒️", "📈", "🗡️", "🎊", "🎁", "🏅", "🥇", "🥈", "🥉", "🎖️", "🏆", "🎗️", "🧿", "🔮", "🎰", "🕹️", "♟️", "🃏", "🎯", "🎲", "🧩", "🍷", "🍸", "🍺", "🧃", "☕", "🍮", "🍂", "🌵", "💩", "🌏", "🌐", "🌎", "🌍", "🌃", "🎡", "🌇", "🛰️", "🛸", "🇦🇷", "🇧🇷", "🇧🇾", "🇧🇼", "🏳️‍🌈", "🇨🇨", "🇪🇸", "🇲🇽", "🇺🇸", "⚠️", "🚫", "🚳", "🔞", "📵", "🚱", "🚭", "🚯", "☢️", "🥛", "🍿", "🧈", "🥫", "🍱", "🍣", "🍤", "🍲", "🌭", "🥪", "🌮", "🌯", "🥙", "🍔", "🍟", "🥓", "🥨", "🥐", "🥖", "🍞", "🍕", "🌶️", "🌽", "🥕", "🍅", "🥥", "🥑", "🍐", "🧄", "🍏", "🥞", "🧇", "🍖", "🍗", "🥩", "🥣"])
 if (!m.fromMe) return this.sendMessage(m.chat, { react: { text: emot, key: m.key }})
 }
@@ -1452,7 +1452,7 @@ mentionedJid:[user],
 "showAdAttribution": true,
 "renderLargerThumbnail": true,
 "thumbnail": apii.data, 
-"title": [wm, packname, '𝙔𝙤𝙨𝙝𝙞𝙠𝙤𝘽𝙤𝙩-𝙈𝘿'].getRandom(),
+"title": [wm, packname, '𝙔𝙤𝙨𝙝𝙞𝙠𝙤𝘽𝙤𝙩-𝙈𝘿 💫'].getRandom(),
 "containsAutoReply": true,
 "mediaType": 1, 
 sourceUrl: redesYoshi }}}, { quoted: fkontak2 })
@@ -1502,7 +1502,7 @@ if (!isAnticall) return
 for (let nk of callUpdate) { 
 if (nk.isGroup == false) {
 if (nk.status == "offer") {
-let callmsg = await this.reply(nk.from, `❮📣❯ 𝙃𝙤𝙡𝙖 *@${nk.from.split('@')[0]}*, 𝙡𝙖𝙨 ${nk.isVideo ? '𝙡𝙡𝙖𝙢𝙖𝙙𝙖𝙨' : '𝙫𝙞𝙙𝙚𝙤 𝙡𝙡𝙖𝙢𝙖𝙙𝙖𝙨'} 𝙣𝙤 𝙚𝙨𝙩𝙖𝙣 𝙥𝙚𝙧𝙢𝙞𝙩𝙞𝙙𝙖𝙨 𝙚𝙣 𝙚𝙨𝙩𝙚 𝙗𝙤𝙩.\n\n• 𝙀𝙣 𝙘𝙖𝙨𝙤 𝙙𝙚 𝙪𝙣 𝙚𝙧𝙧𝙤𝙧, 𝙘𝙤𝙣𝙩𝙖𝙘𝙩𝙖 𝙘𝙤𝙣 𝙚𝙡 𝙘𝙧𝙚𝙖𝙙𝙤𝙧:\n• ${creador}`, false, { mentions: [nk.from] })
+let callmsg = await this.reply(nk.from, `❮📣❯ 𝗛𝗼𝗹𝗮 *@${nk.from.split('@')[0]}*, 𝙡𝙖𝙨 ${nk.isVideo ? '𝗹𝗹𝗮𝗺𝗮𝗱𝗮𝘀' : '𝘃𝗶𝗱𝗲𝗼 𝗹𝗹𝗮𝗺𝗮𝗱𝗮𝘀'} 𝗻𝗼 𝗲𝘀𝘁𝗮𝗻 𝗽𝗲𝗿𝗺𝗶𝘁𝗶𝗱𝗮𝘀 𝗲𝗻 𝗲𝘀𝘁𝗲 𝗯𝗼𝘁.\n\n• 𝗘𝗻 𝗰𝗮𝘀𝗼 𝗱𝗲 𝘂𝗻 𝗲𝗿𝗿𝗼𝗿, 𝗰𝗼𝗻𝘁𝗮𝗰𝘁𝗮 𝗮𝗹 𝗽𝗿𝗼𝗽𝗶𝗲𝘁𝗮𝗿𝗶𝗼:\n• ${creador}`, false, { mentions: [nk.from] })
 //let data = global.owner.filter(([id, isCreator]) => id && isCreator)
 //await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
 await this.updateBlockStatus(nk.from, 'block')
@@ -1544,7 +1544,7 @@ global.dfail = (type, m, conn) => {
     restrict: '*🍍 ¡Esta Función Fué Deshabilitado Por Mi Desarrollador! 🍬*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🍫̸̷᮫ᨘ۬ׄ߭ᤢꫂꥈ Hola! ' + nombre, thumbnail: yoshiImg, sourceUrl: 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🍫̸̷᮫ᨘ۬ׄ߭ᤢꫂꥈ Hola! ' + nombre, thumbnail: yoshiImg, sourceUrl: canalesYoshi}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
