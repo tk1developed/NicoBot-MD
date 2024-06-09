@@ -67,7 +67,7 @@ return text;
 let handler = async (m, { conn, text, usedPrefix, command }) => {
 if (!text) throw `*Uso Correcto*\n\nEjemplo:\n${usedPrefix + command} save yours tear`
 try {
-m.react(rwai)
+m.react(rwait)
 let songInfo = await spotifyxv(text)
 if (!songInfo.length) throw `Titulo De La Musica Faltante\n- Ejemplo:\n ⊱ *${usedPrefix + command} Bellyache*`
 let res = songInfo[0]
