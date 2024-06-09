@@ -24,7 +24,7 @@ global.db.data.users[m.sender].exp += 245
 global.db.data.users[m.sender].joincount += 5
   let sn = createHash('md5').update(m.sender).digest('hex')
 m.react('📩')
-  await conn.reply(m.chat,  `✅️ *R E G I S T R O*
+  await conn.reply(m.chat,  `✅️ *R E G I S T R O - C O M P L E T O*
 
 • 💭 *Nombre:* ${name}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
