@@ -26,7 +26,7 @@
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=738341999&ref=master&geo=UsEast)
 ***
 
-- ### 💻 Instalacion Por Termux
+- ### 💻 Instalacion Manual Por Termux
 
 [![blog](https://img.shields.io/badge/Instalacion-Yoshiko-FFFF00?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/9-v4XwMTJYE?si=STdO2GwZR1GAmXfA)
@@ -49,6 +49,15 @@ yarn install && npm install
 ```
 ```bash
 npm start
+```
+
+- ### 💻 Instalacion Automatica Por Termux
+
+```bash
+termux-setup-storage
+```
+```bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Diego-YL-177/YoshikoBot-MD/master/yoshi.sh | bash
 ```
 
 - #### 🌀 Activar En Caso De Detenerse En Termux
