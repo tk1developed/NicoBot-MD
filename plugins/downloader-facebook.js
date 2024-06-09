@@ -1,87 +1,85 @@
-import fg from 'api-dylux';
-import fetch from 'node-fetch';
-import {savefrom, facebookdl, facebookdlv2} from '@bochilteam/scraper';
-import fbDownloader from 'fb-downloader-scrapper';
-import {facebook} from '@xct007/frieren-scraper';
-import axios from 'axios';
-const handler = async (m, {conn, args, command, usedPrefix}) => {
-if (!args[0]) return conn.reply(m.chat, `\n${usedPrefix + command} https://www.facebook.com/watch?v=636541475139`, fkontak, m)
-if (!args[0].match(/www.facebook.com|fb.watch/g)) return conn.reply(m.chat, `\n${usedPrefix + command} https://www.facebook.com/watch?v=636541475139*`, fkontak, m)
-try { 
-await conn.reply(m.chat, `Espere`, fkontak, m)
-const d2ata = await facebook.v1(args[0]);
-let r2es = '';
-if (d2ata.urls && d2ata.urls.length > 0) {
-r2es = `${d2ata.urls[0]?.hd || d2ata.urls[1]?.sd || ''}` 
+import fetch from 'node-fetch'
+import { facebook } from '@xct007/frieren-scraper'
+
+var handler = async (m, { conn, args, command, usedPrefix, text }) => {
+
+let vid
+const isCommand7 = /^(facebook|fb|facebookdl|fbdl)$/i.test(command)
+
+async function reportError(e) {
+await conn.reply(m.chat, `✏️ 𝙾𝙲𝚄𝚁𝚁𝙸𝙾 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁`, m, fake, )
+console.log(`✏️ 𝙴𝚁𝚁𝙾𝚁 𝙴𝙽: ${usedPrefix + command} ⚠️\n`)
+console.log(e)
 }
-conn.sendFile(m.chat, r2es, 'error.mp4', `✅\n${wm}`, m);
-} catch (err1) {
+
+switch (true) {   
+case isCommand7:
+if (!text) return conn.reply(m.chat, `✏️ *Ingrese un enlace de facebook*\n\nEjemplo, !fb https://fb.watch/kAOXy3wf2L/?mibextid=Nif5oz`, m, fake, )
+if (!args[0].match(/www.facebook.com|fb.watch|web.facebook.com|business.facebook.com|video.fb.com/g)) return conn.reply(m.chat, '✏️ *ᥒ᥆ ᥱs ᥙᥒ ᥱᥒᥣᥲᥴᥱ ᥎ᥲ́ᥣіძ᥆*', m, fake, )
+await conn.reply(m.chat, '✏️ 𝐄𝐬𝐩𝐞𝐫𝐞 𝐔𝐧 𝐌𝐨𝐦𝐞𝐧𝐭𝐨...', m, fake, )
+m.react('🕒')
+let messageType = checkMessageType(args[0])
+let message = ''
+switch (messageType) {
+case 'groups':
+message = `𝗩𝗶𝗱𝗲𝗼 𝗱𝗲 𝗴𝗿𝘂𝗽𝗼 𝗱𝗲 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 💫\n${}`
+break
+case 'reel':
+message = `𝗩𝗶𝗱𝗲𝗼 𝗱𝗲 𝗿𝗲𝗲𝗹𝘀 𝗱𝗲 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 💫\n${wm}`
+break
+case 'stories':
+message = `𝗩𝗶𝗱𝗲𝗼 𝗱𝗲 𝗵𝗶𝘀𝘁𝗼𝗿𝗶𝗮𝘀 𝗱𝗲 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 💫\n${wm}`
+break
+case 'posts':
+message = `𝗩𝗶𝗱𝗲𝗼 𝗱𝗲 𝗽𝗹𝘂𝗯𝗹𝗶𝗰𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗱𝗲 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 💫\n${wm}`
+break
+default:
+message = `𝗩𝗶𝗱𝗲𝗼 𝗱𝗲 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 💫\n${wm}`
+break
+}
 try {
-const req = await igeh(args[0])
-conn.sendMessage(m.chat, {video: {url: req.url_list}}, m)
-} catch (err1_2) {
+let res = await fetch(`https://api.lolhuman.xyz/api/facebook?apikey=BrunoSobrino&url=${args[0]}`)
+let _json = await res.json()
+vid = _json.result[0]
+if (vid == '' || !vid || vid == null) vid = _json.result[1]
+await conn.sendFile(m.chat, vid, 'error.mp4', `*${message}*`, m)
+} catch (error1) {
 try {
-const Rres = await fetch(`https://api.lolhuman.xyz/api/facebook?apikey=${lolkeysapi}&url=${args[0]}`);
-const Jjson = await Rres.json();
-let VIDEO = Jjson.result[0];
-if (VIDEO == '' || !VIDEO || VIDEO == null) VIDEO = Jjson.result[1];
-conn.sendFile(m.chat, VIDEO, 'error.mp4', `✅\n${wm}`, m);
-} catch (err2) {
+const d2ata = await facebook.v1(args[0])
+let r2es = ''
+if (d2ata.urls && d2ata.urls.length > 0) {
+r2es = `${d2ata.urls[0]?.hd || d2ata.urls[1]?.sd || ''}`
+}
+await conn.sendFile(m.chat, r2es, 'error.mp4', `*${message}*`, m)
+} catch (error2) {
 try {
-const ress = await fg.fbdl(args[0]);
-const urll = await ress.data[0].url;
-await conn.sendFile(m.chat, urll, 'error.mp4', `✅\n${wm}`, m);
-handler.limit = 3
-} catch (err3) {
-try {
-const res = await fbDownloader(args[0]);
-for (const result of res.download) {
-const ur = result.url;
-await conn.sendFile(m.chat, ur, 'error.mp4', `✅\n${wm}`, m);
-handler.limit = 3
-}} catch (err4) {
-try {
-const res3 = await fetch(`https://latam-api.vercel.app/api/facebookdl?apikey=nekosmic&q=${args[0]}`);
-const json = await res3.json();
-const url3 = await json.video;
-await conn.sendFile(m.chat, url3, 'error.mp4', `✅\n${wm}`, m);
-handler.limit = 3
-} catch (err5) {
-try {
-const {result} = await facebookdl(args[0]).catch(async (_) => await facebookdlv2(args[0])).catch(async (_) => await savefrom(args[0]));
-for (const {url, isVideo} of result.reverse()) await conn.sendFile(m.chat, url, `facebook.${!isVideo ? 'bin' : 'mp4'}`, `✅\n${wm}`, m);
-handler.limit = 3
-} catch (err6) {
-await conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, fkontak, m)
-console.log(`❗ error ❗`)
-console.log(err6)
-handler.limit = false
-}}}}}}}}
-handler.command = /^(facebook|fb|facebookdl|fbdl|facebook2|fb2|facebookdl2|fbdl2|facebook3|fb3|facebookdl3|fbdl3|facebook4|fb4|facebookdl4|fbdl4|facebook5|fb5|facebookdl5|fbdl5)$/i
-//handler.limit = 3 
+var get = await fetch(`https://api.botcahx.live/api/dowloader/fbdown?url=${args[0]}&apikey=QaepQXxR`)
+var js = await get.json()
+await conn.sendFile(m.chat, js.result.HD, 'error.mp4', `*${message}*`, m)
+} catch (e) {
+reportError(e)}
+}}}
+
+}
+handler.help = ['fb']
+handler.tags = ['descargas']
+handler.command = /^(facebook|fb|facebookdl|fbdl)$/i
+
+handler.register = true
+//handler.diamond = true
+
 export default handler
 
-async function igeh(url_media) {
-return new Promise(async (resolve, reject)=>{
-const BASE_URL = 'https://instasupersave.com/';
-try {
-const resp = await axios(BASE_URL);
-const cookie = resp.headers['set-cookie']; // get cookie from request
-const session = cookie[0].split(';')[0].replace('XSRF-TOKEN=', '').replace('%3D', '');
-const config = {method: 'post', url: `${BASE_URL}api/convert`, headers: {'origin': 'https://instasupersave.com', 'referer': 'https://instasupersave.com/pt/', 'sec-fetch-dest': 'empty', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'same-origin', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52', 'x-xsrf-token': session, 'Content-Type': 'application/json', 'Cookie': `XSRF-TOKEN=${session}; instasupersave_session=${session}`}, data: {url: url_media}};
-axios(config).then(function(response) {
-const ig = [];
-if (Array.isArray(response.data)) {
-response.data.forEach((post) => {
-ig.push(post.sd === undefined ? post.thumb : post.sd.url);
- });
-} else {
-ig.push(response.data.url[0].url);
+function checkMessageType(url) {
+if (url.includes('www.facebook.com')) {
+if (url.includes('/groups/')) {
+return 'groups'
+} else if (url.includes('/reel/')) {
+return 'reel'
+} else if (url.includes('/stories/')) {
+return 'stories'
+} else if (url.includes('/posts/')) {
+return 'posts'
+}}
+return 'default'
 }
-resolve({results_number: ig.length, url_list: ig});
-}).catch(function(error) {
-reject(error.message);
-});
-} catch (e) {
-reject(e.message);
-}})}
