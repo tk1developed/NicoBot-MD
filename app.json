@@ -1,38 +1,18 @@
 {
-  "name": "YoshikoBot-MD",
-  "website": "https://github.com/Diego-YL-177",
-  "description": "La Mejor Bot",
-  "repository": "https://github.com/Diego-YL-177/YoshikoBot-MD",
-  "logo": "https://raw.githubusercontent.com/Diego-YL-177/YoshikoBot-MD/master/src/pictures/heroku-icon.jpg",
-  "success_url": "https://github.com/Diego-YL-177/YoshikoBot-MD",
-  "keywords": [
-    "nodejs",
-    "heroku",
-    "bot",
-    "bots",
-    "bot",
-    "spanish",
-    "whatsapp",
-    "termux",
-    "shadow",
-    "multi-device",
-    "md",
-    "whatsappbot",
-    "oficial",
-    "whatsapp-md",
-    "yoshikobot-md",
-    "yoshikobot-md",
-    "yoshikobot-md"],
-  "image": "heroku/nodejs",
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
-    }    
- ]
+"name": "YoshikoBot-MD",
+"website": "https://github.com/Diego-YL-177",
+"description": "Super Bot WhatsApp",
+"repository": "https://github.com/Diego-YL-177/YoshikoBot-MD",
+"logo": "https://telegra.ph/file/b46f45b5b69f311db31c7.jpg",
+"success_url": "https://github.com/Diego-YL-177/YoshikoBot-MD",
+"keywords": [
+"nodejs", "heroku", "bot", "spanish", "english", "indonesian", "arab", "portuguese", "italian", "french", "whatsapp",
+"termux", "superbot", "multi-device", "md", "official", "javascript", "yoshikobot"],
+"image": "heroku/nodejs",
+"buildpacks": [
+{ "url": "heroku/nodejs" },
+{ "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest" },
+{ "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git" },
+{ "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick" }    
+]
 }
