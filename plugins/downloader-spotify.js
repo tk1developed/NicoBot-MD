@@ -69,7 +69,7 @@ if (!text) throw `*Uso Correcto*\n\nEjemplo:\n${usedPrefix + command} save yours
 try {
 m.react(rwai)
 let songInfo = await spotifyxv(text)
-if (!songInfo.length) throw `${lenguajeGB.smsMalused2()} ⊱ *${usedPrefix + command} Bellyache*`
+if (!songInfo.length) throw `Titulo De La Musica Faltante\n- Ejemplo:\n ⊱ *${usedPrefix + command} Bellyache*`
 let res = songInfo[0]
 let fileSizeInMB = (await getBuffer(res.url)).length / (1024 * 1024)
 let shortURL = await getTinyURL(res.url)
