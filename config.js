@@ -29,7 +29,7 @@ global.contactos = [
 ["51935499065", '𝗢𝗳𝗰 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 💻', 1],
 ["51944167935", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 🌺', 1]]
 
-global.suittag = ['573012482694']
+global.suittag = ['573218138672']
 global.prems = []
 global.mods = []
 
@@ -89,7 +89,7 @@ global.wm2 = `${dia} ${fecha}\nYoshiko`;
 global.gt = 'Yoshiko';
 global.yoshiko = 'Yoshiko';
 global.yoshiko = 'https://github.com/Diego-YL-177/YoshikoBot-MD';
-global.nomorown = '573012482597';
+global.nomorown = '573218138672';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
