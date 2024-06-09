@@ -38,7 +38,7 @@ m.react('📩')
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 Usuarios Registrados: ${rtotalreg}`, m, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: '✅️  R E G I S T R O  ✅️',  body: '👑 Registro Completado', previewType: 0, thumbnail: fotoperfil, sourceUrl: canalYoshi}}})
 await m.reply(`${sn}`)}
-handler.help = ['daftar', 'register'].map(v => v + ' <nama>.<umur>')
-handler.tags = ['xp']
+handler.help = ['reg']
+handler.tags = ['rg']
 handler.command = /^(verify|verificar|registrar|reg(ister)?)$/i
 export default handler
