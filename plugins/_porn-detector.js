@@ -1,6 +1,6 @@
 // Código elaborado por GataNina-Li (Gata Dios)
 
-let { downloadContentFromMessage } = (await import('@whiskeysockets/baileys'))
+/*let { downloadContentFromMessage } = (await import('@whiskeysockets/baileys'))
 import uploadImage from '../lib/uploadImage.js'
 import { webp2png } from '../lib/webp2mp4.js'
 import fetch from 'node-fetch'
@@ -88,4 +88,4 @@ if (contentType && (contentType.startsWith('image/jpeg') || contentType.startsWi
 return true
 }}
 return false
-}
+}*/
