@@ -65,7 +65,7 @@ return response.data;
 return text;
 }}
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) throw `*Uso Correcto*\n\nEjemplo:\n${usedPrefix + command} save yours tear`
+if (!text) throw `*Uso Correcto*\n\nEjemplo:\n!spotify save yours tear`
 try {
 m.react(rwait)
 let songInfo = await spotifyxv(text)
