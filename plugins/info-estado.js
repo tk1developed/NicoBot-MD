@@ -6,7 +6,15 @@ const handler = async (m, {conn}) => {
     const uptime = clockString(_uptime);
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
 m.react('⚙️') 
-    const str = `${codeBot}`.trim();
+    const str = `╭━〔  𝐒𝐓𝐀𝐓𝐔𝐒 ✏️  〕⬣
+┃ *Yoshiko Bot - MD* 🚀
+┃
+┃ *👋🏻 Hola:* ${taguser}
+┃
+┃ ⏳️ *Activa:* ${uptime}
+┃ 🚩 *Bot Uso: 𝘗𝘶𝘣𝘭𝘪𝘤𝘰*
+┃ 🍨 *Owner: Diego*
+╰━━━━━━━━━━━━⬣`.trim();
     if (m.isGroup) {
       conn.sendMessage(m.chat, {text: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm, "containsAutoReply": true, "mediaType": 1, "thumbnail": pp, "mediaUrl": `https://github.com/Diego-YL-177/YoshikoBot-MD`, "sourceUrl": `https://github.com/Diego-YL-177/YoshikoBot-MD`}}}, {quoted: fkontak});
     } else {
