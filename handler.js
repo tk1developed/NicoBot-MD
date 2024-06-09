@@ -1252,7 +1252,7 @@ if (xp > 2000)
 m.reply('Exp limit') 
 else               
 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-this.sendMessage(m.chat, {text: `❮💰❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝗕𝗼𝘁𝗖𝗼𝗶𝗻𝘀 𝗽𝗮𝗿𝗮 𝘂𝗱𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
+this.sendMessage(m.chat, {text: `❮💰❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝗬𝗼𝘀𝗵𝗶𝗖𝗼𝗶𝗻𝘀 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
 continue     
 }
 
@@ -1319,10 +1319,10 @@ await plugin.after.call(this, m, extra)
 console.error(e)
 }}
 if (m.limit)
-m.reply('❮💎❯ 𝗚𝗮𝘀𝘁𝗮𝘀𝘁𝗲 ' + m.limit + ' 𝗱𝗲 𝗗𝗶𝗮𝗺𝗮𝗻𝘁𝗲(𝘀)')
+m.reply('❮💎❯ 𝗚𝗮𝘀𝘁𝗮𝘀𝘁𝗲 ' + m.limit + ' 𝗗𝗶𝗮𝗺𝗮𝗻𝘁𝗲(𝘀)')
 }
 if (m.money)
-m.reply('❮💰❯ 𝗚𝗮𝘀𝘁𝗮𝘀𝘁𝗲 ' + m.money + ' 𝗱𝗲 𝗕𝗼𝘁𝗖𝗼𝗶𝗻(𝘀)')  
+m.reply('❮💰❯ 𝗚𝗮𝘀𝘁𝗮𝘀𝘁𝗲 ' + m.money + ' 𝗬𝗼𝘀𝗵𝗶𝗖𝗼𝗶𝗻(𝘀)')  
 break
 }}} catch (e) {
 console.error(e)
