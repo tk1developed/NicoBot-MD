@@ -51,7 +51,9 @@ yarn install && npm install
 npm start
 ```
 
-- ### 💻 Instalacion Automatica Por Termux
+- #### 💻 Instalacion Automatica Por Termux
+
+> Nota: Comandos para instalar de forma automática en Termux
 
 ```bash
 termux-setup-storage
