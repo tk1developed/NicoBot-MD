@@ -985,7 +985,7 @@ if (!('antiThreads' in chat)) chat.antiThreads = false
 if (!('antiTwitch' in chat)) chat.antiTwitch = false
 if (!('antifake' in chat)) chat.antifake = false
 if (!('reaction' in chat)) chat.reaction = true    
-if (!('viewonce' in chat)) chat.viewonce = false       
+if (!('viewonce' in chat)) chat.viewonce = true       
 if (!('modoadmin' in chat)) chat.modoadmin = false    
 if (!('antitoxic' in chat)) chat.antitoxic = false
 if (!('game' in chat)) chat.game = true
@@ -1024,7 +1024,7 @@ antiThreads: false,
 antiTwitch: false,
 antifake: false,
 reaction: true,
-viewonce: false,
+viewonce: true,
 modoadmin: false,
 antitoxic: false,
 game: true, 
@@ -1044,7 +1044,7 @@ if (!('restrict' in settings)) settings.restrict = false
 if (!('temporal' in settings)) settings.temporal = false
 if (!('antiPrivate' in settings)) settings.antiPrivate = false
 if (!('antiCall' in settings)) settings.antiCall = true
-if (!('antiSpam' in settings)) settings.antiSpam = false 
+if (!('antiSpam' in settings)) settings.antiSpam = true 
 if (!('modoia' in settings)) settings.modoia = false
 if (!('jadibotmd' in settings)) settings.jadibotmd = false  
 } else global.db.data.settings[this.user.jid] = {
@@ -1055,7 +1055,7 @@ restrict: false,
 temporal: false,
 antiPrivate: false,
 antiCall: true,
-antiSpam: false,
+antiSpam: true,
 modoia: false, 
 jadibotmd: true,
 }} catch (e) {
