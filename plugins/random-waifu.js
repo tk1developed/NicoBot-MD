@@ -20,9 +20,7 @@ const handler = async (m, { conn }) => {
 Nombre: ${character.name}
 Fuente: ${character.source}
 Valor: ${character.value}
-Estado: ${character.claimed ? 'Reclamado' : 'Libre'}
-Último voto: ${new Date(character.vote).toLocaleString()}
-    `;
+Estado: ${character.claimed ? 'Reclamado' : 'Libre'}`;
 
     await conn.reply(m.chat, message, m, {
         contextInfo: { mentionedJid: [m.sender], quotedMessage: m.message },
