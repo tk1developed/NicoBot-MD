@@ -1,10 +1,10 @@
-let media = './Menu2.jpg'
+let media = yoshiImg;
 let handler = async (m, { conn, command }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let str = `𝖡𝗂𝖾𝗇𝗏𝖾𝗇𝗂𝖽𝗈/𝖺 𝖠 𝖫𝖺𝗌 𝖢𝗎𝖾𝗇𝗍𝖺𝗌 𝖮𝖿𝗂𝖼𝗂𝖺𝗅𝖾𝗌 😻
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 💻 *Bot Oficial:*
-${ofcbot}
+Wa.me/${ofcbot}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 👑 *Propietario:*
 ${creador}
