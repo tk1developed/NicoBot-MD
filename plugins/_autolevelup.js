@@ -8,15 +8,9 @@ if (!chat.autolevelup)
 return !0
 
 let before = user.level * 1
-while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
+while (canLevelUp(user.level, user.experiencia, global.multiplier)) user.level++
  if (before !== user.level) {
 
-conn.reply(m.chat, `╭━〔  𝐀𝐔𝐓𝐎 - 𝐍𝐈𝐕𝐄𝐋 🌸  〕⬣        
-┃֪࣪ 🍍 𝐅𝐞𝐥𝐢𝐜𝐢𝐝𝐚𝐝𝐞𝐬 𝐒𝐮𝐛𝐢𝐬𝐭𝐞 𝐃𝐞 𝐍𝐢𝐯𝐞𝐥 🧃
-┃֪࣪ 🍬 Nɪᴠᴇʟ Aɴᴛɪɢᴜᴏ : ${before}
-┃֪࣪ 🍒 Nᴜᴇᴠᴏ Nɪᴠᴇʟ : ${user.level}
-┃֪࣪ 🍓 Rᴀɴɢᴏ : ${user.role}
-┃֪࣪ 📅 Fᴇᴄʜᴀ : ${new Date().toLocaleString('id-ID')}
-╰━━━━━━━━━━━━⬣`.trim(),m, fake, )
+conn.reply(m.chat, `☘️ *SUBISTE DE NIVEL*\n\n✰ *Nuevo Nivel ⪼* ${user.level}\n◈ *Nivel Anterior ⪼* ${before}\n◈ *Rango ⪼* ${user.rango}\n◈ *Fecha ⪼* ${new Date().toLocaleString('id-ID')}`.trim(),m, fake, )
     }
 } 
