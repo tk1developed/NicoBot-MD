@@ -132,25 +132,24 @@ if (i < 0) return
 delete global.conns[i]
 global.conns.splice(i, 1)
 }}
-
-const reason = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode
+const code = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode;
 if (connection === 'close') {
 console.log(reason)
-if (reason == 405) {
+//if (code == 405) {
 await fs.unlinkSync('./jadibts/' + id + '/creds.json')
 
 return await conn.reply(m.chat, '⛔ 𝙲𝚎𝚛𝚛𝚊𝚗𝚍𝚘 :𝚌', fkontak)
 }
-if (reason === DisconnectReason.restartRequired) {
+if (code === DisconnectReason.restartRequired) {
 jddt()
 return console.log('🌺 𝙻𝚊 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚍𝚎 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝 𝚜𝚎 𝚑𝚊 𝚛𝚎𝚖𝚙𝚕𝚊𝚣𝚊𝚍𝚘, 𝚜𝚎 𝚑𝚊 𝚊𝚋𝚒𝚎𝚛𝚝𝚘 𝚗𝚞𝚎𝚟𝚊 𝚜𝚎𝚜𝚜𝚒𝚘𝚗, 𝚙𝚘𝚛 𝚏𝚊𝚟𝚘𝚛, 𝚌𝚒𝚎𝚛𝚛𝚎 𝚕𝚊 𝚜𝚎𝚜𝚜𝚒𝚘𝚗 𝚙𝚛𝚒𝚖𝚎𝚛𝚊 𝚍𝚎 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝')
-} else if (reason === DisconnectReason.loggedOut) {
+} else if (code === DisconnectReason.loggedOut) {
 sleep(4000)
 return conn.reply(m.chat, '🍂 *𝙻𝚊 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚜𝚎 𝚑𝚊 𝚌𝚎𝚛𝚛𝚊𝚍𝚘, 𝚝𝚎𝚗𝚍𝚛𝚊𝚜 𝚚𝚞𝚎 𝚟𝚘𝚕𝚟𝚎𝚛 𝚊 𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚛𝚜𝚎 𝚞𝚜𝚊𝚗𝚍𝚘:*\n!deletesesion (𝙿𝚊𝚛𝚊 𝚎𝚕𝚒𝚖𝚒𝚗𝚊𝚛 𝚕𝚘𝚜 𝚍𝚊𝚝𝚘𝚜 𝚍𝚎 𝚜𝚎𝚜𝚜𝚒𝚘𝚗 𝚢 𝚙𝚘𝚍𝚎𝚛 𝚊 𝚟𝚘𝚕𝚟𝚎𝚛 𝚜𝚘𝚕𝚒𝚌𝚒𝚝𝚊𝚛 𝚗𝚞𝚎𝚟𝚘 𝚌𝚘𝚍𝚒𝚐𝚘 𝚚𝚛 𝚘 𝚌𝚘𝚍𝚒𝚐𝚘 𝚍𝚎 𝚎𝚖𝚙𝚊𝚛𝚎𝚓𝚊𝚖𝚒𝚎𝚗𝚝𝚘 𝚙𝚊𝚛𝚊 𝚊𝚌𝚝𝚒𝚟𝚊𝚛 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝', fkontak)
-} else if (reason == 428) {
+} else if (code == 428) {
 await endSesion(false)
 return conn.reply(m.chat, '🎌 *𝙻𝚊 𝚌𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚜𝚎 𝚌𝚎𝚛𝚛𝚘 𝚜𝚎 𝚒𝚗𝚝𝚎𝚗𝚝𝚊𝚛𝚊 𝚛𝚎𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚛 :𝙳*', fkontak)
-} else if (reason === DisconnectReason.connectionLost) {
+} else if (code === DisconnectReason.connectionLost) {
 await jddt()
 return console.log('🌸 𝙲𝚘𝚗𝚎𝚡𝚒𝚘𝚗 𝚙𝚎𝚛𝚍𝚒𝚍𝚊 𝚌𝚘𝚗 𝚎𝚕 𝚜𝚎𝚛𝚟𝚒𝚍𝚘𝚛, 𝚛𝚎𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚗𝚍𝚘 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝 :𝚅')
 } else if (reason === DisconnectReason.badSession) {
