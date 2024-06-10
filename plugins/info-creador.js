@@ -12,7 +12,7 @@ let name = await conn.getName(who)
 
   await sendContactArray(conn, m.chat, [
      [`${nomorown}`, `👑 Propietario`, `🍂 𝗢𝗳𝗰𝗗𝗶𝗲𝗴𝗼`, team, 'argumedod44@gmail.com', `🇨🇴 Colombia`, `https://www.youtube.com/@Yoshiko_team`, bio],
-[`${ofcbot}`, `Es Una Bot 🚀`, `${packname}`, `📵 No Hacer Spam`, 'theyoshikobot@gmail.com', `🇨🇴 Colombia`, `https://github.com/Diego-YL-177/YoshikoBot-MD`, biobot]
+[`${conn.user.jid.split('@')[0]}`, `Es Una Bot 🚀`, `${packname}`, `📵 No Hacer Spam`, 'theyoshikobot@gmail.com', `🇨🇴 Colombia`, `https://github.com/Diego-YL-177/YoshikoBot-MD`, biobot]
 ], m)
   //m.reply(`Hola @${m.sender.split(`@`)[0]} este es el contacto de mi creador, no hagas spam!!`)
   } 
