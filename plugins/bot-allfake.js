@@ -32,7 +32,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 //let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 
 //creador
-global.creador = 'Wa.me/573218138672'
+global.creador = 'Wa.me/573012482597'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 
 //Reacciones De Comandos.!
