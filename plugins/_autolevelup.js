@@ -17,6 +17,6 @@ while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
 ┃֪࣪ 🍒 Nᴜᴇᴠᴏ Nɪᴠᴇʟ : ${user.level}
 ┃֪࣪ 🍓 Rᴀɴɢᴏ : ${user.role}
 ┃֪࣪ 📅 Fᴇᴄʜᴀ : ${new Date().toLocaleString('id-ID')}
-╰━━━━━━━━━━━━⬣`.trim(), m, fake, )
+╰━━━━━━━━━━━━⬣`.trim() m, fake, )
     }
 } 
