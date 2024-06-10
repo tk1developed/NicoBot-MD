@@ -11,56 +11,55 @@ import ws from 'ws';
 import './plugins/bot-allfake.js'
 
 /**
- * @type {import('@whiskeysockets/baileys')}
+ * @type {import('@adiwajshing/baileys')}  
  */
-const {proto} = (await import('@whiskeysockets/baileys')).default;
-const isNumber = (x) => typeof x === 'number' && !isNaN(x);
-const delay = (ms) => isNumber(ms) && new Promise((resolve) => setTimeout(function() {
-clearTimeout(this);
-resolve();
-}, ms));
+const { proto } = (await import('@whiskeysockets/baileys')).default
+const isNumber = x => typeof x === 'number' && !isNaN(x)
+const delay = ms => isNumber(ms) && new Promise(resolve => setTimeout(function () {
+clearTimeout(this)
+resolve()
+}, ms))
 
 /**
-* Handle messages upsert
-* @param
-{import('@whiskeysockets/baileys').BaileysEventMap<unknown>['messages.upsert']} groupsUpdate
-*/
+ * Handle messages upsert
+ * @param {import('@adiwajshing/baileys').BaileysEventMap<unknown>['messages.upsert']} groupsUpdate 
+ */
 export async function handler(chatUpdate) {
 this.msgqueque = this.msgqueque || [];
 this.uptime = this.uptime || Date.now();
 if (!chatUpdate) {
-return;
+return
 }
-this.pushMessage(chatUpdate.messages).catch(console.error);
-let m = chatUpdate.messages[chatUpdate.messages.length - 1];
+if (!chatUpdate || !chatUpdate.messages) {
+return
+} else {
+this.pushMessage(chatUpdate.messages).catch(console.error)
+}
+let m = chatUpdate.messages[chatUpdate.messages.length - 1]
 if (!m) {
 return;
 }
-if (global.db.data == null) await global.loadDatabase();
-/* Creditos a Otosaka (https://wa.me/51993966345) */
-if (global.chatgpt.data === null) await global.loadChatgptDB();
-/* ------------------------------------------------*/
+if (global.db.data == null) await global.loadDatabase()
+/*------------------------------------------------*/             
+if (global.chatgpt.data === null) await global.loadChatgptDB()
+/*------------------------------------------------*/        
 try {
-m = smsg(this, m) || m;
-if (!m) {
-return;
-}
-global.mconn = m 
-m.exp = 0;
-m.money = false;
-m.limit = false;
+m = smsg(this, m) || m
+if (!m)
+return
+m.exp = 0
+m.limit = false
+m.money = false
 try {
 // TODO: use loop to insert data instead of this
-const user = global.db.data.users[m.sender];
-/* Creditos a Otosaka (https://wa.me/51993966345) */
-const chatgptUser = global.chatgpt.data.users[m.sender];
-if (typeof chatgptUser !== 'object') {
-global.chatgpt.data.users[m.sender] = [];
-}
-/* ------------------------------------------------*/
-if (typeof user !== 'object') {
-global.db.data.users[m.sender] = {};
-}
+let user = global.db.data.users[m.sender]
+/*------------------------------------------------*/                    
+let chatgptUser = global.chatgpt.data.users[m.sender];
+if (typeof chatgptUser !== "object")
+global.chatgpt.data.users[m.sender] = [];                
+/*------------------------------------------------*/
+if (typeof user !== 'object')
+global.db.data.users[m.sender] = {}
 if (user) {
 if (!isNumber(user.exp)) user.exp = 0
 if (!('premium' in user)) user.premium = false
