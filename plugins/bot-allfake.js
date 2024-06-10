@@ -33,6 +33,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 
 //creador
 global.creador = 'Wa.me/573218138672'
+global.ofcbot = `${conn.user.jid.split('@')[0]}`
 
 //Reacciones De Comandos.!
 global.rwait = '⏰'
