@@ -17,8 +17,8 @@ ${creador}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 2) *${gp2}*\n
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-🌻 *Canal De Actualización De La Bot:*
- *${channel}*\n
+💭 *Canal De Actualización De La Bot:*
+ *${canalesYoshi}*\n
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 🍁 *Canal De Youtube:*
 ${yt}
