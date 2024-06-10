@@ -8,7 +8,7 @@ if (!chat.autolevelup)
 return !0
 
 let before = user.level * 1
-while (canLevelUp(user.level, user.experiencia, global.multiplier)) user.level++
+while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
  if (before !== user.level) {
 
 conn.reply(m.chat, `╭━〔  𝐀𝐔𝐓𝐎 - 𝐍𝐈𝐕𝐄𝐋 🌸  〕⬣        
