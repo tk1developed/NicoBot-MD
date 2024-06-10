@@ -9,7 +9,7 @@ const prem = Math.floor(Math.random() * 3600000)
 const exp = Math.floor(Math.random() * 8500)
 const diamond = Math.floor(Math.random() * 130)
 const money = Math.floor(Math.random() * 8500)
-let rulet = ['text3']; 
+let rulet = ['text3', 'text4']; 
 let ruleta = rulet[Math.floor(Math.random() * 6)]
 global.db.data.users[m.sender].juegos = new Date * 1;
 //if (ruleta === 'text') return m.reply(`😺 𝙌𝙐𝙀 𝘽𝙐𝙀𝙉𝘼 𝙎𝙐𝙀𝙍𝙏𝙀 🐞🍀\n*𝙊𝙗𝙩𝙞𝙚𝙣𝙚 :* ${exp} XP`).catch(global.db.data.users[m.sender].exp += exp) 
