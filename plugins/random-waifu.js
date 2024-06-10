@@ -1,37 +1,14 @@
-import fs from 'fs';
-import path from 'path';
-
-
-const charactersPath = './anime/characters.json';
-const loadDB = (path) => {
-    return JSON.parse(fs.readFileSync(path, 'utf8'));
-};
-
-let characters = loadDB(charactersPath);
-
-const getRandomCharacter = () => {
-    return characters[Math.floor(Math.random() * characters.length)];
-};
-
-const handler = async (m, { conn }) => {
-    const character = getRandomCharacter();
-
-    const message = `
-Nombre: ${character.name}
-Fuente: ${character.source}
-Valor: ${character.value}
-Estado: ${character.claimed ? 'Reclamado' : 'Libre'}`;
-
-    await conn.reply(m.chat, message, m, {
-        contextInfo: { mentionedJid: [m.sender], quotedMessage: m.message },
-    });
-
-    m.characterId = character.id; // Guardar el ID del personaje en el contexto del mensaje
-};
-
-handler.help = ['test'];
-handler.tags = ['anime'];
-handler.command = ['test'];
-handler.rowner = true;
-
-export default handler;
+import fetch from 'node-fetch'
+let handler = async (m, { conn, usedPrefix, command }) => {
+let res = await fetch('https://api.waifu.pics/sfw/waifu')
+if (!res.ok) throw await res.text()
+let json = await res.json()
+if (!json.url) throw '🍓 Error¡!'
+conn.sendFile(m.chat, json.url, 'error.jpg', `😻😻😻😻`, m)
+//conn.sendButton(m.chat, `😻😻😻😻`, wm, json.url, [['𝙎𝙄𝙂𝙐𝙄𝙀𝙉𝙏𝙀 | 𝙉𝙀𝙓𝙏 🆕', `/${command}`]], m)
+}
+handler.help = ['waifu']
+handler.tags = ['anime']
+handler.command = /^(waifu)$/i
+handler.register = true
+export default handler
