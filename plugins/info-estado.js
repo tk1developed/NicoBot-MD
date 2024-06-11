@@ -4,7 +4,7 @@ const handler = async (m, {conn}) => {
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const sbot = (conn.user.jid == global.conn.user.jid ? 'Bot Oficial' : 'Sub-Bot');
 m.react('⚙️') 
-    const str = `☘️ *ESTADO DE:* ${global.yl}
+    const str = `☘️ *ESTADO DE:* ${global.botname}
 🕒 *Activa:* ${muptime}
 💭 *Tipo:* ${sbot}
 🥷 *Bot Uso:* Publico
