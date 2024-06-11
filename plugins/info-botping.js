@@ -11,9 +11,9 @@ let handler = async (m, { conn }) => {
           m.reply(`☘️ *Pong* ${latensi.toFixed(4)} ms`);
             });
 }
-handler.help = ['ping', 'p']
+handler.help = ['ping']
 handler.tags = ['info']
-handler.command = ['ping', 'p']
-handler.registrado = true
+handler.command = ['ping']
+handler.register = true
 
 export default handler
