@@ -9,7 +9,7 @@ let pp = await this.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.
 
 if (user.registered === true) throw `*『✦』Ya estas registrado, para volver a registrarte, usa el comando: #unreg*`
 
-if (!Reg.test(text)) throw `*『✦』El comando ingresado es incorrecto, uselo de la siguiente manera:*\n\n#reg *Nombre.edad*\n\n\`\`\`Ejemplo:\`\`\`\n#reg *${name2}.18*`
+if (!Reg.test(text)) throw `*『✦』El comando ingresado es incorrecto, uselo de la siguiente manera:*\n\n#reg *Nombre.edad*\n\n\`\`\`Ejemplo:\`\`\`\n${usedPrefix + command} *${name2}.18*`
 
 let [_, name, splitter, edad] = text.match(Reg)
 if (!name) throw '*『✦』No puedes registrarte sin nombre, el nombre es obligatorio. Inténtelo de nuevo.*'
@@ -43,7 +43,7 @@ let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 ${packname}
 `
 await conn.reply(m.chat, regbot, m, fake, )
-conn.reply(m.chat, sn, m, fake, )
+conn.reply(m.chat, sn, fkontak, m, )
 
 }
 
