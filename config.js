@@ -45,7 +45,7 @@ global.titulowm2 = `𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜`
 global.igfg = 'Diego Oficial';
 global.botname = 'Ⓨ︎ Yoshiko Bot - MD'
 global.team = '👑 Developed By • ✨ Ofc.Diego';
-global.vs = '1.0.7';
+global.vs = '2.0.0';
 
 //• ↳ ◜𝑴𝑺𝑮 𝑫𝑬 𝑬𝑺𝑷𝑬𝑹𝑨◞ • 🈸
 global.wait = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
