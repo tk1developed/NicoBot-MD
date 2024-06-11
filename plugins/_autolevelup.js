@@ -1,4 +1,4 @@
-import { canLevelUp, xpRange } from '../lib/levelling.js'
+/*import { canLevelUp, xpRange } from '../lib/levelling.js'
 import { levelup } from '../lib/canvas.js'
 export function before(m, { conn }) {
 
@@ -13,4 +13,4 @@ while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
 
 conn.reply(m.chat, `🏆 *SUBISTE DE NIVEL*\n\n💭 *Nuevo Nivel:* ${user.level}\n✨️ *Nivel Anterior:* ${before}\n☘️ *Rango:* ${user.role}\n🗓 *Fecha:* ${new Date().toLocaleString('id-ID')}`.trim(), m, fake, )
     }
-} 
+} */
