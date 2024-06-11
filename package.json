@@ -1,6 +1,6 @@
 {
 "name": "YoshikoBot-MD",
-"version": "2.0.0", 
+"version": "1.0.8", 
 "description": "La Mejor Bot De WhatsApp",
 "main": "index.js",
 "type": "module",
