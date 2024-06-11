@@ -1,87 +1,52 @@
-import speed from 'performance-now'
-import { spawn, exec, execSync } from 'child_process'
-
-let handler = async (m, { conn }) => {
-         let timestamp = speed();
-         let latensi = speed() - timestamp;
-         exec(`neofetch --stdout`, (error, stdout, stderr) => {
-          let child = stdout.toString("utf-8");
-          let ssd = child.replace(/Memory:/, "Ram:");
-    
-          m.reply(`⚡️ *Mi Velocidad*  ${latensi.toFixed(4)} *ms*`);
-            });
-}
-handler.help = ['ping']
-handler.tags = ['main']
-handler.command = ['velocidad']
-handler.register = true
-export default handler
-
-/*import { cpus as _cpus, totalmem, freemem } from 'os'
+import { totalmem, freemem } from 'os'
+import os from 'os'
 import util from 'util'
+import osu from 'node-os-utils'
 import { performance } from 'perf_hooks'
 import { sizeFormatter } from 'human-readable'
-let format = sizeFormatter({
-  std: 'JEDEC', // 'SI' (default) | 'IEC' | 'JEDEC'
-  decimalPlaces: 2,
-  keepTrailingZeroes: false,
-  render: (literal, symbol) => `${literal} ${symbol}B`,
-})
-let handler = async (m, { conn, usedPrefix, command }) => {
-  const chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats)
-  const groupsIn = chats.filter(([id]) => id.endsWith('@g.us')) //groups.filter(v => !v.read_only)
-  const used = process.memoryUsage()
-  const cpus = _cpus().map(cpu => {
-    cpu.total = Object.keys(cpu.times).reduce((last, type) => last + cpu.times[type], 0)
-    return cpu
-  })
-  const cpu = cpus.reduce((last, cpu, _, { length }) => {
-    last.total += cpu.total
-    last.speed += cpu.speed / length
-    last.times.user += cpu.times.user
-    last.times.nice += cpu.times.nice
-    last.times.sys += cpu.times.sys
-    last.times.idle += cpu.times.idle
-    last.times.irq += cpu.times.irq
-    return last
-  }, {
-    speed: 0,
-    total: 0,
-    times: {
-      user: 0,
-      nice: 0,
-      sys: 0,
-      idle: 0,
-      irq: 0
-    }
-  })
-  let old = performance.now()
-  
-  let neww = performance.now()
-  let speed = neww - old
-  
-let infobt = `╭─╮─᤻─᳒─᤻᳒「 ${wm} 」
-├🚀۬〬 *VELOCIDAD*:  *${speed}* ms
-*╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫*  
+import speed from 'performance-now'
+import { spawn, exec, execSync } from 'child_process'
+const format = sizeFormatter({ std: 'JEDEC', decimalPlaces: 2, keepTrailingZeroes: false, render: (literal, symbol) => `${literal} ${symbol}B` })
 
-╭─╮─᤻─᳒─᤻᳒「 *S E R V E R* 」
-├🛑 *RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
-├🔵 *FreeRAM:* ${format(freemem())}
-*╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫*  
+var handler = async (m, { conn }) => {
 
-*≡  NODEJS USO DE MEMORIA*
-${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
-`
-m.reply(infobt)
-conn.sendButton(m.chat, infobt, fgig, null, [
-  ['Menu', `${usedPrefix}menu`],
-   ['Grupos', `${usedPrefix}grupos`]
- ], m)
+let timestamp = speed()
+let latensi = speed() - timestamp
+
+let _muptime = process.uptime() * 1000
+let muptime = clockString(_muptime)
+
+let chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats)
+let groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats && !chat.metadata?.read_only && !chat.metadata?.announce).map(v => v[0])
+
+
+let texto = `☘️ *${global.botname}*
+🚀 *Velocidad:*
+→ ${latensi.toFixed(4)}
+
+🕒 *Activo Durante:*
+→ ${muptime}
+
+💫 *Chats:*
+→ ${chats.length} *Chats privados*
+→ ${groups.length} *Grupos*
+
+🏆 *Servidor:*
+➤ *Ram ⪼* ${format(totalmem() - freemem())} / ${format(totalmem())}`.trim()
+
+m.react('✈️')
+
+conn.reply(m.chat, texto, m, fake, )
 
 }
-handler.help = ['info']
-handler.tags = ['main']
-handler.command = ['calculo', 'Calculo', 'CALCULO']
-handler.register = true
+handler.help = ['speed']
+handler.tags = ['info']
+handler.command = ['speed']
 
-export default handler*/
+export default handler
+
+function clockString(ms) {
+let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
+let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
+let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
