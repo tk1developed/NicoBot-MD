@@ -44,7 +44,7 @@ global.titulowm = '𝙔𝙤𝙨𝙝𝙞𝙠𝙤𝘽𝙤𝙩-𝙈𝘿 🍓';
 global.titulowm2 = `𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜`
 global.igfg = 'Diego Oficial';
 global.sk = 'Yᴏsʜɪᴋᴏ Bᴏᴛ - MD';
-global.botname 'Ⓨ︎ Yoshiko Bot - MD';
+//global.botname 'Ⓨ︎ Yoshiko Bot - MD';
 global.team = 'Bʏ: Dɪᴇɢᴏ.Oғᴄ';
 global.vs = '1.0.7';
 
