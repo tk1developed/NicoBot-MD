@@ -1,4 +1,4 @@
-console.log('Iniciando Alisa Kujou - MD')
+console.log('☘️ Iniciando El Bot..')
 import { join, dirname } from 'path'
 import { createRequire } from 'module'
 import { fileURLToPath } from 'url'
