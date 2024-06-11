@@ -16,7 +16,7 @@ if (!name) throw '*『✦』No puedes registrarte sin nombre, el nombre es oblig
 if (!edad) throw '*『✦』No puedes registrarte sin la edad, la edad es opcional. Inténtelo de nuevo.*'
 if (name.length >= 30) throw '*『✦』El nombre no debe de tener mas de 30 caracteres.*' 
 edad = parseInt(edad)
-if (edad > 100) throw '*『😏』Viejo/a Sabroso/a*'
+if (edad > 80) throw '*『😏』Viejo/a Sabroso/a*'
 if (edad < 10) throw '*『🍼』Ven aquí, te adoptare!!*'
 user.name = name.trim()
 user.edad = edad
@@ -40,7 +40,8 @@ let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 • 245 Experiencia 💸
 • 12 Tokens 🪙
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
-${packname}`
+${packname}
+`
 await conn.reply(m.chat, regbot, m, fake, )
 conn.reply(m.chat, sn, m, fake, )
 
