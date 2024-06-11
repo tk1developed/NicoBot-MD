@@ -46,7 +46,7 @@ global.igfg = 'Diego Oficial';
 global.yl = 'Yᴏsʜɪᴋᴏ Bᴏᴛ - MD';
 global.botname 'Ⓨ︎ Yoshiko Bot - MD';
 global.team = 'Bʏ: Dɪᴇɢᴏ.Oғᴄ';
-global.vs = '1.0.8';
+global.vs = '2.0.0';
 
 //• ↳ ◜𝑴𝑺𝑮 𝑫𝑬 𝑬𝑺𝑷𝑬𝑹𝑨◞ • 🈸
 global.wait = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
