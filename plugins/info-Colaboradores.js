@@ -8,7 +8,7 @@ let texto = `🏆 *EQUIPO DE AYUDANTES*
 
 • Diego-YL-177
 ☘️ *Rol:* Propietario
-✨️ *Número:* Wa.me/${creador}
+✨️ *Número:* ${creador}
 🏆 *GitHub:* https://github.com/Diego-YL-177
 
 💫 *Colaboradores:*
