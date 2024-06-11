@@ -7,9 +7,9 @@ let texto = `🏆 *EQUIPO DE AYUDANTES*
 👑 *Propietario:*
 
 • Diego-YL-177
-☘️ *Rol:* Owner
+☘️ *Rol:* Propietario
 ✨️ *Número:* Wa.me/${creador}
-🏆 *GitHub ⪼* https://github.com/Diego-YL-177
+🏆 *GitHub:* https://github.com/Diego-YL-177
 
 💫 *Colaboradores:*
 
@@ -41,9 +41,7 @@ let texto = `🏆 *EQUIPO DE AYUDANTES*
 • Danixl.Js
 ☘️ *Rol:* Developer
 ✨️ *Número:* Wa.me/595983799436
-🏆 *GitHub:* https://github.com/Danixl.Js
-
-> → Si quieres formar parte del equipo ponte en contacto con mi Creador.`
+🏆 *GitHub:* https://github.com/Danixl.Js`
 
 conn.reply(m.chat, texto, m, fake, )
 
