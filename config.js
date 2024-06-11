@@ -42,9 +42,10 @@ global.wm = '᭥𐨏𝒀𝒐𝒔𝒉𝒊𝒌𝒐𝑩𝒐𝒕-𝑴𝑫᭢ꪲ';
 global.titulowm = '𝙔𝙤𝙨𝙝𝙞𝙠𝙤𝘽𝙤𝙩-𝙈𝘿 🍓';
 global.titulowm2 = `𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜`
 global.igfg = 'Diego Oficial';
-global.sk = 'Yᴏsʜɪᴋᴏ Bᴏᴛ - MD';
+global.yl = 'Yᴏsʜɪᴋᴏ Bᴏᴛ - MD';
+global.botname 'Ⓨ︎ Yoshiko Bot - MD';
 global.team = 'Bʏ: Dɪᴇɢᴏ.Oғᴄ';
-global.vs = '1.0.7';
+global.vs = '2.0.0';
 
 //• ↳ ◜𝑴𝑺𝑮 𝑫𝑬 𝑬𝑺𝑷𝑬𝑹𝑨◞ • 🈸
 global.wait = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
