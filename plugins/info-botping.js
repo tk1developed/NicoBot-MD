@@ -1,4 +1,4 @@
-/*import speed from 'performance-now'
+import speed from 'performance-now'
 import { spawn, exec, execSync } from 'child_process'
 
 let handler = async (m, { conn }) => {
@@ -16,4 +16,4 @@ handler.tags = ['info']
 handler.command = ['ping']
 handler.register = true
 
-export default handler*/
+export default handler
