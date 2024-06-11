@@ -19,7 +19,7 @@ edad = parseInt(edad)
 if (age > 100) throw '*『😏』Viejo/a Sabroso/a*'
 if (age < 5) throw '*『🍼』Ven aquí, te adoptare!!*'
 user.name = name.trim()
-user.edad = edad
+user.age = edad
 user.regtime = + new Date
 user.registrado = true
 global.db.data.users[m.sender].money += 12
@@ -32,7 +32,7 @@ m.react('📩')
 let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 「💭」𝗡𝗼𝗺𝗯𝗿𝗲: ${name}
-「✨️」𝗘𝗱𝗮𝗱: ${edad} años
+「✨️」𝗘𝗱𝗮𝗱: ${age} años
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 「🎁」𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:
 • 10 Diamantes 💎
