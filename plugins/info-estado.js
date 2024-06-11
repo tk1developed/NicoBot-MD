@@ -1,6 +1,6 @@
 const handler = async (m, {conn}) => {
-    let _muptime = process.uptime() * 1000
-    let muptime = clockString(_muptime)
+    const _muptime = process.uptime() * 1000
+    const muptime = clockString(_muptime)
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const sbot = (conn.user.jid == global.conn.user.jid ? 'Bot Oficial' : 'Sub-Bot');
 m.react('⚙️') 
