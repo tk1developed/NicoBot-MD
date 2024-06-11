@@ -35,7 +35,7 @@ ${channel3}`
 m.react('🔵') 
     await conn.sendFile(m.chat, media, 'yoshiko.mp4', str, fkontak)}
 
-handler.command = /^grupos|linksk|gruposofc|gruposoficiales$/i
+handler.command = /^grupos|linkyl|gruposofc|gruposoficiales$/i
 handler.register = true
 handler.exp = 33
 
