@@ -42,7 +42,7 @@ conn.reply(m.chat, texto, m, fake, )
 handler.help = ['speed']
 handler.tags = ['info']
 handler.command = ['speed']
-
+handler.register = true
 export default handler
 
 function clockString(ms) {
