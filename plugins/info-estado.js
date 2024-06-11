@@ -15,7 +15,7 @@ m.react('⚙️')
 handler.help = ['estado'];
 handler.tags = ['info'];
 handler.command = ['status', 'estado'];
-handler.register = true
+handler.register = true;
 
 export default handler;
 
