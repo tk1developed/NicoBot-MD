@@ -51,9 +51,9 @@ m.react('👑')
 
 }
 
-handler.help = ['colaboradores', 'team']
-handler.command = ['colaboradores', 'team']
-handler.registrado = true
+handler.help = ['colaboradores']
+handler.command = ['colaboradores']
+handler.register = true
 handler.tags = ['info']
 
 export default handler
