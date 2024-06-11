@@ -15,11 +15,11 @@ let [_, name, splitter, edad] = text.match(Reg)
 if (!name) throw '*『✦』No puedes registrarte sin nombre, el nombre es obligatorio. Inténtelo de nuevo.*'
 if (!age) throw '*『✦』No puedes registrarte sin la edad, la edad es opcional. Inténtelo de nuevo.*'
 if (name.length >= 30) throw '*『✦』El nombre no debe de tener mas de 30 caracteres.*' 
-edad = parseInt(edad)
+age = parseInt(age)
 if (age > 100) throw '*『😏』Viejo/a Sabroso/a*'
 if (age < 5) throw '*『🍼』Ven aquí, te adoptare!!*'
 user.name = name.trim()
-user.age = edad
+user.age = age
 user.regtime = + new Date
 user.registrado = true
 global.db.data.users[m.sender].money += 12
