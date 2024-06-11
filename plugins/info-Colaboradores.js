@@ -1,81 +1,59 @@
-import fetch from 'node-fetch';
-const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
-  if (usedPrefix == 'a' || usedPrefix == 'A') return;
-  try {
-    const pp = imagen1;
-    // let vn = './media/menu.mp3'
-    const img = './Menu.png';
-    const d = new Date(new Date + 3600000);
-    const locale = 'es-ES';
-    const week = d.toLocaleDateString(locale, {weekday: 'long'});
-    const date = d.toLocaleDateString(locale, {day: '2-digit', month: '2-digit', year: 'numeric'});
-    const _uptime = process.uptime() * 1000;
-    const uptime = clockString(_uptime);
-    const user = global.db.data.users[m.sender];
-    const {money, joincount} = global.db.data.users[m.sender];
-    const {exp, limit, level, role} = global.db.data.users[m.sender];
-    const rtotalreg = Object.values(global.db.data.users).filter((user) => user.registered == true).length;
-    const rtotal = Object.entries(global.db.data.users).length || '0'
-    const more = String.fromCharCode(8206);
-    const readMore = more.repeat(850);
-    const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
-    const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
-m.react('🥏') 
-const document = doc[Math.floor(Math.random() * doc.length)];
- const str = `╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 ⛅  〕⬣
-┃➸ ${packname}
-┃➸ 📍𝖢𝗈𝗅𝖺𝖻𝗈𝗋𝖺𝖽𝗈𝗋𝖾𝗌
-╰━━━━━━━━━━━━⬣
+const handler = async (m,{conn}) => {
 
-╭━〔  𝐂𝐎𝐋𝐀𝐁𝐎𝐑𝐀𝐃𝐎𝐑𝐄𝐒 🍄  〕⬣
-┃✣➸ 𝖣𝗂𝖾𝗀𝗈:
-┃ https://github.com/Diego-YL-177
-┃
-┃✣➸ 𝖠𝗓𝖺𝗆𝗂:
-┃ https://github.com/AzamiJs
-┃
-┃✣➸ 𝖣𝖺𝗇𝗂𝖾𝗅:
-┃https://github.com/MoonContentCreator
-┃
-┃✣➸ 𝖬𝖺𝗋𝗂𝗈:
-┃ https://github.com/elrebelde21
-┃
-╰━━━━━━━━━━━━⬣
+let texto = `🏆 *EQUIPO DE AYUDANTES*
+🥷 *Bot:* ${global.botname}
+☁️ *Versión:* ${global.vs}
 
-╭━〔  𝐍𝐔𝐌𝐄𝐑𝐎 🍂  〕⬣
-┋➸ 𝖣𝗂𝖾𝗀𝗈: 
-┋@573012482597
-┋
-┋➸ 𝖠𝗓𝖺𝗆𝗂: 
-┋@5217294888993
-┋
-┋➸ 𝖣𝖺𝗇𝗂𝖾𝗅:
-┋@33760536110
-┋
-┋➸ 𝖬𝖺𝗋𝗂𝗈: 
-┋@5492266613038
-┋
-╰━━━━━━━━━━━━⬣`.trim();     if (m.isGroup) { 
- // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
-      const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
-      conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
-    } else {
-      // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
-      const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
-      conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
-    }
-  } catch {
-    conn.reply(m.chat, '*😻 𝘓𝘰𝘴𝘪𝘦𝘯𝘵𝘰, 𝘌𝘳𝘳𝘰𝘳, 𝘕𝘰 𝘗𝘶𝘦𝘥𝘰 𝘌𝘯𝘷𝘪𝘢𝘳 𝘌𝘭 𝘔𝘦𝘯𝘴𝘢𝘫𝘦!*', m);
-  }
-};
-handler.command = /^(colaboradores|Colaboradores)$/i;
-handler.register = true
-handler.exp = 50;
-handler.fail = null;
-export default handler;
-function clockString(ms) {
-  const h = isNaN(ms) ? '--' : Math.floor(ms / 3600000);
-  const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
-  const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
-  return [h, m, s].map((v) => v.toString().padStart(2, 0)).join(':');
+👑 *Propietario:*
+
+• Diego-YL-177
+☘️ *Rol:* Owner
+✨️ *Número:* Wa.me/${creador}
+🏆 *GitHub ⪼* https://github.com/Diego-YL-177
+
+💫 *Colaboradores:*
+
+• GataNina-Li
+☘️ *Rol:* Developer
+✨️ *Número:* Wa.me/593968263524
+🏆 *GitHub:* https://github.com/GataNina-Li
+
+• elrebelde21
+☘️ *Rol:* Developer
+✨️ *Número:* Wa.me/573147616444
+🏆 *GitHub:* https://github.com/elrebelde21
+
+• KatashiFukushima
+☘️ *Rol:* Developer
+✨️ *Número:* Wa.me/51948705559
+🏆 *GitHub:* https://github.com/KatashiFukushima
+
+• AzamiJs
+☘️ *Rol:* Developer
+✨️ *Número:* Wa.me/5214434703586
+🏆 *GitHub:* https://github.com/AzamiJs
+
+• Alba070503
+☘️ *Rol:* Developer
+✨️ *Número:* Wa.me/59169082575
+🏆 *GitHub:* https://github.com/Alba070503
+
+• Danixl.Js
+☘️ *Rol:* Developer
+✨️ *Número:* Wa.me/595983799436
+🏆 *GitHub:* https://github.com/Danixl.Js
+
+> → Si quieres formar parte del equipo ponte en contacto con mi Creador.`
+
+conn.reply(m.chat, texto, m, fake, )
+
+m.react('👑') 
+
 }
+
+handler.help = ['colaboradores', 'team']
+handler.command = ['colaboradores', 'team']
+handler.registrado = true
+handler.tags = ['info']
+
+export default handler
