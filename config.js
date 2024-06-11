@@ -43,7 +43,7 @@ global.wm = '᭥𐨏𝒀𝒐𝒔𝒉𝒊𝒌𝒐𝑩𝒐𝒕-𝑴𝑫᭢ꪲ'
 global.titulowm = '𝙔𝙤𝙨𝙝𝙞𝙠𝙤𝘽𝙤𝙩-𝙈𝘿 🍓'
 global.titulowm2 = '𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜'
 global.igfg = 'Diego Oficial'
-global.botname 'Ⓨ︎ Yoshiko Bot - MD'
+global.sk 'Ⓨ︎ Yoshiko Bot - MD'
 global.team = 'Bʏ: Dɪᴇɢᴏ.Oғᴄ'
 global.vs = '1.0.7'
 
