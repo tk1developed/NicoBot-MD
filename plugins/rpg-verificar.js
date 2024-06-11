@@ -20,7 +20,7 @@ if (age > 100) throw '*『😏』Viejo/a Sabroso/a*'
 if (age < 5) throw '*『🍼』Ven aquí, te adoptare!!*'
 user.name = name.trim()
 user.age = age
-user.regtime = + new Date
+user.regTime = + new Date
 user.registrado = true
 global.db.data.users[m.sender].money += 12
 global.db.data.users[m.sender].diamond += 10
