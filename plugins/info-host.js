@@ -22,33 +22,26 @@ https://live.panel-infinitywa.store
 https://dashboard.infinitywa.xyz
 
 *⚙️ Bot de Support: exclusivo para host*
-https://wa.me/message/FETBF7YBO37CG1
+https://wa.me/543513610400
 
 🧡 *Canal de WhatsApp:*
-https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A
+https://chat.whatsapp.com/IJbHNHbpoma1Dp7LZwG4U0
 
 💚 *Grupo:*
-https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV
+https://chat.whatsapp.com/IJbHNHbpoma1Dp7LZwG4U0
 
 🛍️ *Método de pago:*
-*• PayPal :* paypal.me/OfcGB
-*• Mercado pago, alías:* OficialGB
-*• Naranja x, alías:* OficialGL
-*• Yape (Perú) :* +51948705559
-*• Uala:* thelolibotm.uala
-*• DolarApp:* $oficialgb
-*• Pago con tarjeta:* wa.me/390684003755
-
-*• Link de pago:*
-• _link.mercadopago.com.ar/h0sting_
-• _https://payment-link.astropay.com/RbMJ_
-*• Patreon:*_patreon.com/Infinity_wa_hosting_
-*• Kofi:* _https://ko-fi.com/infinitywa_
+*• PayPal :* +543513610400
+*• Mercado pago, alías:* nicoticoo.mp
+*• Naranja x, alías:* nicoticoo.nx
+*• Yape (Perú) :* +543513610400
+*• DolarApp:* wa.me/543513610400
+*• Pago con tarjeta:* wa.me/543513610400
 
 *\`💙 Contactanos para más información o alquidir los servicios:\`*
-• https://www.facebook.com/elrebelde21
-• wa.me/527294888993
-• wa.me/5492964650915` 
+• https://www.instagram.com/nike.ontivero
+• wa.me/543513610400
+• wa.me/543513610400` 
 await conn.sendMessage(m.chat, { text: txt,
 contextInfo:{
 forwardingScore: 9999999,
@@ -60,7 +53,7 @@ title: `🤖 𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐘𝐖𝐀-𝐇𝐎𝐒𝐓 🤖`,
 body: `✅ Hosting de Calidad`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/EQTd.jpg', 
-sourceUrl: 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'}}},
+sourceUrl: 'https://chat.whatsapp.com/IJbHNHbpoma1Dp7LZwG4U0'}}},
 { quoted: fkontak2})
 }
 handler.tags =['info'] 
