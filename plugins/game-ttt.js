@@ -2,7 +2,7 @@ import TicTacToe from '../lib/tictactoe.js';
 const handler = async (m, {conn, usedPrefix, command, text}) => {
   conn.game = conn.game ? conn.game : {};
   if (Object.values(conn.game).find((room) => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))) throw '*🌱 𝐴𝑢𝑛 𝐸𝑠𝑡𝑎𝑠 𝐽𝑢𝑔𝑎𝑛𝑑𝑜 𝑇𝑜𝑑𝑎𝑏𝑖𝑎.*';
-  if (!text) throw `*🍁 𝑆𝑒 𝑅𝑒𝑞𝑢𝑖𝑒𝑟𝑒 𝑈𝑛 𝑁𝑜𝑚𝑏𝑟𝑒 𝐴 𝐿𝑎 𝑆𝑎𝑙𝑎 𝐷𝑒𝑙 𝐽𝑢𝑒𝑔𝑜.*\n\n*—◉ 𝑬𝒋𝒆𝒎𝒑𝒍𝒐*\n*◉ ${usedPrefix + command} sala de diego*`;
+  if (!text) throw `*🍁 𝑆𝑒 𝑅𝑒𝑞𝑢𝑖𝑒𝑟𝑒 𝑈𝑛 𝑁𝑜𝑚𝑏𝑟𝑒 𝐴 𝐿𝑎 𝑆𝑎𝑙𝑎 𝐷𝑒𝑙 𝐽𝑢𝑒𝑔𝑜.*\n\n*—◉ 𝑬𝒋𝒆𝒎𝒑𝒍𝒐*\n*◉ ${usedPrefix + command} sala de nico*`;
   let room = Object.values(conn.game).find((room) => room.state === 'WAITING' && (text ? room.name === text : true));
   if (room) {
     await m.reply('*🕹️ 𝐼𝑛𝑖𝑐𝑖𝑎 𝐸𝑙 𝐽𝑢𝑒𝑔𝑜, 𝑈𝑛 𝐽𝑢𝑔𝑎𝑑𝑜𝑟 𝑆𝑒 𝑈𝑛𝑖𝑜.*');
