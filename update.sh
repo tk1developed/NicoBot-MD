@@ -1,8 +1,8 @@
-# Código desarrollado por @gata_dios 
+# Código desarrollado por @tk1developed 
   # * Al bifurcar este repositorio, dejen los créditos a todos los creadores de cada código por favor. ♥
 #!/data/data/com.termux/files/usr/bin/bash 
-BOT_DIR="YoshikoBot-MD"  
-BOT_REPO="https://github.com/Diego-YL-177/$BOT_DIR"
+BOT_DIR="NicoBot-MD"  
+BOT_REPO="https://github.com/NicoBot/$BOT_DIR"
 DB_FILE="database.json"
 
 GREEN='\033[32m'
