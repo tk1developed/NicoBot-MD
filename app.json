@@ -1,10 +1,10 @@
 {
-"name": "YoshikoBot-MD",
-"website": "https://github.com/Diego-YL-177",
+"name": "NicoBot-MD",
+"website": "https://github.com/tk1developed",
 "description": "Super Bot WhatsApp",
-"repository": "https://github.com/Diego-YL-177/YoshikoBot-MD",
+"repository": "https://github.com/tk1developed/NicoBot-MD",
 "logo": "https://telegra.ph/file/7e8fed70cb176dfc1f04e.jpg",
-"success_url": "https://github.com/Diego-YL-177/YoshikoBot-MD",
+"success_url": "https://github.com/tk1developed NicoBot-MD",
 "keywords": [
 "nodejs", "heroku", "bot", "spanish", "english", "indonesian", "arab", "portuguese", "italian", "french", "whatsapp",
 "termux", "superbot", "multi-device", "md", "official", "javascript", "yoshikobot"],
