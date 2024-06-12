@@ -3,13 +3,13 @@ const handler = async (m, {usedPrefix}) => {
   if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender;
   else who = m.sender;
   const name = conn.getName(who);
-  m.reply(`╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
+  m.reply(`╭━〔  𝐍𝐈𝐂𝐎 𝐁𝐎𝐓 🍄  〕⬣
 ┋📩 *Usuario:* ${name}
 ┋💎 *Diamantes*: ${global.db.data.users[who].diamond} 💎
 ┋🪙 *Experiencia:* ${global.db.data.users[who].exp}
 ╰━━━━━━━━━━━━⬣
 
-╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
+╭━〔  𝐍𝐈𝐂𝐎 𝐁𝐎𝐓 🍄  〕⬣
 ┃ _Puedes Comprar Mas 💎_
 ┃ _Usando Los Siguentes Comandos_
 ┃ *${usedPrefix}buy <cantidad>*
