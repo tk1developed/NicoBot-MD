@@ -4,15 +4,15 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 //m.react('⚙️')
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let pp = await conn.profilePictureUrl(who).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
-let biografia = await conn.fetchStatus('573012482597' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
+let biografia = await conn.fetchStatus('543513610400' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
 let biografiaBot = await conn.fetchStatus(`${conn.user.jid.split('@')[0]}` +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
 let bio = biografia.status?.toString() || 'Sin Biografía'
 let biobot = biografiaBot.status?.toString() || 'Sin Biografía'
 let name = await conn.getName(who)
 
   await sendContactArray(conn, m.chat, [
-     [`${nomorown}`, `👑 Propietario`, `🍂 𝗢𝗳𝗰𝗗𝗶𝗲𝗴𝗼`, team, 'argumedod44@gmail.com', `🇨🇴 Colombia`, `https://www.youtube.com/@Yoshiko_team`, bio],
-[`${conn.user.jid.split('@')[0]}`, `Es Una Bot 🚀`, `${packname}`, `📵 No Hacer Spam`, 'theyoshikobot@gmail.com', `🇨🇴 Colombia`, `https://github.com/Diego-YL-177/YoshikoBot-MD`, biobot]
+     [`${nomorown}`, `👑 Propietario`, `🍂 𝗢𝗳𝗰𝗡𝗶𝗰𝗼`, team, 'tk1contactoo@gmail.com', `🇦🇷 Argentina`, `https://www.youtube.com/@nicoticooTK1`, bio],
+[`${conn.user.jid.split('@')[0]}`, `Es Una Bot 🚀`, `${packname}`, `📵 No Hacer Spam`, 'tk1contactoo@gmail.com', `🇦🇷 Argentina`, `https://github.com/tk1developed/NicoBot-MD`, biobot]
 ], m)
   //m.reply(`Hola @${m.sender.split(`@`)[0]} este es el contacto de mi creador, no hagas spam!!`)
   } 
