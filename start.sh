@@ -1,8 +1,8 @@
-# Código creado por @gata_dios      
+# Código creado por @tk1developed      
 
 #!/data/data/com.termux/files/usr/bin/bash 
 # Interpretación determinada para la ejecución     
-COMANDOS = "pkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/Diego-YL-177/Kana-Arima-MD\ncd Kana-Arima-MD\nyarn install\nnpm install\nnpm start"
+COMANDOS = "pkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/tk1developed/Kana-Arima-MD\ncd Kana-Arima-MD\nyarn install\nnpm install\nnpm start"
 
 echo -e "\e[35m
 
@@ -134,7 +134,7 @@ echo -e "\e[35m
 ╚═╝░░╚═╝░░╚═╝░░  ╚═╝╚═╝░░╚══╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚══════╝\n\e[0m"
 
 echo -e "\033[1;35m"
-git clone https://github.com/Diego-YL-177/Kana-Arima-MD.git
+git clone https://github.com/tk1developed/Kana-Arima-MD.git
 echo -e "\033[01;32m\033[01mLa clonación se ha descargado e instalado correctamente.\nThe clone has been downloaded and installed successfully.\n\033[0m"
 
 echo -e "\033[01;32m\033[01mCambiando al directorio del repositorio!!\nChanging to the repository directory!!\n\033[0m" 
@@ -168,12 +168,12 @@ fi
 
 clear
 echo -e "\e[36m
-┏╍┅┅┅╍⪻ 𝐊𝐚𝐧𝐚 𝐀𝐫𝐢𝐦𝐚 - 𝐌𝐃 ⪼┅┅┅┅┅┓
-┋❥ 𝐏𝐫𝐨𝐩𝐢𝐞𝐭𝐚𝐫𝐢𝐨: diegojadibot
-┋❥ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: www.youtube.com/@SakuraBotLite
-┋❥ 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: www.facebook.com/diegosaroficial
-┋❥ 𝐆𝐢𝐭𝐇𝐮𝐛: github.com/Diego-YL-177
-┋❥ 𝐍𝐮𝐦𝐞𝐫𝐨: +57 301 2482694
+┏╍┅┅┅╍⪻ 𝐍𝐢𝐜𝐨 𝐁𝐨𝐭 - 𝐌𝐃 ⪼┅┅┅┅┅┓
+┋❥ 𝐏𝐫𝐨𝐩𝐢𝐞𝐭𝐚𝐫𝐢𝐨: @tk1oficial
+┋❥ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: www.youtube.com/@nicoticooTK1
+┋❥ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: www.instagram.com/nike.ontivero
+┋❥ 𝐆𝐢𝐭𝐇𝐮𝐛: github.com/tk1developed
+┋❥ 𝐍𝐮𝐦𝐞𝐫𝐨: +54 351 361 0400
 ┋┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅
 ┋❥ 👋 𝐇𝐨𝐥𝐚 𝐮𝐬𝐮𝐚𝐫𝐢𝐨 𝐠𝐫𝐚𝐜𝐢𝐚𝐬 𝐩𝐨𝐫 𝐩𝐫𝐞𝐟𝐞𝐫𝐢𝐫𝐧𝐨𝐬.
 ┋❥ 🟢 𝐀𝐜𝐭𝐢𝐯𝐚 𝐭𝐮 𝐛𝐨𝐭 24/7 𝐜𝐨𝐧 𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐦𝐩3 🚀.
@@ -204,5 +204,5 @@ echo -e "\e[36m
 𝐆 𝐑 𝐀 𝐂 𝐈 𝐀 𝐒, 𝐏 𝐎 𝐑, 𝐏 𝐑 𝐄 𝐅 𝐄 𝐑 𝐈 𝐑 𝐍 𝐎 𝐒\n\e[0m"
 
 
-echo -e "\033[01;32m\033[01m🚀 Iniciando El Bot¡!\nKana-Arima-MD\n\033[0m"
+echo -e "\033[01;32m\033[01m🚀 Iniciando El Bot¡!\n𝐍𝐢𝐜𝐨 𝐁𝐨𝐭 - 𝐌𝐃\n\033[0m"
 npm start
