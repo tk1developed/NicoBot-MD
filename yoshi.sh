@@ -1,9 +1,9 @@
-# Código creado por @gata_dios
-# Modificado por @Diego
+# Código creado por @tk1developed
+# Copyright By @tk1developed
 
 #!/data/data/com.termux/files/usr/bin/bash 
 # Interpretación determinada para la ejecución     
-COMANDOS = "pkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/Diego-YL-177/YoshikoBot-MD\ncd YoshikoBot-MD\nyarn install\nnpm install\nnpm start"
+COMANDOS = "pkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/tk1developed/NicoBot-MD\ncd YoshikoBot-MD\nyarn install\nnpm install\nnpm start"
 
 echo -e "\e[38;5;123m
 ─█▀▀█ ───░█ ░█─░█ ░█▀▀▀█ ▀▀█▀▀ ░█▀▀▀ 　 ░█─── ─█▀▀█ 　 ░█▀▀█ ─█▀▀█ ░█▄─░█ ▀▀█▀▀ ─█▀▀█ ░█─── ░█─── ─█▀▀█ 
@@ -117,11 +117,11 @@ echo -e "\e[38;5;81m
 ╚═╝░░╚═╝░░╚═╝░░  ╚═╝╚═╝░░╚══╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚══════╝\n\e[0m"
 
 echo -e "\033[38;5;188m"
-git clone https://github.com/Diego-YL-177/YoshikoBot-MD.git
+git clone https://github.com/tk1developed/NicoBot-MD.git
 echo -e "\033[38;5;51m\033[01mLa clonación se ha descargado e instalado correctamente.\n\033[0m"
 
 echo -e "\033[1;38;5;171mCambiando al directorio del repositorio!!\n\033[0m"
-cd YoshikoBot-MD
+cd NicoBot-MD
 
 echo -e "\e[38;5;111m
 █░█ █▀█ █▀▄ ▄▀█ ▀█▀ █▀▀   █▄█ ▄▀█ █▀█ █▄░█
@@ -173,5 +173,5 @@ _________░▒▓██
 _______░▒▓██
 _____░▒▓██\n\e[0m"
 
-echo -e "\033[01;32m\033[01mIniciando YoshikoBot!!\n\033[0m"
+echo -e "\033[01;32m\033[01mIniciando NicoBot!!\n\033[0m"
 npm start
