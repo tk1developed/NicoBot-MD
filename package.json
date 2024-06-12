@@ -1,5 +1,5 @@
 {
-"name": "YoshikoBot-MD",
+"name": "NicoBot-MD",
 "version": "2.0.0", 
 "description": "La Mejor Bot De WhatsApp",
 "main": "index.js",
@@ -17,16 +17,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
 
-"homepage": "https://github.com/Diego-YL-177/YoshikoBot-MD",
+"homepage": "https://github.com/tk1developed/NicoBot-MD",
 "author": {
-"name": "Dɪᴇɢᴏ.Oғᴄ" },
+"name": "Nɪᴄᴏ.Oғᴄ" },
 
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Diego-YL-177/YoshikoBot-MD.git" },
+"url": "git+https://github.com/tk1developed/NicoBot-MD.git" },
 
 "bugs": {
-"url": "https://github.com/Diego-YL-177/YoshikoBot-MD-/issues" },
+"url": "https://github.com/tk1developed/NicoBot-MD-/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
   "@adiwajshing/keyed-db": "^0.2.4",
