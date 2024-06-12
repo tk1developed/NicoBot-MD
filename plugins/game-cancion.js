@@ -9,7 +9,7 @@ const handler = async (m, {conn, usedPrefix}) => {
     conn.reply(m.chat, 'Todavía hay canciones sin respuesta en este chat.', conn.tebaklagu[id][0]);
     throw false;
   } // 5LTV57azwaid7dXfz5fzJu
-  const res = await fetchJson(`https://raw.githubusercontent.com/Diego-YL-177/YoshikoBot-MD/master/src/JSON/tebaklagu.json`);
+  const res = await fetchJson(`https://raw.githubusercontent.com/tk1developed/Nico-MD/master/src/JSON/tebaklagu.json`);
   const json = res[Math.floor(Math.random() * res.length)];
   const caption = `
 ADIVINA EL TITULO DE LA CANCION
