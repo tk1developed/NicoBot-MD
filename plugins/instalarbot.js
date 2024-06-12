@@ -1,6 +1,6 @@
 var handler  = async (m, { conn }) => {
 
-let texto = `📮 *Instalación de YoshikoBot*
+let texto = `📮 *Instalación de NicoBot-MF*
 
 ⬡ Dudas: ${creador}
 ⬡ Tutoríal: https://youtu.be/9-v4XwMTJYE?si=veqJSgJ4bKi5kSjB
@@ -13,7 +13,7 @@ apt-get update -y && apt-get upgrade -y
 
 pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 
-git clone https://github.com/Diego-YL-177/YoshikoBot-MD && cd YoshikoBot-MD && yarn install && npm install 
+git clone https://github.com/tk1developed/NicoBot-MD && cd NicoBot-MD && yarn install && npm install 
 
 ls
 
@@ -34,7 +34,7 @@ m.reply('apt-get update -y && apt-get upgrade -y')
 await delay(1000 * 1)
 m.reply('pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn')
 await delay(1000 * 1)
-m.reply('git clone https://github.com/Diego-YL-177/YoshikoBot-MD && cd YoshikoBot-MD && yarn install && npm install ')
+m.reply('git clone https://github.com/tk1developed/NicoBot-MD && cd YoshikoBot-MD && yarn install && npm install ')
 await delay(1000 * 1)
 m.reply('ls')
 await delay(1000 * 1)
