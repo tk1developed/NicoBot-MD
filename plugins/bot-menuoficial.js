@@ -59,7 +59,7 @@ const defaultMenu = {
 │『 *INFO BOT ✨️* 』
 └┬❖
 ┌┤
-┊│ 👑 *Creador:* Ofc Diego
+┊│ 👑 *Creador:* Ofc Nico
 ┊│ ⏰️ *Actividad:* %muptime
 ┊│ 📇 *Registrados:* %totalreg
 ┊│ 🌻 *Versión* 1.0.7
