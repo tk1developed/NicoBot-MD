@@ -18,7 +18,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
 ${repo.description ? `⏳️ *Descripción:*\n${repo.description}` : ''}
 `.trim()}).join('\n\n◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦\n\n');
   conn.sendMessage(m.chat, {text: str.trim()}, {quoted: m})
-//conn.sendMessage(m.chat, {text: str.trim(), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [m.sender], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen, "mediaUrl": `https://github.com/Diego-YL-177/YoshikoBot-MD`, "sourceUrl": `https://github.com/Diego-YL-177/YoshikoBot-MD`}}}, {quoted: m});  
+//conn.sendMessage(m.chat, {text: str.trim(), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [m.sender], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen, "mediaUrl": `https://github.com/tk1developed/NicoBot-MD`, "sourceUrl": `https://github.com/tk1developed/NicoBot-MD`}}}, {quoted: m});  
 };
 handler.help = ['githubs'];
 handler.tags = ['buscadores'];
