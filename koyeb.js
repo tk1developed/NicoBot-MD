@@ -5,11 +5,11 @@ sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-rel
 sudo dnf install -y git ffmpeg ImageMagick nodejs yarnpkg libwebp &&\
 sudo dnf clean all -y
 
-RUN git clone https://github.com/Diego-YL-177/YoshikoBot-MD
+RUN git clone https://github.com/tk1developed/NicoBot-MD
 
-WORKDIR /root/YoshikoBot-MD
+WORKDIR /root/NicoBot-MD
 
-COPY ./root/YoshikoBot-MD
+COPY ./root/NicoBot-MD
 
 RUN yarn install
 
