@@ -41,7 +41,7 @@ let texto = `🏆 *EQUIPO DE AYUDANTES*
 • Danixl.Js
 ☘️ *Rol:* Developer
 ✨️ *Número:* Wa.me/595983799436
-🏆 *GitHub:* https://github.com/Danixl.Js`
+🏆 *GitHub:* https://github.com/DanixlJs`
 
 conn.reply(m.chat, texto, m, fake, )
 
