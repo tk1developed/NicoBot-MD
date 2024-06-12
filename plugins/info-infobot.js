@@ -25,7 +25,7 @@ let speed = neww - old
 
 let info = `╭━〔  𝐈𝐍𝐅𝐎 𝐁𝐎𝐓 🍄  〕⬣
 ┃ *Creador* 
-┃ Diego
+┃ Nico
 ┃
 ┃ *Versión actual*
 ┃ ${vs}
@@ -55,7 +55,7 @@ let info = `╭━〔  𝐈𝐍𝐅𝐎 𝐁𝐎𝐓 🍄  〕⬣
 ┃ ${restrict ? 'Habilitado' : 'Deshabilitado'}
 ╰━━━━━━━━━━━━⬣`
 
- conn.sendMessage(m.chat, { text: info, contextInfo: { externalAdReply: { title: packname, body: '🌻 Yoshiko Info', thumbnail: imagen6, sourceUrl: '', mediaType: 1, renderLargerThumbnail: true }}})
+ conn.sendMessage(m.chat, { text: info, contextInfo: { externalAdReply: { title: packname, body: '🌻 Nico Info', thumbnail: imagen6, sourceUrl: '', mediaType: 1, renderLargerThumbnail: true }}})
 
 }
 handler.help = ['infobot']
