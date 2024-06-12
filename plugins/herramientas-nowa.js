@@ -5,7 +5,7 @@
 const handler = async (m, {conn, text, usedPrefix, command}) => {
   const regex = /x/g;
   if (!text) throw '⚠️ Falto el número.';
-  if (!text.match(regex)) throw `*Ejemplo de uso: ${usedPrefix + command} 521999340434x*`;
+  if (!text.match(regex)) throw `*Ejemplo de uso: ${usedPrefix + command} 543513610400*`;
   const random = text.match(regex).length; const total = Math.pow(10, random); const array = [];
   for (let i = 0; i < total; i++) {
     const list = [...i.toString().padStart(random, '0')];
