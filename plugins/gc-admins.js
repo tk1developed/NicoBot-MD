@@ -11,7 +11,7 @@ const handler = async (m, {conn, participants, groupMetadata, args}) => {
 ┃ *Admins:*
 ${listAdmin}
 ┃
-┃ 𝗬𝗼𝘀𝗵𝗶𝗸𝗼 𝗕𝗼𝘁 - 𝗠𝗗 🍄
+┃ 𝗡𝗶𝗰𝗼 𝗕𝗼𝘁 - 𝗠𝗗 🍄
 ╰━━━━━━━━━━━━⬣`.trim();
   conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, {mentions: [...groupAdmins.map((v) => v.id), owner]});
 };
