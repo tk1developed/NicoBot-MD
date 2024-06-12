@@ -32,7 +32,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 //let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 
 //creador
-global.creador = 'Wa.me/573012482597'
+global.creador = 'Wa.me/543513610400'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 
 //Reacciones De Comandos.!
@@ -44,14 +44,14 @@ global.error = '❌'
 
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-var canal = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' 
-var canal2 = 'https://whatsapp.com/channel/0029VaXaCa66xCSHugaf773M' 
-var canal3 = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'
-var grupofb = 'https://www.facebook.com/groups/872989990425789/?ref=share&mibextid=NSMWBT' 
-var git = 'https://github.com/Diego-YL-177' 
-var youtube = 'https://www.youtube.com/@Yoshiko_team' 
-var github = 'https://github.com/Diego-YL-177/YoshikoBot-MD' 
-var facebook = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' 
+var canal = 'https://chat.whatsapp.com/IJbHNHbpoma1Dp7LZwG4U0' 
+var canal2 = 'https://chat.whatsapp.com/IJbHNHbpoma1Dp7LZwG4U0' 
+var canal3 = 'https://chat.whatsapp.com/IJbHNHbpoma1Dp7LZwG4U0'
+var grupofb = 'https://www.instagram.com/groups/nike.ontivero' 
+var git = 'https://github.com/tk1developed' 
+var youtube = 'https://www.youtube.com/@nicoticooTK1' 
+var github = 'https://github.com/tk1developed/NicoBot-MD' 
+var facebook = 'https://www.instagram.com/nike.ontivero' 
 
 global.redesYoshi = [canal, canal2, canal3, grupofb, git, youtube, github, facebook].getRandom()
 
@@ -89,7 +89,7 @@ global.readMore = more.repeat(850)
 
 //global.fake = { contextInfo:{ forwardingScore: 0, externalAdReply: {title: '🌟 Bienvenido ' + nombre, body: team, sourceUrl: yt, thumbnailUrl: yoshiImg }}} //Fake simple
 
-global.fake = { contextInfo: { mentionedJid: conn.parseMention(wm), forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363263466636910@newsletter', serverMessageId: '', newsletterName: '✰્᭄͜͡ 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 - 𝐌𝐃 💖' }, externalAdReply: { title: packname, body: `ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🍫̸̷᮫ᨘ۬ׄ߭ᤢꫂꥈ Hola! ` + nombre, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: yoshiImg, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m } //fake con reenviado de canal
+global.fake = { contextInfo: { mentionedJid: conn.parseMention(wm), forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363263466636910@newsletter', serverMessageId: '', newsletterName: '✰્᭄͜͡ 𝐍𝐢𝐜𝐨 𝐁𝐨𝐭 - 𝐌𝐃 💖' }, externalAdReply: { title: packname, body: `ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🍫̸̷᮫ᨘ۬ׄ߭ᤢꫂꥈ Hola! ` + nombre, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: yoshiImg, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m } //fake con reenviado de canal
 }
 
 export default handler
