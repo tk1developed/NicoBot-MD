@@ -100,9 +100,9 @@ Para que no pierda su progreso en Nico, estos comandos realizarán un respaldo d
 - **Página:** [`Click aqui`](https://dashboard.infinitywa.xyz)
 - **Dashboard:** [`Aquí`](https://dashboard.infinitywa.xyz)
 - **Panel:** [`Aquí`](https://live.panel-infinitywa.store)
-- **Grupo de WhatsApp:** [`Aquí`](https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV)
-- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A)
-- **Support:** [`Bot exclusivo`](https://wa.me/message/FETBF7YBO37CG1)
+- **Grupo de WhatsApp:** [`Aquí`](https://chat.whatsapp.com/IJbHNHbpoma1Dp7LZwG4U0)
+- **Canal de WhatsApp:** [`Aquí`]([https://chat.whatsapp.com/IJbHNHbpoma1Dp7LZwG4U0))
+- **Support:** [`Bot exclusivo`](https://wa.me/543513610400)
 
 - [x] **Configuración** <details><summary>**Ajustes del Servidor - Nico Bot**</summary><img src="https://telegra.ph/file/663a591855de5bd01b7ae.jpg"></details>
 
