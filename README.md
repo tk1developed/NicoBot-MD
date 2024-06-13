@@ -10,7 +10,7 @@
 
 > Si Deseas Probar La Bot Antes De Instalarlo, Click Abajo.🟢
 
-<a href="https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS"><img alt="☄️ Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-Nico-FF00FF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+<a href="https://chat.whatsapp.com/LchNdajPqYaBsjS8AuezPu"><img alt="☄️ Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-Nico-FF00FF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
 - ### ⚙️ Configuracion
@@ -100,8 +100,8 @@ Para que no pierda su progreso en Nico, estos comandos realizarán un respaldo d
 - **Página:** [`Click aqui`](https://dashboard.infinitywa.xyz)
 - **Dashboard:** [`Aquí`](https://dashboard.infinitywa.xyz)
 - **Panel:** [`Aquí`](https://live.panel-infinitywa.store)
-- **Grupo de WhatsApp:** [`Aquí`](https://chat.whatsapp.com/IJbHNHbpoma1Dp7LZwG4U0)
-- **Canal de WhatsApp:** [`Aquí`]([https://chat.whatsapp.com/IJbHNHbpoma1Dp7LZwG4U0))
+- **Grupo de WhatsApp:** [`Aquí`](https://chat.whatsapp.com/LchNdajPqYaBsjS8AuezPu)
+- **Canal de WhatsApp:** [`Aquí`]([https://chat.whatsapp.com/LchNdajPqYaBsjS8AuezPu))
 - **Support:** [`Bot exclusivo`](https://wa.me/543513610400)
 
 - [x] **Configuración** <details><summary>**Ajustes del Servidor - Nico Bot**</summary><img src="https://telegra.ph/file/663a591855de5bd01b7ae.jpg"></details>
