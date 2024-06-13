@@ -1,6 +1,6 @@
-> 🚀🌸 Versión Actual: 1.0.7
+> 🚀🌸 Versión Actual: 1.0.1
 
-## Nico Bot - MD 🌸☄️
+## Nico Bot - MD 🍓💖
 
 <p align="center">
 <img src= "https://telegra.ph/file/7e8fed70cb176dfc1f04e.jpg" alt="Nico" width="900"/>
