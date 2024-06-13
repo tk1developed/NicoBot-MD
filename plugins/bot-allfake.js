@@ -44,9 +44,9 @@ global.error = '❌'
 
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-var canal = 'https://chat.whatsapp.com/IJbHNHbpoma1Dp7LZwG4U0' 
-var canal2 = 'https://chat.whatsapp.com/IJbHNHbpoma1Dp7LZwG4U0' 
-var canal3 = 'https://chat.whatsapp.com/IJbHNHbpoma1Dp7LZwG4U0'
+var canal = 'https://chat.whatsapp.com/LchNdajPqYaBsjS8AuezPu' 
+var canal2 = 'https://chat.whatsapp.com/LchNdajPqYaBsjS8AuezPu' 
+var canal3 = 'https://chat.whatsapp.com/LchNdajPqYaBsjS8AuezPu'
 var grupofb = 'https://www.instagram.com/groups/nike.ontivero' 
 var git = 'https://github.com/tk1developed' 
 var youtube = 'https://www.youtube.com/@nicoticooTK1' 
