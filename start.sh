@@ -204,5 +204,5 @@ echo -e "\e[36m
 𝐆 𝐑 𝐀 𝐂 𝐈 𝐀 𝐒, 𝐏 𝐎 𝐑, 𝐏 𝐑 𝐄 𝐅 𝐄 𝐑 𝐈 𝐑 𝐍 𝐎 𝐒\n\e[0m"
 
 
-echo -e "\033[01;32m\033[01m🚀 Iniciando El Bot¡!\n𝐍𝐢𝐜𝐨 𝐁𝐨𝐭 - 𝐌𝐃\n\033[0m"
+echo -e "\033[01;32m\033[01m🚀 Iniciando El Bot¡!\NNico Bot - MD\n\033[0m"
 npm start
