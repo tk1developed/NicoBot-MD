@@ -2,21 +2,21 @@ let media = './Menu.png'
 let handler = async (m, { conn, command }) => {
 let str = `*◜🌸 GRUPOS OFICIALES 🌸◞*
 
-👑 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 - 𝐌𝐃 1
+👑 Nico Bot - MD 1
 ${gp1}
 
-👑 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 - 𝐌𝐃 2
+👑 Nico Bot - MD 2
 ${gp2}
 
  *◜🌸 COLABORACIÓN 🌸◞*
 
-🌺 𝐆𝐚𝐭𝐚𝐁𝐨𝐭 & 𝐘𝐨𝐬𝐡𝐢𝐤𝐨𝐁𝐨𝐭
+🌺 GataBot & NicoBot
 ${gp3}
 
-🌺 𝐂𝐮𝐫𝐢𝐨𝐬𝐢𝐭𝐲𝐁𝐨𝐭 & 𝐘𝐨𝐬𝐡𝐢𝐤𝐨𝐁𝐨𝐭
+🌺 NicoBot & NicoBot
 ${gp4}
 
-🌺 𝐍𝐨𝐯𝐚𝐁𝐨𝐭 & 𝐘𝐨𝐬𝐡𝐢𝐤𝐨𝐁𝐨𝐭
+🌺 NovaBot & NicoBot
 ${gp5}
 
 🌺 𝐌𝐮𝐥𝐭𝐢 𝐁𝐨𝐭𝐬
@@ -24,10 +24,10 @@ ${gp6}
 
  *◜🌸 CANALES OFICIALES 🌸◞*
 
-🌻 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 - 𝐌𝐃
+🌻 Nico Bot - MD
 ${channel}
 
-🌻 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 ¡𝐔𝐩𝐝𝐚𝐭𝐞!
+🌻 Nico Bot ¡𝐔𝐩𝐝𝐚𝐭𝐞!
 ${channel2}
 
 🌻 𝐈𝐧𝐟𝐢𝐧𝐢𝐭𝐲-𝐖𝐚
