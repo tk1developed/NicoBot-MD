@@ -10,7 +10,7 @@ let reglas = `🌳 *Respeta las reglas de NicoBot*\n
 
 🏷 𝗡𝗼𝘁𝗮: *Si no cumples con las reglas de la bot, seras bloqueado.*
 
-☁️ 𝗔𝘃𝗶𝘀𝗼: *Puedes apoyarnos dejando una estrellita 🌟 al repositorio oficial de Yoshiko.*
+☁️ 𝗔𝘃𝗶𝘀𝗼: *Puedes apoyarnos dejando una estrellita 🌟 al repositorio oficial de Nico TK1.*
 
 https://github.com/tk1developed/Nicosbot-MD`.trim()
 await conn.reply(m.chat, reglas, m, fake, )
