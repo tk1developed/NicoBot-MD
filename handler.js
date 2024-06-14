@@ -407,7 +407,7 @@ global.db.data.users[m.sender].spam = new Date * 1
 let hl = _prefix 
 let adminMode = global.db.data.chats[m.chat].modoadmin
 let exotico = `${plugins.botAdmin || plugins.admin || plugins.group || plugins || noPrefix || hl ||  m.text.slice(0, 1) == hl || plugins.command}`
-if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && yoshiko) return   
+if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && nico) return   
 if (plugin.rowner && plugin.owner && !(isROwner || isOwner)) { //número bot owner
 fail('owner', m, this)
 continue
@@ -741,7 +741,7 @@ global.dfail = (type, m, conn) => {
     private: '*🍉 ¡Esta Función Solo Se Puede Utilizar Al Chat Privado Del Bot! 🍿*',
     admin: '*🫐 ¡Esta Función Solo Se Puede Utilizar Por Un Admin Del Grupo! 🍁*',
     botAdmin: '*🌻 !Para Poder Utilizar Este Comando Es Necesario Que El Bot Sea Admin! 🫐*',
-    unreg: '*🍓 ¡Para Continuar Con Esta Función Es Necesario Registrarse! 🍨*\n\n🍭 !reg nombre.edad\n\n🍫 *Uso Correcto* : !reg Diego.18',
+    unreg: '*🍓 ¡Para Continuar Con Esta Función Es Necesario Registrarse! 🍨*\n\n🍭 !reg nombre.edad\n\n🍫 *Uso Correcto* : !reg Nico.15',
     restrict: '*🍍 ¡Esta Función Fué Deshabilitado Por Mi Desarrollador! 🍬*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
