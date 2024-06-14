@@ -8,7 +8,7 @@ m.react('⚙️')
 🕒 *Activa:* ${muptime}
 💭 *Tipo:* ${sbot}
 🥷 *Bot Uso:* Publico
-👑 *Owner:* Ofc.Diego`;
+👑 *Owner:* Ofc.Nico`;
       conn.reply(m.chat, str, m, fake, )
 };
 
