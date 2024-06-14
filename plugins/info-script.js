@@ -4,7 +4,7 @@ const handler = async (m, { conn, args }) => {
    const res = await fetch('https://api.github.com/repos/tk1developed/NicoBot-MD');
    const json = await res.json();
    let txt = `           *乂  B O T S C R I P T  乂*\n\n`;
-      txt += `◦  *Nombre:* ${json?.name || 'YoshikoBot-MD'}\n`;
+      txt += `◦  *Nombre:* ${json?.name || 'NicoBot-MD'}\n`;
       txt += `◦  *Visitantes:* ${json?.watchers_count || '-'}\n`;
       txt += `◦  *Tamaño:* ${(json?.size / 1024).toFixed(2) || '-'} MB\n`;
       txt += `◦  *Actualización:* ${moment(json?.updated_at).format('DD/MM/YY - HH:mm:ss') || '-'}\n`;
